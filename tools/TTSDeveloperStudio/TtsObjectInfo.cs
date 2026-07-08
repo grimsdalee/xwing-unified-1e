@@ -25,4 +25,6 @@ public sealed class TtsObjectInfo
             return $"{label} [{Guid}]";
         }
     }
+    
+    public string SearchText { get; init; } = "";
 }

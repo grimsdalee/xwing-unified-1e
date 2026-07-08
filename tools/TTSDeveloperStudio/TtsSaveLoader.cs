@@ -37,6 +37,14 @@ public sealed class TtsSaveLoader
     {
         var customMesh = obj["CustomMesh"] as JsonObject;
 
+        var mesh = customMesh is null ? "" : GetString(customMesh, "MeshURL");
+        var diffuse = customMesh is null ? "" : GetString(customMesh, "DiffuseURL");
+        var collider = customMesh is null ? "" : GetString(customMesh, "ColliderURL");
+
+        var lua = GetString(obj, "LuaScript");
+        var xml = GetString(obj, "XmlUI");
+        var rawJson = obj.ToJsonString();
+
         var info = new TtsObjectInfo
         {
             Guid = GetString(obj, "GUID"),
@@ -44,12 +52,25 @@ public sealed class TtsSaveLoader
             Nickname = GetString(obj, "Nickname"),
             Description = GetString(obj, "Description"),
             Path = path,
-            MeshUrl = customMesh is null ? "" : GetString(customMesh, "MeshURL"),
-            DiffuseUrl = customMesh is null ? "" : GetString(customMesh, "DiffuseURL"),
-            ColliderUrl = customMesh is null ? "" : GetString(customMesh, "ColliderURL"),
-            LuaLength = GetString(obj, "LuaScript").Length,
-            XmlLength = GetString(obj, "XmlUI").Length,
-            Source = obj
+            MeshUrl = mesh,
+            DiffuseUrl = diffuse,
+            ColliderUrl = collider,
+            LuaLength = lua.Length,
+            XmlLength = xml.Length,
+            Source = obj,
+            SearchText = string.Join("\n", new[]
+            {
+                GetString(obj, "GUID"),
+                GetString(obj, "Name"),
+                GetString(obj, "Nickname"),
+                GetString(obj, "Description"),
+                mesh,
+                diffuse,
+                collider,
+                lua,
+                xml,
+                rawJson
+            })
         };
 
         Objects.Add(info);

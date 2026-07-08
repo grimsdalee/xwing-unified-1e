@@ -154,21 +154,16 @@ public sealed class MainForm : Form
         {
             Tag = "global"
         };
-        root.Nodes.Add(global);
+        if (string.IsNullOrWhiteSpace(q) || Contains(_loader.GlobalLua, q) || Contains(_loader.GlobalXml, q))
+        {
+            root.Nodes.Add(global);
+        }
 
         IEnumerable<TtsObjectInfo> objects = _loader.Objects;
 
         if (!string.IsNullOrWhiteSpace(q))
         {
-            objects = objects.Where(o =>
-                Contains(o.Guid, q) ||
-                Contains(o.Name, q) ||
-                Contains(o.Nickname, q) ||
-                Contains(o.Description, q) ||
-                Contains(o.MeshUrl, q) ||
-                Contains(o.DiffuseUrl, q) ||
-                Contains(o.ColliderUrl, q) ||
-                Contains(TtsSaveLoader.GetString(o.Source, "LuaScript"), q));
+            objects = objects.Where(o => Contains(o.SearchText, q));
         }
 
         foreach (var obj in objects.OrderBy(o => o.Nickname).ThenBy(o => o.Name))
