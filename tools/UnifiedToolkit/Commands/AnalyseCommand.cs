@@ -1,4 +1,5 @@
 using System.Text;
+using UnifiedToolkit.Models;
 using UnifiedToolkit.TTS;
 
 namespace UnifiedToolkit.Commands;
@@ -10,39 +11,42 @@ public static class AnalyseCommand
         if (args.Length < 1)
         {
             Console.WriteLine("Usage:");
-            Console.WriteLine("  UnifiedToolkit analyse <extract-folder>");
+            Console.WriteLine("  UnifiedToolkit analyse <tts-json-file>");
             return 1;
         }
 
-        var extractFolder = Path.GetFullPath(args[0]);
-        var objectsFolder = Path.Combine(extractFolder, "objects");
+        var inputPath = Path.GetFullPath(args[0]);
 
-        if (!Directory.Exists(objectsFolder))
+        if (!File.Exists(inputPath))
         {
-            Console.WriteLine($"Could not find objects folder: {objectsFolder}");
-            Console.WriteLine("Run extract first.");
+            Console.WriteLine($"Input file not found: {inputPath}");
             return 1;
         }
 
-        var reportsFolder = Path.Combine(extractFolder, "reports");
+        var game = TtsSaveLoader.Load(inputPath);
+        var objects = Flatten(game.Objects).ToList();
+
+        var reportsFolder = Path.Combine(
+            Path.GetDirectoryName(inputPath)!,
+            Path.GetFileNameWithoutExtension(inputPath) + "_reports");
+
         Directory.CreateDirectory(reportsFolder);
 
-        var objects = TtsExtractReader.ReadObjects(extractFolder);
-
-        WriteObjectsCsv(objects, extractFolder, Path.Combine(reportsFolder, "objects.csv"));
+        WriteObjectsCsv(objects, Path.Combine(reportsFolder, "objects.csv"));
         WriteObjectTypesCsv(objects, Path.Combine(reportsFolder, "object-types.csv"));
 
         Console.WriteLine("UnifiedToolkit Analysis");
         Console.WriteLine("=======================");
         Console.WriteLine();
 
-        Console.WriteLine($"Extract folder: {extractFolder}");
-        Console.WriteLine($"Reports folder: {reportsFolder}");
+        Console.WriteLine($"Input file:      {inputPath}");
+        Console.WriteLine($"Reports folder:  {reportsFolder}");
         Console.WriteLine();
 
         Console.WriteLine("Objects");
         Console.WriteLine("-------");
         Console.WriteLine($"Total objects:       {objects.Count}");
+        Console.WriteLine($"Top-level objects:   {game.Objects.Count}");
         Console.WriteLine($"Objects with Lua:    {objects.Count(x => x.HasLua)}");
         Console.WriteLine($"Objects with XML:    {objects.Count(x => x.HasXml)}");
         Console.WriteLine();
@@ -66,23 +70,34 @@ public static class AnalyseCommand
         return 0;
     }
 
-    private static void WriteObjectsCsv(List<TtsExtractedObject> objects, string extractFolder, string path)
+    private static IEnumerable<TtsObject> Flatten(IEnumerable<TtsObject> objects)
+    {
+        foreach (var obj in objects)
+        {
+            yield return obj;
+
+            foreach (var child in Flatten(obj.Children))
+                yield return child;
+        }
+    }
+
+    private static void WriteObjectsCsv(List<TtsObject> objects, string path)
     {
         var sb = new StringBuilder();
 
-        sb.AppendLine("Guid,Name,Description,GMNotes,Type,Folder,ContainedCount,CardID,HasLua,HasXml");
+        sb.AppendLine("Guid,Nickname,Description,GMNotes,Type,ParentGuid,ParentNickname,ChildCount,HasLua,HasXml");
 
         foreach (var obj in objects)
         {
             sb.AppendLine(string.Join(",",
                 Csv(obj.Guid),
-                Csv(obj.Name),
+                Csv(obj.Nickname),
                 Csv(obj.Description),
                 Csv(obj.GMNotes),
                 Csv(obj.Type),
-                Csv(Path.GetRelativePath(extractFolder, obj.Folder)),
-                Csv(obj.ContainedCount.ToString()),
-                Csv(obj.CardID),
+                Csv(obj.Parent?.Guid ?? ""),
+                Csv(obj.Parent?.Nickname ?? ""),
+                Csv(obj.Children.Count.ToString()),
                 Csv(obj.HasLua.ToString()),
                 Csv(obj.HasXml.ToString())));
         }
@@ -90,7 +105,7 @@ public static class AnalyseCommand
         File.WriteAllText(path, sb.ToString(), Encoding.UTF8);
     }
 
-    private static void WriteObjectTypesCsv(List<TtsExtractedObject> objects, string path)
+    private static void WriteObjectTypesCsv(List<TtsObject> objects, string path)
     {
         var sb = new StringBuilder();
 

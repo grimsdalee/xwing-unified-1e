@@ -22,7 +22,7 @@ static void ShowHelp()
     Console.WriteLine();
     Console.WriteLine("Commands:");
     Console.WriteLine("  extract <tts-json-file> [output-folder]");
-    Console.WriteLine("  analyse <extract-folder>");
+    Console.WriteLine("  analyse <tts-json-file>");
 }
 
 static int UnknownCommand(string command)
