@@ -1,0 +1,18 @@
+{
+  "edition": "1e",
+  "id": "t65-xwing",
+  "name": "T-65 X-Wing",
+  "faction": "rebel",
+  "size": "small",
+  "stats": {
+    "attack": 3,
+    "agility": 2,
+    "hull": 3,
+    "shields": 2
+  },
+  "actions": [
+    "focus",
+    "target-lock"
+  ],
+  "notes": "Initial proof-of-concept chassis."
+}

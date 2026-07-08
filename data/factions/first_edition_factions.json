@@ -1,0 +1,17 @@
+{
+  "edition": "1e",
+  "factions": [
+    {
+      "id": "rebel",
+      "name": "Rebel Alliance"
+    },
+    {
+      "id": "imperial",
+      "name": "Galactic Empire"
+    },
+    {
+      "id": "scum",
+      "name": "Scum and Villainy"
+    }
+  ]
+}

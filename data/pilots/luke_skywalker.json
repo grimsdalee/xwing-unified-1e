@@ -1,0 +1,16 @@
+{
+  "edition": "1e",
+  "id": "luke-skywalker",
+  "name": "Luke Skywalker",
+  "ship": "t65-xwing",
+  "faction": "rebel",
+  "pilot_skill": 8,
+  "cost": 28,
+  "upgrade_slots": [
+    "elite",
+    "torpedo",
+    "astromech"
+  ],
+  "ability": "When defending, you may change 1 of your focus results to an evade result.",
+  "status": "proof-of-concept"
+}
