@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TtsExplorer
-build_property.ProjectDir = C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\TtsExplorer\
+build_property.ProjectDir = C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\TTSDeveloperStudio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

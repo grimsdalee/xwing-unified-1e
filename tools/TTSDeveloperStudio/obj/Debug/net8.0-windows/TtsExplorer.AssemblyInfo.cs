@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TtsExplorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26c27cd383696e35da1d90893a4154eefee0c0ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a90aafb6bcc9fe20c86b6d53cc12b57e39b9cb04")]
 [assembly: System.Reflection.AssemblyProductAttribute("TtsExplorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TtsExplorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

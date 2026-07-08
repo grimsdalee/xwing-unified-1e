@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TtsExplorer\\TtsExplorer.csproj",
+      "projectUniqueName": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TTSDeveloperStudio\\TtsExplorer.csproj",
       "projectName": "TtsExplorer",
-      "projectPath": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TtsExplorer\\TtsExplorer.csproj",
+      "projectPath": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TTSDeveloperStudio\\TtsExplorer.csproj",
       "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TtsExplorer\\obj\\",
+      "outputPath": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\tools\\TTSDeveloperStudio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Evan\\AppData\\Roaming\\NuGet\\NuGet.Config"
