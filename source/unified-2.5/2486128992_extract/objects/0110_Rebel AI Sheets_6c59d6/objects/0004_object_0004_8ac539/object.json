@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "8ac539",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -18.36334,
+    "posY": 3.080397,
+    "posZ": 32.944313,
+    "rotX": 0.00321888574,
+    "rotY": 180.002731,
+    "rotZ": 0.4624002,
+    "scaleX": 3.0,
+    "scaleY": 1.0,
+    "scaleZ": 3.0
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": true,
+  "Hands": true,
+  "CardID": 172200,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1722": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/T-65-X-Wing.JPG",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/T-65-X-Wing.JPG",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

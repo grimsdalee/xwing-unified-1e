@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "6f963c",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -50.2284431,
+    "posY": 5.36149073,
+    "posZ": -10.4471941,
+    "rotX": 354.904968,
+    "rotY": 104.999191,
+    "rotZ": 359.988129,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Death Watch Commandos (B)",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": true,
+  "CardID": 176900,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1769": {
+      "FaceURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/main/src/images/En/remotes/deathwatchcommandos-b.png",
+      "BackURL": "https://raw.githubusercontent.com/eirikmun/TTS_X-Wing2.0/master/assets/textures/cardback/CISback.jpg",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

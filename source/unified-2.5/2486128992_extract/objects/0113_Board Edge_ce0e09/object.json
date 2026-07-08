@@ -1,0 +1,50 @@
+﻿{
+  "GUID": "ce0e09",
+  "Name": "BlockRectangle",
+  "Transform": {
+    "posX": -37.33,
+    "posY": 0.8,
+    "posZ": 0.0,
+    "rotX": 0.0,
+    "rotY": -2.5051595E-05,
+    "rotZ": 0.015222501,
+    "scaleX": 0.5,
+    "scaleY": 0.5,
+    "scaleZ": 16.75
+  },
+  "Nickname": "Board Edge",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.286225677,
+    "g": 0.141130209,
+    "b": 0.0470225,
+    "a": 0.0
+  },
+  "Tags": [
+    "NonDeletable",
+    "Obstacle"
+  ],
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

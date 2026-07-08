@@ -1,0 +1,392 @@
+﻿{
+  "GUID": "61f0f8",
+  "Name": "Deck",
+  "Transform": {
+    "posX": -74.8726959,
+    "posY": -0.0138745969,
+    "posZ": 29.79368,
+    "rotX": -1.16175727E-07,
+    "rotY": 89.99812,
+    "rotZ": 180.0,
+    "scaleX": 1.04719865,
+    "scaleY": 1.0,
+    "scaleZ": 1.04719865
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "SidewaysCard": false,
+  "DeckIDs": [
+    175600,
+    175000,
+    175200,
+    174900,
+    175100
+  ],
+  "CustomDeck": {
+    "1756": {
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11296296348901118628/2C5FEF90424D2449C89BA4B9A02104CC9C26272D/",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    },
+    "1750": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/chance.png",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    },
+    "1752": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/assault.png",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    },
+    "1749": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/scramble.png",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    },
+    "1751": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/salvage.png",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "d3c8b2",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -74.0436249,
+        "posY": 0.04176565,
+        "posZ": 12.055397,
+        "rotX": 0.008486116,
+        "rotY": 89.98456,
+        "rotZ": 179.973526,
+        "scaleX": 1.04719865,
+        "scaleY": 1.0,
+        "scaleZ": 1.04719865
+      },
+      "Nickname": "Scenario Card",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CardID": 175600,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1756": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11296296348901118628/2C5FEF90424D2449C89BA4B9A02104CC9C26272D/",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "fa6aa9",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -74.4510956,
+        "posY": 0.0370854549,
+        "posZ": -1.38660884,
+        "rotX": -0.000603413733,
+        "rotY": 90.00851,
+        "rotZ": 180.000336,
+        "scaleX": 1.04719865,
+        "scaleY": 1.0,
+        "scaleZ": 1.04719865
+      },
+      "Nickname": "Scenario Card",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CardID": 175000,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1750": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/chance.png",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ab51d1",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -70.05197,
+        "posY": -0.0133514125,
+        "posZ": 23.8617477,
+        "rotX": 0.00090647355,
+        "rotY": 90.0311661,
+        "rotZ": 0.003993754,
+        "scaleX": 1.25768793,
+        "scaleY": 1.0,
+        "scaleZ": 1.25768793
+      },
+      "Nickname": "Scenario Card",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 175200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1752": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/assault.png",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "7173d1",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -70.32839,
+        "posY": 0.0480186455,
+        "posZ": 24.96611,
+        "rotX": 0.0415278859,
+        "rotY": 89.99998,
+        "rotZ": 0.005709567,
+        "scaleX": 1.25768793,
+        "scaleY": 1.0,
+        "scaleZ": 1.25768793
+      },
+      "Nickname": "Scenario Card",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 174900,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1749": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/scramble.png",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "c7d6cd",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": -70.50001,
+        "posY": 0.0376049429,
+        "posZ": 23.8738174,
+        "rotX": -0.000555012957,
+        "rotY": 90.00022,
+        "rotZ": 0.0007332723,
+        "scaleX": 1.25768793,
+        "scaleY": 1.0,
+        "scaleZ": 1.25768793
+      },
+      "Nickname": "Scenario Card",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 175100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1751": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/salvage.png",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/scenarios/back.png",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

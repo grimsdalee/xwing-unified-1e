@@ -1,0 +1,195 @@
+﻿{
+  "GUID": "038505",
+  "Name": "Custom_Model_Infinite_Bag",
+  "Transform": {
+    "posX": -0.03,
+    "posY": 1.17000008,
+    "posZ": 1.49,
+    "rotX": 352.541473,
+    "rotY": 359.869537,
+    "rotZ": -0.002023503,
+    "scaleX": 3.0,
+    "scaleY": 3.0,
+    "scaleZ": 3.0
+  },
+  "Nickname": "X-Wing Defense Die",
+  "Description": "",
+  "GMNotes": "defWHITE1",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/White%20Defence/WhiteDefInfinite.jpg",
+    "NormalURL": "",
+    "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 7,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "a562d1",
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": -9.565291,
+        "posY": 2.95684648,
+        "posZ": 11.1091747,
+        "rotX": 78.28262,
+        "rotY": 51.1056976,
+        "rotZ": 266.129456,
+        "scaleX": 1.52400017,
+        "scaleY": 1.52400017,
+        "scaleZ": 1.52400017
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Tags": [
+        "DiceControl"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/White%20Defence/WhiteDef.jpg",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 2
+        }
+      },
+      "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.5,
+        "Drag": 0.1,
+        "AngularDrag": 0.0,
+        "UseGravity": true
+      },
+      "RotationValues": [
+        {
+          "Value": "Blank",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "Eye",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 180.0
+          }
+        },
+        {
+          "Value": "Evade",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": "Evade",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "Blank",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "Eye",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "Evade",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "Blank",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        }
+      ]
+    }
+  ]
+}

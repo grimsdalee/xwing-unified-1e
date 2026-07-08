@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "de1d2d",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -50.478344,
+    "posY": 5.270712,
+    "posZ": -9.994168,
+    "rotX": 0.140417814,
+    "rotY": 119.99968,
+    "rotZ": 0.161006585,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Trials of the Darksaber",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": true,
+  "CardID": 171700,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1717": {
+      "FaceURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/main/src/images/En/Condition/trialsofthedarksaber.png",
+      "BackURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/8eec48e7bd36dee21bb30d3e3da008a5b92c4bc3/src/images/En/Condition/trialsofthedarksaber-sideb.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

@@ -1,0 +1,115 @@
+﻿{
+  "GUID": "a4e041",
+  "Name": "Custom_Model_Infinite_Bag",
+  "Transform": {
+    "posX": 41.0,
+    "posY": 1.0,
+    "posZ": 0.0,
+    "rotX": 0.0,
+    "rotY": 270.0,
+    "rotZ": 180.0,
+    "scaleX": 0.63,
+    "scaleY": 0.63,
+    "scaleZ": 0.63
+  },
+  "Nickname": "Range 1-3 Rulers",
+  "Description": "",
+  "GMNotes": "",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range13.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range.jpg",
+    "NormalURL": "",
+    "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range13.obj",
+    "Convex": false,
+    "MaterialIndex": 1,
+    "TypeIndex": 7,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "93e119",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -17.5000648,
+        "posY": 1.07930374,
+        "posZ": -14.0002871,
+        "rotX": -0.00350683951,
+        "rotY": 0.00218027667,
+        "rotZ": 359.729736,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range13.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/rulers/range13.obj",
+        "Convex": false,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

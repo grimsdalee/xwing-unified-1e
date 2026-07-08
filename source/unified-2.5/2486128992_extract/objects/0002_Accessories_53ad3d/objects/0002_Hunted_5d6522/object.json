@@ -1,0 +1,54 @@
+﻿{
+  "GUID": "5d6522",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": -51.3100853,
+    "posY": 1.05616415,
+    "posZ": -48.3244629,
+    "rotX": 358.548523,
+    "rotY": 270.026428,
+    "rotZ": 180.0056,
+    "scaleX": 0.375,
+    "scaleY": 0.375,
+    "scaleZ": 0.375
+  },
+  "Nickname": "Hunted",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": false,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/Hexagon.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/condition/tokens/hunted-texture.png",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 5,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

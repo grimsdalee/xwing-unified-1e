@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "f645b4",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": 0.0,
+    "posY": -5.0,
+    "posZ": 0.0,
+    "rotX": 0.213388279,
+    "rotY": 180.000076,
+    "rotZ": 1.12906639E-06,
+    "scaleX": 0.3,
+    "scaleY": 1.0,
+    "scaleZ": 0.5
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": true,
+  "Hands": true,
+  "CardID": 177200,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1772": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/HotAC/Table/player-blue.jpg",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/HotAC/Table/player-blue.jpg",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 1
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

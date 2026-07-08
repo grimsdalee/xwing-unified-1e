@@ -1,0 +1,46 @@
+﻿{
+  "GUID": "7f035a",
+  "Name": "BlockTriangle",
+  "Transform": {
+    "posX": 43.7683258,
+    "posY": 1.20484412,
+    "posZ": 0.9851344,
+    "rotX": 0.000142827776,
+    "rotY": 180.0195,
+    "rotZ": 0.0342179723,
+    "scaleX": 0.696301758,
+    "scaleY": 1.13736629,
+    "scaleZ": 2.4344573
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.585365832,
+    "g": 0.585365832,
+    "b": 0.585365832
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": false,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

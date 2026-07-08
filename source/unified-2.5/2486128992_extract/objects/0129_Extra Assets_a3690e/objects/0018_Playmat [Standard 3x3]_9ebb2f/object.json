@@ -1,0 +1,116 @@
+﻿{
+  "GUID": "9ebb2f",
+  "Name": "Custom_Tile",
+  "Transform": {
+    "posX": 10.5,
+    "posY": 1.01200247,
+    "posZ": 13.0,
+    "rotX": 9.512427E-09,
+    "rotY": -2.08478612E-09,
+    "rotZ": -2.97639584E-08,
+    "scaleX": 0.5,
+    "scaleY": 1.0,
+    "scaleZ": 0.5
+  },
+  "Nickname": "Playmat [Standard 3x3]",
+  "Description": "Right-Click [b]Custom[/b]. Change [b]Bottom Image[/b]. If prompted to change others, click [b]Cancel[/b].\nDrop face-up on a playmat to add the Image.\nDrop face-down on a playmat to remove the Image.\n",
+  "GMNotes": "playmattile",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomImage": {
+    "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/playmat-tiles/standard-3x3-cover.jpg",
+    "ImageSecondaryURL": "https://dummyimage.com/90x90/000/fff.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+      "Type": 3,
+      "Thickness": 0.05,
+      "Stackable": true,
+      "Stretch": true
+    }
+  },
+  "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Playmat [Standard 3x3].9ebb2f.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Playmat [Standard 3x3].9ebb2f.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Component.Playmat.PlaymatTileObject\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Component.Playmat.PlaymatTileObject\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n-- the stub you set with setLuaScript:\r\n-- obj.setLuaScript(\u0027require(\u0022PilotCard\u0022).attach(_G)\u0027); obj.reload()\r\n\r\nfunction castRayBelow(opts)\r\n    opts                = opts or {}\r\n    local origin_offset = opts.origin_offset or 2\r\n    local max_distance  = opts.max_distance or 8\r\n    local debug_draw    = opts.debug or false\r\n    return function(ctx)\r\n        local o = ctx.source\r\n        local hits = Physics.cast({\r\n            origin       = o.getPosition(), -- \u002B Vector(0, origin_offset, 0),\r\n            direction    = Vector(0, -1, 0),\r\n            type         = 1,               -- Ray\r\n            max_distance = max_distance,\r\n            debug        = debug_draw\r\n        })\r\n        ctx.hits = hits\r\n        return hits\r\n    end\r\nend\r\n\r\nlocal function isPlaymat(o)\r\n    return o.getVar(\u0022__XW_Mat\u0022) == true\r\nend\r\n\r\nlocal function handleDrop()\r\n    local hits = castRayBelow({ origin_offset = 0.5, max_distance = 1, debug = false })({ source = self })\r\n    for _, h in ipairs(hits) do\r\n        if isPlaymat(h.hit_object) then\r\n            local playmat = h.hit_object\r\n            local url     = self.getCustomObject().image_bottom\r\n            if playmat.getVar(\u0022addImage\u0022) == nil then\r\n                printToAll(\u0022This Playmat doesn\u0027t currently support custom images.\u0022, { 1, 0, 0 })\r\n                return\r\n            end\r\n            if self.is_face_down then\r\n                playmat.call(\u0022addImage\u0022, { url = url })\r\n            else\r\n                playmat.call(\u0022removeImage\u0022, { url = url })\r\n            end\r\n            return\r\n        end\r\n    end\r\nend\r\n\r\nfunction onDrop()\r\n    Wait.condition(function()\r\n        handleDrop()\r\n    end, function() return self.resting end)\r\nend\r\n\nend)\nreturn __bundle_require(\u0022Playmat [Standard 3x3].9ebb2f.lua\u0022)",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "States": {
+    "2": {
+      "GUID": "40d09e",
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": 10.5,
+        "posY": 1.01200247,
+        "posZ": 13.0,
+        "rotX": 9.512427E-09,
+        "rotY": -2.08478612E-09,
+        "rotZ": -2.97639584E-08,
+        "scaleX": 0.5,
+        "scaleY": 1.0,
+        "scaleZ": 0.5
+      },
+      "Nickname": "Playmat [Epic 6x3]",
+      "Description": "Right-Click [b]Custom[/b]. Change [b]Bottom Image[/b]. If prompted to change others, click [b]Cancel[/b].\nDrop face-up on a playmat to add the Image.\nDrop face-down on a playmat to remove the Image.\n",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/playmat-tiles/epic-6x3-cover.png",
+        "ImageSecondaryURL": "https://dummyimage.com/180x90/000/fff.png",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 3,
+          "Thickness": 0.05,
+          "Stackable": true,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Playmat [Epic 6x3].1c842a.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Playmat [Epic 6x3].1c842a.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Component.Playmat.PlaymatTileObject\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Component.Playmat.PlaymatTileObject\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n-- the stub you set with setLuaScript:\r\n-- obj.setLuaScript(\u0027require(\u0022PilotCard\u0022).attach(_G)\u0027); obj.reload()\r\n\r\nfunction castRayBelow(opts)\r\n    opts                = opts or {}\r\n    local origin_offset = opts.origin_offset or 2\r\n    local max_distance  = opts.max_distance or 8\r\n    local debug_draw    = opts.debug or false\r\n    return function(ctx)\r\n        local o = ctx.source\r\n        local hits = Physics.cast({\r\n            origin       = o.getPosition(), -- \u002B Vector(0, origin_offset, 0),\r\n            direction    = Vector(0, -1, 0),\r\n            type         = 1,               -- Ray\r\n            max_distance = max_distance,\r\n            debug        = debug_draw\r\n        })\r\n        ctx.hits = hits\r\n        return hits\r\n    end\r\nend\r\n\r\nlocal function isPlaymat(o)\r\n    return o.getVar(\u0022__XW_Mat\u0022) == true\r\nend\r\n\r\nlocal function handleDrop()\r\n    local hits = castRayBelow({ origin_offset = 0.5, max_distance = 1, debug = false })({ source = self })\r\n    for _, h in ipairs(hits) do\r\n        if isPlaymat(h.hit_object) then\r\n            local playmat = h.hit_object\r\n            local url     = self.getCustomObject().image_bottom\r\n            if playmat.getVar(\u0022addImage\u0022) == nil then\r\n                printToAll(\u0022This Playmat doesn\u0027t currently support custom images.\u0022, { 1, 0, 0 })\r\n                return\r\n            end\r\n            if self.is_face_down then\r\n                playmat.call(\u0022addImage\u0022, { url = url })\r\n            else\r\n                playmat.call(\u0022removeImage\u0022, { url = url })\r\n            end\r\n            return\r\n        end\r\n    end\r\nend\r\n\r\nfunction onDrop()\r\n    Wait.condition(function()\r\n        handleDrop()\r\n    end, function() return self.resting end)\r\nend\r\n\nend)\nreturn __bundle_require(\u0022Playmat [Epic 6x3].1c842a.lua\u0022)",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  }
+}

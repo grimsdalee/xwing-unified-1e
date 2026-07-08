@@ -1,0 +1,57 @@
+﻿{
+  "GUID": "ad6b64",
+  "Name": "Custom_Token",
+  "Transform": {
+    "posX": 0.0,
+    "posY": -5.0,
+    "posZ": 0.0,
+    "rotX": 0.00320962351,
+    "rotY": 179.982819,
+    "rotZ": 0.00275531132,
+    "scaleX": 0.067,
+    "scaleY": 1.0,
+    "scaleZ": 0.067
+  },
+  "Nickname": "Turn Marker",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomImage": {
+    "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/HotAC/Table/Turn%20Marker.png",
+    "ImageSecondaryURL": "",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomToken": {
+      "Thickness": 0.1,
+      "MergeDistancePixels": 5.0,
+      "StandUp": false,
+      "Stackable": false
+    }
+  },
+  "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Turn Marker.ad6b64.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Turn Marker.ad6b64.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Mechanic.TurnMarker\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Mechanic.TurnMarker\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal turnCount = 0\r\n\r\nfunction onDrop()\r\n    turnCount     = turnCount \u002B 1\r\n    local message = \u0022Beginning of Turn \u0022 .. turnCount .. \u0022.\u0022\r\n    if turnCount \u003E 12 then\r\n        message = message .. \u0022 Should you still be playing?\u0022\r\n    end\r\n    printToAll(message, Color.Red)\r\nend\r\n\r\nfunction reset()\r\n    turnCount = 0\r\nend\r\n\r\nfunction onLoad(save_state)\r\n    self.addContextMenuItem(\u0022Reset Counter\u0022, reset)\r\n    if save_state and save_state ~= \u0022\u0022 then\r\n        local loadedData = JSON.decode(save_state)\r\n        if loadedData then\r\n            turnCount = loadedData.turnCount\r\n        end\r\n    end\r\nend\r\n\r\nfunction onSave()\r\n    saveData = {}\r\n    saveData.turnCount = turnCount\r\n    return JSON.encode(saveData)\r\nend\r\n\nend)\nreturn __bundle_require(\u0022Turn Marker.ad6b64.lua\u0022)",
+  "LuaScriptState": "{\u0022turnCount\u0022:0}",
+  "XmlUI": ""
+}

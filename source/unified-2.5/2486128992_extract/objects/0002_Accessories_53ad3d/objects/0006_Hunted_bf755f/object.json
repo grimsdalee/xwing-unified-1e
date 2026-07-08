@@ -1,0 +1,57 @@
+﻿{
+  "GUID": "bf755f",
+  "Name": "Card",
+  "Transform": {
+    "posX": -16.6521549,
+    "posY": 1.04652548,
+    "posZ": -28.58725,
+    "rotX": -0.000124457525,
+    "rotY": 269.9996,
+    "rotZ": 0.187361345,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Hunted",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "Hands": true,
+  "CardID": 21515,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "215": {
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/930441531075384015/7A07F64BBF17A94E4675FC16FA701B895FECF60B/",
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/930441531075385016/4697AFC0F0FFA01F3A9BCCD60465CAD21A312277/",
+      "NumWidth": 10,
+      "NumHeight": 7,
+      "BackIsHidden": false,
+      "UniqueBack": true,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

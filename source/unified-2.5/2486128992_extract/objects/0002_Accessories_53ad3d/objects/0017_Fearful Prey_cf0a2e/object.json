@@ -1,0 +1,55 @@
+﻿{
+  "GUID": "cf0a2e",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": -50.3107338,
+    "posY": 5.221393,
+    "posZ": -9.615384,
+    "rotX": 1.71828806,
+    "rotY": 90.31099,
+    "rotZ": 1.30348861,
+    "scaleX": 0.375,
+    "scaleY": 0.375,
+    "scaleZ": 0.375
+  },
+  "Nickname": "Fearful Prey",
+  "Description": "Unassigned",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": false,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/Hexagon.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/condition/tokens/fearfulprey.png",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 5,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

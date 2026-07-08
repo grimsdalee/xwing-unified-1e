@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "8a6c44",
+  "Name": "Card",
+  "Transform": {
+    "posX": -50.72003,
+    "posY": 5.27131844,
+    "posZ": -10.2447567,
+    "rotX": 0.329528362,
+    "rotY": 90.01396,
+    "rotZ": 359.4105,
+    "scaleX": 0.9567914,
+    "scaleY": 1.0,
+    "scaleZ": 0.9567914
+  },
+  "Nickname": "Fearful Prey",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CardID": 2100,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "21": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Cards/Conditions/fearful-prey.png",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Cards/Conditions/fearful-prey.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": false,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

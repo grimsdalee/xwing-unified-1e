@@ -1,0 +1,56 @@
+﻿{
+  "GUID": "1d0c48",
+  "Name": "3DText",
+  "Transform": {
+    "posX": -84.11558,
+    "posY": -0.0128641138,
+    "posZ": 34.591774,
+    "rotX": -3.92411166E-05,
+    "rotY": 90.0000153,
+    "rotZ": 6.459687E-05,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "Text": {
+    "Text": "1.17.2",
+    "OwnerSteamID": 0,
+    "colorstate": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0
+    },
+    "fontSize": 64
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

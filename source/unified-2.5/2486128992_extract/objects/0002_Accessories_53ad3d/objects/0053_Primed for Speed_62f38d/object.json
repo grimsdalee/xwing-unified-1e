@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "62f38d",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -26.5975227,
+    "posY": 1.53351986,
+    "posZ": 22.2585964,
+    "rotX": 1.57948978E-08,
+    "rotY": 90.01617,
+    "rotZ": 1.22308181E-08,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Primed for Speed",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": true,
+  "CardID": 175800,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1758": {
+      "FaceURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/2.5/src/images/En/Condition/primedforspeed.png",
+      "BackURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/2.5/src/images/En/Condition/primedforspeed.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

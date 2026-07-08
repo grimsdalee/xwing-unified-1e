@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "6c052b",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -6.2244854,
+    "posY": 3.020752,
+    "posZ": 33.9285049,
+    "rotX": 359.985535,
+    "rotY": 179.98761,
+    "rotZ": 0.217887789,
+    "scaleX": 3.0,
+    "scaleY": 1.0,
+    "scaleZ": 3.0
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": true,
+  "Hands": true,
+  "CardID": 172300,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1723": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/TIE-Advanced-x1.JPG",
+      "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/TIE-Advanced-x1.JPG",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

@@ -1,0 +1,55 @@
+﻿{
+  "GUID": "9b8faf",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": 0.0,
+    "posY": -5.0,
+    "posZ": 0.0,
+    "rotX": -2.608163E-07,
+    "rotY": 180.001663,
+    "rotZ": -1.15657076E-06,
+    "scaleX": 0.097,
+    "scaleY": 0.1,
+    "scaleZ": 0.097
+  },
+  "Nickname": "End Marker",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/HotAC/Table/EndMesh",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/HotAC/Table/End%20Marker.png",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 3,
+    "TypeIndex": 0,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

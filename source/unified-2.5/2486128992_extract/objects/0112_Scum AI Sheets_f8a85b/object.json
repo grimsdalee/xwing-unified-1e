@@ -1,0 +1,574 @@
+﻿{
+  "GUID": "f8a85b",
+  "Name": "Bag",
+  "Transform": {
+    "posX": 0.0,
+    "posY": -5.0,
+    "posZ": 0.0,
+    "rotX": 6.570052E-07,
+    "rotY": 2.22047765E-05,
+    "rotZ": 1.66752727E-07,
+    "scaleX": 0.1,
+    "scaleY": 0.1,
+    "scaleZ": 0.1
+  },
+  "Nickname": "Scum AI Sheets",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.7058823,
+    "g": 0.366520882,
+    "b": 0.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "Bag": {
+    "Order": 0
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "06ba09",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 50.721344,
+        "posY": 4.23613548,
+        "posZ": 20.1796856,
+        "rotX": 0.7316671,
+        "rotY": 179.996872,
+        "rotZ": 0.000255784835,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CardID": 171100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1711": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/BTL-A4-Y-Wing-S.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/BTL-A4-Y-Wing-S.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "cd01f6",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 15.3986921,
+        "posY": 3.08265328,
+        "posZ": 31.7104836,
+        "rotX": 359.965149,
+        "rotY": 180.024582,
+        "rotZ": 359.200928,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171400,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1714": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/HWK-290-Light-Freighter.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/HWK-290-Light-Freighter.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "3dd706",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 21.9302063,
+        "posY": 3.05457258,
+        "posZ": 31.4220829,
+        "rotX": 359.9939,
+        "rotY": 179.999863,
+        "rotZ": 359.499878,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171200,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1712": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Fang-Fighter.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Fang-Fighter.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "731acd",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 18.788044,
+        "posY": 3.06930542,
+        "posZ": 31.35673,
+        "rotX": 359.972473,
+        "rotY": 180.000122,
+        "rotZ": 359.677521,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171300,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1713": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Firespray-Class-Patrol-Craft.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Firespray-Class-Patrol-Craft.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ffaf55",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 12.6271687,
+        "posY": 3.07168436,
+        "posZ": 32.87043,
+        "rotX": 359.959534,
+        "rotY": 179.998917,
+        "rotZ": 359.132233,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1715": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Kihraxz-Fighter.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Kihraxz-Fighter.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "add7f3",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 10.5047817,
+        "posY": 3.10961246,
+        "posZ": 32.4174538,
+        "rotX": 359.96814,
+        "rotY": 180.003784,
+        "rotZ": 359.136353,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171700,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1717": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/M3-A-Interceptor.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/M3-A-Interceptor.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e6f288",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 7.11304331,
+        "posY": 3.10034966,
+        "posZ": 31.845108,
+        "rotX": 0.00726843951,
+        "rotY": 180.004929,
+        "rotZ": 359.245361,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 171800,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1718": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Modified-TIE-Ln-Fighter.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Modified-TIE-Ln-Fighter.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "72a330",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 2.76986837,
+        "posY": 3.07173228,
+        "posZ": 31.47346,
+        "rotX": 0.00783905853,
+        "rotY": 180.007935,
+        "rotZ": 359.264282,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": true,
+      "CardID": 172100,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1721": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/StarViper.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/StarViper.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bdbe5e",
+      "Name": "CardCustom",
+      "Transform": {
+        "posX": 15.128233,
+        "posY": 3.05510664,
+        "posZ": 31.7259464,
+        "rotX": 359.97,
+        "rotY": 180.000015,
+        "rotZ": 359.965546,
+        "scaleX": 3.0,
+        "scaleY": 1.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": true,
+      "CardID": 173500,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "1735": {
+          "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Z-95-AF4-Headhunter-S.JPG",
+          "BackURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/aisheets/Z-95-AF4-Headhunter-S.JPG",
+          "NumWidth": 1,
+          "NumHeight": 1,
+          "BackIsHidden": true,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

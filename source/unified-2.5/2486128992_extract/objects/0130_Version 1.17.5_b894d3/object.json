@@ -1,0 +1,45 @@
+﻿{
+  "GUID": "b894d3",
+  "Name": "Notecard",
+  "Transform": {
+    "posX": -79.34864,
+    "posY": 0.0461247265,
+    "posZ": -10.7609653,
+    "rotX": 6.82183668E-07,
+    "rotY": 270.0019,
+    "rotZ": 1.28470433E-07,
+    "scaleX": 1.5,
+    "scaleY": 1.5,
+    "scaleZ": 1.5
+  },
+  "Nickname": "Version 1.17.5",
+  "Description": "All custom dial options are now available on the ship dials.\nMajor spawner refactoring\nFix objective lines\nOnly owning player may alter ship damage state ",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

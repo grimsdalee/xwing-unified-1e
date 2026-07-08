@@ -1,0 +1,139 @@
+﻿{
+  "GUID": "8d45a9",
+  "Name": "Custom_Model_Infinite_Bag",
+  "Transform": {
+    "posX": 1.36,
+    "posY": 1.06,
+    "posZ": -9.56,
+    "rotX": 2.0411936E-07,
+    "rotY": 180.024124,
+    "rotZ": 4.664747E-06,
+    "scaleX": 0.94999963,
+    "scaleY": 0.94999963,
+    "scaleZ": 0.94999963
+  },
+  "Nickname": "Reinforce",
+  "Description": "",
+  "GMNotes": "",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "Tags": [
+    "NonDeletable"
+  ],
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/new/reinforce-model.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/round/reinforce.jpg",
+    "NormalURL": "",
+    "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/round/RoundToken.obj",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 7,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "2907b3",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -7.0,
+        "posY": 1.04950237,
+        "posZ": -11.0,
+        "rotX": -3.23223162E-07,
+        "rotY": -1.6675139E-09,
+        "rotZ": -4.52542963E-06,
+        "scaleX": 0.375,
+        "scaleY": 0.375,
+        "scaleZ": 0.375
+      },
+      "Nickname": "Reinforce (aft)",
+      "Description": "Unassigned",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "Tags": [
+        "Assignable"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/new/reinforce-model.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/round/reinforce.jpg",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 0,
+        "CastShadows": true
+      },
+      "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Reinforce (aft).2907b3.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Reinforce (aft).2907b3.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Token.Reinforce\u0022)\r\n\nend)\n__bundle_register(\u0022Token.Reinforce\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n-- ~~~~~~\r\n-- Script by dzikakulka\r\n-- Issues, history at: http://github.com/tjakubo2/TTS_xwing\r\n--\r\n-- Auto naming for reinforce token\r\n-- ~~~~~~\r\n\r\n-- Scripted token properties\r\n__XW_Token = true\r\n__XW_TokenIdle = true\r\n__XW_TokenType = \u0027reinforce\u0027\r\n\r\n-- Is a direction clear?\r\nfunction clearDir(dir)\r\n    local clear = true\r\n    local rayHits = checkRay(dir)\r\n    for k, hitTable in pairs(rayHits) do\r\n        if not ignoreHit(hitTable.hit_object) then\r\n            clear = false\r\n            break\r\n        end\r\n    end\r\n    return clear\r\nend\r\n\r\n-- Which cast hits should be ignored\r\nfunction ignoreHit(obj)\r\n    return ((obj.tag == \u0027Figurine\u0027) or (obj.tag == \u0027Chip\u0027) or (obj == self))\r\nend\r\n\r\n-- Check for hits in a direction\r\nfunction checkRay(dir)\r\n    local localDir = self.positionToWorld({ 0, dir, 0 })\r\n    local sPos = self.getPosition()\r\n    local rayDir = { localDir[1] - sPos[1], localDir[2] - sPos[2], localDir[3] - sPos[3] }\r\n    return Physics.cast({ origin = self.getPosition(), direction = rayDir, type = 1 })\r\nend\r\n\r\n-- Name self based on which side is faceup\r\nfunction onCollisionEnter()\r\n    if clearDir(1) then\r\n        self.setName(\u0027Reinforce (aft)\u0027)\r\n    end\r\n    if clearDir(-1) then\r\n        self.setName(\u0027Reinforce (fore)\u0027)\r\n    end\r\nend\r\n\nend)\nreturn __bundle_require(\u0022Reinforce (aft).2907b3.lua\u0022)",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "RotationValues": [
+        {
+          "Value": "",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 180.0
+          }
+        },
+        {
+          "Value": "",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

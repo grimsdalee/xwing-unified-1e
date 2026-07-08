@@ -1,0 +1,200 @@
+﻿{
+  "GUID": "3d426e",
+  "Name": "Custom_Model_Infinite_Bag",
+  "Transform": {
+    "posX": -48.1,
+    "posY": 1.3,
+    "posZ": 9.61,
+    "rotX": -0.0008776793,
+    "rotY": 89.99991,
+    "rotZ": 89.99975,
+    "scaleX": 3.0,
+    "scaleY": 3.0,
+    "scaleZ": 3.0
+  },
+  "Nickname": "No Stats Dice",
+  "Description": "",
+  "GMNotes": "atkOG1",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "Tags": [
+    "NonDeletable"
+  ],
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Gold%20Attack/GoldAtkInfinite.jpg",
+    "NormalURL": "",
+    "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 7,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "6a9a8e",
+      "Name": "Custom_Dice",
+      "Transform": {
+        "posX": 10.4995947,
+        "posY": 1.67514241,
+        "posZ": 10.0000076,
+        "rotX": 4.950075E-06,
+        "rotY": 0.0348817781,
+        "rotZ": 0.0005669072,
+        "scaleX": 1.52400017,
+        "scaleY": 1.52400017,
+        "scaleZ": 1.52400017
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Tags": [
+        "DiceControl",
+        "NonDeletable"
+      ],
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Gold%20Attack/GoldAtk.jpg",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomDice": {
+          "Type": 2
+        }
+      },
+      "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Custom Dice.6a9a8e.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Custom Dice.6a9a8e.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Component.Dice.PlayerOrderDie\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Component.Dice.PlayerOrderDie\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\ndicecolor = \u0022PlayerOrder\u0022\r\n\nend)\nreturn __bundle_require(\u0022Custom Dice.6a9a8e.lua\u0022)",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.6,
+        "DynamicFriction": 0.6,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 0.5,
+        "Drag": 0.1,
+        "AngularDrag": 0.0,
+        "UseGravity": true
+      },
+      "RotationValues": [
+        {
+          "Value": "Blank",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "Eye",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 180.0
+          }
+        },
+        {
+          "Value": "Hit",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": "Hit",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "Blank",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "Eye",
+          "Rotation": {
+            "x": 33.0,
+            "y": 180.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "Hit",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "Crit",
+          "Rotation": {
+            "x": -33.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        }
+      ]
+    }
+  ]
+}

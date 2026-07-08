@@ -1,0 +1,707 @@
+﻿{
+  "GUID": "e12a0c",
+  "Name": "Custom_Model_Bag",
+  "Transform": {
+    "posX": 13.9999971,
+    "posY": 1.10336781,
+    "posZ": -13.999999,
+    "rotX": 1.74548944E-07,
+    "rotY": 6.30125E-05,
+    "rotZ": 6.259773E-08,
+    "scaleX": 0.629,
+    "scaleY": 0.629,
+    "scaleZ": 0.629
+  },
+  "Nickname": "Transport Freighter",
+  "Description": "[b]Pack Up Game[/b]:\nAdds all objects on the table (except those in its exclusion list) to the freighter.\n\n[b]Deploy Game[/b]:\nRedeploys all stored objects from the freighter out to the current table.\n\n[b]Baseline Game Mod[/b]:\nCreates an exclusion list based on the current table\u0027s objects.  Excluded items will not be packed for transport.\n(This should be done first from an unmodified game.)\n",
+  "GMNotes": "transportfreighter",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "Number": 0,
+  "CustomMesh": {
+    "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/large/base.obj?1",
+    "DiffuseURL": "{verifycache}https://raw.githubusercontent.com/evilcoleslaw/Flight-Group-Alpha/main/BFF-1/base_none_rebel.png",
+    "NormalURL": "",
+    "ColliderURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Large_base_Collider.obj",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 6,
+    "CustomShader": {
+      "SpecularColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "SpecularIntensity": 0.0,
+      "SpecularSharpness": 2.0,
+      "FresnelStrength": 0.0
+    },
+    "CastShadows": true
+  },
+  "Bag": {
+    "Order": 0
+  },
+  "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Transport Freighter.e12a0c.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Transport Freighter.e12a0c.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.HotAC.Setup.TransportFreighter\u0022)\r\n\nend)\n__bundle_register(\u0022Game.HotAC.Setup.TransportFreighter\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n--[[ Tranport Freighter\r\nAid to migrate HotAC-type games. Add this script to any ship model\r\ne.g. \u0022Rebel Transport\u0022 or \u0022Bulk Freighter,\u0022 and convert it to a \u0022Transport Freighter\u0022\r\n(Memory Bag). It\u0027s intended to collect all player artifacts and transport\r\nthem to a new release of the Unified Mod.\r\n    1. Create a baseline of all default in-game objects this should be done from an unmodified game (as released).\r\n        * this creates an exclusion list of objects which will not be packed up.\r\n    2. \u0060Pack up\u0060 player\u0027s objects and store them in the Transport Freighter.\r\n    3. Save the Transport Freighter as an external object\r\n    4. Load the new version of the X-Wing Mod\r\n    5. Spawn the saved Transport Freighter external object into the game\r\n    6. Deploy the transported game objects\r\n]]\r\nrequire(\u0022TTS_lib.Util.Table\u0022)\r\nlocal Sequence = require(\u0022TTS_lib.Sequence.Sequence\u0022)\r\n\r\nlocal name = \u0022Transport Freighter\u0022\r\nlocal desc = [[\r\n[b]Pack Up Game[/b]:\r\nAdds all objects on the table (except those in its exclusion list) to the freighter.\r\n\r\n[b]Deploy Game[/b]:\r\nRedeploys all stored objects from the freighter out to the current table.\r\n\r\n[b]Baseline Game Mod[/b]:\r\nCreates an exclusion list based on the current table\u0027s objects.  Excluded items will not be packed for transport.\r\n(This should be done first from an unmodified game.)\r\n]]\r\n\r\n-- Table to store the exclude list of base game object GUIDs\r\nlocal excludeList = {}\r\n\r\n-- Table to store transported objects\u0027 data\r\nlocal transportCargo = {}\r\n\r\n-- Respawns any ship with this script to turn it into a Transport Freighter \u0022Memory Bag\u0022\r\nfunction createTransportFreighterBag()\r\n    self.setName(name)\r\n    self.setDescription(desc)\r\n\r\n    local info = self.getCustomObject()\r\n    info.type = 6\r\n    info.cast_shadows = true\r\n    self.setCustomObject(info)\r\n    self.removeTag(\u0022Ship\u0022)\r\n    self.reload()\r\nend\r\n\r\n-- Adds action buttons for packing and unpacking\r\nfunction createFreighterButtons(obj)\r\n    local bounds = obj.getBounds()\r\n    local position = Vector(-1.25, 0.05, bounds.size.z)\r\n\r\n    obj.createButton({\r\n        label = \u0022Pack Up\u0022,\r\n        click_function = \u0022packObjects\u0022,\r\n        function_owner = obj,\r\n        position = position,\r\n        rotation = { 0, 0, 0 },\r\n        width = 1000,\r\n        height = 400,\r\n        font_size = 200,\r\n        color = { 0, 0, 0 },\r\n        font_color = { 1, 1, 1 },\r\n    })\r\n\r\n    obj.createButton({\r\n        label = \u0022Deploy\u0022,\r\n        click_function = \u0022deployObjects\u0022,\r\n        function_owner = obj,\r\n        position = position:scale(Vector(-1, 1, 1)),\r\n        rotation = { 0, 0, 0 },\r\n        width = 1000,\r\n        height = 400,\r\n        font_size = 200,\r\n        color = { 0, 0, 0 },\r\n        font_color = { 1, 1, 1 },\r\n    })\r\nend\r\n\r\nfunction round(num, decimalPlaces)\r\n    local mult = 10 ^ (decimalPlaces or 0)\r\n    return math.floor(num * mult \u002B 0.5) / mult\r\nend\r\n\r\n-- Pack up objects from the table, excluding those in the base mod (exclude list)\r\nfunction packObjects()\r\n    transportCargo = {} -- Reset storage\r\n\r\n    local toPack = {}\r\n    for _, obj in ipairs(getAllObjects()) do\r\n        if not isExcluded(obj) then\r\n            table.insert(toPack, obj)\r\n        end\r\n    end\r\n\r\n    table.sort(toPack, function(a, b)\r\n        return a.getPosition().y \u003E b.getPosition().y\r\n    end)\r\n\r\n    -- 3) Build sequence\r\n    local seq = Sequence:new()\r\n    for _, obj in ipairs(toPack) do\r\n        seq:addTask(packOneObject, obj)\r\n        seq:waitFrames(1)\r\n    end\r\n\r\n    seq:addTask(function()\r\n        printToAll(\u0022Packing complete. \u0022 .. #transportCargo .. \u0022 objects packed into \u0022 .. name, Color.Yellow)\r\n    end)\r\n\r\n    seq:start()\r\nend\r\n\r\nfunction packOneObject(obj)\r\n    -- we already filtered excluded objects, but double\u00E2\u20AC\u0090check if you like\r\n    if isExcluded(obj) then\r\n        printToAll(\u0022Skipping \u00E2\u20AC\u0153\u0022 .. obj.getName() .. \u0022\u00E2\u20AC\u009D\u0022, Color.Red)\r\n        return\r\n    end\r\n\r\n    -- record its final data\r\n    local pos = obj.getPosition()\r\n    local rot = obj.getRotation()\r\n    table.insert(transportCargo, {\r\n        guid   = obj.getGUID(),\r\n        name   = obj.getName(),\r\n        pos    = { x = round(pos.x, 4), y = round(pos.y, 4), z = round(pos.z, 4) },\r\n        rot    = { x = round(rot.x, 4), y = round(rot.y, 4), z = round(rot.z, 4) },\r\n        state  = obj.script_state or \u0022\u0022,\r\n        locked = obj.getLock(),\r\n    })\r\n\r\n    -- move it into the bag\r\n    obj.setPositionSmooth(self.getPosition())\r\n    self.putObject(obj)\r\nend\r\n\r\nfunction isExcluded(obj)\r\n    local guid = obj.getGUID()\r\n    if guid == self.getGUID()\r\n        or obj.hasTag(\u0022TempLayoutElement\u0022)\r\n        or obj.tag == \u0022Hand\u0022\r\n    then\r\n        return true\r\n    end\r\n\r\n    for _, ex in ipairs(excludeList) do\r\n        if guid == ex then return true end\r\n    end\r\n    return false\r\nend\r\n\r\n-- Deploy stored objects from the Transport Freighter back to the table\r\nfunction deployObjects()\r\n    printToAll(\u0027[b]Redeploying objects...[/b] wait for message: \u0022All objects deployed.\u0022\u0027, Color.Yellow)\r\n\r\n    table.sort(transportCargo, function(a, b)\r\n        return a.pos.y \u003C b.pos.y\r\n    end)\r\n\r\n    -- Deploy each object sequentially\r\n    local function deployNext(index)\r\n        if index \u003E #transportCargo then\r\n            printToAll(\u0022[b]All objects deployed.[/b]\u0022, Color.Yellow)\r\n            return\r\n        end\r\n\r\n        local item = transportCargo[index]\r\n        self.takeObject({\r\n            guid = item.guid,\r\n            position = item.pos,\r\n            rotation = item.rot,\r\n            smooth = false, -- Skip smooth placement to avoid physics issues\r\n            callback_function = function(spawnedObj)\r\n                if spawnedObj then\r\n                    spawnedObj.setLock(true) -- Temporarily lock object to disable physics\r\n                    spawnedObj.setPosition(item.pos)\r\n                    spawnedObj.setRotation(item.rot)\r\n                    spawnedObj.script_state = item.state -- Restore object state\r\n                else\r\n                    printToAll(\u0022Failed to deploy object with GUID: \u0022 .. item.guid, Color.Red)\r\n                end\r\n            end,\r\n        })\r\n\r\n        local placedObj\r\n        -- Wait for the object to settle before deploying the next\r\n        Wait.condition(function()\r\n            placedObj.setLock(item.locked)\r\n\r\n            deployNext(index \u002B 1)\r\n        end, function()\r\n            placedObj = getObjectFromGUID(item.guid)\r\n            return placedObj ~= nil and placedObj.resting and not placedObj.spawning and not placedObj.loading_custom\r\n        end)\r\n    end\r\n\r\n    -- Start deploying from the first item\r\n    deployNext(1)\r\nend\r\n\r\nfunction baselineExclusions()\r\n    excludeList = {}\r\n    for _, obj in ipairs(getObjects()) do\r\n        table.insert(excludeList, obj.guid)\r\n    end\r\nend\r\n\r\n-- Utility functions to save state persistently\r\nfunction onSave()\r\n    return JSON.encode({ transportedCargo = transportCargo, excludeList = excludeList })\r\nend\r\n\r\n-- Initializes the transport freighter on load or spawn\r\nfunction onLoad(saved_data)\r\n    local loadedCargo = JSON.decode(saved_data)\r\n    if loadedCargo then\r\n        transportCargo = loadedCargo.transportedCargo or {}\r\n        excludeList = loadedCargo.excludeList or { self.getGUID() }\r\n    end\r\n\r\n    local objInfo = self.getCustomObject()\r\n    if objInfo and objInfo.type == 6 then -- Type 6 corresponds to \u0022Bag\u0022\r\n        self.addContextMenuItem(\u0022Packup Game\u0022, packObjects, false)\r\n        self.addContextMenuItem(\u0022Deploy Game\u0022, deployObjects, false)\r\n        self.addContextMenuItem(\u0022Baseline Game Mod\u0022, baselineExclusions, false)\r\n\r\n        Wait.condition(\r\n            function() createFreighterButtons(self) end,\r\n            function() return self.resting and not self.spawning and not self.loading_custom end\r\n        )\r\n    else\r\n        self.addContextMenuItem(\u0022Convert To Freighter\u0022, createTransportFreighterBag, false)\r\n    end\r\nend\r\n\nend)\n__bundle_register(\u0022TTS_lib.Sequence.Sequence\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n--- @class Sequence\r\n--- A modular framework for managing and executing sequences of tasks in Lua.\r\n--- Provides functionality for step-by-step execution, waiting for conditions, and integration with plugins.\r\n--- @field steps   table[] Holds the sequence of steps (functions) to execute.\r\n--- @field result  any     The return value of the last task function or explicitly set by a step.\r\n--- @field ctx     table   User-defined space for storing intermediate data between steps.\r\n--- @field current number  Index of the current step in the sequence.\r\n--- @field plugins table   Table of registered plugins.\r\nlocal Sequence = {}\r\nSequence.__index = Sequence\r\n\r\n--- Creates a new Sequence instance.\r\n--- Optionally integrates default plugins if \u0060autoUsePlugins\u0060 is true.\r\n--- @param autoUsePlugins boolean: Whether to auto-use common plugins.\r\n--- @return Sequence: A new Sequence instance.\r\nfunction Sequence:new(autoUsePlugins)\r\n    local seq = setmetatable({ steps = {}, result = nil, ctx = {}, current = 0, plugins = {} }, Sequence)\r\n\r\n    if autoUsePlugins then\r\n        -- Automatically registers commonly used plugins.\r\n        seq:usePlugin(\u0022Click\u0022, require(\u0022TTS_lib.Sequence.ButtonClickPlugin\u0022))\r\n        seq:usePlugin(\u0022Cast\u0022, require(\u0022TTS_lib.Sequence.PhysicsCastPlugin\u0022))\r\n    end\r\n\r\n    return seq\r\nend\r\n\r\n--- Adds a new step to the sequence.\r\n--- Steps are functions that take the sequence instance (\u0060seq\u0060) as their first argument.\r\n--- They are responsible for their own control flow, including assigning \u0060seq.result\u0060 and calling \u0060seq:next()\u0060.\r\n--- @param step function: The function to execute as a step.\r\n--- @param ... any: Additional arguments to pass to the step.\r\nfunction Sequence:addStep(step, ...)\r\n    assert(type(step) == \u0022function\u0022, \u0022Expected a function for step, got \u0022 .. tostring(step))\r\n    assert(getmetatable(self) == Sequence, \u0022addStep must be called on a Sequence instance.\u0022)\r\n    table.insert(self.steps, { func = step, args = { ... } }) -- Stores the step and its arguments.\r\nend\r\n\r\n--- Adds a task to the sequence that automatically progresses after execution.\r\n--- Tasks differ from steps in that they do not take \u0060seq\u0060 as an argument and automatically advance the sequence after execution.\r\n--- Tasks return values that are automatically assigned to \u0060seq.result\u0060.\r\n--- @param task function: The task function to execute.\r\n--- @param ... any: Additional arguments to pass to the task.\r\nfunction Sequence:addTask(task, ...)\r\n    assert(type(task) == \u0022function\u0022, \u0022Expected a function for task, got \u0022 .. tostring(task))\r\n    self:addStep(function(seq, ...)\r\n        seq.result = task(...) -- Executes the task and assigns its return value to seq.result.\r\n        seq:next()             -- Automatically progresses the sequence after the task completes.\r\n    end, ...)\r\nend\r\n\r\n--- Advances the sequence to the next step.\r\n--- Executes the current task or step, storing the result in \u0060seq.result\u0060 if applicable.\r\n--- Steps handle their own control flow explicitly, while tasks are automatically progressed.\r\n--- @usage seq:next()\r\nfunction Sequence:next()\r\n    if self.current \u003C= #self.steps then\r\n        local step = self.steps[self.current]    -- Fetches the current step.\r\n        self.current = self.current \u002B 1          -- Moves to the next step.\r\n        step.func(self, table.unpack(step.args)) -- Executes the step and stores the result.\r\n    end\r\nend\r\n\r\n--- Starts the sequence from the beginning.\r\n--- Resets the sequence and begins execution from the first step.\r\nfunction Sequence:start()\r\n    self.current = 1 -- Resets to the first step.\r\n    self:next()      -- Starts execution.\r\nend\r\n\r\n--- Adds a step that waits for a condition to be met before progressing.\r\n--- @param runFunc function | nil: A function to execute once the condition is met. (nilable)\r\n--- @param conditionFunc function: The condition function to evaluate.\r\n--- @param timeoutSecs number?: The maximum time to wait for the condition (optional).\r\n--- @param timeoutFunc function?: A function to execute if the condition times out (optional).\r\nfunction Sequence:waitCondition(runFunc, conditionFunc, timeoutSecs, timeoutFunc)\r\n    self:addStep(function(seq)\r\n        Wait.condition(function()\r\n            if runFunc then\r\n                runFunc() -- Executes a function once the condition is met.\r\n            end\r\n            seq:next()    -- Advances the sequence.\r\n        end, conditionFunc, timeoutSecs, timeoutFunc)\r\n    end)\r\nend\r\n\r\n--- Adds a step that waits for a specific number of frames before progressing.\r\n--- Accepts either:\r\n---   - A number (frames to wait), or\r\n---   - A function (callback(seq) to execute after default frames).\r\n--- @param arg1 number|function: Frames or callback function.\r\n--- @param arg2 number?: Frames to wait if \u0060arg1\u0060 is a callback.\r\nfunction Sequence:waitFrames(arg1, arg2)\r\n    local callback = nil\r\n    local frames = nil\r\n\r\n    if type(arg1) == \u0022function\u0022 then\r\n        callback = arg1\r\n        frames = arg2 or 1 -- Default to 1 frame if no frames are specified\r\n    elseif type(arg1) == \u0022number\u0022 then\r\n        callback = nil\r\n        frames = arg1\r\n    else\r\n        error(\u0022Invalid argument for waitFrames: Expected number or function.\u0022)\r\n    end\r\n\r\n    self:addStep(function(seq)\r\n        Wait.frames(function()\r\n            if callback then\r\n                callback(seq) -- Execute the user-defined function\r\n            end\r\n            seq:next() -- Proceed to the next step in the sequence\r\n        end, frames)\r\n    end)\r\nend\r\n\r\n--- Integrates a plugin with the sequence, making its methods callable within the sequence.\r\n--- @param name string: The name of the plugin.\r\n--- @param plugin table: A table containing plugin methods.\r\nfunction Sequence:usePlugin(name, plugin)\r\n    assert(type(plugin) == \u0022table\u0022, \u0022Plugin must be a table or a valid module name.\u0022)\r\n    self.plugins[name] = plugin\r\n    for method, func in pairs(plugin) do\r\n        assert(type(method) == \u0022string\u0022 and type(func) == \u0022function\u0022, \u0022Invalid plugin format.\u0022)\r\n        -- Wraps plugin methods to integrate seamlessly into the sequence.\r\n        self[method] = function(self, ...)\r\n            self:addStep(func, ...)\r\n        end\r\n    end\r\nend\r\n\r\n--- A reusable no-operation sequence instance for testing or placeholders.\r\nSequence.NoSeq = Sequence:new(false)\r\n\r\nreturn Sequence\r\n\nend)\n__bundle_register(\u0022TTS_lib.Sequence.PhysicsCastPlugin\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal ObjectContainer = require(\u0022TTS_lib.Sequence.ObjectContainer\u0022)\r\n\r\n---@class PhysicsCastPlugin\r\n---A plugin for performing physics-based casting and filtering using ObjectContainer.\r\n---Integrates with the Sequence framework to allow casting operations within sequences.\r\nlocal PhysicsCastPlugin = {}\r\n\r\n-- Define a static empty ObjectContainer instance\r\nlocal Empty = ObjectContainer:new({})\r\n\r\n--- Performs a physics cast and filters the results.\r\n--- Results are stored in \u0060seq.result\u0060 as an ObjectContainer.\r\n--- @param seq Sequence: The current sequence instance.\r\n--- @param castParams table: Parameters for the Physics.cast operation.\r\n--- @param filterFunc? function: A filter function to determine which objects to include (optional).\r\nfunction PhysicsCastPlugin.physicsCast(seq, castParams, filterFunc)\r\n    assert(type(castParams) == \u0022table\u0022, \u0022castParams must be a table.\u0022)\r\n    filterFunc = filterFunc or function() return true end -- Default no-op filter\r\n\r\n    -- Use ObjectContainer for casting and fallback to the static empty instance\r\n    seq.result = ObjectContainer:fromCast(castParams, filterFunc) or Empty\r\n    seq:next() -- Advance the sequence\r\nend\r\n\r\nreturn PhysicsCastPlugin\r\n\nend)\n__bundle_register(\u0022TTS_lib.Sequence.ObjectContainer\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal ObjectContainer = {}\r\nObjectContainer.__index = ObjectContainer\r\n\r\nfunction ObjectContainer:new(objects)\r\n    return setmetatable({ objects = objects or {} }, ObjectContainer)\r\nend\r\n\r\nfunction ObjectContainer:add(object)\r\n    table.insert(self.objects, object)\r\nend\r\n\r\nfunction ObjectContainer:remove(object)\r\n    for i, obj in ipairs(self.objects) do\r\n        if obj == object then\r\n            table.remove(self.objects, i)\r\n            return\r\n        end\r\n    end\r\nend\r\n\r\nfunction ObjectContainer:getObjects()\r\n    return self.objects\r\nend\r\n\r\nfunction ObjectContainer:filter(predicate)\r\n    local filtered = {}\r\n    for _, obj in ipairs(self.objects) do\r\n        if predicate(obj) then\r\n            table.insert(filtered, obj)\r\n        end\r\n    end\r\n    return ObjectContainer:new(filtered)\r\nend\r\n\r\nfunction ObjectContainer:all(predicate)\r\n    for _, obj in ipairs(self.objects) do\r\n        if not predicate(obj) then\r\n            return false\r\n        end\r\n    end\r\n    return true\r\nend\r\n\r\nfunction ObjectContainer:allAtRest()\r\n    return self:all(function(obj)\r\n        return not obj.isSmoothMoving() and obj.resting and not obj.spawning\r\n    end)\r\nend\r\n\r\nfunction ObjectContainer:move(offset)\r\n    for _, obj in ipairs(self.objects) do\r\n        local newPosition = obj.getPosition() \u002B offset\r\n        obj.setPositionSmooth(newPosition)\r\n    end\r\nend\r\n\r\nfunction ObjectContainer:fromCast(castParams, filterFunc)\r\n    assert(type(castParams) == \u0022table\u0022, \u0022castParams must be a table.\u0022)\r\n    filterFunc = filterFunc or function() return true end\r\n\r\n    local castResult = Physics.cast(castParams)\r\n    local objects = {}\r\n    for _, hit in ipairs(castResult) do\r\n        local obj = hit.hit_object\r\n        if filterFunc(obj) then\r\n            table.insert(objects, obj)\r\n        end\r\n    end\r\n    return ObjectContainer:new(objects)\r\nend\r\n\r\nfunction ObjectContainer:forEach(callback)\r\n    for _, obj in ipairs(self.objects or {}) do\r\n        callback(obj)\r\n    end\r\nend\r\n\r\nfunction ObjectContainer:count()\r\n    return #self.objects\r\nend\r\n\r\n-- Metamethod to automatically use tostring in string concatenation\r\nfunction ObjectContainer:__tostring()\r\n    local objectNames = {}\r\n    for _, obj in ipairs(self.objects) do\r\n        table.insert(objectNames, obj.getName and obj:getName() or tostring(obj))\r\n    end\r\n    return \u0022ObjectContainer: [\u0022 .. table.concat(objectNames, \u0022, \u0022) .. \u0022]\u0022\r\nend\r\n\r\n-- Enable string concatenation with ObjectContainer\r\nfunction ObjectContainer:__concat(other)\r\n    return tostring(self) .. tostring(other)\r\nend\r\n\r\nreturn ObjectContainer\r\n\nend)\n__bundle_register(\u0022TTS_lib.Sequence.ButtonClickPlugin\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n---@class ButtonClickPlugin\r\n--- A plugin to simulate button clicks in Tabletop Simulator.\r\n--- Allows for automated button interactions as part of a sequence.\r\n\r\n--- Warning: Argument passing to a button\u0027s click_function is treated as a table of values.\r\n--- This behavior differs from expected direct argument passing.\r\n--- Some modification may be necessary to detect individual arguments versus a table of arguments.\r\n\r\nlocal ButtonClickPlugin = {}\r\n\r\n--- Simulates a button click on an object by searching for a button with a specific label pattern.\r\n--- If a matching button is found, it triggers the button\u0027s \u0060click_function\u0060 with the provided parameters.\r\n--- @param seq Sequence The Sequence instance managing the flow of operations.\r\n--- @param host_obj table The object hosting the buttons to be clicked.\r\n--- @param label_pattern string The pattern to match against button labels.\r\n--- @param player_color string The player\u0027s color initiating the click.\r\n--- @param alternate_key boolean|nil Optional alternate key for the button click.\r\nfunction ButtonClickPlugin.clickButton(seq, host_obj, label_pattern, player_color, alternate_key)\r\n    assert(host_obj, \u0022Host object is nil in clickButton().\u0022)\r\n    assert(type(label_pattern) == \u0022string\u0022, \u0022Label pattern must be a string.\u0022)\r\n\r\n    local function findButton(obj, pattern)\r\n        for _, button in ipairs(obj.getButtons() or {}) do\r\n            if string.match(button.label, pattern) then\r\n                return button\r\n            end\r\n        end\r\n        return nil\r\n    end\r\n\r\n    local button = nil\r\n\r\n    Wait.condition(function()\r\n        if button ~= nil then\r\n            host_obj.call(button.click_function, { host_obj, player_color, alternate_key })\r\n        end\r\n        seq:next()\r\n    end, function()\r\n        button = findButton(host_obj, label_pattern)\r\n        return button ~= nil and (not button.spawning)\r\n    end, 4.0)\r\nend\r\n\r\nreturn ButtonClickPlugin\r\n\nend)\n__bundle_register(\u0022TTS_lib.Util.Table\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n-- Check if table is empty\r\nif not table.empty then\r\n    table.empty = function(tab)\r\n        return (next(tab or {}) == nil)\r\n    end\r\nend\r\n\r\n-- Utility function to check if a table contains an object based on a comparison function\r\nif not table.contains then\r\n    table.contains = function(tbl, needle, compareFunc)\r\n        return table.find(tbl, needle, compareFunc) ~= nil\r\n    end\r\nend\r\n\r\n-- Mash together two tables\r\nif not table.join then\r\n    table.join = function(tab1, tab2)\r\n        local out = {}\r\n        for k = 1, #tab1 do\r\n            out[k] = tab1[k]\r\n        end\r\n        local off = #tab1\r\n        for k = 1, #tab2 do\r\n            out[k \u002B off] = tab2[k]\r\n        end\r\n        return out\r\n    end\r\nend\r\n\r\nif not table.join_sparse then\r\n    table.join_sparse = function(tab1, tab2)\r\n        local out = {}\r\n        for k, val in pairs(tab1) do\r\n            out[k] = val\r\n        end\r\n        for k, val in pairs(tab2) do\r\n            out[k] = val\r\n        end\r\n        return out\r\n    end\r\nend\r\n\r\n-- Shallow table copy\r\n-- Does not include metatables\r\nif not table.shallowcopy then\r\n    table.shallowcopy = function(orig)\r\n        local orig_type = type(orig)\r\n        local copy = nil\r\n        if orig_type == \u0027table\u0027 then\r\n            copy = {}\r\n            for orig_key, orig_value in pairs(orig) do\r\n                copy[orig_key] = orig_value\r\n            end\r\n        else\r\n            copy = orig\r\n        end\r\n        return copy\r\n    end\r\nend\r\n\r\n-- Deep table copy\r\n-- Includes metatables, avoids __pairs, recursive\r\nif not table.deepcopy then\r\n    table.deepcopy = function(orig)\r\n        local orig_type = type(orig)\r\n        local copy = nil\r\n        if orig_type == \u0027table\u0027 then\r\n            copy = {}\r\n            for orig_key, orig_value in next, orig, nil do\r\n                copy[table.deepcopy(orig_key)] = table.deepcopy(orig_value)\r\n            end\r\n            if getmetatable(orig) then\r\n                setmetatable(copy, table.deepcopy(getmetatable(orig)))\r\n            end\r\n        else\r\n            copy = orig\r\n        end\r\n        return copy\r\n    end\r\nend\r\n\r\n-- Elements count\r\n-- Unlike #table, also counts non-number keyed values\r\nif not table.size then\r\n    table.size = function(tab)\r\n        local count = 0\r\n        for _ in pairs(tab) do\r\n            count = count \u002B 1\r\n        end\r\n        return count\r\n    end\r\nend\r\n\r\n-- Return the element that return minimal value from eval function\r\n-- Only iterates through numeric keys part\r\nif not table.min then\r\n    table.min = function(tab, eval)\r\n        if not tab[1] then\r\n            return\r\n        end\r\n        local min = { el = tab[1], val = eval(tab[1]) }\r\n        for k = 2, #tab do\r\n            local val = eval(tab[k])\r\n            if val \u003C min.val then\r\n                min.val = val\r\n                min.el = tab[k]\r\n            end\r\n        end\r\n        return min.el, min.val\r\n    end\r\nend\r\n\r\n-- Same as table.min, but takes the maximum\r\nif not table.max then\r\n    table.max = function(tab, eval)\r\n        local function invEval(el)\r\n            return -1 * eval(el)\r\n        end\r\n        local el, min = table.min(tab, invEval)\r\n        return el, -1 * min\r\n    end\r\nend\r\n\r\n-- Return those values in tab that return true from valid function\r\nif not table.sieve then\r\n    table.sieve = function(tab, valid)\r\n        local passed = {}\r\n        local rejected = {}\r\n        for k, v in ipairs(tab) do\r\n            if valid(v) then\r\n                if type(k) == \u0027number\u0027 then\r\n                    table.insert(passed, v)\r\n                else\r\n                    passed[k] = v\r\n                end\r\n            else\r\n                if type(k) == \u0027number\u0027 then\r\n                    table.insert(rejected, v)\r\n                else\r\n                    rejected[k] = v\r\n                end\r\n            end\r\n        end\r\n        return passed, rejected\r\n    end\r\nend\r\n\r\n-- Try to find en element in the table, return key if found, nil otherwise\r\n-- added compareFunc which can expect up to 4 parameters: (value, needle, key, table)\r\nif not table.find then\r\n    table.find = function(tbl, needle, compareFunc)\r\n        local cmp = compareFunc or function(a, b)\r\n            return a == b\r\n        end\r\n        for k, v in pairs(tbl) do\r\n            if cmp(v, needle, k, tbl) then\r\n                return k\r\n            end\r\n        end\r\n        return nil\r\n    end\r\nend\r\n\r\n-- Shallow table print\r\nif not table.print then\r\n    table.print = function(tab, prefix)\r\n        prefix = prefix or \u0027Table\u0027\r\n        print(prefix .. \u0027:\u0027)\r\n        local function stringify(v)\r\n            local str = tostring(v)\r\n            if type(v) == \u0027string\u0027 then\r\n                str = \u0027\\\u0027\u0027 .. str .. \u0027\\\u0027\u0027\r\n            end\r\n            return str\r\n        end\r\n        for k, v in pairs(tab) do\r\n            print(\u0027   [\u0027 .. stringify(k) .. \u0027] -\u003E \u0027 .. stringify(v))\r\n        end\r\n        print(\u0027\u0027)\r\n    end\r\nend\r\n\r\n-- Deep table print (sensitive to cycles!)\r\nif not table.print_r then\r\n    table.print_r = function(tab, prefix, indent)\r\n        prefix = prefix or \u0027Table\u0027\r\n        local indent = indent or 1\r\n        print(prefix .. \u0027:\u0027)\r\n        local function stringify(v)\r\n            local str = tostring(v)\r\n            if type(v) == \u0027string\u0027 then\r\n                str = \u0027\\\u0027\u0027 .. str .. \u0027\\\u0027\u0027\r\n            end\r\n            return str\r\n        end\r\n        local indentStr = string.rep(\u0027    \u0027, indent)\r\n        for k, v in pairs(tab) do\r\n            print(indentStr .. \u0027[\u0027 .. stringify(k) .. \u0027] -\u003E \u0027 .. stringify(v))\r\n            if type(v) == \u0027table\u0027 then\r\n                table.print_r(v, indentStr .. stringify(v), indent \u002B 1)\r\n            end\r\n        end\r\n        if indent == 1 then\r\n            print(\u0027\u0027)\r\n        end\r\n    end\r\nend\r\n\r\n-- Apply a function on each table element\r\nif not table.process then\r\n    table.process = function(tab, fcn)\r\n        local out = {}\r\n        for k, v in pairs(tab) do\r\n            out[k] = fcn(v)\r\n        end\r\n        return out\r\n    end\r\nend\r\n\r\n-- Returns a copy of a table with the elements in a random order.\r\nif not table.shuffle then\r\n    table.shuffle = function(tab)\r\n        local shuffled_table = {}\r\n        for i = 1, #tab do\r\n            shuffled_table[i] = tab[i]\r\n        end\r\n        for i = #shuffled_table, 2, -1 do\r\n            local j = math.random(i)\r\n            shuffled_table[i], shuffled_table[j] = shuffled_table[j], shuffled_table[i]\r\n        end\r\n        return shuffled_table\r\n    end\r\nend\r\n\r\nif not table.index_of then\r\n    table.index_of = function(tab, el)\r\n        for i, v in ipairs(tab) do\r\n            if v == el then\r\n                return i\r\n            end\r\n        end\r\n        return nil\r\n    end\r\nend\r\n\r\nreturn table\r\n\nend)\nreturn __bundle_require(\u0022Transport Freighter.e12a0c.lua\u0022)",
+  "LuaScriptState": "{\u0022excludeList\u0022:[\u00221d0c48\u0022,\u00223d90c5\u0022,\u002253ad3d\u0022,\u0022e76065\u0022,\u0022cad233\u0022,\u0022a76c4f\u0022,\u00225a92c4\u0022,\u0022c9a7f6\u0022,\u0022b5f9c9\u0022,\u0022e76836\u0022,\u0022a4dbbf\u0022,\u00228c8331\u0022,\u0022b3ae5f\u0022,\u00222ef5bb\u0022,\u0022fde52b\u0022,\u00223d63d2\u0022,\u0022be075b\u0022,\u0022ef77a3\u0022,\u0022191bcf\u0022,\u00220facc3\u0022,\u0022637ad7\u0022,\u0022d81b3d\u0022,\u00220e80e3\u0022,\u00225ff1ea\u0022,\u00225e6a99\u0022,\u00224edff9\u0022,\u00228aec47\u0022,\u0022747d61\u0022,\u00223bac58\u0022,\u0022521a6a\u0022,\u0022065d51\u0022,\u0022f8f07c\u0022,\u0022b3992e\u0022,\u002298b1bf\u0022,\u0022b8caf9\u0022,\u002275be06\u0022,\u0022a4e041\u0022,\u00227f035a\u0022,\u0022bd3d1a\u0022,\u002251ebe0\u0022,\u002200e7dc\u0022,\u00229ae5cb\u0022,\u0022405ab7\u0022,\u0022c19b69\u0022,\u002226957c\u0022,\u00224d5ffb\u0022,\u00227e4108\u0022,\u00221dc80f\u0022,\u00222980ac\u0022,\u0022aa6531\u0022,\u0022bf91d5\u0022,\u00220f08d4\u0022,\u00227e3b54\u0022,\u002268df70\u0022,\u0022a50db2\u0022,\u0022d43c5c\u0022,\u002216e138\u0022,\u002237932a\u0022,\u0022252512\u0022,\u002264f4d8\u0022,\u00228b1614\u0022,\u0022688e04\u0022,\u0022c70f83\u0022,\u0022b75e09\u0022,\u0022568727\u0022,\u00222abb81\u0022,\u00222d8850\u0022,\u00229851b8\u0022,\u00223d8a79\u0022,\u0022f99d52\u0022,\u0022ae62df\u0022,\u002236ae82\u0022,\u0022f5a488\u0022,\u0022900937\u0022,\u0022eaca1b\u0022,\u00228d45a9\u0022,\u00229611d6\u0022,\u0022339681\u0022,\u002295141a\u0022,\u00225806cd\u0022,\u0022e1c2fa\u0022,\u0022765252\u0022,\u0022717749\u0022,\u002207d45b\u0022,\u0022224816\u0022,\u0022ebb247\u0022,\u00224f88fa\u0022,\u00222bca1d\u0022,\u00229d500c\u0022,\u002261784f\u0022,\u00227d52df\u0022,\u0022940e76\u0022,\u0022961d4e\u0022,\u0022fea3d1\u0022,\u0022637366\u0022,\u0022203cb8\u0022,\u0022aae8f1\u0022,\u0022f0e7b9\u0022,\u0022d9a9fa\u0022,\u0022edbe72\u0022,\u0022e51a16\u0022,\u00228a49f4\u0022,\u0022fab25d\u0022,\u00227ca037\u0022,\u0022d458e4\u0022,\u00223279a8\u0022,\u0022463dd8\u0022,\u002205d16e\u0022,\u00229c1c58\u0022,\u00220ab824\u0022,\u0022ac9104\u0022,\u0022ed1a41\u0022,\u0022ad6b64\u0022,\u00229b8faf\u0022,\u00226c59d6\u0022,\u00220c4ffb\u0022,\u0022f8a85b\u0022,\u0022ce0e09\u0022,\u0022e77d03\u0022,\u002285f1b7\u0022,\u00229500ad\u0022,\u0022c43087\u0022,\u0022af6cec\u0022,\u002258600e\u0022,\u0022e9b60d\u0022,\u0022f645b4\u0022,\u0022bef52a\u0022,\u002283259b\u0022,\u0022287b6c\u0022,\u002242a219\u0022,\u002283cbc5\u0022,\u002281ace1\u0022,\u00223d426e\u0022,\u0022a3690e\u0022,\u0022b894d3\u0022,\u00222bb60c\u0022,\u002250b26f\u0022,\u00228c3322\u0022,\u0022ffb783\u0022,\u002261f0f8\u0022,\u002248b65d\u0022,\u0022c9a2a0\u0022,\u00225972ec\u0022,\u0022224031\u0022,\u0022b6e5b4\u0022,\u0022c87904\u0022,\u00225500bc\u0022,\u00220086b9\u0022,\u002276113a\u0022,\u0022a80cf0\u0022,\u0022d86321\u0022,\u0022fc2873\u0022,\u00224782b4\u0022,\u0022c9ff68\u0022,\u00220db84a\u0022,\u0022f735e4\u0022,\u0022514812\u0022,\u0022ab7dfe\u0022,\u002279e109\u0022,\u0022e9edec\u0022,\u0022beb551\u0022,\u0022f7e221\u0022,\u00229ca8c6\u0022,\u00229f7b9b\u0022,\u0022a1b5aa\u0022,\u002276d9c3\u0022,\u0022d6abdf\u0022,\u0022e29e4d\u0022,\u00220c942d\u0022,\u00228be36e\u0022,\u0022c17c62\u0022,\u0022d9c34f\u0022,\u0022e07cf9\u0022,\u002216a93a\u0022,\u0022ff701b\u0022,\u0022f70e27\u0022,\u00220195c8\u0022,\u0022d60086\u0022,\u0022fbcff5\u0022,\u0022fd49ed\u0022,\u00227d570b\u0022,\u0022ecd40f\u0022,\u00229ebb2f\u0022,\u0022e12a0c\u0022,\u00226dc3d5\u0022,\u00223d22cd\u0022,\u0022251205\u0022],\u0022transportedCargo\u0022:[]}",
+  "XmlUI": "\u003CPanel id=\u0022Plate\u0022\n    active=\u0022true\u0022\n    width=\u0022230\u0022\n    height=\u0022230\u0022\n    position=\u00220 0 -15\u0022\n    rotation=\u0022180 180 0\u0022\n    color=\u0022#aaffaa00\u0022\u003E\n\n  \u003C!-- large = \u0022-180 -152 0\u0022, --\u003E\n    \u003CImage id=\u0022InitiativeIcon\u0022 image=\u0022init0\u0022  position=\u0022-180 -152 0\u0022 height=\u002230\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022ShipIcon\u0022 image=\u0022fangfighter\u0022  position=\u0022180 -152 0\u0022 height=\u002230\u0022  preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n\n    \u003CText id=\u0022Name\u0022 font=\u0022font/Bank Gothic Light Regular\u0022 position=\u00220 -198 0\u0022  height=\u002230\u0022  fontSize=\u002216\u0022 color=\u0022#FFFFFF\u0022\u003EHotAC Transfer Freighter\u003C/Text\u003E\n\u003C/Panel\u003E",
+  "CustomUIAssets": [
+    {
+      "Type": 0,
+      "Name": "fangfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/fangfighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init4",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/4.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init5",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/5.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init0",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/0.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init1",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/1.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init2",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/2.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init3",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/3.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init6",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/6.png"
+    },
+    {
+      "Type": 0,
+      "Name": "init7",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/init/7.png"
+    },
+    {
+      "Type": 0,
+      "Name": "gauntletfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/gauntletfighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tielnfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tielnfighter/tielnicon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "st70assaultship",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/st70assaultship/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "bff1",
+      "URL": "{verifycache}https://raw.githubusercontent.com/evilcoleslaw/Flight-Group-Alpha/main/BFF-1/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "vt49decimator",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/vt49decimator/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiecapunisher",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/tiecapunisher/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tierbheavy",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/tierbheavy/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tierereaper",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/tierereaper/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tieadvancedx1",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedx1/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tieadvancedv1",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieadvancedv1/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tieagaggressor",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieagaggressor/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiededefender",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiededefender/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiephphantom",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiephphantom/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "modifiedyt1300lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "starviperclassattackplatform",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/starviperclassattackplatform/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "scurrgh6bomber",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/scurrgh6bomber/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "yt2400lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/yt2400lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "auzituckgunship",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/auzituckgunship/Auzituck.png"
+    },
+    {
+      "Type": 0,
+      "Name": "kihraxzfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/kihraxzfighter/khiraxz.png"
+    },
+    {
+      "Type": 0,
+      "Name": "sheathipedeclassshuttle",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede.png"
+    },
+    {
+      "Type": 0,
+      "Name": "quadrijettransferspacetug",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.png"
+    },
+    {
+      "Type": 0,
+      "Name": "firesprayclasspatrolcraft",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/firesprayclasspatrolcraft/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "btla4ywing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btla4ywing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "alphaclassstarwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/alphaclassstarwing/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "ut60duwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/ut60duwing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tieskstriker",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieskstriker/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiesabomber",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiesabomber/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "aggressorassaultfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/aggressorassaultfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "g1astarfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/g1astarfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "vcx100lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/vcx100lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "yv666lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/yv666lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "btls8kwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/btls8kwing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "arc170starfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/arc170starfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "attackshuttle",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/attackshuttle/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "t65xwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/t65xwing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "hwk290lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/hwk290lightfreighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "rz1awing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/rz1awing/rz1_awing.png"
+    },
+    {
+      "Type": 0,
+      "Name": "z95af4headhunter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/z95af4headhunter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "m12lkimogilafighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/m12lkimogilafighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "ewing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/ewing/ewing.png"
+    },
+    {
+      "Type": 0,
+      "Name": "lancerclasspursuitcraft",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/lancerclasspursuitcraft/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "m3ainterceptor",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/m3ainterceptor/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "jumpmaster5000",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/jumpmaster5000/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "customizedyt1300lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/customizedyt1300lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "escapecraft",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/escapecraft/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiefofighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiefofighter/Tie_FO.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiesffighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiesffighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "upsilonclasscommandshuttle",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tievnsilencer",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tievnsilencer/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "t70xwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/t70xwing/t70.png"
+    },
+    {
+      "Type": 0,
+      "Name": "rz2awing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/rz2awing/rz2_awing.png"
+    },
+    {
+      "Type": 0,
+      "Name": "mg100starfortress",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/mg100starfortress/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "modifiedtielnfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/modifiedtielnfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "scavengedyt1300lightfreighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/scavengedyt1300lightfreighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "delta7aethersprite",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/delta7aethersprite/Delta7.png"
+    },
+    {
+      "Type": 0,
+      "Name": "delta7baethersprite",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/delta7aethersprite/Delta7b.png"
+    },
+    {
+      "Type": 0,
+      "Name": "v19torrentstarfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/v19torrentstarfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "vultureclassdroidfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/vultureclassdroidfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "belbulab22starfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/belbulab22starfighter/Belbullab.png"
+    },
+    {
+      "Type": 0,
+      "Name": "sithinfiltrator",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/large/sithinfiltrator/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "resistancetransport",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/resistancetransport/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "resistancetransportpod",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/resistancetransportpod/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "hyenaclassdroidbomber",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/hyenaclassdroidbomber/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "nabooroyaln1starfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/nabooroyaln1starfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "nantexclassstarfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/nantexclassstarfighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "btlbywing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btlbywing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "fireball",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/fireball/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiebainterceptor",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiebainterceptor/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "nimbusclassvwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/nimbusclassvwing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "xiclasslightshuttle",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/xiclasslightshuttle/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "laatigunship",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/medium/laatigunship/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "hmpdroidgunship",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/hmpdroidgunship/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "eta2actis",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/eta2actis/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "droidtrifighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/droidtrifighter/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiewiwhispermodifiedinterceptor",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tiesebomber",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tiesebomber/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "btanr2ywing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/btanr2ywing/Icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "tieininterceptor",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/tieininterceptor/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "rogueclassstarfighter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/rogueclassstarfighter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "clonez95headhunter",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/clonez95headhunter/icon.png"
+    },
+    {
+      "Type": 0,
+      "Name": "asf01bwing",
+      "URL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/small/asf01bwing/icon.png"
+    },
+    {
+      "Type": 1,
+      "Name": "font",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/assetbundles/xwingfont.unity3d"
+    }
+  ],
+  "ChildObjects": [
+    {
+      "GUID": "8d6d75",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 0.99,
+        "scaleY": 0.98999995,
+        "scaleZ": 0.99
+      },
+      "Nickname": "ColorId",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/Base%20ID%20LAR.obj",
+        "DiffuseURL": "",
+        "NormalURL": "",
+        "ColliderURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/minisculebox.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "436b04",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 0.0,
+        "posZ": 0.0,
+        "rotX": -4.52398061E-14,
+        "rotY": 1.75006917E-05,
+        "rotZ": -7.633332E-14,
+        "scaleX": 0.99999994,
+        "scaleY": 0.9999999,
+        "scaleZ": 0.99999994
+      },
+      "Nickname": "Peg",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/pegs/large.obj",
+        "DiffuseURL": "{verifycache}https://raw.githubusercontent.com/evilcoleslaw/Flight-Group-Alpha/main/BFF-1/base_none_empire.png",
+        "NormalURL": "",
+        "ColliderURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/minisculebox.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6f3d5b",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 2.93197E-09,
+        "posY": 3.49761486,
+        "posZ": -3.354046E-10,
+        "rotX": -3.11377718E-15,
+        "rotY": 5.86135639E-06,
+        "rotZ": 3.180555E-14,
+        "scaleX": 1.00000024,
+        "scaleY": 0.9999999,
+        "scaleZ": 1.00000024
+      },
+      "Nickname": "Ship",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "{verifycache}https://raw.githubusercontent.com/evilcoleslaw/Flight-Group-Alpha/main/BFF-1/bff1.obj",
+        "DiffuseURL": "{verifycache}https://raw.githubusercontent.com/evilcoleslaw/Flight-Group-Alpha/main/BFF-1/bff1.jpg",
+        "NormalURL": "",
+        "ColliderURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/minisculebox.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.875,
+            "g": 0.812880337,
+            "b": 0.7463235
+          },
+          "SpecularIntensity": 0.05,
+          "SpecularSharpness": 4.0,
+          "FresnelStrength": 0.107142858
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}

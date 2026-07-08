@@ -1,0 +1,2003 @@
+﻿{
+  "GUID": "f0e7b9",
+  "Name": "Bag",
+  "Transform": {
+    "posX": -46.6022949,
+    "posY": -3.0,
+    "posZ": -15.5975933,
+    "rotX": 352.541473,
+    "rotY": 359.869568,
+    "rotZ": -0.00202290015,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Dice Bag",
+  "Description": "",
+  "GMNotes": "dicebag1",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.09798143,
+    "g": 0.09798143,
+    "b": 0.09798143
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": true,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": false,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "MaterialIndex": -1,
+  "MeshIndex": -1,
+  "Bag": {
+    "Order": 0
+  },
+  "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Dice Bag.f0e7b9.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Dice Bag.f0e7b9.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Component.Support.Surface\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Component.Support.Surface\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal setting = false\r\n\r\nfunction onLoad(save_state)\r\n    if save_state and save_state ~= \u0022\u0022 then\r\n        local loadedData = JSON.decode(save_state)\r\n        if loadedData then\r\n            setting = loadedData.setting\r\n        end\r\n    end\r\n    if setting == true then\r\n        surface()\r\n    else\r\n        submerge()\r\n    end\r\n    setupContextMenu()\r\nend\r\n\r\nfunction onSave()\r\n    saveData = {}\r\n    saveData.setting = setting\r\n    return JSON.encode(saveData)\r\nend\r\n\r\nfunction submerge()\r\n    local sPos = self.getPosition()\r\n    sPos.y = -3\r\n    self.setPosition(sPos)\r\n    self.interactable = false\r\n    self.tooltip = false\r\n    self.setLock(true)\r\nend\r\n\r\nfunction surface()\r\n    local sPos = self.getPosition()\r\n    sPos.y = 3\r\n    self.setPosition(sPos)\r\n    self.interactable = true\r\n    self.tooltip = true\r\n    self.setLock(true)\r\nend\r\n\r\nfunction setupContextMenu()\r\n    self.addContextMenuItem(\u0022Dump Scripted Items\u0022, dumpBag)\r\n    self.addContextMenuItem(\u0022Submerge\u0022, submerge)\r\nend\r\n\r\nfunction dumpBag()\r\n    local items = self.getObjects()\r\n    local position = self.getPosition()\r\n\r\n    position.x = position.x \u002B 10\r\n    position.z = position.z - 15\r\n    local count = 0\r\n    \r\n    for i = #items, 1, -1 do\r\n        local item = items[i]\r\n        if item.lua_script ~= \u0022\u0022 then\r\n            count = count \u002B 1\r\n            local spreadPos = {\r\n                x = position.x \u002B math.floor(count / 3) * 3.5,\r\n                y = position.y \u002B 1,\r\n                z = position.z \u002B (count % 3) * 3\r\n            }\r\n            \r\n            self.takeObject({\r\n                position = spreadPos,\r\n                index = i - 1,  -- Adjust index to current position in the array\r\n                smooth = false\r\n            })\r\n        end\r\n    end\r\nend\nend)\nreturn __bundle_require(\u0022Dice Bag.f0e7b9.lua\u0022)",
+  "LuaScriptState": "{\u0022setting\u0022:false}",
+  "XmlUI": "",
+  "ContainedObjects": [
+    {
+      "GUID": "836fce",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": -0.03,
+        "posY": 1.17000008,
+        "posZ": 1.49,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Defense Die",
+      "Description": "",
+      "GMNotes": "defBLACK1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Black%20Defence/BlackDefInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "cb4f5e",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -11.7402954,
+            "posY": 2.94992638,
+            "posZ": 14.0096493,
+            "rotX": 9.91304,
+            "rotY": 345.252777,
+            "rotZ": 119.672386,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Black%20Defence/BlackDef.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "efa41b",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.03,
+        "posY": 1.17000008,
+        "posZ": -1.72,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.00202350621,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Attack Die",
+      "Description": "",
+      "GMNotes": "atkBLACK1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Black%20Attack/BlackAtkInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "5c3446",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -16.3570766,
+            "posY": 2.96347713,
+            "posZ": 15.3253956,
+            "rotX": 338.213776,
+            "rotY": 57.3790474,
+            "rotZ": 77.291,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Black%20Attack/BlackAtk.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Red\u0022\ndiceValues = {\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\n    }\n\nfunction onNumberTyped(playerColor, number)\n    if not self.resting then\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\n    else\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\n    end\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "diceValues = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022}\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[number])\r\n    end\r\nend",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Crit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "038505",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": -0.03,
+        "posY": 1.17000008,
+        "posZ": 1.49,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Defense Die",
+      "Description": "",
+      "GMNotes": "defWHITE1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/White%20Defence/WhiteDefInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "a562d1",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -9.565291,
+            "posY": 2.95684648,
+            "posZ": 11.1091747,
+            "rotX": 78.28262,
+            "rotY": 51.1056976,
+            "rotZ": 266.129456,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/White%20Defence/WhiteDef.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "5502f9",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.03,
+        "posY": 1.17000008,
+        "posZ": -1.72,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Attack Die",
+      "Description": "",
+      "GMNotes": "atkWHITE1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/White%20Attack/WhiteAtkInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "a31bc6",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -16.8096485,
+            "posY": 2.93198,
+            "posZ": 14.5460806,
+            "rotX": 21.31293,
+            "rotY": 197.44017,
+            "rotZ": 212.910065,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/White%20Attack/WhiteAtk.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Red\u0022\ndiceValues = {\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\n    }\n\nfunction onNumberTyped(playerColor, number)\n    if not self.resting then\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\n    else\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\n    end\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "diceValues = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022}\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[number])\r\n    end\r\nend",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Crit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "97864c",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": -0.03,
+        "posY": 1.17000008,
+        "posZ": 1.49,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Defense Die",
+      "Description": "",
+      "GMNotes": "defSILVER1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Silver%20Defence/SilverDefInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "d5630d",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -9.440332,
+            "posY": 2.97292352,
+            "posZ": 10.6628466,
+            "rotX": 13.3759842,
+            "rotY": 344.854919,
+            "rotZ": 119.256813,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Silver%20Defence/SilverDef.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "e1f548",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.03,
+        "posY": 1.17000008,
+        "posZ": -1.72,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Attack Die",
+      "Description": "",
+      "GMNotes": "atkGOLD1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Gold%20Attack/GoldAtkInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "cd57df",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -14.0096931,
+            "posY": 2.958176,
+            "posZ": 16.7238216,
+            "rotX": 359.31897,
+            "rotY": 86.58306,
+            "rotZ": 313.651581,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Gold%20Attack/GoldAtk.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Red\u0022\ndiceValues = {\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\n    }\n\nfunction onNumberTyped(playerColor, number)\n    if not self.resting then\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\n    else\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\n    end\nend\n\n",
+          "LuaScriptState": "",
+          "XmlUI": "diceValues = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022}\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[number])\r\n    end\r\nend",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Crit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "1b7f44",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.03,
+        "posY": 1.17000008,
+        "posZ": -1.72,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Attack Die",
+      "Description": "",
+      "GMNotes": "atkSPARKLY1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Glitter%20Attack/RedGliterAtkInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "172e66",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -16.8333549,
+            "posY": 3.04332757,
+            "posZ": 14.8117857,
+            "rotX": 357.7797,
+            "rotY": 223.37178,
+            "rotZ": 125.271683,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Glitter%20Attack/RedGliterAtk.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Red\u0022\ndiceValues = {\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\n    }\n\nfunction onNumberTyped(playerColor, number)\n    if not self.resting then\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\n    else\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\n    end\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "diceValues = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022}\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[number])\r\n    end\r\nend",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Crit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "04f463",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": -0.03,
+        "posY": 1.17000008,
+        "posZ": 1.49,
+        "rotX": 352.541473,
+        "rotY": 359.869537,
+        "rotZ": -0.002023503,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Defense Die",
+      "Description": "",
+      "GMNotes": "defSPARKLY1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Glitter%20Defence/GreenGlitterDefInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "cfdcc8",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -13.533432,
+            "posY": 2.97019029,
+            "posZ": 16.76577,
+            "rotX": 339.512115,
+            "rotY": 138.507309,
+            "rotZ": 177.773972,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Glitter%20Defence/GreenGlitterDef.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "ba8f5c",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.08,
+        "posZ": 1.53,
+        "rotX": 90.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Defense Die",
+      "Description": "",
+      "GMNotes": "defMARBLE1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Marbled%20Defence/MarbledDefInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "1e5911",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -11.2488928,
+            "posY": 2.95776939,
+            "posZ": 15.5421257,
+            "rotX": 17.997694,
+            "rotY": 307.000122,
+            "rotZ": 81.29775,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Defence%20Dice/Marbled%20Defence/MarbledDef.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Green\u0022\r\ndiceValues = {\r\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\r\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\r\n    }\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\r\n    end\r\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Evade",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GUID": "5baa83",
+      "Name": "Custom_Model_Infinite_Bag",
+      "Transform": {
+        "posX": 0.0,
+        "posY": 1.08,
+        "posZ": -1.67,
+        "rotX": 1.70754738E-05,
+        "rotY": 90.0,
+        "rotZ": 90.0,
+        "scaleX": 3.0,
+        "scaleY": 3.0,
+        "scaleZ": 3.0
+      },
+      "Nickname": "X-Wing Attack Die",
+      "Description": "",
+      "GMNotes": "atkMARBLE1",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": -1,
+      "MeshIndex": -1,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/InfiniteDice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Marbled%20Attack/MarbledAtkInfinite.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/d8.obj",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 7,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "05a309",
+          "Name": "Custom_Dice",
+          "Transform": {
+            "posX": -13.5693464,
+            "posY": 2.96824622,
+            "posZ": 15.4531212,
+            "rotX": 358.743317,
+            "rotY": 5.34584141,
+            "rotZ": 138.172592,
+            "scaleX": 1.52400017,
+            "scaleY": 1.52400017,
+            "scaleZ": 1.52400017
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "AltLookAngle": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Tags": [
+            "DiceControl"
+          ],
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomImage": {
+            "ImageURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/textures/Dice/Attack%20Dice/Marbled%20Attack/MarbledAtk.jpg",
+            "ImageSecondaryURL": "",
+            "ImageScalar": 1.0,
+            "WidthScale": 0.0,
+            "CustomDice": {
+              "Type": 2
+            }
+          },
+          "LuaScript": "dicecolor = \u0022Red\u0022\ndiceValues = {\n        Red = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022},\n        Green = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Evade\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Evade\u0022, \u0022Blank\u0022}\n    }\n\nfunction onNumberTyped(playerColor, number)\n    if not self.resting then\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[dicecolor][number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\n    else\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[dicecolor][number])\n    end\nend\n",
+          "LuaScriptState": "",
+          "XmlUI": "diceValues = {\u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Hit\u0022, \u0022Blank\u0022, \u0022Eye\u0022, \u0022Hit\u0022, \u0022Crit\u0022}\r\n\r\nfunction onNumberTyped(playerColor, number)\r\n    if not self.resting then\r\n        printToAll(\u0022WARNING! \u0022 .. playerColor .. \u0022 modified a dice to \u0022 .. diceValues[number] .. \u0022 while rolling!\u0022, color(1,0,0,1))\r\n    else\r\n        printToAll(playerColor .. \u0022 modified a dice from \u0022 .. self.getRotationValue() .. \u0022 to \u0022 .. diceValues[number])\r\n    end\r\nend",
+          "PhysicsMaterial": {
+            "StaticFriction": 0.6,
+            "DynamicFriction": 0.6,
+            "Bounciness": 0.5,
+            "FrictionCombine": 0,
+            "BounceCombine": 0
+          },
+          "Rigidbody": {
+            "Mass": 0.5,
+            "Drag": 0.1,
+            "AngularDrag": 0.0,
+            "UseGravity": true
+          },
+          "RotationValues": [
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -180.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 90.0
+              }
+            },
+            {
+              "Value": "Blank",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": -90.0
+              }
+            },
+            {
+              "Value": "Eye",
+              "Rotation": {
+                "x": 33.0,
+                "y": 180.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Hit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            {
+              "Value": "Crit",
+              "Rotation": {
+                "x": -33.0,
+                "y": 0.0,
+                "z": -90.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿{
+  "GUID": "85d9eb",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": -35.37698,
+    "posY": 1.64615738,
+    "posZ": -10.244895,
+    "rotX": 8.485224E-09,
+    "rotY": 90.01225,
+    "rotZ": -2.56671228E-07,
+    "scaleX": 0.375,
+    "scaleY": 0.375,
+    "scaleZ": 0.375
+  },
+  "Nickname": "Merciless Pursuit",
+  "Description": "Unassigned",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": false,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/Hexagon.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/condition/tokens/mercilesspursuit.png",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 0,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

@@ -1,0 +1,55 @@
+﻿{
+  "GUID": "67877e",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": -35.0025749,
+    "posY": 1.09144044,
+    "posZ": -11.0012674,
+    "rotX": -0.00286303484,
+    "rotY": 359.96936,
+    "rotZ": -0.000452961278,
+    "scaleX": 0.625,
+    "scaleY": 0.625,
+    "scaleZ": 0.625
+  },
+  "Nickname": "",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/eirikmun/TTS_X-Wing2.0/master/assets/Items/rulers/range15.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/eirikmun/TTS_X-Wing2.0/master/assets/Items/rulers/range15.jpg",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 0,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

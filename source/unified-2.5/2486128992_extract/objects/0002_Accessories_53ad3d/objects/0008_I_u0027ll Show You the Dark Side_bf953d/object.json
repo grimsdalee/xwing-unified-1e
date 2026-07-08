@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "bf953d",
+  "Name": "Card",
+  "Transform": {
+    "posX": -51.41821,
+    "posY": 5.327764,
+    "posZ": -9.423031,
+    "rotX": 359.865845,
+    "rotY": 180.007462,
+    "rotZ": 359.79895,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "I\u0027ll Show You the Dark Side",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CardID": 21600,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "216": {
+      "FaceURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Cards/Conditions/ill-show-you-the-dark-side.png",
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/940587165302402936/DC0C5D97D7B4E0F6CF6910D0C92D3CCE2FF3BFA6/",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": false,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

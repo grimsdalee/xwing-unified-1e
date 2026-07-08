@@ -1,0 +1,55 @@
+﻿{
+  "GUID": "e8ee0d",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": -49.3144341,
+    "posY": 5.290049,
+    "posZ": -6.59900665,
+    "rotX": 3.13565374E-06,
+    "rotY": 89.97597,
+    "rotZ": 2.60076661E-07,
+    "scaleX": 0.375,
+    "scaleY": 0.375,
+    "scaleZ": 0.375
+  },
+  "Nickname": "Trials of the Darksaber",
+  "Description": "Unassigned",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.9999998,
+    "g": 0.992160261,
+    "b": 0.9999998
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": false,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/Hexagon.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/condition/tokens/trialsofthedarksaber.png",
+    "NormalURL": "",
+    "ColliderURL": "",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 5,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

@@ -1,0 +1,590 @@
+﻿{
+  "GUID": "251205",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": 14.0001087,
+    "posY": 1.02555609,
+    "posZ": -4.999655,
+    "rotX": 0.000381857273,
+    "rotY": 0.00699927239,
+    "rotZ": -0.00239137816,
+    "scaleX": 1.43841946,
+    "scaleY": 1.0,
+    "scaleZ": 1.43841946
+  },
+  "Nickname": "Maneuver Card",
+  "Description": "",
+  "GMNotes": "mancard",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": true,
+  "CardID": 536500,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "5365": {
+      "FaceURL": "http://nnxwing.com/Content/TTS/ManeuverCard/ManeuverCardFront.png",
+      "BackURL": "http://nnxwing.com/Content/TTS/ManeuverCard/ManeuverCardBack.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "-- Bundled by luabundle {\u0022rootModuleName\u0022:\u0022Maneuver Card.251205.lua\u0022,\u0022version\u0022:\u00221.6.0\u0022}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == \u0027string\u0027 and \u0027\\\u0022\u0027 .. name .. \u0027\\\u0022\u0027 or tostring(name)\n\t\t\t\t\terror(\u0027Tried to require \u0027 .. identifier .. \u0027, but no such module has been registered\u0027)\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\u0022Maneuver Card.251205.lua\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\nrequire(\u0022Game.Mechanic.Movement.ManeuverCard\u0022)\r\n\nend)\n__bundle_register(\u0022Game.Mechanic.Movement.ManeuverCard\u0022, function(require, _LOADED, __bundle_register, __bundle_modules)\n-- ~~~~~~\r\n-- Script by joeshmoe554\r\n--\r\n-- Based on the dial script logic by dzikakulka\r\n-- ~~~~~~\r\n\r\n\r\n-- Scripted token properties\r\n__XW_Token = false\r\n__XW_TokenIdle = true\r\n__XW_TokenType = \u0027helper:ManueverCard\u0027\r\n\r\n-- Ref to assigned ship if there is one\r\nassignedShip = nil\r\nfrontImage = \u0022http://nnxwing.com/Content/TTS/ManeuverCard/ManeuverCardFront.png\u0022\r\nbackImage = \u0022http://nnxwing.com/Content/TTS/ManeuverCard/ManeuverCardBack.png\u0022\r\nmaneuversVisible = false\r\ndataPadId = \u0022a4dbbf\u0022\r\n\r\n-- Restore self state\r\nfunction onLoad(savedData)\r\n    clearDial()\r\nend\r\n\r\nfunction clearOpenPanel()\r\n    if openpanel ~= nil then\r\n        self.UI.hide(openpanel)\r\n        self.UI.setAttribute(openbutton, \u0022color\u0022, closedcolor)\r\n        self.UI.setAttribute(openbutton, \u0022textColor\u0022, \u0022#FFFFFF\u0022)\r\n    end\r\n    openpanel = nil\r\n    openbutton = nil\r\nend\r\n\r\nfunction clearDial()\r\n    ShowManeuvers(false)\r\n    winStat = false\r\n    clearOpenPanel()\r\n\r\n    -- Reset the card.\r\n    local cardData = self.getCustomObject()\r\n    cardData.face = frontImage\r\n    self.setCustomObject(cardData)\r\nend\r\n\r\n-- Assign a ship to the dial\r\nfunction assignShip(ship)\r\n    assignedShip = ship\r\n    shipData = assignedShip.getTable(\u0022Data\u0022)\r\n\r\n    --self.UI.setValue(\u0022Name\u0022,Name)\r\n    --self.UI.setValue(\u0022SetupName\u0022,Name)\r\n    self.UI.setAttribute(\u0022BackGround\u0022, \u0022image\u0022, tostring(shipData[\u0027Faction\u0027])..\u0022BG\u0022)\r\n    for k,v in pairs(shipData[\u0027moveSet\u0027]) do\r\n        self.UI.setAttribute(string.upper(v), \u0022active\u0022, \u0022true\u0022)\r\n    end\r\n\r\n    ShowManeuvers(true)\r\n\r\n    local dataPad = getObjectFromGUID(dataPadId)\r\n    local shipDB = dataPad.getTable(\u0022masterShipDB\u0022)\r\n    Name = shipDB[shipData.shipId].name\r\n    self.setName(Name)\r\n\r\n    local pilotDB = dataPad.getTable(\u0022masterPilotDB\u0022)\r\n    local cardImage = backImage\r\n    for pilot_xws_id, pilot in pairs(pilotDB) do\r\n        if pilot.ship_type == shipData.shipId and pilot.faction == shipData[\u0027Faction\u0027] then\r\n            cardImage = \u0022{verifycache}https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/2.5/src/images/En/pilots/\u0022 .. pilot_xws_id .. \u0022.png\u0022\r\n            break\r\n        end\r\n    end\r\n\r\n    local cardData = self.getCustomObject()\r\n    cardData.face = cardImage\r\n    self.setCustomObject(cardData)\r\nend\r\n\r\n-- Assign on drop near a small base ship\r\nfunction onDropped()\r\n    if assignedShip == nil then\r\n        local nearest = Global.call(\u0022API_FindNearestShip\u0022, { object = self, max_distance = 90 })\r\n        if nearest ~= nil then\r\n            assignedShip = nearest\r\n            assignShip(nearest)\r\n        else\r\n            ShowManeuvers(false)\r\n        end\r\n    end\r\nend\r\n\r\nfunction ShowManeuvers(show)\r\n    if maneuversVisible ~= show then\r\n        if show then\r\n            self.UI.show(\u0022ManWin\u0022)\r\n            self.UI.hide(\u0022NotSet\u0022)\r\n        else\r\n            self.UI.hide(\u0022ManWin\u0022)\r\n            self.UI.show(\u0022NotSet\u0022)\r\n        end\r\n        maneuversVisible = show\r\n    end\r\nend\r\n\r\nfunction DisplayTable(arg)\r\n    output = \u0022\u0022\r\n    for key, value in pairs(arg) do\r\n        output = output .. \u0022\\n\u0022 .. key .. \u0022: \u0022;\r\n        if type(value) == \u0022table\u0022 then\r\n            output = output .. DisplayTable(value)\r\n        elseif type(value) == \u0027boolean\u0027 then\r\n            if value then\r\n                output = output .. \u0022true\u0022\r\n            else\r\n                output = output .. \u0022false\u0022\r\n            end\r\n        else\r\n            output = output .. value\r\n        end\r\n    end\r\n\r\n    return output\r\nend\r\n\nend)\nreturn __bundle_require(\u0022Maneuver Card.251205.lua\u0022)",
+  "LuaScriptState": "{\u0022assignedShipGUID\u0022:\u00229206f8\u0022}",
+  "XmlUI": "\u003C!-- include Game/Mechanic/Movement/ManeuverCard.xml --\u003E\n\u003C!-- Defaults apply styles to every element with the same class --\u003E\n\u003CDefaults\u003E\n    \u003CPanel class=\u0022Window\u0022 color=\u0022#aaffaa00\u0022 width=\u00221000\u0022 height=\u0022800\u0022 /\u003E\n    \u003CPanel class=\u0022TopBar\u0022 color=\u0022#aaffaa00\u0022 height=\u002230\u0022 rectAlignment=\u0022UpperCenter\u0022/\u003E\n    \u003CPanel class=\u0022BoostPanel\u0022 color=\u0022#aaffaa00\u0022 preferredWidth=\u0022200\u0022 preferredHeight=\u0022100\u0022 flexibleWidth=\u00220\u0022/\u003E\n    \u003CPanel class=\u0022TalonP\u0022 color=\u0022#aaffaa00\u0022 rotation=\u00220 0 0\u0022 height=\u0022100\u0022 width=\u0022350\u0022/\u003E\n    \u003CPanel class=\u0022BarrelPanel\u0022 color=\u0022Green\u0022 minWidth=\u002280\u0022 flexibleWidth=\u0022false\u0022/\u003E\n    \u003CPanel class=\u0022WinElements\u0022 color=\u0022#aaffaa00\u0022 width=\u0022600\u0022 height=\u0022550\u0022 rectAlignment=\u0022UpperCenter\u0022/\u003E\n\n    \u003CToggleButton class=\u0022ManBtn\u0022 height=\u002275\u0022 width=\u002275\u0022 active=\u0022false\u0022 interactable=\u0022false\u0022 preferredWidth=\u002260\u0022 preferredHeight=\u002260\u0022 onValueChanged=\u0022manSelect\u0022  outline=\u0022#BBBBBB\u0022 colors=\u0022#888888|Orange|Red|#555555\u0022 deselectedBackgroundColor=\u0022#555555\u0022 selectedBackgroundColor=\u0022#555555\u0022/\u003E\n\n    \u003CImage class=\u0022TIcon\u0022 color=\u0022#ffffff\u0022/\u003E\n    \u003CImage class=\u0022RIcon\u0022 height=\u002260\u0022 width=\u002260\u0022 color=\u0022#ffffff\u0022/\u003E\n    \u003CImage class=\u0022MIcon\u0022 /\u003E\n    \u003CImage class=\u0022BGImage\u0022 color=\u0022#ffffff\u0022/\u003E\n    \u003CImage class=\u0022SpeedImg\u0022 height=\u002285\u0022 width=\u002285\u0022 /\u003E\n    \u003CImage class=\u0022SetIcon\u0022 rotation=\u00220 0 180\u0022 height=\u002255\u0022 width=\u002255\u0022 preserveAspect=\u0022true\u0022/\u003E\n\u003C/Defaults\u003E\n\u003CPanel id = \u0022NotSet\u0022\n    color=\u0022#9a9a9a\u0022\n    width=\u00221000\u0022\n    height=\u0022800\u0022\n    position=\u00220 35 -50\u0022\n    rotation=\u0022180 180 0\u0022\n    scale=\u00220.218 0.22 1\u0022\n    showAnimation=\u0022FadeIn\u0022\n    hideAnimation=\u0022FadeOut\u0022\u003E\n    \u003CPanel color=\u0022#2b2e30\u0022 width=\u0022920\u0022 height=\u0022720\u0022\u003E\n        \u003CText color=\u0022#ffffffff\u0022 fontSize=\u0022100\u0022\u003EDrop on ship to set maneuvers\u003C/Text\u003E\n    \u003C/Panel\u003E\n\u003C/Panel\u003E\n\u003CPanel id = \u0022ManWin\u0022\n    active=\u0022false\u0022\n    class=\u0022Window\u0022\n    position=\u00220 35 -50\u0022\n    rotation=\u0022180 180 0\u0022\n    scale=\u00220.218 0.22 1\u0022\n    showAnimation=\u0022FadeIn\u0022\n    hideAnimation=\u0022FadeOut\u0022\u003E\n    \u003Cimage id=\u0022BackGround\u0022 class=\u0022BGImage\u0022 image=\u00221BG\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/image\u003E\n    \u003CImage id=\u0022Spd0\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed0\u0022 offsetXY=\u0022-355 -190\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022Spd1\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed1\u0022 offsetXY=\u0022-355 -100\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022Spd2\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed2\u0022 offsetXY=\u0022-355 -10\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022Spd3\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed3\u0022 offsetXY=\u0022-355 80\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022Spd4\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed4\u0022 offsetXY=\u0022-355 170\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CImage id=\u0022Spd5\u0022 class=\u0022SpeedImg\u0022 image=\u0022Speed5\u0022 offsetXY=\u0022-355 260\u0022 color=\u0022#ffffff\u0022 preserveAspect=\u0022true\u0022\u003E\u003C/Image\u003E\n    \u003CToggleGroup id=\u0022ManBtnGroup\u0022 interactable=\u0022false\u0022 allowSwitchOff=\u0022true\u0022\u003E\n\n      \u003CToggleButton id=\u0022RBL0\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -190\u0022\u003E\n          \u003CImage id=\u0022RBL0Icon\u0022 class=\u0022MIcon\u0022  image=\u0022RedBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS0\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -190\u0022\u003E\n          \u003CImage id=\u0022RS0Icon\u0022 class=\u0022MIcon\u0022  image=\u0022RedStall\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR0\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -190\u0022\u003E\n           \u003CImage id=\u0022RBR0Icon\u0022 class=\u0022MIcon\u0022  image=\u0022RedBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022BTL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -100\u0022\u003E\n          \u003CImage id=\u0022BTL1Icon\u0022 class=\u0022MIcon\u0022  image=\u0022BlueTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -100\u0022\u003E\n          \u003CImage id=\u0022BBL1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BS1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -100\u0022\u003E\n          \u003CImage id=\u0022BS1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -100\u0022\u003E\n          \u003CImage id=\u0022BBR1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BTR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -100\u0022\u003E\n          \u003CImage id=\u0022BTR1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022WTL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -100\u0022\u003E\n          \u003CImage id=\u0022WTL1Icon\u0022 class=\u0022MIcon\u0022  image=\u0022WhiteTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -100\u0022\u003E\n          \u003CImage id=\u0022WBL1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WS1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -100\u0022\u003E\n          \u003CImage id=\u0022WS1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -100\u0022\u003E\n          \u003CImage id=\u0022WBR1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WTR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -100\u0022\u003E\n          \u003CImage id=\u0022WTR1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RTL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -100\u0022\u003E\n          \u003CImage id=\u0022RTL1Icon\u0022 class=\u0022MIcon\u0022  image=\u0022RedTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBL1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -100\u0022\u003E\n          \u003CImage id=\u0022RBL1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -100\u0022\u003E\n          \u003CImage id=\u0022RS1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -100\u0022\u003E\n          \u003CImage id=\u0022RBR1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -100\u0022\u003E\n          \u003CImage id=\u0022RTR1Icon\u0022 class=\u0022MIcon\u0022  image=\u0022RedTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n\n      \u003CToggleButton id=\u0022RBL1R\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -100\u0022\u003E\n          \u003CImage id=\u0022RBL1RIcon\u0022 class=\u0022MIcon\u0022  image=\u0022RedReverseBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR1R\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -100\u0022\u003E\n          \u003CImage id=\u0022RBR1RIcon\u0022 class=\u0022MIcon\u0022  image=\u0022RedReverseBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RTL1T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -100\u0022\u003E\n          \u003CImage id=\u0022RTL1TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR1T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -100\u0022\u003E\n          \u003CImage id=\u0022RTR1TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RBL1S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -100\u0022\u003E\n          \u003CImage id=\u0022RBL1SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR1S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -100\u0022\u003E\n          \u003CImage id=\u0022RBR1SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RK1\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 -100\u0022\u003E\n          \u003CImage id=\u0022RK1Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS1R\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 -100\u0022\u003E\n          \u003CImage id=\u0022RS1RIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedReverseStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n\n\n      \u003CToggleButton id=\u0022BTL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -10\u0022\u003E\n          \u003CImage id=\u0022BTL2Icon\u0022 class=\u0022MIcon\u0022  image=\u0022BlueTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -10\u0022\u003E\n          \u003CImage id=\u0022BBL2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BS2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -10\u0022\u003E\n          \u003CImage id=\u0022BS2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -10\u0022\u003E\n          \u003CImage id=\u0022BBR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BTR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -10\u0022\u003E\n          \u003CImage id=\u0022BTR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022WTL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -10\u0022\u003E\n          \u003CImage id=\u0022WTL2Icon\u0022 class=\u0022MIcon\u0022  image=\u0022WhiteTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -10\u0022\u003E\n          \u003CImage id=\u0022WBL2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WS2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -10\u0022\u003E\n          \u003CImage id=\u0022WS2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -10\u0022\u003E\n          \u003CImage id=\u0022WBR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WTR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -10\u0022\u003E\n          \u003CImage id=\u0022WTR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RTL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 -10\u0022\u003E\n          \u003CImage id=\u0022RTL2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBL2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 -10\u0022\u003E\n          \u003CImage id=\u0022RBL2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 -10\u0022\u003E\n          \u003CImage id=\u0022RS2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 -10\u0022\u003E\n          \u003CImage id=\u0022RBR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 -10\u0022\u003E\n          \u003CImage id=\u0022RTR2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022PTL2T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -10\u0022\u003E\n          \u003CImage id=\u0022PTL2TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022PurpleTalonL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022PTR2T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -10\u0022\u003E\n          \u003CImage id=\u0022PTR2TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022PurpleTalonR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTL2T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -10\u0022\u003E\n          \u003CImage id=\u0022RTL2TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR2T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -10\u0022\u003E\n          \u003CImage id=\u0022RTR2TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBL2S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 -10\u0022\u003E\n          \u003CImage id=\u0022RBL2SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR2S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 -10\u0022\u003E\n          \u003CImage id=\u0022RBR2SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RK2\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 -10\u0022\u003E\n          \u003CImage id=\u0022RK2Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS2R\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 -10\u0022\u003E\n          \u003CImage id=\u0022RS2RIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedReverseStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n\n      \u003CToggleButton id=\u0022BTL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 80\u0022\u003E\n          \u003CImage id=\u0022BTL3Icon\u0022 class=\u0022MIcon\u0022  image=\u0022BlueTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 80\u0022\u003E\n          \u003CImage id=\u0022BBL3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BS3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 80\u0022\u003E\n          \u003CImage id=\u0022BS3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BBR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 80\u0022\u003E\n          \u003CImage id=\u0022BBR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022BTR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 80\u0022\u003E\n          \u003CImage id=\u0022BTR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022WTL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 80\u0022\u003E\n          \u003CImage id=\u0022WTL3Icon\u0022 class=\u0022MIcon\u0022  image=\u0022WhiteTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 80\u0022\u003E\n          \u003CImage id=\u0022WBL3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WS3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 80\u0022\u003E\n          \u003CImage id=\u0022WS3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WBR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 80\u0022\u003E\n          \u003CImage id=\u0022WBR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WTR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 80\u0022\u003E\n          \u003CImage id=\u0022WTR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RTL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-255 80\u0022\u003E\n          \u003CImage id=\u0022RTL3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTurnL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBL3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-165 80\u0022\u003E\n          \u003CImage id=\u0022RBL3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 80\u0022\u003E\n          \u003CImage id=\u0022RS3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u002215 80\u0022\u003E\n          \u003CImage id=\u0022RBR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedBankR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022105 80\u0022\u003E\n          \u003CImage id=\u0022RTR3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTurnR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RTL3T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 80\u0022\u003E\n          \u003CImage id=\u0022RTL3TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RTR3T\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 80\u0022\u003E\n          \u003CImage id=\u0022RTR3TIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedTalonR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBL3S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022195 80\u0022\u003E\n          \u003CImage id=\u0022RBL3SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopL\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RBR3S\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022285 80\u0022\u003E\n          \u003CImage id=\u0022RBR3SIcon\u0022 class=\u0022MIcon\u0022 image=\u0022RedSloopR\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RK3\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 80\u0022\u003E\n          \u003CImage id=\u0022RK3Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022BS4\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 170\u0022\u003E\n          \u003CImage id=\u0022BS4Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WS4\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 170\u0022\u003E\n          \u003CImage id=\u0022WS4Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS4\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 170\u0022\u003E\n          \u003CImage id=\u0022RS4Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n      \u003CToggleButton id=\u0022RK4\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 170\u0022\u003E\n          \u003CImage id=\u0022RK4Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WK4\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 170\u0022\u003E\n          \u003CImage id=\u0022WK4Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n\n      \u003CToggleButton id=\u0022BS5\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 260\u0022\u003E\n          \u003CImage id=\u0022BS5Icon\u0022 class=\u0022MIcon\u0022 image=\u0022BlueStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022WS5\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 260\u0022\u003E\n          \u003CImage id=\u0022WS5Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RS5\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022-75 260\u0022\u003E\n          \u003CImage id=\u0022RS5Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedStraight\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n\n      \u003CToggleButton id=\u0022WK5\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 260\u0022\u003E\n          \u003CImage id=\u0022WK5Icon\u0022 class=\u0022MIcon\u0022 image=\u0022WhiteK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n      \u003CToggleButton id=\u0022RK5\u0022 class=\u0022ManBtn\u0022 offsetXY=\u0022375 260\u0022\u003E\n          \u003CImage id=\u0022RK5Icon\u0022 class=\u0022MIcon\u0022 image=\u0022RedK\u0022\u003E\u003C/Image\u003E\u003C/ToggleButton\u003E\n\n    \u003C/ToggleGroup\u003E\n\u003C/Panel\u003E\n\u003C!-- include Game/Mechanic/Movement/ManeuverCard.xml --\u003E",
+  "CustomUIAssets": [
+    {
+      "Type": 0,
+      "Name": "Focus",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/focus.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Evade",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/evade.png"
+    },
+    {
+      "Type": 0,
+      "Name": "TL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/TL.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Calculate",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/calculate.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Reinforce",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/reinforce.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Stress",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/stress.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Ion",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/ion.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Cloak",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/cloak.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Jam",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/jam.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Disarm",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/disarm.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Tractor",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/tractor.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Strain",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/strain.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RotCW",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/RotateHorario.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RotACW",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/128x128/RotateAntiHorario.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed0",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v0.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed1",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v1.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed2",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v2.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed3",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v3.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed4",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v4.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Speed5",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/v5.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueTurnL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/teb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueBankL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/beb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueStraight",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/sb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueBankR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueTurnR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteTurnL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/tew.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteBankL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/bew.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteStraight",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/sw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteBankR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteTurnR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/ter.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedBankL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/ber.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedStraight",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/sr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedBankR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteK",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/kw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedK",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/kr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTalonL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trer.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTalonR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trrr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedSloopL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/s-looper.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedSloopR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/s-looprr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedStall",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/stopr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedReverseBankL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/rer.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedReverseBankR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/rrr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedReverseStraight",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/rsr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "1BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundReb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "2BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundEmpire.png"
+    },
+    {
+      "Type": 0,
+      "Name": "3BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundScum.png"
+    },
+    {
+      "Type": 0,
+      "Name": "4BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundRes.png"
+    },
+    {
+      "Type": 0,
+      "Name": "5BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundFO.png"
+    },
+    {
+      "Type": 0,
+      "Name": "6BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundRep.png"
+    },
+    {
+      "Type": 0,
+      "Name": "7BG",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/BackgroundCIS.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BoostS",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/boost/BoostFwd.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BoostL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/boost/BoostLeft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BoostR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/boost/BoostRight.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollLeft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelLF",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollLeftFwd.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelLB",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollLeftRe.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollRight.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelRF",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollRightFwd.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BarrelRB",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/broll/brollRightRe.png"
+    },
+    {
+      "Type": 0,
+      "Name": "R1",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/RR1.png"
+    },
+    {
+      "Type": 0,
+      "Name": "R2",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/RR2.png"
+    },
+    {
+      "Type": 0,
+      "Name": "R3",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/RR3.png"
+    },
+    {
+      "Type": 0,
+      "Name": "FrontArc",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/Front.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RightArc",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/Right.png"
+    },
+    {
+      "Type": 0,
+      "Name": "LeftArc",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/Left.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BackArc",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/Rear.png"
+    },
+    {
+      "Type": 0,
+      "Name": "TalonFront",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/TrollFront.png"
+    },
+    {
+      "Type": 0,
+      "Name": "TalonMid",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/TrollMid.png"
+    },
+    {
+      "Type": 0,
+      "Name": "TalonRear",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/TrollRear.png"
+    },
+    {
+      "Type": 0,
+      "Name": "PivotLeft",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/Pivot90Left.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Pivot180",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/Pivot180.png"
+    },
+    {
+      "Type": 0,
+      "Name": "PivotRight",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/Pivot90Right.png"
+    },
+    {
+      "Type": 0,
+      "Name": "FullBack",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/FullBack.png"
+    },
+    {
+      "Type": 0,
+      "Name": "FullFront",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/FullFront.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Deplete",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/deplete.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnSloopR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trsr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnSloopL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/tesr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedBankSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/bezr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedBankSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brzr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteBankSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brzw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteBankSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/bezw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueBankSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/bezb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueBankSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/brzb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueTurnSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trzb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BlueTurnSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/tezb.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteTurnSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/tezw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "WhiteTurnSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trzw.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnSlipL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trzr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "RedTurnSlipR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/tezr.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Bullseye",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/arcranges/bullseye.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot1DegL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot1degleft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot5DegL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot5degleft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot225DegL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot225degleft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot225DegR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot225degright.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot5DegR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot5degright.png"
+    },
+    {
+      "Type": 0,
+      "Name": "Rot1DegR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/rot1degright.png"
+    },
+    {
+      "Type": 0,
+      "Name": "AdjustF",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/nudgeUp.png"
+    },
+    {
+      "Type": 0,
+      "Name": "AdjustB",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/nudgeBack.png"
+    },
+    {
+      "Type": 0,
+      "Name": "AdjustL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/nudgeLeft.png"
+    },
+    {
+      "Type": 0,
+      "Name": "AdjustR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/nudgeRight.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BoostLT",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/boost/BoostLeftTurn.png"
+    },
+    {
+      "Type": 0,
+      "Name": "BoostRT",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/actions/boost/BoostRightTurn.png"
+    },
+    {
+      "Type": 0,
+      "Name": "PurpleTalonL",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trep.png"
+    },
+    {
+      "Type": 0,
+      "Name": "PurpleTalonR",
+      "URL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/trrp.png"
+    }
+  ]
+}

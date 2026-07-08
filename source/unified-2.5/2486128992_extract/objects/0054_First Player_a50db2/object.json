@@ -1,0 +1,59 @@
+﻿{
+  "GUID": "a50db2",
+  "Name": "Custom_Model",
+  "Transform": {
+    "posX": 2.51999974,
+    "posY": 1.09759939,
+    "posZ": -15.59,
+    "rotX": -3.23466747E-06,
+    "rotY": 269.9998,
+    "rotZ": 180.0,
+    "scaleX": 0.4,
+    "scaleY": 0.86,
+    "scaleZ": 0.4
+  },
+  "Nickname": "First Player",
+  "Description": "Unassigned",
+  "GMNotes": "",
+  "Memo": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  },
+  "Tags": [
+    "NonDeletable"
+  ],
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": false,
+  "Snap": false,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": false,
+  "CustomMesh": {
+    "MeshURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/new/coin.obj",
+    "DiffuseURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/new/purpleorange.png",
+    "NormalURL": "",
+    "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/new/coin.obj",
+    "Convex": true,
+    "MaterialIndex": 1,
+    "TypeIndex": 3,
+    "CastShadows": true
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}

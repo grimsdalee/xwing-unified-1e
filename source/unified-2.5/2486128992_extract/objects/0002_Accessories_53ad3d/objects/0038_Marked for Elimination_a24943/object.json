@@ -1,0 +1,58 @@
+﻿{
+  "GUID": "a24943",
+  "Name": "CardCustom",
+  "Transform": {
+    "posX": -51.6860924,
+    "posY": 5.28003025,
+    "posZ": -10.4161882,
+    "rotX": 8.39913739E-08,
+    "rotY": 75.00336,
+    "rotZ": 3.35997925E-07,
+    "scaleX": 1.0,
+    "scaleY": 1.0,
+    "scaleZ": 1.0
+  },
+  "Nickname": "Marked for Elimination",
+  "Description": "",
+  "GMNotes": "",
+  "AltLookAngle": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "ColorDiffuse": {
+    "r": 0.713235259,
+    "g": 0.713235259,
+    "b": 0.713235259
+  },
+  "LayoutGroupSortIndex": 0,
+  "Value": 0,
+  "Locked": false,
+  "Grid": true,
+  "Snap": true,
+  "IgnoreFoW": false,
+  "MeasureMovement": false,
+  "DragSelectable": true,
+  "Autoraise": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "GridProjection": false,
+  "HideWhenFaceDown": false,
+  "Hands": true,
+  "CardID": 172100,
+  "SidewaysCard": false,
+  "CustomDeck": {
+    "1721": {
+      "FaceURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/main/src/images/En/Condition/markedforelimination.png",
+      "BackURL": "https://raw.githubusercontent.com/eirikmun/x-wing2.0-project-goldenrod/main/src/images/En/Condition/markedforelimination.png",
+      "NumWidth": 1,
+      "NumHeight": 1,
+      "BackIsHidden": true,
+      "UniqueBack": false,
+      "Type": 0
+    }
+  },
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": ""
+}
