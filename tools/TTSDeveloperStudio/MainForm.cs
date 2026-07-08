@@ -24,7 +24,7 @@ public sealed class MainForm : Form
 
     public MainForm()
     {
-        Text = "TTS Explorer - X-Wing Unified 1E Dev Tool";
+        Text = "TTS Developer Studio - X-Wing Unified 1E";
         Width = 1450;
         Height = 900;
 
