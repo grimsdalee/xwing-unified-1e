@@ -24,12 +24,9 @@ public static class RepoCommand
             return 1;
         }
 
-        var files = RepoScanner.Scan(repoFolder);
-
-        var luaFiles = files
-            .Where(x => x.Extension == ".lua" || x.Extension == ".ttslua")
-            .Select(x => LuaParser.Parse(repoFolder, x))
-            .ToList();
+        var source = SourceModelBuilder.Build(repoFolder);
+        var files = source.Files;
+        var luaFiles = source.LuaFiles;
 
         var reportsFolder = Path.Combine(repoFolder, "_unifiedtoolkit_reports");
         Directory.CreateDirectory(reportsFolder);
@@ -39,6 +36,7 @@ public static class RepoCommand
         new RepoStructureReport().Generate(files, reportsFolder);
         new RepoLuaReport().Generate(files, repoFolder, reportsFolder);
         new RepoSourceReport().Generate(luaFiles, reportsFolder);
+        new SourceModulesReport().Generate(source, reportsFolder);
 
         Console.WriteLine("UnifiedToolkit Repo Scan");
         Console.WriteLine("========================");
@@ -62,12 +60,24 @@ public static class RepoCommand
         }
 
         Console.WriteLine();
+        Console.WriteLine("Modules");
+        Console.WriteLine("-------");
+
+        foreach (var module in source.Modules
+                    .OrderByDescending(x => x.TotalLines)
+                    .Take(10))
+        {
+            Console.WriteLine($"{module.Name,-20} {module.FileCount,4} files {module.TotalLines,7} lines");
+        }
+
+        Console.WriteLine();
         Console.WriteLine("Reports written:");
         Console.WriteLine($"  {Path.Combine(reportsFolder, "repo-files.csv")}");
         Console.WriteLine($"  {Path.Combine(reportsFolder, "repo-summary.csv")}");
         Console.WriteLine($"  {Path.Combine(reportsFolder, "repo-folders.csv")}");
         Console.WriteLine($"  {Path.Combine(reportsFolder, "repo-lua.csv")}");
         Console.WriteLine($"  {Path.Combine(reportsFolder, "repo-source.csv")}");
+        Console.WriteLine($"  {Path.Combine(reportsFolder, "source-modules.csv")}");
 
         return 0;
     }

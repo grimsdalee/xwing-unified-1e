@@ -1,4 +1,4 @@
-﻿using UnifiedToolkit.Commands;
+using UnifiedToolkit.Commands;
 
 if (args.Length == 0)
 {
@@ -14,6 +14,8 @@ return command switch
     "extract" => ExtractCommand.Run(commandArgs),
     "analyse" => AnalyseCommand.Run(commandArgs),
     "repo" => RepoCommand.Run(commandArgs),
+    "search" => SearchCommand.Run(commandArgs),
+    "ships" => ShipsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -25,6 +27,8 @@ static void ShowHelp()
     Console.WriteLine("  extract <tts-json-file> [output-folder]");
     Console.WriteLine("  analyse <tts-json-file>");
     Console.WriteLine("  repo <repo-folder>");
+    Console.WriteLine("  search <tts-json-file> <repo-folder> <text>");
+    Console.WriteLine("  ships <repo-folder>");
 }
 
 static int UnknownCommand(string command)
