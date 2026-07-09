@@ -13,6 +13,7 @@ return command switch
 {
     "extract" => ExtractCommand.Run(commandArgs),
     "analyse" => AnalyseCommand.Run(commandArgs),
+    "repo" => RepoCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -23,6 +24,7 @@ static void ShowHelp()
     Console.WriteLine("Commands:");
     Console.WriteLine("  extract <tts-json-file> [output-folder]");
     Console.WriteLine("  analyse <tts-json-file>");
+    Console.WriteLine("  repo <repo-folder>");
 }
 
 static int UnknownCommand(string command)

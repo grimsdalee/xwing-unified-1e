@@ -19,4 +19,36 @@ public sealed class TtsObject
     public bool HasXml { get; init; }
 
     public List<TtsObject> Children { get; } = new();
+
+    public bool IsContainer => Children.Count > 0;
+
+    public bool IsCard =>
+        Type == "Card" ||
+        Type == "CardCustom";
+
+    public bool IsDeck =>
+        Type == "Deck" ||
+        Type == "DeckCustom";
+
+    public bool IsBag =>
+        Type == "Bag" ||
+        Type == "Custom_Model_Bag" ||
+        Type == "Custom_Model_Infinite_Bag";
+
+    public bool IsInfiniteBag =>
+        Type == "Custom_Model_Infinite_Bag";
+
+    public bool IsModel =>
+        Type.StartsWith("Custom_Model");
+
+    public IEnumerable<TtsObject> AllChildren()
+    {
+        foreach (var child in Children)
+        {
+            yield return child;
+
+            foreach (var descendant in child.AllChildren())
+                yield return descendant;
+        }
+    }
 }

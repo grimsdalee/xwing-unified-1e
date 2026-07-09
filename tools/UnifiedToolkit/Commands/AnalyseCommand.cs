@@ -1,5 +1,4 @@
-using System.Text;
-using UnifiedToolkit.Models;
+using UnifiedToolkit.Reports;
 using UnifiedToolkit.TTS;
 
 namespace UnifiedToolkit.Commands;
@@ -24,7 +23,7 @@ public static class AnalyseCommand
         }
 
         var game = TtsSaveLoader.Load(inputPath);
-        var objects = Flatten(game.Objects).ToList();
+        var objects = game.AllObjects().ToList();
 
         var reportsFolder = Path.Combine(
             Path.GetDirectoryName(inputPath)!,
@@ -32,8 +31,16 @@ public static class AnalyseCommand
 
         Directory.CreateDirectory(reportsFolder);
 
-        WriteObjectsCsv(objects, Path.Combine(reportsFolder, "objects.csv"));
-        WriteObjectTypesCsv(objects, Path.Combine(reportsFolder, "object-types.csv"));
+        var reports = new List<IReport>
+        {
+            new ContainersReport(),
+            new HierarchyReport()
+        };
+
+        foreach (var report in reports)
+        {
+            report.Generate(game, objects, reportsFolder);
+        }
 
         Console.WriteLine("UnifiedToolkit Analysis");
         Console.WriteLine("=======================");
@@ -63,79 +70,13 @@ public static class AnalyseCommand
         }
 
         Console.WriteLine();
-        Console.WriteLine("CSV reports written:");
-        Console.WriteLine($"  {Path.Combine(reportsFolder, "objects.csv")}");
-        Console.WriteLine($"  {Path.Combine(reportsFolder, "object-types.csv")}");
+        Console.WriteLine("Reports written:");
+
+        foreach (var report in reports)
+        {
+            Console.WriteLine($"  {Path.Combine(reportsFolder, report.FileName)}");
+        }
 
         return 0;
-    }
-
-    private static IEnumerable<TtsObject> Flatten(IEnumerable<TtsObject> objects)
-    {
-        foreach (var obj in objects)
-        {
-            yield return obj;
-
-            foreach (var child in Flatten(obj.Children))
-                yield return child;
-        }
-    }
-
-    private static void WriteObjectsCsv(List<TtsObject> objects, string path)
-    {
-        var sb = new StringBuilder();
-
-        sb.AppendLine("Guid,Nickname,Description,GMNotes,Type,ParentGuid,ParentNickname,ChildCount,HasLua,HasXml");
-
-        foreach (var obj in objects)
-        {
-            sb.AppendLine(string.Join(",",
-                Csv(obj.Guid),
-                Csv(obj.Nickname),
-                Csv(obj.Description),
-                Csv(obj.GMNotes),
-                Csv(obj.Type),
-                Csv(obj.Parent?.Guid ?? ""),
-                Csv(obj.Parent?.Nickname ?? ""),
-                Csv(obj.Children.Count.ToString()),
-                Csv(obj.HasLua.ToString()),
-                Csv(obj.HasXml.ToString())));
-        }
-
-        File.WriteAllText(path, sb.ToString(), Encoding.UTF8);
-    }
-
-    private static void WriteObjectTypesCsv(List<TtsObject> objects, string path)
-    {
-        var sb = new StringBuilder();
-
-        sb.AppendLine("Type,Count,WithLua,WithXml");
-
-        foreach (var group in objects
-                     .GroupBy(x => string.IsNullOrWhiteSpace(x.Type) ? "(blank)" : x.Type)
-                     .OrderByDescending(x => x.Count())
-                     .ThenBy(x => x.Key))
-        {
-            sb.AppendLine(string.Join(",",
-                Csv(group.Key),
-                Csv(group.Count().ToString()),
-                Csv(group.Count(x => x.HasLua).ToString()),
-                Csv(group.Count(x => x.HasXml).ToString())));
-        }
-
-        File.WriteAllText(path, sb.ToString(), Encoding.UTF8);
-    }
-
-    private static string Csv(string value)
-    {
-        value ??= "";
-
-        if (value.Contains('"'))
-            value = value.Replace("\"", "\"\"");
-
-        if (value.Contains(',') || value.Contains('"') || value.Contains('\n') || value.Contains('\r'))
-            value = $"\"{value}\"";
-
-        return value;
     }
 }
