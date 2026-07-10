@@ -1,16 +1,17 @@
-using System.Text;
+using UnifiedToolkit.Reports;
 using UnifiedToolkit.XWing;
 
 namespace UnifiedToolkit.Commands;
 
 public static class ShipsCommand
 {
+    private const int PreviewCount = 30;
+
     public static int Run(string[] args)
     {
         if (args.Length < 1)
         {
-            Console.WriteLine("Usage:");
-            Console.WriteLine("  UnifiedToolkit ships <repo-folder>");
+            ShowUsage();
             return 1;
         }
 
@@ -18,18 +19,51 @@ public static class ShipsCommand
 
         if (!Directory.Exists(repoFolder))
         {
-            Console.WriteLine($"Repo folder not found: {repoFolder}");
+            Console.Error.WriteLine(
+                $"Repo folder not found: {repoFolder}");
+
             return 1;
         }
 
-        var ships = ShipParser.ParseFromRepo(repoFolder);
+        try
+        {
+            var ships = ShipParser.ParseFromRepo(repoFolder);
 
-        var reportsFolder = Path.Combine(repoFolder, "_unifiedtoolkit_reports");
-        Directory.CreateDirectory(reportsFolder);
+            var reportsFolder = Path.Combine(
+                repoFolder,
+                "_unifiedtoolkit_reports");
 
-        var reportPath = Path.Combine(reportsFolder, "ships.csv");
-        WriteShipsCsv(ships, reportPath);
+            var reportPath = Path.Combine(
+                reportsFolder,
+                "ships.csv");
 
+            ShipsReport.Write(ships, reportPath);
+
+            PrintSummary(repoFolder, reportPath, ships);
+
+            return 0;
+        }
+        catch (Exception exception)
+        {
+            Console.Error.WriteLine(
+                $"Unable to parse ships: {exception.Message}");
+
+            return 1;
+        }
+    }
+
+    private static void ShowUsage()
+    {
+        Console.WriteLine("Usage:");
+        Console.WriteLine(
+            "  UnifiedToolkit ships <repo-folder>");
+    }
+
+    private static void PrintSummary(
+        string repoFolder,
+        string reportPath,
+        IReadOnlyCollection<ShipDefinition> ships)
+    {
         Console.WriteLine("UnifiedToolkit Ships");
         Console.WriteLine("====================");
         Console.WriteLine();
@@ -39,52 +73,26 @@ public static class ShipsCommand
         Console.WriteLine($"Report written: {reportPath}");
         Console.WriteLine();
 
-        foreach (var ship in ships.Take(30))
+        foreach (var ship in ships.Take(PreviewCount))
         {
             Console.WriteLine($"{ship.Name} [{ship.Id}]");
             Console.WriteLine($"  Size:     {ship.Size}");
-            Console.WriteLine($"  Stats:    Hull {ship.Hull}, Shield {ship.Shield}, Agility {ship.Agility}");
-            Console.WriteLine($"  Factions: {string.Join(", ", ship.Factions)}");
+            Console.WriteLine(
+                $"  Stats:    Hull {ship.Hull}, " +
+                $"Shield {ship.Shield}, " +
+                $"Agility {ship.Agility}");
+
+            Console.WriteLine(
+                $"  Factions: {string.Join(", ", ship.Factions)}");
+
             Console.WriteLine();
         }
 
-        if (ships.Count > 30)
-            Console.WriteLine($"Showing first 30 of {ships.Count} ships.");
-
-        return 0;
-    }
-
-    private static void WriteShipsCsv(List<ShipDefinition> ships, string path)
-    {
-        var sb = new StringBuilder();
-
-        sb.AppendLine("Id,Name,Size,Hull,Shield,Agility,Factions");
-
-        foreach (var ship in ships)
+        if (ships.Count > PreviewCount)
         {
-            sb.AppendLine(string.Join(",",
-                Csv(ship.Id),
-                Csv(ship.Name),
-                Csv(ship.Size),
-                Csv(ship.Hull.ToString()),
-                Csv(ship.Shield.ToString()),
-                Csv(ship.Agility.ToString()),
-                Csv(string.Join(" | ", ship.Factions))));
+            Console.WriteLine(
+                $"Showing first {PreviewCount} of " +
+                $"{ships.Count} ships.");
         }
-
-        File.WriteAllText(path, sb.ToString(), Encoding.UTF8);
-    }
-
-    private static string Csv(string value)
-    {
-        value ??= "";
-
-        if (value.Contains('"'))
-            value = value.Replace("\"", "\"\"");
-
-        if (value.Contains(',') || value.Contains('"') || value.Contains('\n') || value.Contains('\r'))
-            value = $"\"{value}\"";
-
-        return value;
     }
 }
