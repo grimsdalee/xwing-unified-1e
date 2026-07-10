@@ -43,10 +43,7 @@ public static class PilotParser
             var name = LuaFieldReader.ReadString(
                 entry.Text,
                 "name");
-
-            if (string.IsNullOrWhiteSpace(name))
-                continue;
-
+            
             var pilot = new PilotDefinition
             {
                 Id = entry.Id,

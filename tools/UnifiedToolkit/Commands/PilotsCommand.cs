@@ -32,6 +32,9 @@ public static class PilotsCommand
 
             PilotShipLinker.Link(pilots, ships);
 
+            var validationIssues =
+                PilotValidator.Validate(pilots);
+
             var reportsFolder = Path.Combine(
                 repoFolder,
                 "_unifiedtoolkit_reports");
@@ -44,6 +47,10 @@ public static class PilotsCommand
                 reportsFolder,
                 "unmatched-pilots.csv");
 
+            var validationReportPath = Path.Combine(
+                reportsFolder,
+                "pilot-validation.csv");
+
             PilotsReport.Write(
                 pilots,
                 pilotsReportPath);
@@ -52,19 +59,31 @@ public static class PilotsCommand
                 pilots,
                 unmatchedReportPath);
 
+            PilotValidationReport.Write(
+                validationIssues,
+                validationReportPath);
+
             PrintSummary(
                 repoFolder,
                 pilotsReportPath,
                 unmatchedReportPath,
+                validationReportPath,
                 ships,
-                pilots);
+                pilots,
+                validationIssues);
 
-            return 0;
+            return validationIssues.Any(
+                issue => issue.Severity.Equals(
+                    "Error",
+                    StringComparison.OrdinalIgnoreCase))
+                ? 2
+                : 0;
         }
         catch (Exception exception)
         {
             Console.Error.WriteLine(
-                $"Unable to parse pilots: {exception.Message}");
+                $"Unable to parse pilots: " +
+                $"{exception.Message}");
 
             return 1;
         }
@@ -81,27 +100,64 @@ public static class PilotsCommand
         string repoFolder,
         string pilotsReportPath,
         string unmatchedReportPath,
+        string validationReportPath,
         IReadOnlyCollection<ShipDefinition> ships,
-        IReadOnlyCollection<PilotDefinition> pilots)
+        IReadOnlyCollection<PilotDefinition> pilots,
+        IReadOnlyCollection<PilotValidationIssue>
+            validationIssues)
     {
         var linkedCount = pilots.Count(
             pilot => pilot.IsLinkedToShip);
 
         var unmatchedCount = pilots.Count - linkedCount;
 
+        var errorCount = validationIssues.Count(
+            issue => issue.Severity.Equals(
+                "Error",
+                StringComparison.OrdinalIgnoreCase));
+
+        var warningCount = validationIssues.Count(
+            issue => issue.Severity.Equals(
+                "Warning",
+                StringComparison.OrdinalIgnoreCase));
+
         Console.WriteLine("UnifiedToolkit Pilots");
         Console.WriteLine("=====================");
         Console.WriteLine();
 
-        Console.WriteLine($"Repo folder:       {repoFolder}");
-        Console.WriteLine($"Ships available:   {ships.Count}");
-        Console.WriteLine($"Pilots found:      {pilots.Count}");
-        Console.WriteLine($"Pilots linked:     {linkedCount}");
-        Console.WriteLine($"Pilots unmatched:  {unmatchedCount}");
         Console.WriteLine(
-            $"Pilots report:     {pilotsReportPath}");
+            $"Repo folder:         {repoFolder}");
+
         Console.WriteLine(
-            $"Unmatched report:  {unmatchedReportPath}");
+            $"Ships available:     {ships.Count}");
+
+        Console.WriteLine(
+            $"Pilots found:        {pilots.Count}");
+
+        Console.WriteLine(
+            $"Pilots linked:       {linkedCount}");
+
+        Console.WriteLine(
+            $"Pilots unmatched:    {unmatchedCount}");
+
+        Console.WriteLine(
+            $"Validation issues:   {validationIssues.Count}");
+
+        Console.WriteLine(
+            $"Validation errors:   {errorCount}");
+
+        Console.WriteLine(
+            $"Validation warnings: {warningCount}");
+
+        Console.WriteLine(
+            $"Pilots report:       {pilotsReportPath}");
+
+        Console.WriteLine(
+            $"Unmatched report:    {unmatchedReportPath}");
+
+        Console.WriteLine(
+            $"Validation report:   {validationReportPath}");
+
         Console.WriteLine();
 
         foreach (var pilot in pilots.Take(PreviewCount))
@@ -137,6 +193,30 @@ public static class PilotsCommand
             Console.WriteLine(
                 $"Showing first {PreviewCount} of " +
                 $"{pilots.Count} pilots.");
+        }
+
+        if (validationIssues.Count > 0)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Validation summary");
+            Console.WriteLine("------------------");
+
+            foreach (var group in validationIssues
+                         .GroupBy(issue => new
+                         {
+                             issue.Severity,
+                             issue.Code
+                         })
+                         .OrderBy(group =>
+                             group.Key.Severity)
+                         .ThenBy(group =>
+                             group.Key.Code))
+            {
+                Console.WriteLine(
+                    $"{group.Key.Severity}: " +
+                    $"{group.Key.Code} " +
+                    $"({group.Count()})");
+            }
         }
     }
 }
