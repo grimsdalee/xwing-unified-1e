@@ -17,6 +17,7 @@ return command switch
     "search" => SearchCommand.Run(commandArgs),
     "ships" => ShipsCommand.Run(commandArgs),
     "pilots" => PilotsCommand.Run(commandArgs),
+    "schema" => SchemaCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -31,6 +32,7 @@ static void ShowHelp()
     Console.WriteLine("  search <tts-json-file> <repo-folder> <text>");
     Console.WriteLine("  ships <repo-folder>");
     Console.WriteLine("  UnifiedToolkit pilots <repo-folder>");
+    Console.WriteLine("  UnifiedToolkit schema <pilots|ships> <repo-folder>");
 }
 
 static int UnknownCommand(string command)

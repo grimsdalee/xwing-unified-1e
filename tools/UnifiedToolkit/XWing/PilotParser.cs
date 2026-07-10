@@ -1,10 +1,19 @@
+using UnifiedToolkit.Lua.Model;
+using UnifiedToolkit.Lua.Parsing;
+
 namespace UnifiedToolkit.XWing;
 
 public static class PilotParser
 {
+    private const string PilotTableName =
+        "masterPilotDB";
+
     public static List<PilotDefinition> ParseFromRepo(
         string repoFolder)
     {
+        ArgumentException.ThrowIfNullOrWhiteSpace(
+            repoFolder);
+
         var path = Path.Combine(
             repoFolder,
             "TTS_xwing",
@@ -21,98 +30,36 @@ public static class PilotParser
                 path);
         }
 
-        var text = File.ReadAllText(path);
+        var entities = LuaDatabaseParser.ParseFile(
+            path,
+            PilotTableName);
 
-        return Parse(text);
+        return MapSemanticCandidates(entities);
     }
 
     public static List<PilotDefinition> Parse(
         string text)
     {
-        var pilots = new List<PilotDefinition>();
+        ArgumentNullException.ThrowIfNull(text);
 
-        var entries = LuaTableEntryScanner.Scan(
+        var entities = LuaDatabaseParser.Parse(
             text,
-            "masterPilotDB");
+            PilotTableName);
 
-        foreach (var entry in entries)
-        {
-            if (string.IsNullOrWhiteSpace(entry.Id))
-                continue;
+        return MapSemanticCandidates(entities);
+    }
 
-            var name = LuaFieldReader.ReadString(
-                entry.Text,
-                "name");
-            
-            var pilot = new PilotDefinition
-            {
-                Id = entry.Id,
-                Name = name,
-                Title = LuaFieldReader.ReadString(
-                    entry.Text,
-                    "title"),
+    private static List<PilotDefinition>
+        MapSemanticCandidates(
+            IEnumerable<LuaEntity> entities)
+    {
+        var classifications =
+            PilotEntityClassifier.Classify(entities);
 
-                Faction = LuaFieldReader.ReadString(
-                    entry.Text,
-                    "faction"),
+        var semanticEntities = classifications
+            .Where(item => item.IsSemanticCandidate)
+            .Select(item => item.Entity);
 
-                ShipType = LuaFieldReader.ReadString(
-                    entry.Text,
-                    "ship_type"),
-
-                Initiative = LuaFieldReader.ReadInt(
-                    entry.Text,
-                    "initiative"),
-
-                Limited = LuaFieldReader.ReadInt(
-                    entry.Text,
-                    "limited"),
-
-                Force = LuaFieldReader.ReadInt(
-                    entry.Text,
-                    "force"),
-
-                Charges = LuaFieldReader.ReadInt(
-                    entry.Text,
-                    "charge"),
-
-                ShieldModifier = LuaFieldReader.ReadInt(
-                    entry.Text,
-                    "shield"),
-
-                Texture = LuaFieldReader.ReadString(
-                    entry.Text,
-                    "texture"),
-
-                Docking = LuaFieldReader.ReadBool(
-                    entry.Text,
-                    "docking")
-            };
-
-            pilot.Actions.AddRange(
-                LuaFieldReader.ReadStringList(
-                    entry.Text,
-                    "action_set"));
-
-            pilot.Keywords.AddRange(
-                LuaFieldReader.ReadStringList(
-                    entry.Text,
-                    "keywords"));
-
-            pilot.AddedSlots.AddRange(
-                LuaFieldReader.ReadStringList(
-                    entry.Text,
-                    "add_slots"));
-
-            pilots.Add(pilot);
-        }
-
-        return pilots
-            .OrderBy(x => x.Faction)
-            .ThenBy(x => x.ShipType)
-            .ThenByDescending(x => x.Initiative)
-            .ThenBy(x => x.Name)
-            .ThenBy(x => x.Id)
-            .ToList();
+        return PilotMapper.MapMany(semanticEntities);
     }
 }
