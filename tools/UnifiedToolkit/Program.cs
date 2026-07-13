@@ -24,6 +24,7 @@ return command switch
     "convert" => ConvertCommand.Run(commandArgs),
     "inspect-mapping" => InspectMappingCommand.Run(commandArgs),
     "prepare-ship-mappings" => PrepareShipMappingsCommand.Run(commandArgs),
+    "import-first-edition-ships" => ImportFirstEditionShipsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -45,6 +46,7 @@ static void ShowHelp()
     Console.WriteLine("  convert <repo-folder> [mapping-folder] [--allow-source-errors]");
     Console.WriteLine("  inspect-mapping <repo-folder> <source-ship-id> [mapping-folder]");
     Console.WriteLine("  prepare-ship-mappings <repo-folder> [mapping-folder]");
+    Console.WriteLine("  import-first-edition-ships <repo-folder> <xwing-data-folder> [mapping-folder]");
 }
 
 static int UnknownCommand(string command)
