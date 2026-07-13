@@ -26,7 +26,11 @@ public static class UpgradesReport
             "HullModifier,ShieldModifier,EnergyModifier," +
             "Dual,Bomb,Docking,MoveThrough,WingLeader," +
             "Condition,AddedActions,AddedSquadActions," +
-            "AddedSlots,RemovedSlots,Restrictions");
+            "AddedSlots,RemovedSlots,Restrictions," +
+            "RestrictedFactions,RestrictedShips," +
+            "RestrictedSizes,RequiredKeywords," +
+            "RequiredShipKeywords,RequiresForce," +
+            "RequiresLimitedPilot,InitiativeGreaterThan");
 
         foreach (var upgrade in upgrades)
         {
@@ -47,22 +51,57 @@ public static class UpgradesReport
                 Csv(upgrade.MoveThrough.ToString()),
                 Csv(upgrade.WingLeader.ToString()),
                 Csv(upgrade.Condition),
+
                 Csv(string.Join(
                     " | ",
                     upgrade.AddedActions)),
+
                 Csv(string.Join(
                     " | ",
                     upgrade.AddedSquadActions)),
+
                 Csv(string.Join(
                     " | ",
                     upgrade.AddedSlots)),
+
                 Csv(string.Join(
                     " | ",
                     upgrade.RemovedSlots)),
+
                 Csv(upgrade.Restrictions is null
                     ? ""
                     : LuaValueFormatter.Format(
-                        upgrade.Restrictions))));
+                        upgrade.Restrictions)),
+
+                Csv(string.Join(
+                    " | ",
+                    upgrade.ParsedRestrictions.Factions)),
+
+                Csv(string.Join(
+                    " | ",
+                    upgrade.ParsedRestrictions.Ships)),
+
+                Csv(string.Join(
+                    " | ",
+                    upgrade.ParsedRestrictions.Sizes)),
+
+                Csv(string.Join(
+                    " | ",
+                    upgrade.ParsedRestrictions.Keywords)),
+
+                Csv(string.Join(
+                    " | ",
+                    upgrade.ParsedRestrictions.ShipKeywords)),
+
+                Csv(upgrade.ParsedRestrictions
+                    .RequiresForce.ToString()),
+
+                Csv(upgrade.ParsedRestrictions
+                    .RequiresLimitedPilot.ToString()),
+
+                Csv(upgrade.ParsedRestrictions
+                    .InitiativeGreaterThan?
+                    .ToString() ?? "")));
         }
 
         File.WriteAllText(

@@ -64,6 +64,12 @@ public static class UpgradeMapper
                 ? restrictionResult.Value
                 : null,
 
+            ParsedRestrictions =
+                UpgradeRestrictionMapper.Map(
+                    restrictionResult.IsSuccess
+                        ? restrictionResult.Value
+                        : null),
+
             SourceEntity = entity
         };
 

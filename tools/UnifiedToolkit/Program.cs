@@ -18,7 +18,12 @@ return command switch
     "ships" => ShipsCommand.Run(commandArgs),
     "pilots" => PilotsCommand.Run(commandArgs),
     "upgrades" => UpgradesCommand.Run(commandArgs),
+    "repository" => RepositoryCommand.Run(commandArgs),
+    "restrictions" => RestrictionsCommand.Run(commandArgs),
     "schema" => SchemaCommand.Run(commandArgs),
+    "convert" => ConvertCommand.Run(commandArgs),
+    "inspect-mapping" => InspectMappingCommand.Run(commandArgs),
+    "prepare-ship-mappings" => PrepareShipMappingsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -33,8 +38,13 @@ static void ShowHelp()
     Console.WriteLine("  search <tts-json-file> <repo-folder> <text>");
     Console.WriteLine("  ships <repo-folder>");
     Console.WriteLine("  upgrades <repo-folder>");
+    Console.WriteLine("  repository <repo-folder>");
+    Console.WriteLine("  restrictions <repo-folder>");
     Console.WriteLine("  pilots <repo-folder>");
     Console.WriteLine("  schema <pilots|ships|upgrades> <repo-folder>");
+    Console.WriteLine("  convert <repo-folder> [mapping-folder] [--allow-source-errors]");
+    Console.WriteLine("  inspect-mapping <repo-folder> <source-ship-id> [mapping-folder]");
+    Console.WriteLine("  prepare-ship-mappings <repo-folder> [mapping-folder]");
 }
 
 static int UnknownCommand(string command)

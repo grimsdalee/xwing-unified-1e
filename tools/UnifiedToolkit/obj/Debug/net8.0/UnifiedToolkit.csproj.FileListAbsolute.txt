@@ -13,3 +13,5 @@ C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\n
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\net8.0\UnifiedToolkit.pdb
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\net8.0\UnifiedToolkit.genruntimeconfig.cache
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\net8.0\ref\UnifiedToolkit.dll
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\mapping-set.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\ships.json

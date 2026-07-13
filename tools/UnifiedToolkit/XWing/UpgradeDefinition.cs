@@ -32,4 +32,6 @@ public sealed class UpgradeDefinition
     public LuaTableValue? Restrictions { get; init; }
 
     public required LuaEntity SourceEntity { get; init; }
+
+    public required UpgradeRestrictions ParsedRestrictions { get; init; }
 }

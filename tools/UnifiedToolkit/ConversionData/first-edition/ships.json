@@ -1,0 +1,16 @@
+[
+  {
+    "mappingId": "ship-xwing-direct-v1",
+    "sourceId": "t65xwing",
+    "targetId": "xwing",
+    "kind": "Direct",
+    "name": "X-Wing",
+    "size": "small",
+    "attack": 3,
+    "agility": 2,
+    "hull": 3,
+    "shields": 2,
+    "actions": [ "focus", "targetlock" ],
+    "factions": [ "rebelalliance" ]
+  }
+]
