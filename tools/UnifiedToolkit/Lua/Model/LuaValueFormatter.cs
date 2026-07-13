@@ -28,6 +28,9 @@ public static class LuaValueFormatter
             LuaIdentifierValue identifierValue =>
                 identifierValue.Identifier,
 
+            LuaExpressionValue expressionValue =>
+                Trim(expressionValue.Expression),
+
             LuaTableValue tableValue =>
                 FormatTable(tableValue),
 

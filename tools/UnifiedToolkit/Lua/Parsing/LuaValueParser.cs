@@ -164,15 +164,223 @@ public sealed class LuaValueParser
 
     private LuaValue ParseIdentifierValue()
     {
+        var startPosition = _position;
         var identifier = ParseIdentifier();
 
-        return identifier switch
+        if (identifier == "true")
+            return new LuaBooleanValue(true);
+
+        if (identifier == "false")
+            return new LuaBooleanValue(false);
+
+        if (identifier == "nil")
+            return LuaNilValue.Instance;
+
+        SkipTrivia();
+
+        if (IsValueTerminator(Current))
         {
-            "true" => new LuaBooleanValue(true),
-            "false" => new LuaBooleanValue(false),
-            "nil" => LuaNilValue.Instance,
-            _ => new LuaIdentifierValue(identifier)
-        };
+            return new LuaIdentifierValue(identifier);
+        }
+
+        _position = startPosition;
+
+        return ParseExpression();
+    }
+
+    private LuaExpressionValue ParseExpression()
+    {
+        var start = _position;
+
+        var parenthesisDepth = 0;
+        var bracketDepth = 0;
+        var braceDepth = 0;
+        var luaBlockDepth = 0;
+
+        var inSingleQuotedString = false;
+        var inDoubleQuotedString = false;
+        var escaped = false;
+
+        while (!IsAtEnd)
+        {
+            var current = Current;
+            var next = Peek(1);
+
+            if (inSingleQuotedString)
+            {
+                _position++;
+
+                if (escaped)
+                {
+                    escaped = false;
+                    continue;
+                }
+
+                if (current == '\\')
+                {
+                    escaped = true;
+                    continue;
+                }
+
+                if (current == '\'')
+                    inSingleQuotedString = false;
+
+                continue;
+            }
+
+            if (inDoubleQuotedString)
+            {
+                _position++;
+
+                if (escaped)
+                {
+                    escaped = false;
+                    continue;
+                }
+
+                if (current == '\\')
+                {
+                    escaped = true;
+                    continue;
+                }
+
+                if (current == '"')
+                    inDoubleQuotedString = false;
+
+                continue;
+            }
+
+            if (current == '-' && next == '-')
+            {
+                SkipComment();
+                continue;
+            }
+
+            if (current == '\'')
+            {
+                inSingleQuotedString = true;
+                _position++;
+                continue;
+            }
+
+            if (current == '"')
+            {
+                inDoubleQuotedString = true;
+                _position++;
+                continue;
+            }
+
+            switch (current)
+            {
+                case '(':
+                    parenthesisDepth++;
+                    _position++;
+                    continue;
+
+                case ')':
+                    if (parenthesisDepth > 0)
+                        parenthesisDepth--;
+
+                    _position++;
+                    continue;
+
+                case '[':
+                    bracketDepth++;
+                    _position++;
+                    continue;
+
+                case ']':
+                    if (bracketDepth > 0)
+                        bracketDepth--;
+
+                    _position++;
+                    continue;
+
+                case '{':
+                    braceDepth++;
+                    _position++;
+                    continue;
+
+                case '}':
+                    if (braceDepth > 0)
+                    {
+                        braceDepth--;
+                        _position++;
+                        continue;
+                    }
+
+                    if (parenthesisDepth == 0 &&
+                        bracketDepth == 0 &&
+                        luaBlockDepth == 0)
+                    {
+                        return CreateExpression(start);
+                    }
+
+                    _position++;
+                    continue;
+            }
+
+            if (IsIdentifierStart(current))
+            {
+                var token = ParseIdentifier();
+
+                switch (token)
+                {
+                    case "function":
+                    case "if":
+                    case "for":
+                    case "while":
+                    case "repeat":
+                        luaBlockDepth++;
+                        break;
+
+                    case "end":
+                    case "until":
+                        if (luaBlockDepth > 0)
+                            luaBlockDepth--;
+
+                        break;
+                }
+
+                continue;
+            }
+
+            if ((current == ',' || current == ';') &&
+                parenthesisDepth == 0 &&
+                bracketDepth == 0 &&
+                braceDepth == 0 &&
+                luaBlockDepth == 0)
+            {
+                return CreateExpression(start);
+            }
+
+            _position++;
+        }
+
+        return CreateExpression(start);
+    }
+
+    private LuaExpressionValue CreateExpression(
+        int startPosition)
+    {
+        var expression = _text[
+                startPosition.._position]
+            .Trim();
+
+        if (string.IsNullOrWhiteSpace(expression))
+        {
+            throw Error("Expected a Lua expression");
+        }
+
+        return new LuaExpressionValue(expression);
+    }
+
+    private static bool IsValueTerminator(char value)
+    {
+        return value == ',' ||
+            value == ';' ||
+            value == '}' ||
+            value == '\0';
     }
 
     private LuaNumberValue ParseNumber()

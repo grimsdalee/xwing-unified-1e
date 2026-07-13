@@ -2,12 +2,12 @@ using UnifiedToolkit.Lua.Parsing;
 
 namespace UnifiedToolkit.XWing;
 
-public static class ShipParser
+public static class UpgradeParser
 {
-    private const string ShipTableName =
-        "masterShipDB";
+    private const string UpgradeTableName =
+        "masterUpgradesDB";
 
-    public static List<ShipDefinition> ParseFromRepo(
+    public static List<UpgradeDefinition> ParseFromRepo(
         string repoFolder)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(
@@ -20,31 +20,31 @@ public static class ShipParser
             "Game",
             "Component",
             "Spawner",
-            "ShipDb.lua");
+            "UpgradeDb.lua");
 
         if (!File.Exists(path))
         {
             throw new FileNotFoundException(
-                $"ShipDb.lua not found: {path}",
+                $"UpgradeDb.lua not found: {path}",
                 path);
         }
 
         var entities = LuaDatabaseParser.ParseFile(
             path,
-            ShipTableName);
+            UpgradeTableName);
 
-        return ShipMapper.MapMany(entities);
+        return UpgradeMapper.MapMany(entities);
     }
 
-    public static List<ShipDefinition> Parse(
+    public static List<UpgradeDefinition> Parse(
         string text)
     {
         ArgumentNullException.ThrowIfNull(text);
 
         var entities = LuaDatabaseParser.Parse(
             text,
-            ShipTableName);
+            UpgradeTableName);
 
-        return ShipMapper.MapMany(entities);
+        return UpgradeMapper.MapMany(entities);
     }
 }

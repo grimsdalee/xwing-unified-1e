@@ -11,30 +11,52 @@ public static class PilotMapper
         var pilot = new PilotDefinition
         {
             Id = entity.Id,
-            Name = entity.GetString("name"),
-            Title = entity.GetString("title"),
 
-            Faction = entity.GetString("faction"),
-            ShipType = entity.GetString("ship_type"),
+            Name = entity.ReadString("name")
+                .ValueOrDefault(""),
 
-            Initiative = entity.GetInt("initiative"),
-            Limited = entity.GetInt("limited"),
-            Force = entity.GetInt("force"),
-            Charges = entity.GetInt("charge"),
-            ShieldModifier = entity.GetInt("shield"),
+            Title = entity.ReadString("title")
+                .ValueOrDefault(""),
 
-            Texture = entity.GetString("texture"),
-            Docking = entity.GetBool("docking")
+            Faction = entity.ReadString("faction")
+                .ValueOrDefault(""),
+
+            ShipType = entity.ReadString("ship_type")
+                .ValueOrDefault(""),
+
+            Initiative = entity.ReadInt("initiative")
+                .ValueOrDefault(0),
+
+            Limited = entity.ReadInt("limited")
+                .ValueOrDefault(0),
+
+            Force = entity.ReadInt("force")
+                .ValueOrDefault(0),
+
+            Charges = entity.ReadInt("charge")
+                .ValueOrDefault(0),
+
+            ShieldModifier = entity.ReadInt("shield")
+                .ValueOrDefault(0),
+
+            Texture = entity.ReadString("texture")
+                .ValueOrDefault(""),
+
+            Docking = entity.ReadBool("docking")
+                .ValueOrDefault(false)
         };
 
         pilot.Actions.AddRange(
-            entity.GetStringList("action_set"));
+            entity.ReadStringList("action_set")
+                .ValueOrDefault(Array.Empty<string>()));
 
         pilot.Keywords.AddRange(
-            entity.GetStringList("keywords"));
+            entity.ReadStringList("keywords")
+                .ValueOrDefault(Array.Empty<string>()));
 
         pilot.AddedSlots.AddRange(
-            entity.GetStringList("add_slots"));
+            entity.ReadStringList("add_slots")
+                .ValueOrDefault(Array.Empty<string>()));
 
         return pilot;
     }

@@ -7,6 +7,7 @@ public enum LuaValueKind
     Boolean,
     Nil,
     Identifier,
+    Expression,
     Table
 }
 
@@ -99,4 +100,21 @@ public sealed class LuaIdentifierValue : LuaValue
         LuaValueKind.Identifier;
 
     public override string ToString() => Identifier;
+}
+
+public sealed class LuaExpressionValue : LuaValue
+{
+    public LuaExpressionValue(string expression)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(expression);
+
+        Expression = expression;
+    }
+
+    public string Expression { get; }
+
+    public override LuaValueKind Kind =>
+        LuaValueKind.Expression;
+
+    public override string ToString() => Expression;
 }

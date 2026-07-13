@@ -138,6 +138,14 @@ public static class SchemaCommand
                     "ShipDb.lua"),
                 ReportName: "ships"),
 
+            "upgrades" or "upgrade" => new DatabaseDescriptor(
+                DisplayName: "UpgradeDb",
+                TableName: "masterUpgradesDB",
+                FilePath: Path.Combine(
+                    spawnerFolder,
+                    "UpgradeDb.lua"),
+                ReportName: "upgrades"),
+
             _ => null!
         };
 
@@ -215,6 +223,9 @@ public static class SchemaCommand
 
         Console.WriteLine(
             "  UnifiedToolkit schema ships <repo-folder>");
+
+        Console.WriteLine(
+            "  UnifiedToolkit schema upgrades <repo-folder>");
     }
 
     private sealed record DatabaseDescriptor(
