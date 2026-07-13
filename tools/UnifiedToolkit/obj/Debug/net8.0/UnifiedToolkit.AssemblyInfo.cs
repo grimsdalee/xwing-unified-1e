@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnifiedToolkit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77356460b60666d3717102b1f73648ec9f270a52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae24326f5deb66f4ac01b9082292da72b53ec82")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnifiedToolkit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnifiedToolkit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

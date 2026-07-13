@@ -25,6 +25,7 @@ return command switch
     "inspect-mapping" => InspectMappingCommand.Run(commandArgs),
     "prepare-ship-mappings" => PrepareShipMappingsCommand.Run(commandArgs),
     "import-first-edition-ships" => ImportFirstEditionShipsCommand.Run(commandArgs),
+    "approve-ship-mappings" => ApproveShipMappingsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -47,6 +48,7 @@ static void ShowHelp()
     Console.WriteLine("  inspect-mapping <repo-folder> <source-ship-id> [mapping-folder]");
     Console.WriteLine("  prepare-ship-mappings <repo-folder> [mapping-folder]");
     Console.WriteLine("  import-first-edition-ships <repo-folder> <xwing-data-folder> [mapping-folder]");
+    Console.WriteLine("  approve-ship-mappings <ships.proposed.json> [mapping-folder] [--version <version>] [--apply]");
 }
 
 static int UnknownCommand(string command)
