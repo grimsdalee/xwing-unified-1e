@@ -1,0 +1,2258 @@
+[
+  {
+    "MappingId": "upgrade-chopperswx72-astromech-direct-v1",
+    "SourceId": "chopper",
+    "TargetId": "chopper-swx72",
+    "Name": "\u0022Chopper\u0022",
+    "Slot": "astromech",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard 1 other equipped Upgrade card to recover 1 shield."
+  },
+  {
+    "MappingId": "upgrade-chopper-crew-direct-v1",
+    "SourceId": "chopper-crew",
+    "TargetId": "chopper",
+    "Name": "\u0022Chopper\u0022",
+    "Slot": "crew",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You may perform actions even while you are stressed.\u003Cbr /\u003E\u003Cbr /\u003EAfter you perform an action while you are stressed, suffer 1 damage."
+  },
+  {
+    "MappingId": "upgrade-genius-salvagedastromech-direct-v1",
+    "SourceId": "genius",
+    "TargetId": "genius",
+    "Name": "\u0022Genius\u0022",
+    "Slot": "salvagedastromech",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you reveal and execute a maneuver, if you did not overlap a ship, you may discard 1 of your equipped [Bomb] Upgrade cards without the \u0022\u003Cstrong\u003EAction:\u003C/strong\u003E\u0022 header to drop the corresponding bomb token."
+  },
+  {
+    "MappingId": "upgrade-zeborrelios-crew-direct-v1",
+    "SourceId": "zeborrelios",
+    "TargetId": "zeborrelios",
+    "Name": "\u0022Zeb\u0022 Orrelios",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase."
+  },
+  {
+    "MappingId": "upgrade-4lom-crew-direct-v1",
+    "SourceId": "4lom",
+    "TargetId": "4lom",
+    "Name": "4-LOM",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, during the \u0022Modify Attack Dice\u0022 step, you may receive 1 ion token to choose 1 of the defender\u0027s focus or evade tokens. That token cannot be spent during this attack."
+  },
+  {
+    "MappingId": "upgrade-admiralozzel-crew-direct-v1",
+    "SourceId": "admiralozzel",
+    "TargetId": "admiralozzel",
+    "Name": "Admiral Ozzel",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "\u003Cstrong\u003EEnergy:\u003C/strong\u003E You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy."
+  },
+  {
+    "MappingId": "upgrade-advancedoptics-tech-direct-v1",
+    "SourceId": "advancedoptics",
+    "TargetId": "advancedoptics",
+    "Name": "Advanced Optics",
+    "Slot": "tech",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You cannot have more than 1 focus token.\u003Cbr /\u003E\u003Cbr /\u003EDuring the End phase, do not remove an unused focus token from your ship."
+  },
+  {
+    "MappingId": "upgrade-advancedsensors-system-direct-v1",
+    "SourceId": "advancedsensors",
+    "TargetId": "advancedsensors",
+    "Name": "Advanced Sensors",
+    "Slot": "system",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Immediately before you reveal your maneuver, you may perform 1 free action.\u003Cbr /\u003E\u003Cbr /\u003EIf you use this ability, you must skip your \u0022Perform Action\u0022 step during this round."
+  },
+  {
+    "MappingId": "upgrade-advancedslam-modification-direct-v1",
+    "SourceId": "advancedslam",
+    "TargetId": "advancedslam",
+    "Name": "Advanced SLAM",
+    "Slot": "modification",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action on your action bar."
+  },
+  {
+    "MappingId": "upgrade-agentkallus-crew-direct-v1",
+    "SourceId": "agentkallus",
+    "TargetId": "agentkallus",
+    "Name": "Agent Kallus",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the first round, choose 1 enemy small or large ship. When attacking or defending against that ship, you may change 1 of your [Focus] results to a [Hit] or [Evade] result."
+  },
+  {
+    "MappingId": "upgrade-andrasta-title-direct-v1",
+    "SourceId": "andrasta",
+    "TargetId": "andrasta",
+    "Name": "Andrasta",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "firespray31"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains two additional [Bomb] upgrade icons."
+  },
+  {
+    "MappingId": "upgrade-assailer-title-direct-v1",
+    "SourceId": "assailer",
+    "TargetId": "assailer",
+    "Name": "Assailer",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "raiderclasscorvetteaft"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When defending, if the targeted section has a reinforce token, you may change 1 [Focus] result to a [Evade] result."
+  },
+  {
+    "MappingId": "upgrade-azmorigan-crew-direct-v1",
+    "SourceId": "azmorigan",
+    "TargetId": "azmorigan",
+    "Name": "Azmorigan",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [
+      "cr90corvettefore"
+    ],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "At the start of the End phase, you may spend 1 energy to replace a faceup [Crew] or [Team] Upgrade card you have equipped with another Upgrade card of the same type of equal or fewer squad points."
+  },
+  {
+    "MappingId": "upgrade-bazemalbus-crew-direct-v1",
+    "SourceId": "bazemalbus",
+    "TargetId": "bazemalbus",
+    "Name": "Baze Malbus",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack that does not hit, you may immediately perform a primary weapon attack against a different ship. You cannot perform another attack this round."
+  },
+  {
+    "MappingId": "upgrade-bb8-astromech-direct-v1",
+    "SourceId": "bb8",
+    "TargetId": "bb8",
+    "Name": "BB-8",
+    "Slot": "astromech",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal a green maneuver, you may perform a free barrel roll action."
+  },
+  {
+    "MappingId": "upgrade-bistan-crew-direct-v1",
+    "SourceId": "bistan",
+    "TargetId": "bistan",
+    "Name": "Bistan",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking at Range 1-2, you may change 1 of your [Hit] results to a [Critical Hit] result."
+  },
+  {
+    "MappingId": "upgrade-blackone-title-direct-v1",
+    "SourceId": "blackone",
+    "TargetId": "blackone",
+    "Name": "Black One",
+    "Slot": "title",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "t70xwing"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you perform a boost or barrel roll action, you may remove 1 enemy target lock from a friendly ship at Range 1. You cannot equip this card if your pilot skill is \u00226\u0022 or lower."
+  },
+  {
+    "MappingId": "upgrade-bobafett-crew-direct-v1",
+    "SourceId": "bobafett",
+    "TargetId": "bobafett",
+    "Name": "Boba Fett",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After performing an attack, if the defender was dealt a faceup Damage card, you may discard this card to choose and discard 1 of the defender\u0027s Upgrade cards."
+  },
+  {
+    "MappingId": "upgrade-bombletgenerator-bomb-direct-v1",
+    "SourceId": "bombletgenerator",
+    "TargetId": "bombletgenerator",
+    "Name": "Bomblet Generator",
+    "Slot": "bomb",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver, you may \u003Cstrong\u003Edrop\u003C/strong\u003E 1 bomblet token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+  },
+  {
+    "MappingId": "upgrade-bossk-crew-direct-v1",
+    "SourceId": "bossk",
+    "TargetId": "bossk",
+    "Name": "Bossk",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack that does not hit, if you are not stressed, you \u003Cstrong\u003Emust\u003C/strong\u003E receive 1 stress token. Then assign 1 focus token to your ship and acquire a target lock on the defender."
+  },
+  {
+    "MappingId": "upgrade-brighthope-title-direct-v1",
+    "SourceId": "brighthope",
+    "TargetId": "brighthope",
+    "Name": "Bright Hope",
+    "Slot": "title",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "gr75mediumtransport"
+    ],
+    "SizeRestrictions": [],
+    "Text": "A reinforce token assigned to your fore section acts as 2 [Evade] results (instead of one)."
+  },
+  {
+    "MappingId": "upgrade-brokenhorn-title-direct-v1",
+    "SourceId": "brokenhorn",
+    "TargetId": "brokenhorn",
+    "Name": "Broken Horn",
+    "Slot": "title",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "croccruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When defending, if you have a reinforce token, you may add 1 additional [Evade] result. If you do, after defending, discard your reinforce token."
+  },
+  {
+    "MappingId": "upgrade-c3po-crew-direct-v1",
+    "SourceId": "c3po",
+    "TargetId": "c3po",
+    "Name": "C-3PO",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Once per round, before you roll 1 or more defense dice, you may guess aloud a number of [Evade] results.  If you roll that many [Evade] results (before modifying dice), add 1 [Evade] result."
+  },
+  {
+    "MappingId": "upgrade-cadbane-crew-direct-v1",
+    "SourceId": "cadbane",
+    "TargetId": "cadbane",
+    "Name": "Cad Bane",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [Bomb] upgrade icon. Once per round, when an enemy ship rolls attack dice due to a friendly bomb detonating, you may choose any number of [Focus] and blank results. It must reroll those results."
+  },
+  {
+    "MappingId": "upgrade-captainneeda-crew-direct-v1",
+    "SourceId": "captainneeda",
+    "TargetId": "captainneeda",
+    "Name": "Captain Needa",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "If you overlap an obstacle during the Activation phase, do not suffer 1 faceup damage card. Instead, roll 1 attack die. On a [Hit] or [Critical Hit] result, suffer 1 damage."
+  },
+  {
+    "MappingId": "upgrade-carlistrieekan-crew-direct-v1",
+    "SourceId": "carlistrieekan",
+    "TargetId": "carlistrieekan",
+    "Name": "Carlist Rieekan",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "At the start of the Activation phase, you may discard this card to treat each friendly ship\u0027s pilot skill value as \u002212\u0022 until the end of the phase."
+  },
+  {
+    "MappingId": "upgrade-cassianandor-crew-direct-v1",
+    "SourceId": "cassianandor",
+    "TargetId": "cassianandor",
+    "Name": "Cassian Andor",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship\u0027s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."
+  },
+  {
+    "MappingId": "upgrade-chewbacca-crew-direct-v1",
+    "SourceId": "chewbacca",
+    "TargetId": "chewbacca",
+    "Name": "Chewbacca",
+    "Slot": "crew",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.\u003Cbr /\u003E\u003Cbr /\u003EThen, discard this Upgrade card."
+  },
+  {
+    "MappingId": "upgrade-cikatrovizago-crew-direct-v1",
+    "SourceId": "cikatrovizago",
+    "TargetId": "cikatrovizago",
+    "Name": "Cikatro Vizago",
+    "Slot": "crew",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the End phase, you may discard this card to replace a faceup [Illicit] or [Cargo] Upgrade card you have equipped with another Upgrade card of the same type of equal or fewer squad points."
+  },
+  {
+    "MappingId": "upgrade-cloakingdevice-illicit-direct-v1",
+    "SourceId": "cloakingdevice",
+    "TargetId": "cloakingdevice",
+    "Name": "Cloaking Device",
+    "Slot": "illicit",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "small"
+    ],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Perform a free cloak action.\u003Cbr /\u003E\u003Cbr /\u003EAt the end of each round, roll 1 attack die. On a [Focus] result, discard this card, then decloak or discard your cloak token."
+  },
+  {
+    "MappingId": "upgrade-clustermines-bomb-direct-v1",
+    "SourceId": "clustermines",
+    "TargetId": "clustermines",
+    "Name": "Cluster Mines",
+    "Slot": "bomb",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 cluster mine token set.\u003Cbr /\u003E\u003Cbr /\u003EWhen a ship\u0027s base or maneuver template overlaps a cluster mine token, that token \u003Cstrong\u003Edetonates\u003C/strong\u003E."
+  },
+  {
+    "MappingId": "upgrade-clustermissiles-missile-direct-v1",
+    "SourceId": "clustermissiles",
+    "TargetId": "clustermissiles",
+    "Name": "Cluster Missiles",
+    "Slot": "missile",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack twice."
+  },
+  {
+    "MappingId": "upgrade-collisiondetector-system-direct-v1",
+    "SourceId": "collisiondetector",
+    "TargetId": "collisiondetector",
+    "Name": "Collision Detector",
+    "Slot": "system",
+    "SquadPointCost": 0,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles.\u003Cbr /\u003E\u003Cbr /\u003EWhen rolling for obstacle damage, ignore all [Critical Hit] results."
+  },
+  {
+    "MappingId": "upgrade-concussionmissiles-missile-direct-v1",
+    "SourceId": "concussionmissiles",
+    "TargetId": "concussionmissiles",
+    "Name": "Concussion Missiles",
+    "Slot": "missile",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E  Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may change 1 of your blank results to a [Hit] result."
+  },
+  {
+    "MappingId": "upgrade-contrabandcybernetics-illicit-direct-v1",
+    "SourceId": "contrabandcybernetics",
+    "TargetId": "contrabandcybernetics",
+    "Name": "Contraband Cybernetics",
+    "Slot": "illicit",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you become the active ship during the Activation phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, you may perform actions and red maneuvers even while you are stressed."
+  },
+  {
+    "MappingId": "upgrade-crackshot-elite-direct-v1",
+    "SourceId": "crackshot",
+    "TargetId": "crackshot",
+    "Name": "Crack Shot",
+    "Slot": "elite",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking a ship inside your firing arc, at the start of the \u0027Compare Results\u0027 step, you may discard this card to cancel 1 of the defender\u0027s [Evade] results."
+  },
+  {
+    "MappingId": "upgrade-daredevil-elite-direct-v1",
+    "SourceId": "daredevil",
+    "TargetId": "daredevil",
+    "Name": "Daredevil",
+    "Slot": "elite",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Execute a white ([Turn Left] 1) or ([Turn Right] 1) maneuver. Then, receive 1 stress token. Then, if you do not have the [Boost] action icon, roll 2 attack dice.  Suffer any damage ([Hit]) and any critical damage ([Critical Hit]) rolled."
+  },
+  {
+    "MappingId": "upgrade-darthvader-crew-direct-v1",
+    "SourceId": "darthvader",
+    "TargetId": "darthvader",
+    "Name": "Darth Vader",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage."
+  },
+  {
+    "MappingId": "upgrade-dauntless-title-direct-v1",
+    "SourceId": "dauntless",
+    "TargetId": "dauntless",
+    "Name": "Dauntless",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "vt49decimator"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you execute a maneuver that causes you to overlap another ship, you may perform 1 free action. Then receive 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-deadmansswitch-illicit-direct-v1",
+    "SourceId": "deadmansswitch",
+    "TargetId": "deadmansswitch",
+    "Name": "Dead Man\u0027s Switch",
+    "Slot": "illicit",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you are destroyed, each ship at Range 1 suffers 1 damage."
+  },
+  {
+    "MappingId": "upgrade-deathtroopers-crew-direct-v1",
+    "SourceId": "deathtroopers",
+    "TargetId": "deathtroopers",
+    "Name": "Death Troopers",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After another friendly ship at Range 1 becomes the defender, if you are inside the attacker\u0027s firing arc at Range 1-3, the attacker receives 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-debrisgambit-elite-direct-v1",
+    "SourceId": "debrisgambit",
+    "TargetId": "debrisgambit",
+    "Name": "Debris Gambit",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "small"
+    ],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Assign 1 evade token to your ship for each obstacle at Range 1, to a maximum of 2 evade tokens."
+  },
+  {
+    "MappingId": "upgrade-dengar-crew-direct-v1",
+    "SourceId": "dengar",
+    "TargetId": "dengar",
+    "Name": "Dengar",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, you may reroll 1 attack die. If the defender is a unique pilot, you may instead reroll up to 2 attack dice."
+  },
+  {
+    "MappingId": "upgrade-directorkrennic-crew-direct-v1",
+    "SourceId": "directorkrennic",
+    "TargetId": "directorkrennic",
+    "Name": "Director Krennic",
+    "Slot": "crew",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "During setup, before the \u0022Place Forces\u0022 step, assign the \u0022Optimized Prototype\u0022 Condition to a friendly Galactic Empire ship with 3 or fewer shields."
+  },
+  {
+    "MappingId": "upgrade-dodonnaspride-title-direct-v1",
+    "SourceId": "dodonnaspride",
+    "TargetId": "dodonnaspride",
+    "Name": "Dodonna\u0027s Pride",
+    "Slot": "title",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "cr90corvettefore"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When you perform a coordinate action, you may choose 2 friendly ships (instead of 1).  Those ships may each perform 1 free action."
+  },
+  {
+    "MappingId": "upgrade-dorsalturret-turret-direct-v1",
+    "SourceId": "dorsalturret",
+    "TargetId": "dorsalturret",
+    "Name": "Dorsal Turret",
+    "Slot": "turret",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship (even a ship outside your firing arc).\u003Cbr /\u003E\u003Cbr /\u003EIf the target of this attack is at Range 1, roll 1 additional attack die."
+  },
+  {
+    "MappingId": "upgrade-electronicbaffle-system-direct-v1",
+    "SourceId": "electronicbaffle",
+    "TargetId": "electronicbaffle",
+    "Name": "Electronic Baffle",
+    "Slot": "system",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."
+  },
+  {
+    "MappingId": "upgrade-emperorpalpatine-crew-direct-v1",
+    "SourceId": "emperorpalpatine",
+    "TargetId": "emperorpalpatine",
+    "Name": "Emperor Palpatine",
+    "Slot": "crew",
+    "SquadPointCost": 8,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Once per round, before a friendly ship rolls dice, you may name a die result. After rolling, you must change 1 of your dice results to the named result. That die result cannot be modified again."
+  },
+  {
+    "MappingId": "upgrade-engineupgrade-modification-direct-v1",
+    "SourceId": "engineupgrade",
+    "TargetId": "engineupgrade",
+    "Name": "Engine Upgrade",
+    "Slot": "modification",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Your action bar gains the [Boost] action icon."
+  },
+  {
+    "MappingId": "upgrade-experthandling-elite-direct-v1",
+    "SourceId": "experthandling",
+    "TargetId": "experthandling",
+    "Name": "Expert Handling",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Perform a free barrel roll action. If you do not have the [Barrel Roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock from your ship"
+  },
+  {
+    "MappingId": "upgrade-ezrabridger-crew-direct-v1",
+    "SourceId": "ezrabridger",
+    "TargetId": "ezrabridger",
+    "Name": "Ezra Bridger",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if you are stressed, you may change 1 of your [Focus] results to a [Critical Hit] result."
+  },
+  {
+    "MappingId": "upgrade-feedbackarray-illicit-direct-v1",
+    "SourceId": "feedbackarray",
+    "TargetId": "feedbackarray",
+    "Name": "Feedback Array",
+    "Slot": "illicit",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."
+  },
+  {
+    "MappingId": "upgrade-finn-crew-direct-v1",
+    "SourceId": "finn",
+    "TargetId": "finn",
+    "Name": "Finn",
+    "Slot": "crew",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking with a primary weapon or defending, if the enemy ship is inside your firing arc, you may add 1 blank result to your roll."
+  },
+  {
+    "MappingId": "upgrade-firecontrolsystem-system-direct-v1",
+    "SourceId": "firecontrolsystem",
+    "TargetId": "firecontrolsystem",
+    "Name": "Fire-Control System",
+    "Slot": "system",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack, you may acquire a target lock on the defender."
+  },
+  {
+    "MappingId": "upgrade-generalhux-crew-direct-v1",
+    "SourceId": "generalhux",
+    "TargetId": "generalhux",
+    "Name": "General Hux",
+    "Slot": "crew",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose up to 3 friendly ships at Range 1-2. Assign 1 focus token to each of those ships and assign the \u0022Fanatical Devotion\u0022 Condition card to 1 of them. Then receive 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-grandmofftarkin-crew-direct-v1",
+    "SourceId": "grandmofftarkin",
+    "TargetId": "grandmofftarkin",
+    "Name": "Grand Moff Tarkin",
+    "Slot": "crew",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "At the start of the Combat phase, you may choose another ship at Range 1-4. Either remove 1 focus token from the chosen ship or assign 1 focus token to that ship."
+  },
+  {
+    "MappingId": "upgrade-greedo-crew-direct-v1",
+    "SourceId": "greedo",
+    "TargetId": "greedo",
+    "Name": "Greedo",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup."
+  },
+  {
+    "MappingId": "upgrade-hansolo-crew-direct-v1",
+    "SourceId": "hansolo",
+    "TargetId": "hansolo",
+    "Name": "Han Solo",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your [Focus] results to [Hit] results."
+  },
+  {
+    "MappingId": "upgrade-havoc-title-direct-v1",
+    "SourceId": "havoc",
+    "TargetId": "havoc",
+    "Name": "Havoc",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "scurrgh6bomber"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [System] and [Salvaged Astromech] upgrade icons and loses the [Crew] upgrade icon.\u003Cbr /\u003E\u003Cbr /\u003EYou cannot equip non-unique [Salvaged Astromech] Upgrade cards."
+  },
+  {
+    "MappingId": "upgrade-heavylasercannon-cannon-direct-v1",
+    "SourceId": "heavylasercannon",
+    "TargetId": "heavylasercannon",
+    "Name": "Heavy Laser Cannon",
+    "Slot": "cannon",
+    "SquadPointCost": 7,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EImmediately after rolling your attack dice, you must change all of your [Critical Hit] results to [Hit] results."
+  },
+  {
+    "MappingId": "upgrade-herasyndulla-crew-direct-v1",
+    "SourceId": "herasyndulla",
+    "TargetId": "herasyndulla",
+    "Name": "Hera Syndulla",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You can reveal and execute red maneuvers even while you are stressed."
+  },
+  {
+    "MappingId": "upgrade-homingmissiles-missile-direct-v1",
+    "SourceId": "homingmissiles",
+    "TargetId": "homingmissiles",
+    "Name": "Homing Missiles",
+    "Slot": "missile",
+    "SquadPointCost": 5,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EThe defender cannot spend evade tokens during this attack."
+  },
+  {
+    "MappingId": "upgrade-houndstooth-title-direct-v1",
+    "SourceId": "houndstooth",
+    "TargetId": "houndstooth",
+    "Name": "Hound\u0027s Tooth",
+    "Slot": "title",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "yv666"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you are destroyed, before you are removed from the play area, you may \u003Cstrong\u003Edeploy\u003C/strong\u003E the \u003Cem\u003ENastah Pup\u003C/em\u003E Pilot.\u003Cbr /\u003E\u003Cbr /\u003EIt cannot attack this round."
+  },
+  {
+    "MappingId": "upgrade-hullupgrade-modification-direct-v1",
+    "SourceId": "hullupgrade",
+    "TargetId": "hullupgrade",
+    "Name": "Hull Upgrade",
+    "Slot": "modification",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Increase your hull value by 1."
+  },
+  {
+    "MappingId": "upgrade-ig2000-title-direct-v1",
+    "SourceId": "ig2000",
+    "TargetId": "ig2000",
+    "Name": "IG-2000",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": false,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [
+      "aggressor"
+    ],
+    "SizeRestrictions": [],
+    "Text": "You have the pilot ability of each other friendly ship with the IG-2000 Upgrade card (in addition to your own pilot ability)."
+  },
+  {
+    "MappingId": "upgrade-ig88d-crew-direct-v1",
+    "SourceId": "ig88d",
+    "TargetId": "ig88d",
+    "Name": "IG-88D",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You have the pilot ability of each friendly ship with the \u003Cem\u003EIG-2000\u003C/em\u003E Upgrade card (in addition to your own pilot ability)."
+  },
+  {
+    "MappingId": "upgrade-impetuous-title-direct-v1",
+    "SourceId": "impetuous",
+    "TargetId": "impetuous",
+    "Name": "Impetuous",
+    "Slot": "title",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "raiderclasscorvetteaft"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack that destroys an enemy ship, you may acquire a target lock."
+  },
+  {
+    "MappingId": "upgrade-inertialdampeners-illicit-direct-v1",
+    "SourceId": "inertialdampeners",
+    "TargetId": "inertialdampeners",
+    "Name": "Inertial Dampeners",
+    "Slot": "illicit",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver, you may discard this card to instead perform a white ([Stop] 0) maneuver. Then receive 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-insatiableworrt-title-direct-v1",
+    "SourceId": "insatiableworrt",
+    "TargetId": "insatiableworrt",
+    "Name": "Insatiable Worrt",
+    "Slot": "title",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "croccruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After your perform the recover action, gain 3 energy."
+  },
+  {
+    "MappingId": "upgrade-instigator-title-direct-v1",
+    "SourceId": "instigator",
+    "TargetId": "instigator",
+    "Name": "Instigator",
+    "Slot": "title",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "raiderclasscorvetteaft"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you perform a recover action, recover 1 additional shield."
+  },
+  {
+    "MappingId": "upgrade-intimidation-elite-direct-v1",
+    "SourceId": "intimidation",
+    "TargetId": "intimidation",
+    "Name": "Intimidation",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "While you are touching an enemy ship, reduce that ship\u0027s agility value by 1."
+  },
+  {
+    "MappingId": "upgrade-ionbombs-bomb-direct-v1",
+    "SourceId": "ionbombs",
+    "TargetId": "ionbombs",
+    "Name": "Ion Bombs",
+    "Slot": "bomb",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 ion bomb token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+  },
+  {
+    "MappingId": "upgrade-ioncannon-cannon-direct-v1",
+    "SourceId": "ioncannon",
+    "TargetId": "ioncannon",
+    "Name": "Ion Cannon",
+    "Slot": "cannon",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-ioncannonbattery-hardpoint-direct-v1",
+    "SourceId": "ioncannonbattery",
+    "TargetId": "ioncannonbattery",
+    "Name": "Ion Cannon Battery",
+    "Slot": "hardpoint",
+    "SquadPointCost": 6,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (Energy):\u003C/strong\u003E Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-ioncannonturret-turret-direct-v1",
+    "SourceId": "ioncannonturret",
+    "TargetId": "ioncannonturret",
+    "Name": "Ion Cannon Turret",
+    "Slot": "turret",
+    "SquadPointCost": 5,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship (even a ship outside your firing arc).\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token.  Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-iontorpedoes-torpedo-direct-v1",
+    "SourceId": "iontorpedoes",
+    "TargetId": "iontorpedoes",
+    "Name": "Ion Torpedoes",
+    "Slot": "torpedo",
+    "SquadPointCost": 5,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."
+  },
+  {
+    "MappingId": "upgrade-isbslicer-crew-direct-v1",
+    "SourceId": "isbslicer",
+    "TargetId": "isbslicer",
+    "Name": "ISB Slicer",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform a jam action against an enemy ship, you may choose a ship at Range 1 of that ship that is not jammed and assign it 1 jam token."
+  },
+  {
+    "MappingId": "upgrade-jabbathehutt-crew-direct-v1",
+    "SourceId": "jabbathehutt",
+    "TargetId": "jabbathehutt",
+    "Name": "Jabba the Hutt",
+    "Slot": "crew",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you equip this card, place 1 illicit token on each [Illicit] Upgrade card in your squad. When you are instructed to discard an Upgrade card, you may discard 1 illicit token on that card instead."
+  },
+  {
+    "MappingId": "upgrade-jainaslight-title-direct-v1",
+    "SourceId": "jainaslight",
+    "TargetId": "jainaslight",
+    "Name": "Jaina\u0027s Light",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "cr90corvettefore"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card."
+  },
+  {
+    "MappingId": "upgrade-jammingbeam-cannon-direct-v1",
+    "SourceId": "jammingbeam",
+    "TargetId": "jammingbeam",
+    "Name": "Jamming Beam",
+    "Slot": "cannon",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, assign the defender 1 jam token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-jandodonna-crew-direct-v1",
+    "SourceId": "jandodonna",
+    "TargetId": "jandodonna",
+    "Name": "Jan Dodonna",
+    "Slot": "crew",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "When another friendly ship at Range 1 is attacking, it may change 1 of its [Hit] results to a [Critical Hit]."
+  },
+  {
+    "MappingId": "upgrade-juke-elite-direct-v1",
+    "SourceId": "juke",
+    "TargetId": "juke",
+    "Name": "Juke",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "small"
+    ],
+    "Text": "When attacking, if you have an evade token, you may change 1 of the defender\u0027s [Evade] results to a [Focus] result."
+  },
+  {
+    "MappingId": "upgrade-jynerso-crew-direct-v1",
+    "SourceId": "jynerso",
+    "TargetId": "jynerso",
+    "Name": "Jyn Erso",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."
+  },
+  {
+    "MappingId": "upgrade-kananjarrus-crew-direct-v1",
+    "SourceId": "kananjarrus",
+    "TargetId": "kananjarrus",
+    "Name": "Kanan Jarrus",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship."
+  },
+  {
+    "MappingId": "upgrade-ketsuonyo-crew-direct-v1",
+    "SourceId": "ketsuonyo",
+    "TargetId": "ketsuonyo",
+    "Name": "Ketsu Onyo",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the End phase, you may choose 1 enemy ship inside your firing arc at Range 1-2. That ship does not remove its tractor beam tokens."
+  },
+  {
+    "MappingId": "upgrade-kyloren-crew-direct-v1",
+    "SourceId": "kyloren",
+    "TargetId": "kyloren",
+    "Name": "Kylo Ren",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Assign the \u0022I\u0027ll Show You the Dark Side\u0022 Condition card to an enemy ship at Range 1-3."
+  },
+  {
+    "MappingId": "upgrade-landocalrissian-crew-direct-v1",
+    "SourceId": "landocalrissian",
+    "TargetId": "landocalrissian",
+    "Name": "Lando Calrissian",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Roll 2 defense dice. For each [Focus] result, assign 1 focus token to your ship. For each [Evade] result, assign 1 evade token to your ship."
+  },
+  {
+    "MappingId": "upgrade-lattsrazzi-crew-direct-v1",
+    "SourceId": "lattsrazzi",
+    "TargetId": "lattsrazzi",
+    "Name": "Latts Razzi",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When defending, you may remove 1 stress token from the attacker to add 1 [Evade] result to your roll."
+  },
+  {
+    "MappingId": "upgrade-leiaorgana-crew-direct-v1",
+    "SourceId": "leiaorgana",
+    "TargetId": "leiaorgana",
+    "Name": "Leia Organa",
+    "Slot": "crew",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase."
+  },
+  {
+    "MappingId": "upgrade-lonewolf-elite-direct-v1",
+    "SourceId": "lonewolf",
+    "TargetId": "lonewolf",
+    "Name": "Lone Wolf",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking or defending, if there are no other friendly ships at Range 1\u20132, you may reroll 1 of your blank results."
+  },
+  {
+    "MappingId": "upgrade-lukeskywalker-crew-direct-v1",
+    "SourceId": "lukeskywalker",
+    "TargetId": "lukeskywalker",
+    "Name": "Luke Skywalker",
+    "Slot": "crew",
+    "SquadPointCost": 7,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You may change 1 [Focus] result to a [Hit] result.  You cannot perform another attack this round."
+  },
+  {
+    "MappingId": "upgrade-m9g8-astromech-direct-v1",
+    "SourceId": "m9g8",
+    "TargetId": "m9g8",
+    "Name": "M9-G8",
+    "Slot": "astromech",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die.\u003Cbr /\u003E\u003Cbr /\u003EYou can acquire target locks on other friendly ships."
+  },
+  {
+    "MappingId": "upgrade-magvayarro-crew-direct-v1",
+    "SourceId": "magvayarro",
+    "TargetId": "magvayarro",
+    "Name": "Magva Yarro",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After defending, you may acquire a target lock on the attacker."
+  },
+  {
+    "MappingId": "upgrade-marksmanship-elite-direct-v1",
+    "SourceId": "marksmanship",
+    "TargetId": "marksmanship",
+    "Name": "Marksmanship",
+    "Slot": "elite",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E When attacking this round, you may change 1 of your [Focus] results to a [Critical Hit] result and all of your other [Focus] results to [Hit] results."
+  },
+  {
+    "MappingId": "upgrade-maul-crew-direct-v1",
+    "SourceId": "maul",
+    "TargetId": "maul",
+    "Name": "Maul",
+    "Slot": "crew",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if you are not stressed, you may receive any number of stress tokens to reroll that many attack dice.\u003Cbr /\u003E\u003Cbr /\u003EAfter performing an attack that hits, you may remove 1 of your stress tokens."
+  },
+  {
+    "MappingId": "upgrade-merchantone-title-direct-v1",
+    "SourceId": "merchantone",
+    "TargetId": "merchantone",
+    "Name": "Merchant One",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "croccruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains 1 additional [Crew] upgrade icon and 1 additional [Team] upgrade icon and loses 1 [Cargo] upgrade icon."
+  },
+  {
+    "MappingId": "upgrade-misthunter-title-direct-v1",
+    "SourceId": "misthunter",
+    "TargetId": "misthunter",
+    "Name": "Mist Hunter",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "g1astarfighter"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your action bar gains the [Barrel Roll] action icon.\u003Cbr /\u003E\u003Cbr /\u003EYou \u003Cstrong\u003Emust\u003C/strong\u003E equip 1 \u0022Tractor Beam\u0022 Upgrade card (paying its squad point cost as normal)."
+  },
+  {
+    "MappingId": "upgrade-moffjerjerrod-crew-direct-v1",
+    "SourceId": "moffjerjerrod",
+    "TargetId": "moffjerjerrod",
+    "Name": "Moff Jerjerrod",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you are dealt a faceup Damage card, you may discard this Upgrade card or another [Crew] Upgrade card to flip that Damage card facedown (without resolving its effect.)"
+  },
+  {
+    "MappingId": "upgrade-moldycrow-title-direct-v1",
+    "SourceId": "moldycrow",
+    "TargetId": "moldycrow",
+    "Name": "Moldy Crow",
+    "Slot": "title",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "hwk290"
+    ],
+    "SizeRestrictions": [],
+    "Text": "During the End phase, do not remove unused focus tokens from your ship."
+  },
+  {
+    "MappingId": "upgrade-munitionsfailsafe-modification-direct-v1",
+    "SourceId": "munitionsfailsafe",
+    "TargetId": "munitionsfailsafe",
+    "Name": "Munitions Failsafe",
+    "Slot": "modification",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."
+  },
+  {
+    "MappingId": "upgrade-niennunb-crew-direct-v1",
+    "SourceId": "niennunb",
+    "TargetId": "niennunb",
+    "Name": "Nien Nunb",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You may treat all [Straight] maneuvers as green maneuvers."
+  },
+  {
+    "MappingId": "upgrade-ordnancetubes-modification-direct-v1",
+    "SourceId": "ordnancetubes",
+    "TargetId": "ordnancetubes",
+    "Name": "Ordnance Tubes",
+    "Slot": "modification",
+    "SquadPointCost": 5,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "You may treat each of your [Hardpoint] upgrade icons as a [Torpedo] or [Missile] upgrade icon.\u003Cbr /\u003E\u003Cbr /\u003EWhen you are instructed to discard a [Torpedo] or [Missile] Upgrade card, do not discard it."
+  },
+  {
+    "MappingId": "upgrade-os1arsenalloadout-title-direct-v1",
+    "SourceId": "os1arsenalloadout",
+    "TargetId": "os1arsenalloadout",
+    "Name": "Os-1 Arsenal Loadout",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [
+      "alphaclassstarwing"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [Torpedo] and [Missile] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou may perform attacks with [Torpedo] and [Missile] secondary weapons against ships you have locked even while you have a weapons disabled token."
+  },
+  {
+    "MappingId": "upgrade-outmaneuver-elite-direct-v1",
+    "SourceId": "outmaneuver",
+    "TargetId": "outmaneuver",
+    "Name": "Outmaneuver",
+    "Slot": "elite",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking a ship inside your firing arc, if you are not inside that ship\u0027s firing arc, reduce its agility value by 1 (to a minimum of 0)."
+  },
+  {
+    "MappingId": "upgrade-outrider-title-direct-v1",
+    "SourceId": "outrider",
+    "TargetId": "outrider",
+    "Name": "Outrider",
+    "Slot": "title",
+    "SquadPointCost": 5,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "yt2400"
+    ],
+    "SizeRestrictions": [],
+    "Text": "While you have a [Cannon] Upgrade card equipped, you \u003Cstrong\u003Ecannot\u003C/strong\u003E perform primary weapon attacks and you may perform [Cannon] secondary weapon attacks against ships outside your firing arc."
+  },
+  {
+    "MappingId": "upgrade-patternanalyzer-tech-direct-v1",
+    "SourceId": "patternanalyzer",
+    "TargetId": "patternanalyzer",
+    "Name": "Pattern Analyzer",
+    "Slot": "tech",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When executing a maneuver, you may resolve the \u0022Check Pilot Stress\u0022 step after the \u0022Perform Action\u0022 step (instead of before that step)."
+  },
+  {
+    "MappingId": "upgrade-phantom-title-direct-v1",
+    "SourceId": "phantom",
+    "TargetId": "phantom",
+    "Name": "Phantom",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "attackshuttle"
+    ],
+    "SizeRestrictions": [],
+    "Text": "While you are docked, the \u003Cem\u003EGhost\u003C/em\u003E can perform primary weapon attacks from its special firing arc and, at the end of the Combat phase, it may perform an additional attack with an equipped [Turret]. If it performs this attack, it cannot attack again this round."
+  },
+  {
+    "MappingId": "upgrade-plasmatorpedoes-torpedo-direct-v1",
+    "SourceId": "plasmatorpedoes",
+    "TargetId": "plasmatorpedoes",
+    "Name": "Plasma Torpedoes",
+    "Slot": "torpedo",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, after dealing damage, remove 1 shield token from the defender."
+  },
+  {
+    "MappingId": "upgrade-predator-elite-direct-v1",
+    "SourceId": "predator",
+    "TargetId": "predator",
+    "Name": "Predator",
+    "Slot": "elite",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, you may reroll 1 attack die. If the defender\u0027s pilot skill value is \u00222\u0022 or lower, you may instead reroll up to 2 attack dice."
+  },
+  {
+    "MappingId": "upgrade-primedthrusters-tech-direct-v1",
+    "SourceId": "primedthrusters",
+    "TargetId": "primedthrusters",
+    "Name": "Primed Thrusters",
+    "Slot": "tech",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "small"
+    ],
+    "Text": "Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."
+  },
+  {
+    "MappingId": "upgrade-protonbombs-bomb-direct-v1",
+    "SourceId": "protonbombs",
+    "TargetId": "protonbombs",
+    "Name": "Proton Bombs",
+    "Slot": "bomb",
+    "SquadPointCost": 5,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 proton bomb token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+  },
+  {
+    "MappingId": "upgrade-protonrockets-missile-direct-v1",
+    "SourceId": "protonrockets",
+    "TargetId": "protonrockets",
+    "Name": "Proton Rockets",
+    "Slot": "missile",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (focus):\u003C/strong\u003E Discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."
+  },
+  {
+    "MappingId": "upgrade-protontorpedoes-torpedo-direct-v1",
+    "SourceId": "protontorpedoes",
+    "TargetId": "protontorpedoes",
+    "Name": "Proton Torpedoes",
+    "Slot": "torpedo",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may change 1 of your [Focus] results to a [Critical Hit] result."
+  },
+  {
+    "MappingId": "upgrade-proximitymines-bomb-direct-v1",
+    "SourceId": "proximitymines",
+    "TargetId": "proximitymines",
+    "Name": "Proximity Mines",
+    "Slot": "bomb",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to drop 1 proximity mine token. When a ship\u0027s base or maneuver template overlaps this token, this token \u003Cstrong\u003Edetonates\u003C/strong\u003E."
+  },
+  {
+    "MappingId": "upgrade-punishingone-title-direct-v1",
+    "SourceId": "punishingone",
+    "TargetId": "punishingone",
+    "Name": "Punishing One",
+    "Slot": "title",
+    "SquadPointCost": 12,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "jumpmaster5000"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Increase your primary weapon value by 1."
+  },
+  {
+    "MappingId": "upgrade-quantumstorm-title-direct-v1",
+    "SourceId": "quantumstorm",
+    "TargetId": "quantumstorm",
+    "Name": "Quantum Storm",
+    "Slot": "title",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "gr75mediumtransport"
+    ],
+    "SizeRestrictions": [],
+    "Text": "At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token."
+  },
+  {
+    "MappingId": "upgrade-r2astromech-astromech-direct-v1",
+    "SourceId": "r2astromech",
+    "TargetId": "r2astromech",
+    "Name": "R2 Astromech",
+    "Slot": "astromech",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You may treat all 1- and 2-speed maneuvers as green maneuvers."
+  },
+  {
+    "MappingId": "upgrade-r2d2-astromech-direct-v1",
+    "SourceId": "r2d2",
+    "TargetId": "r2d2",
+    "Name": "R2-D2",
+    "Slot": "astromech",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After executing a green maneuver, you may recover 1 shield (up to your shield value)."
+  },
+  {
+    "MappingId": "upgrade-r2d2swx22-crew-direct-v1",
+    "SourceId": "r2d2-crew",
+    "TargetId": "r2d2-swx22",
+    "Name": "R2-D2",
+    "Slot": "crew",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die.  On a [Hit] result, randomly flip 1 of your facedown Damage cards faceup and resolve it."
+  },
+  {
+    "MappingId": "upgrade-r3astromech-astromech-direct-v1",
+    "SourceId": "r3astromech",
+    "TargetId": "r3astromech",
+    "Name": "R3 Astromech",
+    "Slot": "astromech",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Once per round, when attacking with a primary weapon, you may cancel 1 of your [Focus] results during the \u0022Modify Attack Dice\u0022 step to assign 1 evade token to your ship."
+  },
+  {
+    "MappingId": "upgrade-r4b11-salvagedastromech-direct-v1",
+    "SourceId": "r4b11",
+    "TargetId": "r4b11",
+    "Name": "R4-B11",
+    "Slot": "salvagedastromech",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."
+  },
+  {
+    "MappingId": "upgrade-r5astromech-astromech-direct-v1",
+    "SourceId": "r5astromech",
+    "TargetId": "r5astromech",
+    "Name": "R5 Astromech",
+    "Slot": "astromech",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "During the End phase, you may choose 1 of your faceup Damage cards with the \u003Cstrong\u003EShip\u003C/strong\u003E trait and flip it facedown."
+  },
+  {
+    "MappingId": "upgrade-r5d8-astromech-direct-v1",
+    "SourceId": "r5d8",
+    "TargetId": "r5d8",
+    "Name": "R5-D8",
+    "Slot": "astromech",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Roll 1 defense die.\u003Cbr /\u003E\u003Cbr /\u003EOn a [Evade] or [Focus] result, discard 1 of your facedown Damage cards."
+  },
+  {
+    "MappingId": "upgrade-r5p8-salvagedastromech-direct-v1",
+    "SourceId": "r5p8",
+    "TargetId": "r5p8",
+    "Name": "R5-P8",
+    "Slot": "salvagedastromech",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Once per round, after defending, you may roll 1 attack die. On a [Hit] result, the attacker suffers 1 damage. On a [Critical Hit] result, you and the attacker each suffer 1 damage."
+  },
+  {
+    "MappingId": "upgrade-r5tk-salvagedastromech-direct-v1",
+    "SourceId": "r5tk",
+    "TargetId": "r5tk",
+    "Name": "R5-TK",
+    "Slot": "salvagedastromech",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You can acquire target locks on friendly ships.\u003Cbr /\u003E\u003Cbr /\u003EYou can attack friendly ships."
+  },
+  {
+    "MappingId": "upgrade-r5x3-astromech-direct-v1",
+    "SourceId": "r5x3",
+    "TargetId": "r5x3",
+    "Name": "R5-X3",
+    "Slot": "astromech",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Before you reveal your maneuver, you may discard this card to ignore obstacles until the end of the round."
+  },
+  {
+    "MappingId": "upgrade-raymusantilles-crew-direct-v1",
+    "SourceId": "raymusantilles",
+    "TargetId": "raymusantilles",
+    "Name": "Raymus Antilles",
+    "Slot": "crew",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship\u0027s chosen maneuver. If the maneuver is white, assign that ship 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-requiem-title-direct-v1",
+    "SourceId": "requiem",
+    "TargetId": "requiem",
+    "Name": "Requiem",
+    "Slot": "title",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "gozanticlasscruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When you deploy a ship, treat its pilot skill value as \u00228\u0022 until the end of the round."
+  },
+  {
+    "MappingId": "upgrade-rey-crew-direct-v1",
+    "SourceId": "rey-gunner",
+    "TargetId": "rey",
+    "Name": "Rey",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the End phase, you may place 1 of your ship\u0027s focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."
+  },
+  {
+    "MappingId": "upgrade-riggedcargochute-illicit-direct-v1",
+    "SourceId": "riggedcargochute",
+    "TargetId": "riggedcargochute",
+    "Name": "Rigged Cargo Chute",
+    "Slot": "illicit",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "large"
+    ],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E one cargo token."
+  },
+  {
+    "MappingId": "upgrade-sabinewren-crew-direct-v1",
+    "SourceId": "sabinewren",
+    "TargetId": "sabinewren",
+    "Name": "Sabine Wren",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [Bomb] upgrade icon. Once per round, before a friendly bomb token is removed, choose 1 enemy ship at Range 1 of that token. That ship suffers 1 damage."
+  },
+  {
+    "MappingId": "upgrade-saturationsalvo-elite-direct-v1",
+    "SourceId": "saturationsalvo",
+    "TargetId": "saturationsalvo",
+    "Name": "Saturation Salvo",
+    "Slot": "elite",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack with a [Torpedo] or [Missile] secondary weapon that does not hit, each ship at Range 1 of the defender with an agility value lower than the squad point cost of the [Torpedo] or [Missile] Upgrade card must roll 1 attack die and suffer any damage ([Hit]) or critical damage ([Critical Hit]) rolled."
+  },
+  {
+    "MappingId": "upgrade-sawgerrera-crew-direct-v1",
+    "SourceId": "sawgerrera",
+    "TargetId": "sawgerrera",
+    "Name": "Saw Gerrera",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, you may suffer 1 damage to change all of your [Focus] results to [Critical Hit] results."
+  },
+  {
+    "MappingId": "upgrade-seismiccharges-bomb-direct-v1",
+    "SourceId": "seismiccharges",
+    "TargetId": "seismiccharges",
+    "Name": "Seismic Charges",
+    "Slot": "bomb",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.\u003Cbr /\u003E\u003Cbr /\u003EThis token detonates at the end of the Activation phase."
+  },
+  {
+    "MappingId": "upgrade-shadowcaster-title-direct-v1",
+    "SourceId": "shadowcaster",
+    "TargetId": "shadowcaster",
+    "Name": "Shadow Caster",
+    "Slot": "title",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "lancerclasspursuitcraft"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you perform an attack that hits, if the defender is inside your mobile firing arc and at Range 1-2, you may assign the defender 1 tractor beam token."
+  },
+  {
+    "MappingId": "upgrade-shieldupgrade-modification-direct-v1",
+    "SourceId": "shieldupgrade",
+    "TargetId": "shieldupgrade",
+    "Name": "Shield Upgrade",
+    "Slot": "modification",
+    "SquadPointCost": 4,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Increase your shield value by 1."
+  },
+  {
+    "MappingId": "upgrade-slavei-title-direct-v1",
+    "SourceId": "slavei",
+    "TargetId": "slavei",
+    "Name": "Slave I",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "firespray31"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [Torpedo] upgrade icon."
+  },
+  {
+    "MappingId": "upgrade-snapshot-elite-direct-v1",
+    "SourceId": "snapshot",
+    "TargetId": "snapshot",
+    "Name": "Snap Shot",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After an enemy ship executes a maneuver, you may perform this attack against that ship.\u003Cbr /\u003E\u003Cbr /\u003E\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."
+  },
+  {
+    "MappingId": "upgrade-squadleader-elite-direct-v1",
+    "SourceId": "squadleader",
+    "TargetId": "squadleader",
+    "Name": "Squad Leader",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose 1 ship at Range 1-2 that has a lower pilot skill than you.\u003Cbr /\u003E\u003Cbr /\u003EThe chosen ship may immediately perform 1 free action."
+  },
+  {
+    "MappingId": "upgrade-st321-title-direct-v1",
+    "SourceId": "st321",
+    "TargetId": "st321",
+    "Name": "ST-321",
+    "Slot": "title",
+    "SquadPointCost": 3,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "lambdaclassshuttle"
+    ],
+    "SizeRestrictions": [],
+    "Text": "When acquiring a target lock, you may lock onto any enemy ship in the play area."
+  },
+  {
+    "MappingId": "upgrade-stealthdevice-modification-direct-v1",
+    "SourceId": "stealthdevice",
+    "TargetId": "stealthdevice",
+    "Name": "Stealth Device",
+    "Slot": "modification",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Increase your agility value by 1. If you are hit by an attack, discard this card."
+  },
+  {
+    "MappingId": "upgrade-suppressor-title-direct-v1",
+    "SourceId": "suppressor",
+    "TargetId": "suppressor",
+    "Name": "Suppressor",
+    "Slot": "title",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "gozanticlasscruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Once per round, after you acquire a target lock on an enemy ship, you may remove 1 focus, evade, or blue target lock token from that ship."
+  },
+  {
+    "MappingId": "upgrade-swarmtactics-elite-direct-v1",
+    "SourceId": "swarmtactics",
+    "TargetId": "swarmtactics",
+    "Name": "Swarm Tactics",
+    "Slot": "elite",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "At the start of the Combat phase,  you may choose 1 friendly ship at Range 1.\u003Cbr /\u003E\u003Cbr /\u003EUntil the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."
+  },
+  {
+    "MappingId": "upgrade-tacticalofficer-crew-direct-v1",
+    "SourceId": "tacticalofficer",
+    "TargetId": "tacticalofficer",
+    "Name": "Tactical Officer",
+    "Slot": "crew",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [
+      "galacticempire"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Your action bar gains [Coordinate]."
+  },
+  {
+    "MappingId": "upgrade-tantiveiv-title-direct-v1",
+    "SourceId": "tantiveiv",
+    "TargetId": "tantiveiv",
+    "Name": "Tantive IV",
+    "Slot": "title",
+    "SquadPointCost": 4,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "cr90corvettefore"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your fore section upgrade bar gains 1 additional [Crew] and 1 additional [Team] upgrade icon."
+  },
+  {
+    "MappingId": "upgrade-targetingcomputer-modification-direct-v1",
+    "SourceId": "targetingcomputer",
+    "TargetId": "targetingcomputer",
+    "Name": "Targeting Computer",
+    "Slot": "modification",
+    "SquadPointCost": 2,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "Your action bar gains the [Target Lock] action icon."
+  },
+  {
+    "MappingId": "upgrade-targetingsynchronizer-tech-direct-v1",
+    "SourceId": "targetingsynchronizer",
+    "TargetId": "targetingsynchronizer",
+    "Name": "Targeting Synchronizer",
+    "Slot": "tech",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the \u0022\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E\u0022 header as \u0022\u003Cstrong\u003EAttack:\u003C/strong\u003E.\u0022 If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."
+  },
+  {
+    "MappingId": "upgrade-thermaldetonators-bomb-direct-v1",
+    "SourceId": "thermaldetonators",
+    "TargetId": "thermaldetonators",
+    "Name": "Thermal Detonators",
+    "Slot": "bomb",
+    "SquadPointCost": 3,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 thermal detonator token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+  },
+  {
+    "MappingId": "upgrade-torynfarr-crew-direct-v1",
+    "SourceId": "torynfarr",
+    "TargetId": "torynfarr",
+    "Name": "Toryn Farr",
+    "Slot": "crew",
+    "SquadPointCost": 6,
+    "Unique": true,
+    "Factions": [
+      "rebelalliance"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [
+      "huge"
+    ],
+    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."
+  },
+  {
+    "MappingId": "upgrade-tractorbeam-cannon-direct-v1",
+    "SourceId": "tractorbeam",
+    "TargetId": "tractorbeam",
+    "Name": "Tractor Beam",
+    "Slot": "cannon",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender receives 1 tractor beam token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-trajectorysimulator-system-direct-v1",
+    "SourceId": "trajectorysimulator",
+    "TargetId": "trajectorysimulator",
+    "Name": "Trajectory Simulator",
+    "Slot": "system",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "You may launch bombs using the ([Straight] 5) template instead of dropping them. You cannot launch bombs with the \u0022\u003Cstrong\u003EAction:\u003C/strong\u003E\u0022 header in this way."
+  },
+  {
+    "MappingId": "upgrade-trickshot-elite-direct-v1",
+    "SourceId": "trickshot",
+    "TargetId": "trickshot",
+    "Name": "Trick Shot",
+    "Slot": "elite",
+    "SquadPointCost": 0,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if the attack is obstructed, you may roll 1 additional attack die."
+  },
+  {
+    "MappingId": "upgrade-unkarplutt-crew-direct-v1",
+    "SourceId": "unkarplutt",
+    "TargetId": "unkarplutt",
+    "Name": "Unkar Plutt",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "After executing a maneuver that causes you to overlap an enemy ship, you may suffer 1 damage to perform 1 free action."
+  },
+  {
+    "MappingId": "upgrade-vector-title-direct-v1",
+    "SourceId": "vector",
+    "TargetId": "vector",
+    "Name": "Vector",
+    "Slot": "title",
+    "SquadPointCost": 2,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "gozanticlasscruiser"
+    ],
+    "SizeRestrictions": [],
+    "Text": "After you execute a maneuver, you may deploy up to 4 docked ships (instead of 2)."
+  },
+  {
+    "MappingId": "upgrade-virago-title-direct-v1",
+    "SourceId": "virago",
+    "TargetId": "virago",
+    "Name": "Virago",
+    "Slot": "title",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "starviper"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains the [System] and [Illicit] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou cannot equip this card if your pilot skill value is \u00223\u0022 or lower."
+  },
+  {
+    "MappingId": "upgrade-xg1assaultconfiguration-title-direct-v1",
+    "SourceId": "xg1assaultconfiguration",
+    "TargetId": "xg1assaultconfiguration",
+    "Name": "Xg-1 Assault Configuration",
+    "Slot": "title",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [
+      "alphaclassstarwing"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your upgrade bar gains 2 [Cannon] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou may perform attacks with [Cannon] secondary weapons that cost 2 or fewer squad points even while you have a weapons disabled token."
+  },
+  {
+    "MappingId": "upgrade-xx23sthreadtracers-missile-direct-v1",
+    "SourceId": "xx23sthreadtracers",
+    "TargetId": "xx23sthreadtracers",
+    "Name": "XX-23 S-Thread Tracers",
+    "Slot": "missile",
+    "SquadPointCost": 1,
+    "Unique": false,
+    "Factions": [],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "\u003Cstrong\u003EAttack (Focus):\u003C/strong\u003E Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+  },
+  {
+    "MappingId": "upgrade-zuckuss-crew-direct-v1",
+    "SourceId": "zuckuss",
+    "TargetId": "zuckuss",
+    "Name": "Zuckuss",
+    "Slot": "crew",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [
+      "scumandvillainy"
+    ],
+    "ShipRestrictions": [],
+    "SizeRestrictions": [],
+    "Text": "When attacking, if you are not stressed, you may receive any number of stress tokens to choose an equal number of defense dice. The defender must reroll those dice."
+  }
+]

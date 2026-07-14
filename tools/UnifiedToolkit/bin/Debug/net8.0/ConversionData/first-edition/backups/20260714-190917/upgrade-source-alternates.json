@@ -1,0 +1,122 @@
+[
+  {
+    "SourceId": "bobafett-gunner",
+    "CanonicalSourceId": "bobafett",
+    "TargetId": "bobafett",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "c3po-crew",
+    "CanonicalSourceId": "c3po",
+    "TargetId": "c3po",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "c3po-republic",
+    "CanonicalSourceId": "c3po",
+    "TargetId": "c3po",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "chewbacca-crew",
+    "CanonicalSourceId": "chewbacca",
+    "TargetId": "chewbacca",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "chewbacca-crew-swz19",
+    "CanonicalSourceId": "chewbacca",
+    "TargetId": "chewbacca",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "hansolo-crew",
+    "CanonicalSourceId": "hansolo",
+    "TargetId": "hansolo",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "hansolo-gunner",
+    "CanonicalSourceId": "hansolo",
+    "TargetId": "hansolo",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "landocalrissian-crew",
+    "CanonicalSourceId": "landocalrissian",
+    "TargetId": "landocalrissian",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "leiaorgana-resistance",
+    "CanonicalSourceId": "leiaorgana",
+    "TargetId": "leiaorgana",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "maul-crew",
+    "CanonicalSourceId": "maul",
+    "TargetId": "maul",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "r2d2-republic",
+    "CanonicalSourceId": "r2d2",
+    "TargetId": "r2d2",
+    "TargetSlot": "astromech",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "r2d2-resistance",
+    "CanonicalSourceId": "r2d2",
+    "TargetId": "r2d2",
+    "TargetSlot": "astromech",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "sabinewren-crew",
+    "CanonicalSourceId": "sabinewren",
+    "TargetId": "sabinewren",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "sabinewren-gunner",
+    "CanonicalSourceId": "sabinewren",
+    "TargetId": "sabinewren",
+    "TargetSlot": "crew",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  },
+  {
+    "SourceId": "slavei-swz82",
+    "CanonicalSourceId": "slavei",
+    "TargetId": "slavei",
+    "TargetSlot": "title",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition upgrade identity as the canonical source record."
+  }
+]

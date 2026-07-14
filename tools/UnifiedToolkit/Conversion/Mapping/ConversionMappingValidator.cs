@@ -1,4 +1,5 @@
 using UnifiedToolkit.Conversion.Issues;
+using UnifiedToolkit.Conversion.Mapping.Dispositions;
 
 namespace UnifiedToolkit.Conversion.Mapping;
 
@@ -15,6 +16,11 @@ public static class ConversionMappingValidator
         ValidateDuplicateValues(mappings.Ships, x => x.MappingId, "DuplicateMappingId", "mapping ID", issues);
         ValidateDuplicateValues(mappings.Ships, x => x.SourceId, "DuplicateSourceShipMapping", "source ship ID", issues);
         ValidateDuplicateTargetIds(mappings.Ships, issues);
+        issues.AddRange(ShipDispositionValidator.Validate(mappings.ShipDispositions));
+
+        var mappedSourceIds = mappings.Ships.Select(x => x.SourceId).ToHashSet(StringComparer.OrdinalIgnoreCase);
+        foreach (var disposition in mappings.ShipDispositions.Where(x => mappedSourceIds.Contains(x.SourceId)))
+            issues.Add(MappingError("DispositionConflictsWithMapping", $"Source ship '{disposition.SourceId}' has both a live mapping and a disposition."));
 
         foreach (var mapping in mappings.Ships)
         {

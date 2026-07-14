@@ -10,5 +10,6 @@ public sealed class ShipMappingCoverageEntry
     public string TargetId { get; init; } = "";
     public string TargetName { get; init; } = "";
     public ConversionKind? Kind { get; init; }
-    public string ExclusionReason { get; init; } = "";
+    public string Disposition { get; init; } = "";
+    public string Reason { get; init; } = "";
 }

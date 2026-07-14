@@ -15,3 +15,12 @@ C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\n
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\obj\Debug\net8.0\ref\UnifiedToolkit.dll
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\mapping-set.json
 C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\ships.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\ship-dispositions.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\pilot-source-alternates.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\pilots.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\pilot-dispositions.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\ambiguous-pilot-resolutions.recommended.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\upgrade-dispositions.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\upgrade-source-alternates.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\upgrades.json
+C:\Users\Evan\Documents\GitHub\xwing-unified-1e\tools\UnifiedToolkit\bin\Debug\net8.0\ConversionData\first-edition\ambiguous-upgrade-resolutions.recommended.json

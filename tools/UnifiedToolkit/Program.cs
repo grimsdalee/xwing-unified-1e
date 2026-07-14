@@ -26,6 +26,18 @@ return command switch
     "prepare-ship-mappings" => PrepareShipMappingsCommand.Run(commandArgs),
     "import-first-edition-ships" => ImportFirstEditionShipsCommand.Run(commandArgs),
     "approve-ship-mappings" => ApproveShipMappingsCommand.Run(commandArgs),
+    "review-unmapped-ships" => ReviewUnmappedShipsCommand.Run(commandArgs),
+    "apply-ship-dispositions" => ApplyShipDispositionsCommand.Run(commandArgs),
+    "resolve-official-ship-aliases" => ResolveOfficialShipAliasesCommand.Run(commandArgs),
+    "promote-official-ship-aliases" => PromoteOfficialShipAliasesCommand.Run(commandArgs),
+    "prepare-first-edition-pilots" => PrepareFirstEditionPilotsCommand.Run(commandArgs),
+    "approve-first-edition-pilots" => ApproveFirstEditionPilotsCommand.Run(commandArgs),
+    "review-ambiguous-pilots" => ReviewAmbiguousPilotsCommand.Run(commandArgs),
+    "apply-ambiguous-pilot-resolutions" => ApplyAmbiguousPilotResolutionsCommand.Run(commandArgs),
+    "prepare-first-edition-upgrades" => PrepareFirstEditionUpgradesCommand.Run(commandArgs),
+    "approve-first-edition-upgrades" => ApproveFirstEditionUpgradesCommand.Run(commandArgs),
+    "review-ambiguous-upgrades" => ReviewAmbiguousUpgradesCommand.Run(commandArgs),
+    "apply-ambiguous-upgrade-resolutions" => ApplyAmbiguousUpgradeResolutionsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -49,6 +61,18 @@ static void ShowHelp()
     Console.WriteLine("  prepare-ship-mappings <repo-folder> [mapping-folder]");
     Console.WriteLine("  import-first-edition-ships <repo-folder> <xwing-data-folder> [mapping-folder]");
     Console.WriteLine("  approve-ship-mappings <ships.proposed.json> [mapping-folder] [--version <version>] [--apply]");
+    Console.WriteLine("  review-unmapped-ships <repo-folder> [mapping-folder]");
+    Console.WriteLine("  apply-ship-dispositions <ship-dispositions.review.json> [mapping-folder] [--version <version>] [--apply]");
+    Console.WriteLine("  resolve-official-ship-aliases <repo-folder> <xwing-data-folder> [mapping-folder]");
+    Console.WriteLine("  promote-official-ship-aliases <official-alias-mappings.proposed.json> [mapping-folder] [--version <version>] [--apply]");
+    Console.WriteLine("  prepare-first-edition-pilots <repo-folder> <xwing-data-folder> [mapping-folder]");
+    Console.WriteLine("  approve-first-edition-pilots <pilots.canonical.proposed.json> <pilot-source-alternates.proposed.json> [mapping-folder] --version <version> [--apply]");
+    Console.WriteLine("  review-ambiguous-pilots <repo-folder> <xwing-data-folder> [mapping-folder]");
+    Console.WriteLine("  apply-ambiguous-pilot-resolutions <ambiguous-pilot-resolutions.review.json> [mapping-folder] --version <version> [--apply]");
+    Console.WriteLine("  prepare-first-edition-upgrades <repo-folder> <xwing-data-folder>");
+    Console.WriteLine("  approve-first-edition-upgrades <canonical.json> <alternates.json> <matches.csv> [mapping-folder] --version <version> [--apply]");
+    Console.WriteLine("  review-ambiguous-upgrades <repo-folder> <xwing-data-folder> [mapping-folder]");
+    Console.WriteLine("  apply-ambiguous-upgrade-resolutions <ambiguous-upgrade-resolutions.review.json> [mapping-folder] --version <version> [--apply]");
 }
 
 static int UnknownCommand(string command)

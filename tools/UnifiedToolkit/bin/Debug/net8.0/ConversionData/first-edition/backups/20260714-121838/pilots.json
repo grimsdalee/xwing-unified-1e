@@ -1,0 +1,2971 @@
+[
+  {
+    "MappingId": "pilot-4lom-g1astarfighter-scumandvillainy-direct-v1",
+    "SourceId": "4lom",
+    "TargetId": "4lom",
+    "Name": "4-LOM",
+    "ShipId": "g1astarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit",
+      "system"
+    ]
+  },
+  {
+    "MappingId": "pilot-academypilot-tiefighter-galacticempire-direct-v1",
+    "SourceId": "academypilot",
+    "TargetId": "academypilot",
+    "Name": "Academy Pilot",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 1,
+    "SquadPointCost": 12,
+    "Unique": false,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-airencracken-z95headhunter-rebelalliance-direct-v1",
+    "SourceId": "airencracken",
+    "TargetId": "airencracken",
+    "Name": "Airen Cracken",
+    "ShipId": "z95headhunter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-alphasquadronpilot-tieinterceptor-galacticempire-direct-v1",
+    "SourceId": "alphasquadronpilot",
+    "TargetId": "alphasquadronpilot",
+    "Name": "Alpha Squadron Pilot",
+    "ShipId": "tieinterceptor",
+    "Faction": "galacticempire",
+    "PilotSkill": 1,
+    "SquadPointCost": 18,
+    "Unique": false,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-ap5-sheathipedeclassshuttle-rebelalliance-direct-v1",
+    "SourceId": "ap5",
+    "TargetId": "ap5",
+    "Name": "AP-5",
+    "ShipId": "sheathipedeclassshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 1,
+    "SquadPointCost": 15,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-arvelcrynyd-awing-rebelalliance-direct-v1",
+    "SourceId": "arvelcrynyd",
+    "TargetId": "arvelcrynyd",
+    "Name": "Arvel Crynyd",
+    "ShipId": "awing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 23,
+    "Unique": true,
+    "UpgradeSlots": [
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-asajjventress-lancerclasspursuitcraft-scumandvillainy-direct-v1",
+    "SourceId": "asajjventress",
+    "TargetId": "asajjventress",
+    "Name": "Asajj Ventress",
+    "ShipId": "lancerclasspursuitcraft",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 37,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-backdraft-tiesffighter-firstorder-direct-v1",
+    "SourceId": "backdraft",
+    "TargetId": "backdraft",
+    "Name": "\u0022Backdraft\u0022",
+    "ShipId": "tiesffighter",
+    "Faction": "firstorder",
+    "PilotSkill": 7,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-backstabber-tiefighter-galacticempire-direct-v1",
+    "SourceId": "backstabber-battleofyavin",
+    "TargetId": "backstabber",
+    "Name": "\u0022Backstabber\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 16,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-banditsquadronpilot-z95headhunter-rebelalliance-direct-v1",
+    "SourceId": "banditsquadronpilot",
+    "TargetId": "banditsquadronpilot",
+    "Name": "Bandit Squadron Pilot",
+    "ShipId": "z95headhunter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 2,
+    "SquadPointCost": 12,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-baronoftheempire-tieadvprototype-galacticempire-direct-v1",
+    "SourceId": "baronoftheempire",
+    "TargetId": "baronoftheempire",
+    "Name": "Baron of the Empire",
+    "ShipId": "tieadvprototype",
+    "Faction": "galacticempire",
+    "PilotSkill": 4,
+    "SquadPointCost": 19,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-benthictwotubes-uwing-rebelalliance-direct-v1",
+    "SourceId": "benthictwotubes",
+    "TargetId": "benthictwotubes",
+    "Name": "Benthic Two Tubes",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-biggsdarklighter-xwing-rebelalliance-direct-v1",
+    "SourceId": "biggsdarklighter",
+    "TargetId": "biggsdarklighter",
+    "Name": "Biggs Darklighter",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-binayrepirate-z95headhunter-scumandvillainy-direct-v1",
+    "SourceId": "binayrepirate",
+    "TargetId": "binayrepirate",
+    "Name": "Binayre Pirate",
+    "ShipId": "z95headhunter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 12,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-blacksquadronscout-tiestriker-galacticempire-direct-v1",
+    "SourceId": "blacksquadronscout",
+    "TargetId": "blacksquadronscout",
+    "Name": "Black Squadron Scout",
+    "ShipId": "tiestriker",
+    "Faction": "galacticempire",
+    "PilotSkill": 4,
+    "SquadPointCost": 20,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-blacksunace-kihraxzfighter-scumandvillainy-direct-v1",
+    "SourceId": "blacksunace",
+    "TargetId": "blacksunace",
+    "Name": "Black Sun Ace",
+    "ShipId": "kihraxzfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 23,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-blacksunassassin-starviper-scumandvillainy-direct-v1",
+    "SourceId": "blacksunassassin",
+    "TargetId": "blacksunassassin",
+    "Name": "Black Sun Assassin",
+    "ShipId": "starviper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 28,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-blacksunenforcer-starviper-scumandvillainy-direct-v1",
+    "SourceId": "blacksunenforcer",
+    "TargetId": "blacksunenforcer",
+    "Name": "Black Sun Enforcer",
+    "ShipId": "starviper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 25,
+    "Unique": false,
+    "UpgradeSlots": [
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-blacksunsoldier-z95headhunter-scumandvillainy-direct-v1",
+    "SourceId": "blacksunsoldier",
+    "TargetId": "blacksunsoldier",
+    "Name": "Black Sun Soldier",
+    "ShipId": "z95headhunter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 13,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-bluesquadronpilot-bwing-rebelalliance-direct-v1",
+    "SourceId": "bluesquadronpilot",
+    "TargetId": "bluesquadronpilot",
+    "Name": "Blue Squadron Pilot",
+    "ShipId": "bwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 2,
+    "SquadPointCost": 22,
+    "Unique": false,
+    "UpgradeSlots": [
+      "system",
+      "cannon",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-bobafett-firespray31-scumandvillainy-direct-v1",
+    "SourceId": "bobafett",
+    "TargetId": "bobafett",
+    "Name": "Boba Fett",
+    "ShipId": "firespray31",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 8,
+    "SquadPointCost": 39,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-bodhirook-uwing-rebelalliance-direct-v1",
+    "SourceId": "bodhirook",
+    "TargetId": "bodhirook",
+    "Name": "Bodhi Rook",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "torpedo",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-bossk-yv666-scumandvillainy-direct-v1",
+    "SourceId": "bossk",
+    "TargetId": "bossk",
+    "Name": "Bossk",
+    "ShipId": "yv666",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 35,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-bountyhunter-firespray31-galacticempire-direct-v1",
+    "SourceId": "bountyhunter",
+    "TargetId": "bountyhunter",
+    "Name": "Bounty Hunter",
+    "ShipId": "firespray31",
+    "Faction": "galacticempire",
+    "PilotSkill": 3,
+    "SquadPointCost": 33,
+    "Unique": false,
+    "UpgradeSlots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainjonus-tiebomber-galacticempire-direct-v1",
+    "SourceId": "captainjonus",
+    "TargetId": "captainjonus",
+    "Name": "Captain Jonus",
+    "ShipId": "tiebomber",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainjostero-kihraxzfighter-scumandvillainy-direct-v1",
+    "SourceId": "captainjostero",
+    "TargetId": "captainjostero",
+    "Name": "Captain Jostero",
+    "ShipId": "kihraxzfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 4,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "illicit",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainkagi-lambdaclassshuttle-galacticempire-direct-v1",
+    "SourceId": "captainkagi",
+    "TargetId": "captainkagi",
+    "Name": "Captain Kagi",
+    "ShipId": "lambdaclassshuttle",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "cannon",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainnym-scurrgh6bomber-scumandvillainy-direct-v1",
+    "SourceId": "captainnym",
+    "TargetId": "captainnym",
+    "Name": "Captain Nym",
+    "ShipId": "scurrgh6bomber",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 8,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "elite",
+      "missile",
+      "torpedo",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainoicunn-vt49decimator-galacticempire-direct-v1",
+    "SourceId": "captainoicunn",
+    "TargetId": "captainoicunn",
+    "Name": "Captain Oicunn",
+    "ShipId": "vt49decimator",
+    "Faction": "galacticempire",
+    "PilotSkill": 4,
+    "SquadPointCost": 42,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-captainrex-tiefighter-rebelalliance-direct-v1",
+    "SourceId": "captainrex",
+    "TargetId": "captainrex",
+    "Name": "Captain Rex",
+    "ShipId": "tiefighter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 14,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-cartelexecutioner-m12lkimogilafighter-scumandvillainy-direct-v1",
+    "SourceId": "cartelexecutioner",
+    "TargetId": "cartelexecutioner",
+    "Name": "Cartel Executioner",
+    "ShipId": "m12lkimogilafighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 24,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "torpedo",
+      "illicit",
+      "salvagedastromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-cartelmarauder-kihraxzfighter-scumandvillainy-direct-v1",
+    "SourceId": "cartelmarauder",
+    "TargetId": "cartelmarauder",
+    "Name": "Cartel Marauder",
+    "ShipId": "kihraxzfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 2,
+    "SquadPointCost": 20,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-cartelspacer-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "cartelspacer",
+    "TargetId": "cartelspacer",
+    "Name": "Cartel Spacer",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 2,
+    "SquadPointCost": 14,
+    "Unique": false,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-cassianandor-uwing-rebelalliance-direct-v1",
+    "SourceId": "cassianandor",
+    "TargetId": "cassianandor",
+    "Name": "Cassian Andor",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "system",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-cavernangelszealot-xwing-rebelalliance-direct-v1",
+    "SourceId": "cavernangelszealot",
+    "TargetId": "cavernangelszealot",
+    "Name": "Cavern Angels Zealot",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 1,
+    "SquadPointCost": 22,
+    "Unique": false,
+    "UpgradeSlots": [
+      "torpedo",
+      "astromech",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-chewbacca-yt1300-rebelalliance-direct-v1",
+    "SourceId": "chewbacca",
+    "TargetId": "chewbacca",
+    "Name": "Chewbacca",
+    "ShipId": "yt1300",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 42,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-chopper-vcx100-rebelalliance-direct-v1",
+    "SourceId": "chopper",
+    "TargetId": "chopper",
+    "Name": "\u0022Chopper\u0022",
+    "ShipId": "vcx100",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 37,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "turret",
+      "torpedo",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-coloneljendon-lambdaclassshuttle-galacticempire-direct-v1",
+    "SourceId": "coloneljendon",
+    "TargetId": "coloneljendon",
+    "Name": "Colonel Jendon",
+    "ShipId": "lambdaclassshuttle",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "cannon",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-colonelvessery-tiedefender-galacticempire-direct-v1",
+    "SourceId": "colonelvessery",
+    "TargetId": "colonelvessery",
+    "Name": "Colonel Vessery",
+    "ShipId": "tiedefender",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 35,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-constablezuvio-quadjumper-scumandvillainy-direct-v1",
+    "SourceId": "constablezuvio",
+    "TargetId": "constablezuvio",
+    "Name": "Constable Zuvio",
+    "ShipId": "quadjumper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "elite",
+      "illicit",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-contractedscout-jumpmaster5000-scumandvillainy-direct-v1",
+    "SourceId": "contractedscout",
+    "TargetId": "contractedscout",
+    "Name": "Contracted Scout",
+    "ShipId": "jumpmaster5000",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 25,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-corranhorn-ewing-rebelalliance-direct-v1",
+    "SourceId": "corranhorn",
+    "TargetId": "corranhorn",
+    "Name": "Corran Horn",
+    "ShipId": "ewing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 35,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-countdown-tiestriker-galacticempire-direct-v1",
+    "SourceId": "countdown",
+    "TargetId": "countdown",
+    "Name": "\u0022Countdown\u0022",
+    "ShipId": "tiestriker",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 20,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-countessryad-tiedefender-galacticempire-direct-v1",
+    "SourceId": "countessryad",
+    "TargetId": "countessryad",
+    "Name": "Countess Ryad",
+    "ShipId": "tiedefender",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 34,
+    "Unique": true,
+    "UpgradeSlots": [
+      "cannon",
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-cutlasssquadronpilot-tiepunisher-galacticempire-direct-v1",
+    "SourceId": "cutlasssquadronpilot",
+    "TargetId": "cutlasssquadronpilot",
+    "Name": "Cutlass Squadron Pilot",
+    "ShipId": "tiepunisher",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 21,
+    "Unique": false,
+    "UpgradeSlots": [
+      "system",
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-dacebonearm-hwk290-scumandvillainy-direct-v1",
+    "SourceId": "dacebonearm",
+    "TargetId": "dacebonearm",
+    "Name": "Dace Bonearm",
+    "ShipId": "hwk290",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 23,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-dalanoberos-m12lkimogilafighter-scumandvillainy-direct-v1",
+    "SourceId": "dalanoberos",
+    "TargetId": "dalanoberos",
+    "Name": "Dalan Oberos",
+    "ShipId": "m12lkimogilafighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "illicit",
+      "elite",
+      "missile",
+      "salvagedastromech",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-dalanoberos-starviper-scumandvillainy-direct-v1",
+    "SourceId": "dalanoberos-starviperclassattackplatform",
+    "TargetId": "dalanoberos",
+    "Name": "Dalan Oberos",
+    "ShipId": "starviper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-darkcurse-tiefighter-galacticempire-direct-v1",
+    "SourceId": "darkcurse-battleofyavin",
+    "TargetId": "darkcurse",
+    "Name": "\u0022Dark Curse\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 16,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-darthvader-tieadvanced-galacticempire-direct-v1",
+    "SourceId": "darthvader",
+    "TargetId": "darthvader",
+    "Name": "Darth Vader",
+    "ShipId": "tieadvanced",
+    "Faction": "galacticempire",
+    "PilotSkill": 9,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-dashrendar-yt2400-rebelalliance-direct-v1",
+    "SourceId": "dashrendar",
+    "TargetId": "dashrendar",
+    "Name": "Dash Rendar",
+    "ShipId": "yt2400",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-deathfire-tiebomber-galacticempire-direct-v1",
+    "SourceId": "deathfire",
+    "TargetId": "deathfire",
+    "Name": "\u0022Deathfire\u0022",
+    "ShipId": "tiebomber",
+    "Faction": "galacticempire",
+    "PilotSkill": 3,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "missile",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-deathrain-tiepunisher-galacticempire-direct-v1",
+    "SourceId": "deathrain",
+    "TargetId": "deathrain",
+    "Name": "\u0022Deathrain\u0022",
+    "ShipId": "tiepunisher",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-deltasquadronpilot-tiedefender-galacticempire-direct-v1",
+    "SourceId": "deltasquadronpilot",
+    "TargetId": "deltasquadronpilot",
+    "Name": "Delta Squadron Pilot",
+    "ShipId": "tiedefender",
+    "Faction": "galacticempire",
+    "PilotSkill": 1,
+    "SquadPointCost": 30,
+    "Unique": false,
+    "UpgradeSlots": [
+      "cannon",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-dengar-jumpmaster5000-scumandvillainy-direct-v1",
+    "SourceId": "dengar",
+    "TargetId": "dengar",
+    "Name": "Dengar",
+    "ShipId": "jumpmaster5000",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 9,
+    "SquadPointCost": 33,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-doubleedge-tieaggressor-galacticempire-direct-v1",
+    "SourceId": "doubleedge",
+    "TargetId": "doubleedge",
+    "Name": "\u0022Double Edge\u0022",
+    "ShipId": "tieaggressor",
+    "Faction": "galacticempire",
+    "PilotSkill": 4,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-drearenthal-ywing-scumandvillainy-direct-v1",
+    "SourceId": "drearenthal",
+    "TargetId": "drearenthal",
+    "Name": "Drea Renthal",
+    "ShipId": "ywing",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "salvagedastromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-duchess-tiestriker-galacticempire-direct-v1",
+    "SourceId": "duchess",
+    "TargetId": "duchess",
+    "Name": "\u0022Duchess\u0022",
+    "ShipId": "tiestriker",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 23,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-dutchvander-ywing-rebelalliance-direct-v1",
+    "SourceId": "dutchvander",
+    "TargetId": "dutchvander",
+    "Name": "\u0022Dutch\u0022 Vander",
+    "ShipId": "ywing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 23,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-echo-tiephantom-galacticempire-direct-v1",
+    "SourceId": "echo",
+    "TargetId": "echo",
+    "Name": "\u0022Echo\u0022",
+    "ShipId": "tiephantom",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-edriotwotubes-xwing-rebelalliance-direct-v1",
+    "SourceId": "edriotwotubes",
+    "TargetId": "edriotwotubes",
+    "Name": "Edrio Two Tubes",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-elloasty-t70xwing-resistance-direct-v1",
+    "SourceId": "elloasty",
+    "TargetId": "elloasty",
+    "Name": "Ello Asty",
+    "ShipId": "t70xwing",
+    "Faction": "resistance",
+    "PilotSkill": 7,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "elite",
+      "tech",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-emonazzameen-firespray31-scumandvillainy-direct-v1",
+    "SourceId": "emonazzameen",
+    "TargetId": "emonazzameen",
+    "Name": "Emon Azzameen",
+    "ShipId": "firespray31",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-esegetuketu-kwing-rebelalliance-direct-v1",
+    "SourceId": "esegetuketu",
+    "TargetId": "esegetuketu",
+    "Name": "Esege Tuketu",
+    "ShipId": "kwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-ezrabridger-attackshuttle-rebelalliance-direct-v1",
+    "SourceId": "ezrabridger",
+    "TargetId": "ezrabridger",
+    "Name": "Ezra Bridger",
+    "ShipId": "attackshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 20,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-ezrabridger-sheathipedeclassshuttle-rebelalliance-direct-v1",
+    "SourceId": "ezrabridger-sheathipedeclassshuttle",
+    "TargetId": "ezrabridger",
+    "Name": "Ezra Bridger",
+    "ShipId": "sheathipedeclassshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-fennrau-protectoratestarfighter-scumandvillainy-direct-v1",
+    "SourceId": "fennrau",
+    "TargetId": "fennrau",
+    "Name": "Fenn Rau",
+    "ShipId": "protectoratestarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 9,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-fennrau-sheathipedeclassshuttle-rebelalliance-direct-v1",
+    "SourceId": "fennrau-sheathipedeclassshuttle",
+    "TargetId": "fennrau",
+    "Name": "Fenn Rau",
+    "ShipId": "sheathipedeclassshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 9,
+    "SquadPointCost": 20,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-firstordertestpilot-tiesilencer-firstorder-direct-v1",
+    "SourceId": "firstordertestpilot",
+    "TargetId": "firstordertestpilot",
+    "Name": "First Order Test Pilot",
+    "ShipId": "tiesilencer",
+    "Faction": "firstorder",
+    "PilotSkill": 6,
+    "SquadPointCost": 29,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-gandfindsman-g1astarfighter-scumandvillainy-direct-v1",
+    "SourceId": "gandfindsman",
+    "TargetId": "gandfindsman",
+    "Name": "Gand Findsman",
+    "ShipId": "g1astarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 25,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit",
+      "system"
+    ]
+  },
+  {
+    "MappingId": "pilot-garvendreis-xwing-rebelalliance-direct-v1",
+    "SourceId": "garvendreis-t65xwing",
+    "TargetId": "garvendreis",
+    "Name": "Garven Dreis",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-gemmersojan-awing-rebelalliance-direct-v1",
+    "SourceId": "gemmersojan-battleoverendor",
+    "TargetId": "gemmersojan",
+    "Name": "Gemmer Sojan",
+    "ShipId": "awing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-genesisred-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "genesisred",
+    "TargetId": "genesisred",
+    "Name": "Genesis Red",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-greensquadronpilot-awing-rebelalliance-direct-v1",
+    "SourceId": "greensquadronpilot",
+    "TargetId": "greensquadronpilot",
+    "Name": "Green Squadron Pilot",
+    "ShipId": "awing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 19,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-guri-starviper-scumandvillainy-direct-v1",
+    "SourceId": "guri",
+    "TargetId": "guri",
+    "Name": "Guri",
+    "ShipId": "starviper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-hansolo-yt1300-rebelalliance-direct-v1",
+    "SourceId": "hansolo-battleofyavin",
+    "TargetId": "hansolo",
+    "Name": "Han Solo",
+    "ShipId": "yt1300",
+    "Faction": "rebelalliance",
+    "PilotSkill": 9,
+    "SquadPointCost": 46,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-hefftobber-uwing-rebelalliance-direct-v1",
+    "SourceId": "hefftobber",
+    "TargetId": "hefftobber",
+    "Name": "Heff Tobber",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "crew",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-herasyndulla-attackshuttle-rebelalliance-direct-v1",
+    "SourceId": "herasyndulla",
+    "TargetId": "herasyndulla",
+    "Name": "Hera Syndulla",
+    "ShipId": "attackshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-herasyndulla-vcx100-rebelalliance-direct-v1",
+    "SourceId": "herasyndulla-vcx100lightfreighter",
+    "TargetId": "herasyndulla",
+    "Name": "Hera Syndulla",
+    "ShipId": "vcx100",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 40,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "torpedo",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-hiredgun-ywing-scumandvillainy-direct-v1",
+    "SourceId": "hiredgun",
+    "TargetId": "hiredgun",
+    "Name": "Hired Gun",
+    "ShipId": "ywing",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 4,
+    "SquadPointCost": 20,
+    "Unique": false,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "salvagedastromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-hortonsalm-ywing-rebelalliance-direct-v1",
+    "SourceId": "hortonsalm",
+    "TargetId": "hortonsalm",
+    "Name": "Horton Salm",
+    "ShipId": "ywing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-howlrunner-tiefighter-galacticempire-direct-v1",
+    "SourceId": "howlrunner",
+    "TargetId": "howlrunner",
+    "Name": "\u0022Howlrunner\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 18,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-ig88a-aggressor-scumandvillainy-direct-v1",
+    "SourceId": "ig88a",
+    "TargetId": "ig88a",
+    "Name": "IG-88A",
+    "ShipId": "aggressor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "bomb",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-ig88b-aggressor-scumandvillainy-direct-v1",
+    "SourceId": "ig88b",
+    "TargetId": "ig88b",
+    "Name": "IG-88B",
+    "ShipId": "aggressor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "bomb",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-ig88c-aggressor-scumandvillainy-direct-v1",
+    "SourceId": "ig88c",
+    "TargetId": "ig88c",
+    "Name": "IG-88C",
+    "ShipId": "aggressor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "bomb",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-ig88d-aggressor-scumandvillainy-direct-v1",
+    "SourceId": "ig88d",
+    "TargetId": "ig88d",
+    "Name": "IG-88D",
+    "ShipId": "aggressor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "bomb",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-inaldra-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "inaldra",
+    "TargetId": "inaldra",
+    "Name": "Inaldra",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 15,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-jakefarrell-awing-rebelalliance-direct-v1",
+    "SourceId": "jakefarrell",
+    "TargetId": "jakefarrell",
+    "Name": "Jake Farrell",
+    "ShipId": "awing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-jakkugunrunner-quadjumper-scumandvillainy-direct-v1",
+    "SourceId": "jakkugunrunner",
+    "TargetId": "jakkugunrunner",
+    "Name": "Jakku Gunrunner",
+    "ShipId": "quadjumper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 15,
+    "Unique": false,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "illicit",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-janors-hwk290-rebelalliance-direct-v1",
+    "SourceId": "janors",
+    "TargetId": "janors",
+    "Name": "Jan Ors",
+    "ShipId": "hwk290",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-jekporkins-xwing-rebelalliance-direct-v1",
+    "SourceId": "jekporkins",
+    "TargetId": "jekporkins",
+    "Name": "Jek Porkins",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-junoeclipse-tieadvanced-galacticempire-direct-v1",
+    "SourceId": "junoeclipse",
+    "TargetId": "junoeclipse",
+    "Name": "Juno Eclipse",
+    "ShipId": "tieadvanced",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-kaatoleeachos-z95headhunter-scumandvillainy-direct-v1",
+    "SourceId": "kaatoleeachos",
+    "TargetId": "kaatoleeachos",
+    "Name": "Kaa\u0027to Leeachos",
+    "ShipId": "z95headhunter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 15,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-kadsolus-protectoratestarfighter-scumandvillainy-direct-v1",
+    "SourceId": "kadsolus",
+    "TargetId": "kadsolus",
+    "Name": "Kad Solus",
+    "ShipId": "protectoratestarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "torpedo",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-kananjarrus-vcx100-rebelalliance-direct-v1",
+    "SourceId": "kananjarrus",
+    "TargetId": "kananjarrus",
+    "Name": "Kanan Jarrus",
+    "ShipId": "vcx100",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 38,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "system",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-kashyyykdefender-auzituckgunship-rebelalliance-direct-v1",
+    "SourceId": "kashyyykdefender",
+    "TargetId": "kashyyykdefender",
+    "Name": "Kashyyyk Defender",
+    "ShipId": "auzituckgunship",
+    "Faction": "rebelalliance",
+    "PilotSkill": 1,
+    "SquadPointCost": 24,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-kathscarlet-firespray31-scumandvillainy-direct-v1",
+    "SourceId": "kathscarlet",
+    "TargetId": "kathscarlet",
+    "Name": "Kath Scarlet",
+    "ShipId": "firespray31",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 38,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-kavil-ywing-scumandvillainy-direct-v1",
+    "SourceId": "kavil",
+    "TargetId": "kavil",
+    "Name": "Kavil",
+    "ShipId": "ywing",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "torpedo",
+      "salvagedastromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-ketsuonyo-lancerclasspursuitcraft-scumandvillainy-direct-v1",
+    "SourceId": "ketsuonyo",
+    "TargetId": "ketsuonyo",
+    "Name": "Ketsu Onyo",
+    "ShipId": "lancerclasspursuitcraft",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 38,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-krassistrelix-firespray31-galacticempire-direct-v1",
+    "SourceId": "krassistrelix",
+    "TargetId": "krassistrelix",
+    "Name": "Krassis Trelix",
+    "ShipId": "firespray31",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 36,
+    "Unique": true,
+    "UpgradeSlots": [
+      "cannon",
+      "bomb",
+      "crew",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-kullbeesperado-xwing-rebelalliance-direct-v1",
+    "SourceId": "kullbeesperado",
+    "TargetId": "kullbeesperado",
+    "Name": "Kullbee Sperado",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-kylekatarn-hwk290-rebelalliance-direct-v1",
+    "SourceId": "kylekatarn",
+    "TargetId": "kylekatarn",
+    "Name": "Kyle Katarn",
+    "ShipId": "hwk290",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 21,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-kyloren-tiesilencer-firstorder-direct-v1",
+    "SourceId": "kyloren",
+    "TargetId": "kyloren",
+    "Name": "Kylo Ren",
+    "ShipId": "tiesilencer",
+    "Faction": "firstorder",
+    "PilotSkill": 9,
+    "SquadPointCost": 35,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-laetinashera-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "laetinashera",
+    "TargetId": "laetinashera",
+    "Name": "Laetin A\u0027shera",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 18,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-landocalrissian-yt1300-rebelalliance-direct-v1",
+    "SourceId": "landocalrissian-battleoverendor",
+    "TargetId": "landocalrissian",
+    "Name": "Lando Calrissian",
+    "ShipId": "yt1300",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 44,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-lattsrazzi-yv666-scumandvillainy-direct-v1",
+    "SourceId": "lattsrazzi",
+    "TargetId": "lattsrazzi",
+    "Name": "Latts Razzi",
+    "ShipId": "yv666",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 33,
+    "Unique": true,
+    "UpgradeSlots": [
+      "cannon",
+      "missile",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-leebo-yt2400-rebelalliance-direct-v1",
+    "SourceId": "leebo",
+    "TargetId": "leebo",
+    "Name": "\u0022Leebo\u0022",
+    "ShipId": "yt2400",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 34,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-leevantenza-xwing-rebelalliance-direct-v1",
+    "SourceId": "leevantenza",
+    "TargetId": "leevantenza",
+    "Name": "Leevan Tenza",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-lieutenantblount-z95headhunter-rebelalliance-direct-v1",
+    "SourceId": "lieutenantblount",
+    "TargetId": "lieutenantblount",
+    "Name": "Lieutenant Blount",
+    "ShipId": "z95headhunter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-lieutenantdormitz-upsilonclassshuttle-firstorder-direct-v1",
+    "SourceId": "lieutenantdormitz",
+    "TargetId": "lieutenantdormitz",
+    "Name": "Lieutenant Dormitz",
+    "ShipId": "upsilonclassshuttle",
+    "Faction": "firstorder",
+    "PilotSkill": 3,
+    "SquadPointCost": 31,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-lieutenantkarsabi-alphaclassstarwing-galacticempire-direct-v1",
+    "SourceId": "lieutenantkarsabi",
+    "TargetId": "lieutenantkarsabi",
+    "Name": "Lieutenant Karsabi",
+    "ShipId": "alphaclassstarwing",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-lieutenantkestal-tieaggressor-galacticempire-direct-v1",
+    "SourceId": "lieutenantkestal",
+    "TargetId": "lieutenantkestal",
+    "Name": "Lieutenant Kestal",
+    "ShipId": "tieaggressor",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-lieutenantlorrir-tieinterceptor-galacticempire-direct-v1",
+    "SourceId": "lieutenantlorrir",
+    "TargetId": "lieutenantlorrir",
+    "Name": "Lieutenant Lorrir",
+    "ShipId": "tieinterceptor",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 23,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-lokrevenant-scurrgh6bomber-scumandvillainy-direct-v1",
+    "SourceId": "lokrevenant",
+    "TargetId": "lokrevenant",
+    "Name": "Lok Revenant",
+    "ShipId": "scurrgh6bomber",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 26,
+    "Unique": false,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "elite",
+      "missile",
+      "torpedo",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-lothalrebel-vcx100-rebelalliance-direct-v1",
+    "SourceId": "lothalrebel",
+    "TargetId": "lothalrebel",
+    "Name": "Lothal Rebel",
+    "ShipId": "vcx100",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 35,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "torpedo",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-lowhhrick-auzituckgunship-rebelalliance-direct-v1",
+    "SourceId": "lowhhrick",
+    "TargetId": "lowhhrick",
+    "Name": "Lowhhrick",
+    "ShipId": "auzituckgunship",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-lukeskywalker-xwing-rebelalliance-direct-v1",
+    "SourceId": "lukeskywalker",
+    "TargetId": "lukeskywalker",
+    "Name": "Luke Skywalker",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-maarekstele-tieadvanced-galacticempire-direct-v1",
+    "SourceId": "maarekstele",
+    "TargetId": "maarekstele",
+    "Name": "Maarek Stele",
+    "ShipId": "tieadvanced",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-magvayarro-uwing-rebelalliance-direct-v1",
+    "SourceId": "magvayarro",
+    "TargetId": "magvayarro",
+    "Name": "Magva Yarro",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "torpedo",
+      "system"
+    ]
+  },
+  {
+    "MappingId": "pilot-majorrhymer-tiebomber-galacticempire-direct-v1",
+    "SourceId": "majorrhymer",
+    "TargetId": "majorrhymer",
+    "Name": "Major Rhymer",
+    "ShipId": "tiebomber",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-majorstridan-upsilonclassshuttle-firstorder-direct-v1",
+    "SourceId": "majorstridan",
+    "TargetId": "majorstridan",
+    "Name": "Major Stridan",
+    "ShipId": "upsilonclassshuttle",
+    "Faction": "firstorder",
+    "PilotSkill": 4,
+    "SquadPointCost": 32,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-majorvynder-alphaclassstarwing-galacticempire-direct-v1",
+    "SourceId": "majorvynder",
+    "TargetId": "majorvynder",
+    "Name": "Major Vynder",
+    "ShipId": "alphaclassstarwing",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-manaroo-jumpmaster5000-scumandvillainy-direct-v1",
+    "SourceId": "manaroo",
+    "TargetId": "manaroo",
+    "Name": "Manaroo",
+    "ShipId": "jumpmaster5000",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 4,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "illicit",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-maulermithel-tiefighter-galacticempire-direct-v1",
+    "SourceId": "maulermithel",
+    "TargetId": "maulermithel",
+    "Name": "\u0022Mauler Mithel\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-mirandadoni-kwing-rebelalliance-direct-v1",
+    "SourceId": "mirandadoni",
+    "TargetId": "mirandadoni",
+    "Name": "Miranda Doni",
+    "ShipId": "kwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-moraloeval-yv666-scumandvillainy-direct-v1",
+    "SourceId": "moraloeval",
+    "TargetId": "moraloeval",
+    "Name": "Moralo Eval",
+    "ShipId": "yv666",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 34,
+    "Unique": true,
+    "UpgradeSlots": [
+      "cannon",
+      "missile",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-ndrusuhlak-z95headhunter-scumandvillainy-direct-v1",
+    "SourceId": "ndrusuhlak",
+    "TargetId": "ndrusuhlak",
+    "Name": "N\u0027dru Suhlak",
+    "ShipId": "z95headhunter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-niennunb-t70xwing-resistance-direct-v1",
+    "SourceId": "niennunb",
+    "TargetId": "niennunb",
+    "Name": "Nien Nunb",
+    "ShipId": "t70xwing",
+    "Faction": "resistance",
+    "PilotSkill": 7,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "elite",
+      "tech",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-nightbeast-tiefighter-galacticempire-direct-v1",
+    "SourceId": "nightbeast",
+    "TargetId": "nightbeast",
+    "Name": "\u0022Night Beast\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 5,
+    "SquadPointCost": 15,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-norrawexley-arc170-rebelalliance-direct-v1",
+    "SourceId": "norrawexley",
+    "TargetId": "norrawexley",
+    "Name": "Norra Wexley",
+    "ShipId": "arc170",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "crew",
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-nusquadronpilot-alphaclassstarwing-galacticempire-direct-v1",
+    "SourceId": "nusquadronpilot",
+    "TargetId": "nusquadronpilot",
+    "Name": "Nu Squadron Pilot",
+    "ShipId": "alphaclassstarwing",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 18,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-obsidiansquadronpilot-tiefighter-galacticempire-direct-v1",
+    "SourceId": "obsidiansquadronpilot",
+    "TargetId": "obsidiansquadronpilot",
+    "Name": "Obsidian Squadron Pilot",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 3,
+    "SquadPointCost": 13,
+    "Unique": false,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-oldteroch-protectoratestarfighter-scumandvillainy-direct-v1",
+    "SourceId": "oldteroch",
+    "TargetId": "oldteroch",
+    "Name": "Old Teroch",
+    "ShipId": "protectoratestarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-omicrongrouppilot-lambdaclassshuttle-galacticempire-direct-v1",
+    "SourceId": "omicrongrouppilot",
+    "TargetId": "omicrongrouppilot",
+    "Name": "Omicron Group Pilot",
+    "ShipId": "lambdaclassshuttle",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 21,
+    "Unique": false,
+    "UpgradeSlots": [
+      "system",
+      "cannon",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-outerrimsmuggler-yt1300-rebelalliance-direct-v1",
+    "SourceId": "outerrimsmuggler",
+    "TargetId": "outerrimsmuggler",
+    "Name": "Outer Rim Smuggler",
+    "ShipId": "yt1300",
+    "Faction": "rebelalliance",
+    "PilotSkill": 1,
+    "SquadPointCost": 27,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-palobgodalhi-hwk290-scumandvillainy-direct-v1",
+    "SourceId": "palobgodalhi",
+    "TargetId": "palobgodalhi",
+    "Name": "Palob Godalhi",
+    "ShipId": "hwk290",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 20,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "turret",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-partisanrenegade-uwing-rebelalliance-direct-v1",
+    "SourceId": "partisanrenegade",
+    "TargetId": "partisanrenegade",
+    "Name": "Partisan Renegade",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 1,
+    "SquadPointCost": 22,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-patrolleader-vt49decimator-galacticempire-direct-v1",
+    "SourceId": "patrolleader",
+    "TargetId": "patrolleader",
+    "Name": "Patrol Leader",
+    "ShipId": "vt49decimator",
+    "Faction": "galacticempire",
+    "PilotSkill": 3,
+    "SquadPointCost": 40,
+    "Unique": false,
+    "UpgradeSlots": [
+      "torpedo",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-princexizor-starviper-scumandvillainy-direct-v1",
+    "SourceId": "princexizor",
+    "TargetId": "princexizor",
+    "Name": "Prince Xizor",
+    "ShipId": "starviper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 31,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-puresabacc-tiestriker-galacticempire-direct-v1",
+    "SourceId": "puresabacc",
+    "TargetId": "puresabacc",
+    "Name": "\u0022Pure Sabacc\u0022",
+    "ShipId": "tiestriker",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 22,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-quickdraw-tiesffighter-firstorder-direct-v1",
+    "SourceId": "quickdraw",
+    "TargetId": "quickdraw",
+    "Name": "\u0022Quickdraw\u0022",
+    "ShipId": "tiesffighter",
+    "Faction": "firstorder",
+    "PilotSkill": 9,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "tech",
+      "system",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-quinnjast-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "quinnjast",
+    "TargetId": "quinnjast",
+    "Name": "Quinn Jast",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 18,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-rearadmiralchiraneau-vt49decimator-galacticempire-direct-v1",
+    "SourceId": "rearadmiralchiraneau",
+    "TargetId": "rearadmiralchiraneau",
+    "Name": "Rear Admiral Chiraneau",
+    "ShipId": "vt49decimator",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 46,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-redline-tiepunisher-galacticempire-direct-v1",
+    "SourceId": "redline",
+    "TargetId": "redline",
+    "Name": "\u0022Redline\u0022",
+    "ShipId": "tiepunisher",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "system",
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-rexlerbrath-tiedefender-galacticempire-direct-v1",
+    "SourceId": "rexlerbrath",
+    "TargetId": "rexlerbrath",
+    "Name": "Rexler Brath",
+    "ShipId": "tiedefender",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 37,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "cannon",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-roarkgarnet-hwk290-rebelalliance-direct-v1",
+    "SourceId": "roarkgarnet",
+    "TargetId": "roarkgarnet",
+    "Name": "Roark Garnet",
+    "ShipId": "hwk290",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-sabinewren-attackshuttle-rebelalliance-direct-v1",
+    "SourceId": "sabinewren",
+    "TargetId": "sabinewren",
+    "Name": "Sabine Wren",
+    "ShipId": "attackshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 21,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-sabinewren-lancerclasspursuitcraft-scumandvillainy-direct-v1",
+    "SourceId": "sabinewren-lancerclasspursuitcraft",
+    "TargetId": "sabinewren",
+    "Name": "Sabine Wren",
+    "ShipId": "lancerclasspursuitcraft",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 35,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-sabinewren-tiefighter-rebelalliance-direct-v1",
+    "SourceId": "sabinewren-tielnfighter",
+    "TargetId": "sabinewren",
+    "Name": "Sabine Wren",
+    "ShipId": "tiefighter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 5,
+    "SquadPointCost": 15,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-sarcoplank-quadjumper-scumandvillainy-direct-v1",
+    "SourceId": "sarcoplank",
+    "TargetId": "sarcoplank",
+    "Name": "Sarco Plank",
+    "ShipId": "quadjumper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 18,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "bomb",
+      "illicit",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-sawgerrera-uwing-rebelalliance-direct-v1",
+    "SourceId": "sawgerrera",
+    "TargetId": "sawgerrera",
+    "Name": "Saw Gerrera",
+    "ShipId": "uwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "system",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-scimitarsquadronpilot-tiebomber-galacticempire-direct-v1",
+    "SourceId": "scimitarsquadronpilot",
+    "TargetId": "scimitarsquadronpilot",
+    "Name": "Scimitar Squadron Pilot",
+    "ShipId": "tiebomber",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 16,
+    "Unique": false,
+    "UpgradeSlots": [
+      "torpedo",
+      "missile",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-serissu-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "serissu",
+    "TargetId": "serissu",
+    "Name": "Serissu",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 8,
+    "SquadPointCost": 20,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-shadowporthunter-lancerclasspursuitcraft-scumandvillainy-direct-v1",
+    "SourceId": "shadowporthunter",
+    "TargetId": "shadowporthunter",
+    "Name": "Shadowport Hunter",
+    "ShipId": "lancerclasspursuitcraft",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 2,
+    "SquadPointCost": 33,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-sharabey-arc170-rebelalliance-direct-v1",
+    "SourceId": "sharabey",
+    "TargetId": "sharabey",
+    "Name": "Shara Bey",
+    "ShipId": "arc170",
+    "Faction": "rebelalliance",
+    "PilotSkill": 6,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-sienarspecialist-tieaggressor-galacticempire-direct-v1",
+    "SourceId": "sienarspecialist",
+    "TargetId": "sienarspecialist",
+    "Name": "Sienar Specialist",
+    "ShipId": "tieaggressor",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 17,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-solsixxa-scurrgh6bomber-scumandvillainy-direct-v1",
+    "SourceId": "solsixxa",
+    "TargetId": "solsixxa",
+    "Name": "Sol Sixxa",
+    "ShipId": "scurrgh6bomber",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 6,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "elite",
+      "missile",
+      "torpedo",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-soontirfel-tieinterceptor-galacticempire-direct-v1",
+    "SourceId": "soontirfel",
+    "TargetId": "soontirfel",
+    "Name": "Soontir Fel",
+    "ShipId": "tieinterceptor",
+    "Faction": "galacticempire",
+    "PilotSkill": 9,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-spicerunner-hwk290-scumandvillainy-direct-v1",
+    "SourceId": "spicerunner",
+    "TargetId": "spicerunner",
+    "Name": "Spice Runner",
+    "ShipId": "hwk290",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 16,
+    "Unique": false,
+    "UpgradeSlots": [
+      "turret",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-starkillerbasepilot-upsilonclassshuttle-firstorder-direct-v1",
+    "SourceId": "starkillerbasepilot",
+    "TargetId": "starkillerbasepilot",
+    "Name": "Starkiller Base Pilot",
+    "ShipId": "upsilonclassshuttle",
+    "Faction": "firstorder",
+    "PilotSkill": 2,
+    "SquadPointCost": 30,
+    "Unique": false,
+    "UpgradeSlots": [
+      "crew",
+      "system",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-sunnybounder-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "sunnybounder",
+    "TargetId": "sunnybounder",
+    "Name": "Sunny Bounder",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 14,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-talasquadronpilot-z95headhunter-rebelalliance-direct-v1",
+    "SourceId": "talasquadronpilot",
+    "TargetId": "talasquadronpilot",
+    "Name": "Tala Squadron Pilot",
+    "ShipId": "z95headhunter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 4,
+    "SquadPointCost": 13,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-talonbanecobra-kihraxzfighter-scumandvillainy-direct-v1",
+    "SourceId": "talonbanecobra",
+    "TargetId": "talonbanecobra",
+    "Name": "Talonbane Cobra",
+    "ShipId": "kihraxzfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 9,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-tansariipointveteran-m3ainterceptor-scumandvillainy-direct-v1",
+    "SourceId": "tansariipointveteran",
+    "TargetId": "tansariipointveteran",
+    "Name": "Tansarii Point Veteran",
+    "ShipId": "m3ainterceptor",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 5,
+    "SquadPointCost": 17,
+    "Unique": false,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-teltrevura-jumpmaster5000-scumandvillainy-direct-v1",
+    "SourceId": "teltrevura",
+    "TargetId": "teltrevura",
+    "Name": "Tel Trevura",
+    "ShipId": "jumpmaster5000",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-tempestsquadronpilot-tieadvanced-galacticempire-direct-v1",
+    "SourceId": "tempestsquadronpilot",
+    "TargetId": "tempestsquadronpilot",
+    "Name": "Tempest Squadron Pilot",
+    "ShipId": "tieadvanced",
+    "Faction": "galacticempire",
+    "PilotSkill": 2,
+    "SquadPointCost": 21,
+    "Unique": false,
+    "UpgradeSlots": [
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-tennumb-bwing-rebelalliance-direct-v1",
+    "SourceId": "tennumb",
+    "TargetId": "tennumb",
+    "Name": "Ten Numb",
+    "ShipId": "bwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 31,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-tomaxbren-tiebomber-galacticempire-direct-v1",
+    "SourceId": "tomaxbren",
+    "TargetId": "tomaxbren",
+    "Name": "Tomax Bren",
+    "ShipId": "tiebomber",
+    "Faction": "galacticempire",
+    "PilotSkill": 8,
+    "SquadPointCost": 24,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "elite",
+      "torpedo",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-toranikulda-m12lkimogilafighter-scumandvillainy-direct-v1",
+    "SourceId": "toranikulda",
+    "TargetId": "toranikulda",
+    "Name": "Torani Kulda",
+    "ShipId": "m12lkimogilafighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 8,
+    "SquadPointCost": 27,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "illicit",
+      "missile",
+      "salvagedastromech",
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-torkilmux-hwk290-scumandvillainy-direct-v1",
+    "SourceId": "torkilmux",
+    "TargetId": "torkilmux",
+    "Name": "Torkil Mux",
+    "ShipId": "hwk290",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 19,
+    "Unique": true,
+    "UpgradeSlots": [
+      "turret",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-trandoshanslaver-yv666-scumandvillainy-direct-v1",
+    "SourceId": "trandoshanslaver",
+    "TargetId": "trandoshanslaver",
+    "Name": "Trandoshan Slaver",
+    "ShipId": "yv666",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 2,
+    "SquadPointCost": 29,
+    "Unique": false,
+    "UpgradeSlots": [
+      "cannon",
+      "missile",
+      "crew",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-turrphennir-tieinterceptor-galacticempire-direct-v1",
+    "SourceId": "turrphennir",
+    "TargetId": "turrphennir",
+    "Name": "Turr Phennir",
+    "ShipId": "tieinterceptor",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-tychocelchu-awing-rebelalliance-direct-v1",
+    "SourceId": "tychocelchu",
+    "TargetId": "tychocelchu",
+    "Name": "Tycho Celchu",
+    "ShipId": "awing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-unkarplutt-quadjumper-scumandvillainy-direct-v1",
+    "SourceId": "unkarplutt",
+    "TargetId": "unkarplutt",
+    "Name": "Unkar Plutt",
+    "ShipId": "quadjumper",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 3,
+    "SquadPointCost": 17,
+    "Unique": true,
+    "UpgradeSlots": [
+      "bomb",
+      "crew",
+      "illicit",
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-viktorhel-kihraxzfighter-scumandvillainy-direct-v1",
+    "SourceId": "viktorhel",
+    "TargetId": "viktorhel",
+    "Name": "Viktor Hel",
+    "ShipId": "kihraxzfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 25,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile",
+      "illicit"
+    ]
+  },
+  {
+    "MappingId": "pilot-wampa-tiefighter-galacticempire-direct-v1",
+    "SourceId": "wampa",
+    "TargetId": "wampa",
+    "Name": "\u0022Wampa\u0022",
+    "ShipId": "tiefighter",
+    "Faction": "galacticempire",
+    "PilotSkill": 4,
+    "SquadPointCost": 14,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-wardensquadronpilot-kwing-rebelalliance-direct-v1",
+    "SourceId": "wardensquadronpilot",
+    "TargetId": "wardensquadronpilot",
+    "Name": "Warden Squadron Pilot",
+    "ShipId": "kwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 2,
+    "SquadPointCost": 23,
+    "Unique": false,
+    "UpgradeSlots": [
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb"
+    ]
+  },
+  {
+    "MappingId": "pilot-wedgeantilles-xwing-rebelalliance-direct-v1",
+    "SourceId": "wedgeantilles",
+    "TargetId": "wedgeantilles",
+    "Name": "Wedge Antilles",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 9,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-wesjanson-xwing-rebelalliance-direct-v1",
+    "SourceId": "wesjanson",
+    "TargetId": "wesjanson",
+    "Name": "Wes Janson",
+    "ShipId": "xwing",
+    "Faction": "rebelalliance",
+    "PilotSkill": 8,
+    "SquadPointCost": 29,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "torpedo",
+      "astromech"
+    ]
+  },
+  {
+    "MappingId": "pilot-whisper-tiephantom-galacticempire-direct-v1",
+    "SourceId": "whisper",
+    "TargetId": "whisper",
+    "Name": "\u0022Whisper\u0022",
+    "ShipId": "tiephantom",
+    "Faction": "galacticempire",
+    "PilotSkill": 7,
+    "SquadPointCost": 32,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "system",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-wildspacefringer-yt2400-rebelalliance-direct-v1",
+    "SourceId": "wildspacefringer",
+    "TargetId": "wildspacefringer",
+    "Name": "Wild Space Fringer",
+    "ShipId": "yt2400",
+    "Faction": "rebelalliance",
+    "PilotSkill": 2,
+    "SquadPointCost": 30,
+    "Unique": false,
+    "UpgradeSlots": [
+      "cannon",
+      "missile",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-wullffwarro-auzituckgunship-rebelalliance-direct-v1",
+    "SourceId": "wullffwarro",
+    "TargetId": "wullffwarro",
+    "Name": "Wullffwarro",
+    "ShipId": "auzituckgunship",
+    "Faction": "rebelalliance",
+    "PilotSkill": 7,
+    "SquadPointCost": 30,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite"
+    ]
+  },
+  {
+    "MappingId": "pilot-zealousrecruit-protectoratestarfighter-scumandvillainy-direct-v1",
+    "SourceId": "zealousrecruit",
+    "TargetId": "zealousrecruit",
+    "Name": "Zealous Recruit",
+    "ShipId": "protectoratestarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 1,
+    "SquadPointCost": 20,
+    "Unique": false,
+    "UpgradeSlots": [
+      "torpedo"
+    ]
+  },
+  {
+    "MappingId": "pilot-zeborrelios-attackshuttle-rebelalliance-direct-v1",
+    "SourceId": "zeborrelios",
+    "TargetId": "zeborrelios",
+    "Name": "\u0022Zeb\u0022 Orrelios",
+    "ShipId": "attackshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 18,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "turret"
+    ]
+  },
+  {
+    "MappingId": "pilot-zeborrelios-sheathipedeclassshuttle-rebelalliance-direct-v1",
+    "SourceId": "zeborrelios-sheathipedeclassshuttle",
+    "TargetId": "zeborrelios",
+    "Name": "\u0022Zeb\u0022 Orrelios",
+    "ShipId": "sheathipedeclassshuttle",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 16,
+    "Unique": true,
+    "UpgradeSlots": [
+      "astromech",
+      "crew"
+    ]
+  },
+  {
+    "MappingId": "pilot-zeborrelios-tiefighter-rebelalliance-direct-v1",
+    "SourceId": "zeborrelios-tielnfighter",
+    "TargetId": "zeborrelios",
+    "Name": "\u0022Zeb\u0022 Orrelios",
+    "ShipId": "tiefighter",
+    "Faction": "rebelalliance",
+    "PilotSkill": 3,
+    "SquadPointCost": 13,
+    "Unique": true,
+    "UpgradeSlots": []
+  },
+  {
+    "MappingId": "pilot-zertikstrom-tieadvanced-galacticempire-direct-v1",
+    "SourceId": "zertikstrom",
+    "TargetId": "zertikstrom",
+    "Name": "Zertik Strom",
+    "ShipId": "tieadvanced",
+    "Faction": "galacticempire",
+    "PilotSkill": 6,
+    "SquadPointCost": 26,
+    "Unique": true,
+    "UpgradeSlots": [
+      "elite",
+      "missile"
+    ]
+  },
+  {
+    "MappingId": "pilot-zetasquadronpilot-tiefofighter-firstorder-direct-v1",
+    "SourceId": "zetasquadronpilot",
+    "TargetId": "zetasquadronpilot",
+    "Name": "Zeta Squadron Pilot",
+    "ShipId": "tiefofighter",
+    "Faction": "firstorder",
+    "PilotSkill": 3,
+    "SquadPointCost": 16,
+    "Unique": false,
+    "UpgradeSlots": [
+      "tech"
+    ]
+  },
+  {
+    "MappingId": "pilot-zuckuss-g1astarfighter-scumandvillainy-direct-v1",
+    "SourceId": "zuckuss",
+    "TargetId": "zuckuss",
+    "Name": "Zuckuss",
+    "ShipId": "g1astarfighter",
+    "Faction": "scumandvillainy",
+    "PilotSkill": 7,
+    "SquadPointCost": 28,
+    "Unique": true,
+    "UpgradeSlots": [
+      "crew",
+      "elite",
+      "illicit",
+      "system"
+    ]
+  }
+]

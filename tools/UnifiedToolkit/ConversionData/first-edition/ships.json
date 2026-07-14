@@ -202,6 +202,50 @@
     ]
   },
   {
+    "mappingId": "ship-protectoratestarfighter-alias-v1",
+    "sourceId": "fangfighter",
+    "targetId": "protectoratestarfighter",
+    "kind": "Direct",
+    "name": "Protectorate Starfighter",
+    "size": "small",
+    "attack": 3,
+    "agility": 3,
+    "hull": 4,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "boost",
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-firespray31-alias-v1",
+    "sourceId": "firesprayclasspatrolcraft",
+    "targetId": "firespray31",
+    "kind": "Direct",
+    "name": "Firespray-31",
+    "size": "large",
+    "attack": 3,
+    "agility": 2,
+    "hull": 6,
+    "shields": 4,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock",
+      "evade"
+    ],
+    "factions": [
+      "galacticempire",
+      "scumandvillainy"
+    ]
+  },
+  {
     "mappingId": "ship-g1astarfighter-direct-v1",
     "sourceId": "g1astarfighter",
     "targetId": "g1astarfighter",
@@ -405,6 +449,27 @@
     ]
   },
   {
+    "mappingId": "ship-yt1300-alias-v1",
+    "sourceId": "modifiedyt1300lightfreighter",
+    "targetId": "yt1300",
+    "kind": "Direct",
+    "name": "YT-1300",
+    "size": "large",
+    "attack": 3,
+    "agility": 1,
+    "hull": 8,
+    "shields": 5,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "rebelalliance",
+      "resistance"
+    ]
+  },
+  {
     "mappingId": "ship-quadjumper-direct-v1",
     "sourceId": "quadrijettransferspacetug",
     "targetId": "quadjumper",
@@ -546,6 +611,91 @@
     ]
   },
   {
+    "mappingId": "ship-tieadvanced-alias-v1",
+    "sourceId": "tieadvancedx1",
+    "targetId": "tieadvanced",
+    "kind": "Direct",
+    "name": "TIE Advanced",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 3,
+    "shields": 2,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll",
+      "evade"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tieaggressor-alias-v1",
+    "sourceId": "tieagaggressor",
+    "targetId": "tieaggressor",
+    "kind": "Direct",
+    "name": "TIE Aggressor",
+    "size": "small",
+    "attack": 2,
+    "agility": 2,
+    "hull": 4,
+    "shields": 1,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tiepunisher-alias-v1",
+    "sourceId": "tiecapunisher",
+    "targetId": "tiepunisher",
+    "kind": "Direct",
+    "name": "TIE Punisher",
+    "size": "small",
+    "attack": 2,
+    "agility": 1,
+    "hull": 6,
+    "shields": 3,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock",
+      "boost"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tiedefender-alias-v1",
+    "sourceId": "tiededefender",
+    "targetId": "tiedefender",
+    "kind": "Direct",
+    "name": "TIE Defender",
+    "size": "small",
+    "attack": 3,
+    "agility": 3,
+    "hull": 3,
+    "shields": 3,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
     "mappingId": "ship-tiefofighter-direct-v1",
     "sourceId": "tiefofighter",
     "targetId": "tiefofighter",
@@ -567,6 +717,93 @@
     ]
   },
   {
+    "mappingId": "ship-tieinterceptor-alias-v1",
+    "sourceId": "tieininterceptor",
+    "targetId": "tieinterceptor",
+    "kind": "Direct",
+    "name": "TIE Interceptor",
+    "size": "small",
+    "attack": 3,
+    "agility": 3,
+    "hull": 3,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "barrelroll",
+      "boost",
+      "evade"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tiefighter-alias-v1",
+    "sourceId": "tielnfighter",
+    "targetId": "tiefighter",
+    "kind": "Direct",
+    "name": "TIE Fighter",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 3,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "barrelroll",
+      "evade"
+    ],
+    "factions": [
+      "galacticempire",
+      "rebelalliance"
+    ]
+  },
+  {
+    "mappingId": "ship-tiephantom-alias-v1",
+    "sourceId": "tiephphantom",
+    "targetId": "tiephantom",
+    "kind": "Direct",
+    "name": "TIE Phantom",
+    "size": "small",
+    "attack": 4,
+    "agility": 2,
+    "hull": 2,
+    "shields": 2,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "barrelroll",
+      "evade",
+      "cloak"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tiebomber-alias-v1",
+    "sourceId": "tiesabomber",
+    "targetId": "tiebomber",
+    "kind": "Direct",
+    "name": "TIE Bomber",
+    "size": "small",
+    "attack": 2,
+    "agility": 2,
+    "hull": 6,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
     "mappingId": "ship-tiesffighter-direct-v1",
     "sourceId": "tiesffighter",
     "targetId": "tiesffighter",
@@ -584,6 +821,27 @@
     ],
     "factions": [
       "firstorder"
+    ]
+  },
+  {
+    "mappingId": "ship-tiestriker-alias-v1",
+    "sourceId": "tieskstriker",
+    "targetId": "tiestriker",
+    "kind": "Direct",
+    "name": "TIE Striker",
+    "size": "small",
+    "attack": 3,
+    "agility": 2,
+    "hull": 4,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "evade",
+      "focus"
+    ],
+    "factions": [
+      "galacticempire"
     ]
   },
   {
@@ -742,6 +1000,28 @@
     "factions": [
       "rebelalliance",
       "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-tieadvprototype-alias-v1",
+    "sourceId": "tieadvancedv1",
+    "targetId": "tieadvprototype",
+    "kind": "Direct",
+    "name": "TIE Adv. Prototype",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 2,
+    "shields": 2,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "boost",
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "galacticempire"
     ]
   }
 ]

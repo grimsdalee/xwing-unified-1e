@@ -1,0 +1,282 @@
+[
+  {
+    "sourceId": "rz2awing",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "belbulab22starfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "btanr2ywing",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "btanr2ywing-wartime",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "btlbywing",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "clonez95headhunter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "cr90corvette",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship appears to have an official First Edition equivalent, but its canonical target ID must be confirmed before creating an Alias disposition.",
+    "notes": "Deferred for explicit alias verification against the imported First Edition dataset. Do not create custom statistics."
+  },
+  {
+    "sourceId": "customizedyt1300lightfreighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "delta7aethersprite",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "delta7baethersprite",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "droidtrifighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "escapecraft",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "eta2actis",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "fireball",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "gauntletfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "hmpdroidgunship",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "hyenaclassdroidbomber",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "laatigunship",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "mg100starfortress",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "modifiedtielnfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "nabooroyaln1starfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "nantexclassstarfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "nimbusclassvwing",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "raiderclasscorvette",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship appears to have an official First Edition equivalent, but its canonical target ID must be confirmed before creating an Alias disposition.",
+    "notes": "Deferred for explicit alias verification against the imported First Edition dataset. Do not create custom statistics."
+  },
+  {
+    "sourceId": "resistancetransport",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "resistancetransportpod",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "rogueclassstarfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "scavengedyt1300lightfreighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "sithinfiltrator",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "st70assaultship",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tieadvancedv1",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship appears to have an official First Edition equivalent, but its canonical target ID must be confirmed before creating an Alias disposition.",
+    "notes": "Deferred for explicit alias verification against the imported First Edition dataset. Do not create custom statistics."
+  },
+  {
+    "sourceId": "tiebainterceptor",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tierbheavy",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tierereaper",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tiesebomber",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tiewiwhispermodifiedinterceptor",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tridentclassassaultship",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "v19torrentstarfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "vultureclassdroidfighter",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "xiclasslightshuttle",
+    "kind": "Deferred",
+    "proposedTargetId": "",
+    "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
+    "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  }
+]
