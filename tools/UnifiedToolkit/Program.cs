@@ -41,6 +41,12 @@ return command switch
     "first-edition-repository" => FirstEditionRepositoryCommand.Run(commandArgs),
     "inspect-first-edition" => InspectFirstEditionCommand.Run(commandArgs),
     "build-asset-catalogue" => BuildAssetCatalogueCommand.Run(commandArgs),
+    "approve-asset-resolutions" => ApproveAssetResolutionsCommand.Run(commandArgs),
+    "review-ship-assets" => ReviewShipAssetsCommand.Run(commandArgs),
+    "apply-reviewed-ship-assets" => ApplyReviewedShipAssetsCommand.Run(commandArgs),
+    "approve-clear-ship-recommendations" => ApproveClearShipRecommendationsCommand.Run(commandArgs),
+    "prepare-curated-ship-asset-reviews" => PrepareCuratedShipAssetReviewsCommand.Run(commandArgs),
+    "build-hybrid-ships" => BuildHybridShipDefinitionsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -79,6 +85,12 @@ static void ShowHelp()
     Console.WriteLine("  first-edition-repository <repo-folder> [mapping-folder] [--allow-source-errors] [--output <json-file>]");
     Console.WriteLine("  inspect-first-edition <repo-folder> <ship|pilot|upgrade> <target-id> [mapping-folder] [--allow-source-errors]");
     Console.WriteLine("  build-asset-catalogue <repo-folder> <legacy-save.json> [mapping-folder] [--allow-source-errors] [--output <folder>]  # creates role-ranked review files");
+    Console.WriteLine("  approve-asset-resolutions <asset-resolutions.review.json> <asset-catalogue.json> [mapping-folder] [--version <asset-version>] [--apply]");
+    Console.WriteLine("  review-ship-assets <asset-resolutions.review.json> [mapping-folder] [--output <review.json>]");
+    Console.WriteLine("  apply-reviewed-ship-assets <ship-assets.review.json> <asset-catalogue.json> [mapping-folder] --version <asset-version> [--apply]");
+    Console.WriteLine("  approve-clear-ship-recommendations <ship-assets.review.json> <asset-catalogue.json> [mapping-folder] --version <asset-version> [--output <reviewed.json>] [--apply]");
+    Console.WriteLine("  prepare-curated-ship-asset-reviews <ship-assets.review.json> [--output <folder>]");
+    Console.WriteLine("  build-hybrid-ships <repo-folder> <unified-2.5-save.json> <legacy-1e-save.json> [mapping-folder] [--allow-source-errors] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

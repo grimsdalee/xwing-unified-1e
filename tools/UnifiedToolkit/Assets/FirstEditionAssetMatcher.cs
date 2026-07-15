@@ -13,8 +13,8 @@ public static class FirstEditionAssetMatcher
             result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipModel, ChassisId = ship.Id, ShipSize = ship.Size });
             result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipTexture, ChassisId = ship.Id, ShipSize = ship.Size });
             result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipBase, Required = !ship.Size.Equals("huge", StringComparison.OrdinalIgnoreCase), ChassisId = ship.Id, ShipSize = ship.Size });
-            result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipDial, ChassisId = ship.Id, ShipSize = ship.Size });
-            result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipTemplate, ChassisId = ship.Id, ShipSize = ship.Size });
+            result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipDial, Required = !ship.Size.Equals("huge", StringComparison.OrdinalIgnoreCase), ChassisId = ship.Id, ShipSize = ship.Size });
+            result.Add(new AssetRoleRequirement { Entity = key, EntityName = ship.Name, Role = AssetRole.ShipTemplate, Required = false, ChassisId = ship.Id, ShipSize = ship.Size });
         }
 
         foreach (var pilot in repository.Pilots)
@@ -215,7 +215,17 @@ public static class FirstEditionAssetMatcher
         };
 
         if (!expected.Contains(asset.StructuralClass))
-            return (false, 0m, $"Rejected structural class {asset.StructuralClass} for role {requirement.Role}.");
+        {
+            var legacyCardFallback = requirement.Role is AssetRole.PilotCard or AssetRole.UpgradeCard
+                && asset.SourceKind == AssetSourceKind.LegacySaveObject
+                && asset.StructuralClass == AssetStructuralClass.Unknown
+                && (asset.TtsType.Contains("Bag", StringComparison.OrdinalIgnoreCase)
+                    || asset.TtsType.Contains("Card", StringComparison.OrdinalIgnoreCase)
+                    || asset.TtsType.Contains("Deck", StringComparison.OrdinalIgnoreCase));
+
+            if (!legacyCardFallback)
+                return (false, 0m, $"Rejected structural class {asset.StructuralClass} for role {requirement.Role}.");
+        }
 
         if (requirement.Role == AssetRole.ShipTemplate && asset.StructuralClass != AssetStructuralClass.ShipObjectTemplate)
             return (false, 0m, "Dial bags and generic model bags are not ship object templates.");
@@ -264,6 +274,8 @@ public static class FirstEditionAssetMatcher
         var id = AssetText.Normalize(requirement.Entity.EntityId);
         if (id == "aggressor" && text.Contains("tieaggressor")) return true;
         if (id == "tieaggressor" && text.Contains("aggressorassaultfighter")) return true;
+        if (id == "z95headhunter" && text.Contains("clonez95")) return true;
+        if (id == "clonez95headhunter" && !text.Contains("clonez95")) return true;
         return false;
     }
 
@@ -276,7 +288,12 @@ public static class FirstEditionAssetMatcher
             "xwing" => new[] { "t65xwing", "rebxwing" },
             "tieadvanced" => new[] { "tieadvancedx1" },
             "tieadvprototype" => new[] { "tieadvancedv1", "tieadvv1" },
-            "protectoratestarfighter" => new[] { "fangfighter" },
+            "protectoratestarfighter" => new[] { "fangfighter", "protectorate", "scufang" },
+            "firespray31" => new[] { "firespray", "firesprayclasspatrolcraft", "scufirespray", "empfirespray" },
+            "lambdaclassshuttle" => new[] { "lambda", "lambdaclasst4ashuttle", "empshuttle" },
+            "tiefighter" => new[] { "tielnfighter", "tieln", "emptiefighter", "emptieln" },
+            "tiesilencer" => new[] { "tievnsilencer", "tievn", "fotievn" },
+            "upsilonclassshuttle" => new[] { "upsilon", "upsilonclasscommandshuttle", "foupsilon" },
             "yt1300" => new[] { "modifiedyt1300lightfreighter" },
             _ => Array.Empty<string>()
         };
@@ -296,18 +313,33 @@ public static class FirstEditionAssetMatcher
     {
         yield return id;
         yield return name;
-        if (id == "deadmansswitch" || name == "deadmansswitch")
+
+        foreach (var alias in id switch
         {
-            yield return "deadmansswitch";
-            yield return "deadmansswitches";
-        }
-        if (id == "houndstooth" || name == "houndstooth")
-        {
-            yield return "houndstooth";
-            yield return "houndstooths";
-        }
-        if (id.EndsWith("s", StringComparison.Ordinal) && id.Length > 4) yield return id[..^1];
-        if (name.EndsWith("s", StringComparison.Ordinal) && name.Length > 4) yield return name[..^1];
+            "firespray31" => new[] { "firespray", "firesprayclasspatrolcraft" },
+            "lambdaclassshuttle" => new[] { "lambda", "lambdaclasst4ashuttle" },
+            "protectoratestarfighter" => new[] { "fangfighter", "protectorate" },
+            "tieadvprototype" => new[] { "tieadvancedv1", "tieadvv1", "tieadvancedprototype" },
+            "tiefighter" => new[] { "tielnfighter", "tieln" },
+            "tiesilencer" => new[] { "tievnsilencer", "tievn" },
+            "upsilonclassshuttle" => new[] { "upsilon", "upsilonclasscommandshuttle" },
+            "deadmansswitch" => new[] { "deadmansswitch", "deadmans" },
+            "houndstooth" => new[] { "houndstooth", "houndstooth" },
+            "dodonnaspride" => new[] { "dodonnaspride", "dodonna" },
+            "jainaslight" => new[] { "jainaslight", "jaina" },
+            "dutchvander" => new[] { "dutchvander", "dutch" },
+            "kaatoleeachos" => new[] { "kaatoleeachos", "kaato" },
+            "laetinashera" => new[] { "laetinashera", "laetin" },
+            "ndrusuhlak" => new[] { "ndrusuhlak", "ndru" },
+            "zeborrelios" => new[] { "zeborrelios", "zeb" },
+            _ => Array.Empty<string>()
+        })
+            yield return AssetText.Normalize(alias);
+
+        if (id.EndsWith("s", StringComparison.Ordinal) && id.Length > 4)
+            yield return id[..^1];
+        if (name.EndsWith("s", StringComparison.Ordinal) && name.Length > 4)
+            yield return name[..^1];
     }
 
     private static string BuildNotes(AssetRecord asset, string compatibilityNote)

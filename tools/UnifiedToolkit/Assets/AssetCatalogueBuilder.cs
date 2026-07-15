@@ -115,14 +115,18 @@ public static class AssetCatalogueBuilder
         if (kind == AssetKind.Xml) return AssetStructuralClass.Xml;
         if (kind == AssetKind.CardImage)
         {
-            if (text.Contains("upgrade")) return AssetStructuralClass.UpgradeCardImage;
+            if (text.Contains("epiccards") || text.Contains("upgradecards") || text.Contains("upgrade") || text.Contains("upgrades"))
+                return AssetStructuralClass.UpgradeCardImage;
             return AssetStructuralClass.PilotCardImage;
         }
         if (kind == AssetKind.Image)
         {
-            if (text.Contains("upgrade") || text.Contains("upgrades")) return AssetStructuralClass.UpgradeCardImage;
-            if (text.Contains("pilot") || text.Contains("pilots")) return AssetStructuralClass.PilotCardImage;
-            if (text.Contains("ships") || text.Contains("shipstv2") || text.Contains("textures")) return AssetStructuralClass.ShipTexture;
+            if (text.Contains("epiccards") || text.Contains("upgradecards") || text.Contains("upgrades"))
+                return AssetStructuralClass.UpgradeCardImage;
+            if (text.Contains("pilotcards") || text.Contains("pilots"))
+                return AssetStructuralClass.PilotCardImage;
+            if (text.Contains("ships") || text.Contains("shipstv2") || text.Contains("textures"))
+                return AssetStructuralClass.ShipTexture;
         }
         return AssetStructuralClass.Unknown;
     }
@@ -156,7 +160,10 @@ public static class AssetCatalogueBuilder
             TtsType = obj.Type,
             ParentGuid = obj.Parent?.Guid ?? "",
             TemplateJson = obj.Json?.ToJsonString() ?? "",
-            SearchTerms = AssetText.Terms(display, obj.Description, obj.GMNotes, obj.Type, structural.ToString())
+            SearchTerms = AssetText.Terms(
+                new[] { display, obj.Description, obj.GMNotes, obj.Type, structural.ToString() }
+                    .Concat(DescendantSearchValues(obj))
+                    .ToArray())
         };
     }
 
@@ -166,7 +173,11 @@ public static class AssetCatalogueBuilder
         var type = obj.Type ?? "";
         if (text.Contains("dial"))
             return type.Contains("Bag", StringComparison.OrdinalIgnoreCase) ? AssetStructuralClass.DialBag : AssetStructuralClass.DialObject;
-        if (type.Contains("Card", StringComparison.OrdinalIgnoreCase) || type.Contains("Deck", StringComparison.OrdinalIgnoreCase) || text.Contains("card"))
+        if (type.Contains("Card", StringComparison.OrdinalIgnoreCase)
+            || type.Contains("Deck", StringComparison.OrdinalIgnoreCase)
+            || text.Contains("card")
+            || obj.Children.Any(child => child.IsCard || child.IsDeck)
+            || obj.AllChildren().Any(child => child.IsCard || child.IsDeck))
             return AssetStructuralClass.CardObjectTemplate;
         if (text.Contains("base"))
         {
@@ -177,6 +188,28 @@ public static class AssetCatalogueBuilder
         if (type.Contains("Model", StringComparison.OrdinalIgnoreCase) && !type.Contains("Bag", StringComparison.OrdinalIgnoreCase))
             return AssetStructuralClass.ShipObjectTemplate;
         return AssetStructuralClass.Unknown;
+    }
+
+
+    private static IEnumerable<string?> DescendantSearchValues(TtsObject obj)
+    {
+        foreach (var child in obj.AllChildren())
+        {
+            yield return child.Nickname;
+            yield return child.Name;
+            yield return child.Description;
+            yield return child.GMNotes;
+            yield return child.Type;
+
+            if (child.Json is not null)
+            {
+                foreach (var value in EnumerateStrings(child.Json, ""))
+                {
+                    if (!Uri.TryCreate(value.Value, UriKind.Absolute, out _))
+                        yield return value.Value;
+                }
+            }
+        }
     }
 
     private static IEnumerable<AssetRecord> ReadObjectUrls(TtsObject obj, string savePath)
