@@ -20,6 +20,15 @@ public sealed class FirstEditionBaseDefinition
     public bool IsGeneratedFromMediumFramework { get; init; }
 }
 
+public enum ShipBaseSizeConversionType
+{
+    None,
+    MediumToSmall,
+    MediumToLarge,
+    HugeTerminologyToEpic,
+    Other
+}
+
 public sealed class ShipBaseSizeConversion
 {
     public string ShipId { get; init; } = "";
@@ -29,6 +38,7 @@ public sealed class ShipBaseSizeConversion
     public FirstEditionBaseSize FirstEditionBaseSize { get; init; }
     public bool ConversionRequired { get; init; }
     public bool MediumRemoved { get; init; }
+    public ShipBaseSizeConversionType ConversionType { get; init; }
     public string ValidationStatus { get; init; } = "";
     public IReadOnlyList<string> Notes { get; init; } = Array.Empty<string>();
 }
@@ -75,6 +85,15 @@ public static class FirstEditionBaseDefinitionCatalogue
             var targetNormalized = HybridText.Normalize(target.ToString());
             var conversionRequired = !string.IsNullOrWhiteSpace(sourceSize) && sourceNormalized != targetNormalized;
             var mediumRemoved = sourceNormalized == "medium";
+            var conversionType = !conversionRequired
+                ? ShipBaseSizeConversionType.None
+                : sourceNormalized == "medium" && target == FirstEditionBaseSize.Small
+                    ? ShipBaseSizeConversionType.MediumToSmall
+                    : sourceNormalized == "medium" && target == FirstEditionBaseSize.Large
+                        ? ShipBaseSizeConversionType.MediumToLarge
+                        : sourceNormalized == "huge" && target == FirstEditionBaseSize.Epic
+                            ? ShipBaseSizeConversionType.HugeTerminologyToEpic
+                            : ShipBaseSizeConversionType.Other;
             var notes = new List<string>();
             if (string.IsNullOrWhiteSpace(sourceSize)) notes.Add("No 2.5 source size was available; First Edition semantic size remains authoritative.");
             if (mediumRemoved) notes.Add($"2.5 Medium base is deliberately replaced by First Edition {target} base.");
@@ -89,6 +108,7 @@ public static class FirstEditionBaseDefinitionCatalogue
                 FirstEditionBaseSize = target,
                 ConversionRequired = conversionRequired,
                 MediumRemoved = mediumRemoved,
+                ConversionType = conversionType,
                 ValidationStatus = "Valid",
                 Notes = notes
             };

@@ -22,8 +22,8 @@ public static class BuildHybridShipDefinitionsCommand
             var mappingFolder = ResolveMappingFolder(args.Skip(3).ToArray());
             var outputFolder = ResolveOutputFolder(args, Path.Combine(repositoryFolder, "_unifiedtoolkit_reports", "hybrid"));
 
-            Console.WriteLine("UnifiedToolkit Phase 4A - First Edition Base Definitions");
-            Console.WriteLine("=========================================================");
+            Console.WriteLine("UnifiedToolkit Phase 4B Revision 2 - Normalized Spawner Lua Analysis");
+            Console.WriteLine("===================================================================");
             Console.WriteLine();
             Console.WriteLine($"Semantic repository: {repositoryFolder}");
             Console.WriteLine($"Unified 2.5 save:    {unifiedSave}");
@@ -35,6 +35,7 @@ public static class BuildHybridShipDefinitionsCommand
             var baseConversions = FirstEditionBaseDefinitionCatalogue.BuildConversions(repositoryFolder, semanticBuild.Repository);
             FirstEditionBaseDefinitionCatalogue.ValidateNoMedium(FirstEditionBaseDefinitionCatalogue.Definitions, baseConversions);
             var frameworks = SpawnerFrameworkAnalyser.Analyse(unifiedSave);
+            var spawnerLua = SpawnerLuaAnalyser.Analyse(unifiedSave);
             var legacy = LegacyShipAssetCatalogueBuilder.Build(legacySave, semanticBuild.Repository);
             var document = HybridShipDefinitionBuilder.Build(semanticBuild.Repository, semanticBuild.MappingVersion, frameworks, legacy, baseConversions, unifiedSave, legacySave);
 
@@ -43,6 +44,15 @@ public static class BuildHybridShipDefinitionsCommand
             WriteJson(Path.Combine(outputFolder, "first-edition-base-size-conversions.json"), baseConversions);
             WriteBaseConversionCsv(Path.Combine(outputFolder, "first-edition-base-size-conversions.csv"), baseConversions);
             WriteJson(Path.Combine(outputFolder, "spawner-framework-catalogue.json"), frameworks);
+            WriteJson(Path.Combine(outputFolder, "spawner-lua-normalization.json"), spawnerLua.Normalization);
+            WriteJson(Path.Combine(outputFolder, "spawner-bundle-modules.json"), spawnerLua.BundleModules);
+            WriteJson(Path.Combine(outputFolder, "spawner-entry-points.json"), spawnerLua.EntryPoints);
+            WriteJson(Path.Combine(outputFolder, "spawner-function-catalogue.json"), spawnerLua.Functions);
+            WriteJson(Path.Combine(outputFolder, "spawner-object-references.json"), spawnerLua.ObjectReferences);
+            WriteJson(Path.Combine(outputFolder, "spawn-json-call-sites.json"), spawnerLua.CallSites);
+            WriteJson(Path.Combine(outputFolder, "ship-construction-pipeline.json"), spawnerLua.ConstructionPipeline);
+            WriteJson(Path.Combine(outputFolder, "first-edition-spawner-definitions.json"), spawnerLua.FirstEditionDefinitions);
+            WriteJson(Path.Combine(outputFolder, "spawner-lua-analysis.json"), spawnerLua);
             WriteJson(Path.Combine(outputFolder, "legacy-ship-family-catalogue.json"), legacy.ShipFamilies);
             WriteJson(Path.Combine(outputFolder, "legacy-model-object-catalogue.json"), legacy.ModelObjects);
             WriteJson(Path.Combine(outputFolder, "legacy-dial-catalogue.json"), legacy.Dials);
@@ -59,6 +69,16 @@ public static class BuildHybridShipDefinitionsCommand
             Console.WriteLine($"1E base definitions:       {FirstEditionBaseDefinitionCatalogue.Definitions.Count}");
             Console.WriteLine($"2.5 size conversions:      {baseConversions.Count(x => x.ConversionRequired)}");
             Console.WriteLine($"Medium bases removed:      {baseConversions.Count(x => x.MediumRemoved)}");
+            Console.WriteLine($"Raw Lua lines:             {spawnerLua.Normalization.RawLineCount}");
+            Console.WriteLine($"Normalized Lua lines:      {spawnerLua.Normalization.NormalizedLineCount}");
+            Console.WriteLine($"Lua decode passes:         {spawnerLua.Normalization.DecodePassesApplied}");
+            Console.WriteLine($"Bundle modules:            {spawnerLua.Summary.BundleModuleCount}");
+            Console.WriteLine($"Lua functions catalogued:  {spawnerLua.Summary.FunctionCount}");
+            Console.WriteLine($"Spawner entry points:       {spawnerLua.Summary.EntryPointCount}");
+            Console.WriteLine($"spawnObjectJSON calls:      {spawnerLua.Summary.SpawnJsonCallCount}");
+            Console.WriteLine($"Referenced object GUIDs:    {spawnerLua.Summary.ReferencedGuidCount}");
+            Console.WriteLine($"Resolved object GUIDs:      {spawnerLua.Summary.ResolvedGuidCount}");
+            Console.WriteLine($"1E spawner definitions:     {spawnerLua.FirstEditionDefinitions.Count}");
             Console.WriteLine($"Framework candidates:      {document.Summary.FrameworkTemplateCount}");
             Console.WriteLine($"Legacy model objects:      {document.Summary.LegacyModelObjectCount}");
             Console.WriteLine($"Legacy ship families:      {document.Summary.LegacyShipFamilyCount}");
@@ -74,7 +94,7 @@ public static class BuildHybridShipDefinitionsCommand
             Console.WriteLine();
             Console.WriteLine($"Output folder: {outputFolder}");
             Console.WriteLine();
-            Console.WriteLine("First Edition base size is authoritative. Generated definitions support only Small, Large and Epic; Medium is rejected.");
+            Console.WriteLine("Global Lua is normalized, decoded and analysed as the source spawning recipe. First Edition output exposes only Small, Large and Epic spawner definitions; Medium is rejected.");
             return 0;
         }
         catch (Exception ex)
@@ -90,12 +110,12 @@ public static class BuildHybridShipDefinitionsCommand
     private static void WriteBaseConversionCsv(string path, IReadOnlyList<ShipBaseSizeConversion> conversions)
     {
         using var writer = new StreamWriter(path);
-        writer.WriteLine("ShipId,ShipName,Source25ShipId,Source25BaseSize,FirstEditionBaseSize,ConversionRequired,MediumRemoved,ValidationStatus,Notes");
+        writer.WriteLine("ShipId,ShipName,Source25ShipId,Source25BaseSize,FirstEditionBaseSize,ConversionType,ConversionRequired,MediumRemoved,ValidationStatus,Notes");
         foreach (var item in conversions)
         {
             var row = new[]
             {
-                item.ShipId, item.ShipName, item.Source25ShipId, item.Source25BaseSize, item.FirstEditionBaseSize.ToString(),
+                item.ShipId, item.ShipName, item.Source25ShipId, item.Source25BaseSize, item.FirstEditionBaseSize.ToString(), item.ConversionType.ToString(),
                 item.ConversionRequired.ToString(), item.MediumRemoved.ToString(), item.ValidationStatus, string.Join(" | ", item.Notes)
             };
             writer.WriteLine(string.Join(',', row.Select(Csv)));
