@@ -555,11 +555,6 @@
     "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "sourceId": "ghost",
-    "kind": "Ambiguous",
-    "reason": "2 First Edition records share the same normalised name; slot or card identity requires review."
-  },
-  {
     "sourceId": "ghostcompany",
     "kind": "NotInOfficialDataset",
     "reason": "No official First Edition upgrade with the same normalised name was found."
@@ -863,11 +858,6 @@
     "sourceId": "migsmayfeld",
     "kind": "NotInOfficialDataset",
     "reason": "No official First Edition upgrade with the same normalised name was found."
-  },
-  {
-    "sourceId": "millenniumfalcon",
-    "kind": "Ambiguous",
-    "reason": "2 First Edition records share the same normalised name; slot or card identity requires review."
   },
   {
     "sourceId": "ministertua",

@@ -3,20 +3,20 @@
     "MappingId": "upgrade-chopperswx72-astromech-direct-v1",
     "SourceId": "chopper",
     "TargetId": "chopper-swx72",
-    "Name": "\u0022Chopper\u0022",
+    "Name": "\"Chopper\"",
     "Slot": "astromech",
     "SquadPointCost": 1,
     "Unique": true,
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard 1 other equipped Upgrade card to recover 1 shield."
+    "Text": "<strong>Action:</strong> Discard 1 other equipped Upgrade card to recover 1 shield."
   },
   {
     "MappingId": "upgrade-chopper-crew-direct-v1",
     "SourceId": "chopper-crew",
     "TargetId": "chopper",
-    "Name": "\u0022Chopper\u0022",
+    "Name": "\"Chopper\"",
     "Slot": "crew",
     "SquadPointCost": 0,
     "Unique": true,
@@ -25,26 +25,26 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "You may perform actions even while you are stressed.\u003Cbr /\u003E\u003Cbr /\u003EAfter you perform an action while you are stressed, suffer 1 damage."
+    "Text": "You may perform actions even while you are stressed.<br /><br />After you perform an action while you are stressed, suffer 1 damage."
   },
   {
     "MappingId": "upgrade-genius-salvagedastromech-direct-v1",
     "SourceId": "genius",
     "TargetId": "genius",
-    "Name": "\u0022Genius\u0022",
+    "Name": "\"Genius\"",
     "Slot": "salvagedastromech",
     "SquadPointCost": 0,
     "Unique": true,
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "After you reveal and execute a maneuver, if you did not overlap a ship, you may discard 1 of your equipped [Bomb] Upgrade cards without the \u0022\u003Cstrong\u003EAction:\u003C/strong\u003E\u0022 header to drop the corresponding bomb token."
+    "Text": "After you reveal and execute a maneuver, if you did not overlap a ship, you may discard 1 of your equipped [Bomb] Upgrade cards without the \"<strong>Action:</strong>\" header to drop the corresponding bomb token."
   },
   {
     "MappingId": "upgrade-zeborrelios-crew-direct-v1",
     "SourceId": "zeborrelios",
     "TargetId": "zeborrelios",
-    "Name": "\u0022Zeb\u0022 Orrelios",
+    "Name": "\"Zeb\" Orrelios",
     "Slot": "crew",
     "SquadPointCost": 1,
     "Unique": true,
@@ -68,7 +68,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When attacking, during the \u0022Modify Attack Dice\u0022 step, you may receive 1 ion token to choose 1 of the defender\u0027s focus or evade tokens. That token cannot be spent during this attack."
+    "Text": "When attacking, during the \"Modify Attack Dice\" step, you may receive 1 ion token to choose 1 of the defender's focus or evade tokens. That token cannot be spent during this attack."
   },
   {
     "MappingId": "upgrade-admiralozzel-crew-direct-v1",
@@ -85,7 +85,7 @@
     "SizeRestrictions": [
       "huge"
     ],
-    "Text": "\u003Cstrong\u003EEnergy:\u003C/strong\u003E You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy."
+    "Text": "<strong>Energy:</strong> You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy."
   },
   {
     "MappingId": "upgrade-advancedoptics-tech-direct-v1",
@@ -98,7 +98,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "You cannot have more than 1 focus token.\u003Cbr /\u003E\u003Cbr /\u003EDuring the End phase, do not remove an unused focus token from your ship."
+    "Text": "You cannot have more than 1 focus token.<br /><br />During the End phase, do not remove an unused focus token from your ship."
   },
   {
     "MappingId": "upgrade-advancedsensors-system-direct-v1",
@@ -111,7 +111,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "Immediately before you reveal your maneuver, you may perform 1 free action.\u003Cbr /\u003E\u003Cbr /\u003EIf you use this ability, you must skip your \u0022Perform Action\u0022 step during this round."
+    "Text": "Immediately before you reveal your maneuver, you may perform 1 free action.<br /><br />If you use this ability, you must skip your \"Perform Action\" step during this round."
   },
   {
     "MappingId": "upgrade-advancedslam-modification-direct-v1",
@@ -246,7 +246,7 @@
       "t70xwing"
     ],
     "SizeRestrictions": [],
-    "Text": "After you perform a boost or barrel roll action, you may remove 1 enemy target lock from a friendly ship at Range 1. You cannot equip this card if your pilot skill is \u00226\u0022 or lower."
+    "Text": "After you perform a boost or barrel roll action, you may remove 1 enemy target lock from a friendly ship at Range 1. You cannot equip this card if your pilot skill is \"6\" or lower."
   },
   {
     "MappingId": "upgrade-bobafett-crew-direct-v1",
@@ -261,7 +261,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "After performing an attack, if the defender was dealt a faceup Damage card, you may discard this card to choose and discard 1 of the defender\u0027s Upgrade cards."
+    "Text": "After performing an attack, if the defender was dealt a faceup Damage card, you may discard this card to choose and discard 1 of the defender's Upgrade cards."
   },
   {
     "MappingId": "upgrade-bombletgenerator-bomb-direct-v1",
@@ -274,7 +274,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you reveal your maneuver, you may \u003Cstrong\u003Edrop\u003C/strong\u003E 1 bomblet token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+    "Text": "When you reveal your maneuver, you may <strong>drop</strong> 1 bomblet token.<br /><br />This token <strong>detonates</strong> at the end of the Activation phase."
   },
   {
     "MappingId": "upgrade-bossk-crew-direct-v1",
@@ -289,7 +289,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "After you perform an attack that does not hit, if you are not stressed, you \u003Cstrong\u003Emust\u003C/strong\u003E receive 1 stress token. Then assign 1 focus token to your ship and acquire a target lock on the defender."
+    "Text": "After you perform an attack that does not hit, if you are not stressed, you <strong>must</strong> receive 1 stress token. Then assign 1 focus token to your ship and acquire a target lock on the defender."
   },
   {
     "MappingId": "upgrade-brighthope-title-direct-v1",
@@ -383,7 +383,7 @@
     "SizeRestrictions": [
       "huge"
     ],
-    "Text": "At the start of the Activation phase, you may discard this card to treat each friendly ship\u0027s pilot skill value as \u002212\u0022 until the end of the phase."
+    "Text": "At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as \"12\" until the end of the phase."
   },
   {
     "MappingId": "upgrade-cassianandor-crew-direct-v1",
@@ -398,7 +398,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship\u0027s bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."
+    "Text": "At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship's bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."
   },
   {
     "MappingId": "upgrade-chewbacca-crew-direct-v1",
@@ -413,7 +413,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.\u003Cbr /\u003E\u003Cbr /\u003EThen, discard this Upgrade card."
+    "Text": "When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.<br /><br />Then, discard this Upgrade card."
   },
   {
     "MappingId": "upgrade-cikatrovizago-crew-direct-v1",
@@ -443,7 +443,7 @@
     "SizeRestrictions": [
       "small"
     ],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Perform a free cloak action.\u003Cbr /\u003E\u003Cbr /\u003EAt the end of each round, roll 1 attack die. On a [Focus] result, discard this card, then decloak or discard your cloak token."
+    "Text": "<strong>Action:</strong> Perform a free cloak action.<br /><br />At the end of each round, roll 1 attack die. On a [Focus] result, discard this card, then decloak or discard your cloak token."
   },
   {
     "MappingId": "upgrade-clustermines-bomb-direct-v1",
@@ -456,7 +456,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 cluster mine token set.\u003Cbr /\u003E\u003Cbr /\u003EWhen a ship\u0027s base or maneuver template overlaps a cluster mine token, that token \u003Cstrong\u003Edetonates\u003C/strong\u003E."
+    "Text": "<strong>Action:</strong> Discard this card to <strong>drop</strong> 1 cluster mine token set.<br /><br />When a ship's base or maneuver template overlaps a cluster mine token, that token <strong>detonates</strong>."
   },
   {
     "MappingId": "upgrade-clustermissiles-missile-direct-v1",
@@ -469,7 +469,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack twice."
+    "Text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack twice."
   },
   {
     "MappingId": "upgrade-collisiondetector-system-direct-v1",
@@ -482,7 +482,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles.\u003Cbr /\u003E\u003Cbr /\u003EWhen rolling for obstacle damage, ignore all [Critical Hit] results."
+    "Text": "When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles.<br /><br />When rolling for obstacle damage, ignore all [Critical Hit] results."
   },
   {
     "MappingId": "upgrade-concussionmissiles-missile-direct-v1",
@@ -495,7 +495,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E  Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may change 1 of your blank results to a [Hit] result."
+    "Text": "<strong>Attack (target lock):</strong>  Spend your target lock and discard this card to perform this attack.<br /><br />You may change 1 of your blank results to a [Hit] result."
   },
   {
     "MappingId": "upgrade-contrabandcybernetics-illicit-direct-v1",
@@ -521,7 +521,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When attacking a ship inside your firing arc, at the start of the \u0027Compare Results\u0027 step, you may discard this card to cancel 1 of the defender\u0027s [Evade] results."
+    "Text": "When attacking a ship inside your firing arc, at the start of the 'Compare Results' step, you may discard this card to cancel 1 of the defender's [Evade] results."
   },
   {
     "MappingId": "upgrade-daredevil-elite-direct-v1",
@@ -534,7 +534,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Execute a white ([Turn Left] 1) or ([Turn Right] 1) maneuver. Then, receive 1 stress token. Then, if you do not have the [Boost] action icon, roll 2 attack dice.  Suffer any damage ([Hit]) and any critical damage ([Critical Hit]) rolled."
+    "Text": "<strong>Action:</strong> Execute a white ([Turn Left] 1) or ([Turn Right] 1) maneuver. Then, receive 1 stress token. Then, if you do not have the [Boost] action icon, roll 2 attack dice.  Suffer any damage ([Hit]) and any critical damage ([Critical Hit]) rolled."
   },
   {
     "MappingId": "upgrade-darthvader-crew-direct-v1",
@@ -570,7 +570,7 @@
     "MappingId": "upgrade-deadmansswitch-illicit-direct-v1",
     "SourceId": "deadmansswitch",
     "TargetId": "deadmansswitch",
-    "Name": "Dead Man\u0027s Switch",
+    "Name": "Dead Man's Switch",
     "Slot": "illicit",
     "SquadPointCost": 2,
     "Unique": false,
@@ -592,7 +592,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "After another friendly ship at Range 1 becomes the defender, if you are inside the attacker\u0027s firing arc at Range 1-3, the attacker receives 1 stress token."
+    "Text": "After another friendly ship at Range 1 becomes the defender, if you are inside the attacker's firing arc at Range 1-3, the attacker receives 1 stress token."
   },
   {
     "MappingId": "upgrade-debrisgambit-elite-direct-v1",
@@ -607,7 +607,7 @@
     "SizeRestrictions": [
       "small"
     ],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Assign 1 evade token to your ship for each obstacle at Range 1, to a maximum of 2 evade tokens."
+    "Text": "<strong>Action:</strong> Assign 1 evade token to your ship for each obstacle at Range 1, to a maximum of 2 evade tokens."
   },
   {
     "MappingId": "upgrade-dengar-crew-direct-v1",
@@ -637,13 +637,13 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "During setup, before the \u0022Place Forces\u0022 step, assign the \u0022Optimized Prototype\u0022 Condition to a friendly Galactic Empire ship with 3 or fewer shields."
+    "Text": "During setup, before the \"Place Forces\" step, assign the \"Optimized Prototype\" Condition to a friendly Galactic Empire ship with 3 or fewer shields."
   },
   {
     "MappingId": "upgrade-dodonnaspride-title-direct-v1",
     "SourceId": "dodonnaspride",
     "TargetId": "dodonnaspride",
-    "Name": "Dodonna\u0027s Pride",
+    "Name": "Dodonna's Pride",
     "Slot": "title",
     "SquadPointCost": 4,
     "Unique": true,
@@ -665,7 +665,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship (even a ship outside your firing arc).\u003Cbr /\u003E\u003Cbr /\u003EIf the target of this attack is at Range 1, roll 1 additional attack die."
+    "Text": "<strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).<br /><br />If the target of this attack is at Range 1, roll 1 additional attack die."
   },
   {
     "MappingId": "upgrade-electronicbaffle-system-direct-v1",
@@ -719,7 +719,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Perform a free barrel roll action. If you do not have the [Barrel Roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock from your ship"
+    "Text": "<strong>Action:</strong> Perform a free barrel roll action. If you do not have the [Barrel Roll] action icon, receive 1 stress token. You may then remove 1 enemy target lock from your ship"
   },
   {
     "MappingId": "upgrade-ezrabridger-crew-direct-v1",
@@ -790,7 +790,22 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose up to 3 friendly ships at Range 1-2. Assign 1 focus token to each of those ships and assign the \u0022Fanatical Devotion\u0022 Condition card to 1 of them. Then receive 1 stress token."
+    "Text": "<strong>Action:</strong> Choose up to 3 friendly ships at Range 1-2. Assign 1 focus token to each of those ships and assign the \"Fanatical Devotion\" Condition card to 1 of them. Then receive 1 stress token."
+  },
+  {
+    "MappingId": "upgrade-ghost-title-direct-v1",
+    "SourceId": "ghost",
+    "TargetId": "ghost",
+    "Name": "Ghost",
+    "Slot": "title",
+    "SquadPointCost": 0,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "vcx100"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Equip the <em>Phantom</em> title card to a friendly Attack Shuttle and dock it to this ship.<br /><br />After you execute a maneuver, you may deploy it from your rear guides."
   },
   {
     "MappingId": "upgrade-grandmofftarkin-crew-direct-v1",
@@ -852,7 +867,7 @@
       "scurrgh6bomber"
     ],
     "SizeRestrictions": [],
-    "Text": "Your upgrade bar gains the [System] and [Salvaged Astromech] upgrade icons and loses the [Crew] upgrade icon.\u003Cbr /\u003E\u003Cbr /\u003EYou cannot equip non-unique [Salvaged Astromech] Upgrade cards."
+    "Text": "Your upgrade bar gains the [System] and [Salvaged Astromech] upgrade icons and loses the [Crew] upgrade icon.<br /><br />You cannot equip non-unique [Salvaged Astromech] Upgrade cards."
   },
   {
     "MappingId": "upgrade-heavylasercannon-cannon-direct-v1",
@@ -865,7 +880,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EImmediately after rolling your attack dice, you must change all of your [Critical Hit] results to [Hit] results."
+    "Text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />Immediately after rolling your attack dice, you must change all of your [Critical Hit] results to [Hit] results."
   },
   {
     "MappingId": "upgrade-herasyndulla-crew-direct-v1",
@@ -893,13 +908,13 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EThe defender cannot spend evade tokens during this attack."
+    "Text": "<strong>Attack (target lock):</strong> Discard this card to perform this attack.<br /><br />The defender cannot spend evade tokens during this attack."
   },
   {
     "MappingId": "upgrade-houndstooth-title-direct-v1",
     "SourceId": "houndstooth",
     "TargetId": "houndstooth",
-    "Name": "Hound\u0027s Tooth",
+    "Name": "Hound's Tooth",
     "Slot": "title",
     "SquadPointCost": 6,
     "Unique": true,
@@ -908,7 +923,7 @@
       "yv666"
     ],
     "SizeRestrictions": [],
-    "Text": "After you are destroyed, before you are removed from the play area, you may \u003Cstrong\u003Edeploy\u003C/strong\u003E the \u003Cem\u003ENastah Pup\u003C/em\u003E Pilot.\u003Cbr /\u003E\u003Cbr /\u003EIt cannot attack this round."
+    "Text": "After you are destroyed, before you are removed from the play area, you may <strong>deploy</strong> the <em>Nastah Pup</em> Pilot.<br /><br />It cannot attack this round."
   },
   {
     "MappingId": "upgrade-hullupgrade-modification-direct-v1",
@@ -953,7 +968,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "You have the pilot ability of each friendly ship with the \u003Cem\u003EIG-2000\u003C/em\u003E Upgrade card (in addition to your own pilot ability)."
+    "Text": "You have the pilot ability of each friendly ship with the <em>IG-2000</em> Upgrade card (in addition to your own pilot ability)."
   },
   {
     "MappingId": "upgrade-impetuous-title-direct-v1",
@@ -1024,7 +1039,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "While you are touching an enemy ship, reduce that ship\u0027s agility value by 1."
+    "Text": "While you are touching an enemy ship, reduce that ship's agility value by 1."
   },
   {
     "MappingId": "upgrade-ionbombs-bomb-direct-v1",
@@ -1037,7 +1052,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 ion bomb token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+    "Text": "When you reveal your maneuver dial, you may discard this card to <strong>drop</strong> 1 ion bomb token.<br /><br />This token <strong>detonates</strong> at the end of the Activation phase."
   },
   {
     "MappingId": "upgrade-ioncannon-cannon-direct-v1",
@@ -1050,7 +1065,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-ioncannonbattery-hardpoint-direct-v1",
@@ -1063,7 +1078,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (Energy):\u003C/strong\u003E Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-ioncannonturret-turret-direct-v1",
@@ -1076,7 +1091,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship (even a ship outside your firing arc).\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token.  Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).<br /><br />If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token.  Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-iontorpedoes-torpedo-direct-v1",
@@ -1089,7 +1104,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."
+    "Text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."
   },
   {
     "MappingId": "upgrade-isbslicer-crew-direct-v1",
@@ -1125,7 +1140,7 @@
     "MappingId": "upgrade-jainaslight-title-direct-v1",
     "SourceId": "jainaslight",
     "TargetId": "jainaslight",
-    "Name": "Jaina\u0027s Light",
+    "Name": "Jaina's Light",
     "Slot": "title",
     "SquadPointCost": 2,
     "Unique": true,
@@ -1147,7 +1162,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, assign the defender 1 jam token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />If this attack hits, assign the defender 1 jam token. Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-jandodonna-crew-direct-v1",
@@ -1179,7 +1194,7 @@
     "SizeRestrictions": [
       "small"
     ],
-    "Text": "When attacking, if you have an evade token, you may change 1 of the defender\u0027s [Evade] results to a [Focus] result."
+    "Text": "When attacking, if you have an evade token, you may change 1 of the defender's [Evade] results to a [Focus] result."
   },
   {
     "MappingId": "upgrade-jynerso-crew-direct-v1",
@@ -1194,7 +1209,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."
+    "Text": "<strong>Action:</strong> Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 tokens in this way."
   },
   {
     "MappingId": "upgrade-kananjarrus-crew-direct-v1",
@@ -1239,7 +1254,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Assign the \u0022I\u0027ll Show You the Dark Side\u0022 Condition card to an enemy ship at Range 1-3."
+    "Text": "<strong>Action:</strong> Assign the \"I'll Show You the Dark Side\" Condition card to an enemy ship at Range 1-3."
   },
   {
     "MappingId": "upgrade-landocalrissian-crew-direct-v1",
@@ -1254,7 +1269,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Roll 2 defense dice. For each [Focus] result, assign 1 focus token to your ship. For each [Evade] result, assign 1 evade token to your ship."
+    "Text": "<strong>Action:</strong> Roll 2 defense dice. For each [Focus] result, assign 1 focus token to your ship. For each [Evade] result, assign 1 evade token to your ship."
   },
   {
     "MappingId": "upgrade-lattsrazzi-crew-direct-v1",
@@ -1325,7 +1340,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die.\u003Cbr /\u003E\u003Cbr /\u003EYou can acquire target locks on other friendly ships."
+    "Text": "When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die.<br /><br />You can acquire target locks on other friendly ships."
   },
   {
     "MappingId": "upgrade-magvayarro-crew-direct-v1",
@@ -1353,7 +1368,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E When attacking this round, you may change 1 of your [Focus] results to a [Critical Hit] result and all of your other [Focus] results to [Hit] results."
+    "Text": "<strong>Action:</strong> When attacking this round, you may change 1 of your [Focus] results to a [Critical Hit] result and all of your other [Focus] results to [Hit] results."
   },
   {
     "MappingId": "upgrade-maul-crew-direct-v1",
@@ -1368,7 +1383,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When attacking, if you are not stressed, you may receive any number of stress tokens to reroll that many attack dice.\u003Cbr /\u003E\u003Cbr /\u003EAfter performing an attack that hits, you may remove 1 of your stress tokens."
+    "Text": "When attacking, if you are not stressed, you may receive any number of stress tokens to reroll that many attack dice.<br /><br />After performing an attack that hits, you may remove 1 of your stress tokens."
   },
   {
     "MappingId": "upgrade-merchantone-title-direct-v1",
@@ -1386,6 +1401,21 @@
     "Text": "Your upgrade bar gains 1 additional [Crew] upgrade icon and 1 additional [Team] upgrade icon and loses 1 [Cargo] upgrade icon."
   },
   {
+    "MappingId": "upgrade-millenniumfalcon-title-direct-v1",
+    "SourceId": "millenniumfalcon",
+    "TargetId": "millenniumfalcon",
+    "Name": "Millennium Falcon",
+    "Slot": "title",
+    "SquadPointCost": 1,
+    "Unique": true,
+    "Factions": [],
+    "ShipRestrictions": [
+      "yt1300"
+    ],
+    "SizeRestrictions": [],
+    "Text": "Your action bar gains the [Evade] action icon."
+  },
+  {
     "MappingId": "upgrade-misthunter-title-direct-v1",
     "SourceId": "misthunter",
     "TargetId": "misthunter",
@@ -1398,7 +1428,7 @@
       "g1astarfighter"
     ],
     "SizeRestrictions": [],
-    "Text": "Your action bar gains the [Barrel Roll] action icon.\u003Cbr /\u003E\u003Cbr /\u003EYou \u003Cstrong\u003Emust\u003C/strong\u003E equip 1 \u0022Tractor Beam\u0022 Upgrade card (paying its squad point cost as normal)."
+    "Text": "Your action bar gains the [Barrel Roll] action icon.<br /><br />You <strong>must</strong> equip 1 \"Tractor Beam\" Upgrade card (paying its squad point cost as normal)."
   },
   {
     "MappingId": "upgrade-moffjerjerrod-crew-direct-v1",
@@ -1471,7 +1501,7 @@
     "SizeRestrictions": [
       "huge"
     ],
-    "Text": "You may treat each of your [Hardpoint] upgrade icons as a [Torpedo] or [Missile] upgrade icon.\u003Cbr /\u003E\u003Cbr /\u003EWhen you are instructed to discard a [Torpedo] or [Missile] Upgrade card, do not discard it."
+    "Text": "You may treat each of your [Hardpoint] upgrade icons as a [Torpedo] or [Missile] upgrade icon.<br /><br />When you are instructed to discard a [Torpedo] or [Missile] Upgrade card, do not discard it."
   },
   {
     "MappingId": "upgrade-os1arsenalloadout-title-direct-v1",
@@ -1486,7 +1516,7 @@
       "alphaclassstarwing"
     ],
     "SizeRestrictions": [],
-    "Text": "Your upgrade bar gains the [Torpedo] and [Missile] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou may perform attacks with [Torpedo] and [Missile] secondary weapons against ships you have locked even while you have a weapons disabled token."
+    "Text": "Your upgrade bar gains the [Torpedo] and [Missile] upgrade icons.<br /><br />You may perform attacks with [Torpedo] and [Missile] secondary weapons against ships you have locked even while you have a weapons disabled token."
   },
   {
     "MappingId": "upgrade-outmaneuver-elite-direct-v1",
@@ -1499,7 +1529,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When attacking a ship inside your firing arc, if you are not inside that ship\u0027s firing arc, reduce its agility value by 1 (to a minimum of 0)."
+    "Text": "When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0)."
   },
   {
     "MappingId": "upgrade-outrider-title-direct-v1",
@@ -1514,7 +1544,7 @@
       "yt2400"
     ],
     "SizeRestrictions": [],
-    "Text": "While you have a [Cannon] Upgrade card equipped, you \u003Cstrong\u003Ecannot\u003C/strong\u003E perform primary weapon attacks and you may perform [Cannon] secondary weapon attacks against ships outside your firing arc."
+    "Text": "While you have a [Cannon] Upgrade card equipped, you <strong>cannot</strong> perform primary weapon attacks and you may perform [Cannon] secondary weapon attacks against ships outside your firing arc."
   },
   {
     "MappingId": "upgrade-patternanalyzer-tech-direct-v1",
@@ -1527,7 +1557,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When executing a maneuver, you may resolve the \u0022Check Pilot Stress\u0022 step after the \u0022Perform Action\u0022 step (instead of before that step)."
+    "Text": "When executing a maneuver, you may resolve the \"Check Pilot Stress\" step after the \"Perform Action\" step (instead of before that step)."
   },
   {
     "MappingId": "upgrade-phantom-title-direct-v1",
@@ -1542,7 +1572,7 @@
       "attackshuttle"
     ],
     "SizeRestrictions": [],
-    "Text": "While you are docked, the \u003Cem\u003EGhost\u003C/em\u003E can perform primary weapon attacks from its special firing arc and, at the end of the Combat phase, it may perform an additional attack with an equipped [Turret]. If it performs this attack, it cannot attack again this round."
+    "Text": "While you are docked, the <em>Ghost</em> can perform primary weapon attacks from its special firing arc and, at the end of the Combat phase, it may perform an additional attack with an equipped [Turret]. If it performs this attack, it cannot attack again this round."
   },
   {
     "MappingId": "upgrade-plasmatorpedoes-torpedo-direct-v1",
@@ -1555,7 +1585,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, after dealing damage, remove 1 shield token from the defender."
+    "Text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />If this attack hits, after dealing damage, remove 1 shield token from the defender."
   },
   {
     "MappingId": "upgrade-predator-elite-direct-v1",
@@ -1568,7 +1598,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When attacking, you may reroll 1 attack die. If the defender\u0027s pilot skill value is \u00222\u0022 or lower, you may instead reroll up to 2 attack dice."
+    "Text": "When attacking, you may reroll 1 attack die. If the defender's pilot skill value is \"2\" or lower, you may instead reroll up to 2 attack dice."
   },
   {
     "MappingId": "upgrade-primedthrusters-tech-direct-v1",
@@ -1596,7 +1626,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 proton bomb token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+    "Text": "When you reveal your maneuver dial, you may discard this card to <strong>drop</strong> 1 proton bomb token.<br /><br />This token <strong>detonates</strong> at the end of the Activation phase."
   },
   {
     "MappingId": "upgrade-protonrockets-missile-direct-v1",
@@ -1609,7 +1639,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (focus):\u003C/strong\u003E Discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."
+    "Text": "<strong>Attack (focus):</strong> Discard this card to perform this attack.<br /><br />You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."
   },
   {
     "MappingId": "upgrade-protontorpedoes-torpedo-direct-v1",
@@ -1622,7 +1652,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E Spend your target lock and discard this card to perform this attack.\u003Cbr /\u003E\u003Cbr /\u003EYou may change 1 of your [Focus] results to a [Critical Hit] result."
+    "Text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />You may change 1 of your [Focus] results to a [Critical Hit] result."
   },
   {
     "MappingId": "upgrade-proximitymines-bomb-direct-v1",
@@ -1635,7 +1665,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to drop 1 proximity mine token. When a ship\u0027s base or maneuver template overlaps this token, this token \u003Cstrong\u003Edetonates\u003C/strong\u003E."
+    "Text": "<strong>Action:</strong> Discard this card to drop 1 proximity mine token. When a ship's base or maneuver template overlaps this token, this token <strong>detonates</strong>."
   },
   {
     "MappingId": "upgrade-punishingone-title-direct-v1",
@@ -1719,7 +1749,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "Once per round, when attacking with a primary weapon, you may cancel 1 of your [Focus] results during the \u0022Modify Attack Dice\u0022 step to assign 1 evade token to your ship."
+    "Text": "Once per round, when attacking with a primary weapon, you may cancel 1 of your [Focus] results during the \"Modify Attack Dice\" step to assign 1 evade token to your ship."
   },
   {
     "MappingId": "upgrade-r4b11-salvagedastromech-direct-v1",
@@ -1745,7 +1775,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "During the End phase, you may choose 1 of your faceup Damage cards with the \u003Cstrong\u003EShip\u003C/strong\u003E trait and flip it facedown."
+    "Text": "During the End phase, you may choose 1 of your faceup Damage cards with the <strong>Ship</strong> trait and flip it facedown."
   },
   {
     "MappingId": "upgrade-r5d8-astromech-direct-v1",
@@ -1758,7 +1788,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Roll 1 defense die.\u003Cbr /\u003E\u003Cbr /\u003EOn a [Evade] or [Focus] result, discard 1 of your facedown Damage cards."
+    "Text": "<strong>Action:</strong> Roll 1 defense die.<br /><br />On a [Evade] or [Focus] result, discard 1 of your facedown Damage cards."
   },
   {
     "MappingId": "upgrade-r5p8-salvagedastromech-direct-v1",
@@ -1784,7 +1814,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "You can acquire target locks on friendly ships.\u003Cbr /\u003E\u003Cbr /\u003EYou can attack friendly ships."
+    "Text": "You can acquire target locks on friendly ships.<br /><br />You can attack friendly ships."
   },
   {
     "MappingId": "upgrade-r5x3-astromech-direct-v1",
@@ -1814,7 +1844,7 @@
     "SizeRestrictions": [
       "huge"
     ],
-    "Text": "At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship\u0027s chosen maneuver. If the maneuver is white, assign that ship 1 stress token."
+    "Text": "At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship's chosen maneuver. If the maneuver is white, assign that ship 1 stress token."
   },
   {
     "MappingId": "upgrade-requiem-title-direct-v1",
@@ -1829,7 +1859,7 @@
       "gozanticlasscruiser"
     ],
     "SizeRestrictions": [],
-    "Text": "When you deploy a ship, treat its pilot skill value as \u00228\u0022 until the end of the round."
+    "Text": "When you deploy a ship, treat its pilot skill value as \"8\" until the end of the round."
   },
   {
     "MappingId": "upgrade-rey-crew-direct-v1",
@@ -1844,7 +1874,7 @@
     ],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "At the start of the End phase, you may place 1 of your ship\u0027s focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."
+    "Text": "At the start of the End phase, you may place 1 of your ship's focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."
   },
   {
     "MappingId": "upgrade-riggedcargochute-illicit-direct-v1",
@@ -1859,7 +1889,7 @@
     "SizeRestrictions": [
       "large"
     ],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E one cargo token."
+    "Text": "<strong>Action:</strong> Discard this card to <strong>drop</strong> one cargo token."
   },
   {
     "MappingId": "upgrade-sabinewren-crew-direct-v1",
@@ -1915,7 +1945,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.\u003Cbr /\u003E\u003Cbr /\u003EThis token detonates at the end of the Activation phase."
+    "Text": "When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.<br /><br />This token detonates at the end of the Activation phase."
   },
   {
     "MappingId": "upgrade-shadowcaster-title-direct-v1",
@@ -1971,7 +2001,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "After an enemy ship executes a maneuver, you may perform this attack against that ship.\u003Cbr /\u003E\u003Cbr /\u003E\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."
+    "Text": "After an enemy ship executes a maneuver, you may perform this attack against that ship.<br /><br /><strong>Attack:</strong> Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."
   },
   {
     "MappingId": "upgrade-squadleader-elite-direct-v1",
@@ -1984,7 +2014,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Choose 1 ship at Range 1-2 that has a lower pilot skill than you.\u003Cbr /\u003E\u003Cbr /\u003EThe chosen ship may immediately perform 1 free action."
+    "Text": "<strong>Action:</strong> Choose 1 ship at Range 1-2 that has a lower pilot skill than you.<br /><br />The chosen ship may immediately perform 1 free action."
   },
   {
     "MappingId": "upgrade-st321-title-direct-v1",
@@ -2040,7 +2070,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "At the start of the Combat phase,  you may choose 1 friendly ship at Range 1.\u003Cbr /\u003E\u003Cbr /\u003EUntil the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."
+    "Text": "At the start of the Combat phase,  you may choose 1 friendly ship at Range 1.<br /><br />Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."
   },
   {
     "MappingId": "upgrade-tacticalofficer-crew-direct-v1",
@@ -2096,7 +2126,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the \u0022\u003Cstrong\u003EAttack (target lock):\u003C/strong\u003E\u0022 header as \u0022\u003Cstrong\u003EAttack:\u003C/strong\u003E.\u0022 If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."
+    "Text": "When a friendly ship at Range 1-2 is attacking a ship you have locked, the friendly ship treats the \"<strong>Attack (target lock):</strong>\" header as \"<strong>Attack:</strong>.\" If a game effect instructs that ship to spend a target lock, it may spend your target lock instead."
   },
   {
     "MappingId": "upgrade-thermaldetonators-bomb-direct-v1",
@@ -2109,7 +2139,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "When you reveal your maneuver dial, you may discard this card to \u003Cstrong\u003Edrop\u003C/strong\u003E 1 thermal detonator token.\u003Cbr /\u003E\u003Cbr /\u003EThis token \u003Cstrong\u003Edetonates\u003C/strong\u003E at the end of the Activation phase."
+    "Text": "When you reveal your maneuver dial, you may discard this card to <strong>drop</strong> 1 thermal detonator token.<br /><br />This token <strong>detonates</strong> at the end of the Activation phase."
   },
   {
     "MappingId": "upgrade-torynfarr-crew-direct-v1",
@@ -2126,7 +2156,7 @@
     "SizeRestrictions": [
       "huge"
     ],
-    "Text": "\u003Cstrong\u003EAction:\u003C/strong\u003E Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."
+    "Text": "<strong>Action:</strong> Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."
   },
   {
     "MappingId": "upgrade-tractorbeam-cannon-direct-v1",
@@ -2139,7 +2169,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack:\u003C/strong\u003E Attack 1 ship.\u003Cbr /\u003E\u003Cbr /\u003EIf this attack hits, the defender receives 1 tractor beam token. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />If this attack hits, the defender receives 1 tractor beam token. Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-trajectorysimulator-system-direct-v1",
@@ -2152,7 +2182,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "You may launch bombs using the ([Straight] 5) template instead of dropping them. You cannot launch bombs with the \u0022\u003Cstrong\u003EAction:\u003C/strong\u003E\u0022 header in this way."
+    "Text": "You may launch bombs using the ([Straight] 5) template instead of dropping them. You cannot launch bombs with the \"<strong>Action:</strong>\" header in this way."
   },
   {
     "MappingId": "upgrade-trickshot-elite-direct-v1",
@@ -2210,7 +2240,7 @@
       "starviper"
     ],
     "SizeRestrictions": [],
-    "Text": "Your upgrade bar gains the [System] and [Illicit] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou cannot equip this card if your pilot skill value is \u00223\u0022 or lower."
+    "Text": "Your upgrade bar gains the [System] and [Illicit] upgrade icons.<br /><br />You cannot equip this card if your pilot skill value is \"3\" or lower."
   },
   {
     "MappingId": "upgrade-xg1assaultconfiguration-title-direct-v1",
@@ -2225,7 +2255,7 @@
       "alphaclassstarwing"
     ],
     "SizeRestrictions": [],
-    "Text": "Your upgrade bar gains 2 [Cannon] upgrade icons.\u003Cbr /\u003E\u003Cbr /\u003EYou may perform attacks with [Cannon] secondary weapons that cost 2 or fewer squad points even while you have a weapons disabled token."
+    "Text": "Your upgrade bar gains 2 [Cannon] upgrade icons.<br /><br />You may perform attacks with [Cannon] secondary weapons that cost 2 or fewer squad points even while you have a weapons disabled token."
   },
   {
     "MappingId": "upgrade-xx23sthreadtracers-missile-direct-v1",
@@ -2238,7 +2268,7 @@
     "Factions": [],
     "ShipRestrictions": [],
     "SizeRestrictions": [],
-    "Text": "\u003Cstrong\u003EAttack (Focus):\u003C/strong\u003E Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel \u003Cstrong\u003Eall\u003C/strong\u003E dice results."
+    "Text": "<strong>Attack (Focus):</strong> Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel <strong>all</strong> dice results."
   },
   {
     "MappingId": "upgrade-zuckuss-crew-direct-v1",

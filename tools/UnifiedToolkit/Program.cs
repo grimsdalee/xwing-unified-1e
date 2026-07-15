@@ -38,6 +38,9 @@ return command switch
     "approve-first-edition-upgrades" => ApproveFirstEditionUpgradesCommand.Run(commandArgs),
     "review-ambiguous-upgrades" => ReviewAmbiguousUpgradesCommand.Run(commandArgs),
     "apply-ambiguous-upgrade-resolutions" => ApplyAmbiguousUpgradeResolutionsCommand.Run(commandArgs),
+    "first-edition-repository" => FirstEditionRepositoryCommand.Run(commandArgs),
+    "inspect-first-edition" => InspectFirstEditionCommand.Run(commandArgs),
+    "build-asset-catalogue" => BuildAssetCatalogueCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -73,6 +76,9 @@ static void ShowHelp()
     Console.WriteLine("  approve-first-edition-upgrades <canonical.json> <alternates.json> <matches.csv> [mapping-folder] --version <version> [--apply]");
     Console.WriteLine("  review-ambiguous-upgrades <repo-folder> <xwing-data-folder> [mapping-folder]");
     Console.WriteLine("  apply-ambiguous-upgrade-resolutions <ambiguous-upgrade-resolutions.review.json> [mapping-folder] --version <version> [--apply]");
+    Console.WriteLine("  first-edition-repository <repo-folder> [mapping-folder] [--allow-source-errors] [--output <json-file>]");
+    Console.WriteLine("  inspect-first-edition <repo-folder> <ship|pilot|upgrade> <target-id> [mapping-folder] [--allow-source-errors]");
+    Console.WriteLine("  build-asset-catalogue <repo-folder> <legacy-save.json> [mapping-folder] [--allow-source-errors] [--output <folder>]  # creates role-ranked review files");
 }
 
 static int UnknownCommand(string command)

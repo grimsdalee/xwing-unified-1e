@@ -1,1482 +1,1482 @@
 [
   {
-    "SourceId": "000",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "000",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "aaylasecura",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "aaylasecura",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ablativeplating",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ablativeplating",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "adaptablepilot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "adaptablepilot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "adaptiveshields",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "adaptiveshields",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "admiralsloane",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "admiralsloane",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "advprotontorpedoes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "advprotontorpedoes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "afterburners",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "afterburners",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "agentoftheempire",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "agentoftheempire",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "agentterex",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "agentterex",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "agilegunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "agilegunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ahsokatano",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ahsokatano",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ahsokatano-crew",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ahsokatano-crew",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "alpha3bbesh",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "alpha3bbesh",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "alpha3eesk",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "alpha3eesk",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "amilynholdo",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "amilynholdo",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "angleddeflectors",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "angleddeflectors",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "asajjventress",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "asajjventress",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "autoblasters",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "autoblasters",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "automatedtargetpriority",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "automatedtargetpriority",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "b6bladewingprototype",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "b6bladewingprototype",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "b6bladewingprototype1",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "b6bladewingprototype1",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "babufrik",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "babufrik",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "backwardstailslide",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "backwardstailslide",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "barragerockets",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "barragerockets",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "battlemeditation",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "battlemeditation",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bbastromech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bbastromech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "beskarreinforcedplating",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "beskarreinforcedplating",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "biohexacryptcodes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "biohexacryptcodes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "blazerbomb",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "blazerbomb",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bloodcrow",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bloodcrow",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bokatankryze",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bokatankryze",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bokatankryze-rebel-scum",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bokatankryze-rebel-scum",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bombardmentspecialists",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bombardmentspecialists",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "boostedscanners",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "boostedscanners",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bounty",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bounty",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "brilliantevasion",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "brilliantevasion",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "bt1",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "bt1",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "burnoutthrusters",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "burnoutthrusters",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "c110p",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "c110p",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "calibratedlasertargeting",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "calibratedlasertargeting",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "captainhark",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "captainhark",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "captainphasma",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "captainphasma",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "chancellorpalpatine",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "chancellorpalpatine",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "cienaree",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "cienaree",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "clantraining",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "clantraining",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "clanwrencommandos",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "clanwrencommandos",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "clonecaptainrex",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "clonecaptainrex",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "clonecommandercody",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "clonecommandercody",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "coaxiumhyperfuel",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "coaxiumhyperfuel",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "combatboardingtube",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "combatboardingtube",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "combatveteran",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "combatveteran",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "commandermalarus",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "commandermalarus",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "commanderpyre",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "commanderpyre",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "commsteam",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "commsteam",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "compassion",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "compassion",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "composure",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "composure",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "concussionbombs",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "concussionbombs",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "connernets",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "connernets",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "corsaircrew",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "corsaircrew",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "corsairrefit",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "corsairrefit",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "corvus",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "corvus",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "countdooku",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "countdooku",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "countermeasuresspecialist",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "countermeasuresspecialist",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "cutthroat",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "cutthroat",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "damagecontrolteam",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "damagecontrolteam",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "deadeyeshot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "deadeyeshot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "deathwatchcommandos",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "deathwatchcommandos",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "dedicated",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "dedicated",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "delayedfuses",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "delayedfuses",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "delta7b",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "delta7b",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "deuteriumpowercells",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "deuteriumpowercells",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "diamondboronmissiles",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "diamondboronmissiles",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "disciplined",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "disciplined",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "discordmissiles",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "discordmissiles",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "dreadnoughthunter",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "dreadnoughthunter",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "drillbeak",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "drillbeak",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "drk1probedroids",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "drk1probedroids",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "droidcrew",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "droidcrew",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "dropseatbay",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "dropseatbay",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "dt798",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "dt798",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "electrochaffmissiles",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "electrochaffmissiles",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "electroprotonbomb",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "electroprotonbomb",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "elusive",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "elusive",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "enduring",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "enduring",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "energyshellcharges",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "energyshellcharges",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "enhancedjammingsuite",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "enhancedjammingsuite",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "enhancedpropulsion",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "enhancedpropulsion",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ensnare",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ensnare",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "evasiveinterceptor",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "evasiveinterceptor",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "extrememaneuvers",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "extrememaneuvers",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "falsetranspondercodes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "falsetranspondercodes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "fanatical",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "fanatical",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "fearless",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "fearless",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "feedbackping",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "feedbackping",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "fennrau",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "fennrau",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ferrospherepaint",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ferrospherepaint",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "fifthbrother",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "fifthbrother",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "firstorderelite",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "firstorderelite",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "firstorderordnancetech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "firstorderordnancetech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "fives",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "fives",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "forceadeptpilot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "forceadeptpilot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "foresight",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "foresight",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "freelanceslicer",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "freelanceslicer",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ga97",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ga97",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "gamutkey",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "gamutkey",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "garsaxon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "garsaxon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "garsaxon-gunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "garsaxon-gunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "gauntlet",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "gauntlet",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "generalgrievous",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "generalgrievous",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "generalgrievous-command",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "generalgrievous-command",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ghostcompany",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ghostcompany",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "gnkgonkdroid",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "gnkgonkdroid",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "grandinquisitor",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "grandinquisitor",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "grappler",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "grappler",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "grapplingstruts",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "grapplingstruts",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "graviticdeflection",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "graviticdeflection",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "greefkarga",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "greefkarga",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "gunneryspecialists",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "gunneryspecialists",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hate",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hate",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "heavyreinforcedvanguard",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "heavyreinforcedvanguard",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "heightenedperception",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "heightenedperception",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "heroic",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "heroic",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "homingtorpedoes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "homingtorpedoes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hondoohnaka",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hondoohnaka",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hondoohnaka-command",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hondoohnaka-command",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hopeful",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hopeful",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hotshotgunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hotshotgunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hotshottailblaster",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hotshottailblaster",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "hyperspacetrackingdata",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "hyperspacetrackingdata",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ig11",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ig11",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "igrmdroids",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "igrmdroids",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "imperialsupercommandos",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "imperialsupercommandos",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "imperviumplating",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "imperviumplating",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "independentcalculations",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "independentcalculations",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "informant",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "informant",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "initforthemoney",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "initforthemoney",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "instinctiveaim",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "instinctiveaim",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "integratedsfoils",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "integratedsfoils",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "interceptbooster",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "interceptbooster",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "interloperturn",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "interloperturn",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ionlimiteroverride",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ionlimiteroverride",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ionmissiles",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ionmissiles",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "jangofett",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "jangofett",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "jedicommander",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "jedicommander",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "k2b4",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "k2b4",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "k2so",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "k2so",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kalani",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kalani",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kaydelconnix",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kaydelconnix",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kazsfireball",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kazsfireball",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kitfisto",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kitfisto",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "korkiekryze",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "korkiekryze",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "korrsella",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "korrsella",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kraken",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kraken",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "kuiil",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "kuiil",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "l337",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "l337",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "l4er5",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "l4er5",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "landingstruts",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "landingstruts",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "landosmillenniumfalcon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "landosmillenniumfalcon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "larmadacy",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "larmadacy",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "liberator",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "liberator",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "lockedturretspecialist",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "lockedturretspecialist",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "luminous",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "luminous",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "magpulsewarheads",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "magpulsewarheads",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "malice",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "malice",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "mandalorianoptics",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "mandalorianoptics",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "mandaloriansupercommandos",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "mandaloriansupercommandos",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "maneuverassistmgk300",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "maneuverassistmgk300",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "marauder",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "marauder",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "margsablclosure",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "margsablclosure",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "martuuk",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "martuuk",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "migsmayfeld",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "migsmayfeld",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ministertua",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ministertua",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "multimissilepods",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "multimissilepods",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "nautolansrevenge",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "nautolansrevenge",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "neimoidiangrasp",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "neimoidiangrasp",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "newrecruit",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "newrecruit",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "nightbrother",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "nightbrother",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "niteowlcommandos",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "niteowlcommandos",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "notorious",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "notorious",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "novicetechnician",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "novicetechnician",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "obiwankenobi",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "obiwankenobi",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "optimizedpowercore",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "optimizedpowercore",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ordnanceteam",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ordnanceteam",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "overdrivethruster",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "overdrivethruster",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "overtunedmodulators",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "overtunedmodulators",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "paigetico",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "paigetico",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "passivesensors",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "passivesensors",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "patience",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "patience",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "pelimotto",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "pelimotto",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "perceptivecopilot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "perceptivecopilot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "pettyofficerthanisson",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "pettyofficerthanisson",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "phoenixsquadron",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "phoenixsquadron",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "pivotwing",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "pivotwing",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "plokoon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "plokoon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "pointdefensebattery",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "pointdefensebattery",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "precisionionengines",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "precisionionengines",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "precognitivereflexes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "precognitivereflexes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "predictiveshot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "predictiveshot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "previzsla",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "previzsla",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "primeministeralmec",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "primeministeralmec",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "protectorategleb",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "protectorategleb",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "protoncannonbattery",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "protoncannonbattery",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "protoncannons",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "protoncannons",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "proudtradition",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "proudtradition",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "pz4co",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "pz4co",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "q7astromech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "q7astromech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "qira",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "qira",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "quickreleaselocks",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "quickreleaselocks",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r1j5",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r1j5",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r2a6",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r2a6",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r2c4",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r2c4",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r2ha",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r2ha",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r4astromech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r4astromech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r4p17",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r4p17",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r4p44",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r4p44",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r4pastromech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r4pastromech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r6d8",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r6d8",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "r7a7",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "r7a7",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "razorcrest",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "razorcrest",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "repulsorliftstabilizers",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "repulsorliftstabilizers",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "reysmillenniumfalcon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "reysmillenniumfalcon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "rifftamson",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "rifftamson",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "rookkast",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "rookkast",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "rosetico",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "rosetico",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ruthless",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ruthless",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "saboteursmap",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "saboteursmap",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "satinekryze",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "satinekryze",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "savageopress",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "savageopress",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "scannerbaffler",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "scannerbaffler",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "scimitar",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "scimitar",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "seasonednavigator",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "seasonednavigator",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "selfless",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "selfless",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sense",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sense",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sensitivecontrols",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sensitivecontrols",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sensorbuoysuite",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sensorbuoysuite",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sensorexperts",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sensorexperts",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sensorscramblers",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sensorscramblers",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "servomotorsfoils",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "servomotorsfoils",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "seventhfleetgunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "seventhfleetgunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "seventhsister",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "seventhsister",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "shadowwing",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "shadowwing",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "shatteringshot",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "shatteringshot",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "skilledbombardier",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "skilledbombardier",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "skystrikeacademyclass",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "skystrikeacademyclass",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "soullessone",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "soullessone",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "sparepartscanisters",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "sparepartscanisters",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "specialforcesgunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "specialforcesgunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "stabilizedsfoils",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "stabilizedsfoils",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "stalwartcaptain",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "stalwartcaptain",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "starbirdslash",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "starbirdslash",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "staticdischargevanes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "staticdischargevanes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "strategiccommander",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "strategiccommander",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "supernaturalreflexes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "supernaturalreflexes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "suppressivegunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "suppressivegunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "supremeleadersnoke",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "supremeleadersnoke",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "swivelwing",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "swivelwing",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "syncedlasercannons",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "syncedlasercannons",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "synchronizedconsole",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "synchronizedconsole",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ta175",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ta175",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tacticalscrambler",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tacticalscrambler",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "talmerrik",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "talmerrik",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "targetassistmgk300",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "targetassistmgk300",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "targetingbattery",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "targetingbattery",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "thechild",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "thechild",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "themandalorian",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "themandalorian",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "thunderstrike",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "thunderstrike",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tibannareserves",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tibannareserves",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tibersaxon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tibersaxon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tiedefenderelite",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tiedefenderelite",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tierfonbellyrun",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tierfonbellyrun",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tobiasbeckett",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tobiasbeckett",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "trackingfob",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "trackingfob",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "trackingtorpedoes",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "trackingtorpedoes",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tractortechnicians",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tractortechnicians",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tractortentacles",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tractortentacles",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "treacherous",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "treacherous",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "trident",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "trident",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tristanwren",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tristanwren",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "turbolaserbattery",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "turbolaserbattery",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "tv94",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "tv94",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "underslungblastercannon",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "underslungblastercannon",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ursawren",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ursawren",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "ursawren-gunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "ursawren-gunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "vectoredcannonsrz1",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "vectoredcannonsrz1",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "veterantailgunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "veterantailgunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "veteranturretgunner",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "veteranturretgunner",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "veteranwingleader",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "veteranwingleader",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "wartimeloadout",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "wartimeloadout",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "watchfulastromech",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "watchfulastromech",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "weaponssystemsofficer",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "weaponssystemsofficer",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "wolfpack",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "wolfpack",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "xanadublood",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "xanadublood",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "yoda",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "yoda",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "zamwesell",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "zamwesell",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   },
   {
-    "SourceId": "zealouscaptain",
-    "Kind": "NotInOfficialDataset",
-    "Reason": "No official First Edition upgrade with the same normalised name was found."
+    "sourceId": "zealouscaptain",
+    "kind": "NotInOfficialDataset",
+    "reason": "No official First Edition upgrade with the same normalised name was found."
   }
 ]
