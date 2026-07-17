@@ -22,8 +22,8 @@ public static class BuildHybridShipDefinitionsCommand
             var mappingFolder = ResolveMappingFolder(args.Skip(3).ToArray());
             var outputFolder = ResolveOutputFolder(args, Path.Combine(repositoryFolder, "_unifiedtoolkit_reports", "hybrid"));
 
-            Console.WriteLine("UnifiedToolkit Phase 4B Revision 3 - Concrete Ship Construction Recipe");
-            Console.WriteLine("======================================================================");
+            Console.WriteLine("UnifiedToolkit Phase 5A Revision 1 - Object Builder Preflight");
+            Console.WriteLine("==================================================================");
             Console.WriteLine();
             Console.WriteLine($"Semantic repository: {repositoryFolder}");
             Console.WriteLine($"Unified 2.5 save:    {unifiedSave}");
@@ -38,7 +38,8 @@ public static class BuildHybridShipDefinitionsCommand
             var spawnerLua = SpawnerLuaAnalyser.Analyse(unifiedSave);
             var shipRecipe = ShipSpawnerRecipeExtractor.Analyse(unifiedSave);
             var legacy = LegacyShipAssetCatalogueBuilder.Build(legacySave, semanticBuild.Repository);
-            var document = HybridShipDefinitionBuilder.Build(semanticBuild.Repository, semanticBuild.MappingVersion, frameworks, legacy, baseConversions, unifiedSave, legacySave);
+            var document = HybridShipDefinitionBuilder.Build(semanticBuild.Repository, semanticBuild.MappingVersion, frameworks, shipRecipe, legacy, baseConversions, unifiedSave, legacySave);
+            var preflight = ObjectBuilderPreflightBuilder.Build(document, shipRecipe);
 
             Directory.CreateDirectory(outputFolder);
             WriteJson(Path.Combine(outputFolder, "first-edition-base-definitions.json"), FirstEditionBaseDefinitionCatalogue.Definitions);
@@ -61,6 +62,8 @@ public static class BuildHybridShipDefinitionsCommand
             WriteJson(Path.Combine(outputFolder, "ship-config-attachment-recipe.json"), shipRecipe.ConfigAttachment);
             WriteJson(Path.Combine(outputFolder, "spawner-indirect-guid-references.json"), shipRecipe.IndirectObjectReferences);
             WriteJson(Path.Combine(outputFolder, "first-edition-ship-construction-recipes.json"), shipRecipe.FirstEditionRecipes);
+            WriteJson(Path.Combine(outputFolder, "object-builder-preflight.json"), preflight);
+            WritePreflightCsv(Path.Combine(outputFolder, "object-builder-preflight.csv"), preflight);
             WriteJson(Path.Combine(outputFolder, "ship-spawner-recipe-analysis.json"), shipRecipe);
             WriteJson(Path.Combine(outputFolder, "legacy-ship-family-catalogue.json"), legacy.ShipFamilies);
             WriteJson(Path.Combine(outputFolder, "legacy-model-object-catalogue.json"), legacy.ModelObjects);
@@ -105,11 +108,14 @@ public static class BuildHybridShipDefinitionsCommand
             Console.WriteLine($"Framework ready:           {document.Summary.ShipsFrameworkReady}");
             Console.WriteLine($"Appearance ready:          {document.Summary.ShipsAppearanceReady}");
             Console.WriteLine($"Edition-assets ready:      {document.Summary.ShipsEditionAssetsReady}");
+            Console.WriteLine($"Construction recipe ready:{document.Summary.ShipsWithConstructionRecipe,5}");
             Console.WriteLine($"Ready for object builder:  {document.Summary.ShipsReadyForObjectBuilder}");
+            Console.WriteLine($"T-65 X-Wing prototype:      {(preflight.Summary.T65XWingReady ? "READY" : "BLOCKED")}");
+            Console.WriteLine($"ARC-170 prototype:          {(preflight.Summary.Arc170Ready ? "READY" : "BLOCKED")}");
             Console.WriteLine();
             Console.WriteLine($"Output folder: {outputFolder}");
             Console.WriteLine();
-            Console.WriteLine("The concrete clone/spawn/attachment recipe is extracted from Game.Component.Spawner.Spawner. First Edition construction recipes expose only Small, Large and Epic; Medium is rejected.");
+            Console.WriteLine("Object Builder readiness now uses the extracted code-driven construction recipe rather than obsolete stored framework candidates. Equal-scoring legacy collections for the same canonical ship are merged as complementary colour variants.");
             return 0;
         }
         catch (Exception ex)
@@ -140,7 +146,7 @@ public static class BuildHybridShipDefinitionsCommand
     private static void WriteCoverageCsv(string path, HybridShipDefinitionDocument document)
     {
         using var writer = new StreamWriter(path);
-        writer.WriteLine("ShipId,ShipName,Factions,FirstEditionBaseSize,Source25BaseSize,BaseConversionRequired,MediumRemoved,Pilots,FrameworkGuid,Family,FamilyPath,FamilyScore,UniqueAppearances,ShipReferences,PhysicalBaseTokens,Dials,Cards,FrameworkReady,AppearanceReady,EditionAssetsReady,ObjectBuilderReady,CompleteSaveReady,Issues");
+        writer.WriteLine("ShipId,ShipName,Factions,FirstEditionBaseSize,Source25BaseSize,BaseConversionRequired,MediumRemoved,Pilots,FrameworkGuid,Family,FamilyPath,FamilyScore,UniqueAppearances,ShipReferences,PhysicalBaseTokens,Dials,Cards,FrameworkReady,ConstructionRecipeReady,AppearanceReady,EditionAssetsReady,ObjectBuilderReady,CompleteSaveReady,Issues");
         foreach (var ship in document.Ships)
         {
             var row = new[]
@@ -148,13 +154,29 @@ public static class BuildHybridShipDefinitionsCommand
                 ship.SemanticData.Id, ship.SemanticData.Name, string.Join("|", ship.SemanticData.Factions), ship.BaseDefinition.Size.ToString(), ship.BaseSizeConversion?.Source25BaseSize ?? "", ship.BaseSizeConversion?.ConversionRequired.ToString() ?? "False", ship.BaseSizeConversion?.MediumRemoved.ToString() ?? "False", ship.Pilots.Count.ToString(),
                 ship.SpawnFramework?.SourceGuid ?? "", ship.LegacyShipFamily?.DisplayName ?? "", ship.LegacyShipFamily?.SourcePath ?? "", ship.LegacyShipFamily?.MatchScore.ToString() ?? "",
                 ship.AppearanceVariants.Count.ToString(), ship.EditionAssets.ShipReferences.Count.ToString(), ship.EditionAssets.PhysicalBaseTokens.Count.ToString(), ship.EditionAssets.Dials.Count.ToString(), ship.EditionAssets.Cards.Count.ToString(),
-                ship.Readiness.FrameworkReady.ToString(), ship.Readiness.AppearanceReady.ToString(), ship.Readiness.EditionAssetsReady.ToString(), ship.Readiness.ReadyForObjectBuilder.ToString(),
+                ship.Readiness.FrameworkReady.ToString(), ship.Readiness.ConstructionRecipeReady.ToString(), ship.Readiness.AppearanceReady.ToString(), ship.Readiness.EditionAssetsReady.ToString(), ship.Readiness.ReadyForObjectBuilder.ToString(),
                 ship.Readiness.CompleteSaveReady.ToString(), string.Join(" | ", ship.Readiness.Issues)
             };
             writer.WriteLine(string.Join(',', row.Select(Csv)));
         }
     }
 
+
+    private static void WritePreflightCsv(string path, ObjectBuilderPreflightDocument document)
+    {
+        using var writer = new StreamWriter(path);
+        writer.WriteLine("ShipId,ShipName,FirstEditionBaseSize,Source25BaseSize,MediumRemoved,HasConstructionRecipe,HasAppearance,AppearanceCount,ReadyForObjectBuilder,AppearanceNames,Blockers");
+        foreach (var ship in document.Ships)
+        {
+            var row = new[]
+            {
+                ship.ShipId, ship.ShipName, ship.FirstEditionBaseSize, ship.Source25BaseSize, ship.MediumRemoved.ToString(),
+                ship.HasConstructionRecipe.ToString(), ship.HasAppearance.ToString(), ship.AppearanceCount.ToString(),
+                ship.ReadyForObjectBuilder.ToString(), string.Join(" | ", ship.AppearanceNames), string.Join(" | ", ship.Blockers)
+            };
+            writer.WriteLine(string.Join(',', row.Select(Csv)));
+        }
+    }
     private static string Csv(string value) => $"\"{value.Replace("\"", "\"\"")}\"";
     private static string ResolveMappingFolder(string[] args)
     {

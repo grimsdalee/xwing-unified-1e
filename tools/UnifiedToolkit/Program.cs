@@ -47,6 +47,17 @@ return command switch
     "approve-clear-ship-recommendations" => ApproveClearShipRecommendationsCommand.Run(commandArgs),
     "prepare-curated-ship-asset-reviews" => PrepareCuratedShipAssetReviewsCommand.Run(commandArgs),
     "build-hybrid-ships" => BuildHybridShipDefinitionsCommand.Run(commandArgs),
+    "build-ship-prototypes" => BuildShipPrototypesCommand.Run(commandArgs),
+    "inspect-spawner-runtime" => InspectSpawnerRuntimeCommand.Run(commandArgs),
+    "extract-ship-construction-recipes" => ExtractShipConstructionRecipesCommand.Run(commandArgs),
+    "build-first-edition-ship-recipe" => BuildFirstEditionShipRecipeCommand.Run(commandArgs),
+    "build-first-edition-ship-object-model" => BuildFirstEditionShipObjectModelCommand.Run(commandArgs),
+    "serialize-first-edition-ship-test-save" => SerializeFirstEditionShipTestSaveCommand.Run(commandArgs),
+    "capture-runtime-ship-prototype" => CaptureRuntimeShipPrototypeCommand.Run(commandArgs),
+    "clone-runtime-ship-prototype" => CloneRuntimeShipPrototypeCommand.Run(commandArgs),
+    "ingest-runtime-prototype-assets" => IngestRuntimePrototypeAssetsCommand.Run(commandArgs),
+    "catalogue-repository-assets" => CatalogueRepositoryAssetsCommand.Run(commandArgs),
+    "import-unified-assets" => ImportUnifiedAssetsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -91,6 +102,17 @@ static void ShowHelp()
     Console.WriteLine("  approve-clear-ship-recommendations <ship-assets.review.json> <asset-catalogue.json> [mapping-folder] --version <asset-version> [--output <reviewed.json>] [--apply]");
     Console.WriteLine("  prepare-curated-ship-asset-reviews <ship-assets.review.json> [--output <folder>]");
     Console.WriteLine("  build-hybrid-ships <repo-folder> <unified-2.5-save.json> <legacy-1e-save.json> [mapping-folder] [--allow-source-errors] [--output <folder>]");
+    Console.WriteLine("  build-ship-prototypes <hybrid-ship-definitions.json> <unified-2.5-save.json> [--output <folder>]");
+    Console.WriteLine("  inspect-spawner-runtime <unified-2.5-save.json> [--output <folder>]");
+    Console.WriteLine("  extract-ship-construction-recipes <unified-2.5-save.json> [--runtime-report <spawner-runtime-report.json>] [--output <folder>]");
+    Console.WriteLine("  build-first-edition-ship-recipe <hybrid-ship-definitions.json> <ship-construction-recipes.json> [--ship <id-or-name>] [--output <folder>]");
+    Console.WriteLine("  build-first-edition-ship-object-model <hybrid-ship-definitions.json> <ship-construction-recipes.json> [--ship <id-or-name>] [--output <folder>]");
+    Console.WriteLine("  serialize-first-edition-ship-test-save <first-edition-ship-object-model.json> <unified-2.5-save.json> <unified-repo-folder> [--output <folder>]");
+    Console.WriteLine("  capture-runtime-ship-prototype <spawned-save.json> --guid <object-guid> [--output <folder>]");
+    Console.WriteLine("  clone-runtime-ship-prototype <runtime-ship-prototype.json> <tts-envelope-save.json> [--output <folder>]");
+    Console.WriteLine("  ingest-runtime-prototype-assets <runtime-ship-prototype.json> <unified-repo-folder> <first-edition-repo-folder> [--public-base-url <url>] [--download-external] [--output <folder>]");
+    Console.WriteLine("  catalogue-repository-assets <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  import-unified-assets <unified-repo-folder> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

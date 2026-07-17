@@ -1,0 +1,32 @@
+<Panel id="BtnPanel"
+    width="640"
+    height="640"
+    position="0 0 -30"
+    rotation="0 0 180"
+    color="#aaffaa00"
+    onMouseExit="hideBtn"
+    showAnimation="Grow"
+    hideAnimation="Shrink"
+    active="false"
+    raycastTarget='true'>
+    <Button id="BoostSbtn" offsetXY="0 240" width="128" height="128" active="true" onClick="BstS" color="#aaffaa00">
+        <Image id="BoostSIcon" image="BoostS" preserveAspect="true"></Image></Button>
+    <Button id="BarrelLbtn" offsetXY="-240 0" width="144" height="352" active="true" onClick="Bl" color="#aaffaa00">
+        <Image id="BLIcon" image="BarrelL" preserveAspect="true"></Image></Button>
+    <Button id="BarrelRbtn" offsetXY="240 0" width="144" height="352" active="true" onClick="Br" color="#aaffaa00">
+        <Image id="BRIcon" image="BarrelR" preserveAspect="true"></Image></Button>
+    <Button id="Delbtn" offsetXY="0 -80" width="160" height="96" active="true" onClick="Delete" color="white" fontStyle='Bold' fontSize='40'>DEL</Button>
+    <Button id="RotLbtn" offsetXY="-72 64" width="112" height="112" active="true" onClick="RotL" color="white" fontStyle='Bold' fontSize='40'>90°L</Button>
+    <Button id="RotRbtn" offsetXY="72 64" width="112" height="112" active="true" onClick="RotR" color="white" fontStyle='Bold' fontSize='40'>90°R</Button>
+
+</Panel>
+<Panel id="ProxyPanel"
+    width="432"
+    height="216"
+    position="0 0 -30"
+    rotation="0 0 180"
+    color="#aaffaa00"
+    active="false"
+    raycastTarget='true'>
+    <Button id="Cancelbtn" offsetXY="0 0" width="312" height="144" active="true" onClick="Cancel" color="white" fontStyle='Bold' fontSize='52'>CANCEL</Button>
+</Panel>

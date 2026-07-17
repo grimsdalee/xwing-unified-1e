@@ -29,6 +29,7 @@ public sealed class HybridBuildSummary
     public int ShipsFrameworkReady { get; init; }
     public int ShipsAppearanceReady { get; init; }
     public int ShipsEditionAssetsReady { get; init; }
+    public int ShipsWithConstructionRecipe { get; init; }
     public int ShipsReadyForObjectBuilder { get; init; }
 }
 
@@ -118,11 +119,13 @@ public sealed class HybridReadiness
     public bool HasSemanticData { get; init; }
     public bool HasValidFirstEditionBase { get; init; }
     public bool HasFramework { get; init; }
+    public bool HasConstructionRecipe { get; init; }
     public bool HasAppearance { get; init; }
     public bool HasDial { get; init; }
     public bool HasShipReference { get; init; }
     public bool HasPhysicalBaseToken { get; init; }
     public bool FrameworkReady { get; init; }
+    public bool ConstructionRecipeReady { get; init; }
     public bool AppearanceReady { get; init; }
     public bool EditionAssetsReady { get; init; }
     public bool ReadyForObjectBuilder { get; init; }

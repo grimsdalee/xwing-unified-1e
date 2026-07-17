@@ -8,13 +8,14 @@ public static class HybridShipDefinitionBuilder
         FirstEditionRepository repository,
         string mappingVersion,
         IReadOnlyList<SpawnerFrameworkReference> frameworks,
+        ShipSpawnerRecipeAnalysis spawnerRecipe,
         LegacyShipAssetCatalogue legacy,
         IReadOnlyList<ShipBaseSizeConversion> baseConversions,
         string unifiedSavePath,
         string legacySavePath)
     {
         var conversionsByShip = baseConversions.ToDictionary(x => x.ShipId, StringComparer.OrdinalIgnoreCase);
-        var ships = repository.Ships.Select(ship => BuildShip(repository, ship, frameworks, legacy, conversionsByShip.GetValueOrDefault(ship.Id))).ToArray();
+        var ships = repository.Ships.Select(ship => BuildShip(repository, ship, frameworks, spawnerRecipe, legacy, conversionsByShip.GetValueOrDefault(ship.Id))).ToArray();
         return new HybridShipDefinitionDocument
         {
             SemanticMappingVersion = mappingVersion,
@@ -36,6 +37,7 @@ public static class HybridShipDefinitionBuilder
                 ShipsFrameworkReady = ships.Count(x => x.Readiness.FrameworkReady),
                 ShipsAppearanceReady = ships.Count(x => x.Readiness.AppearanceReady),
                 ShipsEditionAssetsReady = ships.Count(x => x.Readiness.EditionAssetsReady),
+                ShipsWithConstructionRecipe = ships.Count(x => x.Readiness.HasConstructionRecipe),
                 ShipsReadyForObjectBuilder = ships.Count(x => x.Readiness.ReadyForObjectBuilder)
             }
         };
@@ -45,15 +47,20 @@ public static class HybridShipDefinitionBuilder
         FirstEditionRepository repository,
         FirstEditionShip ship,
         IReadOnlyList<SpawnerFrameworkReference> frameworks,
+        ShipSpawnerRecipeAnalysis spawnerRecipe,
         LegacyShipAssetCatalogue legacy,
         ShipBaseSizeConversion? baseConversion)
     {
         var baseDefinition = FirstEditionBaseDefinitionCatalogue.Resolve(ship);
         var framework = SpawnerFrameworkAnalyser.SelectForSize(frameworks, baseDefinition.Size.ToString());
-        var familyMatch = MatchFamily(ship, legacy.ShipFamilies);
-        var appearances = familyMatch is null
-            ? Array.Empty<ShipAppearanceVariant>()
-            : familyMatch.Family.Appearances.Select(ToAppearance).ToArray();
+        var familyMatches = MatchFamilies(ship, legacy.ShipFamilies);
+        var familyMatch = familyMatches.FirstOrDefault();
+        var appearances = familyMatches
+            .SelectMany(x => x.Family.Appearances)
+            .GroupBy(x => x.Signature, StringComparer.OrdinalIgnoreCase)
+            .Select(x => ToAppearance(x.First()))
+            .OrderBy(x => x.DisplayName, StringComparer.OrdinalIgnoreCase)
+            .ToArray();
         var references = MatchEditionAssets(ship, legacy.ShipReferences);
         var physicalTokens = MatchEditionAssets(ship, legacy.PhysicalBaseTokens);
         var dials = MatchEditionAssets(ship, legacy.Dials);
@@ -65,14 +72,18 @@ public static class HybridShipDefinitionBuilder
             && framework.HasContainedObjects
             && framework.HasBaseComponent
             && framework.HasPegComponent;
+        var constructionRecipeReady = spawnerRecipe.FirstEditionRecipes.Any(x => x.BaseSize == baseDefinition.Size)
+            && spawnerRecipe.Summary.CompositeBaseResolved
+            && spawnerRecipe.Summary.PegRecipeExtracted
+            && spawnerRecipe.Summary.ShipModelRecipeExtracted
+            && spawnerRecipe.Summary.MediumRejected;
         var appearanceReady = familyMatch is not null && appearances.Length > 0;
         var editionReady = dials.Count > 0 && references.Count > 0;
         var issues = new List<string>();
         if (baseConversion is null) issues.Add("No base-size provenance record was generated.");
         if (baseConversion?.MediumRemoved == true) issues.Add($"Source 2.5 Medium base deliberately converted to First Edition {baseDefinition.Size} base.");
 
-        if (framework is null) issues.Add("No size-compatible Unified 2.5 ship spawning framework was identified.");
-        else if (!frameworkReady) issues.Add("The selected Unified 2.5 framework is missing one or more required structural elements.");
+        if (!constructionRecipeReady) issues.Add($"No complete First Edition {baseDefinition.Size} ship-construction recipe is available.");
         if (familyMatch is null) issues.Add("No unambiguous legacy First Edition ship-model family matched this ship.");
         if (appearances.Length == 0) issues.Add("No confirmed legacy First Edition ship appearance was identified.");
         if (dials.Count == 0) issues.Add("No owner-level legacy First Edition manoeuvre dial was identified.");
@@ -110,15 +121,17 @@ public static class HybridShipDefinitionBuilder
                 HasSemanticData = true,
                 HasValidFirstEditionBase = true,
                 HasFramework = framework is not null,
+                HasConstructionRecipe = constructionRecipeReady,
                 HasAppearance = appearances.Length > 0,
                 HasDial = dials.Count > 0,
                 HasShipReference = references.Count > 0,
                 HasPhysicalBaseToken = physicalTokens.Count > 0,
                 FrameworkReady = frameworkReady,
+                ConstructionRecipeReady = constructionRecipeReady,
                 AppearanceReady = appearanceReady,
                 EditionAssetsReady = editionReady,
-                ReadyForObjectBuilder = frameworkReady && appearanceReady && editionReady,
-                CompleteSaveReady = frameworkReady && appearanceReady && editionReady && physicalTokens.Count > 0 && cards.Count > 0,
+                ReadyForObjectBuilder = constructionRecipeReady && appearanceReady,
+                CompleteSaveReady = constructionRecipeReady && appearanceReady && editionReady && physicalTokens.Count > 0 && cards.Count > 0,
                 Issues = issues
             }
         };
@@ -140,7 +153,7 @@ public static class HybridShipDefinitionBuilder
         TemplateJson = source.TemplateJson
     };
 
-    private static FamilyMatch? MatchFamily(FirstEditionShip ship, IReadOnlyList<LegacyShipFamily> families)
+    private static IReadOnlyList<FamilyMatch> MatchFamilies(FirstEditionShip ship, IReadOnlyList<LegacyShipFamily> families)
     {
         var candidates = families
             .Select(family => ScoreFamily(ship, family))
@@ -149,10 +162,16 @@ public static class HybridShipDefinitionBuilder
             .ThenBy(x => x.Family.DisplayName, StringComparer.OrdinalIgnoreCase)
             .ToArray();
 
-        if (candidates.Length == 0) return null;
-        if (candidates.Length > 1 && candidates[0].Score == candidates[1].Score && candidates[0].Family.FamilyId != candidates[1].Family.FamilyId)
-            return null;
-        return candidates[0];
+        if (candidates.Length == 0) return Array.Empty<FamilyMatch>();
+        var bestScore = candidates[0].Score;
+        var bestKey = candidates[0].Family.CanonicalKey;
+
+        // Legacy collections frequently contain neutral, Rebel, Imperial and Scum
+        // folders for the same physical ship. Equal-scoring families with the same
+        // canonical key are complementary paint variants, not an ambiguity.
+        return candidates
+            .Where(x => x.Score == bestScore && x.Family.CanonicalKey.Equals(bestKey, StringComparison.OrdinalIgnoreCase))
+            .ToArray();
     }
 
     private static FamilyMatch ScoreFamily(FirstEditionShip ship, LegacyShipFamily family)

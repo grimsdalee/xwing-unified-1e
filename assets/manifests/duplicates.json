@@ -1,0 +1,991 @@
+[
+  {
+    "sha256": "34551ad28a353db564431170858356bf5500facb9148e332fb3b3e5378b1a248",
+    "assetId": "AST-34551AD28A353DB5",
+    "fileCount": 11,
+    "repositoryPaths": [
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Bank1.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Bank2.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Bank3.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Straight1.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Straight2.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Straight3.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Straight4.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Straight5.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Turn1.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Turn2.lua",
+      "assets/source/unified25/TTS_xwing/src/Game/Component/Template/Turn3.lua"
+    ]
+  },
+  {
+    "sha256": "760bb845fb98fbbc78c52843f45e62ae79fec40d6920987204da6b39cba94c3d",
+    "assetId": "AST-760BB845FB98FBBC",
+    "fileCount": 5,
+    "repositoryPaths": [
+      "assets/source/unified25/TTS_xwing/src/Device/Bomb/Bomblet.lua",
+      "assets/source/unified25/TTS_xwing/src/Device/Bomb/ConcussionBomb.lua",
+      "assets/source/unified25/TTS_xwing/src/Device/Bomb/IonBomb.lua",
+      "assets/source/unified25/TTS_xwing/src/Device/Bomb/ProtonBomb.lua",
+      "assets/source/unified25/TTS_xwing/src/Device/Bomb/ThermalDetonator.lua"
+    ]
+  },
+  {
+    "sha256": "a9a018e324002a8c6437e80a657cc627e81a9aab4ff05272cfd1066ffb686760",
+    "assetId": "AST-A9A018E324002A8C",
+    "fileCount": 5,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/models/gameconsole.mtl",
+      "assets/source/unified25/assets/models/roundconsole-remix4-new.mtl",
+      "assets/source/unified25/assets/models/roundconsole-remix4-split.mtl",
+      "assets/source/unified25/assets/models/roundconsole-remix4-split3.mtl",
+      "assets/source/unified25/assets/models/roundconsole-remix4.mtl"
+    ]
+  },
+  {
+    "sha256": "178df149e7e15b2f8f3f54dda51dc3614931b94c3351d89b91d9174d8f14ed47",
+    "assetId": "AST-178DF149E7E15B2F",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/cloud-1-texture.jpg",
+      "assets/source/unified25/assets/HotAC/terrain/cloud-3-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/HotAC board 3.jpg"
+    ]
+  },
+  {
+    "sha256": "2357c8d14199e8ccf76351b9b2436a71e2b21bbbaa268a506e04a57ff2688eca",
+    "assetId": "AST-2357C8D14199E8CC",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/arcranges/DRK1/probedroid.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/DRKProbe.obj",
+      "assets/source/unified25/assets/Items/tools/remotes-model.obj"
+    ]
+  },
+  {
+    "sha256": "021e7f70b605edf5814403ba2b6fbc057e5d0fa3bf3df1639df53e6d8197e46c",
+    "assetId": "AST-021E7F70B605EDF5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/antenna-array-column-image.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Sensor Array.jpg"
+    ]
+  },
+  {
+    "sha256": "04b99d4d791b3d409dd1be551ea7c324457e227f6decccd3a7f514356ae8c9e9",
+    "assetId": "AST-04B99D4D791B3D40",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/condition/tokens/optimized-prototype-texture.png",
+      "assets/source/unified25/assets/Items/condition/tokens/optimizedproto.png"
+    ]
+  },
+  {
+    "sha256": "0567922f3c472332ef312eaed7d77ffc2758f883997c46537c0db105c9094583",
+    "assetId": "AST-0567922F3C472332",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/red.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/red.jpg"
+    ]
+  },
+  {
+    "sha256": "060046f9345f764eb774ed2462327b45a2cb751f7389e20aa640416207ccee37",
+    "assetId": "AST-060046F9345F764E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v2/lancer.obj",
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v3/lancer.obj"
+    ]
+  },
+  {
+    "sha256": "0c1fa1d7a1cb215a2819507631406220e89259a7013a3cbf80771a9b6a46e028",
+    "assetId": "AST-0C1FA1D7A1CB215A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrelr-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollRight.png"
+    ]
+  },
+  {
+    "sha256": "0c86a171c6d0024673f171ccecb2afb6600d293fc4b65add047bcf4dcec6066e",
+    "assetId": "AST-0C86A171C6D00246",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrellf-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollLeftFwd.png"
+    ]
+  },
+  {
+    "sha256": "16146793f8bd92c9bfda26f7e0fc32f877b22c10e09d744cedc92c949abfb41c",
+    "assetId": "AST-16146793F8BD92C9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/thane.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/thane.jpg"
+    ]
+  },
+  {
+    "sha256": "1c947ab7123da10a8852a1e8adb4ac30b65b9cc141835291d8fe2980b648cb4d",
+    "assetId": "AST-1C947AB7123DA10A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/spare-parts-model.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/spare.obj"
+    ]
+  },
+  {
+    "sha256": "2308ae952fb01c43c8821b45cad2dda165a2b622acaa81984c83927344fb78f3",
+    "assetId": "AST-2308AE952FB01C43",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/luke.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/luke.jpg"
+    ]
+  },
+  {
+    "sha256": "23206b84997bf2cf493a55b583391c9e6a012e621cf1a22eb9d7018400cbf6af",
+    "assetId": "AST-23206B84997BF2CF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/beacon-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Satelite.jpg"
+    ]
+  },
+  {
+    "sha256": "2505add150536bb9d207d320c1921d3544fcb37e95a92c1ec13c5e4165d889b0",
+    "assetId": "AST-2505ADD150536BB9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/standard.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/classic.jpg"
+    ]
+  },
+  {
+    "sha256": "28a861cc7ea3113bac8e17c14e6ed90822e03e03806b4abfed6555a7392f8a1d",
+    "assetId": "AST-28A861CC7EA3113B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/GreenDice.jpg",
+      "assets/source/unified25/assets/textures/Dice/Defence Dice/Base Green/GreenDice.jpg"
+    ]
+  },
+  {
+    "sha256": "291304ad0e856eeaeb4031e8f9e5fff635a898541f385bfd24b5442c6c631fed",
+    "assetId": "AST-291304AD0E856EEA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/standard.png"
+    ]
+  },
+  {
+    "sha256": "293a90675023005a3f0a21adefa21052bab6382a63dcdd5f7b696fa4693d3758",
+    "assetId": "AST-293A90675023005A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/netrem.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/NetremPollard.png"
+    ]
+  },
+  {
+    "sha256": "2c85c25092cd81e069de3b2f609f1eee150f7fb4e8a334fd0accdad675465a4b",
+    "assetId": "AST-2C85C25092CD81E0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7.png",
+      "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7b.png"
+    ]
+  },
+  {
+    "sha256": "2d164d556775c95a4e9c02e779805529e028b35e5968878898fde1af4ecbd307",
+    "assetId": "AST-2D164D556775C95A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v2/AsajjVentress.jpg",
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v3/AsajjVentress.jpg"
+    ]
+  },
+  {
+    "sha256": "2d4be16c4f07a7fe26a320e2b903fb6d85222b37ca4230d77b5f39030a778e56",
+    "assetId": "AST-2D4BE16C4F07A7FE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/playmats/hotac-mat-texture.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-03-deep-space-starfield.jpg"
+    ]
+  },
+  {
+    "sha256": "2e2f85245f97cdc7e6788a5ebc1fbdc20384cf2eca64f1bc436279b3ee157cef",
+    "assetId": "AST-2E2F85245F97CDC7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/Table/End Marker.png",
+      "assets/source/unified25/assets/HotAC/Tokens/RebelandEmpire Coin.png"
+    ]
+  },
+  {
+    "sha256": "31b1fd3f4d7ab8a1c3c088ca34f237bc4d4d913ab43848a67cbdea1bbe4f8422",
+    "assetId": "AST-31B1FD3F4D7AB8A1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/garven.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/garven.jpg"
+    ]
+  },
+  {
+    "sha256": "323c8115fe799e83f3511c80d964fec3ea4f8b154fbc36aaba9298161a0059b7",
+    "assetId": "AST-323C8115FE799E83",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/AllBombs.obj",
+      "assets/source/unified25/assets/models/bombbag.obj"
+    ]
+  },
+  {
+    "sha256": "32d7bcb2b11776dcce6d9c05f137cfe9ffde0a32d13ad9b0ea27ba344d11641c",
+    "assetId": "AST-32D7BCB2B11776DC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrelrb-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollRightRe.png"
+    ]
+  },
+  {
+    "sha256": "3341435d0abe20773319baf31d1cb537d45ec79163022d07e4e47782a4afbf93",
+    "assetId": "AST-3341435D0ABE2077",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/GreenDiceInfinite.jpg",
+      "assets/source/unified25/assets/textures/Dice/Defence Dice/Base Green/GreenDiceInfinite.jpg"
+    ]
+  },
+  {
+    "sha256": "3bff51faa3aea6229ed0f8e5886c0f097737772f1660e9065fd07f1c7e747f0c",
+    "assetId": "AST-3BFF51FAA3AEA622",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/spare-parts-texture.png",
+      "assets/source/unified25/assets/Items/tokens/devices/spare.png"
+    ]
+  },
+  {
+    "sha256": "3cc4582f9124e6de6afef11e37d8d0d754468bdc992d4a01e009f4e565bc251e",
+    "assetId": "AST-3CC4582F9124E6DE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/dark.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/dark.jpg"
+    ]
+  },
+  {
+    "sha256": "420e494c43a1e5199f5a20d7bf0cd28f69b60ba919582c5ab7a7b593274518a6",
+    "assetId": "AST-420E494C43A1E519",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/textures/Mats/epic-01-blue-planet-moons.jpg",
+      "assets/source/unified25/assets/textures/Mats/epic-mat-texture.jpg"
+    ]
+  },
+  {
+    "sha256": "4402edf42b5c781cb900b08884ee81638a15dbbed4ee6a37e68543c339ae392e",
+    "assetId": "AST-4402EDF42B5C781C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v2/SabineWren.jpg",
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v3/SabineWren.jpg"
+    ]
+  },
+  {
+    "sha256": "451ba8d48e6dea1b9b1c24304f43d4859cae6d802a7b8f27ac0f275799a330b0",
+    "assetId": "AST-451BA8D48E6DEA1B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/conner.png",
+      "assets/source/unified25/assets/textures/bombs/connor-net-image.png"
+    ]
+  },
+  {
+    "sha256": "45c7ae4bb72439d8af54d10921d128200b6408cc7855f5ed5e2f90dc0a2db91f",
+    "assetId": "AST-45C7AE4BB72439D8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrellb-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollLeftRe.png"
+    ]
+  },
+  {
+    "sha256": "488eb2fa46de39f52869e54e7699bba7ee8ab11e68b28dfb16006900ddfd93ea",
+    "assetId": "AST-488EB2FA46DE39F5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/sabine.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/sabine.jpg"
+    ]
+  },
+  {
+    "sha256": "48ed3506af6ea154b58dcb3ad195e0a35fe4f18571b71801239b08ae08c0295d",
+    "assetId": "AST-48ED3506AF6EA154",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/bomblet.png",
+      "assets/source/unified25/assets/textures/bombs/bomblet-texture.png"
+    ]
+  },
+  {
+    "sha256": "49fe98a0a09c077649ac2f30afbb8dfe6c3c303b27b253b57513b6a6834b538f",
+    "assetId": "AST-49FE98A0A09C0776",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/cloud-1-normal.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Bump for Clouds.jpg"
+    ]
+  },
+  {
+    "sha256": "4a49faf3ed947229b061eb5b8fe60954b468a438dbacb48a0b136d9947267ee3",
+    "assetId": "AST-4A49FAF3ED947229",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/Tokens/reinforce.jpg",
+      "assets/source/unified25/assets/Items/tokens/round/reinforce.jpg"
+    ]
+  },
+  {
+    "sha256": "4aa56d5be754612265cf7a7c704331e905d149aff4a9a3979d0e86c5c0774f21",
+    "assetId": "AST-4AA56D5BE7546122",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/FO/TIEba/ember.png",
+      "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/Ember.png"
+    ]
+  },
+  {
+    "sha256": "4c2b0e53fff50f7bd51006336f31344e21ddc035ea6dc04c7f98849aae44e8eb",
+    "assetId": "AST-4C2B0E53FFF50F7B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosed.obj",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosedv1.obj"
+    ]
+  },
+  {
+    "sha256": "4e61a2c7a672dfefbe93e19ef7f0e98d97e7c8d483936da3420c47da686ad33f",
+    "assetId": "AST-4E61A2C7A672DFEF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
+      "assets/source/unified25/assets/ships-v2/bases/pegs/medium.obj"
+    ]
+  },
+  {
+    "sha256": "50567c58652a9959e180ed57c77b86eb1865b8b2ed595125096bcde09a2b8206",
+    "assetId": "AST-50567C58652A9959",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/colliders/bomb_collider.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/Bombinea2.obj"
+    ]
+  },
+  {
+    "sha256": "52eeb61c3721de9eef96786241e4fa91edd83e1e4e5c4d295a275f9b96e147b4",
+    "assetId": "AST-52EEB61C3721DE9E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/red.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/red.jpg"
+    ]
+  },
+  {
+    "sha256": "5505c145a927e84810a15e2a900d2619fb8e796d46a30a13c39b568a2cadea10",
+    "assetId": "AST-5505C145A927E848",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/Tokens/Tracking Token.png",
+      "assets/source/unified25/assets/Items/tokens/devices/tracking-token-image.png"
+    ]
+  },
+  {
+    "sha256": "586a2fc9f9f0e4b992042971ca0f28be9f8223483797b72fcd338cc53797c963",
+    "assetId": "AST-586A2FC9F9F0E4B9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/REB_VCX100/HeraSyndulla.jpg",
+      "assets/source/unified25/assets/ships/Small/REB_attackshuttle/HeraSyndulla.jpg"
+    ]
+  },
+  {
+    "sha256": "58916bdfc49f8ab62c4e68b6a8409ffd89d291f81d7bb71fb6f4866f7358e773",
+    "assetId": "AST-58916BDFC49F8AB6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/fuel-tank-image.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Fuel Tank.jpg"
+    ]
+  },
+  {
+    "sha256": "58e6ae473bd6f84979cdf416a1df0a0e395f0cbc75313b8b11549b9e6c1652e5",
+    "assetId": "AST-58E6AE473BD6F849",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/condition/tokens/hunted-texture.png",
+      "assets/source/unified25/assets/Items/condition/tokens/hunted.png"
+    ]
+  },
+  {
+    "sha256": "5f7231670e234112e852364a88838ab4c8f9241af5437d21510836dc57a4d749",
+    "assetId": "AST-5F7231670E234112",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrelrf-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollRightFwd.png"
+    ]
+  },
+  {
+    "sha256": "65a4f5db9939547a4d38b96c775b8dac34afee19ef96d910e0080922eb706276",
+    "assetId": "AST-65A4F5DB9939547A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/loose-cargo-image.png",
+      "assets/source/unified25/assets/Items/tokens/devices/cargo.png"
+    ]
+  },
+  {
+    "sha256": "66b96c3f42625e61697ce8317493895b56f84286ef55317760257234337d382e",
+    "assetId": "AST-66B96C3F42625E61",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/rz1awing/icon.png",
+      "assets/source/unified25/assets/ships-v2/small/rz1awing/rz1_awing.png"
+    ]
+  },
+  {
+    "sha256": "68b9014c8562de1c92abf829e0aba63a11cfb98d70c6c506e3be9cc1a430f56a",
+    "assetId": "AST-68B9014C8562DE1C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/AllMines.jpg",
+      "assets/source/unified25/assets/textures/bombs/all-mines-texture.jpg"
+    ]
+  },
+  {
+    "sha256": "69b4597d9d8f6a5894a712ff288a60834b3a2b9d9e5727633fdfc7b0b301e3a0",
+    "assetId": "AST-69B4597D9D8F6A58",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/RedDiceInfinite.jpg",
+      "assets/source/unified25/assets/textures/Dice/Attack Dice/Base Red/RedDiceInfinite.jpg"
+    ]
+  },
+  {
+    "sha256": "72cfb07f5fb859abe3abce317eefdefaac919a54a367d95892d2333e628d349d",
+    "assetId": "AST-72CFB07F5FB859AB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-blue.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorblue.jpg"
+    ]
+  },
+  {
+    "sha256": "75b45440ffb5ad134d9c671ad55dc6769372c3c32ce3fa81587e2d408f69aeb5",
+    "assetId": "AST-75B45440FFB5AD13",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/new/reinforce-model.obj",
+      "assets/source/unified25/assets/Items/tokens/round/RoundTokenDualSide.obj"
+    ]
+  },
+  {
+    "sha256": "77854e25a8b0dab8d3358df5c15d0e6edd3978431482f2ab0a590302d4622bb1",
+    "assetId": "AST-77854E25A8B0DAB8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+      "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj"
+    ]
+  },
+  {
+    "sha256": "78bcf4d9fdac3852201f63994b0c393e2208abda4cbb30f287c8419e18cc359c",
+    "assetId": "AST-78BCF4D9FDAC3852",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/Tokens/evade.jpg",
+      "assets/source/unified25/assets/Items/tokens/round/evade.jpg"
+    ]
+  },
+  {
+    "sha256": "79252dfd0d87fd766e1110d007e93c511261227aac3e9486ef2d6032a99dd553",
+    "assetId": "AST-79252DFD0D87FD76",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/FO/TIEba/holo.png",
+      "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/Holo.png"
+    ]
+  },
+  {
+    "sha256": "7b39d4d94adfd498981df282fe5e4a5484b461fcfc71568ff1c03fa89dfe877b",
+    "assetId": "AST-7B39D4D94ADFD498",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/escape-pod-image.png",
+      "assets/source/unified25/assets/HotAC/Tokens/Escape Pod.png"
+    ]
+  },
+  {
+    "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
+    "assetId": "AST-7CD2EE00223E78C2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj"
+    ]
+  },
+  {
+    "sha256": "8208299b7cf130c6767de9fa507be67cd871aa33f4fd955a29623032cecd3cb0",
+    "assetId": "AST-8208299B7CF130C6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/RedDice.jpg",
+      "assets/source/unified25/assets/textures/Dice/Attack Dice/Base Red/RedDice.jpg"
+    ]
+  },
+  {
+    "sha256": "82bf33838ecbaa3d636b0527e1ac87fb11ce1a4a2df776581690638082f515f9",
+    "assetId": "AST-82BF33838ECBAA3D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/dirty.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/standard.jpg"
+    ]
+  },
+  {
+    "sha256": "83e31679275affc0ddebb468e3b8dcb5f33e730f39af9d2317653f695e6d720c",
+    "assetId": "AST-83E31679275AFFC0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/boost/BoostFwd.png",
+      "assets/source/unified25/assets/dial/actions/boosts-image.png"
+    ]
+  },
+  {
+    "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
+    "assetId": "AST-893996346E366A4C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunisherblue.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabomberblue.jpg"
+    ]
+  },
+  {
+    "sha256": "8b995d081f02a6a5636f60bfad2373660ee91c8e3c3f12b66060a769a8cdd723",
+    "assetId": "AST-8B995D081F02A6A5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/wedge.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wedge.jpg"
+    ]
+  },
+  {
+    "sha256": "920950fa4bc46464deeb7f589b4d2cd71818de15e685f909189889340ced70ce",
+    "assetId": "AST-920950FA4BC46464",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/biggs.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/biggs.jpg"
+    ]
+  },
+  {
+    "sha256": "96011254d055c036e514aedc1543e47f615b2a1fadb3bccabcb11056f452e296",
+    "assetId": "AST-96011254D055C036",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/AllBombs.jpg",
+      "assets/source/unified25/assets/textures/bombs/all-bombs-texture.jpg"
+    ]
+  },
+  {
+    "sha256": "99e5cd9937cdcdbe5f4dff541510b4e2edb8cd6e3efdcbc8aa8b434a6421fad6",
+    "assetId": "AST-99E5CD9937CDCDBE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/REB_VCX100/LothalRebel.jpg",
+      "assets/source/unified25/assets/ships/Small/REB_attackshuttle/ZebOrrelios.jpg"
+    ]
+  },
+  {
+    "sha256": "9b5825d8b419cc56ee9e00bb9ff7b1819a2daafd057c63763febfb4ccb2f3fb8",
+    "assetId": "AST-9B5825D8B419CC56",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/blue.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/blue.jpg"
+    ]
+  },
+  {
+    "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
+    "assetId": "AST-A15AA5C810C9A434",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/cargo-container-image.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Cargo Container.jpg"
+    ]
+  },
+  {
+    "sha256": "a44eff4ed45f2d266d5491fc340302e593321b686aeaf8326ac255d6e4c96f35",
+    "assetId": "AST-A44EFF4ED45F2D26",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/proton.png",
+      "assets/source/unified25/assets/textures/bombs/proton-bomb-texture.png"
+    ]
+  },
+  {
+    "sha256": "a6b5e93d8c18b82f8693a3740d2ca87926678c63c41d0ef0b53effb053cf07b1",
+    "assetId": "AST-A6B5E93D8C18B82F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/command-center-image.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Command Center.jpg"
+    ]
+  },
+  {
+    "sha256": "a887a51b4a8ef404db14ef47e2f94f80382166afbb3483c52a9ab6fd0415a675",
+    "assetId": "AST-A887A51B4A8EF404",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/cloud-2-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/HotAC board 2.jpg"
+    ]
+  },
+  {
+    "sha256": "a8ed51193a8ba2468040054a6bb09126f9036fe35c7c2a0a1cdcd0b55e7b28c6",
+    "assetId": "AST-A8ED51193A8BA246",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blade.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/BladeSquadronVeteran.png"
+    ]
+  },
+  {
+    "sha256": "aad4f478d6e241b4d145aa01674b58a617bad2ec3dbc9c1349faaa178d4b83bb",
+    "assetId": "AST-AAD4F478D6E241B4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/AllMines.obj",
+      "assets/source/unified25/assets/textures/bombs/all-mines-model.obj"
+    ]
+  },
+  {
+    "sha256": "abc5c7d76559ccfa3cbccca6f2600d36dcc4437587684716bf199c36db200b06",
+    "assetId": "AST-ABC5C7D76559CCFA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/rebel.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/rebel.jpg"
+    ]
+  },
+  {
+    "sha256": "aceeb793e2aca86b0b1ed3a007df6010fa6ff19737e0d03de39c7ab632cafa1a",
+    "assetId": "AST-ACEEB793E2ACA86B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/brown.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/brown.jpg"
+    ]
+  },
+  {
+    "sha256": "ad15fe11ff5ec9e326a1cbe22ac272d7fd403e93c31ee2cb600be57e6beb5c35",
+    "assetId": "AST-AD15FE11FF5EC9E3",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/minefield-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/HotAC board 4.jpg"
+    ]
+  },
+  {
+    "sha256": "b1d0811f8d4a71e5b24195422cf78025ff5d7ccc7b7c2a56098d4cb0b34d434e",
+    "assetId": "AST-B1D0811F8D4A71E5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg"
+    ]
+  },
+  {
+    "sha256": "b345c9c0de9f8a32740335bf908ffe130f1e23ee0b1cc35ce2d60e2a250b7bdf",
+    "assetId": "AST-B345C9C0DE9F8A32",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/porkins.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/porkins.jpg"
+    ]
+  },
+  {
+    "sha256": "b4b081db6529941ca6fed052c74dea678d9468a829b88e4904c548e1b9c48d9b",
+    "assetId": "AST-B4B081DB6529941C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/condition/tokens/listening-device-texture.png",
+      "assets/source/unified25/assets/Items/condition/tokens/listeningdevice.png"
+    ]
+  },
+  {
+    "sha256": "b6efd6cf0d1dab2fc3e8c96290f1d895231184e42d645d08e44919bdf3100528",
+    "assetId": "AST-B6EFD6CF0D1DAB2F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blue.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/BlueSquadronPilot.png"
+    ]
+  },
+  {
+    "sha256": "b84e43fe0561d82169fad88a5c2bac6a115c81b182a73e3b692be50923073d7f",
+    "assetId": "AST-B84E43FE0561D821",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/objectives/shield-generator-image.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Shield Generator.jpg"
+    ]
+  },
+  {
+    "sha256": "bdb6d9b010a7e3a2f98f1acd868a56d1b07b2b275cd0414e886e2dca3b96055d",
+    "assetId": "AST-BDB6D9B010A7E3A2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/plain.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/PrimedBwing.png"
+    ]
+  },
+  {
+    "sha256": "bf27bde91906aae737a80c55caa13af29f65227d7ac2ab2a4d05450330d78702",
+    "assetId": "AST-BF27BDE91906AAE7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/container-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/Container.jpg"
+    ]
+  },
+  {
+    "sha256": "c19e9913622084df82a8b21db8a63007930329889dd0a67e621f325bd3af3470",
+    "assetId": "AST-C19E9913622084DF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/hera.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/HeraSyndulla.png"
+    ]
+  },
+  {
+    "sha256": "c4a84753d3d28ceead49e336112ee8d159cf78776df9529b11a2a2b07af578c9",
+    "assetId": "AST-C4A84753D3D28CEE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/refueling-station-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/HotAC board 5.jpg"
+    ]
+  },
+  {
+    "sha256": "c4eeb04087cfe25dd9dd16bbdd370093e8a9ccf8d8c3d87b6b79f5967e387f51",
+    "assetId": "AST-C4EEB04087CFE25D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/plain.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/plain.jpg"
+    ]
+  },
+  {
+    "sha256": "c77a2b1e32b40a71d6546f2fb2f9a68bf25c4bd2ea9b80aec792874a4f160288",
+    "assetId": "AST-C77A2B1E32B40A71",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/terrain/cloud-4-texture.jpg",
+      "assets/source/unified25/assets/HotAC/Tokens/HotAC board 1.jpg"
+    ]
+  },
+  {
+    "sha256": "cd0c1ccaf02a3af5fe4740a25a1cceb610866afa414d7316c5560b18b6b8c27f",
+    "assetId": "AST-CD0C1CCAF02A3AF5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/cavernangels.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/cavernangels.jpg"
+    ]
+  },
+  {
+    "sha256": "cd9c83b61307b9fd53ad5ef21ecdd6eb45ddb59b7f2a111e5b8b026e6603aa09",
+    "assetId": "AST-CD9C83B61307B9FD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.png",
+      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.png"
+    ]
+  },
+  {
+    "sha256": "d237eeb08da09fa2df4d4b8a6102c9b60d6a468fe8b04cf3e10f5e0d109736b1",
+    "assetId": "AST-D237EEB08DA09FA2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/FO/TIEba/vonreg.png",
+      "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/Major Vonreg.png"
+    ]
+  },
+  {
+    "sha256": "d2ad050cc3c520b4a56baa67ddffec017b985ee1346568d6780db96e70d0c510",
+    "assetId": "AST-D2AD050CC3C520B4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/gina.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/GinaMoonsong.png"
+    ]
+  },
+  {
+    "sha256": "d4d926936e785b505f81b59ba77fd050a4b06c5d2f9f0aed28709d25168c1b88",
+    "assetId": "AST-D4D926936E785B50",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/yellow.jpg",
+      "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/yellow.jpg"
+    ]
+  },
+  {
+    "sha256": "d6c7a1148a215c3b8550c67bd12bd31d18c8aded9677eaff64a21ade5c3e1ad1",
+    "assetId": "AST-D6C7A1148A215C3B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v2/KetsuOnyo.jpg",
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v3/KetsuOnyo.jpg"
+    ]
+  },
+  {
+    "sha256": "d721ec1c4a47b044fec47a1d18f2e61ae7a2cfc36ba1f3d98d90a9b2326462e2",
+    "assetId": "AST-D721EC1C4A47B044",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Tie Aggressor.obj",
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/tieagaggressor.obj"
+    ]
+  },
+  {
+    "sha256": "d8a53391706e9e369687c85f136f81182bffb3007cb1a78354f83f7c81a5b249",
+    "assetId": "AST-D8A53391706E9E36",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopen.obj",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv1.obj"
+    ]
+  },
+  {
+    "sha256": "d8eb2cdf8ac5cdc97ba644b4b24575e30ca6492eccbf3e407f8e30dbb25f8d63",
+    "assetId": "AST-D8EB2CDF8AC5CDC9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/seismic.png",
+      "assets/source/unified25/assets/textures/bombs/seismic-charge-texture.png"
+    ]
+  },
+  {
+    "sha256": "db31ed4eeb43631006cf4a8db81d7150ebb2a7dd69c4234fbc5686e3282173b0",
+    "assetId": "AST-DB31ED4EEB436310",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/braylen.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/BraylenStramm.png"
+    ]
+  },
+  {
+    "sha256": "db3b3d857d9bbff236f1a0ff531e4dab7996d5ace699bef6d469010663dddff9",
+    "assetId": "AST-DB3B3D857D9BBFF2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/textures/cardback/Relay.jpg",
+      "assets/source/unified25/assets/textures/cardback/Tech.jpg"
+    ]
+  },
+  {
+    "sha256": "db3f527c672503d87ba6f03e6614774c24083ef71604427c3734499cbf1befae",
+    "assetId": "AST-DB3F527C672503D8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/Items/tokens/devices/buzz-droid-swarm-collider.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/buzz.obj"
+    ]
+  },
+  {
+    "sha256": "e49e5187828874466466f45ec0682ad11c2b28c5b9475c927b849d9087d16e16",
+    "assetId": "AST-E49E518782887446",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.png",
+      "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
+    ]
+  },
+  {
+    "sha256": "e64d1953ee1440a23d09e9fb6cfa549f91eb2055c11dbc1f4724c7d0a328cfe8",
+    "assetId": "AST-E64D1953EE1440A2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v2/ShadowportHunter.jpg",
+      "assets/source/unified25/assets/ships/Large/SCU_lancer/v3/ShadowportHunter.jpg"
+    ]
+  },
+  {
+    "sha256": "e921cdf22b1d4d6ba4f0af91824b80637f2f4a16b8bf18e8aaca51508f09958d",
+    "assetId": "AST-E921CDF22B1D4D6B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/blue.jpg",
+      "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/blue.jpg"
+    ]
+  },
+  {
+    "sha256": "f23659258f86b102656945dccd28309e2eaf8cffb6f2b820d0ba379af2014ce1",
+    "assetId": "AST-F23659258F86B102",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/FO/TIEba/provocateur.png",
+      "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/First Order Provocateur.png"
+    ]
+  },
+  {
+    "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
+    "assetId": "AST-F5CFE5650F917DC4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-grey.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorgrey.jpg"
+    ]
+  },
+  {
+    "sha256": "f998823017010fc6626f7de4d03d6d3997904677d1ab4a1fbd6759c0abf9feaa",
+    "assetId": "AST-F998823017010FC6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunishergrey.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabombergrey.jpg"
+    ]
+  },
+  {
+    "sha256": "fa890c024cb89d43dce9b968d97af1e04b6f34c84f347bd0f32cba5bb3e03c6b",
+    "assetId": "AST-FA890C024CB89D43",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/REB_VCX100/Chopper.jpg",
+      "assets/source/unified25/assets/ships/Small/REB_attackshuttle/SabineWren.jpg"
+    ]
+  },
+  {
+    "sha256": "fb7e7ac4202f696ab6c2d9e4362cab0aa6d940c540f4a855824b67b3e0553c93",
+    "assetId": "AST-FB7E7AC4202F696A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/dial/actions/barrell-image.png",
+      "assets/source/unified25/assets/dial/actions/broll/brollLeft.png"
+    ]
+  },
+  {
+    "sha256": "fd9c8003b3666b87b12d07c543e9c10db8e2323d20928b9d0d9a46245060e667",
+    "assetId": "AST-FD9C8003B3666B87",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships/Large/REB_VCX100/KananJarrus.jpg",
+      "assets/source/unified25/assets/ships/Small/REB_attackshuttle/EzraBridger.jpg"
+    ]
+  }
+]
