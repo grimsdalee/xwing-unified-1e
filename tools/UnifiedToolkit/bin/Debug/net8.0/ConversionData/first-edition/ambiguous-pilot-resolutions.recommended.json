@@ -1,0 +1,68 @@
+[
+  {
+    "sourceId": "bobafett-firesprayclasspatrolcraft",
+    "decision": "Disposition",
+    "selectedTargetId": "",
+    "disposition": "NotInOfficialDataset",
+    "reason": "The Separatist Alliance Boba Fett source pilot has no official First Edition pilot card and must not be mapped to the Imperial or Scum First Edition versions.",
+    "candidates": []
+  },
+  {
+    "sourceId": "poedameron",
+    "decision": "Map",
+    "selectedTargetId": "poedameron",
+    "disposition": null,
+    "reason": "This source record resolves to the original First Edition Poe Dameron card with pilot skill 8 and squad point cost 31.",
+    "candidates": [
+      {
+        "id": "poedameron",
+        "name": "Poe Dameron",
+        "shipId": "t70xwing",
+        "faction": "resistance",
+        "pilotSkill": 8,
+        "squadPointCost": 31,
+        "unique": true,
+        "upgradeSlots": ["elite", "torpedo", "astromech", "tech"]
+      },
+      {
+        "id": "poedameron-swx57",
+        "name": "Poe Dameron",
+        "shipId": "t70xwing",
+        "faction": "resistance",
+        "pilotSkill": 9,
+        "squadPointCost": 33,
+        "unique": true,
+        "upgradeSlots": ["elite", "astromech", "tech", "torpedo"]
+      }
+    ]
+  },
+  {
+    "sourceId": "poedameron-swz68",
+    "decision": "Map",
+    "selectedTargetId": "poedameron-swx57",
+    "disposition": null,
+    "reason": "The SWZ68 source record resolves to the later First Edition Poe Dameron card with pilot skill 9 and squad point cost 33.",
+    "candidates": [
+      {
+        "id": "poedameron",
+        "name": "Poe Dameron",
+        "shipId": "t70xwing",
+        "faction": "resistance",
+        "pilotSkill": 8,
+        "squadPointCost": 31,
+        "unique": true,
+        "upgradeSlots": ["elite", "torpedo", "astromech", "tech"]
+      },
+      {
+        "id": "poedameron-swx57",
+        "name": "Poe Dameron",
+        "shipId": "t70xwing",
+        "faction": "resistance",
+        "pilotSkill": 9,
+        "squadPointCost": 33,
+        "unique": true,
+        "upgradeSlots": ["elite", "astromech", "tech", "torpedo"]
+      }
+    ]
+  }
+]
