@@ -9,8 +9,8 @@ Thumbs.db
 *_extract/
 *_reports/
 # .NET
-**/bin/
-**/obj/
+# **/bin/
+# **/obj/
 .vs/
 *.user
 *.suo
