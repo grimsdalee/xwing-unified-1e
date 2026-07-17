@@ -1,23 +1,47 @@
-# Roadmap
+# Project Roadmap
 
-## Phase 1 – Project foundation
-- [ ] Import current Unified 2.0/2.5 Workshop source for analysis
-- [ ] Document Global script startup flow
-- [ ] Document data loading
-- [ ] Document ship spawning
-- [ ] Document model database
+## Phase 1 --- Repository Analysis ✅
 
-## Phase 2 – Proof of concept vertical slice
-- [ ] Add 1E Rebel faction data
-- [ ] Add T-65 X-Wing chassis
-- [ ] Add Luke Skywalker 1E pilot
-- [ ] Add one 1E X-Wing dial
-- [ ] Spawn a complete 1E Luke miniature
+-   Analyse Unified repository
+-   Analyse legacy First Edition module
+-   Build semantic parser infrastructure
 
-## Phase 3 – Core Set
-- [ ] X-Wing
-- [ ] TIE Fighter
-- [ ] 1E damage deck
-- [ ] 1E dice
-- [ ] 1E tokens
-- [ ] Movement templates/range rulers
+## Phase 2 --- Semantic Repository ✅
+
+-   Ships
+-   Pilots
+-   Upgrades
+-   Validation
+
+## Phase 3 --- First Edition Conversion ✅
+
+-   Canonical mappings
+-   Base-size conversion
+-   First Edition semantic repository
+
+## Phase 4 --- Hybrid Generation 🟨
+
+-   Hybrid ship definitions
+-   Legacy asset catalogue
+-   Spawner reverse engineering
+
+## Phase 5 --- Object Builder
+
+Generate complete playable TTS ship objects.
+
+## Phase 6 --- Complete Save Builder
+
+Generate a complete Tabletop Simulator workshop save.
+
+## Phase 7 --- Rules Conversion
+
+Replace or remove 2.5-specific gameplay while preserving reusable engine
+behaviour.
+
+## Phase 8 --- Validation & Testing
+
+Full First Edition gameplay validation and regression testing.
+
+## Phase 9 --- Workshop Release
+
+Publish the generated First Edition Workshop module.
