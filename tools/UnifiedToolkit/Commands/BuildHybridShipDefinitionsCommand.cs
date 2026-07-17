@@ -22,8 +22,8 @@ public static class BuildHybridShipDefinitionsCommand
             var mappingFolder = ResolveMappingFolder(args.Skip(3).ToArray());
             var outputFolder = ResolveOutputFolder(args, Path.Combine(repositoryFolder, "_unifiedtoolkit_reports", "hybrid"));
 
-            Console.WriteLine("UnifiedToolkit Phase 4B Revision 2 - Normalized Spawner Lua Analysis");
-            Console.WriteLine("===================================================================");
+            Console.WriteLine("UnifiedToolkit Phase 4B Revision 3 - Concrete Ship Construction Recipe");
+            Console.WriteLine("======================================================================");
             Console.WriteLine();
             Console.WriteLine($"Semantic repository: {repositoryFolder}");
             Console.WriteLine($"Unified 2.5 save:    {unifiedSave}");
@@ -36,6 +36,7 @@ public static class BuildHybridShipDefinitionsCommand
             FirstEditionBaseDefinitionCatalogue.ValidateNoMedium(FirstEditionBaseDefinitionCatalogue.Definitions, baseConversions);
             var frameworks = SpawnerFrameworkAnalyser.Analyse(unifiedSave);
             var spawnerLua = SpawnerLuaAnalyser.Analyse(unifiedSave);
+            var shipRecipe = ShipSpawnerRecipeExtractor.Analyse(unifiedSave);
             var legacy = LegacyShipAssetCatalogueBuilder.Build(legacySave, semanticBuild.Repository);
             var document = HybridShipDefinitionBuilder.Build(semanticBuild.Repository, semanticBuild.MappingVersion, frameworks, legacy, baseConversions, unifiedSave, legacySave);
 
@@ -53,6 +54,14 @@ public static class BuildHybridShipDefinitionsCommand
             WriteJson(Path.Combine(outputFolder, "ship-construction-pipeline.json"), spawnerLua.ConstructionPipeline);
             WriteJson(Path.Combine(outputFolder, "first-edition-spawner-definitions.json"), spawnerLua.FirstEditionDefinitions);
             WriteJson(Path.Combine(outputFolder, "spawner-lua-analysis.json"), spawnerLua);
+            WriteJson(Path.Combine(outputFolder, "ship-spawner-module.json"), shipRecipe.Functions);
+            WriteJson(Path.Combine(outputFolder, "ship-spawner-call-graph.json"), shipRecipe.CallGraph);
+            WriteJson(Path.Combine(outputFolder, "ship-base-prototype-selection.json"), shipRecipe.BasePrototype);
+            WriteJson(Path.Combine(outputFolder, "ship-model-attachment-recipe.json"), shipRecipe.ModelAttachment);
+            WriteJson(Path.Combine(outputFolder, "ship-config-attachment-recipe.json"), shipRecipe.ConfigAttachment);
+            WriteJson(Path.Combine(outputFolder, "spawner-indirect-guid-references.json"), shipRecipe.IndirectObjectReferences);
+            WriteJson(Path.Combine(outputFolder, "first-edition-ship-construction-recipes.json"), shipRecipe.FirstEditionRecipes);
+            WriteJson(Path.Combine(outputFolder, "ship-spawner-recipe-analysis.json"), shipRecipe);
             WriteJson(Path.Combine(outputFolder, "legacy-ship-family-catalogue.json"), legacy.ShipFamilies);
             WriteJson(Path.Combine(outputFolder, "legacy-model-object-catalogue.json"), legacy.ModelObjects);
             WriteJson(Path.Combine(outputFolder, "legacy-dial-catalogue.json"), legacy.Dials);
@@ -79,6 +88,12 @@ public static class BuildHybridShipDefinitionsCommand
             Console.WriteLine($"Referenced object GUIDs:    {spawnerLua.Summary.ReferencedGuidCount}");
             Console.WriteLine($"Resolved object GUIDs:      {spawnerLua.Summary.ResolvedGuidCount}");
             Console.WriteLine($"1E spawner definitions:     {spawnerLua.FirstEditionDefinitions.Count}");
+            Console.WriteLine($"Focused spawner functions:  {shipRecipe.Summary.FocusedFunctionCount}");
+            Console.WriteLine($"Spawner call-graph edges:   {shipRecipe.Summary.CallGraphEdgeCount}");
+            Console.WriteLine($"Indirect GUID references:   {shipRecipe.Summary.IndirectReferenceCount}");
+            Console.WriteLine($"Resolved indirect GUIDs:    {shipRecipe.Summary.ResolvedIndirectReferenceCount}");
+            Console.WriteLine($"Composite base resolved:    {shipRecipe.Summary.CompositeBaseResolved}");
+            Console.WriteLine($"1E construction recipes:    {shipRecipe.Summary.FirstEditionRecipeCount}");
             Console.WriteLine($"Framework candidates:      {document.Summary.FrameworkTemplateCount}");
             Console.WriteLine($"Legacy model objects:      {document.Summary.LegacyModelObjectCount}");
             Console.WriteLine($"Legacy ship families:      {document.Summary.LegacyShipFamilyCount}");
@@ -94,7 +109,7 @@ public static class BuildHybridShipDefinitionsCommand
             Console.WriteLine();
             Console.WriteLine($"Output folder: {outputFolder}");
             Console.WriteLine();
-            Console.WriteLine("Global Lua is normalized, decoded and analysed as the source spawning recipe. First Edition output exposes only Small, Large and Epic spawner definitions; Medium is rejected.");
+            Console.WriteLine("The concrete clone/spawn/attachment recipe is extracted from Game.Component.Spawner.Spawner. First Edition construction recipes expose only Small, Large and Epic; Medium is rejected.");
             return 0;
         }
         catch (Exception ex)
