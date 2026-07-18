@@ -58,6 +58,7 @@ return command switch
     "ingest-runtime-prototype-assets" => IngestRuntimePrototypeAssetsCommand.Run(commandArgs),
     "catalogue-repository-assets" => CatalogueRepositoryAssetsCommand.Run(commandArgs),
     "import-unified-assets" => ImportUnifiedAssetsCommand.Run(commandArgs),
+    "import-legacy-first-edition-assets" => ImportLegacyFirstEditionAssetsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -113,6 +114,7 @@ static void ShowHelp()
     Console.WriteLine("  ingest-runtime-prototype-assets <runtime-ship-prototype.json> <unified-repo-folder> <first-edition-repo-folder> [--public-base-url <url>] [--download-external] [--output <folder>]");
     Console.WriteLine("  catalogue-repository-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-unified-assets <unified-repo-folder> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
+    Console.WriteLine("  import-legacy-first-edition-assets <legacy-save.json> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

@@ -62,6 +62,36 @@
     ]
   },
   {
+    "sha256": "323c8115fe799e83f3511c80d964fec3ea4f8b154fbc36aaba9298161a0059b7",
+    "assetId": "AST-323C8115FE799E83",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__27b73a65c22a346f.bin",
+      "assets/source/unified25/assets/Items/tokens/devices/AllBombs.obj",
+      "assets/source/unified25/assets/models/bombbag.obj"
+    ]
+  },
+  {
+    "sha256": "3341435d0abe20773319baf31d1cb537d45ec79163022d07e4e47782a4afbf93",
+    "assetId": "AST-3341435D0ABE2077",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__65c300560f7db7af.jpg",
+      "assets/source/unified25/assets/Items/GreenDiceInfinite.jpg",
+      "assets/source/unified25/assets/textures/Dice/Defence Dice/Base Green/GreenDiceInfinite.jpg"
+    ]
+  },
+  {
+    "sha256": "69b4597d9d8f6a5894a712ff288a60834b3a2b9d9e5727633fdfc7b0b301e3a0",
+    "assetId": "AST-69B4597D9D8F6A58",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__dbe711df5b524559.jpg",
+      "assets/source/unified25/assets/Items/RedDiceInfinite.jpg",
+      "assets/source/unified25/assets/textures/Dice/Attack Dice/Base Red/RedDiceInfinite.jpg"
+    ]
+  },
+  {
     "sha256": "021e7f70b605edf5814403ba2b6fbc057e5d0fa3bf3df1639df53e6d8197e46c",
     "assetId": "AST-021E7F70B605EDF5",
     "fileCount": 2,
@@ -98,6 +128,42 @@
     ]
   },
   {
+    "sha256": "081ef67bf273e54c545be409869c45c5de7df27098a5de59f058123f1a265b48",
+    "assetId": "AST-081EF67BF273E54C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8b523348429a41aa.bin",
+      "assets/source/unified25/assets/Items/asteroids/TFA2.obj"
+    ]
+  },
+  {
+    "sha256": "0841698b83ae65b4bf810c86395c882d8dcab38bc4f60d91122f2451da8cbd20",
+    "assetId": "AST-0841698B83AE65B4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.bin",
+      "assets/source/unified25/assets/Items/InfiniteDice.obj"
+    ]
+  },
+  {
+    "sha256": "08bd44a295674c9269ad8e9eda173de27342b9ad040704f9efc79b69b9b87b65",
+    "assetId": "AST-08BD44A295674C92",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c3486d33bc1d65e8.png",
+      "assets/source/unified25/assets/Items/tokens/new/starviper-mkii-roll-token-texture.png"
+    ]
+  },
+  {
+    "sha256": "0aba8db5184100c0053afa735e68fa70b8a448a38443d0f3b08ff76ed6d9882f",
+    "assetId": "AST-0ABA8DB5184100C0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__15bd7b2c535853ff.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris6.png"
+    ]
+  },
+  {
     "sha256": "0c1fa1d7a1cb215a2819507631406220e89259a7013a3cbf80771a9b6a46e028",
     "assetId": "AST-0C1FA1D7A1CB215A",
     "fileCount": 2,
@@ -116,6 +182,24 @@
     ]
   },
   {
+    "sha256": "0d0e0a9b8de1e59e5d8a5c971642b1f80a3f17c4c2489809cd8e84d647cebee0",
+    "assetId": "AST-0D0E0A9B8DE1E59E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__73729d7f24d3dd78.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core6.jpg"
+    ]
+  },
+  {
+    "sha256": "10f78048c52387fd0e010b71140f469d66953873a698f84f129325e0f83d2b87",
+    "assetId": "AST-10F78048C52387FD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__97fa98cfc3880bf8.bin",
+      "assets/source/unified25/assets/Items/asteroids/TFA4.obj"
+    ]
+  },
+  {
     "sha256": "16146793f8bd92c9bfda26f7e0fc32f877b22c10e09d744cedc92c949abfb41c",
     "assetId": "AST-16146793F8BD92C9",
     "fileCount": 2,
@@ -125,12 +209,39 @@
     ]
   },
   {
+    "sha256": "18dec3c56dc74a263b952d33a26f99d434faa565a5c439c57120c52f3fe5b7f4",
+    "assetId": "AST-18DEC3C56DC74A26",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7705795107b261ed.png",
+      "assets/source/unified25/assets/textures/Mats/standard-13-tatooine-crater-field.png"
+    ]
+  },
+  {
     "sha256": "1c947ab7123da10a8852a1e8adb4ac30b65b9cc141835291d8fe2980b648cb4d",
     "assetId": "AST-1C947AB7123DA10A",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/spare-parts-model.obj",
       "assets/source/unified25/assets/Items/tokens/devices/spare.obj"
+    ]
+  },
+  {
+    "sha256": "1e81d9b850dd8a6994c63af5c8b38090b0a9f9ee482b864a3a1417451a0f8bdb",
+    "assetId": "AST-1E81D9B850DD8A69",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__983c897eca79de3c.png",
+      "assets/source/unified25/assets/textures/bombs/clustermine-side.png"
+    ]
+  },
+  {
+    "sha256": "229a650bcb93bb1b3993d9a662b99f8ac42721b27738d31af810d0a8e9ffd8e5",
+    "assetId": "AST-229A650BCB93BB1B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__317fedfe8dd819bf.jpg",
+      "assets/source/unified25/assets/Items/rulers/range15.jpg"
     ]
   },
   {
@@ -188,6 +299,24 @@
     ]
   },
   {
+    "sha256": "2a45e79b701a798542ea695fbc52e13d39f0667c34e4fb8258f723732c2cc11d",
+    "assetId": "AST-2A45E79B701A7985",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0b6b2e2e3add6b88.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core3.jpg"
+    ]
+  },
+  {
+    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
+    "assetId": "AST-2BD547B6DB7A1983",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.bin",
+      "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
+    ]
+  },
+  {
     "sha256": "2c85c25092cd81e069de3b2f609f1eee150f7fb4e8a334fd0accdad675465a4b",
     "assetId": "AST-2C85C25092CD81E0",
     "fileCount": 2,
@@ -233,15 +362,6 @@
     ]
   },
   {
-    "sha256": "323c8115fe799e83f3511c80d964fec3ea4f8b154fbc36aaba9298161a0059b7",
-    "assetId": "AST-323C8115FE799E83",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/Items/tokens/devices/AllBombs.obj",
-      "assets/source/unified25/assets/models/bombbag.obj"
-    ]
-  },
-  {
     "sha256": "32d7bcb2b11776dcce6d9c05f137cfe9ffde0a32d13ad9b0ea27ba344d11641c",
     "assetId": "AST-32D7BCB2B11776DC",
     "fileCount": 2,
@@ -251,12 +371,30 @@
     ]
   },
   {
-    "sha256": "3341435d0abe20773319baf31d1cb537d45ec79163022d07e4e47782a4afbf93",
-    "assetId": "AST-3341435D0ABE2077",
+    "sha256": "36c2229858e72347952612f398ca35c9b13f5211181e0e098b2b682b06837e13",
+    "assetId": "AST-36C2229858E72347",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/Items/GreenDiceInfinite.jpg",
-      "assets/source/unified25/assets/textures/Dice/Defence Dice/Base Green/GreenDiceInfinite.jpg"
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c4456e050067348b.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris2.png"
+    ]
+  },
+  {
+    "sha256": "37de44820a09e1df84251b1a814ce28f6be96e6f4003c57ab6a00a63125cc4f7",
+    "assetId": "AST-37DE44820A09E1DF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core3.obj"
+    ]
+  },
+  {
+    "sha256": "3acbcc5c4a92a2cc7520ed6e25bcf77a1fa754a1e0ac931bd2bb7334d3ba59e8",
+    "assetId": "AST-3ACBCC5C4A92A2CC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0e48b58d18feefe6.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core4.jpg"
     ]
   },
   {
@@ -275,6 +413,24 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/dark.jpg",
       "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/dark.jpg"
+    ]
+  },
+  {
+    "sha256": "3d7fe41267c15eca24262b8da41cdf526b95173c170957ca3a10208692af68f5",
+    "assetId": "AST-3D7FE41267C15ECA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__57b9a4e04b1c898d.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core5.jpg"
+    ]
+  },
+  {
+    "sha256": "4074ec53bd044a3d3a5ae0c4fee62ac8a862b632d433047dadfd5bef97d02a29",
+    "assetId": "AST-4074EC53BD044A3D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core2.obj"
     ]
   },
   {
@@ -323,6 +479,15 @@
     ]
   },
   {
+    "sha256": "48da391e081368ff179635c090f12299f4b4604681f93714b43757e5ee220831",
+    "assetId": "AST-48DA391E081368FF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8284ad32f92e5f5.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core4.obj"
+    ]
+  },
+  {
     "sha256": "48ed3506af6ea154b58dcb3ad195e0a35fe4f18571b71801239b08ae08c0295d",
     "assetId": "AST-48ED3506AF6EA154",
     "fileCount": 2,
@@ -368,12 +533,39 @@
     ]
   },
   {
+    "sha256": "4ccb1e227fc07001107b5736c65ca45e0e52b10a7fbe2f6805928b11aebf9cf1",
+    "assetId": "AST-4CCB1E227FC07001",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__71a83ffc7ffc796b.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-01-death-star-over-endor.jpg"
+    ]
+  },
+  {
     "sha256": "4e61a2c7a672dfefbe93e19ef7f0e98d97e7c8d483936da3420c47da686ad33f",
     "assetId": "AST-4E61A2C7A672DFEF",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
       "assets/source/unified25/assets/ships-v2/bases/pegs/medium.obj"
+    ]
+  },
+  {
+    "sha256": "4e759ef700615e29b81e3e5380b45de3836693eb403cdb19ebe32a2fba115df1",
+    "assetId": "AST-4E759EF700615E29",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__90d598feb95ec867.png",
+      "assets/source/unified25/assets/textures/Mats/standard-11-mustafar.png"
+    ]
+  },
+  {
+    "sha256": "4fcb1830470c592516074ec36573201b276859d8d8e6ff6cdd321046dd2f2c65",
+    "assetId": "AST-4FCB1830470C5925",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f099979e4423a0a0.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-17-death-star-surface-blueprint.jpg"
     ]
   },
   {
@@ -431,6 +623,33 @@
     ]
   },
   {
+    "sha256": "5a5b9e98ee159f32cff2e510c29dd37e6dd9d7ab0a6ea1971d35d426d36c6400",
+    "assetId": "AST-5A5B9E98EE159F32",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5673cf7eeae9265d.bin",
+      "assets/source/unified25/assets/Items/asteroids/TFA1.obj"
+    ]
+  },
+  {
+    "sha256": "5bd0ae761300333b28d9390771c30c5e129ab846568faef6693cfd2ddfe0f3f2",
+    "assetId": "AST-5BD0AE761300333B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c254fa36ac142d7b.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-18-orion-nebula.jpg"
+    ]
+  },
+  {
+    "sha256": "5eab0926ce0986247b6307233959cbddf0a5e0785f59653124ae6fcfaea080a2",
+    "assetId": "AST-5EAB0926CE098624",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__40bb6b0e4fcbace7.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core5.obj"
+    ]
+  },
+  {
     "sha256": "5f7231670e234112e852364a88838ab4c8f9241af5437d21510836dc57a4d749",
     "assetId": "AST-5F7231670E234112",
     "fileCount": 2,
@@ -458,6 +677,24 @@
     ]
   },
   {
+    "sha256": "67a20991514f6a34b622540d6c3214ae228cc3fd2dede77d652a6d2d81800927",
+    "assetId": "AST-67A20991514F6A34",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3924f76bf97e61b4.bin",
+      "assets/source/unified25/assets/Items/rulers/range13.obj"
+    ]
+  },
+  {
+    "sha256": "68add296de4b025d055343668507da4caacc93ccd63ecef765dc4c58000142c9",
+    "assetId": "AST-68ADD296DE4B025D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__44733486bff26c5b.png",
+      "assets/source/unified25/assets/textures/Mats/standard-09-coruscant-night-side.png"
+    ]
+  },
+  {
     "sha256": "68b9014c8562de1c92abf829e0aba63a11cfb98d70c6c506e3be9cc1a430f56a",
     "assetId": "AST-68B9014C8562DE1C",
     "fileCount": 2,
@@ -467,12 +704,21 @@
     ]
   },
   {
-    "sha256": "69b4597d9d8f6a5894a712ff288a60834b3a2b9d9e5727633fdfc7b0b301e3a0",
-    "assetId": "AST-69B4597D9D8F6A58",
+    "sha256": "6a9905fccea7fe8f898bf79e29135392ffa9039c244d6d5dca060de81344cd14",
+    "assetId": "AST-6A9905FCCEA7FE8F",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/Items/RedDiceInfinite.jpg",
-      "assets/source/unified25/assets/textures/Dice/Attack Dice/Base Red/RedDiceInfinite.jpg"
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__25d3a48f0457d43b.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-15-death-star-surface.jpg"
+    ]
+  },
+  {
+    "sha256": "6e29570e41eb340891c3793492f16406564879e1a151bc20c621a5242e58ddfa",
+    "assetId": "AST-6E29570E41EB3408",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1f891fb46a2ff5a6.png",
+      "assets/source/unified25/assets/textures/Mats/standard-14-purple-star-nebula.png"
     ]
   },
   {
@@ -539,6 +785,15 @@
     ]
   },
   {
+    "sha256": "80787d40153eca0a41c64de09eb1b8ce04a22238ce6ba2ee72bf7a1a60ce5a8d",
+    "assetId": "AST-80787D40153ECA0A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__12a8eaf79e27011d.png",
+      "assets/source/unified25/assets/textures/Mats/standard-12-scarif-shield-gate.png"
+    ]
+  },
+  {
     "sha256": "8208299b7cf130c6767de9fa507be67cd871aa33f4fd955a29623032cecd3cb0",
     "assetId": "AST-8208299B7CF130C6",
     "fileCount": 2,
@@ -602,6 +857,24 @@
     ]
   },
   {
+    "sha256": "9789dbf8d1a855db9b47ed98ab6794ca6d0738fd7f35b998d6b06bacd451c3ea",
+    "assetId": "AST-9789DBF8D1A855DB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__009682763b295f9f.jpg",
+      "assets/source/unified25/assets/Items/rulers/range.jpg"
+    ]
+  },
+  {
+    "sha256": "9955143e9eb7b4bc25ed3b7579996d0508801fd14fc6f441cf4be923f4959435",
+    "assetId": "AST-9955143E9EB7B4BC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3276a9741ef148b6.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris5.png"
+    ]
+  },
+  {
     "sha256": "99e5cd9937cdcdbe5f4dff541510b4e2edb8cd6e3efdcbc8aa8b434a6421fad6",
     "assetId": "AST-99E5CD9937CDCDBE",
     "fileCount": 2,
@@ -620,6 +893,24 @@
     ]
   },
   {
+    "sha256": "9c4956ce67aa4c6735a18bee157d35f0326b0309e1772942b25e47f6830505ca",
+    "assetId": "AST-9C4956CE67AA4C67",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__357e5d4ff0f03fff.png",
+      "assets/source/unified25/assets/textures/Mats/standard-10-blue-planet-satellite.png"
+    ]
+  },
+  {
+    "sha256": "9c543b2904a7fc0e966bfc84f60d239eb70955e555bbc6f7f0b1c5647795af43",
+    "assetId": "AST-9C543B2904A7FC0E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c79936ab98924aa9.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-06-bespin-sunrise.jpg"
+    ]
+  },
+  {
     "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
     "assetId": "AST-A15AA5C810C9A434",
     "fileCount": 2,
@@ -635,6 +926,33 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/proton.png",
       "assets/source/unified25/assets/textures/bombs/proton-bomb-texture.png"
+    ]
+  },
+  {
+    "sha256": "a46b536c1fef6036cb1732dd6a35e869a7f4c97447d1fba605af191f06221911",
+    "assetId": "AST-A46B536C1FEF6036",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7ef5d24af5405a4d.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core1.jpg"
+    ]
+  },
+  {
+    "sha256": "a544983cfd96a820f492968e4ab8c0cf8deb0bfde0b5f9544d75e151f71e9213",
+    "assetId": "AST-A544983CFD96A820",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d0db538fc3bbb1a.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-08-jakku-destroyed-ships.jpg"
+    ]
+  },
+  {
+    "sha256": "a5b457b113129fdcdc8c45d8e72f91db3f2dbe788772ea83bd53ab4e25e97a59",
+    "assetId": "AST-A5B457B113129FDC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0faaf3a5d678ed2c.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-16-death-star-red-moon.jpg"
     ]
   },
   {
@@ -662,6 +980,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blade.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/BladeSquadronVeteran.png"
+    ]
+  },
+  {
+    "sha256": "a97e2c5c8d54ce359c298a5969f00614eb8677f26e472681babe1fa33d7f6233",
+    "assetId": "AST-A97E2C5C8D54CE35",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.bin",
+      "assets/source/unified25/assets/models/trayextension.obj"
     ]
   },
   {
@@ -701,6 +1028,33 @@
     ]
   },
   {
+    "sha256": "ad7f55ee04d9d9c9ace4fa7ca2e99d5701b3fd6fb51cb7d27534844d2595202f",
+    "assetId": "AST-AD7F55EE04D9D9C9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__26cc9ba3786f842f.bin",
+      "assets/source/unified25/assets/models/d8.obj"
+    ]
+  },
+  {
+    "sha256": "afbbd14d2b1a254089fa49d17ee3627615edf4d1d8ef556ff45e42a3fa630b52",
+    "assetId": "AST-AFBBD14D2B1A2540",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__68f617eaf066b0c2.bin",
+      "assets/source/unified25/assets/Items/asteroids/TFA6.obj"
+    ]
+  },
+  {
+    "sha256": "b03906281caa2dee29a7794dfa1e6a140bc942a14eb6664df8313e02f5a1b3be",
+    "assetId": "AST-B03906281CAA2DEE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6cbabeab3f5fb79e.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core6.obj"
+    ]
+  },
+  {
     "sha256": "b1d0811f8d4a71e5b24195422cf78025ff5d7ccc7b7c2a56098d4cb0b34d434e",
     "assetId": "AST-B1D0811F8D4A71E5",
     "fileCount": 2,
@@ -725,6 +1079,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/condition/tokens/listening-device-texture.png",
       "assets/source/unified25/assets/Items/condition/tokens/listeningdevice.png"
+    ]
+  },
+  {
+    "sha256": "b6912a2cee9ab6e2545d77429099a13c9acd37a7f194c2c010c9986eae1a3e8c",
+    "assetId": "AST-B6912A2CEE9AB6E2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fe777b0b5b4a86a8.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris4.png"
     ]
   },
   {
@@ -764,6 +1127,24 @@
     ]
   },
   {
+    "sha256": "c072e6978d51235a4c154893a4ac735cda491d7061aaad0b7a2bb731d9250970",
+    "assetId": "AST-C072E6978D51235A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__470ecfe56b9f116c.bin",
+      "assets/source/unified25/assets/Items/asteroids/Core1.obj"
+    ]
+  },
+  {
+    "sha256": "c13beadaea1bb2294f5cf2f062228aa599589a000b726bbdfcd8f321d5d37d99",
+    "assetId": "AST-C13BEADAEA1BB229",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6465c81d6d3d3750.png",
+      "assets/source/unified25/assets/textures/Mats/standard-19-blue-starfield-planets.png"
+    ]
+  },
+  {
     "sha256": "c19e9913622084df82a8b21db8a63007930329889dd0a67e621f325bd3af3470",
     "assetId": "AST-C19E9913622084DF",
     "fileCount": 2,
@@ -791,12 +1172,30 @@
     ]
   },
   {
+    "sha256": "c4f4141b67fa1f8372e2fcc239184da2f14553ee4f7974f91a26c2654f730b04",
+    "assetId": "AST-C4F4141B67FA1F83",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6a4cef9beaae4da6.jpg",
+      "assets/source/unified25/assets/Items/asteroids/Core2.jpg"
+    ]
+  },
+  {
     "sha256": "c77a2b1e32b40a71d6546f2fb2f9a68bf25c4bd2ea9b80aec792874a4f160288",
     "assetId": "AST-C77A2B1E32B40A71",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/HotAC/terrain/cloud-4-texture.jpg",
       "assets/source/unified25/assets/HotAC/Tokens/HotAC board 1.jpg"
+    ]
+  },
+  {
+    "sha256": "ccd92c7ca91f31dd350a4349141b0f49952e6421cec1724414431c8d950d8b00",
+    "assetId": "AST-CCD92C7CA91F31DD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__09fb1abf9bca42bc.bin",
+      "assets/source/unified25/assets/colliders/minicollider.obj"
     ]
   },
   {
@@ -815,6 +1214,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.png",
       "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.png"
+    ]
+  },
+  {
+    "sha256": "cf389f9935234ff0b89955aa1916774ea42cfee210474c0341abc2abc343ab72",
+    "assetId": "AST-CF389F9935234FF0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0ae7417d36ac3066.bin",
+      "assets/source/unified25/assets/Items/asteroids/TFA3.obj"
     ]
   },
   {
@@ -908,6 +1316,15 @@
     ]
   },
   {
+    "sha256": "dba23e24bb0c43ff71c649d18fa30c3c5d8e1ca29590e3f904dd00ffba6a5fcd",
+    "assetId": "AST-DBA23E24BB0C43FF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7b471cd50a44c67a.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris1.png"
+    ]
+  },
+  {
     "sha256": "e49e5187828874466466f45ec0682ad11c2b28c5b9475c927b849d9087d16e16",
     "assetId": "AST-E49E518782887446",
     "fileCount": 2,
@@ -926,12 +1343,48 @@
     ]
   },
   {
+    "sha256": "e6d1c68425590cb4546f4f471c64d148d81365f1b52db509817eab3cf30c46a0",
+    "assetId": "AST-E6D1C68425590CB4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c7562b6c592803bc.png",
+      "assets/source/unified25/assets/Items/asteroids/Debris3.png"
+    ]
+  },
+  {
+    "sha256": "e8b76ff0eb148c65a467f7923896e75e6adae7982145f79aead3f9c5d687c7da",
+    "assetId": "AST-E8B76FF0EB148C65",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__257698f1befe862f.bin",
+      "assets/source/unified25/assets/models/obstacles/debris-fields-model.obj"
+    ]
+  },
+  {
     "sha256": "e921cdf22b1d4d6ba4f0af91824b80637f2f4a16b8bf18e8aaca51508f09958d",
     "assetId": "AST-E921CDF22B1D4D6B",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/blue.jpg",
       "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/blue.jpg"
+    ]
+  },
+  {
+    "sha256": "ebbe3aa374802b67b8c49fae4178de85b2112293277be3ccb4cc9e3292f95797",
+    "assetId": "AST-EBBE3AA374802B67",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__74daacbb10dede47.png",
+      "assets/source/unified25/assets/textures/Mats/standard-07-hoth-limb.png"
+    ]
+  },
+  {
+    "sha256": "ed077953fa5ea49007ada4713bb11741333057c02c790d3441f77be77295f630",
+    "assetId": "AST-ED077953FA5EA490",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__25ab5ac869850947.png",
+      "assets/source/unified25/assets/Items/tools/relay-texture.png"
     ]
   },
   {
@@ -962,12 +1415,30 @@
     ]
   },
   {
+    "sha256": "fa7821d8bae78f10ad635a824125b9925d116f02a9bb1812778f457b8640d188",
+    "assetId": "AST-FA7821D8BAE78F10",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b6e45acfce355bf7.png",
+      "assets/source/unified25/assets/Items/tokens/devices/Bombdropper.png"
+    ]
+  },
+  {
     "sha256": "fa890c024cb89d43dce9b968d97af1e04b6f34c84f347bd0f32cba5bb3e03c6b",
     "assetId": "AST-FA890C024CB89D43",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/Large/REB_VCX100/Chopper.jpg",
       "assets/source/unified25/assets/ships/Small/REB_attackshuttle/SabineWren.jpg"
+    ]
+  },
+  {
+    "sha256": "fb7c970c95cf76f238bd91d384e4636b4021652ac31d4b87341a560c08d1ebbb",
+    "assetId": "AST-FB7C970C95CF76F2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__91bb4a860f46ccd5.png",
+      "assets/source/unified25/assets/textures/bombs/clustermine.png"
     ]
   },
   {
@@ -986,6 +1457,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/Large/REB_VCX100/KananJarrus.jpg",
       "assets/source/unified25/assets/ships/Small/REB_attackshuttle/EzraBridger.jpg"
+    ]
+  },
+  {
+    "sha256": "fdfc722b6b25a6822d870c2778d272f76ad764adce00ca5a6005237fcfc1cb36",
+    "assetId": "AST-FDFC722B6B25A682",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0b661f4afcc4d299.png",
+      "assets/source/unified25/assets/Items/tokens/arcindicators/indicadoramar.png"
     ]
   }
 ]
