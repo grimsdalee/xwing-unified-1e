@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1.0",
-  "generatedUtc": "2026-07-18T11:30:17.388034+00:00",
+  "generatedUtc": "2026-07-18T14:40:01.7738938+00:00",
   "ships": [
     {
       "shipId": "SHIP-7D46DA71157C",
@@ -674,6 +674,17 @@
               ]
             },
             {
+              "assetId": "AST-3CAC7B95219CC1F5",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8227a125982596d5.obj",
+              "warehouse": "legacy1e",
+              "score": 83,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Thane Kyrell\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
               "assetId": "AST-67AA1900080D77BD",
               "repositoryPath": "assets/source/unified25/assets/ships/Medium/GRP_ARC-170/GRP_ARC170.obj",
               "warehouse": "unified25",
@@ -860,6 +871,17 @@
               ]
             },
             {
+              "assetId": "AST-0841698B83AE65B4",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.obj",
+              "warehouse": "legacy1e",
+              "score": 67,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027X-Wing Attack Die\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
               "assetId": "AST-1EFD2F981810CBA8",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
               "warehouse": "unified25",
@@ -910,18 +932,6 @@
             {
               "assetId": "AST-201937CD12639DC3",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede.obj",
-              "warehouse": "unified25",
-              "score": 47,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027shuttle\u0027 in path",
-                "ships-v2 location",
-                "OBJ model"
-              ]
-            },
-            {
-              "assetId": "AST-0B8FAA8B6815F1FE",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede2.obj",
               "warehouse": "unified25",
               "score": 47,
               "confidence": "low",
@@ -2169,6 +2179,17 @@
               ]
             },
             {
+              "assetId": "AST-A25438D31F63A5BB",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e7a56e0e60897d10.obj",
+              "warehouse": "legacy1e",
+              "score": 67,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Zealous Recruit\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
               "assetId": "AST-FD504231CBB3C56A",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
               "warehouse": "unified25",
@@ -2231,18 +2252,6 @@
             {
               "assetId": "AST-274907631B13A2DC",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/N1.obj",
-              "warehouse": "unified25",
-              "score": 55,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027starfighter\u0027 in path",
-                "ships-v2 location",
-                "OBJ model"
-              ]
-            },
-            {
-              "assetId": "AST-D5A2E07292D273B5",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Naboo_Royal_N1.obj",
               "warehouse": "unified25",
               "score": 55,
               "confidence": "low",
@@ -3778,7 +3787,7 @@
         {
           "role": "ShipModel",
           "required": true,
-          "status": "clear",
+          "status": "review",
           "candidates": [
             {
               "assetId": "AST-3190DC275EB673E1",
@@ -3789,6 +3798,17 @@
               "reasons": [
                 "strong ship alias \u0027lancer-class pursuit craft\u0027 in exact path segment",
                 "ships-v2 location",
+                "OBJ model"
+              ]
+            },
+            {
+              "assetId": "AST-1A03A8C42DEB7CE0",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__08c4f55f5b09c713.obj",
+              "warehouse": "legacy1e",
+              "score": 91,
+              "confidence": "high",
+              "reasons": [
+                "legacy object context \u0027Sabine Wren v2\u0027 via MeshURL",
                 "OBJ model"
               ]
             },
@@ -3863,18 +3883,6 @@
                 "ships-v2 location",
                 "OBJ model"
               ]
-            },
-            {
-              "assetId": "AST-7D53C07E6953009F",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3.obj",
-              "warehouse": "unified25",
-              "score": 47,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027craft\u0027 in path",
-                "ships-v2 location",
-                "OBJ model"
-              ]
             }
           ]
         },
@@ -3916,6 +3924,26 @@
               ]
             },
             {
+              "assetId": "AST-F91703D29C862AE3",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bbda7c129bcb4e0.png",
+              "warehouse": "legacy1e",
+              "score": 66,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Shadowport Hunter\u0027 via DiffuseURL"
+              ]
+            },
+            {
+              "assetId": "AST-CA2813F74B7C5C61",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6399115905c4dff2.png",
+              "warehouse": "legacy1e",
+              "score": 66,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Sabine Wren v2\u0027 via DiffuseURL"
+              ]
+            },
+            {
               "assetId": "AST-CFC748C4C8D86D19",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/Textures/standard.jpg",
               "warehouse": "unified25",
@@ -3947,30 +3975,6 @@
               "confidence": "low",
               "reasons": [
                 "legacy object context \u0027Ruthless Freelancer\u0027 via DiffuseURL"
-              ]
-            },
-            {
-              "assetId": "AST-7455B58961AB2B01",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/1/blue.jpg",
-              "warehouse": "unified25",
-              "score": 40,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027craft\u0027 in path",
-                "ships-v2 location",
-                "ship texture folder"
-              ]
-            },
-            {
-              "assetId": "AST-04EBD5BFCE169F87",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/1/boba.jpg",
-              "warehouse": "unified25",
-              "score": 40,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027craft\u0027 in path",
-                "ships-v2 location",
-                "ship texture folder"
               ]
             }
           ]
@@ -4465,6 +4469,17 @@
               ]
             },
             {
+              "assetId": "AST-A25438D31F63A5BB",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e7a56e0e60897d10.obj",
+              "warehouse": "legacy1e",
+              "score": 91,
+              "confidence": "high",
+              "reasons": [
+                "legacy object context \u0027Zealous Recruit\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
               "assetId": "AST-FD504231CBB3C56A",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
               "warehouse": "unified25",
@@ -4515,18 +4530,6 @@
             {
               "assetId": "AST-1124BCC0C29F0A3B",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Belbullab1.obj",
-              "warehouse": "unified25",
-              "score": 55,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027starfighter\u0027 in path",
-                "ships-v2 location",
-                "OBJ model"
-              ]
-            },
-            {
-              "assetId": "AST-A13E9F374748694B",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/MandoN1.obj",
               "warehouse": "unified25",
               "score": 55,
               "confidence": "low",
@@ -4711,6 +4714,17 @@
                 "ships location",
                 "OBJ model"
               ]
+            },
+            {
+              "assetId": "AST-911A15AE7F51499C",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9614700be802d522.obj",
+              "warehouse": "legacy1e",
+              "score": 91,
+              "confidence": "high",
+              "reasons": [
+                "legacy object context \u0027Constable Zuvio\u0027 via MeshURL",
+                "OBJ model"
+              ]
             }
           ]
         },
@@ -4764,6 +4778,26 @@
               ]
             },
             {
+              "assetId": "AST-F1FDBD46153749EA",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7397588122ee10dc.png",
+              "warehouse": "legacy1e",
+              "score": 66,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Constable Zuvio\u0027 via DiffuseURL"
+              ]
+            },
+            {
+              "assetId": "AST-32F59747F99D7F5A",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__99ca394b4a5a3ac4.png",
+              "warehouse": "legacy1e",
+              "score": 66,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Jakku Gunrunner\u0027 via DiffuseURL"
+              ]
+            },
+            {
               "assetId": "AST-587E11632BC03CFE",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/croccruiser/Textures/standard.jpg",
               "warehouse": "unified25",
@@ -4777,28 +4811,6 @@
             {
               "assetId": "AST-186FA3DAA94B0FCD",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/gozanticlasscruiser/Textures/standard.jpg",
-              "warehouse": "unified25",
-              "score": 38,
-              "confidence": "low",
-              "reasons": [
-                "ships-v2 location",
-                "generic ship texture"
-              ]
-            },
-            {
-              "assetId": "AST-BE5242272F848E50",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/gr75mediumtransport/Textures/standard.jpg",
-              "warehouse": "unified25",
-              "score": 38,
-              "confidence": "low",
-              "reasons": [
-                "ships-v2 location",
-                "generic ship texture"
-              ]
-            },
-            {
-              "assetId": "AST-2B263C9643CE833E",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/raiderclasscorvette/Textures/standard.jpg",
               "warehouse": "unified25",
               "score": 38,
               "confidence": "low",
@@ -6672,6 +6684,28 @@
                 "ships location",
                 "OBJ model"
               ]
+            },
+            {
+              "assetId": "AST-523E84B55EFDEE06",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__85d1e6c375220c9f.obj",
+              "warehouse": "legacy1e",
+              "score": 67,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Scarif Defender\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
+              "assetId": "AST-5C3FD6429E093113",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d654e42dbf52622d.obj",
+              "warehouse": "legacy1e",
+              "score": 67,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Kashyyyk Defender\u0027 via MeshURL",
+                "OBJ model"
+              ]
             }
           ]
         },
@@ -7783,6 +7817,17 @@
                 "ships location",
                 "OBJ model"
               ]
+            },
+            {
+              "assetId": "AST-523E84B55EFDEE06",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__85d1e6c375220c9f.obj",
+              "warehouse": "legacy1e",
+              "score": 91,
+              "confidence": "high",
+              "reasons": [
+                "legacy object context \u0027\u0022Duchess\u0022\u0027 via MeshURL",
+                "OBJ model"
+              ]
             }
           ]
         },
@@ -8366,6 +8411,17 @@
               ]
             },
             {
+              "assetId": "AST-F0A28DB06689C2B7",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7c7a78a8d9b90dc3.obj",
+              "warehouse": "legacy1e",
+              "score": 83,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Bodhi Rook\u0027 via MeshURL",
+                "OBJ model"
+              ]
+            },
+            {
               "assetId": "AST-869C93A457778BA7",
               "repositoryPath": "assets/source/unified25/assets/ships/Rebel/UTD60DUWing/UWing_Base.obj",
               "warehouse": "unified25",
@@ -8380,18 +8436,6 @@
             {
               "assetId": "AST-077DD8DEE1B3B43F",
               "repositoryPath": "assets/source/unified25/assets/ships/Rebel/UTD60DUWing/UWing_Close.obj",
-              "warehouse": "unified25",
-              "score": 69,
-              "confidence": "medium",
-              "reasons": [
-                "strong ship alias \u0027u-wing\u0027 in path",
-                "ships location",
-                "OBJ model"
-              ]
-            },
-            {
-              "assetId": "AST-B958FF95FB0525C7",
-              "repositoryPath": "assets/source/unified25/assets/ships/Rebel/UTD60DUWing/UWing_Open.obj",
               "warehouse": "unified25",
               "score": 69,
               "confidence": "medium",
@@ -8691,6 +8735,16 @@
               ]
             },
             {
+              "assetId": "AST-3FCBA881EC05F279",
+              "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__44c6141bf7b66f45.png",
+              "warehouse": "legacy1e",
+              "score": 66,
+              "confidence": "medium",
+              "reasons": [
+                "legacy object context \u0027Lieutenant Dormitz\u0027 via DiffuseURL"
+              ]
+            },
+            {
               "assetId": "AST-291304AD0E856EEA",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
               "warehouse": "unified25",
@@ -8729,18 +8783,6 @@
             {
               "assetId": "AST-FBEF5DD1EB8E9098",
               "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-              "warehouse": "unified25",
-              "score": 52,
-              "confidence": "low",
-              "reasons": [
-                "weak ship alias \u0027shuttle\u0027 in path",
-                "ships-v2 location",
-                "generic ship texture"
-              ]
-            },
-            {
-              "assetId": "AST-0757FE668CCE126E",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
               "warehouse": "unified25",
               "score": 52,
               "confidence": "low",

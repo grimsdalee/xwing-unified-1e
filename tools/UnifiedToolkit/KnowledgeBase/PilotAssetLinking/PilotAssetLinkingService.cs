@@ -118,7 +118,18 @@ public sealed class PilotAssetLinkingService
                 break;
         }
 
-        if (asset.Warehouse.Equals("legacy1e", StringComparison.OrdinalIgnoreCase)) { score += 12; reasons.Add("legacy First Edition source"); }
+        if (role.Equals("PilotCard", StringComparison.OrdinalIgnoreCase)
+            && asset.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
+        {
+            score += 45;
+            reasons.Add("individual xwing-data First Edition pilot card");
+        }
+        else if (asset.Warehouse.Equals("legacy1e", StringComparison.OrdinalIgnoreCase))
+        {
+            score += 12;
+            reasons.Add("legacy First Edition source");
+        }
+
         if (asset.Availability.Equals("available", StringComparison.OrdinalIgnoreCase)) score += 3;
 
         return new KnowledgeBasePilotAssetCandidate

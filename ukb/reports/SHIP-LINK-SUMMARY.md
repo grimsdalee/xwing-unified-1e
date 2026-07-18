@@ -1,9 +1,9 @@
 # Ship Asset Link Summary
 
 Ships: **50**  
-Candidate links: **718**  
-Clear role matches: **22**  
-Roles requiring review: **128**  
+Candidate links: **723**  
+Clear role matches: **21**  
+Roles requiring review: **129**  
 Missing required roles: **3**
 
 ## Unresolved required roles

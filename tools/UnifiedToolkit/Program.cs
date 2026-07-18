@@ -59,6 +59,7 @@ return command switch
     "catalogue-repository-assets" => CatalogueRepositoryAssetsCommand.Run(commandArgs),
     "import-unified-assets" => ImportUnifiedAssetsCommand.Run(commandArgs),
     "import-legacy-first-edition-assets" => ImportLegacyFirstEditionAssetsCommand.Run(commandArgs),
+    "import-xwing-data" => ImportXWingDataCommand.Run(commandArgs),
     "build-knowledge-base" => BuildKnowledgeBaseCommand.Run(commandArgs),
     "query-knowledge-base" => QueryKnowledgeBaseCommand.Run(commandArgs),
     "link-ship-assets" => LinkShipAssetsCommand.Run(commandArgs),
@@ -118,6 +119,7 @@ static void ShowHelp()
     Console.WriteLine("  ingest-runtime-prototype-assets <runtime-ship-prototype.json> <unified-repo-folder> <first-edition-repo-folder> [--public-base-url <url>] [--download-external] [--output <folder>]");
     Console.WriteLine("  catalogue-repository-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-unified-assets <unified-repo-folder> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
+    Console.WriteLine("  import-xwing-data <xwing-data-folder> <first-edition-repo-folder> [--dry-run] [--no-rebuild-knowledge-base]");
     Console.WriteLine("  import-legacy-first-edition-assets <legacy-save.json> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
     Console.WriteLine("  build-knowledge-base <first-edition-repo-folder> [--output <folder>] [--no-refresh-catalogue]");
     Console.WriteLine("  query-knowledge-base <first-edition-repo-folder> <stats|asset|search|duplicates|unavailable|validation> [arguments]");
