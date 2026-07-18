@@ -13,6 +13,11 @@ public sealed class LegacyFirstEditionAssetImporter
         "https?://[^\\s\"'<>\\\\]+",
         RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
 
+    private static readonly string[] ExcludedHostSuffixes =
+    {
+        "imgur.com"
+    };
+
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         WriteIndented = true,
@@ -96,6 +101,7 @@ public sealed class LegacyFirstEditionAssetImporter
         var grouped = references
             .GroupBy(reference => CanonicalizeUrl(reference.Url), StringComparer.OrdinalIgnoreCase)
             .Where(group => !string.IsNullOrWhiteSpace(group.Key))
+            .Where(group => !IsExcludedSource(group.Key))
             .OrderBy(group => group.Key, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
@@ -441,6 +447,26 @@ public sealed class LegacyFirstEditionAssetImporter
                 }
                 break;
         }
+    }
+
+
+    private static bool IsExcludedSource(string url)
+    {
+        if (!Uri.TryCreate(url, UriKind.Absolute, out var uri))
+        {
+            return false;
+        }
+
+        var host = uri.Host.ToLowerInvariant();
+        if (ExcludedHostSuffixes.Any(suffix =>
+                host.Equals(suffix, StringComparison.OrdinalIgnoreCase)
+                || host.EndsWith("." + suffix, StringComparison.OrdinalIgnoreCase)))
+        {
+            return true;
+        }
+
+        return host.Equals("tts-db.firebaseio.com", StringComparison.OrdinalIgnoreCase)
+            && uri.AbsolutePath.Contains("modLoadCount", StringComparison.OrdinalIgnoreCase);
     }
 
     private static string CanonicalizeUrl(string url)

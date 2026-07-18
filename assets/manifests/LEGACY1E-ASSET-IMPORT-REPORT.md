@@ -1,38 +1,60 @@
 # Legacy First Edition Asset Import Report
 
-- Generated: `2026-07-17T23:47:20.4926238+00:00`
+- Generated: `2026-07-18T14:33:00.2257967+00:00`
 - Save: `C:/Users/Evan/Documents/GitHub/xwing-unified-1e/source/legacy-1e/3302209318.json`
 - URL references: **12087**
-- Unique URLs: **961**
-- Downloaded: **824**
-- Unchanged: **0**
-- Duplicate content: **35**
+- Unique URLs: **954**
+- Downloaded: **0**
+- Unchanged: **827**
+- Duplicate content: **0**
 - Would download: **0**
-- Failed: **102**
+- Failed: **127**
 
 ## Status by host
 
 | Host | URLs | Downloaded | Unchanged | Duplicates | Failed |
 |---|---:|---:|---:|---:|---:|
-| api.tabletopsimulator.com | 1 | 1 | 0 | 0 | 0 |
-| discord.gg | 1 | 1 | 0 | 0 | 0 |
-| drive.google.com | 4 | 4 | 0 | 0 | 0 |
-| github.com | 13 | 12 | 0 | 0 | 1 |
-| i.imgur.com | 6 | 1 | 0 | 5 | 0 |
-| images-cdn.fantasyflightgames.com | 2 | 2 | 0 | 0 | 0 |
-| paste.ee | 45 | 42 | 0 | 3 | 0 |
-| pastebin.com | 6 | 6 | 0 | 0 | 0 |
-| steamcommunity.com | 1 | 1 | 0 | 0 | 0 |
-| steamusercontent-a.akamaihd.net | 878 | 751 | 0 | 27 | 100 |
-| tts-db.firebaseio.com | 1 | 1 | 0 | 0 | 0 |
+| api.tabletopsimulator.com | 1 | 0 | 0 | 0 | 1 |
+| discord.gg | 1 | 0 | 0 | 0 | 1 |
+| drive.google.com | 4 | 0 | 4 | 0 | 0 |
+| github.com | 13 | 0 | 0 | 0 | 13 |
+| images-cdn.fantasyflightgames.com | 2 | 0 | 2 | 0 | 0 |
+| paste.ee | 45 | 0 | 45 | 0 | 0 |
+| pastebin.com | 6 | 0 | 2 | 0 | 4 |
+| steamcommunity.com | 1 | 0 | 0 | 0 | 1 |
+| steamusercontent-a.akamaihd.net | 878 | 0 | 774 | 0 | 104 |
 | www.gamedev.net | 1 | 0 | 0 | 0 | 1 |
-| www.reddit.com | 1 | 1 | 0 | 0 | 0 |
-| www.youtube.com | 1 | 1 | 0 | 0 | 0 |
+| www.reddit.com | 1 | 0 | 0 | 0 | 1 |
+| www.youtube.com | 1 | 0 | 0 | 0 | 1 |
 
 ## Failures
 
+- `http://github.com/Indimeco/Tabletop-Simulator-Misc` — The downloaded response was an HTML page rather than an asset.
+- `http://github.com/tjakubo2/TTS_lib` — The downloaded response was an HTML page rather than an asset.
+- `http://github.com/tjakubo2/TTS_xwing` — The downloaded response was an HTML page rather than an asset.
+- `http://github.com/tjakubo2/TTS_xwing/wiki` — The downloaded response was an HTML page rather than an asset.
+- `http://pastebin.com/jt2AzA8t` — The downloaded response was an HTML page rather than an asset.
+- `http://pastebin.com/LezDjunY` — The downloaded response was an HTML page rather than an asset.
+- `http://pastebin.com/nsHXF9XV` — The downloaded response was an HTML page rather than an asset.
+- `http://pastebin.com/VdHhgdFr` — The downloaded response was an HTML page rather than an asset.
 - `http://www.gamedev.net/page/resources/_/technical/game-programming/2d-rotated-rectangle-collision-r2604` — HTTP 403 Forbidden
+- `http://www.youtube.com/watch?v=PuhwSma960Y` — The downloaded response was an HTML page rather than an asset.
+- `https://api.tabletopsimulator.com/ui/introUI/` — The downloaded response was an HTML page rather than an asset.
+- `https://discord.gg/WHKXDBD` — The downloaded response was an HTML page rather than an asset.
 - `https://github.com/tjakubo2/issues` — HTTP 404 Not Found
+- `https://github.com/tjakubo2/TTS_xwing` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/wiki` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/wiki/Credits` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/wiki/Doc%3A-Commands` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/wiki/Doc:-List-Building` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/TTS_xwing/wiki/Update-roundup:-v1.1` — The downloaded response was an HTML page rather than an asset.
+- `https://github.com/tjakubo2/xwing_traj` — The downloaded response was an HTML page rather than an asset.
+- `https://steamcommunity.com/sharedfiles/filedetails/?id=` — The downloaded response was an HTML page rather than an asset.
+- `https://steamusercontent-a.akamaihd.net/ugc/2496767915186053284/C446FFD28E78264DBBAC3BA62FA87B85BC15FA91/` — The downloaded response was an HTML page rather than an asset.
+- `https://steamusercontent-a.akamaihd.net/ugc/2496767915186055437/59FFC128C4664D2FAA243CD7C38AE89DD87EBE00/` — The downloaded response was an HTML page rather than an asset.
+- `https://steamusercontent-a.akamaihd.net/ugc/2496767915186056762/D54E0CBD17465ED4B7E27046954ED4343310AEF9/` — The downloaded response was an HTML page rather than an asset.
+- `https://steamusercontent-a.akamaihd.net/ugc/2496767915186064839/004EAF46B62C9CC2A40D2351DCFC26C4C42A786C/` — The downloaded response was an HTML page rather than an asset.
 - `https://steamusercontent-a.akamaihd.net/ugc/778407480097231702/97A7FB8F3E5AD9C5C514FF9C7E5B1615730CD1B1/` — HTTP 404 Not Found
 - `https://steamusercontent-a.akamaihd.net/ugc/812181939784113575/5506D8E16314873F19D50F86F46FAE474B517E8E/` — HTTP 404 Not Found
 - `https://steamusercontent-a.akamaihd.net/ugc/812181939784120011/6897176373C145986B680CF90068329FA1ACD18F/` — HTTP 404 Not Found
@@ -133,6 +155,7 @@
 - `https://steamusercontent-a.akamaihd.net/ugc/89351028257308862/E5A99E2E7CFE2D855FB302B09EB5028578D746D2/` — HTTP 404 Not Found
 - `https://steamusercontent-a.akamaihd.net/ugc/905653584538232658/F002272A63F9C57A5421BDA86EB9BDB1F12EC94C/` — HTTP 404 Not Found
 - `https://steamusercontent-a.akamaihd.net/ugc/905653584538574616/4E3686814264E68C5F3E8CDCBB9816AA5B6D784F/` — HTTP 404 Not Found
+- `https://www.reddit.com/r/XWingTMG/comments/4bk3jw/pic_tutorial_for_xwing_on_tabletop_simulator_step/` — The downloaded response was an HTML page rather than an asset.
 
 ## Preservation and release-size policy
 

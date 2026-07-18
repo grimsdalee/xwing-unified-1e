@@ -1,5 +1,29 @@
 [
   {
+    "assetId": "AST-2B05D549D6487A33",
+    "repositoryPath": "assets/source/legacy1e/drive.google.com/models/uc__13d7f83b305c7a81.obj",
+    "sha256": "2b05d549d6487a336468cc81235eb1ae57cad54ff45daebe9f50b6361101dd5d",
+    "sizeBytes": 524742
+  },
+  {
+    "assetId": "AST-BF9F8857742B2D02",
+    "repositoryPath": "assets/source/legacy1e/drive.google.com/models/uc__3bd54e8209a46016.obj",
+    "sha256": "bf9f8857742b2d026b4ee4a27eb92c9343b68db69744ceb2d1d664eea51561d3",
+    "sizeBytes": 2073219
+  },
+  {
+    "assetId": "AST-EFCBBCC40BD0806C",
+    "repositoryPath": "assets/source/legacy1e/drive.google.com/models/uc__5be467994c24925c.obj",
+    "sha256": "efcbbcc40bd0806c316eb30058eb386daaa09047223cb96051f818475aab3f37",
+    "sizeBytes": 208266
+  },
+  {
+    "assetId": "AST-49D39B92EA0045BC",
+    "repositoryPath": "assets/source/legacy1e/drive.google.com/models/uc__b7eb5e9e5f2cc705.obj",
+    "sha256": "49d39b92ea0045bc0c54fef13de4c6989ce5a615b2e0130d879a89d03423f53a",
+    "sizeBytes": 87626
+  },
+  {
     "assetId": "AST-86A2B5528A6233C1",
     "repositoryPath": "assets/source/legacy1e/images-cdn.fantasyflightgames.com/documents/swx36_rulesreference__46ec07f0cb58f87f.pdf",
     "sha256": "86a2b5528a6233c1c8d77d2d34c55148075dc313ccbb4a9b81fbe4f072e51cba",
@@ -10,6 +34,270 @@
     "repositoryPath": "assets/source/legacy1e/images-cdn.fantasyflightgames.com/documents/x-wing_faq_v411__dbad050a8795d22a.pdf",
     "sha256": "23ddcd53f6628a51720eed9f20aed3ca5870acce017d5e8fd847e281c67cbfca",
     "sizeBytes": 17625414
+  },
+  {
+    "assetId": "AST-15786BE2AF0EE2BB",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/0QVhZ__34e253323a047d9b.obj",
+    "sha256": "15786be2af0ee2bb3453acf129650571e6a1ffcc1e5bf6c5356da02084788fbf",
+    "sizeBytes": 279686
+  },
+  {
+    "assetId": "AST-9785A7E12722EABE",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/0UFlm__1ac20476b8bfbd1a.obj",
+    "sha256": "9785a7e12722eabec8713dd44f5143d074e15d8cdd85687c86f37b00fa3a736b",
+    "sizeBytes": 336358
+  },
+  {
+    "assetId": "AST-884E6F014AD6F536",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/1af5C__3b944627b2428163.obj",
+    "sha256": "884e6f014ad6f536af10c2dc225f2581c27f278bf416136eab0cc12bdeaeee66",
+    "sizeBytes": 417941
+  },
+  {
+    "assetId": "AST-3FD644D98AEEFA19",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/1T0ii__065d90177becb7ae.obj",
+    "sha256": "3fd644d98aeefa19a894b7cfa823f04d9cdfc9cad635ecf9854b79e4bec2cc28",
+    "sizeBytes": 686301
+  },
+  {
+    "assetId": "AST-56F2E616E66E4BD1",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/2Airh__1ee6d88922d206c4.obj",
+    "sha256": "56f2e616e66e4bd1d5bd49d1778e03728278caa16f00e148a2113dfc12e3c03b",
+    "sizeBytes": 962122
+  },
+  {
+    "assetId": "AST-75967F3B479D2B4B",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/3INxK__855d1d980e703d68.obj",
+    "sha256": "75967f3b479d2b4bc8e7daab3e710ac9c44fc838af24619b6a62396d2a7ae70c",
+    "sizeBytes": 650186
+  },
+  {
+    "assetId": "AST-5AE4DE14F4BE7A19",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/4uxZO__df4d0b1720bd109d.obj",
+    "sha256": "5ae4de14f4be7a1988f441565fb978a6be12b7ed6ca89c6f32bd1cefe732603b",
+    "sizeBytes": 486547
+  },
+  {
+    "assetId": "AST-A1B349A8BE32F0BD",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/54FLC__7c74a87e314f01fd.obj",
+    "sha256": "a1b349a8be32f0bd4dbcd01793d35732559d7e50c562cdb7fee66f351d184153",
+    "sizeBytes": 494746
+  },
+  {
+    "assetId": "AST-B6025A60A0E3130E",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/5A0YG__cce26697adf4983a.obj",
+    "sha256": "b6025a60a0e3130ea415220bf39f4035eba5160bd92649850451c26ca8b9e18a",
+    "sizeBytes": 443074
+  },
+  {
+    "assetId": "AST-D0A5BC7CCA6442F0",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/8CtXr__f8c35aa3f2626037.obj",
+    "sha256": "d0a5bc7cca6442f0c207186e4cda7a45bf1ab210e1114dfa9e2c8a5319ae3de8",
+    "sizeBytes": 605032
+  },
+  {
+    "assetId": "AST-9ADF5B8E34409E11",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/A57A8__d92b60519626ff10.obj",
+    "sha256": "9adf5b8e34409e113ae3205d95012118d137d3289b673989a7406760e4359dca",
+    "sizeBytes": 201653
+  },
+  {
+    "assetId": "AST-F10618FF8D260D97",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/aCJSv__151c4be3db33315f.obj",
+    "sha256": "f10618ff8d260d97aa216841eb4cea5aa94053193ed185423f2f194151ae4652",
+    "sizeBytes": 256570
+  },
+  {
+    "assetId": "AST-7B4BA826EF46A43D",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/aLVFD__e98406c167dc467f.obj",
+    "sha256": "7b4ba826ef46a43d77b96d1faff08db0ea1637df20a73acbbee9c87f7e63f37d",
+    "sizeBytes": 466348
+  },
+  {
+    "assetId": "AST-97AC4AFB93FE8B41",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/aVGkQ__f038045595de245f.obj",
+    "sha256": "97ac4afb93fe8b411972cd8c338bb578597de9bad031c4ffa3a515af7698e47f",
+    "sizeBytes": 815731
+  },
+  {
+    "assetId": "AST-AB55AEEE4501AB74",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/cedkZ__6c7943a91f0fa0eb.obj",
+    "sha256": "ab55aeee4501ab74038c578d79cd587ed8b22a303e757a4b29ec3902d8a17707",
+    "sizeBytes": 329558
+  },
+  {
+    "assetId": "AST-DC03129FCA0470B4",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/d91Hu__d97f44ed6c595acc.obj",
+    "sha256": "dc03129fca0470b496a7afc27f4785ab8458a6879524595716ab7826748aa6f7",
+    "sizeBytes": 177452
+  },
+  {
+    "assetId": "AST-0F512497FD9D8FE4",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/Dp2Ge__f2dbcf9b61cb53d9.obj",
+    "sha256": "0f512497fd9d8fe48d8f713784db931dbb29f8a229e4d0b2ff14c66bdf568042",
+    "sizeBytes": 16504
+  },
+  {
+    "assetId": "AST-67F841C59C2EA9F9",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/E8ZT0__7800c02a34501f62.obj",
+    "sha256": "67f841c59c2ea9f9d7cc6c16732444ee7d4e22a6cec132c02310402691603bd6",
+    "sizeBytes": 574421
+  },
+  {
+    "assetId": "AST-D500DFBDEBD2A334",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/eAdkb__33fb9b7c35aa6388.obj",
+    "sha256": "d500dfbdebd2a334d75f7cf1e4d9d9292186dca9cf5a572bc9e5edf99b3324ab",
+    "sizeBytes": 495357
+  },
+  {
+    "assetId": "AST-283FF51AF74022C9",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/Ff0vZ__a1aba21addf54075.obj",
+    "sha256": "283ff51af74022c9188ef15c9fdf26d0abeea4f91a2a9898651a88b6bc76192b",
+    "sizeBytes": 676589
+  },
+  {
+    "assetId": "AST-6828027D757AE835",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/FfWNK__e483918a33dd6d9c.obj",
+    "sha256": "6828027d757ae835fc16555f5d19f447aadf329c319228e380e0596fc3cd56ce",
+    "sizeBytes": 497863
+  },
+  {
+    "assetId": "AST-2C0CFA4DD2864455",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/GmKW8__d7f23847af00e5d3.obj",
+    "sha256": "2c0cfa4dd2864455c063b1c7790045165e79963160a8bb209d285e6e85049083",
+    "sizeBytes": 20947
+  },
+  {
+    "assetId": "AST-4190A19781EEACFD",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/hxWah__ea2a04fde2d1bddb.obj",
+    "sha256": "4190a19781eeacfd52746a8e806d68252320c69829c28d74d0e8da8b715ec9e9",
+    "sizeBytes": 494955
+  },
+  {
+    "assetId": "AST-C564A016CFA8C651",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/JN16g__e5b2e2c3bcd3c81f.obj",
+    "sha256": "c564a016cfa8c65104817252ea4e849736560a7a519dc64acf3076c11870e85a",
+    "sizeBytes": 494816
+  },
+  {
+    "assetId": "AST-743E8D231125F5A1",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/jpEbC__33d4f30fd0d5d4ff.obj",
+    "sha256": "743e8d231125f5a1367b1e67ac8f6361cc38897acb554e09ffed82a5827f2d0c",
+    "sizeBytes": 325819
+  },
+  {
+    "assetId": "AST-15C23507D771DD1A",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/jrwRJ__f8f49ec1ccc17bc7.obj",
+    "sha256": "15c23507d771dd1a8b426bbd54cac129f3543a2203812fbb294fbfa97fc89f79",
+    "sizeBytes": 372410
+  },
+  {
+    "assetId": "AST-BB222D4DBEEF55F4",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/JxWNX__8d5130f91a11fcbd.obj",
+    "sha256": "bb222d4dbeef55f405a170b4e92a18097e1392051120abf9a43dd480941c2bb5",
+    "sizeBytes": 352583
+  },
+  {
+    "assetId": "AST-3CB213FF67236B7E",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/kkPoB__ad278f882712eca2.obj",
+    "sha256": "3cb213ff67236b7e597271cd8e1e7b8a81ee4145dcb799c20e59702eb41ba15d",
+    "sizeBytes": 729172
+  },
+  {
+    "assetId": "AST-B91618CB05334518",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/l7cuZ__5da72dacf3fa7098.obj",
+    "sha256": "b91618cb05334518a0952d1d35e04369d6a45a785bd87512d81018c1d41c4536",
+    "sizeBytes": 974154
+  },
+  {
+    "assetId": "AST-40F79990CD467E54",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/lLZ8W__9db35646cf945f1e.obj",
+    "sha256": "40f79990cd467e54a19e373f6ca5a6b92ce0ecc088917689772e52db1c6e7ece",
+    "sizeBytes": 833761
+  },
+  {
+    "assetId": "AST-235BC5B337F0C8B7",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/MJOFI__8e70259b03360ec3.obj",
+    "sha256": "235bc5b337f0c8b7fff0066eb5c951b95ea48154a9bf63abeff82ca71895d1c3",
+    "sizeBytes": 572653
+  },
+  {
+    "assetId": "AST-9870263F73B772FE",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/mow3U__0297dcbc878b1ff7.obj",
+    "sha256": "9870263f73b772fe502a8ebd57ea9d789b0071bcb63f67e1bdb7896e48b9c221",
+    "sizeBytes": 396203
+  },
+  {
+    "assetId": "AST-069706A18F765F9A",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/mUFjk__0d9add60f7d04885.obj",
+    "sha256": "069706a18f765f9acd603fa5f9f811900747b4e5584c5cc5bd0b93be8cba3b52",
+    "sizeBytes": 330335
+  },
+  {
+    "assetId": "AST-74BB0872FF159A7F",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/MV6qP__da7b50e9736d1538.obj",
+    "sha256": "74bb0872ff159a7f29b90d92dadec2677fe3610446b7cc147860d45ce082f30c",
+    "sizeBytes": 686442
+  },
+  {
+    "assetId": "AST-246541406594DC48",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/MySkn__925abaaaee99e2c2.obj",
+    "sha256": "246541406594dc4801eea8a8d50fc36403cf3546d999dfbae6818874634dc7d9",
+    "sizeBytes": 364329
+  },
+  {
+    "assetId": "AST-8B99B6A739012CD6",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/NeptF__2ec3529a1d333daa.obj",
+    "sha256": "8b99b6a739012cd67999f2b99807ac5498bfa4206a4c2bfeff7df36b27fca14e",
+    "sizeBytes": 217302
+  },
+  {
+    "assetId": "AST-B1BB5716C4165B1C",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/NH1KI__6c098eb668350653.obj",
+    "sha256": "b1bb5716c4165b1c69d956fde1aa8bf0aaaebee9e81a724af8fc1c1f642c6dab",
+    "sizeBytes": 531665
+  },
+  {
+    "assetId": "AST-3B5AC0F4A5CA1EBD",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/ntg8n__585e167051c6ab9c.obj",
+    "sha256": "3b5ac0f4a5ca1ebdfc84ca489db5813e55fe5bc05e35e3f1eaa726cdfba667a3",
+    "sizeBytes": 395807
+  },
+  {
+    "assetId": "AST-31983CA719DA0161",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/tIdib__9372adef7c84b769.obj",
+    "sha256": "31983ca719da01619b6177f98e4448f542eaf7c48b4bcf4b52f8deeb12a42866",
+    "sizeBytes": 395801
+  },
+  {
+    "assetId": "AST-F62D024207D51C81",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/tqTsw__1f01db09af1c8059.obj",
+    "sha256": "f62d024207d51c8155d799d78ff456aa0a3cc568737e71e0b15eb952cabb4a69",
+    "sizeBytes": 319746
+  },
+  {
+    "assetId": "AST-F8A855A45CF4522E",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/VmV6q__0b60095e7739778c.obj",
+    "sha256": "f8a855a45cf4522e6821c52c996742b9963854653f03fad665da33f05ff73d83",
+    "sizeBytes": 1247306
+  },
+  {
+    "assetId": "AST-FF774B6ADE075511",
+    "repositoryPath": "assets/source/legacy1e/paste.ee/models/ZxcTT__9fe05cc13431ba11.obj",
+    "sha256": "ff774b6ade0755114a701493908265f25e4f5af2faeb597a2d89f88e47016d25",
+    "sizeBytes": 498002
+  },
+  {
+    "assetId": "AST-75BE1C9949F6D3F4",
+    "repositoryPath": "assets/source/legacy1e/pastebin.com/models/5G8JN2B6__4f6b9674fa36c2fe.obj",
+    "sha256": "75be1c9949f6d3f4124d663e94317d75115802b571ce9cc315d857d11bbddd36",
+    "sizeBytes": 17920
+  },
+  {
+    "assetId": "AST-BF91A92E8A8F4C88",
+    "repositoryPath": "assets/source/legacy1e/pastebin.com/models/zucpQryb__52120b6bbcf327d7.obj",
+    "sha256": "bf91a92e8a8f4c88048bf2fc144b81b0314408f2fa99cceb1c239ad39aad39dc",
+    "sizeBytes": 18025
   },
   {
     "assetId": "AST-C9CF689EA37A880F",

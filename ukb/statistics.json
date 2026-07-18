@@ -1,17 +1,17 @@
 {
-  "fileCount": 4137,
-  "uniqueAssetCount": 3956,
-  "totalBytes": 1989885268,
+  "fileCount": 4185,
+  "uniqueAssetCount": 4004,
+  "totalBytes": 2013239313,
   "duplicateFileCount": 181,
-  "unavailableSourceCount": 298,
+  "unavailableSourceCount": 127,
   "byWarehouse": {
-    "legacy1e": 749,
+    "legacy1e": 797,
     "unified25": 3388
   },
   "byAssetType": {
+    "model": 810,
     "pdf": 3,
     "image": 3123,
-    "model": 762,
     "other": 9,
     "text": 5,
     "lua": 222,
