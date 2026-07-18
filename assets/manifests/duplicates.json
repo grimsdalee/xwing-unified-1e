@@ -66,7 +66,7 @@
     "assetId": "AST-323C8115FE799E83",
     "fileCount": 3,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__27b73a65c22a346f.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__27b73a65c22a346f.obj",
       "assets/source/unified25/assets/Items/tokens/devices/AllBombs.obj",
       "assets/source/unified25/assets/models/bombbag.obj"
     ]
@@ -132,7 +132,7 @@
     "assetId": "AST-081EF67BF273E54C",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8b523348429a41aa.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8b523348429a41aa.obj",
       "assets/source/unified25/assets/Items/asteroids/TFA2.obj"
     ]
   },
@@ -141,7 +141,7 @@
     "assetId": "AST-0841698B83AE65B4",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.obj",
       "assets/source/unified25/assets/Items/InfiniteDice.obj"
     ]
   },
@@ -195,7 +195,7 @@
     "assetId": "AST-10F78048C52387FD",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__97fa98cfc3880bf8.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__97fa98cfc3880bf8.obj",
       "assets/source/unified25/assets/Items/asteroids/TFA4.obj"
     ]
   },
@@ -312,7 +312,7 @@
     "assetId": "AST-2BD547B6DB7A1983",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
       "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
     ]
   },
@@ -384,7 +384,7 @@
     "assetId": "AST-37DE44820A09E1DF",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.obj",
       "assets/source/unified25/assets/Items/asteroids/Core3.obj"
     ]
   },
@@ -429,7 +429,7 @@
     "assetId": "AST-4074EC53BD044A3D",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.obj",
       "assets/source/unified25/assets/Items/asteroids/Core2.obj"
     ]
   },
@@ -483,7 +483,7 @@
     "assetId": "AST-48DA391E081368FF",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8284ad32f92e5f5.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8284ad32f92e5f5.obj",
       "assets/source/unified25/assets/Items/asteroids/Core4.obj"
     ]
   },
@@ -627,7 +627,7 @@
     "assetId": "AST-5A5B9E98EE159F32",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5673cf7eeae9265d.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5673cf7eeae9265d.obj",
       "assets/source/unified25/assets/Items/asteroids/TFA1.obj"
     ]
   },
@@ -645,7 +645,7 @@
     "assetId": "AST-5EAB0926CE098624",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__40bb6b0e4fcbace7.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__40bb6b0e4fcbace7.obj",
       "assets/source/unified25/assets/Items/asteroids/Core5.obj"
     ]
   },
@@ -681,7 +681,7 @@
     "assetId": "AST-67A20991514F6A34",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3924f76bf97e61b4.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3924f76bf97e61b4.obj",
       "assets/source/unified25/assets/Items/rulers/range13.obj"
     ]
   },
@@ -987,7 +987,7 @@
     "assetId": "AST-A97E2C5C8D54CE35",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.obj",
       "assets/source/unified25/assets/models/trayextension.obj"
     ]
   },
@@ -1032,7 +1032,7 @@
     "assetId": "AST-AD7F55EE04D9D9C9",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__26cc9ba3786f842f.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__26cc9ba3786f842f.obj",
       "assets/source/unified25/assets/models/d8.obj"
     ]
   },
@@ -1041,7 +1041,7 @@
     "assetId": "AST-AFBBD14D2B1A2540",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__68f617eaf066b0c2.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__68f617eaf066b0c2.obj",
       "assets/source/unified25/assets/Items/asteroids/TFA6.obj"
     ]
   },
@@ -1050,7 +1050,7 @@
     "assetId": "AST-B03906281CAA2DEE",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6cbabeab3f5fb79e.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6cbabeab3f5fb79e.obj",
       "assets/source/unified25/assets/Items/asteroids/Core6.obj"
     ]
   },
@@ -1131,7 +1131,7 @@
     "assetId": "AST-C072E6978D51235A",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__470ecfe56b9f116c.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__470ecfe56b9f116c.obj",
       "assets/source/unified25/assets/Items/asteroids/Core1.obj"
     ]
   },
@@ -1194,7 +1194,7 @@
     "assetId": "AST-CCD92C7CA91F31DD",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__09fb1abf9bca42bc.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__09fb1abf9bca42bc.obj",
       "assets/source/unified25/assets/colliders/minicollider.obj"
     ]
   },
@@ -1221,7 +1221,7 @@
     "assetId": "AST-CF389F9935234FF0",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0ae7417d36ac3066.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0ae7417d36ac3066.obj",
       "assets/source/unified25/assets/Items/asteroids/TFA3.obj"
     ]
   },
@@ -1356,7 +1356,7 @@
     "assetId": "AST-E8B76FF0EB148C65",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__257698f1befe862f.bin",
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__257698f1befe862f.obj",
       "assets/source/unified25/assets/models/obstacles/debris-fields-model.obj"
     ]
   },

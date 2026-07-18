@@ -174,25 +174,27 @@ public sealed class LegacyFirstEditionAssetImporter
         try
         {
             if (previousEntries.TryGetValue(url, out var previous)
-                && !string.IsNullOrWhiteSpace(previous.DestinationRepositoryPath))
+                && TryResolvePreviousFile(previous, repositoryRoot, out var existingPath))
             {
-                var existingPath = Path.Combine(repositoryRoot, previous.DestinationRepositoryPath.Replace('/', Path.DirectorySeparatorChar));
-                if (File.Exists(existingPath))
+                var existingHash = ComputeSha256(existingPath);
+                if (string.IsNullOrWhiteSpace(previous.Sha256)
+                    || existingHash.Equals(previous.Sha256, StringComparison.OrdinalIgnoreCase))
                 {
-                    var existingHash = ComputeSha256(existingPath);
-                    if (string.IsNullOrWhiteSpace(previous.Sha256)
-                        || existingHash.Equals(previous.Sha256, StringComparison.OrdinalIgnoreCase))
+                    var detectedExisting = DetectContent(existingPath, previous.ContentType);
+                    var existingRelativePath = NormalizePath(Path.GetRelativePath(repositoryRoot, existingPath));
+                    contentHashPaths.TryAdd(existingHash, existingPath);
+                    return previous with
                     {
-                        contentHashPaths.TryAdd(existingHash, existingPath);
-                        return previous with
-                        {
-                            JsonPaths = jsonPaths,
-                            SizeBytes = new FileInfo(existingPath).Length,
-                            Sha256 = existingHash,
-                            Status = "unchanged",
-                            Error = null
-                        };
-                    }
+                        Kind = DetermineKind(detectedExisting.Extension, detectedExisting.ContentType),
+                        Extension = detectedExisting.Extension,
+                        ContentType = detectedExisting.ContentType,
+                        DestinationRepositoryPath = existingRelativePath,
+                        JsonPaths = jsonPaths,
+                        SizeBytes = new FileInfo(existingPath).Length,
+                        Sha256 = existingHash,
+                        Status = "unchanged",
+                        Error = null
+                    };
                 }
             }
 
@@ -202,29 +204,61 @@ public sealed class LegacyFirstEditionAssetImporter
                 return Failure(url, jsonPaths, $"HTTP {(int)response.StatusCode} {response.ReasonPhrase}");
             }
 
-            var contentType = response.Content.Headers.ContentType?.MediaType;
-            var extension = DetermineExtension(url, contentType);
-            var kind = DetermineKind(extension, contentType);
+            var headerContentType = response.Content.Headers.ContentType?.MediaType;
             var host = GetHost(url);
             var urlHash = ComputeSha256(Encoding.UTF8.GetBytes(url));
-            var safeName = BuildSafeName(url, urlHash, extension);
-            var relativePath = NormalizePath(Path.Combine("assets", "source", "legacy1e", SanitizeSegment(host), kind, safeName));
-            var destinationPath = Path.Combine(repositoryRoot, relativePath.Replace('/', Path.DirectorySeparatorChar));
-            var temporaryPath = destinationPath + ".download";
+            var downloadRoot = Path.Combine(destinationRoot, ".downloads");
+            Directory.CreateDirectory(downloadRoot);
+            var temporaryPath = Path.Combine(downloadRoot, $"{urlHash[..16]}.download");
 
-            Directory.CreateDirectory(Path.GetDirectoryName(destinationPath)!);
-            await using (var source = await response.Content.ReadAsStreamAsync())
-            await using (var target = File.Create(temporaryPath))
+            try
             {
-                await source.CopyToAsync(target);
-            }
+                await using (var source = await response.Content.ReadAsStreamAsync())
+                await using (var target = File.Create(temporaryPath))
+                {
+                    await source.CopyToAsync(target);
+                }
 
-            var hash = ComputeSha256(temporaryPath);
-            var size = new FileInfo(temporaryPath).Length;
+                var detected = DetectContent(temporaryPath, headerContentType);
+                if (detected.IsHtml)
+                {
+                    return Failure(url, jsonPaths, "The downloaded response was an HTML page rather than an asset.");
+                }
 
-            if (contentHashPaths.TryGetValue(hash, out var duplicatePath) && File.Exists(duplicatePath))
-            {
-                File.Delete(temporaryPath);
+                var extension = detected.Extension != ".bin"
+                    ? detected.Extension
+                    : DetermineExtension(url, headerContentType);
+                var contentType = detected.ContentType ?? headerContentType;
+                var kind = DetermineKind(extension, contentType);
+                var safeName = BuildSafeName(url, urlHash, extension);
+                var relativePath = NormalizePath(Path.Combine("assets", "source", "legacy1e", SanitizeSegment(host), kind, safeName));
+                var destinationPath = Path.Combine(repositoryRoot, relativePath.Replace('/', Path.DirectorySeparatorChar));
+
+                var hash = ComputeSha256(temporaryPath);
+                var size = new FileInfo(temporaryPath).Length;
+
+                if (contentHashPaths.TryGetValue(hash, out var duplicatePath) && File.Exists(duplicatePath))
+                {
+                    return new LegacyAssetImportEntry
+                    {
+                        AssetId = $"AST-{hash[..16].ToUpperInvariant()}",
+                        SourceUrl = url,
+                        Host = host,
+                        Kind = kind,
+                        Extension = extension,
+                        ContentType = contentType,
+                        DestinationRepositoryPath = NormalizePath(Path.GetRelativePath(repositoryRoot, duplicatePath)),
+                        SizeBytes = size,
+                        Sha256 = hash,
+                        JsonPaths = jsonPaths,
+                        Status = "duplicate-content"
+                    };
+                }
+
+                Directory.CreateDirectory(Path.GetDirectoryName(destinationPath)!);
+                File.Move(temporaryPath, destinationPath, overwrite: true);
+                contentHashPaths[hash] = destinationPath;
+
                 return new LegacyAssetImportEntry
                 {
                     AssetId = $"AST-{hash[..16].ToUpperInvariant()}",
@@ -233,37 +267,140 @@ public sealed class LegacyFirstEditionAssetImporter
                     Kind = kind,
                     Extension = extension,
                     ContentType = contentType,
-                    DestinationRepositoryPath = NormalizePath(Path.GetRelativePath(repositoryRoot, duplicatePath)),
+                    DestinationRepositoryPath = relativePath,
                     SizeBytes = size,
                     Sha256 = hash,
                     JsonPaths = jsonPaths,
-                    Status = "duplicate-content"
+                    Status = "downloaded"
                 };
             }
-
-            File.Move(temporaryPath, destinationPath, overwrite: true);
-            contentHashPaths[hash] = destinationPath;
-
-            return new LegacyAssetImportEntry
+            finally
             {
-                AssetId = $"AST-{hash[..16].ToUpperInvariant()}",
-                SourceUrl = url,
-                Host = host,
-                Kind = kind,
-                Extension = extension,
-                ContentType = contentType,
-                DestinationRepositoryPath = relativePath,
-                SizeBytes = size,
-                Sha256 = hash,
-                JsonPaths = jsonPaths,
-                Status = "downloaded"
-            };
+                if (File.Exists(temporaryPath))
+                {
+                    File.Delete(temporaryPath);
+                }
+            }
         }
         catch (Exception exception)
         {
             return Failure(url, jsonPaths, exception.Message);
         }
     }
+
+    private static bool TryResolvePreviousFile(
+        LegacyAssetImportEntry previous,
+        string repositoryRoot,
+        out string resolvedPath)
+    {
+        resolvedPath = string.Empty;
+        if (string.IsNullOrWhiteSpace(previous.DestinationRepositoryPath))
+        {
+            return false;
+        }
+
+        var recordedPath = Path.Combine(
+            repositoryRoot,
+            previous.DestinationRepositoryPath.Replace('/', Path.DirectorySeparatorChar));
+        if (File.Exists(recordedPath))
+        {
+            resolvedPath = recordedPath;
+            return true;
+        }
+
+        var directory = Path.GetDirectoryName(recordedPath);
+        var stem = Path.GetFileNameWithoutExtension(recordedPath);
+        if (string.IsNullOrWhiteSpace(directory) || string.IsNullOrWhiteSpace(stem) || !Directory.Exists(directory))
+        {
+            return false;
+        }
+
+        foreach (var candidate in Directory.EnumerateFiles(directory, stem + ".*").OrderBy(path => path, StringComparer.OrdinalIgnoreCase))
+        {
+            if (!string.IsNullOrWhiteSpace(previous.Sha256)
+                && !ComputeSha256(candidate).Equals(previous.Sha256, StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            resolvedPath = candidate;
+            return true;
+        }
+
+        return false;
+    }
+
+    private static DetectedContent DetectContent(string path, string? headerContentType)
+    {
+        using var stream = File.OpenRead(path);
+        var bufferLength = (int)Math.Min(64 * 1024, stream.Length);
+        var buffer = new byte[bufferLength];
+        var bytesRead = stream.Read(buffer, 0, buffer.Length);
+        var span = buffer.AsSpan(0, bytesRead);
+
+        if (StartsWith(span, 0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A)) return new(".png", "image/png");
+        if (StartsWith(span, 0xFF, 0xD8, 0xFF)) return new(".jpg", "image/jpeg");
+        if (StartsWith(span, 0x47, 0x49, 0x46, 0x38)) return new(".gif", "image/gif");
+        if (StartsWith(span, 0x42, 0x4D)) return new(".bmp", "image/bmp");
+        if (StartsWith(span, 0x44, 0x44, 0x53, 0x20)) return new(".dds", "image/vnd-ms.dds");
+        if (StartsWith(span, 0x52, 0x49, 0x46, 0x46) && ContainsAscii(span, "WEBP")) return new(".webp", "image/webp");
+        if (StartsWith(span, 0x4F, 0x67, 0x67, 0x53)) return new(".ogg", "audio/ogg");
+        if (StartsWith(span, 0x49, 0x44, 0x33)) return new(".mp3", "audio/mpeg");
+        if (StartsWith(span, 0x50, 0x4B, 0x03, 0x04)) return new(".zip", "application/zip");
+        if (StartsWith(span, 0x1F, 0x8B)) return new(".gz", "application/gzip");
+        if (StartsWithAscii(span, "UnityFS")) return new(".assetbundle", "application/octet-stream");
+        if (StartsWithAscii(span, "glTF")) return new(".glb", "model/gltf-binary");
+
+        var text = Encoding.UTF8.GetString(span);
+        var trimmed = text.TrimStart('\uFEFF', ' ', '\t', '\r', '\n');
+        if (trimmed.StartsWith("<!DOCTYPE html", StringComparison.OrdinalIgnoreCase)
+            || trimmed.StartsWith("<html", StringComparison.OrdinalIgnoreCase))
+        {
+            return new(".html", "text/html", IsHtml: true);
+        }
+
+        if (LooksLikeWavefrontObj(text)) return new(".obj", "model/obj");
+        if (trimmed.StartsWith("{", StringComparison.Ordinal) || trimmed.StartsWith("[", StringComparison.Ordinal))
+        {
+            return new(".json", "application/json");
+        }
+
+        if (trimmed.StartsWith("<svg", StringComparison.OrdinalIgnoreCase)
+            || trimmed.Contains("<svg", StringComparison.OrdinalIgnoreCase))
+        {
+            return new(".svg", "image/svg+xml");
+        }
+
+        if (!string.IsNullOrWhiteSpace(headerContentType)
+            && ContentTypeExtensions.TryGetValue(headerContentType, out var mappedExtension))
+        {
+            return new(mappedExtension, headerContentType);
+        }
+
+        return new(".bin", headerContentType);
+    }
+
+    private static bool LooksLikeWavefrontObj(string text)
+    {
+        var hasVertex = Regex.IsMatch(text, @"(?m)^\s*v\s+[-+]?(?:\d|\.)");
+        if (!hasVertex)
+        {
+            return false;
+        }
+
+        var hasFace = Regex.IsMatch(text, @"(?m)^\s*f\s+\S+");
+        var hasStructure = Regex.IsMatch(text, @"(?m)^\s*(?:mtllib|usemtl|o|g|vt|vn|s)\s+\S+");
+        return hasFace || hasStructure;
+    }
+
+    private static bool StartsWith(ReadOnlySpan<byte> bytes, params byte[] signature)
+        => bytes.Length >= signature.Length && bytes[..signature.Length].SequenceEqual(signature);
+
+    private static bool StartsWithAscii(ReadOnlySpan<byte> bytes, string value)
+        => StartsWith(bytes, Encoding.ASCII.GetBytes(value));
+
+    private static bool ContainsAscii(ReadOnlySpan<byte> bytes, string value)
+        => Encoding.ASCII.GetString(bytes).Contains(value, StringComparison.Ordinal);
 
     private static void CollectReferences(JsonElement element, string path, List<LegacyAssetReference> references)
     {
@@ -566,6 +703,8 @@ public sealed class LegacyFirstEditionAssetImporter
 
     private static string NormalizePath(string path) => path.Replace('\\', '/');
 }
+
+internal sealed record DetectedContent(string Extension, string? ContentType, bool IsHtml = false);
 
 public sealed record LegacyAssetReference(string Url, string JsonPath);
 

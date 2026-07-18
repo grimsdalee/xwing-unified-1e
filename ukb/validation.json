@@ -4,6 +4,12 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A13E8AC4FD049948",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-49D0B58A1DCA7683",
       "message": "The source could not be downloaded."
     },
@@ -34,8 +40,80 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8743DFE85AC926F6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B0B762ED9D3491A8",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-99B448A20721E253",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-AAA0569EC890F874",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-FAA5159F0864C61B",
       "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-12AE5402AE696F57",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-131D27368C58E617",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0D395C31FBDBEE8F",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-314EB66DC760B9A6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A6D31458131F30A6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-74966617AD763375",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7D533F1E68E2788B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-98A1F6F5F788389B",
+      "message": "The source could not be downloaded."
     },
     {
       "severity": "warning",
@@ -382,6 +460,330 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E4C8D2D905BD816D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5116E93FE5CBF393",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C99946FF6D5D3E33",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7627EF997849820B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0427AE9CB3A8A11A",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0901A98647038DBB",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-44C6141BF7B66F45",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-949FC08FAE1290C6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F22E69ABB22AFE4C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C85170E357A4975C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-85D1E6C375220C9F",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-135AC9DEA35D0D1D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B4E69344AFB694CA",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A49645074B5110FE",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8A8DA7185C73D609",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A2EE33DB1FB5F31D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-15EE4266D2269F6C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5BB9D0767D17FFE7",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A2B8F127D006D6F0",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-89DB5C76972D5B52",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8444433B4D8321F1",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7DEF02132EC12944",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E4F3F6AC7CAD92F6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-091D0DDC0EB3C434",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D615F51D03704C08",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-37852B58D6860B39",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3924F76BF97E61B4",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-470ECFE56B9F116C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-608214851C34A2C6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-386DF925F3C4A991",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F8284AD32F92E5F5",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-40BB6B0E4FCBACE7",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6CBABEAB3F5FB79E",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-064A6E7FA680546D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CC9E59FDAB33492B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-66A2C7806BF2D5EC",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7F997FFBF00B08EC",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-FADCD0CB2E0C3756",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5673CF7EEAE9265D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8B523348429A41AA",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0AE7417D36AC3066",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-97FA98CFC3880BF8",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-68F617EAF066B0C2",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-144EC556E73C7BDA",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-26CC9BA3786F842F",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-257698F1BEFE862F",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B32CE2B8CCA7A62D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-FF9B83BABDF8A283",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-85D371F4ADAE303C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4475319D3B070304",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-85DA48A8F8545017",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C9A97281531DE906",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-304151AEEB5F3FD4",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-185404BD83F9CEE7",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-61D60A5FFBC8CE6E",
       "message": "The source could not be downloaded."
     },
@@ -406,8 +808,92 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-27B73A65C22A346F",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-09FB1ABF9BCA42BC",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F5E534F5198CAB10",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-60153044A308349B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-9E372E241642B8C0",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6AEE44C099C90ADF",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8227A125982596D5",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-1A366658CA0EB067",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-921FBBC8E48665E2",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B31888E41B3FA302",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-FD3611066D36B27D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-0DAA8F05C91621D2",
       "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B302EDDD65F6DD73",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A1A7F59F6416DD22",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-00212D35A60A2976",
+      "message": "The source could not be downloaded."
     },
     {
       "severity": "warning",
@@ -856,6 +1342,54 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F8B77D79A59AF82B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-270C2482690A5731",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3BF704CA6E757C26",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D654E42DBF52622D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6894D3F5C410C677",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-9B7BAE6D0E684791",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-57C9E087A6F67B6E",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-560C7B3DB22B85BF",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-C6B4FECBC67E38B4",
       "message": "HTTP 404 Not Found"
     },
@@ -988,8 +1522,182 @@
     {
       "severity": "warning",
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4F31D756D95DB19B",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4205EA310D3EB620",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4F0D87022A86B06D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-893D979A7FF43B5A",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D865B25D6E3C73C4",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5F2E03C95ABA6825",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3F54810C549A2EBB",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7262C31ECF5DE5DD",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7EC178285F0865BA",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-005447A3DD934EB9",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E32144D08916AE0E",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6C21FDEC31BCCE90",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5506824428352A59",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-812525705080BABB",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-BB179CED30124119",
       "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7E1DD1A82CECA32A",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-08C4F55F5B09C713",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6399115905C4DFF2",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3BBDA7C129BCB4E0",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E7A56E0E60897D10",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-11A4CB00A7691E6A",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7A75C3DEDEF70084",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A8F5FE0246709993",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-2D6E5CE97AED0766",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-1248F3C878F1F0A5",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B80F8B192EEB9801",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-9614700BE802D522",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7397588122EE10DC",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-99CA394B4A5A3AC4",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7C7A78A8D9B90DC3",
+      "message": "The source could not be downloaded."
     },
     {
       "severity": "warning",
@@ -1002,6 +1710,66 @@
       "code": "UKB-ASSET-DOWNLOAD-FAILED",
       "subjectId": "SRC-DB5BB828C72B5AA7",
       "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-5B0946B7DA2C7459",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A53F5858F6736E84",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0C8CDBC1EC3FE876",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-467C9A1BD05BEE88",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-64087B84870DFBC9",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-200520AC04235BF6",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0DACD36EBB9E9A7D",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-17E110729773A17C",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3DC9DC31C28FA659",
+      "message": "The source could not be downloaded."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-9AF76DADF9E4B2AE",
+      "message": "The source could not be downloaded."
     },
     {
       "severity": "warning",

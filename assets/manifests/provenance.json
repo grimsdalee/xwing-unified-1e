@@ -1,109 +1,5 @@
 [
   {
-    "assetId": "AST-C4280030C6E2306E",
-    "repositoryPath": "assets/source/legacy1e/api.tabletopsimulator.com/other/asset__a13e8ac4fd049948.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-1D979EDDA1B45AC6",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/asset__131d27368c58e617.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-60C9950C53DFB705",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/Credits__314eb66dc760b9a6.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-94274914017B4FD3",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/Doc_-Commands__a6d31458131f30a6.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DB320F46735A726A",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/Doc_-List-Building__74966617ad763375.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-C5824A552BDD6DC7",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/Tabletop-Simulator-Misc__8743dfe85ac926f6.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E98060E4353435C6",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/TTS_lib__b0b762ed9d3491a8.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7BF321E118732B78",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/TTS_xwing__12ae5402ae696f57.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0BF46F5C4078FB05",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/TTS_xwing__99b448a20721e253.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-78505DB03FBB134E",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/Update-roundup_-v1__7d533f1e68e2788b.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A1FECF9C5F13EBDD",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/wiki__0d395c31fbdbee8f.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-FD0684D84B69E026",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/wiki__aaa0569ec890f874.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-14575B26035FD97C",
-    "repositoryPath": "assets/source/legacy1e/github.com/other/xwing_traj__98a1f6f5f788389b.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-86A2B5528A6233C1",
     "repositoryPath": "assets/source/legacy1e/images-cdn.fantasyflightgames.com/documents/swx36_rulesreference__46ec07f0cb58f87f.pdf",
     "origin": "legacy1e",
@@ -114,14 +10,6 @@
   {
     "assetId": "AST-23DDCD53F6628A51",
     "repositoryPath": "assets/source/legacy1e/images-cdn.fantasyflightgames.com/documents/x-wing_faq_v411__dbad050a8795d22a.pdf",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-FF86F5560FEE5A76",
-    "repositoryPath": "assets/source/legacy1e/steamcommunity.com/other/asset__e4c8d2d905bd816d.bin",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5265,7 +5153,7 @@
   },
   {
     "assetId": "AST-EF9E3EDF519F2750",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__00212d35a60a2976.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__00212d35a60a2976.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5273,7 +5161,7 @@
   },
   {
     "assetId": "AST-C33CFBF189153DFD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__005447a3dd934eb9.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__005447a3dd934eb9.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5281,7 +5169,7 @@
   },
   {
     "assetId": "AST-5CE51FE991521A55",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0427ae9cb3a8a11a.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0427ae9cb3a8a11a.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5289,7 +5177,7 @@
   },
   {
     "assetId": "AST-2BD547B6DB7A1983",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5297,7 +5185,7 @@
   },
   {
     "assetId": "AST-1A03A8C42DEB7CE0",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__08c4f55f5b09c713.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__08c4f55f5b09c713.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5305,7 +5193,7 @@
   },
   {
     "assetId": "AST-9390D182B2D87F02",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0901a98647038dbb.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0901a98647038dbb.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5313,7 +5201,7 @@
   },
   {
     "assetId": "AST-91182F59BBF9A813",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__091d0ddc0eb3c434.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__091d0ddc0eb3c434.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5321,7 +5209,7 @@
   },
   {
     "assetId": "AST-CCD92C7CA91F31DD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__09fb1abf9bca42bc.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__09fb1abf9bca42bc.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5329,7 +5217,7 @@
   },
   {
     "assetId": "AST-CF389F9935234FF0",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0ae7417d36ac3066.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0ae7417d36ac3066.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5337,7 +5225,7 @@
   },
   {
     "assetId": "AST-83C591A6A37A652F",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0c8cdbc1ec3fe876.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0c8cdbc1ec3fe876.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5345,7 +5233,7 @@
   },
   {
     "assetId": "AST-C8F1211F0E0A29EA",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0dacd36ebb9e9a7d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__0dacd36ebb9e9a7d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5353,7 +5241,7 @@
   },
   {
     "assetId": "AST-DFF1BEEE2B8AD31A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__11a4cb00a7691e6a.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__11a4cb00a7691e6a.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5361,7 +5249,7 @@
   },
   {
     "assetId": "AST-5DA22F1CFBC354E3",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__1248f3c878f1f0a5.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__1248f3c878f1f0a5.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5369,7 +5257,7 @@
   },
   {
     "assetId": "AST-442B4BFEFC86B31C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__135ac9dea35d0d1d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__135ac9dea35d0d1d.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5377,7 +5265,7 @@
   },
   {
     "assetId": "AST-0841698B83AE65B4",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__144ec556e73c7bda.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5385,7 +5273,7 @@
   },
   {
     "assetId": "AST-C5EC2A4F6C7866E4",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__15ee4266d2269f6c.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__15ee4266d2269f6c.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5393,15 +5281,7 @@
   },
   {
     "assetId": "AST-95BC3D8F9B251907",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__17e110729773a17c.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0E1563A96EE39AAD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__185404bd83f9cee7.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__17e110729773a17c.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5409,7 +5289,7 @@
   },
   {
     "assetId": "AST-12A014A3D311566E",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__1a366658ca0eb067.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__1a366658ca0eb067.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5417,7 +5297,7 @@
   },
   {
     "assetId": "AST-E6B4AFD7B53C06E8",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__200520ac04235bf6.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__200520ac04235bf6.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5425,7 +5305,7 @@
   },
   {
     "assetId": "AST-E8B76FF0EB148C65",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__257698f1befe862f.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__257698f1befe862f.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5433,7 +5313,7 @@
   },
   {
     "assetId": "AST-AD7F55EE04D9D9C9",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__26cc9ba3786f842f.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__26cc9ba3786f842f.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5441,7 +5321,7 @@
   },
   {
     "assetId": "AST-D26C943F88D57CBF",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__270c2482690a5731.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__270c2482690a5731.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5449,7 +5329,7 @@
   },
   {
     "assetId": "AST-323C8115FE799E83",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__27b73a65c22a346f.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__27b73a65c22a346f.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5457,15 +5337,7 @@
   },
   {
     "assetId": "AST-7767D871B9198CCF",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__2d6e5ce97aed0766.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-69CC1AF22AB8A487",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__304151aeeb5f3fd4.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__2d6e5ce97aed0766.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5473,7 +5345,7 @@
   },
   {
     "assetId": "AST-6D87C7F6B904CEE3",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__37852b58d6860b39.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__37852b58d6860b39.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5481,7 +5353,7 @@
   },
   {
     "assetId": "AST-37DE44820A09E1DF",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5489,7 +5361,7 @@
   },
   {
     "assetId": "AST-67A20991514F6A34",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3924f76bf97e61b4.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3924f76bf97e61b4.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5497,7 +5369,7 @@
   },
   {
     "assetId": "AST-F91703D29C862AE3",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bbda7c129bcb4e0.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bbda7c129bcb4e0.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5505,7 +5377,7 @@
   },
   {
     "assetId": "AST-83B09773E6698B57",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bf704ca6e757c26.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bf704ca6e757c26.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5513,7 +5385,7 @@
   },
   {
     "assetId": "AST-8B8D9A698AA729DF",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3dc9dc31c28fa659.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3dc9dc31c28fa659.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5521,7 +5393,7 @@
   },
   {
     "assetId": "AST-4FB2E91FE859DF3F",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3f54810c549a2ebb.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3f54810c549a2ebb.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5529,7 +5401,7 @@
   },
   {
     "assetId": "AST-5EAB0926CE098624",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__40bb6b0e4fcbace7.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__40bb6b0e4fcbace7.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5537,7 +5409,7 @@
   },
   {
     "assetId": "AST-AEE4CDD6375FC952",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4205ea310d3eb620.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4205ea310d3eb620.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5545,7 +5417,7 @@
   },
   {
     "assetId": "AST-3FCBA881EC05F279",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__44c6141bf7b66f45.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__44c6141bf7b66f45.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5553,7 +5425,7 @@
   },
   {
     "assetId": "AST-D9AACA0EFD75AF7F",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__467c9a1bd05bee88.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__467c9a1bd05bee88.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5561,7 +5433,7 @@
   },
   {
     "assetId": "AST-C072E6978D51235A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__470ecfe56b9f116c.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__470ecfe56b9f116c.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5569,7 +5441,7 @@
   },
   {
     "assetId": "AST-BABD93D736236920",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4f0d87022a86b06d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4f0d87022a86b06d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5577,7 +5449,7 @@
   },
   {
     "assetId": "AST-252F61BCD7C08CB8",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4f31d756d95db19b.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__4f31d756d95db19b.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5585,7 +5457,7 @@
   },
   {
     "assetId": "AST-F29B679B8BDF136A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5116e93fe5cbf393.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5116e93fe5cbf393.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5593,7 +5465,7 @@
   },
   {
     "assetId": "AST-F5A6B16CB5DC04F6",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__560c7b3db22b85bf.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__560c7b3db22b85bf.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5601,7 +5473,7 @@
   },
   {
     "assetId": "AST-5A5B9E98EE159F32",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5673cf7eeae9265d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5673cf7eeae9265d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5609,7 +5481,7 @@
   },
   {
     "assetId": "AST-53350015D65D829A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5617,7 +5489,7 @@
   },
   {
     "assetId": "AST-701C4C6EC37F2758",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5b0946b7da2c7459.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5b0946b7da2c7459.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5625,7 +5497,7 @@
   },
   {
     "assetId": "AST-0BFCB433B473C457",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5bb9d0767d17ffe7.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5bb9d0767d17ffe7.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5633,7 +5505,7 @@
   },
   {
     "assetId": "AST-B5A10E1CE91F4704",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5f2e03c95aba6825.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__5f2e03c95aba6825.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5641,7 +5513,7 @@
   },
   {
     "assetId": "AST-E9983BBC7990BCF3",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__60153044a308349b.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__60153044a308349b.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5649,7 +5521,7 @@
   },
   {
     "assetId": "AST-4074EC53BD044A3D",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5657,7 +5529,7 @@
   },
   {
     "assetId": "AST-CA2813F74B7C5C61",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6399115905c4dff2.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6399115905c4dff2.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5665,7 +5537,7 @@
   },
   {
     "assetId": "AST-87FC272289C427F1",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__64087b84870dfbc9.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__64087b84870dfbc9.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5673,7 +5545,7 @@
   },
   {
     "assetId": "AST-E746CC3CBB92CF11",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__66a2c7806bf2d5ec.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__66a2c7806bf2d5ec.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5681,7 +5553,7 @@
   },
   {
     "assetId": "AST-A5B4DAA3B1E6F2C0",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6894d3f5c410c677.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6894d3f5c410c677.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5689,7 +5561,7 @@
   },
   {
     "assetId": "AST-AFBBD14D2B1A2540",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__68f617eaf066b0c2.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__68f617eaf066b0c2.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5697,7 +5569,7 @@
   },
   {
     "assetId": "AST-364720EECF1FB737",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6aee44c099c90adf.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6aee44c099c90adf.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5705,7 +5577,7 @@
   },
   {
     "assetId": "AST-F5B3D84BB5F4DC44",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6c21fdec31bcce90.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6c21fdec31bcce90.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5713,7 +5585,7 @@
   },
   {
     "assetId": "AST-B03906281CAA2DEE",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6cbabeab3f5fb79e.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6cbabeab3f5fb79e.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5721,7 +5593,7 @@
   },
   {
     "assetId": "AST-FBFE674FB68B083D",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7262c31ecf5de5dd.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7262c31ecf5de5dd.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5729,7 +5601,7 @@
   },
   {
     "assetId": "AST-F1FDBD46153749EA",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7397588122ee10dc.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7397588122ee10dc.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5737,7 +5609,7 @@
   },
   {
     "assetId": "AST-3A5316BAC0732374",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7627ef997849820b.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7627ef997849820b.jpg",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5745,7 +5617,7 @@
   },
   {
     "assetId": "AST-0EC4496F19174F4D",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7a75c3dedef70084.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7a75c3dedef70084.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5753,7 +5625,7 @@
   },
   {
     "assetId": "AST-F0A28DB06689C2B7",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7c7a78a8d9b90dc3.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7c7a78a8d9b90dc3.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5761,7 +5633,7 @@
   },
   {
     "assetId": "AST-F4C5A0316F2C4212",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7def02132ec12944.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7def02132ec12944.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5769,7 +5641,7 @@
   },
   {
     "assetId": "AST-BAAB42F295BBD0AD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7e1dd1a82ceca32a.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7e1dd1a82ceca32a.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5777,7 +5649,7 @@
   },
   {
     "assetId": "AST-910DB7CD12D5C159",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7ec178285f0865ba.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7ec178285f0865ba.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5785,7 +5657,7 @@
   },
   {
     "assetId": "AST-A11F7FCB192CAB86",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7f997ffbf00b08ec.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7f997ffbf00b08ec.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5793,7 +5665,7 @@
   },
   {
     "assetId": "AST-1DF1F4D03CD685C6",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__812525705080babb.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__812525705080babb.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5801,7 +5673,7 @@
   },
   {
     "assetId": "AST-3CAC7B95219CC1F5",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8227a125982596d5.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8227a125982596d5.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5809,7 +5681,7 @@
   },
   {
     "assetId": "AST-6849CE9A527A1BEC",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8444433b4d8321f1.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8444433b4d8321f1.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5817,15 +5689,7 @@
   },
   {
     "assetId": "AST-523E84B55EFDEE06",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__85d1e6c375220c9f.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-982577B941335C5F",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__85da48a8f8545017.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__85d1e6c375220c9f.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5833,7 +5697,7 @@
   },
   {
     "assetId": "AST-2A79B9DD6DC6C8D2",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__893d979a7ff43b5a.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__893d979a7ff43b5a.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5841,7 +5705,7 @@
   },
   {
     "assetId": "AST-7689A41F33DDB0AD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__89db5c76972d5b52.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__89db5c76972d5b52.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5849,7 +5713,7 @@
   },
   {
     "assetId": "AST-7F1CDCC1D7EDB45C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8a8da7185c73d609.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8a8da7185c73d609.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5857,7 +5721,7 @@
   },
   {
     "assetId": "AST-081EF67BF273E54C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8b523348429a41aa.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8b523348429a41aa.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5865,7 +5729,7 @@
   },
   {
     "assetId": "AST-ABA1B1F069282D61",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__921fbbc8e48665e2.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__921fbbc8e48665e2.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5873,7 +5737,7 @@
   },
   {
     "assetId": "AST-8178055B9D0375F5",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__949fc08fae1290c6.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__949fc08fae1290c6.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5881,7 +5745,7 @@
   },
   {
     "assetId": "AST-911A15AE7F51499C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9614700be802d522.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9614700be802d522.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5889,7 +5753,7 @@
   },
   {
     "assetId": "AST-10F78048C52387FD",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__97fa98cfc3880bf8.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__97fa98cfc3880bf8.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5897,7 +5761,7 @@
   },
   {
     "assetId": "AST-32F59747F99D7F5A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__99ca394b4a5a3ac4.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__99ca394b4a5a3ac4.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5905,7 +5769,7 @@
   },
   {
     "assetId": "AST-0C55B7D6BFF1743C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9b7bae6d0e684791.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9b7bae6d0e684791.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5913,7 +5777,7 @@
   },
   {
     "assetId": "AST-531E800C60859120",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9e372e241642b8c0.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__9e372e241642b8c0.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5921,7 +5785,7 @@
   },
   {
     "assetId": "AST-ECAEC1F05789C138",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a1a7f59f6416dd22.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a1a7f59f6416dd22.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5929,7 +5793,7 @@
   },
   {
     "assetId": "AST-B64B69318D75112D",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a2b8f127d006d6f0.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a2b8f127d006d6f0.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5937,7 +5801,7 @@
   },
   {
     "assetId": "AST-860E71ED45A4448C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a2ee33db1fb5f31d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a2ee33db1fb5f31d.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5945,7 +5809,7 @@
   },
   {
     "assetId": "AST-9F9823ED4136D1E9",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a49645074b5110fe.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a49645074b5110fe.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5953,7 +5817,7 @@
   },
   {
     "assetId": "AST-07CABA58AF0C9AF7",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a53f5858f6736e84.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a53f5858f6736e84.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5961,7 +5825,7 @@
   },
   {
     "assetId": "AST-509A37FB8A96557E",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a8f5fe0246709993.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a8f5fe0246709993.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5969,7 +5833,7 @@
   },
   {
     "assetId": "AST-455379BED071770A",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b302eddd65f6dd73.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b302eddd65f6dd73.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5977,7 +5841,7 @@
   },
   {
     "assetId": "AST-50FB0F5A0EF4D300",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b31888e41b3fa302.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b31888e41b3fa302.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5985,7 +5849,7 @@
   },
   {
     "assetId": "AST-A97E2C5C8D54CE35",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -5993,7 +5857,7 @@
   },
   {
     "assetId": "AST-D3F2E1871B5EBA06",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b4e69344afb694ca.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b4e69344afb694ca.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6001,7 +5865,7 @@
   },
   {
     "assetId": "AST-EF97AAF7DCC92D4B",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b80f8b192eeb9801.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b80f8b192eeb9801.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6009,7 +5873,7 @@
   },
   {
     "assetId": "AST-7CA20AF352434ED3",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__c85170e357a4975c.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__c85170e357a4975c.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6017,15 +5881,7 @@
   },
   {
     "assetId": "AST-BB0354DF03AD354B",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__c99946ff6d5d3e33.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-4AEA70437B81D17B",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__c9a97281531de906.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__c99946ff6d5d3e33.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6033,7 +5889,7 @@
   },
   {
     "assetId": "AST-E5F9594C6C4DB713",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6041,7 +5897,7 @@
   },
   {
     "assetId": "AST-42CE78028F99A0D4",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d615f51d03704c08.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d615f51d03704c08.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6049,7 +5905,7 @@
   },
   {
     "assetId": "AST-5C3FD6429E093113",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d654e42dbf52622d.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d654e42dbf52622d.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6057,7 +5913,7 @@
   },
   {
     "assetId": "AST-B73FD6EE9652035C",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d865b25d6e3c73c4.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__d865b25d6e3c73c4.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6065,7 +5921,7 @@
   },
   {
     "assetId": "AST-44D3DF0404E976D8",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e32144d08916ae0e.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e32144d08916ae0e.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6073,7 +5929,7 @@
   },
   {
     "assetId": "AST-A45E2C9F8FBA60F6",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e4f3f6ac7cad92f6.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e4f3f6ac7cad92f6.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6081,7 +5937,7 @@
   },
   {
     "assetId": "AST-A25438D31F63A5BB",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e7a56e0e60897d10.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__e7a56e0e60897d10.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6089,7 +5945,7 @@
   },
   {
     "assetId": "AST-04922BB911C6D136",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f22e69abb22afe4c.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f22e69abb22afe4c.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6097,7 +5953,7 @@
   },
   {
     "assetId": "AST-8BC41D9F9D5C14F2",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f5e534f5198cab10.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f5e534f5198cab10.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6105,7 +5961,7 @@
   },
   {
     "assetId": "AST-48DA391E081368FF",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8284ad32f92e5f5.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8284ad32f92e5f5.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6113,7 +5969,7 @@
   },
   {
     "assetId": "AST-04A98046717F0CD0",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8b77d79a59af82b.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__f8b77d79a59af82b.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6121,7 +5977,7 @@
   },
   {
     "assetId": "AST-2247B1BE2FEA6841",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.bin",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.obj",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
@@ -6129,15 +5985,7 @@
   },
   {
     "assetId": "AST-5455BD4F6FE8C4A0",
-    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fd3611066d36b27d.bin",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-6050E122B09EED75",
-    "repositoryPath": "assets/source/legacy1e/tts-db.firebaseio.com/data/modLoadCount__9af76dadf9e4b2ae.json",
+    "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fd3611066d36b27d.png",
     "origin": "legacy1e",
     "isGenerated": false,
     "originalSource": null,
