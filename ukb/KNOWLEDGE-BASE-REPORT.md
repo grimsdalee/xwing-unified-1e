@@ -1,18 +1,18 @@
 # Unified Knowledge Base Report
 
-Generated: `2026-07-18T00:19:43.1988564+00:00`
+Generated: `2026-07-18T09:57:23.7252056+00:00`
 
 ## Assets domain
 
-- Files: **4211**
-- Unique content assets: **4030**
-- Total bytes: **2,023,906,571**
+- Files: **4156**
+- Unique content assets: **3975**
+- Total bytes: **1,996,803,770**
 - Duplicate files: **181**
-- Unavailable source references: **108**
+- Unavailable source references: **170**
 
 ## By warehouse
 
-- legacy1e: 823
+- legacy1e: 768
 - unified25: 3388
 
 ## By asset type
@@ -20,9 +20,9 @@ Generated: `2026-07-18T00:19:43.1988564+00:00`
 - image: 3071
 - model: 709
 - lua: 222
-- other: 143
-- text: 49
+- other: 132
 - xml: 13
+- text: 5
 - pdf: 3
 - json: 1
 
@@ -30,4 +30,4 @@ Generated: `2026-07-18T00:19:43.1988564+00:00`
 
 - Valid: **True**
 - Errors: **0**
-- Warnings: **108**
+- Warnings: **170**

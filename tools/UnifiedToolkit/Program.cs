@@ -60,6 +60,8 @@ return command switch
     "import-unified-assets" => ImportUnifiedAssetsCommand.Run(commandArgs),
     "import-legacy-first-edition-assets" => ImportLegacyFirstEditionAssetsCommand.Run(commandArgs),
     "build-knowledge-base" => BuildKnowledgeBaseCommand.Run(commandArgs),
+    "query-knowledge-base" => QueryKnowledgeBaseCommand.Run(commandArgs),
+    "link-ship-assets" => LinkShipAssetsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -117,6 +119,8 @@ static void ShowHelp()
     Console.WriteLine("  import-unified-assets <unified-repo-folder> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
     Console.WriteLine("  import-legacy-first-edition-assets <legacy-save.json> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
     Console.WriteLine("  build-knowledge-base <first-edition-repo-folder> [--output <folder>] [--no-refresh-catalogue]");
+    Console.WriteLine("  query-knowledge-base <first-edition-repo-folder> <stats|asset|search|duplicates|unavailable|validation> [arguments]");
+    Console.WriteLine("  link-ship-assets <first-edition-repo-folder> [--ships <ships.json>] [--candidates <1-50>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

@@ -345,6 +345,7 @@ public sealed class KnowledgeBaseDomains
     public List<KnowledgeBaseAsset> Assets { get; init; } = new();
     public List<KnowledgeBaseUnavailableSource> UnavailableSources { get; init; } = new();
     public List<KnowledgeBaseDuplicateGroup> DuplicateGroups { get; init; } = new();
+    public List<KnowledgeBaseShip> Ships { get; init; } = new();
 }
 
 public sealed class KnowledgeBaseAssetDomain
