@@ -144,14 +144,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-FAA24EC881E60406",
-    "repositoryPath": "assets/source/legacy1e/i.imgur.com/images/7w2BdHW__dcec08fb231f2984.png",
-    "origin": "legacy1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-86A2B5528A6233C1",
     "repositoryPath": "assets/source/legacy1e/images-cdn.fantasyflightgames.com/documents/swx36_rulesreference__46ec07f0cb58f87f.pdf",
     "origin": "legacy1e",

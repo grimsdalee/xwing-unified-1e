@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-17T23:47:33.5352374+00:00",
+  "generatedUtc": "2026-07-18T00:19:42.7599164+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 4212,
-  "uniqueAssets": 4031,
+  "totalFiles": 4211,
+  "uniqueAssets": 4030,
   "duplicateFiles": 181,
   "assets": [
     {
@@ -222,18 +222,6 @@
       "sizeBytes": 251293,
       "sha256": "14575b26035fd97c828a601abd52140a5d066dbfb7368c35805f12538d611be4",
       "lastWriteTimeUtc": "2026-07-17T23:42:29.6037033Z"
-    },
-    {
-      "assetId": "AST-FAA24EC881E60406",
-      "repositoryPath": "assets/source/legacy1e/i.imgur.com/images/7w2BdHW__dcec08fb231f2984.png",
-      "fileName": "7w2BdHW__dcec08fb231f2984.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "legacy1e",
-      "isGenerated": false,
-      "sizeBytes": 34641,
-      "sha256": "faa24ec881e6040655c187a681d6dc496eb8aa41e1bd0652a180b3a40b457187",
-      "lastWriteTimeUtc": "2026-07-17T23:42:15.4713717Z"
     },
     {
       "assetId": "AST-86A2B5528A6233C1",

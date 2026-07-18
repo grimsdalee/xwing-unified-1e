@@ -1,0 +1,653 @@
+{
+  "isValid": true,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-FAA5159F0864C61B",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-DCEC08FB231F2984",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-2076580D6F78FBD1",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-C0533F08B10A9728",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-EE52B3C5C0F28CA6",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-5B53C09525B27E4C",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-SOURCE-UNAVAILABLE",
+      "subjectId": "SRC-7FAB3B1AABF690CB",
+      "message": "Imgur returned inaccessible/placeholder content and the asset was manually confirmed unavailable."
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0DAA8F05C91621D2",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E3DB4C344B0357A9",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-15EAA2B9BAB86A75",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C14FC994BBE3FC8E",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-1655C403897C236A",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D5BF33B6561EAC4E",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-E6B825CCAC8C420F",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4076C8C085B1E2CE",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8D9864E75CD84ABD",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-ABB1AD2C810B8667",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-70EC3A91B99F6829",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C3665D258491C938",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3319F446BE3B1C7F",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-99B79C3EDC37B81B",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F2CEF2CC7B1062EF",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C2167A446411684C",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-68E26169214F49D3",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-455A0104EC59FB15",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-EBB8BDF4911E5616",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CFCA07636DF31C67",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6D647A406DE8B481",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-181345F3FCB5CA74",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-464D6928A5309DC6",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-887A6586F764A2CD",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4BB31D3D8B9C4345",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A031EFEFC0435449",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3A6CCD799867B980",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C7A5B3C66A9923B4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-9400F299E5EE40CE",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0258EE889FDC647B",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-2F971C62EBBAD3B3",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7879BCB73818A8B0",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CE42753438BD8B00",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-69B09EA47E0853DD",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-235DB726C3A5E833",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-04550F9F9D2CA2FB",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0D3C23A2F53869CE",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-EC2B16655458036A",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B49384DFD2577AA4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CE01217123E974AD",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-4CE489B4E213D5C4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D33BC7CEC38E81CA",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B10E6FD58E74D48A",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CECCC179B3E47AE6",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-647CFD0B51CD7D0F",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-14F11B50B0A5A040",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-62FA5DA258741A38",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-11862AD6CAD4CA67",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-19743DB63ECEF5BB",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-969C9BA80EFA6D0C",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-AC634D2092AEEA96",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D08C87880CC78094",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F0917D180E43E386",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-EF6B1127FA28B2A8",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D3B447AE6BEA6353",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3BB6F90A464BA0E4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D94F9F3B72C07316",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-98CAD42639964820",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3FB80187F3FD6909",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-A664BCC0636D24F3",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B5FD05EE21AEB5CA",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-61DB9B0271A4E3A0",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-93A919F31193B2D5",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3CD6D9CE884AD49E",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-6A0B082B1DFCA9AE",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7C9434D929FA4BFF",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-88875EC66AA5C05A",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B8BCD234D66EE24C",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-FF82583B6DB3FA26",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-0A685F34400D9B7C",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-7A795C6E89BD245C",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-DB8449B4F7CC92E9",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-AACC57337510141F",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-D37E2DDA3D9216B4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-09B11CB1BCC0D06F",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C6B4FECBC67E38B4",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-951EA3B02FC950CA",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-CF890580C012799D",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-3B4321D4D966EF50",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F9A20AD98AE5B198",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-402764E10EBAB41D",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C34A27E3D05B06DE",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-938A3FD4E9B7599B",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-1959F1ED41DCD835",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-67741B9714F7ABF6",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-DDEFC111F61B0062",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-F6DA67CD15A1DEE5",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B02F7C7219825C41",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-136C171F79907F7D",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-8BC57C4CF4A138F3",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-60A975AF3B14B941",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-BCEE2CC66EC89BBF",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-503D18D71B8300C5",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-2614F94A173A5EE0",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-C79EBC0BCD190EB3",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-B67B2C3AED64FF17",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-1561E456EAA1CB36",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-BB179CED30124119",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-432152EB56A5F16E",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-DB5BB828C72B5AA7",
+      "message": "HTTP 404 Not Found"
+    },
+    {
+      "severity": "warning",
+      "code": "UKB-ASSET-DOWNLOAD-FAILED",
+      "subjectId": "SRC-535A130F4D18A3D0",
+      "message": "HTTP 403 Forbidden"
+    }
+  ]
+}

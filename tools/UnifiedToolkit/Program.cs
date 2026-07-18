@@ -59,6 +59,7 @@ return command switch
     "catalogue-repository-assets" => CatalogueRepositoryAssetsCommand.Run(commandArgs),
     "import-unified-assets" => ImportUnifiedAssetsCommand.Run(commandArgs),
     "import-legacy-first-edition-assets" => ImportLegacyFirstEditionAssetsCommand.Run(commandArgs),
+    "build-knowledge-base" => BuildKnowledgeBaseCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -115,6 +116,7 @@ static void ShowHelp()
     Console.WriteLine("  catalogue-repository-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-unified-assets <unified-repo-folder> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
     Console.WriteLine("  import-legacy-first-edition-assets <legacy-save.json> <first-edition-repo-folder> [--dry-run] [--output <folder>]");
+    Console.WriteLine("  build-knowledge-base <first-edition-repo-folder> [--output <folder>] [--no-refresh-catalogue]");
 }
 
 static int UnknownCommand(string command)

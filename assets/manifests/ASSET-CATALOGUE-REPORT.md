@@ -1,20 +1,20 @@
 # Asset Catalogue Report
 
-Generated: 2026-07-17T23:47:33.5352374+00:00
+Generated: 2026-07-18T00:19:42.7599164+00:00
 
-- Total files: 4212
-- Unique assets: 4031
+- Total files: 4211
+- Unique assets: 4030
 - Duplicate files: 181
 - Duplicate hash groups: 161
 
 ## By origin
 
-- legacy1e: 824
+- legacy1e: 823
 - unified25: 3388
 
 ## By file kind
 
-- image: 3072
+- image: 3071
 - model: 709
 - lua: 222
 - other: 143
