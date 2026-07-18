@@ -11,6 +11,7 @@ public sealed class ShipAssetLinkingService
     private readonly ShipAssetEligibilityFilter eligibilityFilter;
     private readonly ShipAssetCandidateScorer candidateScorer;
     private readonly ShipAssetCandidateClassifier candidateClassifier;
+    private readonly ShipAssetCandidateEvidencePolicy evidencePolicy;
     private readonly ShipAssetReferenceUpdater referenceUpdater;
     private readonly ShipAssetLinkOutputWriter outputWriter;
     private readonly LegacyAssetContextReportWriter contextReportWriter;
@@ -21,6 +22,7 @@ public sealed class ShipAssetLinkingService
         ShipAssetEligibilityFilter eligibilityFilter,
         ShipAssetCandidateScorer candidateScorer,
         ShipAssetCandidateClassifier candidateClassifier,
+        ShipAssetCandidateEvidencePolicy evidencePolicy,
         ShipAssetReferenceUpdater referenceUpdater,
         ShipAssetLinkOutputWriter outputWriter,
         LegacyAssetContextReportWriter contextReportWriter)
@@ -30,6 +32,7 @@ public sealed class ShipAssetLinkingService
         this.eligibilityFilter = eligibilityFilter;
         this.candidateScorer = candidateScorer;
         this.candidateClassifier = candidateClassifier;
+        this.evidencePolicy = evidencePolicy;
         this.referenceUpdater = referenceUpdater;
         this.outputWriter = outputWriter;
         this.contextReportWriter = contextReportWriter;
@@ -44,6 +47,7 @@ public sealed class ShipAssetLinkingService
             new ShipAssetEligibilityFilter(contextMatcher),
             new ShipAssetCandidateScorer(contextMatcher),
             new ShipAssetCandidateClassifier(),
+            new ShipAssetCandidateEvidencePolicy(),
             new ShipAssetReferenceUpdater(),
             ShipAssetLinkOutputWriter.CreateDefault(),
             new LegacyAssetContextReportWriter());
@@ -128,6 +132,7 @@ public sealed class ShipAssetLinkingService
                 item.Contexts,
                 baseSize))
             .Where(candidate => candidate.Score >= 35)
+            .Where(candidate => evidencePolicy.HasRequiredEvidence(role.Name, candidate))
             .OrderByDescending(candidate => candidate.Score)
             .ThenBy(candidate => candidate.RepositoryPath, StringComparer.OrdinalIgnoreCase)
             .Take(candidatesPerRole)

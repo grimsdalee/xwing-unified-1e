@@ -62,6 +62,7 @@ return command switch
     "build-knowledge-base" => BuildKnowledgeBaseCommand.Run(commandArgs),
     "query-knowledge-base" => QueryKnowledgeBaseCommand.Run(commandArgs),
     "link-ship-assets" => LinkShipAssetsCommand.Run(commandArgs),
+    "link-pilot-assets" => LinkPilotAssetsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -121,6 +122,7 @@ static void ShowHelp()
     Console.WriteLine("  build-knowledge-base <first-edition-repo-folder> [--output <folder>] [--no-refresh-catalogue]");
     Console.WriteLine("  query-knowledge-base <first-edition-repo-folder> <stats|asset|search|duplicates|unavailable|validation> [arguments]");
     Console.WriteLine("  link-ship-assets <first-edition-repo-folder> [--ships <ships.json>] [--candidates <1-50>] [--output <folder>]");
+    Console.WriteLine("  link-pilot-assets <first-edition-repo-folder> [--pilots <pilots.json>] [--candidates <1-50>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

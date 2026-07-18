@@ -15,9 +15,14 @@ public sealed class ShipAssetLinkSummaryWriter
         var clearRoleMatchCount = ships.Sum(
             ship => ship.AssetRoles.Count(role => role.Status == "clear"));
 
-        var missingRequiredRoleCount = ships.Sum(
-            ship => ship.AssetRoles.Count(
-                role => role.Required && role.Candidates.Count == 0));
+        var reviewRoleCount = ships.Sum(
+            ship => ship.AssetRoles.Count(role => role.Status == "review"));
+
+        var unresolvedRequiredRoles = ships
+            .SelectMany(ship => ship.AssetRoles
+                .Where(role => role.Required && role.Candidates.Count == 0)
+                .Select(role => new { Ship = ship, Role = role }))
+            .ToList();
 
         using var writer = new StreamWriter(
             path,
@@ -29,8 +34,28 @@ public sealed class ShipAssetLinkSummaryWriter
         writer.WriteLine($"Ships: **{ships.Count}**  ");
         writer.WriteLine($"Candidate links: **{candidateLinkCount}**  ");
         writer.WriteLine($"Clear role matches: **{clearRoleMatchCount}**  ");
-        writer.WriteLine($"Missing required roles: **{missingRequiredRoleCount}**");
+        writer.WriteLine($"Roles requiring review: **{reviewRoleCount}**  ");
+        writer.WriteLine($"Missing required roles: **{unresolvedRequiredRoles.Count}**");
         writer.WriteLine();
+
+        if (unresolvedRequiredRoles.Count > 0)
+        {
+            writer.WriteLine("## Unresolved required roles");
+            writer.WriteLine();
+
+            foreach (var group in unresolvedRequiredRoles
+                         .GroupBy(item => item.Role.Role)
+                         .OrderBy(group => group.Key, StringComparer.OrdinalIgnoreCase))
+            {
+                writer.WriteLine($"- **{group.Key}:** {group.Count()}");
+            }
+
+            writer.WriteLine();
+            writer.WriteLine(
+                "See `unresolved-required-ship-assets.csv` for the affected ships and recommended resolution.");
+            writer.WriteLine();
+        }
+
         writer.WriteLine(
             "No candidate is approved by this command. " +
             "Review `ship-link-review.csv` first.");

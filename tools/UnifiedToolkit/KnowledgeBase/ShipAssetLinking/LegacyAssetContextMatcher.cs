@@ -107,9 +107,10 @@ public sealed class LegacyAssetContextMatcher
                 && !ContainsAny(text, "dial", "maneuver", "token", "base") =>
                 (24, property),
 
-            "BaseToken" when ContainsAny(text, "ship token", "base token", "pilot token", "token")
-                && IsImageProperty(property) =>
-                (28, $"{property} token context"),
+            "BaseToken" when ContainsAny(text, "ship token", "base token", "pilot token")
+                && IsImageProperty(property)
+                && !ContainsAny(text, "condition", "roll token", "target lock", "objective token") =>
+                (32, $"{property} pilot ship-token context"),
 
             "DialTexture" when ContainsAny(text, "dial", "maneuver")
                 && IsImageProperty(property) =>

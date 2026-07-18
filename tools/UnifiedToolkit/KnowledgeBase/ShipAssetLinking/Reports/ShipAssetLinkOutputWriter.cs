@@ -1,22 +1,27 @@
 using UnifiedToolkit.KnowledgeBase;
+
 namespace UnifiedToolkit.KnowledgeBase.ShipAssetLinking.Reports;
 
 public sealed class ShipAssetLinkOutputWriter
 {
     private readonly ShipAssetLinkReviewCsvWriter csvWriter;
     private readonly ShipAssetLinkSummaryWriter summaryWriter;
+    private readonly UnresolvedShipAssetRoleCsvWriter unresolvedWriter;
 
     public ShipAssetLinkOutputWriter(
         ShipAssetLinkReviewCsvWriter csvWriter,
-        ShipAssetLinkSummaryWriter summaryWriter)
+        ShipAssetLinkSummaryWriter summaryWriter,
+        UnresolvedShipAssetRoleCsvWriter unresolvedWriter)
     {
         this.csvWriter = csvWriter;
         this.summaryWriter = summaryWriter;
+        this.unresolvedWriter = unresolvedWriter;
     }
 
     public static ShipAssetLinkOutputWriter CreateDefault() => new(
         new ShipAssetLinkReviewCsvWriter(),
-        new ShipAssetLinkSummaryWriter());
+        new ShipAssetLinkSummaryWriter(),
+        new UnresolvedShipAssetRoleCsvWriter());
 
     public void Write(
         string outputRoot,
@@ -36,6 +41,9 @@ public sealed class ShipAssetLinkOutputWriter
         });
 
         csvWriter.Write(Path.Combine(reportsRoot, "ship-link-review.csv"), linkedShips);
+        unresolvedWriter.Write(
+            Path.Combine(reportsRoot, "unresolved-required-ship-assets.csv"),
+            linkedShips);
         summaryWriter.Write(Path.Combine(reportsRoot, "SHIP-LINK-SUMMARY.md"), linkedShips);
     }
 }

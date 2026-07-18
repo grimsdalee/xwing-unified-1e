@@ -1,0 +1,4 @@
+ShipId,SourceId,TargetId,ShipName,BaseSize,Factions,Role,Required,Status,Resolution
+"SHIP-EC8D6A546561","croccruiser","croccruiser","C-ROC Cruiser","epic","scumandvillainy","DialTexture","true","missing","Acquire or generate the First Edition epic-ship maneuver dial."
+"SHIP-97FC566A27A9","gozanticlasscruiser","gozanticlasscruiser","Gozanti-class Cruiser","epic","galacticempire","DialTexture","true","missing","Acquire or generate the First Edition epic-ship maneuver dial."
+"SHIP-2EDA4729AD4F","gr75mediumtransport","gr75mediumtransport","GR-75 Medium Transport","epic","rebelalliance","DialTexture","true","missing","Acquire or generate the First Edition epic-ship maneuver dial."

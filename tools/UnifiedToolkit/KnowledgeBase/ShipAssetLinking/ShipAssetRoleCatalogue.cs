@@ -1,4 +1,3 @@
-using UnifiedToolkit.KnowledgeBase;
 namespace UnifiedToolkit.KnowledgeBase.ShipAssetLinking;
 
 public sealed record ShipAssetRoleDefinition(string Name, bool Required);
@@ -9,7 +8,6 @@ public sealed class ShipAssetRoleCatalogue
     [
         new("ShipModel", true),
         new("ShipTexture", true),
-        new("BaseToken", true),
         new("DialTexture", true),
         new("DialModel", false),
         new("ShipScript", false)
