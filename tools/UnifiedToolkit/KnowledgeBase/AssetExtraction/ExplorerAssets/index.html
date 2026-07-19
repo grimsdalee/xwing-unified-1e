@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pilot Source Recovery</title>
+  <link rel="stylesheet" href="explorer.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Pilot Source Recovery</h1>
+      <p>Select a missing pilot, inspect its ranked source candidates, then recover or defer it.</p>
+    </div>
+    <div class="header-actions">
+      <button id="saveProgress">Save browser progress</button>
+      <button id="restoreProgress">Restore progress</button>
+      <button id="importMetadata">Import metadata</button>
+      <button id="downloadMetadata">Download metadata</button>
+      <button id="downloadPlan" class="primary">Download recovery plan</button>
+      <input id="metadataFile" type="file" accept="application/json,.json" hidden>
+    </div>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <main>
+    <aside class="pilot-panel">
+      <h2>1. Choose missing pilot</h2>
+      <label>Pilot search<input id="pilotSearch" type="search" placeholder="Nien Nunb, TIE Silencer, First Order…"></label>
+      <label>Pilot<select id="pilotSelect" size="14"></select></label>
+      <div id="selectedPilotDetails" class="details"></div>
+      <div class="pilot-actions">
+        <button id="previousPilot">Previous pilot</button>
+        <button id="nextPilot">Next pilot</button>
+      </div>
+      <button id="markGenerationRequired" class="wide warning">No original found — generate</button>
+      <button id="clearPilotResolution" class="wide">Clear pilot resolution</button>
+
+      <h2>Recovery assignments</h2>
+      <div id="assignmentList" class="assignment-list"></div>
+    </aside>
+
+    <aside class="candidate-panel">
+      <h2>2. Candidate sources</h2>
+      <label>Semantic search<input id="imageSearch" type="search" placeholder="ship, faction, known pilot, path…"></label>
+      <label>Candidate filter
+        <select id="imageFilter">
+          <option value="pilot">Ranked for selected pilot</option>
+          <option value="sameShip">Same ship evidence</option>
+          <option value="sameFaction">Same faction evidence</option>
+          <option value="known">Known pilot-token sheets</option>
+          <option value="unknown">Unknown images</option>
+          <option value="catalogueRelevant">Catalogued: contains pilot tokens</option>
+          <option value="catalogueUnknown">Catalogue status unknown</option>
+          <option value="catalogueNoTokens">Catalogued: no pilot tokens</option>
+          <option value="cataloguePartial">Partially catalogued</option>
+          <option value="all">All images</option>
+        </select>
+      </label>
+      <div class="candidate-summary" id="candidateSummary"></div>
+      <div class="image-list" id="imageList"></div>
+    </aside>
+
+    <section class="workspace">
+      <div class="workspace-toolbar">
+        <div class="image-heading">
+          <strong id="currentImageTitle">Select a candidate image</strong>
+          <span id="currentImageMeta"></span>
+          <span id="currentImageEvidence"></span>
+        </div>
+        <div class="toolbar-actions">
+          <button id="previousImage">Previous</button>
+          <button id="nextImage">Next</button>
+          <button id="markReviewed">Reviewed</button>
+          <span class="divider"></span>
+          <button id="zoomOut" title="Zoom out">−</button>
+          <button id="zoomIn" title="Zoom in">+</button>
+          <button id="zoomFit">Fit</button>
+          <button id="zoomActual">100%</button>
+          <span id="zoomLabel">100%</span>
+        </div>
+      </div>
+
+      <div class="canvas-shell" id="canvasShell">
+        <div class="canvas-stage" id="canvasStage">
+          <img id="sourceImage" alt="Selected legacy source">
+          <div id="overlay"></div>
+        </div>
+      </div>
+      <p class="hint">Mouse wheel: zoom. Shift + mouse wheel: horizontal scroll. Drag on the image to select a token crop. Existing crops are green; new assignments are cyan.</p>
+    </section>
+
+    <aside class="crop-panel">
+      <h2>3. Recover selected pilot</h2>
+      <div id="activePilotCompact" class="details"></div>
+      <h3>Selected crop</h3>
+      <div class="crop-grid">
+        <label>X<input id="cropX" type="number" min="0" max="1" step="0.0001"></label>
+        <label>Y<input id="cropY" type="number" min="0" max="1" step="0.0001"></label>
+        <label>Width<input id="cropWidth" type="number" min="0" max="1" step="0.0001"></label>
+        <label>Height<input id="cropHeight" type="number" min="0" max="1" step="0.0001"></label>
+      </div>
+      <button id="addAssignment" class="primary wide">Assign crop to pilot</button>
+      <button id="clearSelection" class="wide">Clear crop</button>
+
+      <section class="metadata-editor">
+        <h2>Image catalogue metadata</h2>
+        <p class="metadata-help">Describe the entire source image, not only the selected crop. Metadata is keyed by SHA-256, so it survives file renames and moves.</p>
+        <label>Contains pilot tokens
+          <select id="metaContainsTokens">
+            <option value="unknown">Unknown</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>Factions</legend>
+          <div id="metaFactions" class="checkbox-grid">
+            <label><input type="checkbox" value="Rebel Alliance">Rebel Alliance</label>
+            <label><input type="checkbox" value="Galactic Empire">Galactic Empire</label>
+            <label><input type="checkbox" value="Scum and Villainy">Scum and Villainy</label>
+            <label><input type="checkbox" value="Resistance">Resistance</label>
+            <label><input type="checkbox" value="First Order">First Order</label>
+          </div>
+        </fieldset>
+        <label>Ship types <input id="metaShips" type="text" placeholder="TIE Silencer; TIE/sf Fighter"></label>
+        <label>Pilots identified <textarea id="metaPilots" rows="3" placeholder="Kylo Ren; First Order Test Pilot"></textarea></label>
+        <label>Image type
+          <select id="metaImageType">
+            <option value="unknown">Unknown</option>
+            <option value="pilot-token-sheet">Pilot-token sheet</option>
+            <option value="mixed-texture-atlas">Mixed texture atlas</option>
+            <option value="ship-model-texture">Ship/model texture</option>
+            <option value="pilot-card">Pilot card</option>
+            <option value="dial">Dial</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label>Catalogue status
+          <select id="metaReviewStatus">
+            <option value="unreviewed">Unreviewed</option>
+            <option value="partial">Partially catalogued</option>
+            <option value="complete">Fully catalogued</option>
+          </select>
+        </label>
+        <label>Notes <textarea id="metaNotes" rows="3" placeholder="Four pilot tokens in upper-left; one unidentified."></textarea></label>
+        <button id="saveImageMetadata" class="primary wide">Save image metadata</button>
+        <button id="markNoPilotTokens" class="warning wide">No pilot tokens in this image</button>
+        <button id="clearImageMetadata" class="wide">Clear image metadata</button>
+      </section>
+      <div class="workflow-help">
+        <b>Workflow</b>
+        <ol>
+          <li>Select a missing pilot.</li>
+          <li>Inspect the ranked candidate images.</li>
+          <li>Draw around the correct token and assign it.</li>
+          <li>When no original exists, mark it for generation.</li>
+        </ol>
+      </div>
+    </aside>
+  </main>
+
+  <script src="explorer-data.js"></script>
+  <script src="explorer.js"></script>
+</body>
+</html>

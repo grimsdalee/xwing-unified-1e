@@ -1,0 +1,10 @@
+﻿Pilot Sheet Explorer catalogue
+==============================
+Generated UTC:          2026-07-19T17:20:10.7327879+00:00
+Candidate images:       276
+Known source sheets:    175
+Known pilot crops:      186
+Missing pilots:         104
+Duplicate images omitted: 0
+
+This catalogue is for source recovery. Browser assignments are exported as pilot-token-source-recovery-plan.json.

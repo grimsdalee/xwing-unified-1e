@@ -1,0 +1,665 @@
+[
+  {
+    "JsonPath": "$.ObjectStates[50].ContainedObjects[10].ContainedObjects[17]",
+    "Guid": "757a4e",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "757a4e",
+      "Name": "Card",
+      "Transform": {
+        "posX": -19.1355553,
+        "posY": 3.46710587,
+        "posZ": -11.6776295,
+        "rotX": 0.0,
+        "rotY": 179.282822,
+        "rotZ": 180.000015,
+        "scaleX": 0.625,
+        "scaleY": 1.0,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 22338,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "223": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025798/B065114D5BFBAC43A3B9FD30F50EE4CB4B9EF30B/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025939/BC7A03FF0BC56E0C347444B003DDD0EEDAC9065B/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[51].ContainedObjects[2].ContainedObjects[14]",
+    "Guid": "354037",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "354037",
+      "Name": "Card",
+      "Transform": {
+        "posX": -69.05431,
+        "posY": 0.954296768,
+        "posZ": -5.29754639,
+        "rotX": 0.01290975,
+        "rotY": 180.005585,
+        "rotZ": 179.9924,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": true,
+      "CardID": 26203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "262": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023003/EC02BB1664A8A5DAE6D666066A4715316122F329/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023228/FAC04C559148860D9F2E35C22CEDF3F737BA0AD5/",
+          "NumWidth": 10,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[53].ContainedObjects[1].ContainedObjects[3].ContainedObjects[1]",
+    "Guid": "e5c161",
+    "Name": "Custom_Model",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomMeshObject",
+    "Object": {
+      "GUID": "e5c161",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -18.0324326,
+        "posY": 2.52332854,
+        "posZ": -6.45737076,
+        "rotX": -5.285608E-06,
+        "rotY": 180.000122,
+        "rotZ": 3.330907E-06,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/82591194029099132/056C807B114DE0023C1B8ABD28F4D5E8F0B5D76E/",
+        "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186049840/72B4636B5E8DCB2EAD4570312B2D6D956D215149/",
+        "NormalURL": "",
+        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/856097073971964332/9FA07C37B1615A416F306081D9152902A9BFE9EE/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[0].ContainedObjects[44].ContainedObjects[93]",
+    "Guid": "354037",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "354037",
+      "Name": "Card",
+      "Transform": {
+        "posX": -17.709074,
+        "posY": 2.21772933,
+        "posZ": -6.885352,
+        "rotX": -1.03249533E-07,
+        "rotY": 179.997925,
+        "rotZ": 2.91256583E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 26203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "262": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023003/EC02BB1664A8A5DAE6D666066A4715316122F329/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023228/FAC04C559148860D9F2E35C22CEDF3F737BA0AD5/",
+          "NumWidth": 10,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[0].ContainedObjects[137].ContainedObjects[3].ContainedObjects[61]",
+    "Guid": "757a4e",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "757a4e",
+      "Name": "Card",
+      "Transform": {
+        "posX": -67.62694,
+        "posY": 1.09394038,
+        "posZ": -18.20476,
+        "rotX": 0.0455095544,
+        "rotY": 90.05875,
+        "rotZ": 359.042847,
+        "scaleX": 0.6428425,
+        "scaleY": 1.0,
+        "scaleZ": 0.6428425
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 22338,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "223": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025798/B065114D5BFBAC43A3B9FD30F50EE4CB4B9EF30B/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025939/BC7A03FF0BC56E0C347444B003DDD0EEDAC9065B/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[0].ContainedObjects[138].ContainedObjects[3]",
+    "Guid": "e5c161",
+    "Name": "Custom_Model",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomMeshObject",
+    "Object": {
+      "GUID": "e5c161",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.836681,
+        "posY": 2.29192328,
+        "posZ": -7.69861031,
+        "rotX": 359.703064,
+        "rotY": 180.002823,
+        "rotZ": 0.239858657,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999999,
+        "g": 0.9921603,
+        "b": 0.9999999
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CustomMesh": {
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/82591194029099132/056C807B114DE0023C1B8ABD28F4D5E8F0B5D76E/",
+        "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186049840/72B4636B5E8DCB2EAD4570312B2D6D956D215149/",
+        "NormalURL": "",
+        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/856097073971964332/9FA07C37B1615A416F306081D9152902A9BFE9EE/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[1].ContainedObjects[7].ContainedObjects[61]",
+    "Guid": "757a4e",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "757a4e",
+      "Name": "Card",
+      "Transform": {
+        "posX": -67.62694,
+        "posY": 1.09394038,
+        "posZ": -18.20476,
+        "rotX": 0.0455095544,
+        "rotY": 90.05875,
+        "rotZ": 359.042847,
+        "scaleX": 0.6428425,
+        "scaleY": 1.0,
+        "scaleZ": 0.6428425
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 22338,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "223": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025798/B065114D5BFBAC43A3B9FD30F50EE4CB4B9EF30B/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186025939/BC7A03FF0BC56E0C347444B003DDD0EEDAC9065B/",
+          "NumWidth": 10,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[2].ContainedObjects[205]",
+    "Guid": "e5c161",
+    "Name": "Custom_Model",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomMeshObject",
+    "Object": {
+      "GUID": "e5c161",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -73.18867,
+        "posY": 1.66144359,
+        "posZ": -11.0702543,
+        "rotX": 0.223913237,
+        "rotY": 180.00412,
+        "rotZ": 0.2625417,
+        "scaleX": 0.625,
+        "scaleY": 0.625,
+        "scaleZ": 0.625
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992160261,
+        "b": 0.9999998
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/82591194029099132/056C807B114DE0023C1B8ABD28F4D5E8F0B5D76E/",
+        "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186075844/EAAC85AB46BF54D2C45F9C375A704DE843F513BF/",
+        "NormalURL": "",
+        "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/856097073971964332/9FA07C37B1615A416F306081D9152902A9BFE9EE/",
+        "Convex": true,
+        "MaterialIndex": 1,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.8745098,
+            "g": 0.8117647,
+            "b": 0.745098054
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 3.0,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[3].ContainedObjects[250]",
+    "Guid": "354037",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "354037",
+      "Name": "Card",
+      "Transform": {
+        "posX": -17.709074,
+        "posY": 2.21772933,
+        "posZ": -6.885352,
+        "rotX": -1.03249533E-07,
+        "rotY": 179.997925,
+        "rotZ": 2.91256583E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 26203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "262": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023003/EC02BB1664A8A5DAE6D666066A4715316122F329/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023228/FAC04C559148860D9F2E35C22CEDF3F737BA0AD5/",
+          "NumWidth": 10,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  },
+  {
+    "JsonPath": "$.ObjectStates[55].ContainedObjects[4].ContainedObjects[231]",
+    "Guid": "354037",
+    "Name": "Card",
+    "Nickname": "Nien Nunb",
+    "Description": "",
+    "ObjectType": "CustomDeckObject",
+    "Object": {
+      "GUID": "354037",
+      "Name": "Card",
+      "Transform": {
+        "posX": -17.709074,
+        "posY": 2.21772933,
+        "posZ": -6.885352,
+        "rotX": -1.03249533E-07,
+        "rotY": 179.997925,
+        "rotZ": 2.91256583E-07,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nien Nunb",
+      "Description": "",
+      "GMNotes": "",
+      "AltLookAngle": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "CardID": 26203,
+      "SidewaysCard": false,
+      "CustomDeck": {
+        "262": {
+          "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023003/EC02BB1664A8A5DAE6D666066A4715316122F329/",
+          "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186023228/FAC04C559148860D9F2E35C22CEDF3F737BA0AD5/",
+          "NumWidth": 10,
+          "NumHeight": 2,
+          "BackIsHidden": false,
+          "UniqueBack": true,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  }
+]

@@ -1,0 +1,7 @@
+Pilot: Nien Nunb
+Legacy save: C:\Users\Evan\Documents\GitHub\xwing-unified-1e\source\legacy-1e\3302209318.json
+Matching objects: 10
+Unique URLs: 8
+URL references: 23
+Objects report: C:\Users\Evan\Documents\GitHub\xwing-unified-1e\ukb\reports\legacy-pilot-source-inspection\nien-nunb\nien-nunb-legacy-objects.json
+URLs report: C:\Users\Evan\Documents\GitHub\xwing-unified-1e\ukb\reports\legacy-pilot-source-inspection\nien-nunb\nien-nunb-legacy-urls.csv

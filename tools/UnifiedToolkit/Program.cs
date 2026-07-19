@@ -70,6 +70,8 @@ return command switch
     "prepare-pilot-token-extraction-review" => PreparePilotTokenExtractionReviewCommand.Run(commandArgs),
     "extract-pilot-tokens" => ExtractPilotTokensCommand.Run(commandArgs),
     "audit-pilot-token-inventory" => AuditPilotTokenInventoryCommand.Run(commandArgs),
+    "inspect-legacy-pilot-source" => InspectLegacyPilotSourceCommand.Run(commandArgs),
+    "prepare-pilot-sheet-explorer" => PreparePilotSheetExplorerCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -137,6 +139,8 @@ static void ShowHelp()
     Console.WriteLine("  prepare-pilot-token-extraction-review <first-edition-repo-folder> <existing-plan.json> [--output <folder>]");
     Console.WriteLine("  extract-pilot-tokens <first-edition-repo-folder> <completed-plan.json> [--output <folder>]");
     Console.WriteLine("  audit-pilot-token-inventory <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  inspect-legacy-pilot-source <first-edition-repo-folder> <pilot-name> [--legacy-save <save.json>] [--output <folder>]");
+    Console.WriteLine("  prepare-pilot-sheet-explorer <first-edition-repo-folder> [--inventory <pilot-token-inventory.csv>] [--plan <completed-extraction-plan.json>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

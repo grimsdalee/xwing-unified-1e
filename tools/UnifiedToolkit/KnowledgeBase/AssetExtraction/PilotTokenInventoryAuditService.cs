@@ -44,7 +44,8 @@ public sealed class PilotTokenInventoryAuditService
             : new List<string>();
 
         var tokenIndex = tokenFiles
-            .GroupBy(path => Normalise(Path.GetFileNameWithoutExtension(path).Split("--", 2)[0].Split("-pilot-", 2)[0]))
+            .GroupBy(GetGeneratedPilotKey)
+            .Where(group => group.Key.Length > 0)
             .ToDictionary(group => group.Key, group => group.ToList(), StringComparer.OrdinalIgnoreCase);
 
         var rows = new List<PilotTokenInventoryRow>();
@@ -195,16 +196,44 @@ public sealed class PilotTokenInventoryAuditService
 
     private static List<string> ResolveGeneratedTokens(IReadOnlyDictionary<string, List<string>> index, PilotRecord pilot)
     {
-        var keys = new[] { pilot.Xws, pilot.Name }.Where(x => !string.IsNullOrWhiteSpace(x)).Select(Normalise).Distinct(StringComparer.OrdinalIgnoreCase);
-        return keys.SelectMany(key => index.TryGetValue(key, out var files) ? files : Enumerable.Empty<string>()).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+        var keys = new[] { pilot.Xws, pilot.Name }
+            .Where(value => !string.IsNullOrWhiteSpace(value))
+            .Select(Normalise)
+            .Distinct(StringComparer.OrdinalIgnoreCase);
+
+        return keys
+            .SelectMany(key => index.TryGetValue(key, out var files) ? files : Enumerable.Empty<string>())
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList();
     }
 
     private static string? ResolveBestGeneratedToken(string root, IReadOnlyList<string> candidates, PilotRecord pilot)
     {
         if (candidates.Count == 0) return null;
-        if (candidates.Count == 1) return candidates[0];
-        var ship = Normalise(pilot.Ship); var faction = Normalise(pilot.Faction);
-        return candidates.OrderByDescending(path => Normalise(Relative(root, path)).Contains(ship)).ThenByDescending(path => Normalise(Relative(root, path)).Contains(faction)).First();
+
+        var expectedFaction = Normalise(pilot.Faction);
+        var expectedShip = Normalise(pilot.Ship);
+
+        // Generated token paths are authoritative identity evidence:
+        // assets/generated/PilotBaseToken/<faction>/<ship>/<pilot>__pilot-<hash>.png
+        // A same-name token from another faction or ship must never be reused.
+        var exactIdentityMatches = candidates
+            .Where(path => GeneratedPathMatchesIdentity(path, expectedFaction, expectedShip))
+            .ToList();
+
+        if (exactIdentityMatches.Count == 0) return null;
+        if (exactIdentityMatches.Count == 1) return exactIdentityMatches[0];
+
+        return exactIdentityMatches
+            .OrderBy(path => Relative(root, path), StringComparer.OrdinalIgnoreCase)
+            .First();
+    }
+
+    private static bool GeneratedPathMatchesIdentity(string path, string expectedFaction, string expectedShip)
+    {
+        var shipFolder = Path.GetFileName(Path.GetDirectoryName(path) ?? string.Empty);
+        var factionFolder = Path.GetFileName(Path.GetDirectoryName(Path.GetDirectoryName(path) ?? string.Empty) ?? string.Empty);
+        return Normalise(factionFolder) == expectedFaction && Normalise(shipFolder) == expectedShip;
     }
 
     private static string FindDonor(string root, IEnumerable<string> tokens, PilotRecord pilot)
@@ -242,6 +271,24 @@ public sealed class PilotTokenInventoryAuditService
             catch { }
         }
         return hits.DistinctBy(x => (x.Path, x.MatchType, x.Evidence)).OrderBy(x => x.Path, StringComparer.OrdinalIgnoreCase).ToList();
+    }
+
+    private static string GetGeneratedPilotKey(string path)
+    {
+        var fileName = Path.GetFileNameWithoutExtension(path);
+
+        // Extracted token names use the form:
+        //     pilotname__pilot-0123456789ab.png
+        // Earlier revisions also used --pilot- and -pilot-, so accept all
+        // three separators. The previous implementation did not recognise
+        // the current double-underscore form and therefore matched zero files.
+        var withoutExtractionSuffix = Regex.Replace(
+            fileName,
+            @"(?:__|--|-)?pilot-[0-9a-f]+$",
+            string.Empty,
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+        return Normalise(withoutExtractionSuffix);
     }
 
     private static string BuildPilotKey(PilotRecord p) => $"{Normalise(p.Faction)}|{Normalise(p.Ship)}|{Normalise(p.Xws.Length > 0 ? p.Xws : p.Name)}|{p.Skill}|{p.Points}";

@@ -19,6 +19,9 @@
     <Content Include="KnowledgeBase\AssetExtraction\ReviewAssets\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="KnowledgeBase\AssetExtraction\ExplorerAssets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="KnowledgeBase\AssetExtraction\Corrections\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

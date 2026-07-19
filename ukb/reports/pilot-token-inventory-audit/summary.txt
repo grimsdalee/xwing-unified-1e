@@ -1,10 +1,10 @@
 Pilot records: 297
 Epic excluded: 7
 Non-Epic target: 290
-Generated matched: 0
-Missing tokens: 290
+Generated matched: 186
+Missing tokens: 104
 Pilot card PNG files: 297
 Generated token PNG files: 186
 Unmatched pilot card files: 20
-Unmatched generated token files: 186
-Nien Nunb source-search hits: 37
+Unmatched generated token files: 0
+Nien Nunb source-search hits: 42
