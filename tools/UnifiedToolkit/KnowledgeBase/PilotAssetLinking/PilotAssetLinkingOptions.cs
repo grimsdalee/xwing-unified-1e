@@ -6,7 +6,9 @@ public sealed class PilotAssetLinkingOptions
     public string KnowledgeBasePath { get; init; } = string.Empty;
     public string PilotsFile { get; init; } = string.Empty;
     public string LegacySavePath { get; init; } = string.Empty;
+    public string XWingDataPilotsPath { get; init; } = string.Empty;
     public string OutputRoot { get; init; } = string.Empty;
+    public string TokenSheetDecisionsPath { get; init; } = string.Empty;
     public int CandidatesPerRole { get; init; }
 
     public static PilotAssetLinkingOptions Create(string repositoryRoot, string? pilotsFile, string? outputFolder, int candidatesPerRole)
@@ -18,7 +20,9 @@ public sealed class PilotAssetLinkingOptions
             KnowledgeBasePath = Path.Combine(fullRoot, "ukb", "knowledge-base.json"),
             PilotsFile = pilotsFile is null ? FindPilotsFile(fullRoot) : Path.GetFullPath(pilotsFile),
             LegacySavePath = FindLegacySave(fullRoot),
+            XWingDataPilotsPath = Path.Combine(fullRoot, "source", "xwing-data", "data", "pilots.js"),
             OutputRoot = outputFolder is null ? Path.Combine(fullRoot, "ukb") : Path.GetFullPath(outputFolder),
+            TokenSheetDecisionsPath = Path.Combine(fullRoot, "ukb", "pilot-token-sheet-decisions.json"),
             CandidatesPerRole = Math.Clamp(candidatesPerRole, 1, 50)
         };
     }
@@ -29,6 +33,8 @@ public sealed class PilotAssetLinkingOptions
             throw new FileNotFoundException("Knowledge base not found. Run build-knowledge-base first.", KnowledgeBasePath);
         if (!File.Exists(PilotsFile))
             throw new FileNotFoundException("First Edition pilots.json was not found. Use --pilots <file>.", PilotsFile);
+        if (!File.Exists(XWingDataPilotsPath))
+            throw new FileNotFoundException("Imported xwing-data pilots.js was not found. Run import-xwing-data first.", XWingDataPilotsPath);
     }
 
     private static string FindPilotsFile(string root)

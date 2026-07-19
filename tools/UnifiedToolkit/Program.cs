@@ -64,6 +64,12 @@ return command switch
     "query-knowledge-base" => QueryKnowledgeBaseCommand.Run(commandArgs),
     "link-ship-assets" => LinkShipAssetsCommand.Run(commandArgs),
     "link-pilot-assets" => LinkPilotAssetsCommand.Run(commandArgs),
+    "prepare-pilot-token-review" => PreparePilotTokenReviewCommand.Run(commandArgs),
+    "apply-pilot-token-sheet-decisions" => ApplyPilotTokenSheetDecisionsCommand.Run(commandArgs),
+    "prepare-pilot-token-extraction" => PreparePilotTokenExtractionCommand.Run(commandArgs),
+    "prepare-pilot-token-extraction-review" => PreparePilotTokenExtractionReviewCommand.Run(commandArgs),
+    "extract-pilot-tokens" => ExtractPilotTokensCommand.Run(commandArgs),
+    "audit-pilot-token-inventory" => AuditPilotTokenInventoryCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -125,6 +131,12 @@ static void ShowHelp()
     Console.WriteLine("  query-knowledge-base <first-edition-repo-folder> <stats|asset|search|duplicates|unavailable|validation> [arguments]");
     Console.WriteLine("  link-ship-assets <first-edition-repo-folder> [--ships <ships.json>] [--candidates <1-50>] [--output <folder>]");
     Console.WriteLine("  link-pilot-assets <first-edition-repo-folder> [--pilots <pilots.json>] [--candidates <1-50>] [--output <folder>]");
+    Console.WriteLine("  prepare-pilot-token-review <first-edition-repo-folder> [--pilot-links <pilot-links.json>] [--output <folder>]");
+    Console.WriteLine("  apply-pilot-token-sheet-decisions <first-edition-repo-folder> <decisions.csv> [--candidates <1-50>]");
+    Console.WriteLine("  prepare-pilot-token-extraction <first-edition-repo-folder> [--pilot-links <pilot-links.json>] [--output <folder>]");
+    Console.WriteLine("  prepare-pilot-token-extraction-review <first-edition-repo-folder> <existing-plan.json> [--output <folder>]");
+    Console.WriteLine("  extract-pilot-tokens <first-edition-repo-folder> <completed-plan.json> [--output <folder>]");
+    Console.WriteLine("  audit-pilot-token-inventory <first-edition-repo-folder> [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

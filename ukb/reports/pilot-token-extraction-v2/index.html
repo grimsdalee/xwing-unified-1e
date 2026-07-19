@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pilot Token Crop Review v2</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div>
+      <strong>Pilot Token Crop Review v2</strong>
+      <span>Independent crop rectangle per pilot</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="primary" type="button" id="downloadButton">Download plan</button>
+      <button type="button" id="saveButton">Save browser progress</button>
+      <button type="button" id="restoreButton">Restore</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="summary" id="summary"></section>
+    <div id="root"></div>
+  </main>
+
+  <script src="review-data.js"></script>
+  <script src="review.js"></script>
+</body>
+</html>

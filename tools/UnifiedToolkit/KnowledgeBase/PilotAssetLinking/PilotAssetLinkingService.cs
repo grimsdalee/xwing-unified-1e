@@ -16,9 +16,11 @@ public sealed class PilotAssetLinkingService
         var knowledgeBase = ShipAssetJson.Read<UnifiedKnowledgeBase>(options.KnowledgeBasePath);
         var pilots = ShipAssetJson.Read<List<FirstEditionPilotRecord>>(options.PilotsFile);
         var contexts = LegacyAssetContextIndex.Load(options.LegacySavePath);
+        var xwingDataPilots = XWingDataPilotIndex.Load(options.XWingDataPilotsPath);
+        var tokenSheetDecisions = PilotTokenSheetDecisionStore.Load(options.TokenSheetDecisionsPath);
         var linked = pilots.OrderBy(p => p.Name, StringComparer.OrdinalIgnoreCase)
             .ThenBy(p => p.ShipId, StringComparer.OrdinalIgnoreCase)
-            .Select(p => BuildPilot(p, knowledgeBase.Domains.Assets, contexts, options.CandidatesPerRole))
+            .Select(p => BuildPilot(p, knowledgeBase.Domains.Assets, contexts, xwingDataPilots, tokenSheetDecisions, options.CandidatesPerRole))
             .ToList();
 
         ReplacePilotReferences(knowledgeBase, linked);
@@ -35,13 +37,18 @@ public sealed class PilotAssetLinkingService
         };
     }
 
-    private KnowledgeBasePilot BuildPilot(FirstEditionPilotRecord pilot, IEnumerable<KnowledgeBaseAsset> assets, LegacyAssetContextIndex contexts, int limit)
+    private KnowledgeBasePilot BuildPilot(FirstEditionPilotRecord pilot, IEnumerable<KnowledgeBaseAsset> assets, LegacyAssetContextIndex contexts, XWingDataPilotIndex xwingDataPilots, IReadOnlyDictionary<string, PilotTokenSheetDecision> tokenSheetDecisions, int limit)
     {
         var identity = PilotIdentityProfile.Create(pilot);
-        var roleLinks = roles.GetAll().Select(role => BuildRole(role, pilot, identity, assets, contexts, limit)).ToList();
+        var structuredRecord = xwingDataPilots.Resolve(pilot);
+        var pilotId = $"PILOT-{StableId($"{pilot.TargetId}|{pilot.ShipId}|{pilot.Faction}")}";
+        tokenSheetDecisions.TryGetValue(pilotId, out var tokenSheetDecision);
+        var roleLinks = roles.GetAll()
+            .Select(role => PilotTokenSheetDecisionStore.Apply(BuildRole(role, pilot, identity, structuredRecord, assets, contexts, limit), tokenSheetDecision))
+            .ToList();
         return new KnowledgeBasePilot
         {
-            PilotId = $"PILOT-{StableId($"{pilot.TargetId}|{pilot.ShipId}|{pilot.Faction}")}",
+            PilotId = pilotId,
             SourceId = pilot.SourceId,
             TargetId = pilot.TargetId,
             Name = pilot.Name,
@@ -54,23 +61,23 @@ public sealed class PilotAssetLinkingService
         };
     }
 
-    private KnowledgeBasePilotAssetRole BuildRole(PilotAssetRoleDefinition role, FirstEditionPilotRecord pilot, PilotIdentityProfile identity, IEnumerable<KnowledgeBaseAsset> assets, LegacyAssetContextIndex contexts, int limit)
+    private KnowledgeBasePilotAssetRole BuildRole(PilotAssetRoleDefinition role, FirstEditionPilotRecord pilot, PilotIdentityProfile identity, XWingDataPilotRecord? structuredRecord, IEnumerable<KnowledgeBaseAsset> assets, LegacyAssetContextIndex contexts, int limit)
     {
         var candidates = assets
             .Select(asset => new { Asset = asset, Contexts = contexts.Find(asset) })
             .Where(item => eligibilityFilter.IsEligible(item.Asset, item.Contexts, role.Name, identity))
-            .Select(item => Score(item.Asset, item.Contexts, role.Name, pilot, identity))
+            .Select(item => Score(item.Asset, item.Contexts, role.Name, pilot, identity, structuredRecord))
             .Where(candidate => candidate.Score >= 45)
             .OrderByDescending(candidate => candidate.Score)
             .ThenBy(candidate => candidate.RepositoryPath, StringComparer.OrdinalIgnoreCase)
             .Take(limit)
             .ToList();
 
-        var status = candidates.Count == 0 ? "missing" : IsClear(candidates) ? "clear" : "review";
+        var status = candidates.Count == 0 ? "missing" : IsClear(candidates, role.Name) ? "clear" : "review";
         return new KnowledgeBasePilotAssetRole { Role = role.Name, Required = role.Required, Status = status, Candidates = candidates };
     }
 
-    private static KnowledgeBasePilotAssetCandidate Score(KnowledgeBaseAsset asset, IReadOnlyList<LegacyAssetContext> contexts, string role, FirstEditionPilotRecord pilot, PilotIdentityProfile identity)
+    private static KnowledgeBasePilotAssetCandidate Score(KnowledgeBaseAsset asset, IReadOnlyList<LegacyAssetContext> contexts, string role, FirstEditionPilotRecord pilot, PilotIdentityProfile identity, XWingDataPilotRecord? structuredRecord)
     {
         var path = asset.RepositoryPath.Replace('\\', '/').ToLowerInvariant();
         var compactPath = PilotIdentityProfile.Compact(path);
@@ -93,7 +100,23 @@ public sealed class PilotAssetLinkingService
         var shipAlias = PilotIdentityProfile.Compact(pilot.ShipId);
         if (shipAlias.Length >= 4 && (compactPath.Contains(shipAlias) || compactContext.Contains(shipAlias)))
         {
-            score += 12; reasons.Add("ship identity matched");
+            score += 12;
+            reasons.Add("ship identity matched");
+        }
+
+        if (asset.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
+        {
+            var factionAlias = PilotIdentityProfile.Compact(pilot.Faction);
+            if (factionAlias.Length >= 4 && compactPath.Contains(factionAlias, StringComparison.OrdinalIgnoreCase))
+            {
+                score += 20;
+                reasons.Add("faction identity matched");
+            }
+            else if (ContainsKnownFactionPath(compactPath))
+            {
+                score -= 30;
+                reasons.Add("different faction path");
+            }
         }
 
         var roleText = $"{path} {contextText}";
@@ -123,6 +146,12 @@ public sealed class PilotAssetLinkingService
         {
             score += 45;
             reasons.Add("individual xwing-data First Edition pilot card");
+
+            if (structuredRecord is not null && MatchesStructuredImage(asset.RepositoryPath, structuredRecord.Image))
+            {
+                score += 120;
+                reasons.Add($"structured xwing-data record matched skill {structuredRecord.Skill}, points {structuredRecord.Points}, image '{structuredRecord.Image}'");
+            }
         }
         else if (asset.Warehouse.Equals("legacy1e", StringComparison.OrdinalIgnoreCase))
         {
@@ -143,8 +172,56 @@ public sealed class PilotAssetLinkingService
         };
     }
 
-    private static bool IsClear(IReadOnlyList<KnowledgeBasePilotAssetCandidate> candidates) =>
-        candidates[0].Score >= 95 && (candidates.Count == 1 || candidates[0].Score - candidates[1].Score >= 15);
+    private static bool MatchesStructuredImage(string repositoryPath, string imagePath)
+    {
+        if (string.IsNullOrWhiteSpace(imagePath))
+            return false;
+
+        var repository = repositoryPath.Replace('\\', '/').TrimStart('/');
+        var expected = imagePath.Replace('\\', '/').TrimStart('/');
+        return repository.EndsWith($"/images/{expected}", StringComparison.OrdinalIgnoreCase)
+            || repository.EndsWith(expected, StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static bool IsClear(IReadOnlyList<KnowledgeBasePilotAssetCandidate> candidates, string role)
+    {
+        if (candidates[0].Score < 95)
+            return false;
+
+        if (candidates.Count == 1 || candidates[0].Score - candidates[1].Score >= 15)
+            return true;
+
+        if (!role.Equals("PilotCard", StringComparison.OrdinalIgnoreCase))
+            return false;
+
+        var deterministicCards = candidates
+            .Where(IsDeterministicXWingDataPilotCard)
+            .ToList();
+
+        return deterministicCards.Count == 1
+            && ReferenceEquals(deterministicCards[0], candidates[0]);
+    }
+
+    private static bool IsDeterministicXWingDataPilotCard(KnowledgeBasePilotAssetCandidate candidate)
+    {
+        if (!candidate.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
+            return false;
+
+        return candidate.Reasons.Any(reason => reason.StartsWith("pilot identity '", StringComparison.OrdinalIgnoreCase)
+                                                && reason.EndsWith("in path", StringComparison.OrdinalIgnoreCase))
+            && candidate.Reasons.Contains("ship identity matched", StringComparer.OrdinalIgnoreCase)
+            && candidate.Reasons.Contains("faction identity matched", StringComparer.OrdinalIgnoreCase)
+            && candidate.Reasons.Contains("individual xwing-data First Edition pilot card", StringComparer.OrdinalIgnoreCase);
+    }
+
+    private static bool ContainsKnownFactionPath(string compactPath)
+    {
+        return compactPath.Contains("rebelalliance", StringComparison.OrdinalIgnoreCase)
+            || compactPath.Contains("galacticempire", StringComparison.OrdinalIgnoreCase)
+            || compactPath.Contains("scumandvillainy", StringComparison.OrdinalIgnoreCase)
+            || compactPath.Contains("resistance", StringComparison.OrdinalIgnoreCase)
+            || compactPath.Contains("firstorder", StringComparison.OrdinalIgnoreCase);
+    }
 
 
     private static void ReplacePilotReferences(UnifiedKnowledgeBase knowledgeBase, IReadOnlyCollection<KnowledgeBasePilot> pilots)

@@ -1,0 +1,20 @@
+assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/kylo-ren.png
+assets/source/xwing-data/images/pilots/Galactic Empire/Raider-class Corvette/raider-class-corv-aft.png
+assets/source/xwing-data/images/pilots/Galactic Empire/Raider-class Corvette/raider-class-corv-fore.png
+assets/source/xwing-data/images/pilots/Galactic Empire/TIE Defender/maarek-stele.png
+assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/black-eight-squadron-pilot.png
+assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png
+assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png
+assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/sabine-wren.png
+assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/zeb-orrelios.png
+assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/hera-syndulla.png
+assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/poe-dameron-hotr.png
+assets/source/xwing-data/images/pilots/Resistance/YT-1300/chewbacca.png
+assets/source/xwing-data/images/pilots/Resistance/YT-1300/han-solo.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Firespray-31/boba-fett.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Firespray-31/kath-scarlet.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Lancer-class Pursuit Craft/sabine-wren.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/fenn-rau.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/captain-nym.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/dalan-oberos.png
+assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/nashtah-pup.png

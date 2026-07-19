@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-18T16:40:58.9022066+00:00",
+  "sourceCsv": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e\\ukb\\reports\\pilot-token-review\\pilot-token-sheet-decisions.template.csv",
+  "decisions": [
+    {
+      "pilotId": "PILOT-919CB508CC2A",
+      "targetId": "zeborrelios",
+      "pilotName": "\u0022Zeb\u0022 Orrelios",
+      "status": "approve",
+      "assetId": "AST-76196BFC64DA12C8",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__27a89001f714f298.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-6252CB094EFA",
+      "targetId": "zeborrelios",
+      "pilotName": "\u0022Zeb\u0022 Orrelios",
+      "status": "approve",
+      "assetId": "AST-1E399FB660D9892E",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__4267f6573a9e0524.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-6A68ADF29BDA",
+      "targetId": "zeborrelios",
+      "pilotName": "\u0022Zeb\u0022 Orrelios",
+      "status": "approve",
+      "assetId": "AST-EF97AAF7DCC92D4B",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b80f8b192eeb9801.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-24EED7FB9599",
+      "targetId": "ap5",
+      "pilotName": "AP-5",
+      "status": "approve",
+      "assetId": "AST-07EEAAA7DDD3D1A5",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1ce28bfa8588d1c0.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-47BE7DD4C303",
+      "targetId": "blacksunace",
+      "pilotName": "Black Sun Ace",
+      "status": "approve",
+      "assetId": "AST-08A72E2763F8E1AB",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6dda404247201f0c.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-E8E9694B8D34",
+      "targetId": "blacksunassassin",
+      "pilotName": "Black Sun Assassin",
+      "status": "approve",
+      "assetId": "AST-1E5B0686AD3BC00F",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__69f4ecd608d361bf.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-8A5CA1DCCBEA",
+      "targetId": "bobafett",
+      "pilotName": "Boba Fett",
+      "status": "approve",
+      "assetId": "AST-0B50322807EA931F",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6ea7c985873a0654.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-2BF2DAE8F20E",
+      "targetId": "captainjostero",
+      "pilotName": "Captain Jostero",
+      "status": "approve",
+      "assetId": "AST-11B92D15828B797B",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__530db44fdeb67130.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-40A82A73B01F",
+      "targetId": "captainnym",
+      "pilotName": "Captain Nym",
+      "status": "approve",
+      "assetId": "AST-D26C943F88D57CBF",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__270c2482690a5731.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-C280AC2074B3",
+      "targetId": "captainrex",
+      "pilotName": "Captain Rex",
+      "status": "approve",
+      "assetId": "AST-5DA22F1CFBC354E3",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__1248f3c878f1f0a5.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-4E5B3C6C644F",
+      "targetId": "cartelexecutioner",
+      "pilotName": "Cartel Executioner",
+      "status": "approve",
+      "assetId": "AST-1D6E641138B056B5",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__283b62cba7623fcb.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-18166CD2AACD",
+      "targetId": "cartelmarauder",
+      "pilotName": "Cartel Marauder",
+      "status": "approve",
+      "assetId": "AST-A259921069112946",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c8c2ec297394f8f6.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-54CD395BE440",
+      "targetId": "dalanoberos",
+      "pilotName": "Dalan Oberos",
+      "status": "approve",
+      "assetId": "AST-B91FA6B5D58FA2E9",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b9cca8a13d1b9614.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-4324FB797B41",
+      "targetId": "dalanoberos",
+      "pilotName": "Dalan Oberos",
+      "status": "approve",
+      "assetId": "AST-CB7B4374BAD1A503",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c9d335848f3ae246.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-A1FB4CD13D43",
+      "targetId": "ezrabridger",
+      "pilotName": "Ezra Bridger",
+      "status": "approve",
+      "assetId": "AST-D7A7DDE679A90B2C",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b50b1b6db57105a6.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-6736E13C64B7",
+      "targetId": "fennrau",
+      "pilotName": "Fenn Rau",
+      "status": "approve",
+      "assetId": "AST-C837BBD433F583B9",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a6af41a30fdc15ee.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-13EC6BA835CC",
+      "targetId": "firstordertestpilot",
+      "pilotName": "First Order Test Pilot",
+      "status": "approve",
+      "assetId": "AST-748E59F350CFCB40",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__9d1653feddb3d6be.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-4D5D323202E6",
+      "targetId": "genesisred",
+      "pilotName": "Genesis Red",
+      "status": "missing",
+      "assetId": "",
+      "repositoryPath": "",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-020CE92F238A",
+      "targetId": "kathscarlet",
+      "pilotName": "Kath Scarlet",
+      "status": "approve",
+      "assetId": "AST-65E80DE1F1AFA074",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__82ba063d7c019215.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-9AF4734CA538",
+      "targetId": "kyloren",
+      "pilotName": "Kylo Ren",
+      "status": "approve",
+      "assetId": "AST-F7615091702AC01E",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5da59378b7d9f2a3.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-A0F3DB878B53",
+      "targetId": "lieutenantkarsabi",
+      "pilotName": "Lieutenant Karsabi",
+      "status": "approve",
+      "assetId": "AST-1526AB5322C2D6C2",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a2255d00c6c09113.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-4F7FCC996CCB",
+      "targetId": "lowhhrick",
+      "pilotName": "Lowhhrick",
+      "status": "missing",
+      "assetId": "",
+      "repositoryPath": "",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-D3947C6F77DF",
+      "targetId": "maarekstele",
+      "pilotName": "Maarek Stele",
+      "status": "approve",
+      "assetId": "AST-725809CC38366F0F",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6e97d1e9c3fe2186.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-C1CD7D44A8EF",
+      "targetId": "magvayarro",
+      "pilotName": "Magva Yarro",
+      "status": "approve",
+      "assetId": "AST-3734612C0A380CC7",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__9206d67cb1951531.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-9F19E7E69203",
+      "targetId": "majorstridan",
+      "pilotName": "Major Stridan",
+      "status": "missing",
+      "assetId": "",
+      "repositoryPath": "",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-E36B6ADA5CD4",
+      "targetId": "majorvynder",
+      "pilotName": "Major Vynder",
+      "status": "approve",
+      "assetId": "AST-3C219D1E02E42F0E",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f60079774097c6e1.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-3C9E6338EBC2",
+      "targetId": "nusquadronpilot",
+      "pilotName": "Nu Squadron Pilot",
+      "status": "approve",
+      "assetId": "AST-AC767F2762A1CA26",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8865722a5fd3eea8.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-37807F1567D3",
+      "targetId": "poedameron",
+      "pilotName": "Poe Dameron",
+      "status": "approve",
+      "assetId": "AST-7BE44DA9143B525E",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8effc513fca46c17.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-6F908E59D57F",
+      "targetId": "poedameron-swx57",
+      "pilotName": "Poe Dameron",
+      "status": "approve",
+      "assetId": "AST-4B6201160A863C5A",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__bf4b5787efe937b3.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-5158A0D06CE9",
+      "targetId": "sabinewren",
+      "pilotName": "Sabine Wren",
+      "status": "approve",
+      "assetId": "AST-1B67CA60C0F16693",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5ecaf2bd7f8d7b76.jpg",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-FE8EB2DFD9A2",
+      "targetId": "sabinewren",
+      "pilotName": "Sabine Wren",
+      "status": "approve",
+      "assetId": "AST-B7D4449B661A705F",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__816196eb61b9f0d0.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-CD598BB7C3BD",
+      "targetId": "sabinewren",
+      "pilotName": "Sabine Wren",
+      "status": "approve",
+      "assetId": "AST-CA2813F74B7C5C61",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__6399115905c4dff2.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-212219B823A7",
+      "targetId": "talonbanecobra",
+      "pilotName": "Talonbane Cobra",
+      "status": "approve",
+      "assetId": "AST-5455BD4F6FE8C4A0",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fd3611066d36b27d.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-3D71D27165EA",
+      "targetId": "toranikulda",
+      "pilotName": "Torani Kulda",
+      "status": "approve",
+      "assetId": "AST-1765F322E8CCC419",
+      "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d20434c33edde0ed.png",
+      "notes": ""
+    },
+    {
+      "pilotId": "PILOT-AF7029FD12A1",
+      "targetId": "wullffwarro",
+      "pilotName": "Wullffwarro",
+      "status": "missing",
+      "assetId": "",
+      "repositoryPath": "",
+      "notes": ""
+    }
+  ]
+}

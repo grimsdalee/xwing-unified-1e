@@ -14,6 +14,7 @@ public static class PilotAssetLinkOutputWriter
         ShipAssetJson.Write(Path.Combine(outputRoot, "pilot-links.json"), new KnowledgeBasePilotDomain { SchemaVersion = "1.0.0", GeneratedUtc = DateTimeOffset.UtcNow, Pilots = pilots.ToList() });
         WriteReview(Path.Combine(reports, "pilot-link-review.csv"), pilots);
         WriteUnresolved(Path.Combine(reports, "unresolved-required-pilot-assets.csv"), pilots);
+        WriteTokenExtractionPlan(Path.Combine(reports, "pilot-token-extraction-plan.csv"), pilots);
         WriteSummary(Path.Combine(reports, "PILOT-LINK-SUMMARY.md"), pilots);
     }
 
@@ -47,6 +48,59 @@ public static class PilotAssetLinkOutputWriter
         File.WriteAllLines(path, lines, new UTF8Encoding(false));
     }
 
+    private static void WriteTokenExtractionPlan(string path, IEnumerable<KnowledgeBasePilot> pilots)
+    {
+        var rows = pilots
+            .Select(pilot => new
+            {
+                Pilot = pilot,
+                SheetRole = pilot.AssetRoles.FirstOrDefault(role => role.Role == "PilotBaseTokenSheet"),
+                TokenRole = pilot.AssetRoles.FirstOrDefault(role => role.Role == "PilotBaseToken")
+            })
+            .Where(row => row.TokenRole is not null && row.TokenRole.Candidates.Count == 0)
+            .Select(row => new
+            {
+                row.Pilot,
+                SheetStatus = row.SheetRole?.Status ?? "missing",
+                Sheet = row.SheetRole?.Candidates.FirstOrDefault()
+            })
+            .OrderBy(row => row.Sheet?.AssetId ?? "~", StringComparer.OrdinalIgnoreCase)
+            .ThenBy(row => row.Pilot.Faction, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(row => row.Pilot.ShipId, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(row => row.Pilot.Name, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        var lines = new List<string>
+        {
+            "sheetAssetId,sheetRepositoryPath,sheetWarehouse,sheetStatus,pilotId,targetId,pilotName,shipId,faction,pilotSkill,squadPointCost,recommendedAction"
+        };
+
+        foreach (var row in rows)
+        {
+            var action = row.Sheet is null
+                ? "Locate a First Edition pilot base-token sheet before extraction."
+                : row.SheetStatus == "clear"
+                    ? "Crop and validate this pilot's individual base token from the clear source sheet."
+                    : "Review the source-sheet candidate, then crop and validate this pilot's individual base token.";
+
+            lines.Add(Csv(
+                row.Sheet?.AssetId ?? string.Empty,
+                row.Sheet?.RepositoryPath ?? string.Empty,
+                row.Sheet?.Warehouse ?? string.Empty,
+                row.SheetStatus,
+                row.Pilot.PilotId,
+                row.Pilot.TargetId,
+                row.Pilot.Name,
+                row.Pilot.ShipId,
+                row.Pilot.Faction,
+                row.Pilot.PilotSkill,
+                row.Pilot.SquadPointCost,
+                action));
+        }
+
+        File.WriteAllLines(path, lines, new UTF8Encoding(false));
+    }
+
     private static void WriteSummary(string path, IReadOnlyCollection<KnowledgeBasePilot> pilots)
     {
         var roles = pilots.SelectMany(p => p.AssetRoles).ToList();
@@ -63,6 +117,16 @@ public static class PilotAssetLinkOutputWriter
         sb.AppendLine("|---|---:|---:|---:|---:|");
         foreach (var group in roles.GroupBy(r => r.Role).OrderBy(g => g.Key))
             sb.AppendLine($"| {group.Key} | {group.Count(r => r.Status == "clear")} | {group.Count(r => r.Status == "review")} | {group.Count(r => r.Status == "missing")} | {group.Sum(r => r.Candidates.Count)} |");
+        var extractionRows = pilots.Count(pilot => pilot.AssetRoles.Any(role => role.Role == "PilotBaseToken" && role.Candidates.Count == 0));
+        var pilotsWithClearSheets = pilots.Count(pilot => pilot.AssetRoles.Any(role => role.Role == "PilotBaseTokenSheet" && role.Status == "clear"));
+        var pilotsWithReviewSheets = pilots.Count(pilot => pilot.AssetRoles.Any(role => role.Role == "PilotBaseTokenSheet" && role.Status == "review"));
+        var pilotsWithoutSheets = pilots.Count(pilot => pilot.AssetRoles.Any(role => role.Role == "PilotBaseTokenSheet" && role.Candidates.Count == 0));
+        sb.AppendLine().AppendLine("## Token Extraction Planning").AppendLine();
+        sb.AppendLine($"- Individual pilot tokens requiring extraction: {extractionRows}");
+        sb.AppendLine($"- Pilots with clear source sheets: {pilotsWithClearSheets}");
+        sb.AppendLine($"- Pilots with source sheets requiring review: {pilotsWithReviewSheets}");
+        sb.AppendLine($"- Pilots with no source-sheet candidate: {pilotsWithoutSheets}");
+        sb.AppendLine().AppendLine("See `pilot-token-extraction-plan.csv` for sheet-grouped extraction work.");
         sb.AppendLine().AppendLine("No pilot assets were automatically approved.");
         File.WriteAllText(path, sb.ToString(), new UTF8Encoding(false));
     }
