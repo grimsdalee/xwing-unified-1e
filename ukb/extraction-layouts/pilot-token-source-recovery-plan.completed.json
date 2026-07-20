@@ -1,0 +1,4082 @@
+{
+  "schemaVersion": "2.0.0",
+  "generatedUtc": "2026-07-20T00:57:05.532Z",
+  "sourceCatalogue": "pilot-sheet-catalogue.json",
+  "assignments": [
+    {
+      "assignmentId": "recovery-1784481105789",
+      "pilotId": "rebelalliance::uwing::bluesquadronpathfinder",
+      "targetId": "bluesquadronpathfinder",
+      "displayName": "Blue Squadron Pathfinder",
+      "faction": "Rebel Alliance",
+      "ship": "U-wing",
+      "skill": 2,
+      "points": 23,
+      "imageId": "legacy-image-0272",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a1a7f59f6416dd22.png",
+      "sourceSha256": "ecaec1f05789c138b78dbf1534f89c0fd2c7abfd4cd5daedfa154c1e4aac1e54",
+      "x": 0.3989,
+      "y": 0.5576,
+      "width": 0.2102,
+      "height": 0.2321,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784481315124",
+      "pilotId": "galacticempire::tieaggressor::onyxsquadronescort",
+      "targetId": "onyxsquadronescort",
+      "displayName": "Onyx Squadron Escort",
+      "faction": "Galactic Empire",
+      "ship": "TIE Aggressor",
+      "skill": 5,
+      "points": 19,
+      "imageId": "legacy-image-0270",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__921fbbc8e48665e2.png",
+      "sourceSha256": "aba1b1f069282d619ae48d93b91647b9a99222560ee7c07adf78b489595bd8fa",
+      "x": 0.0146,
+      "y": 0.0159,
+      "width": 0.2451,
+      "height": 0.2772,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784483973175",
+      "pilotId": "galacticempire::tiepunisher::blackeightsqpilot",
+      "targetId": "blackeightsqpilot",
+      "displayName": "Black Eight Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Punisher",
+      "skill": 4,
+      "points": 23,
+      "imageId": "legacy-image-0010",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__087c5068aeefcd44.jpg",
+      "sourceSha256": "90fd0775e08ac595c7059b3aa82b1d25c7da7a2ad4bcc071d971ba51f110e664",
+      "x": 0.0169,
+      "y": 0.0481,
+      "width": 0.2949,
+      "height": 0.3322,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784484070267",
+      "pilotId": "galacticempire::tiebomber::gammasquadronveteran",
+      "targetId": "gammasquadronveteran",
+      "displayName": "Gamma Squadron Veteran",
+      "faction": "Galactic Empire",
+      "ship": "TIE Bomber",
+      "skill": 5,
+      "points": 19,
+      "imageId": "legacy-image-0013",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0ea862bb5cb65f7c.png",
+      "sourceSha256": "e0a9d55bb0f13bc525ee5b89d6068b677218680d719dcc1cf157927da240f6c7",
+      "x": 0.0165,
+      "y": 0.048,
+      "width": 0.2952,
+      "height": 0.3317,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784484161858",
+      "pilotId": "galacticempire::tiebomber::gammasquadronpilot",
+      "targetId": "gammasquadronpilot",
+      "displayName": "Gamma Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Bomber",
+      "skill": 4,
+      "points": 18,
+      "imageId": "legacy-image-0027",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1b736b8e3858a393.jpg",
+      "sourceSha256": "21fcd8868d114168694aaf59963ffab53c9cd1bac6cea0883ab8ddc67e5728fa",
+      "x": 0.0165,
+      "y": 0.048,
+      "width": 0.2952,
+      "height": 0.3317,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784499827861",
+      "pilotId": "firstorder::tiesilencer::sienarjaemusanalyst",
+      "targetId": "sienarjaemusanalyst",
+      "displayName": "Sienar-Jaemus Analyst",
+      "faction": "First Order",
+      "ship": "TIE Silencer",
+      "skill": 4,
+      "points": 26,
+      "imageId": "legacy-image-0257",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fbd02e039fd20ba4.png",
+      "sourceSha256": "591e23e24bba02997c229027cf364ef6869bb2694c61204529e62149b969c592",
+      "x": 0.0335,
+      "y": 0.0345,
+      "width": 0.4224,
+      "height": 0.5075,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784499879493",
+      "pilotId": "firstorder::tiesilencer::testpilotblackout",
+      "targetId": "testpilotblackout",
+      "displayName": "Test Pilot \"Blackout\"",
+      "faction": "First Order",
+      "ship": "TIE Silencer",
+      "skill": 7,
+      "points": 31,
+      "imageId": "legacy-image-0041",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__2749315e7bd4122b.png",
+      "sourceSha256": "d574bbee13774daec8f2b7f040becf1de61b29381c54f9553aea84d20f80993c",
+      "x": 0.0335,
+      "y": 0.0345,
+      "width": 0.4224,
+      "height": 0.5075,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500069112",
+      "pilotId": "firstorder::tiefofighter::epsilonace",
+      "targetId": "epsilonace",
+      "displayName": "\"Epsilon Ace\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 4,
+      "points": 17,
+      "imageId": "legacy-image-0096",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6021444333fb6b54.png",
+      "sourceSha256": "05cdaca4b53bb1b1d04497f1757b2fd7e674306e89ad34112ca7e153fdbb872e",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500125400",
+      "pilotId": "firstorder::tiefofighter::epsilonleader",
+      "targetId": "epsilonleader",
+      "displayName": "\"Epsilon Leader\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 6,
+      "points": 19,
+      "imageId": "legacy-image-0234",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__e7274eec890b971d.png",
+      "sourceSha256": "884f9e855fffe6c3b99243e15b0fcf1047fed4373770e54b31bd9894170176df",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500170632",
+      "pilotId": "firstorder::tiefofighter::omegaace",
+      "targetId": "omegaace",
+      "displayName": "\"Omega Ace\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 7,
+      "points": 20,
+      "imageId": "legacy-image-0168",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a94bfda697939780.png",
+      "sourceSha256": "cee24f81115c486bc11000bc7aa0e33760d66ff3f3751f88b426f3133535b612",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500211971",
+      "pilotId": "firstorder::tiefofighter::omegaleader",
+      "targetId": "omegaleader",
+      "displayName": "\"Omega Leader\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 8,
+      "points": 21,
+      "imageId": "legacy-image-0144",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__929cb78c320fe62d.png",
+      "sourceSha256": "c433a7319d37c59353d9d68b1391045adad8c7e03d9777154caa7bcad9c56f61",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500250366",
+      "pilotId": "firstorder::tiefofighter::zetaace",
+      "targetId": "zetaace",
+      "displayName": "\"Zeta Ace\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 5,
+      "points": 18,
+      "imageId": "legacy-image-0133",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8779e716f671e0a4.png",
+      "sourceSha256": "d96ba6e167836ec7a244bf2c99743835ac14aa8ae361fdb545f93ac69323e89c",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500289201",
+      "pilotId": "firstorder::tiefofighter::zetaleader",
+      "targetId": "zetaleader",
+      "displayName": "\"Zeta Leader\"",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 7,
+      "points": 20,
+      "imageId": "legacy-image-0095",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5f0b5b7e23af2712.png",
+      "sourceSha256": "b53ddaa268753a3465879989d4aa32b0671ddaea93ee71410d7b4c41a14a9569",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500360951",
+      "pilotId": "firstorder::tiefofighter::epsilonsquadronpilot",
+      "targetId": "epsilonsquadronpilot",
+      "displayName": "Epsilon Squadron Pilot",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 1,
+      "points": 15,
+      "imageId": "legacy-image-0101",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6432aa2954081d75.png",
+      "sourceSha256": "4f38b6bc44b0a3907785acefbaae0e30c8036dee987bf0fd735febd494775ba5",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500632055",
+      "pilotId": "firstorder::tiefofighter::omegasquadronpilot",
+      "targetId": "omegasquadronpilot",
+      "displayName": "Omega Squadron Pilot",
+      "faction": "First Order",
+      "ship": "TIE/fo Fighter",
+      "skill": 4,
+      "points": 17,
+      "imageId": "legacy-image-0145",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__93f771ebe9655b77.png",
+      "sourceSha256": "38474f5a0bdaea5a163326bd3cc9a2b08710ef9d63d6409f261678e0c3ec90af",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4836,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500670635",
+      "pilotId": "firstorder::tiesffighter::omegaspecialist",
+      "targetId": "omegaspecialist",
+      "displayName": "Omega Specialist",
+      "faction": "First Order",
+      "ship": "TIE/sf Fighter",
+      "skill": 5,
+      "points": 25,
+      "imageId": "legacy-image-0120",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7d15742b170136f9.png",
+      "sourceSha256": "ceb563e0f29e6d23f45b00b3e6d6cac39a6f6baaeb5f3b4db80912efc4ea5b41",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4939,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500698273",
+      "pilotId": "firstorder::tiesffighter::zetaspecialist",
+      "targetId": "zetaspecialist",
+      "displayName": "Zeta Specialist",
+      "faction": "First Order",
+      "ship": "TIE/sf Fighter",
+      "skill": 3,
+      "points": 23,
+      "imageId": "legacy-image-0244",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f04a15569b7ae6cf.png",
+      "sourceSha256": "b20c5bef7c47755ec0aa281aef5e54cdbdb43323290c8477a01645cfec1fdab6",
+      "x": 0.0072,
+      "y": 0.0097,
+      "width": 0.4207,
+      "height": 0.4939,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500781721",
+      "pilotId": "firstorder::upsilonclassshuttle::kyloren",
+      "targetId": "kyloren",
+      "displayName": "Kylo Ren",
+      "faction": "First Order",
+      "ship": "Upsilon-class Shuttle",
+      "skill": 6,
+      "points": 34,
+      "imageId": "legacy-image-0256",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fbbff8877613c16a.jpg",
+      "sourceSha256": "b8017e209ae614e3880597e4766311c22855d9bb5448fa03ffe4b059c2b57179",
+      "x": 0.0097,
+      "y": 0.008,
+      "width": 0.3108,
+      "height": 0.3293,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784500949506",
+      "pilotId": "galacticempire::alphaclassstarwing::rhosquadronveteran",
+      "targetId": "rhosquadronveteran",
+      "displayName": "Rho Squadron Veteran",
+      "faction": "Galactic Empire",
+      "ship": "Alpha-class Star Wing",
+      "skill": 4,
+      "points": 21,
+      "imageId": "legacy-image-0023",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__17eb51f2a51e4404.jpg",
+      "sourceSha256": "17270b05a12f74918d00e9f291db270633acacfce4bb6fa83ba27a1a1db1ec43",
+      "x": 0.0139,
+      "y": 0.0183,
+      "width": 0.2486,
+      "height": 0.2801,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501093363",
+      "pilotId": "galacticempire::firespray31::bobafett",
+      "targetId": "bobafett",
+      "displayName": "Boba Fett",
+      "faction": "Galactic Empire",
+      "ship": "Firespray-31",
+      "skill": 8,
+      "points": 39,
+      "imageId": "legacy-image-0177",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b3bee5dd3a2f9ce2.jpg",
+      "sourceSha256": "f8a73b57ee806b3973842cef2d7c007071950c24c86c1c64b0a8e7c621932394",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501137470",
+      "pilotId": "galacticempire::firespray31::kathscarlet",
+      "targetId": "kathscarlet",
+      "displayName": "Kath Scarlet",
+      "faction": "Galactic Empire",
+      "ship": "Firespray-31",
+      "skill": 7,
+      "points": 38,
+      "imageId": "legacy-image-0201",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c5ee6bb1a35a39b5.jpg",
+      "sourceSha256": "afe444e3be97467c3772f9e336c4893848bd785eca6253f357b47b86fddeeb49",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501226645",
+      "pilotId": "galacticempire::lambdaclassshuttle::captainyorr",
+      "targetId": "captainyorr",
+      "displayName": "Captain Yorr",
+      "faction": "Galactic Empire",
+      "ship": "Lambda-class Shuttle",
+      "skill": 4,
+      "points": 24,
+      "imageId": "legacy-image-0099",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__62c8264aa5d9ebd7.jpg",
+      "sourceSha256": "14e6740b675dc2975bce697e4790f6feda3ca53938c64448f0777ce2291fde5d",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501297833",
+      "pilotId": "galacticempire::vt49decimator::commanderkenkirk",
+      "targetId": "commanderkenkirk",
+      "displayName": "Commander Kenkirk",
+      "faction": "Galactic Empire",
+      "ship": "VT-49 Decimator",
+      "skill": 6,
+      "points": 44,
+      "imageId": "legacy-image-0254",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f7aa5ccad91d322f.jpg",
+      "sourceSha256": "1decfdfdd840263586c92d36dbb4acbbc5d165b39ca1cf28c472dc4d7d17844f",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4894,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501382234",
+      "pilotId": "rebelalliance::yt2400::eadenvrill",
+      "targetId": "eadenvrill",
+      "displayName": "Eaden Vrill",
+      "faction": "Rebel Alliance",
+      "ship": "YT-2400",
+      "skill": 3,
+      "points": 32,
+      "imageId": "legacy-image-0223",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d540095bcc8c7add.jpg",
+      "sourceSha256": "8948fa7cdaf169eab66a65a700ed71e4f9485e9f06eb47045ca577f437494e20",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4893,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501575356",
+      "pilotId": "resistance::bsf17bomber::cobaltleader",
+      "targetId": "cobaltleader",
+      "displayName": "\"Cobalt Leader\"",
+      "faction": "Resistance",
+      "ship": "B/SF-17 Bomber",
+      "skill": 6,
+      "points": 28,
+      "imageId": "legacy-image-0007",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__05bd03057431458d.png",
+      "sourceSha256": "9db370716d4689d6985003e2a7df10866d12ad9a4c547149efff23da595c0abb",
+      "x": 0.02,
+      "y": 0.0217,
+      "width": 0.4509,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501628791",
+      "pilotId": "scumandvillainy::firespray31::mandalorianmercenary",
+      "targetId": "mandalorianmercenary",
+      "displayName": "Mandalorian Mercenary",
+      "faction": "Scum and Villainy",
+      "ship": "Firespray-31",
+      "skill": 5,
+      "points": 35,
+      "imageId": "legacy-image-0128",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__82dc8e3d13f00177.jpg",
+      "sourceSha256": "6e98538aff3062160fe104984feb1247ec8987379994bc489aced17f6a8dca19",
+      "x": 0.0228,
+      "y": 0.0217,
+      "width": 0.446,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501757588",
+      "pilotId": "resistance::bsf17bomber::crimsonleader",
+      "targetId": "crimsonleader",
+      "displayName": "\"Crimson Leader\"",
+      "faction": "Resistance",
+      "ship": "B/SF-17 Bomber",
+      "skill": 7,
+      "points": 29,
+      "imageId": "legacy-image-0207",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cb7a778a35f1ab74.png",
+      "sourceSha256": "442a5effc4bde5bf829f122af380f1566874220d57bdb40161631bccf73f880a",
+      "x": 0.02,
+      "y": 0.0217,
+      "width": 0.4509,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501789588",
+      "pilotId": "resistance::bsf17bomber::crimsonspecialist",
+      "targetId": "crimsonspecialist",
+      "displayName": "\"Crimson Specialist\"",
+      "faction": "Resistance",
+      "ship": "B/SF-17 Bomber",
+      "skill": 4,
+      "points": 27,
+      "imageId": "legacy-image-0014",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__10b74ebdc73a4cd2.png",
+      "sourceSha256": "01e97955c6eb663017f0589b59cdeaccbdc8671ce72ad7b4e7641f3efea0d46a",
+      "x": 0.02,
+      "y": 0.0217,
+      "width": 0.4509,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784501810024",
+      "pilotId": "resistance::bsf17bomber::crimsonsquadronpilot",
+      "targetId": "crimsonsquadronpilot",
+      "displayName": "Crimson Squadron Pilot",
+      "faction": "Resistance",
+      "ship": "B/SF-17 Bomber",
+      "skill": 1,
+      "points": 25,
+      "imageId": "legacy-image-0086",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__522d74291f3e2e14.png",
+      "sourceSha256": "183b135437df1831338d737c3824c9ee4fdcabc795d876d7448babfd4c2c35af",
+      "x": 0.02,
+      "y": 0.0217,
+      "width": 0.4509,
+      "height": 0.4922,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784502591408",
+      "pilotId": "rebelalliance::xwing::rookiepilot",
+      "targetId": "rookiepilot",
+      "displayName": "Rookie Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "X-wing",
+      "skill": 2,
+      "points": 21,
+      "imageId": "legacy-image-0076",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__479ac4c40d60d726.png",
+      "sourceSha256": "5e701da557aa7f883c61fe1fdceca22cf003619b53e7d4d1e9762ebd2cfe4cae",
+      "x": 0.4659,
+      "y": 0.5518,
+      "width": 0.2034,
+      "height": 0.2331,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784502754651",
+      "pilotId": "rebelalliance::xwing::redsquadronpilot",
+      "targetId": "redsquadronpilot",
+      "displayName": "Red Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "X-wing",
+      "skill": 4,
+      "points": 23,
+      "imageId": "legacy-image-0229",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__de7f7833467986a1.jpg",
+      "sourceSha256": "ddf0dbd70cb2818694f2eb44e48de2f0ef3dd8d8f9de1d84aec989c94de463bb",
+      "x": 0.4661,
+      "y": 0.0168,
+      "width": 0.2035,
+      "height": 0.2314,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784502838666",
+      "pilotId": "rebelalliance::xwing::tarnmison",
+      "targetId": "tarnmison",
+      "displayName": "Tarn Mison",
+      "faction": "Rebel Alliance",
+      "ship": "X-wing",
+      "skill": 3,
+      "points": 23,
+      "imageId": "legacy-image-0229",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__de7f7833467986a1.jpg",
+      "sourceSha256": "ddf0dbd70cb2818694f2eb44e48de2f0ef3dd8d8f9de1d84aec989c94de463bb",
+      "x": 0.6929,
+      "y": 0.0168,
+      "width": 0.2035,
+      "height": 0.2314,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784502931358",
+      "pilotId": "rebelalliance::xwing::hobbieklivian",
+      "targetId": "hobbieklivian",
+      "displayName": "\"Hobbie\" Klivian",
+      "faction": "Rebel Alliance",
+      "ship": "X-wing",
+      "skill": 5,
+      "points": 25,
+      "imageId": "legacy-image-0229",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__de7f7833467986a1.jpg",
+      "sourceSha256": "ddf0dbd70cb2818694f2eb44e48de2f0ef3dd8d8f9de1d84aec989c94de463bb",
+      "x": 0.4661,
+      "y": 0.5521,
+      "width": 0.2035,
+      "height": 0.2314,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784503072873",
+      "pilotId": "rebelalliance::auzituckgunship::wookieeliberator",
+      "targetId": "wookieeliberator",
+      "displayName": "Wookiee Liberator",
+      "faction": "Rebel Alliance",
+      "ship": "Auzituck Gunship",
+      "skill": 3,
+      "points": 26,
+      "imageId": "legacy-image-0035",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__22d1b41d46784268.png",
+      "sourceSha256": "3f869b251b01378ab63fc5fb95087b0ea6b65783b08bd454cc947e10639c0636",
+      "x": 0.0163,
+      "y": 0.6619,
+      "width": 0.2716,
+      "height": 0.3217,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784503480042",
+      "pilotId": "rebelalliance::arc170::braylenstramm",
+      "targetId": "braylenstramm",
+      "displayName": "Braylen Stramm",
+      "faction": "Rebel Alliance",
+      "ship": "ARC-170",
+      "skill": 3,
+      "points": 25,
+      "imageId": "legacy-image-0222",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d47c3d7b1df4bb8b.jpg",
+      "sourceSha256": "88f035b1dec8d55fe91f8eb31d60a415467bbc2342b3063fcb6fcb6564f15d9f",
+      "x": 0.0166,
+      "y": 0.0223,
+      "width": 0.2891,
+      "height": 0.3346,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784503515913",
+      "pilotId": "rebelalliance::arc170::thanekyrell",
+      "targetId": "thanekyrell",
+      "displayName": "Thane Kyrell",
+      "faction": "Rebel Alliance",
+      "ship": "ARC-170",
+      "skill": 4,
+      "points": 26,
+      "imageId": "legacy-image-0131",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8607a2723e631383.jpg",
+      "sourceSha256": "b470a215f6ed710334febb3bfb2ff4d6b18b15380c001c9e70eed97dc5dc1a3e",
+      "x": 0.0166,
+      "y": 0.0223,
+      "width": 0.2891,
+      "height": 0.3346,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784504876987",
+      "pilotId": "scumandvillainy::z95headhunter::nashtahpuppilot",
+      "targetId": "nashtahpuppilot",
+      "displayName": "Nashtah Pup Pilot",
+      "faction": "Scum and Villainy",
+      "ship": "Z-95 Headhunter",
+      "skill": 0,
+      "points": 0,
+      "imageId": "legacy-image-0032",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1ecc570f5ef1037c.png",
+      "sourceSha256": "29240fe75b632ea5c9d88a8c7669f2ac6f3314b20c38c53dd9eaa21cb26478af",
+      "x": 0.0246,
+      "y": 0.0332,
+      "width": 0.4374,
+      "height": 0.5091,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784504950839",
+      "pilotId": "scumandvillainy::ywing::syndicatethug",
+      "targetId": "syndicatethug",
+      "displayName": "Syndicate Thug",
+      "faction": "Scum and Villainy",
+      "ship": "Y-wing",
+      "skill": 2,
+      "points": 18,
+      "imageId": "legacy-image-0054",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__374735e7754c1aca.jpg",
+      "sourceSha256": "b0717c319845da5ce032ac735d36a5f7a47ea2b00ef77c1224ce6784a07040b3",
+      "x": 0.0115,
+      "y": 0.0155,
+      "width": 0.2035,
+      "height": 0.2368,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505018988",
+      "pilotId": "rebelalliance::ywing::goldsquadronpilot",
+      "targetId": "goldsquadronpilot",
+      "displayName": "Gold Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "Y-wing",
+      "skill": 2,
+      "points": 18,
+      "imageId": "legacy-image-0106",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6a7b8d7726325ec7.jpg",
+      "sourceSha256": "c6e67c10413f99c3bd12ec8263f89184e286d2be6bd62102013345eaf55e92b3",
+      "x": 0.0115,
+      "y": 0.0155,
+      "width": 0.2035,
+      "height": 0.2368,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505164774",
+      "pilotId": "rebelalliance::ywing::graysquadronpilot",
+      "targetId": "graysquadronpilot",
+      "displayName": "Gray Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "Y-wing",
+      "skill": 4,
+      "points": 20,
+      "imageId": "legacy-image-0106",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6a7b8d7726325ec7.jpg",
+      "sourceSha256": "c6e67c10413f99c3bd12ec8263f89184e286d2be6bd62102013345eaf55e92b3",
+      "x": 0.0115,
+      "y": 0.2836,
+      "width": 0.2035,
+      "height": 0.2368,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505286850",
+      "pilotId": "scumandvillainy::starviper::thweek",
+      "targetId": "thweek",
+      "displayName": "Thweek",
+      "faction": "Scum and Villainy",
+      "ship": "StarViper",
+      "skill": 4,
+      "points": 28,
+      "imageId": "legacy-image-0227",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__dbc816c1aa07a8d7.png",
+      "sourceSha256": "6e918ff2aabdae92a366d25ee9a0d38b2edf62ab0a951f6063d5a58136d24668",
+      "x": 0.0252,
+      "y": 0.0342,
+      "width": 0.4356,
+      "height": 0.5112,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505367363",
+      "pilotId": "scumandvillainy::starviper::blacksunvigo",
+      "targetId": "blacksunvigo",
+      "displayName": "Black Sun Vigo",
+      "faction": "Scum and Villainy",
+      "ship": "StarViper",
+      "skill": 3,
+      "points": 27,
+      "imageId": "legacy-image-0085",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__510261e24ba08017.png",
+      "sourceSha256": "5af3a0e9cde83b9694fa1af5cf4dce35590f9bb370c8a898b138e334f0ca49ed",
+      "x": 0.0252,
+      "y": 0.0342,
+      "width": 0.4356,
+      "height": 0.5122,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505442409",
+      "pilotId": "scumandvillainy::scurrgh6bomber::karthakkpirate",
+      "targetId": "karthakkpirate",
+      "displayName": "Karthakk Pirate",
+      "faction": "Scum and Villainy",
+      "ship": "Scurrg H-6 Bomber",
+      "skill": 1,
+      "points": 24,
+      "imageId": "legacy-image-0237",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__e99d2d77daa8bb04.png",
+      "sourceSha256": "bcf912929840e962be275b076ad20ad99073ecc009de085af0294864d68592bb",
+      "x": 0.01,
+      "y": 0.0372,
+      "width": 0.2878,
+      "height": 0.3212,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505529126",
+      "pilotId": "rebelalliance::scurrgh6bomber::captainnym",
+      "targetId": "captainnym",
+      "displayName": "Captain Nym",
+      "faction": "Rebel Alliance",
+      "ship": "Scurrg H-6 Bomber",
+      "skill": 8,
+      "points": 30,
+      "imageId": "legacy-image-0265",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bf704ca6e757c26.png",
+      "sourceSha256": "83b09773e6698b5741afb6443b726bd0bebfd7b894f891fc79ab31460830c2e8",
+      "x": 0.0264,
+      "y": 0.0374,
+      "width": 0.2712,
+      "height": 0.3212,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505600998",
+      "pilotId": "scumandvillainy::protectoratestarfighter::concorddawnveteran",
+      "targetId": "concorddawnveteran",
+      "displayName": "Concord Dawn Veteran",
+      "faction": "Scum and Villainy",
+      "ship": "Protectorate Starfighter",
+      "skill": 3,
+      "points": 22,
+      "imageId": "legacy-image-0209",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cb8fd85fa1a79724.png",
+      "sourceSha256": "5748c6330666059e499fed157163fdb04ecd9bfd04a3ea6309afa8506e147cd7",
+      "x": 0.0312,
+      "y": 0.0339,
+      "width": 0.2028,
+      "height": 0.2426,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505652009",
+      "pilotId": "scumandvillainy::protectoratestarfighter::concorddawnace",
+      "targetId": "concorddawnace",
+      "displayName": "Concord Dawn Ace",
+      "faction": "Scum and Villainy",
+      "ship": "Protectorate Starfighter",
+      "skill": 5,
+      "points": 23,
+      "imageId": "legacy-image-0269",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7a75c3dedef70084.png",
+      "sourceSha256": "0ec4496f19174f4d20dc748f7af01bfcd2d30ab81f9c33b2434be414642ef69e",
+      "x": 0.0312,
+      "y": 0.0339,
+      "width": 0.2028,
+      "height": 0.2426,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505812954",
+      "pilotId": "scumandvillainy::m12lkimogilafighter::cartelbrute",
+      "targetId": "cartelbrute",
+      "displayName": "Cartel Brute",
+      "faction": "Scum and Villainy",
+      "ship": "M12-L Kimogila Fighter",
+      "skill": 3,
+      "points": 22,
+      "imageId": "legacy-image-0068",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__43b97025f8481d09.png",
+      "sourceSha256": "7f590ea019eb2a860a49526a1571b6af49ff4ffe3a693782b821e88691dc2c42",
+      "x": 0.02,
+      "y": 0.021,
+      "width": 0.2854,
+      "height": 0.3392,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505921675",
+      "pilotId": "scumandvillainy::kihraxzfighter::grazthehunter",
+      "targetId": "grazthehunter",
+      "displayName": "Graz the Hunter",
+      "faction": "Scum and Villainy",
+      "ship": "Kihraxz Fighter",
+      "skill": 6,
+      "points": 25,
+      "imageId": "legacy-image-0084",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__50263a79cb43a37a.png",
+      "sourceSha256": "2d6c3b8dd0e554cf273c28d07189ef3fbb19fb5a1ab48281f78b28f88d14ce6d",
+      "x": 0.0239,
+      "y": 0.0308,
+      "width": 0.1957,
+      "height": 0.2308,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784505974017",
+      "pilotId": "scumandvillainy::g1astarfighter::ruthlessfreelancer",
+      "targetId": "ruthlessfreelancer",
+      "displayName": "Ruthless Freelancer",
+      "faction": "Scum and Villainy",
+      "ship": "G-1A Starfighter",
+      "skill": 3,
+      "points": 23,
+      "imageId": "legacy-image-0122",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__81224fb4e515e711.jpg",
+      "sourceSha256": "9f1375e44609f9b521e04d5d9cfa65117fcea28000bb61744f1ca6db00a67704",
+      "x": 0.0171,
+      "y": 0.0235,
+      "width": 0.2899,
+      "height": 0.326,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506069217",
+      "pilotId": "resistance::yt1300::rey",
+      "targetId": "rey",
+      "displayName": "Rey",
+      "faction": "Resistance",
+      "ship": "YT-1300",
+      "skill": 8,
+      "points": 45,
+      "imageId": "legacy-image-0221",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d3df896a1b19e2d3.jpg",
+      "sourceSha256": "361ee14c44f602e49b866fac01e485b43d572c86e0c937c5477272bcac3293c1",
+      "x": 0.017,
+      "y": 0.016,
+      "width": 0.3019,
+      "height": 0.3316,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506104122",
+      "pilotId": "resistance::yt1300::resistancesympathizer",
+      "targetId": "resistancesympathizer",
+      "displayName": "Resistance Sympathizer",
+      "faction": "Resistance",
+      "ship": "YT-1300",
+      "skill": 3,
+      "points": 38,
+      "imageId": "legacy-image-0117",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7467530dfe133fbb.jpg",
+      "sourceSha256": "f42118489604a052061b065c933680810a2c8d1e4de7061fecb312133ccfe808",
+      "x": 0.017,
+      "y": 0.016,
+      "width": 0.3019,
+      "height": 0.3316,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506273482",
+      "pilotId": "resistance::t70xwing::blueace",
+      "targetId": "blueace",
+      "displayName": "\"Blue Ace\"",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 5,
+      "points": 27,
+      "imageId": "legacy-image-0029",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d5936ef888e42e5.png",
+      "sourceSha256": "df81d789991496f680df4a4bb65ec6aabbefe0235bf53fc7c1f96bc08d092c32",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506319508",
+      "pilotId": "resistance::t70xwing::redace",
+      "targetId": "redace",
+      "displayName": "\"Red Ace\"",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 6,
+      "points": 29,
+      "imageId": "legacy-image-0146",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__975c8c711f7c65aa.png",
+      "sourceSha256": "60b5a71e355910e56725d53744355ff938cfe29dbf93831df65d724a6ad0c4e3",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506352264",
+      "pilotId": "resistance::t70xwing::snapwexley",
+      "targetId": "snapwexley",
+      "displayName": "\"Snap\" Wexley",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 6,
+      "points": 28,
+      "imageId": "legacy-image-0019",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__153b577a450f0b6b.png",
+      "sourceSha256": "1dcc9b457f8e905677d09336f52e08be372d24655004ab6063a603468f780b71",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506391400",
+      "pilotId": "resistance::t70xwing::bluesquadronnovice",
+      "targetId": "bluesquadronnovice",
+      "displayName": "Blue Squadron Novice",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 2,
+      "points": 24,
+      "imageId": "legacy-image-0088",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__54a3af4a124ddf3b.png",
+      "sourceSha256": "8cbcad3dce1cbb5f583fb68abaa67739f5597980cd3aaefeba4de758e340ff01",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506431082",
+      "pilotId": "resistance::t70xwing::jesspava",
+      "targetId": "jesspava",
+      "displayName": "Jess Pava",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 3,
+      "points": 25,
+      "imageId": "legacy-image-0030",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d61c00c61d16842.png",
+      "sourceSha256": "20dab9b3939533363ba20de21fddd0c4faf326f71d029dfbdd003d29b9ff5358",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506462458",
+      "pilotId": "resistance::t70xwing::niennunb",
+      "targetId": "niennunb",
+      "displayName": "Nien Nunb",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 7,
+      "points": 29,
+      "imageId": "legacy-image-0020",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__16209805b76e1a18.png",
+      "sourceSha256": "812eca60333aa6613d13d3927684f45a13f0645753f91cd5fbbd28d9f6632bb3",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506493368",
+      "pilotId": "resistance::t70xwing::redsquadronveteran",
+      "targetId": "redsquadronveteran",
+      "displayName": "Red Squadron Veteran",
+      "faction": "Resistance",
+      "ship": "T-70 X-wing",
+      "skill": 4,
+      "points": 26,
+      "imageId": "legacy-image-0206",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cae3c01c45a74ce3.png",
+      "sourceSha256": "a5e8150aaa49759532854d564052603dfc6e759ee206f0768d4518f8e0553980",
+      "x": 0.0079,
+      "y": 0.0121,
+      "width": 0.4195,
+      "height": 0.4803,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506627046",
+      "pilotId": "rebelalliance::tiefighter::ahsokatano",
+      "targetId": "ahsokatano",
+      "displayName": "Ahsoka Tano",
+      "faction": "Rebel Alliance",
+      "ship": "TIE Fighter",
+      "skill": 7,
+      "points": 17,
+      "imageId": "legacy-image-0263",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__2d6e5ce97aed0766.png",
+      "sourceSha256": "7767d871b9198ccf57d6755133ea49894eac9022017543bcb3fbba846f987400",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506692966",
+      "pilotId": "galacticempire::tiefighter::chaser",
+      "targetId": "chaser",
+      "displayName": "\"Chaser\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Fighter",
+      "skill": 3,
+      "points": 14,
+      "imageId": "legacy-image-0108",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6c3f421b05f367c1.png",
+      "sourceSha256": "d34c9a86ba8616b24b90c521bca785ad525bb49c8cbea2123e3248e844f8dbf0",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506725854",
+      "pilotId": "galacticempire::tiefighter::scourge",
+      "targetId": "scourge",
+      "displayName": "\"Scourge\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Fighter",
+      "skill": 7,
+      "points": 17,
+      "imageId": "legacy-image-0090",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__585519cfcc08608b.png",
+      "sourceSha256": "bf71b3d99173a63471bca024a2f2fd1c864dd980a10e06baafd82f87677ba455",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506759883",
+      "pilotId": "galacticempire::tiefighter::wingedgundark",
+      "targetId": "wingedgundark",
+      "displayName": "\"Winged Gundark\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Fighter",
+      "skill": 5,
+      "points": 15,
+      "imageId": "legacy-image-0071",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__44d3738836b61519.png",
+      "sourceSha256": "5e14cc066eabce223a1294522b27988b0bcecd09e130f3baef44d61fdbaefeab",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506792319",
+      "pilotId": "galacticempire::tiefighter::youngster",
+      "targetId": "youngster",
+      "displayName": "\"Youngster\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Fighter",
+      "skill": 6,
+      "points": 15,
+      "imageId": "legacy-image-0042",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__2760184b48ec5205.png",
+      "sourceSha256": "7229cd9024066430a6d738a753e837eaf6410c054a58c34323171f9152ee28a8",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506825774",
+      "pilotId": "galacticempire::tiefighter::blacksquadronpilot",
+      "targetId": "blacksquadronpilot",
+      "displayName": "Black Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Fighter",
+      "skill": 4,
+      "points": 14,
+      "imageId": "legacy-image-0167",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a814789ab705ec24.png",
+      "sourceSha256": "fcafcab0e89e3e4416c10a967a5a977cf011d09cfbf2a10b21c8c5917302c573",
+      "x": 0.0176,
+      "y": 0.0234,
+      "width": 0.2236,
+      "height": 0.263,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784506949111",
+      "pilotId": "rebelalliance::kwing::guardiansquadronpilot",
+      "targetId": "guardiansquadronpilot",
+      "displayName": "Guardian Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "K-wing",
+      "skill": 4,
+      "points": 25,
+      "imageId": "legacy-image-0038",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__24dd31f5c9f1d6db.jpg",
+      "sourceSha256": "c11cb9295a9a71a9acfc478a228ac0e16e14a559fc664c40e247612e49414a09",
+      "x": 0.0176,
+      "y": 0.0241,
+      "width": 0.2917,
+      "height": 0.3433,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507052601",
+      "pilotId": "rebelalliance::hwk290::rebeloperative",
+      "targetId": "rebeloperative",
+      "displayName": "Rebel Operative",
+      "faction": "Rebel Alliance",
+      "ship": "HWK-290",
+      "skill": 2,
+      "points": 16,
+      "imageId": "legacy-image-0243",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__ef0bb9f3eee117c8.jpg",
+      "sourceSha256": "7002de83088ee2abd7a839798d289e45645956bae13bfda82729c29eec04aa3c",
+      "x": 0.0176,
+      "y": 0.0241,
+      "width": 0.2895,
+      "height": 0.3407,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507138376",
+      "pilotId": "rebelalliance::ewing::knavesquadronpilot",
+      "targetId": "knavesquadronpilot",
+      "displayName": "Knave Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "E-wing",
+      "skill": 1,
+      "points": 27,
+      "imageId": "legacy-image-0246",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f20f72622e2510f9.jpg",
+      "sourceSha256": "030ae80f59d2f9ef3fc5135efd52b02f35568bae9e0cabd02157dc4189e57647",
+      "x": 0.0252,
+      "y": 0.0342,
+      "width": 0.4362,
+      "height": 0.512,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507176432",
+      "pilotId": "rebelalliance::ewing::etahnabaht",
+      "targetId": "etahnabaht",
+      "displayName": "Etahn A'baht",
+      "faction": "Rebel Alliance",
+      "ship": "E-wing",
+      "skill": 5,
+      "points": 32,
+      "imageId": "legacy-image-0075",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__478b20c26713574a.jpg",
+      "sourceSha256": "b4e29c49be2a929d3cff9f69b9dfe615d5e5aa9ca13dcb1046a9bdf8e2cf0c3c",
+      "x": 0.0252,
+      "y": 0.0342,
+      "width": 0.4362,
+      "height": 0.512,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507209139",
+      "pilotId": "rebelalliance::ewing::blackmoonsquadronpilot",
+      "targetId": "blackmoonsquadronpilot",
+      "displayName": "Blackmoon Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "E-wing",
+      "skill": 3,
+      "points": 29,
+      "imageId": "legacy-image-0135",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__88cd8fe16bbb40c6.jpg",
+      "sourceSha256": "0332d3936c0d4397c80b89217c56b930c4e2a6a326d0a26060187e50703dfc57",
+      "x": 0.0252,
+      "y": 0.0342,
+      "width": 0.4362,
+      "height": 0.512,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507326100",
+      "pilotId": "rebelalliance::bwing::daggersquadronpilot",
+      "targetId": "daggersquadronpilot",
+      "displayName": "Dagger Squadron Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "B-wing",
+      "skill": 4,
+      "points": 24,
+      "imageId": "legacy-image-0051",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__302230b66fe4836f.jpg",
+      "sourceSha256": "90a6437432e205fff55922a9ea61294822c8bedd3b9ea75971b1cf485ce4a3ff",
+      "x": 0.0171,
+      "y": 0.0234,
+      "width": 0.2897,
+      "height": 0.3412,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507363766",
+      "pilotId": "rebelalliance::bwing::ibtisam",
+      "targetId": "ibtisam",
+      "displayName": "Ibtisam",
+      "faction": "Rebel Alliance",
+      "ship": "B-wing",
+      "skill": 6,
+      "points": 28,
+      "imageId": "legacy-image-0110",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6e08390d5de69289.jpg",
+      "sourceSha256": "8b881a4c757481a6f17f7e3434d7fcee59be8f76de554445a99e565334cc6327",
+      "x": 0.0171,
+      "y": 0.0234,
+      "width": 0.2897,
+      "height": 0.3412,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507396333",
+      "pilotId": "rebelalliance::bwing::keyanfarlander",
+      "targetId": "keyanfarlander",
+      "displayName": "Keyan Farlander",
+      "faction": "Rebel Alliance",
+      "ship": "B-wing",
+      "skill": 7,
+      "points": 29,
+      "imageId": "legacy-image-0180",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b53f9443e3da4b62.jpg",
+      "sourceSha256": "a017f43b818fbccacf63100d635d1e15936059afc3341ccd95f7b883043977c8",
+      "x": 0.0171,
+      "y": 0.0234,
+      "width": 0.2897,
+      "height": 0.3412,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507425645",
+      "pilotId": "rebelalliance::bwing::neradantels",
+      "targetId": "neradantels",
+      "displayName": "Nera Dantels",
+      "faction": "Rebel Alliance",
+      "ship": "B-wing",
+      "skill": 5,
+      "points": 26,
+      "imageId": "legacy-image-0107",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6c33b48e87c39dc5.jpg",
+      "sourceSha256": "c5142d2539efb702c28e0032f94447ebc6d0e93e9000fc2a26b02dee9f29588a",
+      "x": 0.0171,
+      "y": 0.0234,
+      "width": 0.2897,
+      "height": 0.3412,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507511533",
+      "pilotId": "galacticempire::tiestriker::scarifdefender",
+      "targetId": "scarifdefender",
+      "displayName": "Scarif Defender",
+      "faction": "Galactic Empire",
+      "ship": "TIE Striker",
+      "skill": 3,
+      "points": 18,
+      "imageId": "legacy-image-0017",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__126161053a9cf98a.png",
+      "sourceSha256": "8ded5b85241ee28c924b738fa7fc607933ac4b461ecf6688109e4c007af049ea",
+      "x": 0.0135,
+      "y": 0.0179,
+      "width": 0.2176,
+      "height": 0.2557,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507544468",
+      "pilotId": "galacticempire::tiestriker::imperialtrainee",
+      "targetId": "imperialtrainee",
+      "displayName": "Imperial Trainee",
+      "faction": "Galactic Empire",
+      "ship": "TIE Striker",
+      "skill": 1,
+      "points": 17,
+      "imageId": "legacy-image-0136",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__894e8503a6672198.png",
+      "sourceSha256": "5a9e5f763eae9964219c365aef33999aa4bf937e5378ad3527564e105fa45127",
+      "x": 0.0135,
+      "y": 0.0179,
+      "width": 0.2176,
+      "height": 0.2557,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507621856",
+      "pilotId": "galacticempire::tiereaper::scarifbasepilot",
+      "targetId": "scarifbasepilot",
+      "displayName": "Scarif Base Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Reaper",
+      "skill": 1,
+      "points": 22,
+      "imageId": "legacy-image-0058",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3a18668c68c43303.png",
+      "sourceSha256": "cf17e6beb4f7b2216addb6791d70f17d26055813c2b4ec5439ffb3b4a36dc111",
+      "x": 0.0157,
+      "y": 0.0209,
+      "width": 0.1833,
+      "height": 0.2152,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507659174",
+      "pilotId": "galacticempire::tiereaper::majorvermeil",
+      "targetId": "majorvermeil",
+      "displayName": "Major Vermeil",
+      "faction": "Galactic Empire",
+      "ship": "TIE Reaper",
+      "skill": 6,
+      "points": 26,
+      "imageId": "legacy-image-0059",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3b3dce8b8374d7fa.png",
+      "sourceSha256": "a413f44e6ea130e1c7ae75bc75568a46511624f128185d6843660d600c2b2e25",
+      "x": 0.0157,
+      "y": 0.0209,
+      "width": 0.1833,
+      "height": 0.2152,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507711579",
+      "pilotId": "galacticempire::tiereaper::vizier",
+      "targetId": "vizier",
+      "displayName": "\"Vizier\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Reaper",
+      "skill": 3,
+      "points": 23,
+      "imageId": "legacy-image-0172",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__aebf7e4efc1d2c55.png",
+      "sourceSha256": "84dcf87f20e9b5b5c53c708b5bfa140fd2086161873bea4086565b4cc9c9bca9",
+      "x": 0.0157,
+      "y": 0.0209,
+      "width": 0.1833,
+      "height": 0.2152,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507849398",
+      "pilotId": "galacticempire::tiephantom::sigmasquadronpilot",
+      "targetId": "sigmasquadronpilot",
+      "displayName": "Sigma Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Phantom",
+      "skill": 3,
+      "points": 25,
+      "imageId": "legacy-image-0119",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__76af76791301c82f.jpg",
+      "sourceSha256": "91af1deb21bcb10a93c2e743cca3b0037dd15c1813991e8e3fd3987225d60266",
+      "x": 0.0243,
+      "y": 0.0335,
+      "width": 0.4345,
+      "height": 0.512,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507895615",
+      "pilotId": "galacticempire::tiephantom::shadowsquadronpilot",
+      "targetId": "shadowsquadronpilot",
+      "displayName": "Shadow Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Phantom",
+      "skill": 5,
+      "points": 27,
+      "imageId": "legacy-image-0021",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__169e63ff8b62eb88.jpg",
+      "sourceSha256": "a616df171171b599aae54193c0d0e127f67121a224139b800c4d186041d463da",
+      "x": 0.0243,
+      "y": 0.0335,
+      "width": 0.4345,
+      "height": 0.512,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784507992766",
+      "pilotId": "galacticempire::tieinterceptor::tetrancowall",
+      "targetId": "tetrancowall",
+      "displayName": "Tetran Cowall",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 7,
+      "points": 24,
+      "imageId": "legacy-image-0082",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__4f66f6d07f8b35fe.jpg",
+      "sourceSha256": "832272604b818b7fef1d0ec2e1c1727f51e1aeb5901c1785d9d9367a750c99eb",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508048931",
+      "pilotId": "galacticempire::tieinterceptor::felswrath",
+      "targetId": "felswrath",
+      "displayName": "\"Fel's Wrath\"",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 5,
+      "points": 23,
+      "imageId": "legacy-image-0156",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__9f06797022fcb402.jpg",
+      "sourceSha256": "478b7c7ecd42009a4c9588f62e35b585cd5fad5536ed4e3cb294ca7cfda60ba5",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508102531",
+      "pilotId": "galacticempire::tieinterceptor::avengersquadronpilot",
+      "targetId": "avengersquadronpilot",
+      "displayName": "Avenger Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 3,
+      "points": 20,
+      "imageId": "legacy-image-0249",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f454cac20d00d95b.jpg",
+      "sourceSha256": "53e723587867a60a2d82bd8ab99c3500022918913a47a6860eb05914d5455ba2",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508138855",
+      "pilotId": "galacticempire::tieinterceptor::carnorjax",
+      "targetId": "carnorjax",
+      "displayName": "Carnor Jax",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 8,
+      "points": 26,
+      "imageId": "legacy-image-0176",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b321da25d3acd679.jpg",
+      "sourceSha256": "f78f6845d7b7a4fdfbd9cf8d2dc6d4739778be8cf3e334a1c82d694249a35523",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508177992",
+      "pilotId": "galacticempire::tieinterceptor::kirkanos",
+      "targetId": "kirkanos",
+      "displayName": "Kir Kanos",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 6,
+      "points": 24,
+      "imageId": "legacy-image-0018",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__127e54346516b174.jpg",
+      "sourceSha256": "e845fc89327297f6fe427125d7ea50950ec49cfcc178c4080df1e570ac6266b8",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508225714",
+      "pilotId": "galacticempire::tieinterceptor::royalguardpilot",
+      "targetId": "royalguardpilot",
+      "displayName": "Royal Guard Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 6,
+      "points": 22,
+      "imageId": "legacy-image-0218",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d30014f2b25ae74c.jpg",
+      "sourceSha256": "3813cf64217db41c31b725d08f951cab0af601ea8949e32f7c8cb7852c8f03db",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508271362",
+      "pilotId": "galacticempire::tieinterceptor::sabersquadronpilot",
+      "targetId": "sabersquadronpilot",
+      "displayName": "Saber Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Interceptor",
+      "skill": 4,
+      "points": 21,
+      "imageId": "legacy-image-0114",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__701de1ba516fdb55.jpg",
+      "sourceSha256": "f0649d1f5d4791d4564286dfbb1d7ba405fb77ed64c15a5de69a05ed0a379802",
+      "x": 0.0263,
+      "y": 0.0355,
+      "width": 0.4359,
+      "height": 0.5139,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508420659",
+      "pilotId": "galacticempire::tiedefender::maarekstele",
+      "targetId": "maarekstele",
+      "displayName": "Maarek Stele",
+      "faction": "Galactic Empire",
+      "ship": "TIE Defender",
+      "skill": 7,
+      "points": 35,
+      "imageId": "legacy-image-0198",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c28fec284ebafc32.png",
+      "sourceSha256": "7903aa0de16b002e5a5c5cafc842ebb0e0c652484c4979f36d2dd49158c36e06",
+      "x": 0.0251,
+      "y": 0.0346,
+      "width": 0.4364,
+      "height": 0.5142,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508456043",
+      "pilotId": "galacticempire::tiedefender::glaivesquadronpilot",
+      "targetId": "glaivesquadronpilot",
+      "displayName": "Glaive Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Defender",
+      "skill": 6,
+      "points": 34,
+      "imageId": "legacy-image-0216",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d0459c0d8ead6300.png",
+      "sourceSha256": "099e6d3831b0435de5a891155dc9d9eee43e2e1ec313102f155244c39f81d2c1",
+      "x": 0.0251,
+      "y": 0.0346,
+      "width": 0.4364,
+      "height": 0.5142,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508490222",
+      "pilotId": "galacticempire::tiedefender::onyxsquadronpilot",
+      "targetId": "onyxsquadronpilot",
+      "displayName": "Onyx Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Defender",
+      "skill": 3,
+      "points": 32,
+      "imageId": "legacy-image-0125",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8248eb7e5a4a577f.jpg",
+      "sourceSha256": "51833b0905930a4b8576cfaac46d78f3c6422a1b30f03e10d5c05dfda88758fb",
+      "x": 0.0251,
+      "y": 0.0346,
+      "width": 0.4364,
+      "height": 0.5142,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508602650",
+      "pilotId": "galacticempire::tieadvanced::commanderalozen",
+      "targetId": "commanderalozen",
+      "displayName": "Commander Alozen",
+      "faction": "Galactic Empire",
+      "ship": "TIE Advanced",
+      "skill": 5,
+      "points": 25,
+      "imageId": "legacy-image-0212",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cc3a3714fa17d415.jpg",
+      "sourceSha256": "8fd6b4b9de8fd9ec2723981a24398e9edae1b4c8a065ece8a0ed4bac81c1ed90",
+      "x": 0.4451,
+      "y": 0.0153,
+      "width": 0.1938,
+      "height": 0.2287,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508724671",
+      "pilotId": "galacticempire::tieadvanced::stormsquadronpilot",
+      "targetId": "stormsquadronpilot",
+      "displayName": "Storm Squadron Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Advanced",
+      "skill": 4,
+      "points": 23,
+      "imageId": "legacy-image-0212",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cc3a3714fa17d415.jpg",
+      "sourceSha256": "8fd6b4b9de8fd9ec2723981a24398e9edae1b4c8a065ece8a0ed4bac81c1ed90",
+      "x": 0.0113,
+      "y": 0.0153,
+      "width": 0.1938,
+      "height": 0.2287,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508771688",
+      "pilotId": "galacticempire::tieadvanced::lieutenantcolzet",
+      "targetId": "lieutenantcolzet",
+      "displayName": "Lieutenant Colzet",
+      "faction": "Galactic Empire",
+      "ship": "TIE Advanced",
+      "skill": 3,
+      "points": 23,
+      "imageId": "legacy-image-0037",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__23c080028e6cda7e.jpg",
+      "sourceSha256": "5ffd743fa5e21cabb60f5a7b502af304635071f1593495983049e7df8d73bb3d",
+      "x": 0.4451,
+      "y": 0.0153,
+      "width": 0.1938,
+      "height": 0.2287,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508928340",
+      "pilotId": "galacticempire::tieadvprototype::valenrudor",
+      "targetId": "valenrudor",
+      "displayName": "Valen Rudor",
+      "faction": "Galactic Empire",
+      "ship": "TIE Adv. Prototype",
+      "skill": 6,
+      "points": 22,
+      "imageId": "legacy-image-0224",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d58cc2498da0327d.jpg",
+      "sourceSha256": "54027c0d7b170c227ae04a86dd0b129bd7d5f8807b69f8deeff31033ff6e5cc1",
+      "x": 0.0125,
+      "y": 0.0172,
+      "width": 0.2179,
+      "height": 0.257,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508953296",
+      "pilotId": "galacticempire::tieadvprototype::theinquisitor",
+      "targetId": "theinquisitor",
+      "displayName": "The Inquisitor",
+      "faction": "Galactic Empire",
+      "ship": "TIE Adv. Prototype",
+      "skill": 8,
+      "points": 25,
+      "imageId": "legacy-image-0175",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b2db80928821a07c.jpg",
+      "sourceSha256": "72c608396a9df59416d7083436476bc91a520205903b75153f415176e910a082",
+      "x": 0.0125,
+      "y": 0.0172,
+      "width": 0.2179,
+      "height": 0.257,
+      "status": "RecoveredSource",
+      "notes": ""
+    },
+    {
+      "assignmentId": "recovery-1784508977962",
+      "pilotId": "galacticempire::tieadvprototype::sienartestpilot",
+      "targetId": "sienartestpilot",
+      "displayName": "Sienar Test Pilot",
+      "faction": "Galactic Empire",
+      "ship": "TIE Adv. Prototype",
+      "skill": 2,
+      "points": 16,
+      "imageId": "legacy-image-0161",
+      "sourceRepositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a23274df5de27095.jpg",
+      "sourceSha256": "70e0d7abe11c4ebbd74b48b392d8f7b4e496ebca6ce275f6d2a2f0761de9dc38",
+      "x": 0.0125,
+      "y": 0.0172,
+      "width": 0.2179,
+      "height": 0.257,
+      "status": "RecoveredSource",
+      "notes": ""
+    }
+  ],
+  "generationRequiredPilotIds": [
+    "firstorder::upsilonclassshuttle::majorstridan",
+    "resistance::yt1300::hansoloswx57",
+    "resistance::yt1300::chewbaccaswx57",
+    "scumandvillainy::m3ainterceptor::genesisred",
+    "rebelalliance::auzituckgunship::lowhhrick",
+    "rebelalliance::auzituckgunship::wullffwarro",
+    "rebelalliance::awing::prototypepilot",
+    "galacticempire::tiereaper::captainferoph"
+  ],
+  "reviewedImageIds": [
+    "legacy-image-0002",
+    "legacy-image-0007",
+    "legacy-image-0014",
+    "legacy-image-0086",
+    "legacy-image-0010",
+    "legacy-image-0013",
+    "legacy-image-0017",
+    "legacy-image-0018",
+    "legacy-image-0019",
+    "legacy-image-0020",
+    "legacy-image-0021",
+    "legacy-image-0023",
+    "legacy-image-0027",
+    "legacy-image-0029",
+    "legacy-image-0030",
+    "legacy-image-0032",
+    "legacy-image-0035",
+    "legacy-image-0037",
+    "legacy-image-0038",
+    "legacy-image-0041",
+    "legacy-image-0042",
+    "legacy-image-0051",
+    "legacy-image-0054",
+    "legacy-image-0058",
+    "legacy-image-0059",
+    "legacy-image-0068",
+    "legacy-image-0071",
+    "legacy-image-0072",
+    "legacy-image-0075",
+    "legacy-image-0080",
+    "legacy-image-0082",
+    "legacy-image-0084",
+    "legacy-image-0085",
+    "legacy-image-0088",
+    "legacy-image-0090",
+    "legacy-image-0095",
+    "legacy-image-0096",
+    "legacy-image-0101",
+    "legacy-image-0133",
+    "legacy-image-0144",
+    "legacy-image-0145",
+    "legacy-image-0168",
+    "legacy-image-0207",
+    "legacy-image-0099",
+    "legacy-image-0106",
+    "legacy-image-0107",
+    "legacy-image-0110",
+    "legacy-image-0180",
+    "legacy-image-0108",
+    "legacy-image-0123",
+    "legacy-image-0167",
+    "legacy-image-0193",
+    "legacy-image-0251",
+    "legacy-image-0263",
+    "legacy-image-0272",
+    "legacy-image-0270",
+    "legacy-image-0269",
+    "legacy-image-0209",
+    "legacy-image-0265",
+    "legacy-image-0237",
+    "legacy-image-0257",
+    "legacy-image-0256",
+    "legacy-image-0114",
+    "legacy-image-0156",
+    "legacy-image-0176",
+    "legacy-image-0218",
+    "legacy-image-0249",
+    "legacy-image-0254",
+    "legacy-image-0252",
+    "legacy-image-0246",
+    "legacy-image-0135",
+    "legacy-image-0136",
+    "legacy-image-0131",
+    "legacy-image-0222",
+    "legacy-image-0221",
+    "legacy-image-0117",
+    "legacy-image-0119",
+    "legacy-image-0120",
+    "legacy-image-0244",
+    "legacy-image-0243",
+    "legacy-image-0234",
+    "legacy-image-0122",
+    "legacy-image-0125",
+    "legacy-image-0198",
+    "legacy-image-0216",
+    "legacy-image-0212",
+    "legacy-image-0208",
+    "legacy-image-0201",
+    "legacy-image-0128",
+    "legacy-image-0177",
+    "legacy-image-0172",
+    "legacy-image-0227",
+    "legacy-image-0226",
+    "legacy-image-0224",
+    "legacy-image-0175",
+    "legacy-image-0161",
+    "legacy-image-0174",
+    "legacy-image-0189",
+    "legacy-image-0146",
+    "legacy-image-0206",
+    "legacy-image-0223"
+  ],
+  "imageMetadataCatalogue": {
+    "schemaVersion": "1.0.0",
+    "generatedUtc": "2026-07-20T00:57:05.532Z",
+    "identityKey": "sha256",
+    "images": [
+      {
+        "sha256": "7d3e1ad300a0853ca33ba954f7b6067d2bb16a7d45b772dc777c17e257ff6693",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0017793c0f2027cf.png",
+        "fileName": "asset__0017793c0f2027cf.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "Captain Rex"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:26:54.628Z"
+      },
+      {
+        "sha256": "9db370716d4689d6985003e2a7df10866d12ad9a4c547149efff23da595c0abb",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__05bd03057431458d.png",
+        "fileName": "asset__05bd03057431458d.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "B/SF-17 Bomber"
+        ],
+        "pilots": [
+          "\"Cobalt Leader\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:13:32.774Z"
+      },
+      {
+        "sha256": "90fd0775e08ac595c7059b3aa82b1d25c7da7a2ad4bcc071d971ba51f110e664",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__087c5068aeefcd44.jpg",
+        "fileName": "asset__087c5068aeefcd44.jpg",
+        "width": 1522,
+        "height": 1522,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Punisher"
+        ],
+        "pilots": [
+          "Black Eight Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:38:12.962Z"
+      },
+      {
+        "sha256": "e0a9d55bb0f13bc525ee5b89d6068b677218680d719dcc1cf157927da240f6c7",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0ea862bb5cb65f7c.png",
+        "fileName": "asset__0ea862bb5cb65f7c.png",
+        "width": 1522,
+        "height": 1522,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Bomber"
+        ],
+        "pilots": [
+          "Gamma Squadron Veteran"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:39:30.654Z"
+      },
+      {
+        "sha256": "01e97955c6eb663017f0589b59cdeaccbdc8671ce72ad7b4e7641f3efea0d46a",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__10b74ebdc73a4cd2.png",
+        "fileName": "asset__10b74ebdc73a4cd2.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "B/SF-17 Bomber"
+        ],
+        "pilots": [
+          "\"Crimson Specialist\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:13:41.478Z"
+      },
+      {
+        "sha256": "8ded5b85241ee28c924b738fa7fc607933ac4b461ecf6688109e4c007af049ea",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__126161053a9cf98a.png",
+        "fileName": "asset__126161053a9cf98a.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Striker"
+        ],
+        "pilots": [
+          "Scarif Defender"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:40:39.589Z"
+      },
+      {
+        "sha256": "e845fc89327297f6fe427125d7ea50950ec49cfcc178c4080df1e570ac6266b8",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__127e54346516b174.jpg",
+        "fileName": "asset__127e54346516b174.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Kir Kanos"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:41:43.972Z"
+      },
+      {
+        "sha256": "1dcc9b457f8e905677d09336f52e08be372d24655004ab6063a603468f780b71",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__153b577a450f0b6b.png",
+        "fileName": "asset__153b577a450f0b6b.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "\"Snap\" Wexley"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:14:33.826Z"
+      },
+      {
+        "sha256": "812eca60333aa6613d13d3927684f45a13f0645753f91cd5fbbd28d9f6632bb3",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__16209805b76e1a18.png",
+        "fileName": "asset__16209805b76e1a18.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "Nien Nunb"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:14:40.914Z"
+      },
+      {
+        "sha256": "a616df171171b599aae54193c0d0e127f67121a224139b800c4d186041d463da",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__169e63ff8b62eb88.jpg",
+        "fileName": "asset__169e63ff8b62eb88.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Phantom"
+        ],
+        "pilots": [
+          "Shadow Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:45:03.261Z"
+      },
+      {
+        "sha256": "17270b05a12f74918d00e9f291db270633acacfce4bb6fa83ba27a1a1db1ec43",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__17eb51f2a51e4404.jpg",
+        "fileName": "asset__17eb51f2a51e4404.jpg",
+        "width": 1802,
+        "height": 1802,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "Alpha-class Star Wing"
+        ],
+        "pilots": [
+          "Rho Squadron Veteran"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:46:17.414Z"
+      },
+      {
+        "sha256": "21fcd8868d114168694aaf59963ffab53c9cd1bac6cea0883ab8ddc67e5728fa",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1b736b8e3858a393.jpg",
+        "fileName": "asset__1b736b8e3858a393.jpg",
+        "width": 1522,
+        "height": 1522,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Bomber"
+        ],
+        "pilots": [
+          "Gamma Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:47:10.954Z"
+      },
+      {
+        "sha256": "df81d789991496f680df4a4bb65ec6aabbefe0235bf53fc7c1f96bc08d092c32",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d5936ef888e42e5.png",
+        "fileName": "asset__1d5936ef888e42e5.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "\"Blue Ace\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:14:48.738Z"
+      },
+      {
+        "sha256": "20dab9b3939533363ba20de21fddd0c4faf326f71d029dfbdd003d29b9ff5358",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d61c00c61d16842.png",
+        "fileName": "asset__1d61c00c61d16842.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "Jess Pava"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:14:56.712Z"
+      },
+      {
+        "sha256": "29240fe75b632ea5c9d88a8c7669f2ac6f3314b20c38c53dd9eaa21cb26478af",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1ecc570f5ef1037c.png",
+        "fileName": "asset__1ecc570f5ef1037c.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Z-95 Headhunter"
+        ],
+        "pilots": [
+          "Nashtah Pup Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:50:07.089Z"
+      },
+      {
+        "sha256": "3f869b251b01378ab63fc5fb95087b0ea6b65783b08bd454cc947e10639c0636",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__22d1b41d46784268.png",
+        "fileName": "asset__22d1b41d46784268.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "Auzituck Gunship"
+        ],
+        "pilots": [
+          "Wookiee Liberator"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T17:51:00.565Z"
+      },
+      {
+        "sha256": "5ffd743fa5e21cabb60f5a7b502af304635071f1593495983049e7df8d73bb3d",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__23c080028e6cda7e.jpg",
+        "fileName": "asset__23c080028e6cda7e.jpg",
+        "width": 2300,
+        "height": 2300,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Advanced"
+        ],
+        "pilots": [
+          "Darth Vader",
+          "Maarek Stele",
+          "Lieutenant Colzet",
+          "Storm Squadron Pilot",
+          "Tempest Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "Five Pilot tokens in upper left",
+        "modifiedUtc": "2026-07-19T18:10:53.926Z"
+      },
+      {
+        "sha256": "c11cb9295a9a71a9acfc478a228ac0e16e14a559fc664c40e247612e49414a09",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__24dd31f5c9f1d6db.jpg",
+        "fileName": "asset__24dd31f5c9f1d6db.jpg",
+        "width": 1525,
+        "height": 1525,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "K-wing"
+        ],
+        "pilots": [
+          "Guardian Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:11:43.118Z"
+      },
+      {
+        "sha256": "d574bbee13774daec8f2b7f040becf1de61b29381c54f9553aea84d20f80993c",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__2749315e7bd4122b.png",
+        "fileName": "asset__2749315e7bd4122b.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE Silencer"
+        ],
+        "pilots": [
+          "Test Pilot \"Blackout\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:12:57.152Z"
+      },
+      {
+        "sha256": "7229cd9024066430a6d738a753e837eaf6410c054a58c34323171f9152ee28a8",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__2760184b48ec5205.png",
+        "fileName": "asset__2760184b48ec5205.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "\"Youngster\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:16:12.426Z"
+      },
+      {
+        "sha256": "90a6437432e205fff55922a9ea61294822c8bedd3b9ea75971b1cf485ce4a3ff",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__302230b66fe4836f.jpg",
+        "fileName": "asset__302230b66fe4836f.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "B-wing"
+        ],
+        "pilots": [
+          "Dagger Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:16:52.596Z"
+      },
+      {
+        "sha256": "b0717c319845da5ce032ac735d36a5f7a47ea2b00ef77c1224ce6784a07040b3",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__374735e7754c1aca.jpg",
+        "fileName": "asset__374735e7754c1aca.jpg",
+        "width": 2200,
+        "height": 2200,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Y-wing"
+        ],
+        "pilots": [
+          "Syndicate Thug"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:17:25.274Z"
+      },
+      {
+        "sha256": "cf17e6beb4f7b2216addb6791d70f17d26055813c2b4ec5439ffb3b4a36dc111",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3a18668c68c43303.png",
+        "fileName": "asset__3a18668c68c43303.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Reaper"
+        ],
+        "pilots": [
+          "Scarif Base Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T20:58:54.757Z"
+      },
+      {
+        "sha256": "a413f44e6ea130e1c7ae75bc75568a46511624f128185d6843660d600c2b2e25",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3b3dce8b8374d7fa.png",
+        "fileName": "asset__3b3dce8b8374d7fa.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Reaper"
+        ],
+        "pilots": [
+          "Major Vermeil"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T20:59:47.987Z"
+      },
+      {
+        "sha256": "7f590ea019eb2a860a49526a1571b6af49ff4ffe3a693782b821e88691dc2c42",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__43b97025f8481d09.png",
+        "fileName": "asset__43b97025f8481d09.png",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "M12-L Kimogila Fighter"
+        ],
+        "pilots": [
+          "Cartel Brute"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:00:46.467Z"
+      },
+      {
+        "sha256": "5e14cc066eabce223a1294522b27988b0bcecd09e130f3baef44d61fdbaefeab",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__44d3738836b61519.png",
+        "fileName": "asset__44d3738836b61519.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "\"Winged Gundark\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:02:34.099Z"
+      },
+      {
+        "sha256": "72fb66de6f23563e27cd1b730b0a4573ebd59f4f149bf230b29321fafe2d65aa",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__45be6d5504d7e30e.jpg",
+        "fileName": "asset__45be6d5504d7e30e.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Kihraxz Fighter"
+        ],
+        "pilots": [
+          "Graz the Hunter"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:03:13.019Z"
+      },
+      {
+        "sha256": "b4e29c49be2a929d3cff9f69b9dfe615d5e5aa9ca13dcb1046a9bdf8e2cf0c3c",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__478b20c26713574a.jpg",
+        "fileName": "asset__478b20c26713574a.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "E-wing"
+        ],
+        "pilots": [
+          "Etahn A'baht"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:04:51.545Z"
+      },
+      {
+        "sha256": "253231d1754b7d4ae05e2836d36a4ebec7181e7b2d9820c7f96627bad94b5063",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__4bd7922c2b781384.jpg",
+        "fileName": "asset__4bd7922c2b781384.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "StarViper"
+        ],
+        "pilots": [
+          "Black Sun Vigo"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:05:31.840Z"
+      },
+      {
+        "sha256": "832272604b818b7fef1d0ec2e1c1727f51e1aeb5901c1785d9d9367a750c99eb",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__4f66f6d07f8b35fe.jpg",
+        "fileName": "asset__4f66f6d07f8b35fe.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Tetran Cowall"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:06:12.803Z"
+      },
+      {
+        "sha256": "2d6c3b8dd0e554cf273c28d07189ef3fbb19fb5a1ab48281f78b28f88d14ce6d",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__50263a79cb43a37a.png",
+        "fileName": "asset__50263a79cb43a37a.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Kihraxz Fighter"
+        ],
+        "pilots": [
+          "Graz the Hunter"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:07:33.549Z"
+      },
+      {
+        "sha256": "5af3a0e9cde83b9694fa1af5cf4dce35590f9bb370c8a898b138e334f0ca49ed",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__510261e24ba08017.png",
+        "fileName": "asset__510261e24ba08017.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "StarViper"
+        ],
+        "pilots": [
+          "Black Sun Vigo"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:08:17.923Z"
+      },
+      {
+        "sha256": "183b135437df1831338d737c3824c9ee4fdcabc795d876d7448babfd4c2c35af",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__522d74291f3e2e14.png",
+        "fileName": "asset__522d74291f3e2e14.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "B/SF-17 Bomber"
+        ],
+        "pilots": [
+          "Crimson Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T18:13:49.350Z"
+      },
+      {
+        "sha256": "8cbcad3dce1cbb5f583fb68abaa67739f5597980cd3aaefeba4de758e340ff01",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__54a3af4a124ddf3b.png",
+        "fileName": "asset__54a3af4a124ddf3b.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "Blue Squadron Novice"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:08:55.069Z"
+      },
+      {
+        "sha256": "bf71b3d99173a63471bca024a2f2fd1c864dd980a10e06baafd82f87677ba455",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__585519cfcc08608b.png",
+        "fileName": "asset__585519cfcc08608b.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "\"Scourge\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:09:26.877Z"
+      },
+      {
+        "sha256": "b53ddaa268753a3465879989d4aa32b0671ddaea93ee71410d7b4c41a14a9569",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5f0b5b7e23af2712.png",
+        "fileName": "asset__5f0b5b7e23af2712.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Zeta Leader\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:10:11.537Z"
+      },
+      {
+        "sha256": "05cdaca4b53bb1b1d04497f1757b2fd7e674306e89ad34112ca7e153fdbb872e",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6021444333fb6b54.png",
+        "fileName": "asset__6021444333fb6b54.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Epsilon Ace\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:10:54.897Z"
+      },
+      {
+        "sha256": "14e6740b675dc2975bce697e4790f6feda3ca53938c64448f0777ce2291fde5d",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__62c8264aa5d9ebd7.jpg",
+        "fileName": "asset__62c8264aa5d9ebd7.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "Lambda-class Shuttle"
+        ],
+        "pilots": [
+          "Captain Yorr"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:18:07.178Z"
+      },
+      {
+        "sha256": "4f38b6bc44b0a3907785acefbaae0e30c8036dee987bf0fd735febd494775ba5",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6432aa2954081d75.png",
+        "fileName": "asset__6432aa2954081d75.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "Epsilon Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:11:30.279Z"
+      },
+      {
+        "sha256": "c6e67c10413f99c3bd12ec8263f89184e286d2be6bd62102013345eaf55e92b3",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6a7b8d7726325ec7.jpg",
+        "fileName": "asset__6a7b8d7726325ec7.jpg",
+        "width": 2200,
+        "height": 2200,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "Y-wing"
+        ],
+        "pilots": [
+          "Gold Squadron Pilot",
+          "Grey Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "Four pilot tokens in the upper-left",
+        "modifiedUtc": "2026-07-19T21:21:32.041Z"
+      },
+      {
+        "sha256": "c5142d2539efb702c28e0032f94447ebc6d0e93e9000fc2a26b02dee9f29588a",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6c33b48e87c39dc5.jpg",
+        "fileName": "asset__6c33b48e87c39dc5.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "B-wing"
+        ],
+        "pilots": [
+          "Nera Dantels"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:22:21.779Z"
+      },
+      {
+        "sha256": "d34c9a86ba8616b24b90c521bca785ad525bb49c8cbea2123e3248e844f8dbf0",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6c3f421b05f367c1.png",
+        "fileName": "asset__6c3f421b05f367c1.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "\"Chaser\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:24:28.709Z"
+      },
+      {
+        "sha256": "8b881a4c757481a6f17f7e3434d7fcee59be8f76de554445a99e565334cc6327",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6e08390d5de69289.jpg",
+        "fileName": "asset__6e08390d5de69289.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "B-wing"
+        ],
+        "pilots": [
+          "Ibtisam"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:22:48.293Z"
+      },
+      {
+        "sha256": "f0649d1f5d4791d4564286dfbb1d7ba405fb77ed64c15a5de69a05ed0a379802",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__701de1ba516fdb55.jpg",
+        "fileName": "asset__701de1ba516fdb55.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Saber Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:40:29.341Z"
+      },
+      {
+        "sha256": "f42118489604a052061b065c933680810a2c8d1e4de7061fecb312133ccfe808",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7467530dfe133fbb.jpg",
+        "fileName": "asset__7467530dfe133fbb.jpg",
+        "width": 3000,
+        "height": 3000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "YT-1300"
+        ],
+        "pilots": [
+          "Resistance Sympathizer"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:51:50.380Z"
+      },
+      {
+        "sha256": "91af1deb21bcb10a93c2e743cca3b0037dd15c1813991e8e3fd3987225d60266",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__76af76791301c82f.jpg",
+        "fileName": "asset__76af76791301c82f.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Phantom"
+        ],
+        "pilots": [
+          "Sigma Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:52:38.141Z"
+      },
+      {
+        "sha256": "ceb563e0f29e6d23f45b00b3e6d6cac39a6f6baaeb5f3b4db80912efc4ea5b41",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7d15742b170136f9.png",
+        "fileName": "asset__7d15742b170136f9.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/sf Fighter"
+        ],
+        "pilots": [
+          "Omega Specialist"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:53:24.207Z"
+      },
+      {
+        "sha256": "9f1375e44609f9b521e04d5d9cfa65117fcea28000bb61744f1ca6db00a67704",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__81224fb4e515e711.jpg",
+        "fileName": "asset__81224fb4e515e711.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "G-1A Starfighter"
+        ],
+        "pilots": [
+          "Ruthless Freelancer"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:56:38.965Z"
+      },
+      {
+        "sha256": "b2bb2cc1b397253e845cbdc9f9b1e7995d49dc7813c520f5a5ab306066396bd5",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__81463a5300383794.png",
+        "fileName": "asset__81463a5300383794.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "Sabine Wren"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:25:20.958Z"
+      },
+      {
+        "sha256": "51833b0905930a4b8576cfaac46d78f3c6422a1b30f03e10d5c05dfda88758fb",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8248eb7e5a4a577f.jpg",
+        "fileName": "asset__8248eb7e5a4a577f.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Defender"
+        ],
+        "pilots": [
+          "Onyx Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:57:21.183Z"
+      },
+      {
+        "sha256": "6e98538aff3062160fe104984feb1247ec8987379994bc489aced17f6a8dca19",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__82dc8e3d13f00177.jpg",
+        "fileName": "asset__82dc8e3d13f00177.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Firespray-31"
+        ],
+        "pilots": [
+          "Mandalorian Mercenary"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:02:06.695Z"
+      },
+      {
+        "sha256": "b470a215f6ed710334febb3bfb2ff4d6b18b15380c001c9e70eed97dc5dc1a3e",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8607a2723e631383.jpg",
+        "fileName": "asset__8607a2723e631383.jpg",
+        "width": 1541,
+        "height": 1541,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "ARC-170"
+        ],
+        "pilots": [
+          "Thane Kyrell"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:48:54.625Z"
+      },
+      {
+        "sha256": "d96ba6e167836ec7a244bf2c99743835ac14aa8ae361fdb545f93ac69323e89c",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8779e716f671e0a4.png",
+        "fileName": "asset__8779e716f671e0a4.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Zeta Ace\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:12:25.089Z"
+      },
+      {
+        "sha256": "0332d3936c0d4397c80b89217c56b930c4e2a6a326d0a26060187e50703dfc57",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__88cd8fe16bbb40c6.jpg",
+        "fileName": "asset__88cd8fe16bbb40c6.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "E-wing"
+        ],
+        "pilots": [
+          "Blackmoon Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:47:42.267Z"
+      },
+      {
+        "sha256": "5a9e5f763eae9964219c365aef33999aa4bf937e5378ad3527564e105fa45127",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__894e8503a6672198.png",
+        "fileName": "asset__894e8503a6672198.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Striker"
+        ],
+        "pilots": [
+          "Imperial Trainee"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:48:22.032Z"
+      },
+      {
+        "sha256": "c433a7319d37c59353d9d68b1391045adad8c7e03d9777154caa7bcad9c56f61",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__929cb78c320fe62d.png",
+        "fileName": "asset__929cb78c320fe62d.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Omega Leader\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:12:58.114Z"
+      },
+      {
+        "sha256": "38474f5a0bdaea5a163326bd3cc9a2b08710ef9d63d6409f261678e0c3ec90af",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__93f771ebe9655b77.png",
+        "fileName": "asset__93f771ebe9655b77.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "Omega Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:36:14.620Z"
+      },
+      {
+        "sha256": "60b5a71e355910e56725d53744355ff938cfe29dbf93831df65d724a6ad0c4e3",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__975c8c711f7c65aa.png",
+        "fileName": "asset__975c8c711f7c65aa.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "\"Red Ace\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:14:11.452Z"
+      },
+      {
+        "sha256": "478b7c7ecd42009a4c9588f62e35b585cd5fad5536ed4e3cb294ca7cfda60ba5",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__9f06797022fcb402.jpg",
+        "fileName": "asset__9f06797022fcb402.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "\"Fel's Wrath\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:41:07.483Z"
+      },
+      {
+        "sha256": "70e0d7abe11c4ebbd74b48b392d8f7b4e496ebca6ce275f6d2a2f0761de9dc38",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a23274df5de27095.jpg",
+        "fileName": "asset__a23274df5de27095.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Adv. Prototype"
+        ],
+        "pilots": [
+          "Sienar Test Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:07:36.151Z"
+      },
+      {
+        "sha256": "fcafcab0e89e3e4416c10a967a5a977cf011d09cfbf2a10b21c8c5917302c573",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a814789ab705ec24.png",
+        "fileName": "asset__a814789ab705ec24.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "Black Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:26:04.489Z"
+      },
+      {
+        "sha256": "cee24f81115c486bc11000bc7aa0e33760d66ff3f3751f88b426f3133535b612",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__a94bfda697939780.png",
+        "fileName": "asset__a94bfda697939780.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Omega Ace\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:14:04.552Z"
+      },
+      {
+        "sha256": "84dcf87f20e9b5b5c53c708b5bfa140fd2086161873bea4086565b4cc9c9bca9",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__aebf7e4efc1d2c55.png",
+        "fileName": "asset__aebf7e4efc1d2c55.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Reaper"
+        ],
+        "pilots": [
+          "\"Vizier"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:03:29.365Z"
+      },
+      {
+        "sha256": "7b54d8806d1d54dfaa8710d14b95a751dddc8309a58c17f0125d4fd32016ca6b",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b1db797fc777a872.jpg",
+        "fileName": "asset__b1db797fc777a872.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Kihraxz Fighte"
+        ],
+        "pilots": [
+          "Cartel Marauder"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:08:13.401Z"
+      },
+      {
+        "sha256": "72c608396a9df59416d7083436476bc91a520205903b75153f415176e910a082",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b2db80928821a07c.jpg",
+        "fileName": "asset__b2db80928821a07c.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Adv. Prototype"
+        ],
+        "pilots": [
+          "The Inquisitor"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:07:07.643Z"
+      },
+      {
+        "sha256": "f78f6845d7b7a4fdfbd9cf8d2dc6d4739778be8cf3e334a1c82d694249a35523",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b321da25d3acd679.jpg",
+        "fileName": "asset__b321da25d3acd679.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Carnor Jax"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:41:44.061Z"
+      },
+      {
+        "sha256": "f8a73b57ee806b3973842cef2d7c007071950c24c86c1c64b0a8e7c621932394",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b3bee5dd3a2f9ce2.jpg",
+        "fileName": "asset__b3bee5dd3a2f9ce2.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "Firespray-31"
+        ],
+        "pilots": [
+          "Boba Fett"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:02:45.465Z"
+      },
+      {
+        "sha256": "a017f43b818fbccacf63100d635d1e15936059afc3341ccd95f7b883043977c8",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b53f9443e3da4b62.jpg",
+        "fileName": "asset__b53f9443e3da4b62.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "B-wing"
+        ],
+        "pilots": [
+          "Keyan Farlander"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:23:40.977Z"
+      },
+      {
+        "sha256": "479bb1502c1370339a6e13a59e51fe6746882c08ac93fced8c29447332ade407",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__bc5e7de09296da96.jpg",
+        "fileName": "asset__bc5e7de09296da96.jpg",
+        "width": 2200,
+        "height": 2200,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "Y-wing"
+        ],
+        "pilots": [
+          "Gray Squadron Pilot",
+          "\"Dutch\" Vander",
+          "Gold Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "Four pilot tokens in upper-left",
+        "modifiedUtc": "2026-07-19T22:13:32.267Z"
+      },
+      {
+        "sha256": "1a3ee177161453cea4e17e16b341880726160fcf8aef3dcf84285919cb286a8f",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__be33f50b86e52ffd.png",
+        "fileName": "asset__be33f50b86e52ffd.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "Ahsoka Tano"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:27:47.116Z"
+      },
+      {
+        "sha256": "7903aa0de16b002e5a5c5cafc842ebb0e0c652484c4979f36d2dd49158c36e06",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c28fec284ebafc32.png",
+        "fileName": "asset__c28fec284ebafc32.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Defender"
+        ],
+        "pilots": [
+          "Maarek Stele"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:57:58.623Z"
+      },
+      {
+        "sha256": "afe444e3be97467c3772f9e336c4893848bd785eca6253f357b47b86fddeeb49",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c5ee6bb1a35a39b5.jpg",
+        "fileName": "asset__c5ee6bb1a35a39b5.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "Firespray-31"
+        ],
+        "pilots": [
+          "Kath Scarlet"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:01:35.937Z"
+      },
+      {
+        "sha256": "a5e8150aaa49759532854d564052603dfc6e759ee206f0768d4518f8e0553980",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cae3c01c45a74ce3.png",
+        "fileName": "asset__cae3c01c45a74ce3.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "T-70 X-wing"
+        ],
+        "pilots": [
+          "Red Squadron Veteran"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:14:46.049Z"
+      },
+      {
+        "sha256": "442a5effc4bde5bf829f122af380f1566874220d57bdb40161631bccf73f880a",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cb7a778a35f1ab74.png",
+        "fileName": "asset__cb7a778a35f1ab74.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "B/SF-17 Bomber"
+        ],
+        "pilots": [
+          "\"Crimson Leader\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:15:48.214Z"
+      },
+      {
+        "sha256": "cd66a57ba3c3e727c6835682622677ae9dff5524ba933435feca1e2d91be15ed",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cb81213fc17e1bf7.png",
+        "fileName": "asset__cb81213fc17e1bf7.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Z-95 Headhunter"
+        ],
+        "pilots": [
+          "Nashtah Pup Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:00:57.000Z"
+      },
+      {
+        "sha256": "5748c6330666059e499fed157163fdb04ecd9bfd04a3ea6309afa8506e147cd7",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cb8fd85fa1a79724.png",
+        "fileName": "asset__cb8fd85fa1a79724.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Protectorate Starfighter"
+        ],
+        "pilots": [
+          "Concord Dawn Veteran"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:33:07.150Z"
+      },
+      {
+        "sha256": "8fd6b4b9de8fd9ec2723981a24398e9edae1b4c8a065ece8a0ed4bac81c1ed90",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__cc3a3714fa17d415.jpg",
+        "fileName": "asset__cc3a3714fa17d415.jpg",
+        "width": 2300,
+        "height": 2300,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Advanced"
+        ],
+        "pilots": [
+          "Storm Squadron Pilot",
+          "Tempest Squadron Pilot",
+          "Commander Alozen"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "Five pilot tokens in upper-left",
+        "modifiedUtc": "2026-07-19T22:00:21.317Z"
+      },
+      {
+        "sha256": "099e6d3831b0435de5a891155dc9d9eee43e2e1ec313102f155244c39f81d2c1",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d0459c0d8ead6300.png",
+        "fileName": "asset__d0459c0d8ead6300.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Defender"
+        ],
+        "pilots": [
+          "Glaive Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:58:29.951Z"
+      },
+      {
+        "sha256": "3813cf64217db41c31b725d08f951cab0af601ea8949e32f7c8cb7852c8f03db",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d30014f2b25ae74c.jpg",
+        "fileName": "asset__d30014f2b25ae74c.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Royal Guard Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:42:24.284Z"
+      },
+      {
+        "sha256": "361ee14c44f602e49b866fac01e485b43d572c86e0c937c5477272bcac3293c1",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d3df896a1b19e2d3.jpg",
+        "fileName": "asset__d3df896a1b19e2d3.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Resistance"
+        ],
+        "ships": [
+          "YT-1300"
+        ],
+        "pilots": [
+          "Rey"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:51:00.919Z"
+      },
+      {
+        "sha256": "88f035b1dec8d55fe91f8eb31d60a415467bbc2342b3063fcb6fcb6564f15d9f",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d47c3d7b1df4bb8b.jpg",
+        "fileName": "asset__d47c3d7b1df4bb8b.jpg",
+        "width": 1541,
+        "height": 1541,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "ARC-170"
+        ],
+        "pilots": [
+          "Braylen Stramm"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:49:48.862Z"
+      },
+      {
+        "sha256": "8948fa7cdaf169eab66a65a700ed71e4f9485e9f06eb47045ca577f437494e20",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d540095bcc8c7add.jpg",
+        "fileName": "asset__d540095bcc8c7add.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "YT-2400"
+        ],
+        "pilots": [
+          "Eaden Vrill"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:15:27.271Z"
+      },
+      {
+        "sha256": "54027c0d7b170c227ae04a86dd0b129bd7d5f8807b69f8deeff31033ff6e5cc1",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d58cc2498da0327d.jpg",
+        "fileName": "asset__d58cc2498da0327d.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Adv. Prototype"
+        ],
+        "pilots": [
+          "Valen Rudor"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:06:33.943Z"
+      },
+      {
+        "sha256": "05b815e25a55a023c18dcde1568e6e9f6ea6ac09cf30a6e0a2ca21efae4ba0e6",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d9891366f676d555.png",
+        "fileName": "asset__d9891366f676d555.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Kihraxz Fighter"
+        ],
+        "pilots": [
+          "Black Sun Ace"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:05:47.737Z"
+      },
+      {
+        "sha256": "6e918ff2aabdae92a366d25ee9a0d38b2edf62ab0a951f6063d5a58136d24668",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__dbc816c1aa07a8d7.png",
+        "fileName": "asset__dbc816c1aa07a8d7.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "StarViper"
+        ],
+        "pilots": [
+          "Thweek"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T22:04:24.745Z"
+      },
+      {
+        "sha256": "884f9e855fffe6c3b99243e15b0fcf1047fed4373770e54b31bd9894170176df",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__e7274eec890b971d.png",
+        "fileName": "asset__e7274eec890b971d.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/fo Fighter"
+        ],
+        "pilots": [
+          "\"Epsilon Leader\""
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:55:31.247Z"
+      },
+      {
+        "sha256": "bcf912929840e962be275b076ad20ad99073ecc009de085af0294864d68592bb",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__e99d2d77daa8bb04.png",
+        "fileName": "asset__e99d2d77daa8bb04.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Scurrg H-6 Bomber"
+        ],
+        "pilots": [
+          "Karthakk Pirate"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:34:32.232Z"
+      },
+      {
+        "sha256": "7002de83088ee2abd7a839798d289e45645956bae13bfda82729c29eec04aa3c",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__ef0bb9f3eee117c8.jpg",
+        "fileName": "asset__ef0bb9f3eee117c8.jpg",
+        "width": 1536,
+        "height": 1536,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "HWK-290"
+        ],
+        "pilots": [
+          "Rebel Operative"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:54:54.097Z"
+      },
+      {
+        "sha256": "b20c5bef7c47755ec0aa281aef5e54cdbdb43323290c8477a01645cfec1fdab6",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f04a15569b7ae6cf.png",
+        "fileName": "asset__f04a15569b7ae6cf.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE/sf Fighter"
+        ],
+        "pilots": [
+          "Zeta Specialist"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:54:21.489Z"
+      },
+      {
+        "sha256": "030ae80f59d2f9ef3fc5135efd52b02f35568bae9e0cabd02157dc4189e57647",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f20f72622e2510f9.jpg",
+        "fileName": "asset__f20f72622e2510f9.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "E-wing"
+        ],
+        "pilots": [
+          "Knave Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:46:18.646Z"
+      },
+      {
+        "sha256": "53e723587867a60a2d82bd8ab99c3500022918913a47a6860eb05914d5455ba2",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f454cac20d00d95b.jpg",
+        "fileName": "asset__f454cac20d00d95b.jpg",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Interceptor"
+        ],
+        "pilots": [
+          "Avenger Squadron Pilot"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:43:07.361Z"
+      },
+      {
+        "sha256": "c7031d852af46b9e18b2b6bb6a99a62e4b3af5c59619149d359f69c24172ca64",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f4e7ef55a35f0255.png",
+        "fileName": "asset__f4e7ef55a35f0255.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "\"Zeb\" Orrelios"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:29:07.415Z"
+      },
+      {
+        "sha256": "0e9574fc21f8661958d6aafbe21eec81888d6ad0414bbb24a341d8c515f30e60",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f5278e929d80e3c2.jpg",
+        "fileName": "asset__f5278e929d80e3c2.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Kihraxz Fighter"
+        ],
+        "pilots": [
+          "Talonbane Cobra"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:45:35.375Z"
+      },
+      {
+        "sha256": "1decfdfdd840263586c92d36dbb4acbbc5d165b39ca1cf28c472dc4d7d17844f",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f7aa5ccad91d322f.jpg",
+        "fileName": "asset__f7aa5ccad91d322f.jpg",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "VT-49 Decimator"
+        ],
+        "pilots": [
+          "Commander Kenkirk"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:44:03.069Z"
+      },
+      {
+        "sha256": "b8017e209ae614e3880597e4766311c22855d9bb5448fa03ffe4b059c2b57179",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fbbff8877613c16a.jpg",
+        "fileName": "asset__fbbff8877613c16a.jpg",
+        "width": 3072,
+        "height": 3072,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "Upsilon-class Shuttle"
+        ],
+        "pilots": [
+          "Kylo Ren"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:37:56.583Z"
+      },
+      {
+        "sha256": "591e23e24bba02997c229027cf364ef6869bb2694c61204529e62149b969c592",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fbd02e039fd20ba4.png",
+        "fileName": "asset__fbd02e039fd20ba4.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "First Order"
+        ],
+        "ships": [
+          "TIE Silencer"
+        ],
+        "pilots": [
+          "Sienar-Jaemus Analyst"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:36:52.207Z"
+      },
+      {
+        "sha256": "7767d871b9198ccf57d6755133ea49894eac9022017543bcb3fbba846f987400",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__2d6e5ce97aed0766.png",
+        "fileName": "asset__2d6e5ce97aed0766.png",
+        "width": 2000,
+        "height": 2000,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "TIE Fighter"
+        ],
+        "pilots": [
+          "Ahsoka Tano"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:29:42.006Z"
+      },
+      {
+        "sha256": "83b09773e6698b5741afb6443b726bd0bebfd7b894f891fc79ab31460830c2e8",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__3bf704ca6e757c26.png",
+        "fileName": "asset__3bf704ca6e757c26.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "Scurrg H-6 Bomber"
+        ],
+        "pilots": [
+          "Captain Nym"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:33:53.068Z"
+      },
+      {
+        "sha256": "0ec4496f19174f4d20dc748f7af01bfcd2d30ab81f9c33b2434be414642ef69e",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7a75c3dedef70084.png",
+        "fileName": "asset__7a75c3dedef70084.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Scum and Villainy"
+        ],
+        "ships": [
+          "Protectorate Starfighter"
+        ],
+        "pilots": [
+          "Concord Dawn Ace"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:32:04.914Z"
+      },
+      {
+        "sha256": "aba1b1f069282d619ae48d93b91647b9a99222560ee7c07adf78b489595bd8fa",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__921fbbc8e48665e2.png",
+        "fileName": "asset__921fbbc8e48665e2.png",
+        "width": 1024,
+        "height": 1024,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Galactic Empire"
+        ],
+        "ships": [
+          "TIE Aggressor"
+        ],
+        "pilots": [
+          "Onyx Squadron Escort"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:31:17.506Z"
+      },
+      {
+        "sha256": "ecaec1f05789c138b78dbf1534f89c0fd2c7abfd4cd5daedfa154c1e4aac1e54",
+        "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__a1a7f59f6416dd22.png",
+        "fileName": "asset__a1a7f59f6416dd22.png",
+        "width": 2048,
+        "height": 2048,
+        "containsPilotTokens": "yes",
+        "factions": [
+          "Rebel Alliance"
+        ],
+        "ships": [
+          "U-wing"
+        ],
+        "pilots": [
+          "Blue Squadron Pathfinder"
+        ],
+        "imageType": "mixed-texture-atlas",
+        "reviewStatus": "complete",
+        "notes": "",
+        "modifiedUtc": "2026-07-19T21:30:23.350Z"
+      }
+    ]
+  },
+  "remainingPilotIds": []
+}

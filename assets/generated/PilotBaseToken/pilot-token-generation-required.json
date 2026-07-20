@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-20T01:08:16.260904+00:00",
+  "sourcePlan": "ukb/extraction-layouts/pilot-token-source-recovery-plan.completed.json",
+  "pilotIds": [
+    "firstorder::upsilonclassshuttle::majorstridan",
+    "galacticempire::tiereaper::captainferoph",
+    "rebelalliance::auzituckgunship::lowhhrick",
+    "rebelalliance::auzituckgunship::wullffwarro",
+    "rebelalliance::awing::prototypepilot",
+    "resistance::yt1300::chewbaccaswx57",
+    "resistance::yt1300::hansoloswx57",
+    "scumandvillainy::m3ainterceptor::genesisred"
+  ]
+}

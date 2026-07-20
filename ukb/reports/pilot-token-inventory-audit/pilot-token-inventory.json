@@ -36,10 +36,10 @@
     "Skill": 4,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/X-wing/red-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/xwing/redsquadronpilot__pilot-5dc6032b4a48.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|xwing|rookiepilot|2|21",
@@ -50,10 +50,10 @@
     "Skill": 2,
     "Points": 21,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/X-wing/rookie-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/xwing/rookiepilot__pilot-0cc0aca52946.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|xwing|biggsdarklighter|5|25",
@@ -92,10 +92,10 @@
     "Skill": 4,
     "Points": 20,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Y-wing/gray-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/ywing/dutchvander__pilot-91f3d05b5ea1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/ywing/graysquadronpilot__pilot-527388f60fb4.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|ywing|dutchvander|6|23",
@@ -134,10 +134,10 @@
     "Skill": 2,
     "Points": 18,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Y-wing/gold-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/ywing/dutchvander__pilot-91f3d05b5ea1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/ywing/goldsquadronpilot__pilot-e24f1d2a662a.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiefighter|academypilot|1|12",
@@ -176,10 +176,10 @@
     "Skill": 4,
     "Points": 14,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Fighter/black-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiefighter/blacksquadronpilot__pilot-7e5376cb86f1.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiefighter|wingedgundark|5|15",
@@ -190,10 +190,10 @@
     "Skill": 5,
     "Points": 15,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Fighter/winged-gundark.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiefighter/wingedgundark__pilot-1937d975875c.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiefighter|nightbeast|5|15",
@@ -302,10 +302,10 @@
     "Skill": 4,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Advanced/storm-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/darthvader__pilot-31738df69b79.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/stormsquadronpilot__pilot-135a0eb16ce4.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieadvanced|darthvader|9|29",
@@ -344,10 +344,10 @@
     "Skill": 3,
     "Points": 20,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/avenger-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/avengersquadronpilot__pilot-a62d21a2101d.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|sabersquadronpilot|4|21",
@@ -358,10 +358,10 @@
     "Skill": 4,
     "Points": 21,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/saber-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/sabersquadronpilot__pilot-2141928f7263.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|felswrath|5|23",
@@ -372,10 +372,10 @@
     "Skill": 5,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/fel-s-wrath.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/felswrath__pilot-3cbe4e95e295.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|turrphennir|7|25",
@@ -526,10 +526,10 @@
     "Skill": 7,
     "Points": 38,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/kath-scarlet.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/kathscarlet__pilot-00da478ba942.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|firespray31|bobafett|8|39",
@@ -540,10 +540,10 @@
     "Skill": 8,
     "Points": 39,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/boba-fett.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/bobafett__pilot-ad1363e77593.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|firespray31|krassistrelix|5|36",
@@ -596,10 +596,10 @@
     "Skill": 6,
     "Points": 28,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/ibtisam.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/ibtisam__pilot-ca978e1a2c04.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|bwing|daggersquadronpilot|4|24",
@@ -610,10 +610,10 @@
     "Skill": 4,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/dagger-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/daggersquadronpilot__pilot-dfb38e9164ae.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|bwing|bluesquadronpilot|2|22",
@@ -638,10 +638,10 @@
     "Skill": 2,
     "Points": 16,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/HWK-290/rebel-operative.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/hwk290/janors__pilot-f4184700d1da.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/hwk290/rebeloperative__pilot-4eca0bad4998.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|hwk290|roarkgarnet|4|19",
@@ -708,10 +708,10 @@
     "Skill": 4,
     "Points": 18,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiebomber/captainjonus__pilot-bdaa55ad958f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiebomber|captainjonus|6|22",
@@ -778,10 +778,10 @@
     "Skill": 4,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/captain-yorr.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainyorr__pilot-43e9bd60c76a.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|lambdaclassshuttle|omicrongrouppilot|2|21",
@@ -820,10 +820,10 @@
     "Skill": 6,
     "Points": 22,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/royal-guard-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/royalguardpilot__pilot-3187e5d8cd00.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|tetrancowall|7|24",
@@ -834,10 +834,10 @@
     "Skill": 7,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/tetran-cowall.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/tetrancowall__pilot-9bcb31488c19.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|kirkanos|6|24",
@@ -848,10 +848,10 @@
     "Skill": 6,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/kir-kanos.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/kirkanos__pilot-d869dca4c483.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieinterceptor|carnorjax|8|26",
@@ -862,10 +862,10 @@
     "Skill": 8,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/carnor-jax.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|gr75mediumtransport|gr75mediumtransport|3|30",
@@ -960,10 +960,10 @@
     "Skill": 3,
     "Points": 32,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Defender/onyx-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiedefender/colonelvessery__pilot-67211d993ab3.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiedefender/onyxsquadronpilot__pilot-b34f5c2ddf3e.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiedefender|colonelvessery|6|35",
@@ -1002,10 +1002,10 @@
     "Skill": 1,
     "Points": 27,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/E-wing/knave-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/ewing/corranhorn__pilot-e5b046ce0938.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/ewing/knavesquadronpilot__pilot-633813df04da.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|ewing|blackmoonsquadronpilot|3|29",
@@ -1016,10 +1016,10 @@
     "Skill": 3,
     "Points": 29,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/E-wing/blackmoon-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/ewing/corranhorn__pilot-e5b046ce0938.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/ewing/blackmoonsquadronpilot__pilot-42adcf62d7d4.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|ewing|etahnabaht|5|32",
@@ -1030,10 +1030,10 @@
     "Skill": 5,
     "Points": 32,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/E-wing/etahn-a-baht.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/ewing/corranhorn__pilot-e5b046ce0938.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/ewing/etahnabaht__pilot-d6f3881fd5e5.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|ewing|corranhorn|8|35",
@@ -1058,10 +1058,10 @@
     "Skill": 3,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Phantom/sigma-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiephantom/echo__pilot-fce29317c456.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiephantom/sigmasquadronpilot__pilot-19d6bf9783ff.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiephantom|shadowsquadronpilot|5|27",
@@ -1072,10 +1072,10 @@
     "Skill": 5,
     "Points": 27,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Phantom/shadow-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiephantom/echo__pilot-fce29317c456.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiephantom/shadowsquadronpilot__pilot-b39244e64f29.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiephantom|echo|6|30",
@@ -1170,10 +1170,10 @@
     "Skill": 5,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/X-wing/hobbie-klivian.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/xwing/hobbieklivian__pilot-650063d67e72.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|xwing|tarnmison|3|23",
@@ -1184,10 +1184,10 @@
     "Skill": 3,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/X-wing/tarn-mison.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/xwing/tarnmison__pilot-8eff5cdf6b4c.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|awing|jakefarrell|7|24",
@@ -1226,10 +1226,10 @@
     "Skill": 7,
     "Points": 29,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/keyan-farlander.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/keyanfarlander__pilot-ac94de716fe6.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|bwing|neradantels|5|26",
@@ -1240,10 +1240,10 @@
     "Skill": 5,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/nera-dantels.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/neradantels__pilot-309bf4fb47a8.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|yt2400|dashrendar|7|36",
@@ -1310,10 +1310,10 @@
     "Skill": 3,
     "Points": 32,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/eaden-vrill.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/yt2400/dashrendar__pilot-eb50363aacfe.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/yt2400/eadenvrill__pilot-e27fb236c4f3.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|vt49decimator|commanderkenkirk|6|44",
@@ -1324,10 +1324,10 @@
     "Skill": 6,
     "Points": 44,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/commander-kenkirk.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/captainoicunn__pilot-20d8bf313d24.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/commanderkenkirk__pilot-a2eb04a922ed.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|vt49decimator|patrolleader|3|40",
@@ -1576,10 +1576,10 @@
     "Skill": 2,
     "Points": 18,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Y-wing/syndicate-thug.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/ywing/drearenthal__pilot-34b839e60ab6.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/ywing/syndicatethug__pilot-af51e58b9ce6.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|firespray31|mandalorianmercenary|5|35",
@@ -1590,10 +1590,10 @@
     "Skill": 5,
     "Points": 35,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Firespray-31/mandalorian-mercenary.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/firespray31/bobafett__pilot-8a5ca1dccbea.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/firespray31/mandalorianmercenary__pilot-68f3ca6c10e9.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|hwk290|dacebonearm|7|23",
@@ -1660,10 +1660,10 @@
     "Skill": 3,
     "Points": 27,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-vigo.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunassassin__pilot-e8e9694b8d34.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunvigo__pilot-6163bfc10154.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|starviper|blacksunenforcer|1|25",
@@ -1688,10 +1688,10 @@
     "Skill": 5,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Advanced/commander-alozen.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/darthvader__pilot-31738df69b79.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/commanderalozen__pilot-334fb2377134.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|m3ainterceptor|laetinashera|6|18",
@@ -1800,10 +1800,10 @@
     "Skill": 3,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Advanced/lieutenant-colzet.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/darthvader__pilot-31738df69b79.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadvanced/lieutenantcolzet__pilot-0caeec7560f8.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieadvanced|zertikstrom|6|26",
@@ -1884,10 +1884,10 @@
     "Skill": null,
     "Points": null,
     "IsEpic": false,
-    "Status": "MissingTokenAndPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/binayrepirate__pilot-75ca1ac0b24b.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/nashtahpuppilot__pilot-72f1ca9d274c.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|kihraxzfighter|cartelmarauder|2|20",
@@ -1926,10 +1926,10 @@
     "Skill": 6,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/graz-the-hunter.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/blacksunace__pilot-47be7dd4c303.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/grazthehunter__pilot-ab208b707e08.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|kihraxzfighter|talonbanecobra|9|28",
@@ -2038,10 +2038,10 @@
     "Skill": 4,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenAndPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/cutlasssquadronpilot__pilot-d1da1e944aa9.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/blackeightsqpilot__pilot-93bea03f4cbe.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|yv666|moraloeval|6|34",
@@ -2066,10 +2066,10 @@
     "Skill": 4,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/guardian-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/kwing/esegetuketu__pilot-a2e41ccfab5f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/kwing/guardiansquadronpilot__pilot-3b0d4b6109e8.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|epsilonleader|6|19",
@@ -2080,10 +2080,10 @@
     "Skill": 6,
     "Points": 19,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/epsilon-leader.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonleader__pilot-d905ccfeb611.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|epsilonsquadronpilot|1|15",
@@ -2094,10 +2094,10 @@
     "Skill": 1,
     "Points": 15,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/epsilon-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonsquadronpilot__pilot-79a2c367a956.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|omegaace|7|20",
@@ -2108,10 +2108,10 @@
     "Skill": 7,
     "Points": 20,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/omega-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/omegaace__pilot-6981ba3839af.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|omegaleader|8|21",
@@ -2122,10 +2122,10 @@
     "Skill": 8,
     "Points": 21,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/omega-leader.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/omegaleader__pilot-eece3bbbb784.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|zetaace|5|18",
@@ -2136,10 +2136,10 @@
     "Skill": 5,
     "Points": 18,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/zeta-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetaace__pilot-641484ae5c95.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|zetasquadronpilot|3|16",
@@ -2164,10 +2164,10 @@
     "Skill": 4,
     "Points": 17,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/omega-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/omegasquadronpilot__pilot-e22e0f82c2a8.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|bluesquadronnovice|2|24",
@@ -2178,10 +2178,10 @@
     "Skill": 2,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-squadron-novice.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/bluesquadronnovice__pilot-a00822d36976.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|poedameron|8|31",
@@ -2206,10 +2206,10 @@
     "Skill": 6,
     "Points": 29,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/redace__pilot-89695cd3445a.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|redsquadronveteran|4|26",
@@ -2220,10 +2220,10 @@
     "Skill": 4,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-squadron-veteran.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/redsquadronveteran__pilot-4539ad7a4461.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|blueace|5|27",
@@ -2234,10 +2234,10 @@
     "Skill": 5,
     "Points": 27,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/blueace__pilot-239a2913649d.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|vcx100|herasyndulla|7|40",
@@ -2290,10 +2290,10 @@
     "Skill": 8,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Adv. Prototype/the-inquisitor.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvprototype/baronoftheempire__pilot-65747e26907e.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadv.prototype/theinquisitor__pilot-54b4081dbab0.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|gozanticlasscruiser|gozanticlasscruiser|2|40",
@@ -2318,10 +2318,10 @@
     "Skill": 7,
     "Points": 17,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Fighter/scourge.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiefighter/scourge__pilot-b786bc451943.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiefighter|wampa|4|14",
@@ -2346,10 +2346,10 @@
     "Skill": 6,
     "Points": 15,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Fighter/youngster.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiefighter/youngster__pilot-03628fe3aeec.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiefighter|chaser|3|14",
@@ -2360,10 +2360,10 @@
     "Skill": 3,
     "Points": 14,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Fighter/chaser.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiefighter/chaser__pilot-1641d4c10891.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|attackshuttle|ezrabridger|4|20",
@@ -2388,10 +2388,10 @@
     "Skill": 4,
     "Points": 17,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/epsilon-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonace__pilot-fd288ae4c7d0.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiefofighter|zetaleader|7|20",
@@ -2402,10 +2402,10 @@
     "Skill": 7,
     "Points": 20,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-fo Fighter/zeta-leader.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetaleader__pilot-d5006b65d981.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|vcx100|chopper|4|37",
@@ -2500,10 +2500,10 @@
     "Skill": 5,
     "Points": 19,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-veteran.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiebomber/captainjonus__pilot-bdaa55ad958f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronveteran__pilot-c1b278be03e2.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|elloasty|7|30",
@@ -2528,10 +2528,10 @@
     "Skill": 6,
     "Points": 22,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Adv. Prototype/valen-rudor.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvprototype/baronoftheempire__pilot-65747e26907e.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadv.prototype/valenrudor__pilot-074deab3b7c3.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieadvprototype|sienartestpilot|2|16",
@@ -2542,10 +2542,10 @@
     "Skill": 2,
     "Points": 16,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Adv. Prototype/sienar-test-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieadvprototype/baronoftheempire__pilot-65747e26907e.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieadv.prototype/sienartestpilot__pilot-70260e3c6ef9.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|g1astarfighter|4lom|6|27",
@@ -2654,10 +2654,10 @@
     "Skill": 3,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/G-1A Starfighter/ruthless-freelancer.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/g1astarfighter/4lom__pilot-3acc0b4a3795.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/g1astarfighter/ruthlessfreelancer__pilot-f12f99b06c53.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiebomber|deathfire|3|17",
@@ -2682,10 +2682,10 @@
     "Skill": 6,
     "Points": 34,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Defender/glaive-squadron-pilot.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiedefender/colonelvessery__pilot-67211d993ab3.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiedefender/glaivesquadronpilot__pilot-b20f99e8b056.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiedefender|maarekstele|7|35",
@@ -2696,10 +2696,10 @@
     "Skill": 7,
     "Points": 35,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Advanced/maarek-stele.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiedefender/colonelvessery__pilot-67211d993ab3.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiedefender/maarekstele__pilot-bf753aa35aef.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tiedefender|countessryad|5|34",
@@ -2738,10 +2738,10 @@
     "Skill": 8,
     "Points": 45,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/YT-1300/rey.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/yt-1300/rey__pilot-eb36ccfc081b.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|arc170|sharabey|6|28",
@@ -2822,10 +2822,10 @@
     "Skill": 3,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/braylen-stramm.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/braylenstramm__pilot-559672c5acf1.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|arc170|thanekyrell|4|26",
@@ -2836,10 +2836,10 @@
     "Skill": 4,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/thane-kyrell.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/thanekyrell__pilot-f24f4c0fdc1d.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|arc170|norrawexley|7|29",
@@ -2864,10 +2864,10 @@
     "Skill": 3,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/zeta-specialist.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/zetaspecialist__pilot-a5c5858434ee.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiesffighter|backdraft|7|27",
@@ -2906,10 +2906,10 @@
     "Skill": 5,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-ace.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnace__pilot-f20e3c22e49d.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|protectoratestarfighter|concorddawnveteran|3|22",
@@ -2920,10 +2920,10 @@
     "Skill": 3,
     "Points": 22,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-veteran.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnveteran__pilot-f98f18cc6d4d.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|protectoratestarfighter|oldteroch|7|26",
@@ -2976,10 +2976,10 @@
     "Skill": 5,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/omega-specialist.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/omegaspecialist__pilot-2724127d2e7c.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|lancerclasspursuitcraft|shadowporthunter|2|33",
@@ -3018,10 +3018,10 @@
     "Skill": 6,
     "Points": 34,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/kylo-ren.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|quadjumper|unkarplutt|3|17",
@@ -3077,7 +3077,7 @@
     "Status": "MissingTokenAndPilotCard",
     "PilotCardPath": "",
     "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png"
+    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png"
   },
   {
     "PilotKey": "resistance|yt1300|chewbaccaswx57|5|42",
@@ -3091,7 +3091,7 @@
     "Status": "MissingTokenAndPilotCard",
     "PilotCardPath": "",
     "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png"
+    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png"
   },
   {
     "PilotKey": "resistance|t70xwing|jesspava|3|25",
@@ -3102,10 +3102,10 @@
     "Skill": 3,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/jess-pava.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/jesspava__pilot-d2179eefc44b.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|niennunb|7|29",
@@ -3116,10 +3116,10 @@
     "Skill": 7,
     "Points": 29,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/nien-nunb.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/niennunb__pilot-dca9ee93e622.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|t70xwing|snapwexley|6|28",
@@ -3130,10 +3130,10 @@
     "Skill": 6,
     "Points": 28,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/snap-wexley.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/t-70-x-wing/snapwexley__pilot-4313f481bfd0.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "resistance|yt1300|resistancesympathizer|3|38",
@@ -3144,10 +3144,10 @@
     "Skill": 3,
     "Points": 38,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/YT-1300/resistance-sympathizer.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|tiefighter|ahsokatano|7|17",
@@ -3158,10 +3158,10 @@
     "Skill": 7,
     "Points": 17,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/ahsoka-tano.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/tiefighter/captainrex__pilot-c280ac2074b3.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/tiefighter/ahsokatano__pilot-a331eb02a4a0.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|tiefighter|captainrex|4|14",
@@ -3186,10 +3186,10 @@
     "Skill": 2,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/U-wing/blue-squadron-pathfinder.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/uwing/benthictwotubes__pilot-69dc976b7248.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/uwing/bluesquadronpathfinder__pilot-aed84ccabd06.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|upsilonclassshuttle|majorstridan|4|32",
@@ -3203,7 +3203,7 @@
     "Status": "MissingTokenHasPilotCard",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/major-stridan.png",
     "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png"
+    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png"
   },
   {
     "PilotKey": "firstorder|upsilonclassshuttle|lieutenantdormitz|3|31",
@@ -3326,10 +3326,10 @@
     "Skill": 1,
     "Points": 17,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/imperial-trainee.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiestriker/blacksquadronscout__pilot-6382835ea36b.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/imperialtrainee__pilot-a31f78d56718.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|croccruiser|croccruiser|1|35",
@@ -3368,10 +3368,10 @@
     "Skill": 3,
     "Points": 18,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/scarif-defender.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiestriker/blacksquadronscout__pilot-6382835ea36b.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/scarifdefender__pilot-2f134b09193e.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "rebelalliance|tiefighter|zeborrelios|3|13",
@@ -3466,10 +3466,10 @@
     "Skill": 1,
     "Points": 24,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/karthakk-pirate.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/captainnym__pilot-40a82a73b01f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/karthakkpirate__pilot-fa5e5d36dbca.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieaggressor|sienarspecialist|2|17",
@@ -3508,10 +3508,10 @@
     "Skill": 5,
     "Points": 19,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/onyx-squadron-escort.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/doubleedge__pilot-29c434698216.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/onyxsquadronescort__pilot-11ec1b262bd8.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|tieaggressor|lieutenantkestal|7|22",
@@ -3606,10 +3606,10 @@
     "Skill": 8,
     "Points": 30,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Scurrg H-6 Bomber/captain-nym.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/captainnym__pilot-40a82a73b01f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|scurrgh6bomber|solsixxa|6|28",
@@ -3634,10 +3634,10 @@
     "Skill": 3,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wookiee-liberator.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|scurrgh6bomber|lokrevenant|3|26",
@@ -3690,10 +3690,10 @@
     "Skill": 4,
     "Points": 28,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/thweek.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunassassin__pilot-e8e9694b8d34.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/thweek__pilot-c91ee69af970.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|kihraxzfighter|captainjostero|4|24",
@@ -3774,9 +3774,9 @@
     "Skill": 7,
     "Points": 29,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-leader.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/b-sf-17-bomber/crimsonleader__pilot-3da13f089413.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -3802,10 +3802,10 @@
     "Skill": 4,
     "Points": 21,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "galacticempire|alphaclassstarwing|lieutenantkarsabi|5|24",
@@ -3830,10 +3830,10 @@
     "Skill": 3,
     "Points": 22,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/cartel-brute.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelexecutioner__pilot-4e5b3c6c644f.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelbrute__pilot-8e3388a632f5.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|m12lkimogilafighter|dalanoberos|7|25",
@@ -3900,9 +3900,9 @@
     "Skill": 1,
     "Points": 25,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/b-sf-17-bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -3914,9 +3914,9 @@
     "Skill": 4,
     "Points": 27,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-specialist.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/b-sf-17-bomber/crimsonspecialist__pilot-10b061cebaf0.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -3928,9 +3928,9 @@
     "Skill": 6,
     "Points": 28,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/cobalt-leader.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/resistance/b-sf-17-bomber/cobaltleader__pilot-c7808aa70880.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -3942,10 +3942,10 @@
     "Skill": 7,
     "Points": 31,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/test-pilot-blackout.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/testpilotblackout__pilot-43533a4d2203.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "scumandvillainy|m12lkimogilafighter|cartelexecutioner|5|24",
@@ -3970,10 +3970,10 @@
     "Skill": 4,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/sienar-jaemus-analyst.png",
-    "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png"
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/sienarjaemusanalyst__pilot-730027847efe.png",
+    "GenerationDonorRecommendation": ""
   },
   {
     "PilotKey": "firstorder|tiesilencer|firstordertestpilot|6|29",
@@ -4012,9 +4012,9 @@
     "Skill": 6,
     "Points": 26,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/major-vermeil.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -4071,7 +4071,7 @@
     "Status": "MissingTokenHasPilotCard",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/captain-feroph.png",
     "GeneratedTokenPath": "",
-    "GenerationDonorRecommendation": ""
+    "GenerationDonorRecommendation": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png"
   },
   {
     "PilotKey": "galacticempire|tiereaper|scarifbasepilot|1|22",
@@ -4082,9 +4082,9 @@
     "Skill": 1,
     "Points": 22,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/scarif-base-pilot.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
     "GenerationDonorRecommendation": ""
   },
   {
@@ -4096,9 +4096,9 @@
     "Skill": 3,
     "Points": 23,
     "IsEpic": false,
-    "Status": "MissingTokenHasPilotCard",
+    "Status": "Generated",
     "PilotCardPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/vizier.png",
-    "GeneratedTokenPath": "",
+    "GeneratedTokenPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
     "GenerationDonorRecommendation": ""
   },
   {
