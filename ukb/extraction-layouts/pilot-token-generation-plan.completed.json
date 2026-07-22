@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.1.0",
+  "generatedUtc": "2026-07-20T02:18:06.450Z",
+  "sourceGenerationRequiredReport": "assets/generated/PilotBaseToken/pilot-token-generation-required.json",
+  "sourceInventory": "ukb/reports/pilot-token-inventory-audit/pilot-token-inventory.csv",
+  "pilots": [
+    {
+      "pilotId": "firstorder::upsilonclassshuttle::majorstridan",
+      "inventoryPilotKey": "firstorder|upsilonclassshuttle|majorstridan|4|32",
+      "targetId": "majorstridan",
+      "displayName": "Major Stridan",
+      "faction": "First Order",
+      "ship": "Upsilon-class Shuttle",
+      "skill": 4,
+      "points": 32,
+      "pilotCard": "assets/firstorderupsilonclassshuttlemajorstridancard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/major-stridan.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/firstorderupsilonclassshuttlemajorstridandonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
+          "fileName": "kyloren__pilot-d10c643b9d5f.png",
+          "label": "Candidate 1 — kyloren__pilot-d10c643b9d5f"
+        },
+        {
+          "previewPath": "assets/firstorderupsilonclassshuttlemajorstridandonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png",
+          "fileName": "lieutenantdormitz__pilot-ce8814af4a55.png",
+          "label": "Candidate 2 — lieutenantdormitz__pilot-ce8814af4a55"
+        },
+        {
+          "previewPath": "assets/firstorderupsilonclassshuttlemajorstridandonor3.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
+          "fileName": "starkillerbasepilot__pilot-2303ff614caf.png",
+          "label": "Candidate 3 — starkillerbasepilot__pilot-2303ff614caf"
+        }
+      ],
+      "selectedDonor": "assets/firstorderupsilonclassshuttlemajorstridandonor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "galacticempire::tiereaper::captainferoph",
+      "inventoryPilotKey": "galacticempire|tiereaper|captainferoph|4|24",
+      "targetId": "captainferoph",
+      "displayName": "Captain Feroph",
+      "faction": "Galactic Empire",
+      "ship": "TIE Reaper",
+      "skill": 4,
+      "points": 24,
+      "pilotCard": "assets/galacticempiretiereapercaptainferophcard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/captain-feroph.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/galacticempiretiereapercaptainferophdonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
+          "fileName": "majorvermeil__pilot-e7c1ecfe70bc.png",
+          "label": "Candidate 1 — majorvermeil__pilot-e7c1ecfe70bc"
+        },
+        {
+          "previewPath": "assets/galacticempiretiereapercaptainferophdonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
+          "fileName": "scarifbasepilot__pilot-c4c1818cafa8.png",
+          "label": "Candidate 2 — scarifbasepilot__pilot-c4c1818cafa8"
+        },
+        {
+          "previewPath": "assets/galacticempiretiereapercaptainferophdonor3.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
+          "fileName": "vizier__pilot-f55d2fcd7f5d.png",
+          "label": "Candidate 3 — vizier__pilot-f55d2fcd7f5d"
+        }
+      ],
+      "selectedDonor": "assets/galacticempiretiereapercaptainferophdonor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "rebelalliance::auzituckgunship::lowhhrick",
+      "inventoryPilotKey": "rebelalliance|auzituckgunship|lowhhrick|5|28",
+      "targetId": "lowhhrick",
+      "displayName": "Lowhhrick",
+      "faction": "Rebel Alliance",
+      "ship": "Auzituck Gunship",
+      "skill": 5,
+      "points": 28,
+      "pilotCard": "assets/rebelallianceauzituckgunshiplowhhrickcard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/lowhhrick.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/rebelallianceauzituckgunshiplowhhrickdonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "fileName": "kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "label": "Candidate 1 — kashyyykdefender__pilot-7e5aeebc41d6"
+        },
+        {
+          "previewPath": "assets/rebelallianceauzituckgunshiplowhhrickdonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+          "fileName": "wookieeliberator__pilot-8e4fdca88e8e.png",
+          "label": "Candidate 2 — wookieeliberator__pilot-8e4fdca88e8e"
+        }
+      ],
+      "selectedDonor": "assets/rebelallianceauzituckgunshiplowhhrickdonor2.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "rebelalliance::auzituckgunship::wullffwarro",
+      "inventoryPilotKey": "rebelalliance|auzituckgunship|wullffwarro|7|30",
+      "targetId": "wullffwarro",
+      "displayName": "Wullffwarro",
+      "faction": "Rebel Alliance",
+      "ship": "Auzituck Gunship",
+      "skill": 7,
+      "points": 30,
+      "pilotCard": "assets/rebelallianceauzituckgunshipwullffwarrocard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wullffwarro.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/rebelallianceauzituckgunshipwullffwarrodonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "fileName": "kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "label": "Candidate 1 — kashyyykdefender__pilot-7e5aeebc41d6"
+        },
+        {
+          "previewPath": "assets/rebelallianceauzituckgunshipwullffwarrodonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+          "fileName": "wookieeliberator__pilot-8e4fdca88e8e.png",
+          "label": "Candidate 2 — wookieeliberator__pilot-8e4fdca88e8e"
+        }
+      ],
+      "selectedDonor": "assets/rebelallianceauzituckgunshipwullffwarrodonor2.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "rebelalliance::awing::prototypepilot",
+      "inventoryPilotKey": "rebelalliance|awing|prototypepilot|1|17",
+      "targetId": "prototypepilot",
+      "displayName": "Prototype Pilot",
+      "faction": "Rebel Alliance",
+      "ship": "A-wing",
+      "skill": 1,
+      "points": 17,
+      "pilotCard": "assets/rebelallianceawingprototypepilotcard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/A-wing/prototype-pilot.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/rebelallianceawingprototypepilotdonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/arvelcrynyd__pilot-abfc7c17fcac.png",
+          "fileName": "arvelcrynyd__pilot-abfc7c17fcac.png",
+          "label": "Candidate 1 — arvelcrynyd__pilot-abfc7c17fcac"
+        },
+        {
+          "previewPath": "assets/rebelallianceawingprototypepilotdonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/gemmersojan__pilot-19d285178ac9.png",
+          "fileName": "gemmersojan__pilot-19d285178ac9.png",
+          "label": "Candidate 2 — gemmersojan__pilot-19d285178ac9"
+        },
+        {
+          "previewPath": "assets/rebelallianceawingprototypepilotdonor3.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/greensquadronpilot__pilot-82934a2fa2f1.png",
+          "fileName": "greensquadronpilot__pilot-82934a2fa2f1.png",
+          "label": "Candidate 3 — greensquadronpilot__pilot-82934a2fa2f1"
+        },
+        {
+          "previewPath": "assets/rebelallianceawingprototypepilotdonor4.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/jakefarrell__pilot-a0ae862c1758.png",
+          "fileName": "jakefarrell__pilot-a0ae862c1758.png",
+          "label": "Candidate 4 — jakefarrell__pilot-a0ae862c1758"
+        },
+        {
+          "previewPath": "assets/rebelallianceawingprototypepilotdonor5.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/tychocelchu__pilot-e89cd27df359.png",
+          "fileName": "tychocelchu__pilot-e89cd27df359.png",
+          "label": "Candidate 5 — tychocelchu__pilot-e89cd27df359"
+        }
+      ],
+      "selectedDonor": "assets/rebelallianceawingprototypepilotdonor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/arvelcrynyd__pilot-abfc7c17fcac.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "resistance::yt1300::chewbaccaswx57",
+      "inventoryPilotKey": "resistance|yt1300|chewbaccaswx57|5|42",
+      "targetId": "chewbacca-swx57",
+      "displayName": "Chewbacca",
+      "faction": "Resistance",
+      "ship": "YT-1300",
+      "skill": 5,
+      "points": 42,
+      "pilotCard": "assets/resistanceyt1300chewbaccaswx57card.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Resistance/YT-1300/chewbacca.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/resistanceyt1300chewbaccaswx57donor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+          "fileName": "resistancesympathizer__pilot-a5ca71e30c57.png",
+          "label": "Candidate 1 — resistancesympathizer__pilot-a5ca71e30c57"
+        },
+        {
+          "previewPath": "assets/resistanceyt1300chewbaccaswx57donor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/rey__pilot-eb36ccfc081b.png",
+          "fileName": "rey__pilot-eb36ccfc081b.png",
+          "label": "Candidate 2 — rey__pilot-eb36ccfc081b"
+        }
+      ],
+      "selectedDonor": "assets/resistanceyt1300chewbaccaswx57donor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "resistance::yt1300::hansoloswx57",
+      "inventoryPilotKey": "resistance|yt1300|hansoloswx57|9|46",
+      "targetId": "hansolo-swx57",
+      "displayName": "Han Solo",
+      "faction": "Resistance",
+      "ship": "YT-1300",
+      "skill": 9,
+      "points": 46,
+      "pilotCard": "assets/resistanceyt1300hansoloswx57card.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Resistance/YT-1300/han-solo.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/resistanceyt1300hansoloswx57donor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+          "fileName": "resistancesympathizer__pilot-a5ca71e30c57.png",
+          "label": "Candidate 1 — resistancesympathizer__pilot-a5ca71e30c57"
+        },
+        {
+          "previewPath": "assets/resistanceyt1300hansoloswx57donor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/rey__pilot-eb36ccfc081b.png",
+          "fileName": "rey__pilot-eb36ccfc081b.png",
+          "label": "Candidate 2 — rey__pilot-eb36ccfc081b"
+        }
+      ],
+      "selectedDonor": "assets/resistanceyt1300hansoloswx57donor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/resistance/yt-1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+      "status": "Approved",
+      "notes": ""
+    },
+    {
+      "pilotId": "scumandvillainy::m3ainterceptor::genesisred",
+      "inventoryPilotKey": "scumandvillainy|m3ainterceptor|genesisred|7|19",
+      "targetId": "genesisred",
+      "displayName": "Genesis Red",
+      "faction": "Scum and Villainy",
+      "ship": "M3-A Interceptor",
+      "skill": 7,
+      "points": 19,
+      "pilotCard": "assets/scumandvillainym3ainterceptorgenesisredcard.png",
+      "pilotCardSourceRepositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/genesis-red.png",
+      "donorCandidates": [
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor1.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
+          "fileName": "cartelspacer__pilot-9ff20ae8c7ab.png",
+          "label": "Candidate 1 — cartelspacer__pilot-9ff20ae8c7ab"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor2.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/inaldra__pilot-d23bf9016c0d.png",
+          "fileName": "inaldra__pilot-d23bf9016c0d.png",
+          "label": "Candidate 2 — inaldra__pilot-d23bf9016c0d"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor3.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/laetinashera__pilot-6842aeddcc32.png",
+          "fileName": "laetinashera__pilot-6842aeddcc32.png",
+          "label": "Candidate 3 — laetinashera__pilot-6842aeddcc32"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor4.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/quinnjast__pilot-fead77745b91.png",
+          "fileName": "quinnjast__pilot-fead77745b91.png",
+          "label": "Candidate 4 — quinnjast__pilot-fead77745b91"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor5.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/serissu__pilot-989dffe571d6.png",
+          "fileName": "serissu__pilot-989dffe571d6.png",
+          "label": "Candidate 5 — serissu__pilot-989dffe571d6"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor6.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/sunnybounder__pilot-e142b034674e.png",
+          "fileName": "sunnybounder__pilot-e142b034674e.png",
+          "label": "Candidate 6 — sunnybounder__pilot-e142b034674e"
+        },
+        {
+          "previewPath": "assets/scumandvillainym3ainterceptorgenesisreddonor7.png",
+          "sourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/tansariipointveteran__pilot-1f99131ce3e0.png",
+          "fileName": "tansariipointveteran__pilot-1f99131ce3e0.png",
+          "label": "Candidate 7 — tansariipointveteran__pilot-1f99131ce3e0"
+        }
+      ],
+      "selectedDonor": "assets/scumandvillainym3ainterceptorgenesisreddonor1.png",
+      "selectedDonorSourceRepositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
+      "status": "Approved",
+      "notes": ""
+    }
+  ]
+}

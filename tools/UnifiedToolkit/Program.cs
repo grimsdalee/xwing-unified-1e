@@ -71,7 +71,9 @@ return command switch
     "extract-pilot-tokens" => ExtractPilotTokensCommand.Run(commandArgs),
     "recover-pilot-tokens" => RecoverPilotTokensCommand.Run(commandArgs),
     "prepare-pilot-token-generation" => PreparePilotTokenGenerationCommand.Run(commandArgs),
+    "prepare-pilot-token-editor" => PreparePilotTokenEditorCommand.Run(commandArgs),
     "audit-pilot-token-inventory" => AuditPilotTokenInventoryCommand.Run(commandArgs),
+    "audit-pilot-token-images" => AuditPilotTokenImagesCommand.Run(commandArgs),
     "inspect-legacy-pilot-source" => InspectLegacyPilotSourceCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
@@ -141,7 +143,9 @@ static void ShowHelp()
     Console.WriteLine("  extract-pilot-tokens <first-edition-repo-folder> <completed-plan.json> [--output <folder>]");
     Console.WriteLine("  recover-pilot-tokens <first-edition-repo-folder> <completed-recovery-plan.json> [--output <folder>] [--overwrite]");
     Console.WriteLine("  prepare-pilot-token-generation <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  prepare-pilot-token-editor <first-edition-repo-folder> <completed-generation-plan.json> [--output <folder>]");
     Console.WriteLine("  audit-pilot-token-inventory <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  audit-pilot-token-images <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  inspect-legacy-pilot-source <first-edition-repo-folder> <pilot-name> [--legacy-save <save.json>] [--output <folder>]");
 }
 

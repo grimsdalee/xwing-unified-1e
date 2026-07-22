@@ -1,0 +1,15 @@
+Pilot Token Image Audit
+=======================
+
+Images scanned:                 282
+Unique canvas sizes:            2
+Images with warnings:           282
+Images touching any edge:       282
+Images without transparency:    282
+Exact duplicate groups:         0
+
+Recommended small canvas:       431x495 (221 images)
+Recommended large canvas:       955x998 (61 images)
+Most common canvas overall:     431x495 (221 images)
+
+Recommendations are the most common observed canvas dimensions, not an automatic instruction to resize artwork.

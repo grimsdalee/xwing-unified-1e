@@ -76,7 +76,7 @@
     "assetId": "AST-3341435D0ABE2077",
     "fileCount": 3,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__65c300560f7db7af.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__65c300560f7db7af.jpg",
       "assets/source/unified25/assets/Items/GreenDiceInfinite.jpg",
       "assets/source/unified25/assets/textures/Dice/Defence Dice/Base Green/GreenDiceInfinite.jpg"
     ]
@@ -86,7 +86,7 @@
     "assetId": "AST-69B4597D9D8F6A58",
     "fileCount": 3,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__dbe711df5b524559.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__dbe711df5b524559.jpg",
       "assets/source/unified25/assets/Items/RedDiceInfinite.jpg",
       "assets/source/unified25/assets/textures/Dice/Attack Dice/Base Red/RedDiceInfinite.jpg"
     ]
@@ -150,7 +150,7 @@
     "assetId": "AST-08BD44A295674C92",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c3486d33bc1d65e8.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c3486d33bc1d65e8.png",
       "assets/source/unified25/assets/Items/tokens/new/starviper-mkii-roll-token-texture.png"
     ]
   },
@@ -159,7 +159,7 @@
     "assetId": "AST-0ABA8DB5184100C0",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__15bd7b2c535853ff.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__15bd7b2c535853ff.png",
       "assets/source/unified25/assets/Items/asteroids/Debris6.png"
     ]
   },
@@ -186,7 +186,7 @@
     "assetId": "AST-0D0E0A9B8DE1E59E",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__73729d7f24d3dd78.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__73729d7f24d3dd78.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core6.jpg"
     ]
   },
@@ -213,7 +213,7 @@
     "assetId": "AST-18DEC3C56DC74A26",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7705795107b261ed.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__7705795107b261ed.png",
       "assets/source/unified25/assets/textures/Mats/standard-13-tatooine-crater-field.png"
     ]
   },
@@ -231,7 +231,7 @@
     "assetId": "AST-1E81D9B850DD8A69",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__983c897eca79de3c.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__983c897eca79de3c.png",
       "assets/source/unified25/assets/textures/bombs/clustermine-side.png"
     ]
   },
@@ -240,7 +240,7 @@
     "assetId": "AST-229A650BCB93BB1B",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__317fedfe8dd819bf.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__317fedfe8dd819bf.jpg",
       "assets/source/unified25/assets/Items/rulers/range15.jpg"
     ]
   },
@@ -303,7 +303,7 @@
     "assetId": "AST-2A45E79B701A7985",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0b6b2e2e3add6b88.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0b6b2e2e3add6b88.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core3.jpg"
     ]
   },
@@ -375,7 +375,7 @@
     "assetId": "AST-36C2229858E72347",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c4456e050067348b.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c4456e050067348b.png",
       "assets/source/unified25/assets/Items/asteroids/Debris2.png"
     ]
   },
@@ -393,7 +393,7 @@
     "assetId": "AST-3ACBCC5C4A92A2CC",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0e48b58d18feefe6.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0e48b58d18feefe6.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core4.jpg"
     ]
   },
@@ -420,7 +420,7 @@
     "assetId": "AST-3D7FE41267C15ECA",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__57b9a4e04b1c898d.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__57b9a4e04b1c898d.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core5.jpg"
     ]
   },
@@ -537,7 +537,7 @@
     "assetId": "AST-4CCB1E227FC07001",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__71a83ffc7ffc796b.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__71a83ffc7ffc796b.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-01-death-star-over-endor.jpg"
     ]
   },
@@ -555,7 +555,7 @@
     "assetId": "AST-4E759EF700615E29",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__90d598feb95ec867.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__90d598feb95ec867.png",
       "assets/source/unified25/assets/textures/Mats/standard-11-mustafar.png"
     ]
   },
@@ -564,7 +564,7 @@
     "assetId": "AST-4FCB1830470C5925",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__f099979e4423a0a0.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__f099979e4423a0a0.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-17-death-star-surface-blueprint.jpg"
     ]
   },
@@ -636,7 +636,7 @@
     "assetId": "AST-5BD0AE761300333B",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c254fa36ac142d7b.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c254fa36ac142d7b.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-18-orion-nebula.jpg"
     ]
   },
@@ -690,7 +690,7 @@
     "assetId": "AST-68ADD296DE4B025D",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__44733486bff26c5b.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__44733486bff26c5b.png",
       "assets/source/unified25/assets/textures/Mats/standard-09-coruscant-night-side.png"
     ]
   },
@@ -708,7 +708,7 @@
     "assetId": "AST-6A9905FCCEA7FE8F",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__25d3a48f0457d43b.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__25d3a48f0457d43b.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-15-death-star-surface.jpg"
     ]
   },
@@ -717,7 +717,7 @@
     "assetId": "AST-6E29570E41EB3408",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1f891fb46a2ff5a6.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1f891fb46a2ff5a6.png",
       "assets/source/unified25/assets/textures/Mats/standard-14-purple-star-nebula.png"
     ]
   },
@@ -789,7 +789,7 @@
     "assetId": "AST-80787D40153ECA0A",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__12a8eaf79e27011d.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__12a8eaf79e27011d.png",
       "assets/source/unified25/assets/textures/Mats/standard-12-scarif-shield-gate.png"
     ]
   },
@@ -861,7 +861,7 @@
     "assetId": "AST-9789DBF8D1A855DB",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__009682763b295f9f.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__009682763b295f9f.jpg",
       "assets/source/unified25/assets/Items/rulers/range.jpg"
     ]
   },
@@ -870,7 +870,7 @@
     "assetId": "AST-9955143E9EB7B4BC",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__3276a9741ef148b6.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__3276a9741ef148b6.png",
       "assets/source/unified25/assets/Items/asteroids/Debris5.png"
     ]
   },
@@ -897,7 +897,7 @@
     "assetId": "AST-9C4956CE67AA4C67",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__357e5d4ff0f03fff.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__357e5d4ff0f03fff.png",
       "assets/source/unified25/assets/textures/Mats/standard-10-blue-planet-satellite.png"
     ]
   },
@@ -906,7 +906,7 @@
     "assetId": "AST-9C543B2904A7FC0E",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c79936ab98924aa9.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c79936ab98924aa9.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-06-bespin-sunrise.jpg"
     ]
   },
@@ -933,7 +933,7 @@
     "assetId": "AST-A46B536C1FEF6036",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7ef5d24af5405a4d.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__7ef5d24af5405a4d.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core1.jpg"
     ]
   },
@@ -942,7 +942,7 @@
     "assetId": "AST-A544983CFD96A820",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__1d0db538fc3bbb1a.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1d0db538fc3bbb1a.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-08-jakku-destroyed-ships.jpg"
     ]
   },
@@ -951,7 +951,7 @@
     "assetId": "AST-A5B457B113129FDC",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0faaf3a5d678ed2c.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0faaf3a5d678ed2c.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-16-death-star-red-moon.jpg"
     ]
   },
@@ -1086,7 +1086,7 @@
     "assetId": "AST-B6912A2CEE9AB6E2",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__fe777b0b5b4a86a8.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__fe777b0b5b4a86a8.png",
       "assets/source/unified25/assets/Items/asteroids/Debris4.png"
     ]
   },
@@ -1140,7 +1140,7 @@
     "assetId": "AST-C13BEADAEA1BB229",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6465c81d6d3d3750.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__6465c81d6d3d3750.png",
       "assets/source/unified25/assets/textures/Mats/standard-19-blue-starfield-planets.png"
     ]
   },
@@ -1176,7 +1176,7 @@
     "assetId": "AST-C4F4141B67FA1F83",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__6a4cef9beaae4da6.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__6a4cef9beaae4da6.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core2.jpg"
     ]
   },
@@ -1320,7 +1320,7 @@
     "assetId": "AST-DBA23E24BB0C43FF",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__7b471cd50a44c67a.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__7b471cd50a44c67a.png",
       "assets/source/unified25/assets/Items/asteroids/Debris1.png"
     ]
   },
@@ -1347,7 +1347,7 @@
     "assetId": "AST-E6D1C68425590CB4",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__c7562b6c592803bc.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c7562b6c592803bc.png",
       "assets/source/unified25/assets/Items/asteroids/Debris3.png"
     ]
   },
@@ -1374,7 +1374,7 @@
     "assetId": "AST-EBBE3AA374802B67",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__74daacbb10dede47.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__74daacbb10dede47.png",
       "assets/source/unified25/assets/textures/Mats/standard-07-hoth-limb.png"
     ]
   },
@@ -1383,7 +1383,7 @@
     "assetId": "AST-ED077953FA5EA490",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__25ab5ac869850947.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__25ab5ac869850947.png",
       "assets/source/unified25/assets/Items/tools/relay-texture.png"
     ]
   },
@@ -1419,7 +1419,7 @@
     "assetId": "AST-FA7821D8BAE78F10",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__b6e45acfce355bf7.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__b6e45acfce355bf7.png",
       "assets/source/unified25/assets/Items/tokens/devices/Bombdropper.png"
     ]
   },
@@ -1437,7 +1437,7 @@
     "assetId": "AST-FB7C970C95CF76F2",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__91bb4a860f46ccd5.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__91bb4a860f46ccd5.png",
       "assets/source/unified25/assets/textures/bombs/clustermine.png"
     ]
   },
@@ -1464,7 +1464,7 @@
     "assetId": "AST-FDFC722B6B25A682",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__0b661f4afcc4d299.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0b661f4afcc4d299.png",
       "assets/source/unified25/assets/Items/tokens/arcindicators/indicadoramar.png"
     ]
   }

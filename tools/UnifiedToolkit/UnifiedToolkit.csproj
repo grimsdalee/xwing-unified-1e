@@ -22,6 +22,9 @@
     <Content Include="KnowledgeBase\AssetExtraction\GenerationReviewAssets\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="KnowledgeBase\AssetExtraction\TokenEditorAssets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="KnowledgeBase\AssetExtraction\Corrections\**\*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
