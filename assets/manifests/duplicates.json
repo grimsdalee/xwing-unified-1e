@@ -227,6 +227,15 @@
     ]
   },
   {
+    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
+    "assetId": "AST-1DC72C16899532DD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+      "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png"
+    ]
+  },
+  {
     "sha256": "1e81d9b850dd8a6994c63af5c8b38090b0a9f9ee482b864a3a1417451a0f8bdb",
     "assetId": "AST-1E81D9B850DD8A69",
     "fileCount": 2,
@@ -431,6 +440,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__608214851c34a2c6.obj",
       "assets/source/unified25/assets/Items/asteroids/Core2.obj"
+    ]
+  },
+  {
+    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
+    "assetId": "AST-41D5909C9DE84F3F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+      "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png"
     ]
   },
   {
@@ -782,6 +800,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
       "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj"
+    ]
+  },
+  {
+    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
+    "assetId": "AST-7FA890E84EEFECDC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/resistance/yt1300/chewbacca__pilot-2fc18406059d.png",
+      "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png"
     ]
   },
   {
@@ -1325,12 +1352,30 @@
     ]
   },
   {
+    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
+    "assetId": "AST-DEAFA7A033B67991",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
+      "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png"
+    ]
+  },
+  {
     "sha256": "e49e5187828874466466f45ec0682ad11c2b28c5b9475c927b849d9087d16e16",
     "assetId": "AST-E49E518782887446",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
+    ]
+  },
+  {
+    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
+    "assetId": "AST-E5D22375E828E057",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
+      "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png"
     ]
   },
   {
@@ -1388,12 +1433,39 @@
     ]
   },
   {
+    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
+    "assetId": "AST-EE45D8550A97160C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
+      "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png"
+    ]
+  },
+  {
+    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
+    "assetId": "AST-EF641B83A2863A62",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
+      "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png"
+    ]
+  },
+  {
     "sha256": "f23659258f86b102656945dccd28309e2eaf8cffb6f2b820d0ba379af2014ce1",
     "assetId": "AST-F23659258F86B102",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/FO/TIEba/provocateur.png",
       "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/First Order Provocateur.png"
+    ]
+  },
+  {
+    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
+    "assetId": "AST-F2B13532126B1B2E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
+      "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png"
     ]
   },
   {

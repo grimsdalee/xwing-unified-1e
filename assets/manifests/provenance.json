@@ -152,6 +152,14 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-1DC72C16899532DD",
+    "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-147B144555567A3D",
     "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
     "origin": "generated",
@@ -752,6 +760,14 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-41D5909C9DE84F3F",
+    "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-6658064D6363B8C3",
     "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
     "origin": "generated",
@@ -960,8 +976,16 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-72A15AD246C1DF6A",
+    "assetId": "AST-F2EFDCB9C3D21FCD",
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EF641B83A2863A62",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -970,6 +994,14 @@
   {
     "assetId": "AST-DDC9DADBDD49DBE1",
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F2B13532126B1B2E",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -1002,6 +1034,14 @@
   {
     "assetId": "AST-29C814CF06A529B5",
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/jakefarrell__pilot-a0ae862c1758.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EE45D8550A97160C",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -1680,7 +1720,23 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-88D708CD0E73F2BE",
+    "assetId": "AST-7FA890E84EEFECDC",
+    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/chewbacca__pilot-2fc18406059d.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5D22375E828E057",
+    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-72C94C658C6F71A7",
     "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/resistancesympathizer__pilot-a5ca71e30c57.png",
     "origin": "generated",
     "isGenerated": true,
@@ -1688,7 +1744,7 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-207FFFC7AC9C3F72",
+    "assetId": "AST-B9D25718E528B2AC",
     "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/rey__pilot-eb36ccfc081b.png",
     "origin": "generated",
     "isGenerated": true,
@@ -1970,6 +2026,14 @@
   {
     "assetId": "AST-F9991D450D1FA27D",
     "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DEAFA7A033B67991",
+    "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -2294,6 +2358,70 @@
     "isGenerated": true,
     "originalSource": null,
     "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1DC72C16899532DD",
+    "repositoryPath": "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-41D5909C9DE84F3F",
+    "repositoryPath": "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EF641B83A2863A62",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F2B13532126B1B2E",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EE45D8550A97160C",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7FA890E84EEFECDC",
+    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5D22375E828E057",
+    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DEAFA7A033B67991",
+    "repositoryPath": "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png",
+    "origin": "generated-pilot-tokens",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
     "assetId": "AST-9789DBF8D1A855DB",

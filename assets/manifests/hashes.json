@@ -114,6 +114,12 @@
     "sizeBytes": 736786
   },
   {
+    "assetId": "AST-1DC72C16899532DD",
+    "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
+    "sizeBytes": 1088141
+  },
+  {
     "assetId": "AST-147B144555567A3D",
     "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
     "sha256": "147b144555567a3d7010520ff2f263459a69a8f436301f275af923587ba108fa",
@@ -564,6 +570,12 @@
     "sizeBytes": 284564
   },
   {
+    "assetId": "AST-41D5909C9DE84F3F",
+    "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
+    "sizeBytes": 319737
+  },
+  {
     "assetId": "AST-6658064D6363B8C3",
     "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
     "sha256": "6658064d6363b8c30937d5673e1d8ed2442b9ba64d599670fd0d60533d6941dc",
@@ -720,16 +732,28 @@
     "sizeBytes": 290432
   },
   {
-    "assetId": "AST-72A15AD246C1DF6A",
+    "assetId": "AST-F2EFDCB9C3D21FCD",
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
-    "sha256": "72a15ad246c1df6ad43c4d4e7fb1c24e75d2a046ac505ca2f408268eeb16d0fb",
-    "sizeBytes": 294718
+    "sha256": "f2efdcb9c3d21fcd3884d77d4857dfcf135465248a830933e6484fc4dcc1bf35",
+    "sizeBytes": 299308
+  },
+  {
+    "assetId": "AST-EF641B83A2863A62",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
+    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
+    "sizeBytes": 318999
   },
   {
     "assetId": "AST-DDC9DADBDD49DBE1",
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
     "sha256": "ddc9dadbdd49dbe1434e69bcf0f90a3b3c42b195065230b5ddc506c22e92c338",
     "sizeBytes": 293769
+  },
+  {
+    "assetId": "AST-F2B13532126B1B2E",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
+    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
+    "sizeBytes": 305736
   },
   {
     "assetId": "AST-AF46A29CD8899D8F",
@@ -754,6 +778,12 @@
     "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/jakefarrell__pilot-a0ae862c1758.png",
     "sha256": "29c814cf06a529b575c0828900ee24c03fe20af12a24fea2c9b45abcae088b1a",
     "sizeBytes": 291291
+  },
+  {
+    "assetId": "AST-EE45D8550A97160C",
+    "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
+    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
+    "sizeBytes": 303311
   },
   {
     "assetId": "AST-EC1EE38ED3903E24",
@@ -1260,16 +1290,28 @@
     "sizeBytes": 299394
   },
   {
-    "assetId": "AST-88D708CD0E73F2BE",
-    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/resistancesympathizer__pilot-a5ca71e30c57.png",
-    "sha256": "88d708cd0e73f2bea135d3ad8249445d8b0b5329c9680159a7660d05c2c9d684",
-    "sizeBytes": 874724
+    "assetId": "AST-7FA890E84EEFECDC",
+    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/chewbacca__pilot-2fc18406059d.png",
+    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
+    "sizeBytes": 884929
   },
   {
-    "assetId": "AST-207FFFC7AC9C3F72",
+    "assetId": "AST-E5D22375E828E057",
+    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
+    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
+    "sizeBytes": 885025
+  },
+  {
+    "assetId": "AST-72C94C658C6F71A7",
+    "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/resistancesympathizer__pilot-a5ca71e30c57.png",
+    "sha256": "72c94c658c6f71a7aed905afed2b2a74897ed6269909f55f8c04849c498e5068",
+    "sizeBytes": 876914
+  },
+  {
+    "assetId": "AST-B9D25718E528B2AC",
     "repositoryPath": "assets/generated/PilotBaseToken/resistance/yt1300/rey__pilot-eb36ccfc081b.png",
-    "sha256": "207fffc7ac9c3f72a76fe2c7376ed362f127f068187f7f4f917eb913d898edd7",
-    "sizeBytes": 940357
+    "sha256": "b9d25718e528b2ac965b70d32f9c3f43c3f30bc77213989742f3fcf3f41ef83a",
+    "sizeBytes": 930563
   },
   {
     "assetId": "AST-25AD73F5B8B622E2",
@@ -1480,6 +1522,12 @@
     "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
     "sha256": "f9991d450d1fa27d5093228878d8628af1c601c4b473d7a81b303a2f4f419a0a",
     "sizeBytes": 285441
+  },
+  {
+    "assetId": "AST-DEAFA7A033B67991",
+    "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
+    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
+    "sizeBytes": 310094
   },
   {
     "assetId": "AST-D7A7208E17B2C0F9",
@@ -1720,6 +1768,54 @@
     "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/ndrusuhlak__pilot-3cf4b6b87b64.png",
     "sha256": "e05fba4ae2552ae8eb9ebb3e0fc1c419db6ce0551de8b879beb21068d0061da2",
     "sizeBytes": 259735
+  },
+  {
+    "assetId": "AST-1DC72C16899532DD",
+    "repositoryPath": "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png",
+    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
+    "sizeBytes": 1088141
+  },
+  {
+    "assetId": "AST-41D5909C9DE84F3F",
+    "repositoryPath": "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png",
+    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
+    "sizeBytes": 319737
+  },
+  {
+    "assetId": "AST-EF641B83A2863A62",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png",
+    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
+    "sizeBytes": 318999
+  },
+  {
+    "assetId": "AST-F2B13532126B1B2E",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png",
+    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
+    "sizeBytes": 305736
+  },
+  {
+    "assetId": "AST-EE45D8550A97160C",
+    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png",
+    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
+    "sizeBytes": 303311
+  },
+  {
+    "assetId": "AST-7FA890E84EEFECDC",
+    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png",
+    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
+    "sizeBytes": 884929
+  },
+  {
+    "assetId": "AST-E5D22375E828E057",
+    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png",
+    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
+    "sizeBytes": 885025
+  },
+  {
+    "assetId": "AST-DEAFA7A033B67991",
+    "repositoryPath": "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png",
+    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
+    "sizeBytes": 310094
   },
   {
     "assetId": "AST-9789DBF8D1A855DB",
