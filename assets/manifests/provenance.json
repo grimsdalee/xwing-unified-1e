@@ -1,5 +1,845 @@
 [
   {
+    "assetId": "AST-0A88E2DFF11BD6E2",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-0a88e2dff11b.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C585DC1375658113",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-c585dc137565.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D0410F516D0F1530",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiesffighter__dial-d0410f516d0f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13DABA551100C471",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiesilencer__dial-13daba551100.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-48BFA7DBA3B20952",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/upsilonclassshuttle__dial-48bfa7dba3b2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2A8BE41ED99189A1",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-2a8be41ed991.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3F762F15AA14DD4A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-3f762f15aa14.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-333AC5393A01B01F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-333ac5393a01.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-66FE12CB7FBF739F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-66fe12cb7fbf.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-90ED0CCDDEC9B5B9",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/lambdaclassshuttle__dial-90ed0ccddec9.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CBDDA497FEFE0CFA",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/lambdaclassshuttle__dial-cbdda497fefe.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1A736DE536F2332B",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-1a736de536f2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ED2F6139026FDD3F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-ed2f6139026f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-180D71D7C62300F3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvprototype__dial-180d71d7c623.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-829CFEC0C1ADDBFF",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvprototype__dial-829cfec0c1ad.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0007BEDEDB5F4C58",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-0007bededb5f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-10E85E7759A2A879",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-10e85e7759a2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-40508AEFB6668F99",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiebomber__dial-40508aefb666.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CF8BA079EF2C744C",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiebomber__dial-cf8ba079ef2c.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ADF83F12D299D8AE",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-adf83f12d299.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FCBF69E0DA4A503E",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-fcbf69e0da4a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ACDAE99EB5736D34",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-acdae99eb573.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B26A284157B35B69",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-b26a284157b3.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2AF2ECBD24160581",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-2af2ecbd2416.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B4CA23D98D041B41",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-b4ca23d98d04.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-19C27A5306C4E0DA",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-19c27a5306c4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2AABE4F826DE17D3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-2aabe4f826de.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8144A1EDCC7FD34A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiepunisher__dial-8144a1edcc7f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B6143CE71F676278",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiepunisher__dial-b6143ce71f67.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8E348A5259B5B4C3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiereaper__dial-8e348a5259b5.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-88F4B3A72D82BD2E",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiestriker__dial-88f4b3a72d82.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4211B35E302352C0",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-4211b35e3023.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F03E167095A40BF3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-f03e167095a4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1547B1FA97479AA5",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-1547b1fa9747.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-63864AA624609F7B",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-63864aa62460.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2ED6C3846B76BDE4",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-2ed6c3846b76.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4868DDBC1AC245F7",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-4868ddbc1ac2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6A9CD06506F45930",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-6a9cd06506f4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9ED4092318C35458",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-9ed4092318c3.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-25FE186CB024AACE",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/awing__dial-25fe186cb024.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BE942E68F55A3DE3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/awing__dial-be942e68f55a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5B91B064E8E4B7C9",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-5b91b064e8e4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-93CA01CD4E8D3C52",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-93ca01cd4e8d.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1C99A9E18FD4D2B8",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-1c99a9e18fd4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-999FC21E8733979E",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-999fc21e8733.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ED0FF4E2CCEAA1EA",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-ed0ff4e2ccea.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F4408C9A7667D1C6",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-f4408c9a7667.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-618B7B8BD178546E",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-618b7b8bd178.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E89504C5D2BC5424",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-e89504c5d2bc.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-713ACBDF9244A78E",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/scurrgh6bomber__dial-713acbdf9244.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E6214398975A3801",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/scurrgh6bomber__dial-e6214398975a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C7F1C19EFB24F1FD",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-88380281f09d.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F9D3CF0CE3A63CF0",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-f9d3cf0ce3a6.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8A0EE95D1FF4FDBA",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-8a0ee95d1ff4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FF9C58A42A7057D8",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-ff9c58a42a70.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DAB7FDFD1E4CDC64",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/uwing__dial-5959c9086c3a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F0AED2263DC0929F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/uwing__dial-f0aed2263dc0.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5E6E4D43DDC2726A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-5e6e4d43ddc2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-887738B0F25AD99A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-887738b0f25a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-37CCA8D137982BDB",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-37cca8d13798.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D3A7B65A9E7EFF5F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-d3a7b65a9e7e.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1DA4323052E19AE3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-1da4323052e1.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-952B740239561696",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-952b74023956.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-66D9E88CE1882E54",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt2400__dial-66d9e88ce188.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A4EB131D2624FF3C",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt2400__dial-a4eb131d2624.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-723822E6306B2373",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ywing__dial-723822e6306b.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-830A3F48E9926578",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ywing__dial-830a3f48e992.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1413F6BD2EFA0B73",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/z95headhunter__dial-1413f6bd2efa.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F693F781152DB723",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/z95headhunter__dial-f693f781152d.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0A81758056F170D3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/bsf17bomber__dial-0a81758056f1.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D59278DB151E7C87",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/t70xwing__dial-d59278db151e.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1DA4323052E19AE3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-1da4323052e1.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AF224456B0E209F8",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-952b74023956.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6C6A88092209980A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/aggressor__dial-6c6a88092209.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7BF1092954225FD0",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/aggressor__dial-7bf109295422.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6B9AF7ED1B4EBE45",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/firespray31__dial-6b9af7ed1b4e.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A521FDD01F3146F5",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/firespray31__dial-a521fdd01f31.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AA81BA1CDA121E2F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-aa81ba1cda12.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C03C316B32F1D138",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-c03c316b32f1.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-04CEBE59E29711D1",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-04cebe59e297.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B91F1885EC87E8BE",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-b91f1885ec87.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-05858FC90BADDE88",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-05858fc90bad.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-48773AC05AB2670D",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-48773ac05ab2.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2BDA13575B46EF3B",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/kihraxzfighter__dial-2bda13575b46.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30B243B40A2A189A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/kihraxzfighter__dial-30b243b40a2a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-91BBD789135FB8A2",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/lancerclasspursuitcraft__dial-91bbd789135f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A168CF15B0947289",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/lancerclasspursuitcraft__dial-a168cf15b094.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-75726B5521951B19",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m12lkimogilafighter__dial-75726b552195.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF07C94D6F495E8A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m12lkimogilafighter__dial-bf07c94d6f49.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B169E4C576588F5A",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-b169e4c57658.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E10259CECCCCE740",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-e10259cecccc.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1DA4E16BCB7F7932",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-1da4e16bcb7f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DE58B65901EDF566",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-de58b65901ed.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4CC5CB8515DC638F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-4cc5cb8515dc.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-96488F2FA6952627",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-96488f2fa695.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4EEB41563190AC4F",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-4eeb41563190.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C99A4E48F9CCF89C",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-c99a4e48f9cc.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D13B612076C02570",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/starviper__dial-d13b612076c0.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DB598857BB0483A0",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/starviper__dial-db598857bb04.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B729AD620C73E4C3",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/yv666__dial-b729ad620c73.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EEF322FF64E81D78",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/yv666__dial-eef322ff64e8.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3EF730A2903F1792",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/ywing__dial-3ef730a2903f.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CEDCF6106DA7FEB9",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/ywing__dial-cedcf6106da7.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-772FB38F675A49BB",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-772fb38f675a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-82BCBB25A397EB2B",
+    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-82bcbb25a397.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-328D4B0ECF80F3AA",
     "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonace__pilot-fd288ae4c7d0.png",
     "origin": "generated",
@@ -2358,6 +3198,454 @@
     "isGenerated": true,
     "originalSource": null,
     "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13D37D8777BDC272",
+    "repositoryPath": "assets/source/first-edition-dials/firstorder/tiefofighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D0410F516D0F1530",
+    "repositoryPath": "assets/source/first-edition-dials/firstorder/tiesffighter.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13DABA551100C471",
+    "repositoryPath": "assets/source/first-edition-dials/firstorder/tiesilencer.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-48BFA7DBA3B20952",
+    "repositoryPath": "assets/source/first-edition-dials/firstorder/upsilonclassshuttle.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-15E7F5136EFA9DF9",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/alphaclassstarwing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-98C9E5E36E218D90",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/firespray31.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AD115147DFF45B85",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/lambdaclassshuttle.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8095EB24613A33D9",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tieadvanced.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E909ACE47C539425",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tieadvprototype.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D703E4CC7D71038E",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tieaggressor.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2D7D1550DD9C921C",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiebomber.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9669858FC02A91E2",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiedefender.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CA0AC7720A967670",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiefighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5BE4718CF1E56090",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tieinterceptor.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F70282071297D330",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiephantom.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8AF36F211D680980",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiepunisher.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8E348A5259B5B4C3",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiereaper.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-88F4B3A72D82BD2E",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiestriker.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4A9020EE30073B05",
+    "repositoryPath": "assets/source/first-edition-dials/galacticempire/vt49decimator.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1E0AA5F63BC8DF9D",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/arc170.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3E3697021F2E3592",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/attackshuttle.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-74953E6C9DBD2CC5",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/auzituckgunship.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1543A51384307B38",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/awing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-734D82896FBFA6B5",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/bwing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3A8A3F0AE6DEDC82",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/ewing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-519FD87652E02F38",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/hwk290.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ECB12C8B2292C149",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/kwing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7B513AF80403C218",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/scurrgh6bomber.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-14F716F77D94E480",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/sheathipedeclassshuttle.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-08494DC1242D5728",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/tiefighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A95873860CC0D8FC",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/uwing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F120E7EEB96C69D0",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/vcx100.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EF931F367B313D6D",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/xwing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-15037334E137396D",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/yt1300.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A89BF73ACABCE81D",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/yt2400.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-79C2202466BF5DCC",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/ywing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1F63AF39823AF2F1",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/z95headhunter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0A81758056F170D3",
+    "repositoryPath": "assets/source/first-edition-dials/resistance/bsf17bomber.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D59278DB151E7C87",
+    "repositoryPath": "assets/source/first-edition-dials/resistance/t70xwing.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-15037334E137396D",
+    "repositoryPath": "assets/source/first-edition-dials/resistance/yt1300.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F319AE3328BBA0B9",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/aggressor.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5411EFDD5C985917",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/firespray31.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2764F20183D13C51",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/g1astarfighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2A9153CCB6120003",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/hwk290.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FEA81BB4FD8D7259",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/jumpmaster5000.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F1F9E27036319718",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/kihraxzfighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8E1280D71D0C9CE7",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/lancerclasspursuitcraft.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A666D881D4A81B27",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/m12lkimogilafighter.png",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4B479C023330F60E",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/m3ainterceptor.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FED00C5B803493C4",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/protectoratestarfighter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F2D2E699F74307AF",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/quadjumper.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3DDCDE505258236A",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/scurrgh6bomber.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2B71C1086FDD5854",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/starviper.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AB982EE808673FFA",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/yv666.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B579DBE8E3D6605C",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/ywing.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2A2C4E5EAF5F7D1B",
+    "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/z95headhunter.jpg",
+    "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
     "assetId": "AST-1DC72C16899532DD",

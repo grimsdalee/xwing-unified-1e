@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.1.0",
-  "generatedUtc": "2026-07-18T14:40:01.7738938+00:00",
+  "schemaVersion": "1.2.0",
+  "generatedUtc": "2026-07-24T01:06:42.0725831+00:00",
   "ships": [
     {
       "shipId": "SHIP-7D46DA71157C",
@@ -209,8 +209,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-BE942E68F55A3DE3",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/awing__dial-be942e68f55a.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027awing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -403,8 +416,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-7BF1092954225FD0",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/aggressor__dial-7bf109295422.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027aggressor\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -593,8 +619,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-3F762F15AA14DD4A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-3f762f15aa14.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027alphaclassstarwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -802,8 +841,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-63864AA624609F7B",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-63864aa62460.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027arc170\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -1041,8 +1093,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-4868DDBC1AC245F7",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-4868ddbc1ac2.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027attackshuttle\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -1300,8 +1365,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-9ED4092318C35458",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-9ed4092318c3.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027auzituckgunship\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -1548,8 +1626,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-93CA01CD4E8D3C52",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-93ca01cd4e8d.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027bwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -1898,8 +1989,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-999FC21E8733979E",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-999fc21e8733.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027ewing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -2111,8 +2215,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-A521FDD01F3146F5",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/firespray31__dial-a521fdd01f31.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027firespray31\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-66FE12CB7FBF739F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-66fe12cb7fbf.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027firespray31\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -2361,8 +2491,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-C03C316B32F1D138",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-c03c316b32f1.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027g1astarfighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -2968,8 +3111,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-B91F1885EC87E8BE",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-b91f1885ec87.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027hwk290\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-F4408C9A7667D1C6",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-f4408c9a7667.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027hwk290\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -3165,8 +3334,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-48773AC05AB2670D",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-48773ac05ab2.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027jumpmaster5000\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -3332,8 +3514,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-E89504C5D2BC5424",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-e89504c5d2bc.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027kwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -3494,8 +3689,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-30B243B40A2A189A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/kihraxzfighter__dial-30b243b40a2a.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027kihraxzfighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -3734,8 +3942,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-CBDDA497FEFE0CFA",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/lambdaclassshuttle__dial-cbdda497fefe.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027lambdaclassshuttle\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -3982,8 +4203,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-A168CF15B0947289",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/lancerclasspursuitcraft__dial-a168cf15b094.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027lancerclasspursuitcraft\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -4153,8 +4387,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-BF07C94D6F495E8A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m12lkimogilafighter__dial-bf07c94d6f49.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027m12lkimogilafighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -4389,8 +4636,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-E10259CECCCCE740",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-e10259cecccc.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027m3ainterceptor\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -4647,8 +4907,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-DE58B65901EDF566",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-de58b65901ed.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027protectoratestarfighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -4824,8 +5097,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-96488F2FA6952627",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-96488f2fa695.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027quadjumper\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -5069,8 +5355,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-C99A4E48F9CCF89C",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-c99a4e48f9cc.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027scurrgh6bomber\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-E6214398975A3801",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/scurrgh6bomber__dial-e6214398975a.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027scurrgh6bomber\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -5335,8 +5647,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-F9D3CF0CE3A63CF0",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-f9d3cf0ce3a6.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027sheathipedeclassshuttle\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -5526,8 +5851,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-DB598857BB0483A0",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/starviper__dial-db598857bb04.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027starviper\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -5786,8 +6124,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-D59278DB151E7C87",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/t70xwing__dial-d59278db151e.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027resistance\u0027",
+                "exact semantic ship \u0027t70xwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -5954,8 +6305,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-829CFEC0C1ADDBFF",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvprototype__dial-829cfec0c1ad.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tieadvprototype\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -6154,8 +6518,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-ED2F6139026FDD3F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-ed2f6139026f.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tieadvanced\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -6348,8 +6725,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-10E85E7759A2A879",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-10e85e7759a2.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tieaggressor\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -6595,8 +6985,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-CF8BA079EF2C744C",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiebomber__dial-cf8ba079ef2c.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiebomber\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -6811,8 +7214,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-FCBF69E0DA4A503E",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-fcbf69e0da4a.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiedefender\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -6982,8 +7398,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-FF9C58A42A7057D8",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-ff9c58a42a70.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027tiefighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-B26A284157B35B69",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-b26a284157b3.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiefighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -7223,8 +7665,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-B4CA23D98D041B41",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-b4ca23d98d04.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tieinterceptor\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -7402,8 +7857,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-2AABE4F826DE17D3",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-2aabe4f826de.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiephantom\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -7568,8 +8036,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-B6143CE71F676278",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiepunisher__dial-b6143ce71f67.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiepunisher\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -7738,8 +8219,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-13DABA551100C471",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiesilencer__dial-13daba551100.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027firstorder\u0027",
+                "exact semantic ship \u0027tiesilencer\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -7925,8 +8419,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-88F4B3A72D82BD2E",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiestriker__dial-88f4b3a72d82.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiestriker\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -8123,8 +8630,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-C585DC1375658113",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-c585dc137565.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027firstorder\u0027",
+                "exact semantic ship \u0027tiefofighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -8306,8 +8826,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-D0410F516D0F1530",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiesffighter__dial-d0410f516d0f.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027firstorder\u0027",
+                "exact semantic ship \u0027tiesffighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -8553,8 +9086,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-F0AED2263DC0929F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/uwing__dial-f0aed2263dc0.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027uwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -8797,8 +9343,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-48BFA7DBA3B20952",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/upsilonclassshuttle__dial-48bfa7dba3b2.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027firstorder\u0027",
+                "exact semantic ship \u0027upsilonclassshuttle\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -8985,8 +9544,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-887738B0F25AD99A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-887738b0f25a.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027vcx100\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -9163,8 +9735,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-F03E167095A40BF3",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-f03e167095a4.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027vt49decimator\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-30E0E4BFA5EC1C9B",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__8e864d86578d93b9.jpg",
@@ -9411,8 +9996,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-D3A7B65A9E7EFF5F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-d3a7b65a9e7e.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027xwing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -9749,8 +10347,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-CEDCF6106DA7FEB9",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/ywing__dial-cedcf6106da7.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027ywing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-830A3F48E9926578",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ywing__dial-830a3f48e992.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027ywing\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -10009,8 +10633,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-AF224456B0E209F8",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-952b74023956.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027resistance\u0027",
+                "exact semantic ship \u0027yt1300\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-952B740239561696",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-952b74023956.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027yt1300\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -10174,8 +10824,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-A4EB131D2624FF3C",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt2400__dial-a4eb131d2624.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027yt2400\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-EF74F3E59CF89B23",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__d2ec94e5b9fbd265.jpg",
@@ -10374,8 +11037,21 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-EEF322FF64E81D78",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/yv666__dial-eef322ff64e8.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027yv666\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",
@@ -10575,8 +11251,34 @@
         {
           "role": "DialTexture",
           "required": true,
-          "status": "review",
+          "status": "clear",
           "candidates": [
+            {
+              "assetId": "AST-82BCBB25A397EB2B",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-82bcbb25a397.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027scumandvillainy\u0027",
+                "exact semantic ship \u0027z95headhunter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
+              "assetId": "AST-F693F781152DB723",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/z95headhunter__dial-f693f781152d.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027rebelalliance\u0027",
+                "exact semantic ship \u0027z95headhunter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
             {
               "assetId": "AST-AC657EB7CC12A19F",
               "repositoryPath": "assets/source/legacy1e/steamusercontent-a.akamaihd.net/images/asset__5bfdd3bd31885a3e.jpg",

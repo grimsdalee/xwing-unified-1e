@@ -75,6 +75,9 @@ return command switch
     "audit-pilot-token-inventory" => AuditPilotTokenInventoryCommand.Run(commandArgs),
     "audit-pilot-token-images" => AuditPilotTokenImagesCommand.Run(commandArgs),
     "import-generated-pilot-tokens" => ImportGeneratedPilotTokensCommand.Run(commandArgs),
+    "import-assets" => ImportAssetsCommand.Run(commandArgs),
+    "import-first-edition-dials" => ImportFirstEditionDialsCommand.Run(commandArgs),
+    "standardise-first-edition-dials" => StandardiseFirstEditionDialsCommand.Run(commandArgs),
     "inspect-legacy-pilot-source" => InspectLegacyPilotSourceCommand.Run(commandArgs),
     "plan-ship-packages" => PlanShipPackagesCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -149,6 +152,9 @@ static void ShowHelp()
     Console.WriteLine("  audit-pilot-token-inventory <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-pilot-token-images <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-generated-pilot-tokens <first-edition-repo-folder>");
+    Console.WriteLine("  import-assets <first-edition-repo-folder> <generated-pilot-tokens|first-edition-dials>");
+    Console.WriteLine("  import-first-edition-dials <first-edition-repo-folder>");
+    Console.WriteLine("  standardise-first-edition-dials <first-edition-repo-folder> [--inventory-only]");
     Console.WriteLine("  inspect-legacy-pilot-source <first-edition-repo-folder> <pilot-name> [--legacy-save <save.json>] [--output <folder>]");
     Console.WriteLine("  plan-ship-packages <first-edition-repo-folder> [mapping-folder] [--allow-source-errors] [--output <folder>]");
 }

@@ -201,6 +201,17 @@ public static class FirstEditionShipPackagePlanner
         IReadOnlyList<FirstEditionShipPackageAsset> candidates,
         FirstEditionPilot pilot)
     {
+        if (role.Equals(ShipPackageRoles.DialTexture, StringComparison.OrdinalIgnoreCase))
+        {
+            var shipId = Normalize(pilot.ShipId);
+            var explicitGenerated = candidates
+                .Where(x => x.Warehouse.Equals("generated", StringComparison.OrdinalIgnoreCase))
+                .Where(x => x.RepositoryPath.Replace('\\', '/').Contains($"/FirstEditionDialTexture/{pilot.Faction}/", StringComparison.OrdinalIgnoreCase))
+                .Where(x => Normalize(Path.GetFileNameWithoutExtension(x.RepositoryPath)).StartsWith(shipId, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+            if (explicitGenerated.Count > 0) return explicitGenerated;
+        }
+
         if (!role.Equals(ShipPackageRoles.PilotCard, StringComparison.OrdinalIgnoreCase)) return candidates;
 
         var pilotId = Normalize(pilot.Id);
