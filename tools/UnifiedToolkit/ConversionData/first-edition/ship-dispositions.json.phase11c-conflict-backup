@@ -119,6 +119,13 @@
     "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
   },
   {
+    "sourceId": "mg100starfortress",
+    "kind": "Alias",
+    "proposedTargetId": "bsf17bomber",
+    "reason": "Official First Edition standard ship confirmed in xwing-data.",
+    "notes": "Use the official First Edition Large base and B/SF-17 Bomber identity."
+  },
+  {
     "sourceId": "modifiedtielnfighter",
     "kind": "Deferred",
     "proposedTargetId": "",
@@ -215,6 +222,13 @@
     "proposedTargetId": "",
     "reason": "This ship is not present in the currently confirmed First Edition mapping set and requires a deliberate future custom or adapted First Edition design.",
     "notes": "Deferred until the custom-conversion rules, statistics, actions, dial, upgrades, and faction treatment are designed and reviewed."
+  },
+  {
+    "sourceId": "tierereaper",
+    "kind": "Alias",
+    "proposedTargetId": "tiereaper",
+    "reason": "Official First Edition standard ship confirmed in xwing-data.",
+    "notes": "Use the official First Edition Small base; do not retain the Unified 2.5 Medium base classification."
   },
   {
     "sourceId": "tiesebomber",

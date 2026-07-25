@@ -12,10 +12,10 @@
     "sizeBytes": 81505
   },
   {
-    "assetId": "AST-13DABA551100C471",
+    "assetId": "AST-69A56C149C5F65D8",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiesilencer__dial-13daba551100.png",
-    "sha256": "13daba551100c4713dde373c14cb5f3fff4fef3e419c60c0cb601d93d388342a",
-    "sizeBytes": 99003
+    "sha256": "69a56c149c5f65d889181ccbcb52997a3020e5cca2e7a92fdaf820e7e460cb8d",
+    "sizeBytes": 86067
   },
   {
     "assetId": "AST-48BFA7DBA3B20952",
@@ -96,16 +96,16 @@
     "sizeBytes": 80432
   },
   {
-    "assetId": "AST-8E348A5259B5B4C3",
+    "assetId": "AST-A84B544689D68606",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiereaper__dial-8e348a5259b5.png",
-    "sha256": "8e348a5259b5b4c35dd5cbd2766807747eb4aead28fbed108033a245d639ce68",
-    "sizeBytes": 101242
+    "sha256": "a84b544689d68606be357ee83127d5d17161b74cebeeca1a17be750a2517a8bc",
+    "sizeBytes": 88838
   },
   {
-    "assetId": "AST-88F4B3A72D82BD2E",
+    "assetId": "AST-17F2AE93E3B2D0F7",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiestriker__dial-88f4b3a72d82.png",
-    "sha256": "88f4b3a72d82bd2e58812c947df1d0796bb216905a22da298b2b38bdf44a445c",
-    "sizeBytes": 101475
+    "sha256": "17f2ae93e3b2d0f776bde178a5f5dc7cd520c669e00683d59588b9a905c70a2b",
+    "sizeBytes": 88776
   },
   {
     "assetId": "AST-4211B35E302352C0",
@@ -168,10 +168,10 @@
     "sizeBytes": 109584
   },
   {
-    "assetId": "AST-F9D3CF0CE3A63CF0",
+    "assetId": "AST-D09C0DDBF1D10B41",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-f9d3cf0ce3a6.png",
-    "sha256": "f9d3cf0ce3a63cf0a0e453a21cfddfa4b962ba56533dc639edca157b8ab83775",
-    "sizeBytes": 121785
+    "sha256": "d09c0ddbf1d10b41bf05f22a1ece5721053cc5279114a9602c81ba2011e63ba3",
+    "sizeBytes": 112351
   },
   {
     "assetId": "AST-FF9C58A42A7057D8",
@@ -180,10 +180,10 @@
     "sizeBytes": 108382
   },
   {
-    "assetId": "AST-F0AED2263DC0929F",
+    "assetId": "AST-FA91495F198B8D34",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/uwing__dial-f0aed2263dc0.png",
-    "sha256": "f0aed2263dc0929f61b35375c53afac6f1a7563cb83dacd42699596b2f743019",
-    "sizeBytes": 115250
+    "sha256": "fa91495f198b8d3471f6a7174d1b56c1bf4c440b367c0c0b0b52805fda2eace7",
+    "sizeBytes": 111319
   },
   {
     "assetId": "AST-5E6E4D43DDC2726A",
@@ -222,22 +222,22 @@
     "sizeBytes": 109778
   },
   {
-    "assetId": "AST-0A81758056F170D3",
+    "assetId": "AST-5A868CF6CF681EFF",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/bsf17bomber__dial-0a81758056f1.png",
-    "sha256": "0a81758056f170d3cacbe15945b85925be3cb4d030c3d45f9aaa1ade579ac655",
-    "sizeBytes": 120603
+    "sha256": "5a868cf6cf681effd3f90e25a00c51598d673d756ee52641789b16e896a47b78",
+    "sizeBytes": 108368
   },
   {
-    "assetId": "AST-D59278DB151E7C87",
+    "assetId": "AST-94DC9B64E755B7BD",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/t70xwing__dial-d59278db151e.png",
-    "sha256": "d59278db151e7c87a64faddb9fbd78ede676cd02d3073e2d0c63ecbface4d878",
-    "sizeBytes": 106965
+    "sha256": "94dc9b64e755b7bd386cede5adeb7e00122504ac60a0b5db5148de5921489faf",
+    "sizeBytes": 108674
   },
   {
-    "assetId": "AST-1DA4323052E19AE3",
+    "assetId": "AST-860A8965BD1CB5E3",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-1da4323052e1.png",
-    "sha256": "1da4323052e19ae3baf66050a566069ae44a240504300ec3cf3782d88ef1ac74",
-    "sizeBytes": 108310
+    "sha256": "860a8965bd1cb5e3b4ae2a6cff3748ae33b746622bf8632e2cbcd8a10e763695",
+    "sizeBytes": 111762
   },
   {
     "assetId": "AST-7BF1092954225FD0",
@@ -282,10 +282,10 @@
     "sizeBytes": 102755
   },
   {
-    "assetId": "AST-BF07C94D6F495E8A",
+    "assetId": "AST-9912CF46FD81F9A4",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m12lkimogilafighter__dial-bf07c94d6f49.png",
-    "sha256": "bf07c94d6f495e8a23f1c8c132499dd729beb002d437c3ed6e3d4c69a5514028",
-    "sizeBytes": 106444
+    "sha256": "9912cf46fd81f9a4ec0834de6cb28c72dd12b2b1a70b33a2086e91ef3b2372e6",
+    "sizeBytes": 105746
   },
   {
     "assetId": "AST-B169E4C576588F5A",
@@ -2118,10 +2118,10 @@
     "sizeBytes": 81505
   },
   {
-    "assetId": "AST-13DABA551100C471",
+    "assetId": "AST-69A56C149C5F65D8",
     "repositoryPath": "assets/source/first-edition-dials/firstorder/tiesilencer.png",
-    "sha256": "13daba551100c4713dde373c14cb5f3fff4fef3e419c60c0cb601d93d388342a",
-    "sizeBytes": 99003
+    "sha256": "69a56c149c5f65d889181ccbcb52997a3020e5cca2e7a92fdaf820e7e460cb8d",
+    "sizeBytes": 86067
   },
   {
     "assetId": "AST-48BFA7DBA3B20952",
@@ -2178,10 +2178,10 @@
     "sizeBytes": 21210
   },
   {
-    "assetId": "AST-CA0AC7720A967670",
+    "assetId": "AST-9545AECE5D720EAD",
     "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiefighter.jpg",
-    "sha256": "ca0ac7720a967670b09ec0e7b44a37ed798f637ef5c5d0663e5db7faa65aeb2c",
-    "sizeBytes": 57686
+    "sha256": "9545aece5d720ead49cc27243794ccbc1839d052fc538aab0669ff3b6332cb40",
+    "sizeBytes": 35050
   },
   {
     "assetId": "AST-5BE4718CF1E56090",
@@ -2202,16 +2202,16 @@
     "sizeBytes": 21179
   },
   {
-    "assetId": "AST-8E348A5259B5B4C3",
+    "assetId": "AST-A84B544689D68606",
     "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiereaper.png",
-    "sha256": "8e348a5259b5b4c35dd5cbd2766807747eb4aead28fbed108033a245d639ce68",
-    "sizeBytes": 101242
+    "sha256": "a84b544689d68606be357ee83127d5d17161b74cebeeca1a17be750a2517a8bc",
+    "sizeBytes": 88838
   },
   {
-    "assetId": "AST-88F4B3A72D82BD2E",
+    "assetId": "AST-17F2AE93E3B2D0F7",
     "repositoryPath": "assets/source/first-edition-dials/galacticempire/tiestriker.png",
-    "sha256": "88f4b3a72d82bd2e58812c947df1d0796bb216905a22da298b2b38bdf44a445c",
-    "sizeBytes": 101475
+    "sha256": "17f2ae93e3b2d0f776bde178a5f5dc7cd520c669e00683d59588b9a905c70a2b",
+    "sizeBytes": 88776
   },
   {
     "assetId": "AST-4A9020EE30073B05",
@@ -2220,10 +2220,10 @@
     "sizeBytes": 21388
   },
   {
-    "assetId": "AST-1E0AA5F63BC8DF9D",
+    "assetId": "AST-63864AA624609F7B",
     "repositoryPath": "assets/source/first-edition-dials/rebelalliance/arc170.png",
-    "sha256": "1e0aa5f63bc8df9db3f12efb4ab9a69ed3c8a9adec41bf129049cddb8a103819",
-    "sizeBytes": 405193
+    "sha256": "63864aa624609f7b2ab19a802da1899a8d1f53db3d4db377166f5670727bd001",
+    "sizeBytes": 117799
   },
   {
     "assetId": "AST-3E3697021F2E3592",
@@ -2274,10 +2274,10 @@
     "sizeBytes": 23574
   },
   {
-    "assetId": "AST-14F716F77D94E480",
+    "assetId": "AST-D09C0DDBF1D10B41",
     "repositoryPath": "assets/source/first-edition-dials/rebelalliance/sheathipedeclassshuttle.png",
-    "sha256": "14f716f77d94e4808a831b6db11f8079aaaa540f4846a964d396cc132b5d0402",
-    "sizeBytes": 421212
+    "sha256": "d09c0ddbf1d10b41bf05f22a1ece5721053cc5279114a9602c81ba2011e63ba3",
+    "sizeBytes": 112351
   },
   {
     "assetId": "AST-08494DC1242D5728",
@@ -2286,10 +2286,10 @@
     "sizeBytes": 30266
   },
   {
-    "assetId": "AST-A95873860CC0D8FC",
-    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/uwing.jpg",
-    "sha256": "a95873860cc0d8fc74f00eed483971bd2c9c32fba6e3dd16524edc5ffb83ff3d",
-    "sizeBytes": 41751
+    "assetId": "AST-FA91495F198B8D34",
+    "repositoryPath": "assets/source/first-edition-dials/rebelalliance/uwing.png",
+    "sha256": "fa91495f198b8d3471f6a7174d1b56c1bf4c440b367c0c0b0b52805fda2eace7",
+    "sizeBytes": 111319
   },
   {
     "assetId": "AST-F120E7EEB96C69D0",
@@ -2328,22 +2328,22 @@
     "sizeBytes": 27321
   },
   {
-    "assetId": "AST-0A81758056F170D3",
+    "assetId": "AST-5A868CF6CF681EFF",
     "repositoryPath": "assets/source/first-edition-dials/resistance/bsf17bomber.png",
-    "sha256": "0a81758056f170d3cacbe15945b85925be3cb4d030c3d45f9aaa1ade579ac655",
-    "sizeBytes": 120603
+    "sha256": "5a868cf6cf681effd3f90e25a00c51598d673d756ee52641789b16e896a47b78",
+    "sizeBytes": 108368
   },
   {
-    "assetId": "AST-D59278DB151E7C87",
+    "assetId": "AST-94DC9B64E755B7BD",
     "repositoryPath": "assets/source/first-edition-dials/resistance/t70xwing.png",
-    "sha256": "d59278db151e7c87a64faddb9fbd78ede676cd02d3073e2d0c63ecbface4d878",
-    "sizeBytes": 106965
+    "sha256": "94dc9b64e755b7bd386cede5adeb7e00122504ac60a0b5db5148de5921489faf",
+    "sizeBytes": 108674
   },
   {
-    "assetId": "AST-15037334E137396D",
-    "repositoryPath": "assets/source/first-edition-dials/resistance/yt1300.jpg",
-    "sha256": "15037334e137396d7a8d8845bcf0473a517130617df0ed14b60bd4c2f7de08ee",
-    "sizeBytes": 27523
+    "assetId": "AST-860A8965BD1CB5E3",
+    "repositoryPath": "assets/source/first-edition-dials/resistance/yt1300.png",
+    "sha256": "860a8965bd1cb5e3b4ae2a6cff3748ae33b746622bf8632e2cbcd8a10e763695",
+    "sizeBytes": 111762
   },
   {
     "assetId": "AST-F319AE3328BBA0B9",
@@ -2388,10 +2388,10 @@
     "sizeBytes": 48154
   },
   {
-    "assetId": "AST-A666D881D4A81B27",
+    "assetId": "AST-9912CF46FD81F9A4",
     "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/m12lkimogilafighter.png",
-    "sha256": "a666d881d4a81b2763fc906f6bb28740c0f044ac9b79ec868b63976023ddd0a0",
-    "sizeBytes": 381238
+    "sha256": "9912cf46fd81f9a4ec0834de6cb28c72dd12b2b1a70b33a2086e91ef3b2372e6",
+    "sizeBytes": 105746
   },
   {
     "assetId": "AST-4B479C023330F60E",
@@ -27598,6 +27598,48 @@
     "repositoryPath": "assets/source/unified25/TTS_xwing/src/Token/Tractor.xml",
     "sha256": "10940944c93a1e8396c072c292ca5403258f18bc18a6ba655e9644453741c7fb",
     "sizeBytes": 1693
+  },
+  {
+    "assetId": "AST-F7A36FC8F1A5349E",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/conversion-issues.csv",
+    "sha256": "f7a36fc8f1a5349e9b9674cd35a6f668b3e2ecedbff6fc7d2c6dbe6cace8e9a5",
+    "sizeBytes": 125860
+  },
+  {
+    "assetId": "AST-20BF5E21C942AB6E",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-pilots.csv",
+    "sha256": "20bf5e21c942ab6e399188d2e20bc6785cdefdf6bf0498910c8c0fbab60dc2be",
+    "sizeBytes": 33160
+  },
+  {
+    "assetId": "AST-5B388CA12EDA21D2",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-ships.csv",
+    "sha256": "5b388ca12eda21d2ec4b55c97a6784b271963a05db9519d43346b98e1404acea",
+    "sizeBytes": 7401
+  },
+  {
+    "assetId": "AST-86ABC56FC5AC8593",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-upgrades.csv",
+    "sha256": "86abc56fc5ac8593cbdbc6f7c7eae08377eeed547200ed073c8987a6f2f1c917",
+    "sizeBytes": 41840
+  },
+  {
+    "assetId": "AST-56B8BD9FF3E441E1",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/pilot-mapping-coverage.csv",
+    "sha256": "56b8bd9ff3e441e1a57a85eb665522fba7dd4cd6017470715ccfea0c4c1b476d",
+    "sizeBytes": 119342
+  },
+  {
+    "assetId": "AST-1C44943E2F46185F",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/ship-mapping-coverage.csv",
+    "sha256": "1c44943e2f46185f8866d4be8e9133c49f92294c480fe3ae675f8257e0ffa8fe",
+    "sizeBytes": 13818
+  },
+  {
+    "assetId": "AST-D2E32361D1AC0F98",
+    "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/upgrade-mapping-coverage.csv",
+    "sha256": "d2e32361d1ac0f98d3bda979013cce4430013f81dec7b03bbfe0c63908441e88",
+    "sizeBytes": 66389
   },
   {
     "assetId": "AST-63661BC7638002DA",
