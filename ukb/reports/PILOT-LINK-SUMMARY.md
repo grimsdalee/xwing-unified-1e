@@ -1,27 +1,27 @@
 # Pilot Asset Linking Summary
 
-Generated UTC: 2026-07-18T16:41:38.1737308+00:00
+Generated UTC: 2026-07-25T15:46:26.0239862+00:00
 
-- Pilots processed: 191
-- Candidate links: 670
-- Clear role matches: 378
-- Roles requiring review: 0
-- Missing required roles: 191
+- Pilots processed: 199
+- Candidate links: 653
+- Clear role matches: 565
+- Roles requiring review: 27
+- Missing required roles: 0
 
 ## Role Breakdown
 
 | Role | Clear | Review | Missing | Candidates |
 |---|---:|---:|---:|---:|
-| PilotBaseToken | 0 | 0 | 191 | 0 |
-| PilotBaseTokenSheet | 187 | 0 | 4 | 190 |
-| PilotCard | 191 | 0 | 0 | 480 |
+| PilotBaseToken | 176 | 23 | 0 | 228 |
+| PilotBaseTokenSheet | 190 | 4 | 5 | 197 |
+| PilotCard | 199 | 0 | 0 | 228 |
 
 ## Token Extraction Planning
 
-- Individual pilot tokens requiring extraction: 191
-- Pilots with clear source sheets: 187
-- Pilots with source sheets requiring review: 0
-- Pilots with no source-sheet candidate: 4
+- Individual pilot tokens requiring extraction: 0
+- Pilots with clear source sheets: 190
+- Pilots with source sheets requiring review: 4
+- Pilots with no source-sheet candidate: 5
 
 See `pilot-token-extraction-plan.csv` for sheet-grouped extraction work.
 

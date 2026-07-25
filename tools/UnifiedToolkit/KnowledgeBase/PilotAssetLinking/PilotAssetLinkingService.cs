@@ -14,7 +14,9 @@ public sealed class PilotAssetLinkingService
     {
         options.Validate();
         var knowledgeBase = ShipAssetJson.Read<UnifiedKnowledgeBase>(options.KnowledgeBasePath);
-        var pilots = ShipAssetJson.Read<List<FirstEditionPilotRecord>>(options.PilotsFile);
+        var pilots = new FirstEditionPilotRepository().Load(
+            options.PilotsFile,
+            options.OfficialPilotsFile);
         var contexts = LegacyAssetContextIndex.Load(options.LegacySavePath);
         var xwingDataPilots = XWingDataPilotIndex.Load(options.XWingDataPilotsPath);
         var tokenSheetDecisions = PilotTokenSheetDecisionStore.Load(options.TokenSheetDecisionsPath);

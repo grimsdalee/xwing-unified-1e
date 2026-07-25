@@ -86,6 +86,8 @@ return command switch
     "extend-standard-first-edition-ships" => ExtendStandardFirstEditionShipsCommand.Run(commandArgs),
     "extend-standard-first-edition-pilots" => ExtendStandardFirstEditionPilotsCommand.Run(commandArgs),
     "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
+    "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
+    "build-official-artwork-manifest" => BuildOfficialArtworkManifestCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -169,6 +171,8 @@ static void ShowHelp()
     Console.WriteLine("  extend-standard-first-edition-ships <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  extend-standard-first-edition-pilots <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  import-official-first-edition-pilots <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
+    Console.WriteLine("  audit-official-first-edition-content <first-edition-repo-folder> [xwing-data-folder] [mapping-folder] [--output <folder>]");
+    Console.WriteLine("  build-official-artwork-manifest <first-edition-repo-folder> [xwing-data-folder] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

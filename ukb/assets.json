@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-25T03:27:13.8791671+00:00",
+  "generatedUtc": "2026-07-25T15:29:32.9299546+00:00",
   "assets": [
     {
       "assetId": "AST-C585DC1375658113",
@@ -19,7 +19,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -40,7 +40,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -61,7 +61,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -81,8 +81,23 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -103,7 +118,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -124,7 +139,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -144,8 +159,23 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -166,7 +196,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -187,7 +217,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -207,8 +237,13 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -228,8 +263,18 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -250,7 +295,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -271,7 +316,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -291,8 +336,13 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -313,7 +363,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -334,7 +384,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -351,7 +401,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-17F2AE93E3B2D0F7",
@@ -370,7 +426,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -391,7 +447,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -412,7 +468,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -433,7 +489,22 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -454,7 +525,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -475,7 +546,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -496,7 +567,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -517,7 +588,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -538,7 +609,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -559,7 +630,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -579,8 +650,18 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -600,8 +681,23 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -622,7 +718,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -643,7 +739,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -664,7 +760,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -685,7 +781,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -706,7 +802,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -727,7 +823,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -748,7 +844,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -769,7 +865,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -786,7 +882,23 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-94DC9B64E755B7BD",
@@ -805,7 +917,12 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -826,7 +943,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -847,7 +964,12 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -868,7 +990,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -889,7 +1011,12 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -910,7 +1037,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -931,7 +1058,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -952,7 +1079,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -973,7 +1100,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -994,7 +1121,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -1015,7 +1142,12 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -1035,8 +1167,13 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -1057,7 +1194,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -1077,8 +1214,18 @@
       "referencedBy": [
         {
           "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
           "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -1099,7 +1246,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -1120,7 +1267,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -1141,7 +1288,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:85"
         }
       ]
     },
@@ -1162,7 +1309,7 @@
         {
           "entityType": "ship",
           "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:1000"
+          "role": "candidate:DialTexture:100"
         }
       ]
     },
@@ -1314,7 +1461,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-A50D1D27CD971DDE",
@@ -1329,7 +1482,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-86AF4945AB3C74D6",
@@ -1374,7 +1533,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-57CD6A92ED0F4EEF",
@@ -1389,7 +1554,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-C067613BFFBC2126",
@@ -1404,7 +1575,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-1FBBE8EF39F257C7",
@@ -1494,7 +1671,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-291FF5833FC5BD4E",
@@ -1509,7 +1692,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-5FC6A0A42232DA44",
@@ -1524,7 +1713,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-BAE5B788B019D990",
@@ -1539,7 +1734,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-45D2F597EF9AD8BA",
@@ -2754,7 +2955,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-B2FF2F29D18CB61B",
@@ -2769,7 +2976,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-4EC5EA97BE62945A",
@@ -2784,7 +2997,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-290553B8E86D3CED",
@@ -4854,7 +5073,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-1A688A45DD7A38E7",
@@ -4869,7 +5094,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-5A87BE1C04907A6A",
@@ -4884,7 +5115,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-0DF41305BDA1FD27",
@@ -4899,7 +5136,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-327FDF9FB822B84B",
@@ -4914,7 +5157,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-861F64E4F28B94A8",
@@ -4929,7 +5178,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-BA353BA3B62CAD46",
@@ -5184,7 +5439,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-434088C9421ACF1D",
@@ -5199,7 +5460,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-4D8D3EEAA78C43A1",
@@ -5604,7 +5871,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-D0410F516D0F1530",
@@ -5619,7 +5892,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-69A56C149C5F65D8",
@@ -5634,7 +5913,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-48BFA7DBA3B20952",
@@ -5649,7 +5934,28 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-15E7F5136EFA9DF9",
@@ -5664,7 +5970,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-98C9E5E36E218D90",
@@ -5679,7 +5991,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-AD115147DFF45B85",
@@ -5694,7 +6012,28 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-8095EB24613A33D9",
@@ -5709,7 +6048,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-E909ACE47C539425",
@@ -5724,7 +6069,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-D703E4CC7D71038E",
@@ -5739,7 +6090,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-2D7D1550DD9C921C",
@@ -5754,7 +6116,23 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-9669858FC02A91E2",
@@ -5769,7 +6147,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-9545AECE5D720EAD",
@@ -5784,7 +6168,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-5BE4718CF1E56090",
@@ -5799,7 +6189,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-F70282071297D330",
@@ -5814,7 +6215,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-8AF36F211D680980",
@@ -5829,7 +6236,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-A84B544689D68606",
@@ -5844,7 +6257,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-17F2AE93E3B2D0F7",
@@ -5859,7 +6278,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-4A9020EE30073B05",
@@ -5874,7 +6299,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-63864AA624609F7B",
@@ -5889,7 +6320,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-3E3697021F2E3592",
@@ -5904,7 +6341,28 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-74953E6C9DBD2CC5",
@@ -5919,7 +6377,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-1543A51384307B38",
@@ -5934,7 +6398,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-734D82896FBFA6B5",
@@ -5949,7 +6419,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-3A8A3F0AE6DEDC82",
@@ -5964,7 +6440,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-519FD87652E02F38",
@@ -5979,7 +6461,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-ECB12C8B2292C149",
@@ -5994,7 +6482,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-7B513AF80403C218",
@@ -6009,7 +6503,23 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-D09C0DDBF1D10B41",
@@ -6024,7 +6534,28 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-E8900428DFE3",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-173C5CA407C6",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7ECDEFD3C896",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-9109BDDDB34D",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-08494DC1242D5728",
@@ -6039,7 +6570,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-FA91495F198B8D34",
@@ -6054,7 +6591,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-F120E7EEB96C69D0",
@@ -6069,7 +6612,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-EF931F367B313D6D",
@@ -6084,7 +6633,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-15037334E137396D",
@@ -6099,7 +6654,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-A89BF73ACABCE81D",
@@ -6114,7 +6675,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-79C2202466BF5DCC",
@@ -6129,7 +6696,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-1F63AF39823AF2F1",
@@ -6144,7 +6717,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-5A868CF6CF681EFF",
@@ -6159,7 +6738,23 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-94DC9B64E755B7BD",
@@ -6174,7 +6769,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-860A8965BD1CB5E3",
@@ -6189,7 +6795,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-F319AE3328BBA0B9",
@@ -6204,7 +6816,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-5411EFDD5C985917",
@@ -6219,7 +6842,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-2764F20183D13C51",
@@ -6234,7 +6863,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-2A9153CCB6120003",
@@ -6249,7 +6889,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-FEA81BB4FD8D7259",
@@ -6264,7 +6910,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-F1F9E27036319718",
@@ -6279,7 +6931,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-8E1280D71D0C9CE7",
@@ -6294,7 +6952,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-9912CF46FD81F9A4",
@@ -6309,7 +6973,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-4B479C023330F60E",
@@ -6324,7 +6994,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-FED00C5B803493C4",
@@ -6339,7 +7020,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-F2D2E699F74307AF",
@@ -6354,7 +7046,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-3DDCDE505258236A",
@@ -6369,7 +7067,23 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-22EBE6094502",
+          "role": "candidate:DialTexture:85"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4C64DF0C9D6A",
+          "role": "candidate:DialTexture:100"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-533870BAA09A",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-2B71C1086FDD5854",
@@ -6384,7 +7098,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-AB982EE808673FFA",
@@ -6399,7 +7119,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-B579DBE8E3D6605C",
@@ -6414,7 +7140,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:85"
+        }
+      ]
     },
     {
       "assetId": "AST-2A2C4E5EAF5F7D1B",
@@ -6429,7 +7161,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:100"
+        }
+      ]
     },
     {
       "assetId": "AST-1DC72C16899532DD",
@@ -35551,7 +36289,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-2624ED2583B618C3",
@@ -49719,7 +50463,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-06F7D9ED41859DDC",
@@ -49742,7 +50492,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-2B6C7B81B97023BF",
@@ -49765,7 +50521,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-9BC0F99B709FD4C9",
@@ -49788,7 +50550,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-B09AB8320E1D1033",
@@ -49811,7 +50579,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-274058906459B476",
@@ -51306,7 +52080,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-587E11632BC03CFE",
@@ -51329,7 +52114,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-9B41135F1EEF7380",
@@ -51375,7 +52171,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:63"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-186FA3DAA94B0FCD",
@@ -51398,7 +52205,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:63"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-BC14A915D3DA2D61",
@@ -51444,7 +52262,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-BE5242272F848E50",
@@ -51467,7 +52291,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5B523FDBE76FBCCE",
@@ -52318,7 +53148,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-4E1DCEF99057B37E",
@@ -52387,7 +53223,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5ABA7B2FB1121445",
@@ -52410,7 +53252,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7184DE9ECA067A49",
@@ -52433,7 +53281,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3AFBE50D2C20AF75",
@@ -52456,7 +53310,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-AADF6ECE3A671EDF",
@@ -52479,7 +53339,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-397CC9947450",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-2FC059AD52EC792B",
@@ -52663,7 +53529,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3190DC275EB673E1",
@@ -52709,7 +53581,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-42F9FB612832",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3D45D66C3F010B1A",
@@ -52847,7 +53725,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-715D650221B102C3",
@@ -52893,7 +53777,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-ACEEB793E2ACA86B",
@@ -52916,7 +53806,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3CC4582F9124E6DE",
@@ -52939,7 +53835,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4E6208779DB2",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-82BF33838ECBAA3D",
@@ -53813,7 +54715,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-35D56086ABC8BC10",
@@ -53836,7 +54744,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F129EEB47D82CE08",
@@ -53882,7 +54796,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7819F7CFA2470C8B",
@@ -53905,7 +54825,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0C87FBAEBFBDD607",
@@ -53928,7 +54854,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D8279B5F524D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-EEE4D890214BAFD6",
@@ -53974,7 +54906,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-75F1EC8E66EAE67E",
@@ -53997,7 +54935,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-AAF667E515B56F78",
@@ -54043,7 +54987,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0AFBDAFCC3AC291C",
@@ -54066,7 +55016,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-58440FD60628F421",
@@ -54089,7 +55045,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-83147569595C82B2",
@@ -54112,7 +55074,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-708D033325446A68",
@@ -54135,7 +55103,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5455A8079DCFC0A9",
@@ -54158,7 +55132,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F9A95CA8C049",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-1227FCBE2683ACBC",
@@ -54342,7 +55322,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A806758CCBE6D251",
@@ -54365,7 +55351,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-FD504231CBB3C56A",
@@ -54434,7 +55426,23 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-46E5080D15A965A3",
@@ -54457,7 +55465,23 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-478474BB3B5771A4",
@@ -54480,7 +55504,23 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5F25DE37EE42049F",
@@ -54503,7 +55543,23 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-49D60C615280",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-91B1426FD17F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7DF226716D4FF6B8",
@@ -54526,7 +55582,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-4667B361A7A1E45F",
@@ -54549,7 +55611,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6CE316AFEE90",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B92A72BBC0085965",
@@ -54618,7 +55686,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-ACA05A0DA470B6F4",
@@ -54664,7 +55738,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-BD2BBC8D4173484B",
@@ -54687,7 +55767,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-23A4A323B7E0F403",
@@ -54710,7 +55796,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-96DF602B28B5B16A",
@@ -54848,7 +55940,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7455B58961AB2B01",
@@ -54871,7 +55969,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-04EBD5BFCE169F87",
@@ -54894,7 +55998,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7D6D5F36103B58B2",
@@ -54917,7 +56027,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DF2C0D63695B",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0E7A9A1A094A786F",
@@ -55906,7 +57022,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-261E45837DD6C65E",
@@ -55952,7 +57074,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0E1823AE8DF54AED",
@@ -55975,7 +57103,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3B9F5809D18ED688",
@@ -55998,7 +57132,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F3FAD61215EB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-58D5E94CD38FA4E1",
@@ -56228,7 +57368,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-893996346E366A4C",
@@ -56251,7 +57397,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F998823017010FC6",
@@ -56274,7 +57426,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A6DDE4C5E92CDEA1",
@@ -56412,7 +57570,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F3D5FD2E841351DC",
@@ -56435,7 +57599,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-25981D97E7A74919",
@@ -56458,7 +57628,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A3CE1FA0B7F76C4B",
@@ -56504,7 +57680,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-9BEADB83152FADE1",
@@ -56527,7 +57709,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3695044E6FBBD6C9",
@@ -56550,7 +57738,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-454FEEEEFB825752",
@@ -56573,7 +57767,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-AC858FC6E27229AA",
@@ -56596,7 +57796,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-C53A2C1BA67D0AB6",
@@ -56619,7 +57825,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-DD44D7E0372D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-1FBC7CE6668ABED3",
@@ -56964,7 +58176,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-07FCEDB807FDC8A6",
@@ -56987,7 +58205,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-6BE5905FA887",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-2F4E6595612A089D",
@@ -57079,7 +58303,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A8ED51193A8BA246",
@@ -57102,7 +58332,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B6EFD6CF0D1DAB2F",
@@ -57125,7 +58361,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-DB31ED4EEB436310",
@@ -57148,7 +58390,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-D2AD050CC3C520B4",
@@ -57171,7 +58419,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-C19E9913622084DF",
@@ -57194,7 +58448,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-5B8E1347C2F5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5AFD6E9281172BE5",
@@ -57401,7 +58661,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A46ACA8256843797",
@@ -57424,7 +58690,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-E468726CC47B508C",
@@ -57447,7 +58719,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-BF141FE8639C9D25",
@@ -57470,7 +58748,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B2C0239CAD8C10D6",
@@ -57493,7 +58777,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-996B8C38DC767FFF",
@@ -57516,7 +58806,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-55EF9C7515C5",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-E2D271D62171E063",
@@ -58045,7 +59341,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-FD5F26E0E2B1F28E",
@@ -58068,7 +59370,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F8755E59369A4FFD",
@@ -58091,7 +59399,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7BC53141B8E2A551",
@@ -58114,7 +59428,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-10CDA52089D8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7DA37204D6E336C1",
@@ -58597,7 +59917,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-C15162440E61DC14",
@@ -58620,7 +59946,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-56CF63A9BC19C0CA",
@@ -58643,7 +59975,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3DA57979B7DAF904",
@@ -58666,7 +60004,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FCC25B8DD116",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7656D35E724BDF0A",
@@ -59793,7 +61137,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-4084B1CFC61489E2",
@@ -59816,7 +61166,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-7EBEA87C5B9C13BB",
@@ -59839,7 +61195,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-388FC9B7EBB5A1E3",
@@ -59862,7 +61224,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-E957C351414B85C3",
@@ -59885,7 +61253,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-2C67236858DF1F18",
@@ -60391,7 +61765,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-AC0414722FF15D37",
@@ -60414,7 +61794,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-6479D7046D9310DC",
@@ -60437,7 +61823,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-FBBC76846FD5A0EB",
@@ -60460,7 +61852,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A66B6C1926C9",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-EFA44B19E14F86A4",
@@ -60920,7 +62318,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-7CED1D9BB08C4152",
@@ -60943,7 +62347,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A469C9978DA3F6AD",
@@ -60966,7 +62376,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-028DB3BF3FD6A947",
@@ -60989,7 +62405,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-1DC0B31A87CE4CD5",
@@ -61012,7 +62434,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-144C7EA6CE5CA8F6",
@@ -61035,7 +62463,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25FCB1D83351",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B8963DD01A260CCF",
@@ -61104,7 +62538,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-6D330C84D7548093",
@@ -61150,7 +62595,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-71AE91371C945BBC",
@@ -61173,7 +62629,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-FBB53AA0825F5BD8",
@@ -61196,7 +62663,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-4FC3623ACC9A",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-16E9397D0581",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A179C7CE45DC4F39",
@@ -61380,7 +62858,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0B6D6D62A77FB06E",
@@ -61426,7 +62910,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-224B8C0E1AEE3413",
@@ -62185,7 +63675,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A2224DE21C312CF9",
@@ -62208,7 +63704,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-EC12B3254B16D8E2",
@@ -62231,7 +63733,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CEFB4E17D5E70F87",
@@ -62967,7 +64475,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-E5EA078DBFBF5528",
@@ -63013,7 +64527,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-828E05258D4277A4",
@@ -63036,7 +64556,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-C4B52F7C60BFA709",
@@ -63059,7 +64585,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-4C39475AAA1218D2",
@@ -63082,7 +64614,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-7ED87CA79DC29E7B",
@@ -63105,7 +64643,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D46DA71157C",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-B3A67C75522F7174",
@@ -63703,7 +65247,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-531821FC6A1C4714",
@@ -63772,7 +65322,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-135CE6AFDBA7B716",
@@ -63795,7 +65351,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-6AB5F2089FF50000",
@@ -63818,7 +65380,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-ACF4F4759EBB0646",
@@ -63841,7 +65409,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3699E85BC97E83B7",
@@ -63864,7 +65438,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-920950FA4BC46464",
@@ -63887,7 +65467,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-E921CDF22B1D4D6B",
@@ -63910,7 +65496,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-CD0C1CCAF02A3AF5",
@@ -63933,7 +65525,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-36823DBE73F1",
+          "role": "candidate:DialTexture:63"
+        }
+      ]
     },
     {
       "assetId": "AST-31B1FD3F4D7AB8A1",
@@ -65060,7 +66658,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CC2716B2D1B764A0",
@@ -65221,7 +66825,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-6C6182896CA6D78A",
@@ -65244,7 +66854,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-615DBAD82A3F0F18",
@@ -65267,7 +66883,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B2D28FEED24ABBD6",
@@ -65290,7 +66912,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CF233286574FF32E",
@@ -65313,7 +66941,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-25737E8F5AE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-2F9155B15189AC5B",
@@ -65428,7 +67062,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-40E8E8289E93A7E1",
@@ -65451,7 +67096,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-310B1628F7CFC093",
@@ -65474,7 +67130,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-4413C79D04E0D847",
@@ -65497,7 +67164,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-718B1CF34559E1F6",
@@ -65520,7 +67198,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:78"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-43E5A4473CB2B511",
@@ -65589,7 +67278,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-3F106789B007",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CAA07E4966F337FA",
@@ -65750,7 +67445,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:63"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-72CFB07F5FB859AB",
@@ -65773,7 +67479,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-A7919F5F25FD",
+          "role": "candidate:DialTexture:63"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F5CFE5650F917DC4",
@@ -65796,7 +67513,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-72CFB07F5FB859AB",
@@ -65819,7 +67542,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D37C351E2E7F",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F5CFE5650F917DC4",
@@ -66118,7 +67847,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A945C65204ECCEDB",
@@ -66141,7 +67876,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-D90D53A6DDC6B2EF",
@@ -66164,7 +67905,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-DD5BEF391C7908A8",
@@ -66187,7 +67934,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-8C916E7638C498B8",
@@ -66210,7 +67963,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-49452BD3E92057A4",
@@ -66233,7 +67992,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2287759F7AD8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-2A9202D9A7BBF8F2",
@@ -66279,7 +68044,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CD9C83B61307B9FD",
@@ -66302,7 +68073,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-678528E025717346",
@@ -66325,7 +68102,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-5370A30BA56212FC",
@@ -66348,7 +68131,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-B1D0811F8D4A71E5",
@@ -66371,7 +68160,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-CD9C83B61307B9FD",
@@ -66394,7 +68189,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-F526B530F030",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-A0A1F3B640AFB436",
@@ -66693,7 +68494,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-8975CDD3CEFDA2D7",
@@ -66716,7 +68523,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-346E9CB0AAE8",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-2CBF88D63AE7BAA8",
@@ -66831,7 +68644,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-EF0E59264052803F",
@@ -66854,7 +68673,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-56534E0D0DB8C62B",
@@ -66877,7 +68702,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-94CB59B4225D0967",
@@ -66900,7 +68731,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-D0EA161052CA7369",
@@ -66923,7 +68760,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-3D7700BEDB8E0DB5",
@@ -67176,7 +69019,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-72E7496D7F5CA4E9",
@@ -67199,7 +69048,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F3C1ABE2696CDE4F",
@@ -67222,7 +69077,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-66CE4AE0F4C34037",
@@ -67245,7 +69106,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-04EEB8286BF7",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-77854E25A8B0DAB8",
@@ -67337,7 +69204,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-F1C633969F159019",
@@ -67360,7 +69233,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-44F7402D83D0FBCA",
@@ -67383,7 +69262,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-0C62E6E7A739FD03",
@@ -67429,7 +69314,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-77F32B507A56A59B",
@@ -67452,7 +69343,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-9ACF0D9C1A7F5CCC",
@@ -67475,7 +69372,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-43ADAF676DEB",
+          "role": "candidate:DialTexture:78"
+        }
+      ]
     },
     {
       "assetId": "AST-C2602B1E36AE402C",
@@ -69407,7 +71310,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-85E1B20DFB63",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-4D2587678A22AB68",
@@ -70396,7 +72305,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-7AF8450D0B29F475",
@@ -70419,7 +72334,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-17CCB104EA17EC86",
@@ -70442,7 +72363,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7D4C70190E9A",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-125BC4B383E86088",
@@ -71661,7 +73588,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:61"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-5228B5631F7AE1D3",
@@ -71707,7 +73645,18 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:61"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-ECC95DF1853301B7",
@@ -72512,7 +74461,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-FA890C024CB89D43",
@@ -72535,7 +74490,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-586A2FC9F9F0E4B9",
@@ -72558,7 +74519,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-FD9C8003B3666B87",
@@ -72581,7 +74548,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-13A27BB27C26",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-99E5CD9937CDCDBE",
@@ -73961,7 +75934,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-DE4D395FF3B9B0F4",
@@ -73984,7 +75963,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-E92153210F263387",
@@ -74007,7 +75992,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-D157360E17DF",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-69EE5A43489F1D85",
@@ -75686,7 +77677,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-12F03CA29943FD3D",
@@ -75709,7 +77706,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-ED46D4F2614F",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-66F24E49B7B3A3AB",
@@ -75847,7 +77850,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-B195218647C2",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-63E057B957C3DCDF",
@@ -77135,7 +79144,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-92197DFA9B13EBB1",
@@ -77158,7 +79173,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-2F92F4DD1DC4F4C2",
@@ -77181,7 +79202,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-CD028BEF3884",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-2ECBFC61F8869E1D",
@@ -80608,7 +82635,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7769CA39E15D",
+          "role": "candidate:DialTexture:61"
+        }
+      ]
     },
     {
       "assetId": "AST-E36E4FD4EB8C6B7F",
@@ -83161,7 +85194,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-FC26D92DD4BF",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-16B805A5B4BD8B7B",
@@ -83299,7 +85338,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-05819F01CEC88A03",
@@ -83322,7 +85367,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-D00C91B9A0883777",
@@ -83345,7 +85396,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-7F2B68AD3C27",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-C411268E41A13836",
@@ -89670,7 +91727,13 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-1BC5599BA737",
+          "role": "candidate:DialTexture:76"
+        }
+      ]
     },
     {
       "assetId": "AST-677156EBE83435D3",
@@ -102511,7 +104574,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:55"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-91046FE6CF199DDB",
@@ -104206,7 +106280,13 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-2EDA4729AD4F",
+          "role": "candidate:DialTexture:70"
+        }
+      ]
     },
     {
       "assetId": "AST-D372E78B55214A43",
@@ -105436,7 +107516,18 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
+      "referencedBy": [
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-EC8D6A546561",
+          "role": "candidate:DialTexture:70"
+        },
+        {
+          "entityType": "ship",
+          "entityId": "SHIP-97FC566A27A9",
+          "role": "candidate:DialTexture:55"
+        }
+      ]
     },
     {
       "assetId": "AST-79BCF5889BA8AC7A",

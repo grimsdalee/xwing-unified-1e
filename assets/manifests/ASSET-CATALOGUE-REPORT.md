@@ -1,6 +1,6 @@
 # Asset Catalogue Report
 
-Generated: 2026-07-25T03:27:13.1015691+00:00
+Generated: 2026-07-25T15:29:32.1084396+00:00
 
 - Total files: 5487
 - Unique assets: 5241
