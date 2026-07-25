@@ -340,6 +340,11 @@
     "reason": "No official First Edition pilot with the same normalised name was found on the confirmed target ship."
   },
   {
+    "sourceId": "captainferoph",
+    "kind": "SourceShipDeferred",
+    "reason": "No confirmed First Edition ship mapping exists for this source pilot."
+  },
+  {
     "sourceId": "captainhark",
     "kind": "SourceShipDeferred",
     "reason": "No confirmed First Edition ship mapping exists for this source pilot."
@@ -1290,6 +1295,11 @@
     "reason": "No official First Edition pilot with the same normalised name was found on the confirmed target ship."
   },
   {
+    "sourceId": "majorvermeil",
+    "kind": "SourceShipDeferred",
+    "reason": "No confirmed First Edition ship mapping exists for this source pilot."
+  },
+  {
     "sourceId": "majorvonreg",
     "kind": "SourceShipDeferred",
     "reason": "No confirmed First Edition ship mapping exists for this source pilot."
@@ -1750,6 +1760,11 @@
     "reason": "No official First Edition pilot with the same normalised name was found on the confirmed target ship."
   },
   {
+    "sourceId": "scarifbasepilot",
+    "kind": "SourceShipDeferred",
+    "reason": "No confirmed First Edition ship mapping exists for this source pilot."
+  },
+  {
     "sourceId": "scimitar1-battleoverendor",
     "kind": "NotInOfficialDataset",
     "reason": "No official First Edition pilot with the same normalised name was found on the confirmed target ship."
@@ -2096,6 +2111,11 @@
   },
   {
     "sourceId": "vimoradi",
+    "kind": "SourceShipDeferred",
+    "reason": "No confirmed First Edition ship mapping exists for this source pilot."
+  },
+  {
+    "sourceId": "vizier",
     "kind": "SourceShipDeferred",
     "reason": "No confirmed First Edition ship mapping exists for this source pilot."
   },

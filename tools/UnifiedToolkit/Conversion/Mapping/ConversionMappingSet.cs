@@ -10,6 +10,7 @@ public sealed class ConversionMappingSet
     public IReadOnlyList<ShipMapping> Ships { get; init; } = Array.Empty<ShipMapping>();
     public IReadOnlyList<ShipDisposition> ShipDispositions { get; init; } = Array.Empty<ShipDisposition>();
     public IReadOnlyList<PilotMapping> Pilots { get; init; } = Array.Empty<PilotMapping>();
+    public IReadOnlyList<OfficialFirstEditionPilot> OfficialPilots { get; init; } = Array.Empty<OfficialFirstEditionPilot>();
     public IReadOnlyList<PilotSourceAlternate> PilotSourceAlternates { get; init; } = Array.Empty<PilotSourceAlternate>();
     public IReadOnlyList<PilotDisposition> PilotDispositions { get; init; } = Array.Empty<PilotDisposition>();
     public IReadOnlyList<UpgradeMapping> Upgrades { get; init; } = Array.Empty<UpgradeMapping>();

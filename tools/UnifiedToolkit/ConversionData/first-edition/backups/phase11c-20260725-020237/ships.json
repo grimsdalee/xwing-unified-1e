@@ -1,27 +1,5 @@
 [
   {
-    "mappingId": "ship-awing-direct-v1",
-    "sourceId": "rz1awing",
-    "targetId": "awing",
-    "kind": "Direct",
-    "name": "A-wing",
-    "size": "small",
-    "attack": 2,
-    "agility": 3,
-    "hull": 2,
-    "shields": 2,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock",
-      "boost",
-      "evade"
-    ],
-    "factions": [
-      "rebelalliance"
-    ]
-  },
-  {
     "mappingId": "ship-aggressor-direct-v1",
     "sourceId": "aggressorassaultfighter",
     "targetId": "aggressor",
@@ -32,7 +10,6 @@
     "agility": 3,
     "hull": 4,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -54,7 +31,6 @@
     "agility": 2,
     "hull": 4,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "reload",
@@ -76,10 +52,29 @@
     "agility": 1,
     "hull": 6,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
+    ],
+    "factions": [
+      "rebelalliance"
+    ]
+  },
+  {
+    "mappingId": "ship-bwing-direct-v1",
+    "sourceId": "asf01bwing",
+    "targetId": "bwing",
+    "kind": "Direct",
+    "name": "B-wing",
+    "size": "small",
+    "attack": 3,
+    "agility": 1,
+    "hull": 3,
+    "shields": 5,
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll"
     ],
     "factions": [
       "rebelalliance"
@@ -96,7 +91,6 @@
     "agility": 2,
     "hull": 2,
     "shields": 2,
-    "exclusionReason": "",
     "actions": [
       "barrelroll",
       "evade",
@@ -117,7 +111,6 @@
     "agility": 1,
     "hull": 6,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "reinforce"
@@ -127,44 +120,43 @@
     ]
   },
   {
-    "mappingId": "ship-bwing-direct-v1",
-    "sourceId": "asf01bwing",
-    "targetId": "bwing",
+    "mappingId": "ship-ywing-direct-v1",
+    "sourceId": "btla4ywing",
+    "targetId": "ywing",
     "kind": "Direct",
-    "name": "B-wing",
+    "name": "Y-wing",
     "size": "small",
-    "attack": 3,
-    "agility": 1,
-    "hull": 3,
-    "shields": 5,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock",
-      "barrelroll"
-    ],
-    "factions": [
-      "rebelalliance"
-    ]
-  },
-  {
-    "mappingId": "ship-bsf17bomber-direct-v1",
-    "sourceId": "mg100starfortress",
-    "targetId": "bsf17bomber",
-    "kind": "Direct",
-    "name": "B/SF-17 Bomber",
-    "size": "large",
     "attack": 2,
     "agility": 1,
-    "hull": 9,
+    "hull": 5,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
     ],
     "factions": [
-      "resistance"
+      "rebelalliance",
+      "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-kwing-direct-v1",
+    "sourceId": "btls8kwing",
+    "targetId": "kwing",
+    "kind": "Direct",
+    "name": "K-wing",
+    "size": "small",
+    "attack": 2,
+    "agility": 1,
+    "hull": 5,
+    "shields": 4,
+    "actions": [
+      "focus",
+      "targetlock",
+      "slam"
+    ],
+    "factions": [
+      "rebelalliance"
     ]
   },
   {
@@ -178,7 +170,6 @@
     "agility": 0,
     "hull": 10,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "jam",
       "recover",
@@ -200,7 +191,6 @@
     "agility": 3,
     "hull": 2,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -209,6 +199,28 @@
     ],
     "factions": [
       "rebelalliance"
+    ]
+  },
+  {
+    "mappingId": "ship-protectoratestarfighter-alias-v1",
+    "sourceId": "fangfighter",
+    "targetId": "protectoratestarfighter",
+    "kind": "Direct",
+    "name": "Protectorate Starfighter",
+    "size": "small",
+    "attack": 3,
+    "agility": 3,
+    "hull": 4,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "boost",
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "scumandvillainy"
     ]
   },
   {
@@ -244,7 +256,6 @@
     "agility": 1,
     "hull": 4,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "evade",
       "focus",
@@ -265,7 +276,6 @@
     "agility": 0,
     "hull": 9,
     "shields": 5,
-    "exclusionReason": "",
     "actions": [
       "coordinate",
       "recover",
@@ -287,7 +297,6 @@
     "agility": 0,
     "hull": 8,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "recover",
       "reinforce",
@@ -309,7 +318,6 @@
     "agility": 2,
     "hull": 4,
     "shields": 1,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
@@ -330,7 +338,6 @@
     "agility": 2,
     "hull": 5,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "barrelroll",
       "focus",
@@ -338,27 +345,6 @@
     ],
     "factions": [
       "scumandvillainy"
-    ]
-  },
-  {
-    "mappingId": "ship-kwing-direct-v1",
-    "sourceId": "btls8kwing",
-    "targetId": "kwing",
-    "kind": "Direct",
-    "name": "K-wing",
-    "size": "small",
-    "attack": 2,
-    "agility": 1,
-    "hull": 5,
-    "shields": 4,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock",
-      "slam"
-    ],
-    "factions": [
-      "rebelalliance"
     ]
   },
   {
@@ -372,7 +358,6 @@
     "agility": 2,
     "hull": 4,
     "shields": 1,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
@@ -392,7 +377,6 @@
     "agility": 1,
     "hull": 5,
     "shields": 5,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
@@ -412,7 +396,6 @@
     "agility": 2,
     "hull": 7,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "evade",
@@ -434,7 +417,6 @@
     "agility": 1,
     "hull": 6,
     "shields": 2,
-    "exclusionReason": "",
     "actions": [
       "barrelroll",
       "focus",
@@ -456,7 +438,6 @@
     "agility": 3,
     "hull": 2,
     "shields": 1,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -468,25 +449,24 @@
     ]
   },
   {
-    "mappingId": "ship-protectoratestarfighter-alias-v1",
-    "sourceId": "fangfighter",
-    "targetId": "protectoratestarfighter",
+    "mappingId": "ship-yt1300-alias-v1",
+    "sourceId": "modifiedyt1300lightfreighter",
+    "targetId": "yt1300",
     "kind": "Direct",
-    "name": "Protectorate Starfighter",
-    "size": "small",
+    "name": "YT-1300",
+    "size": "large",
     "attack": 3,
-    "agility": 3,
-    "hull": 4,
-    "shields": 0,
+    "agility": 1,
+    "hull": 8,
+    "shields": 5,
     "exclusionReason": "",
     "actions": [
-      "barrelroll",
-      "boost",
       "focus",
       "targetlock"
     ],
     "factions": [
-      "scumandvillainy"
+      "rebelalliance",
+      "resistance"
     ]
   },
   {
@@ -500,13 +480,33 @@
     "agility": 2,
     "hull": 5,
     "shields": 0,
-    "exclusionReason": "",
     "actions": [
       "barrelroll",
       "focus"
     ],
     "factions": [
       "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-awing-direct-v1",
+    "sourceId": "rz1awing",
+    "targetId": "awing",
+    "kind": "Direct",
+    "name": "A-wing",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 2,
+    "shields": 2,
+    "actions": [
+      "focus",
+      "targetlock",
+      "boost",
+      "evade"
+    ],
+    "factions": [
+      "rebelalliance"
     ]
   },
   {
@@ -520,7 +520,6 @@
     "agility": 1,
     "hull": 5,
     "shields": 5,
-    "exclusionReason": "",
     "actions": [
       "barrelroll",
       "focus",
@@ -542,7 +541,6 @@
     "agility": 2,
     "hull": 4,
     "shields": 1,
-    "exclusionReason": "",
     "actions": [
       "coordinate",
       "focus",
@@ -563,7 +561,6 @@
     "agility": 3,
     "hull": 4,
     "shields": 1,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -572,6 +569,25 @@
     ],
     "factions": [
       "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-xwing-direct-v1",
+    "sourceId": "t65xwing",
+    "targetId": "xwing",
+    "kind": "Direct",
+    "name": "X-Wing",
+    "size": "small",
+    "attack": 3,
+    "agility": 2,
+    "hull": 3,
+    "shields": 2,
+    "actions": [
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "rebelalliance"
     ]
   },
   {
@@ -585,7 +601,6 @@
     "agility": 2,
     "hull": 3,
     "shields": 3,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -593,28 +608,6 @@
     ],
     "factions": [
       "resistance"
-    ]
-  },
-  {
-    "mappingId": "ship-tieadvprototype-alias-v1",
-    "sourceId": "tieadvancedv1",
-    "targetId": "tieadvprototype",
-    "kind": "Direct",
-    "name": "TIE Adv. Prototype",
-    "size": "small",
-    "attack": 2,
-    "agility": 3,
-    "hull": 2,
-    "shields": 2,
-    "exclusionReason": "",
-    "actions": [
-      "barrelroll",
-      "boost",
-      "focus",
-      "targetlock"
-    ],
-    "factions": [
-      "galacticempire"
     ]
   },
   {
@@ -661,21 +654,21 @@
     ]
   },
   {
-    "mappingId": "ship-tiebomber-alias-v1",
-    "sourceId": "tiesabomber",
-    "targetId": "tiebomber",
+    "mappingId": "ship-tiepunisher-alias-v1",
+    "sourceId": "tiecapunisher",
+    "targetId": "tiepunisher",
     "kind": "Direct",
-    "name": "TIE Bomber",
+    "name": "TIE Punisher",
     "size": "small",
     "attack": 2,
-    "agility": 2,
+    "agility": 1,
     "hull": 6,
-    "shields": 0,
+    "shields": 3,
     "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
-      "barrelroll"
+      "boost"
     ],
     "factions": [
       "galacticempire"
@@ -697,6 +690,49 @@
       "focus",
       "targetlock",
       "barrelroll"
+    ],
+    "factions": [
+      "galacticempire"
+    ]
+  },
+  {
+    "mappingId": "ship-tiefofighter-direct-v1",
+    "sourceId": "tiefofighter",
+    "targetId": "tiefofighter",
+    "kind": "Direct",
+    "name": "TIE/fo Fighter",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 3,
+    "shields": 1,
+    "actions": [
+      "focus",
+      "targetlock",
+      "barrelroll",
+      "evade"
+    ],
+    "factions": [
+      "firstorder"
+    ]
+  },
+  {
+    "mappingId": "ship-tieinterceptor-alias-v1",
+    "sourceId": "tieininterceptor",
+    "targetId": "tieinterceptor",
+    "kind": "Direct",
+    "name": "TIE Interceptor",
+    "size": "small",
+    "attack": 3,
+    "agility": 3,
+    "hull": 3,
+    "shields": 0,
+    "exclusionReason": "",
+    "actions": [
+      "focus",
+      "barrelroll",
+      "boost",
+      "evade"
     ],
     "factions": [
       "galacticempire"
@@ -725,28 +761,6 @@
     ]
   },
   {
-    "mappingId": "ship-tieinterceptor-alias-v1",
-    "sourceId": "tieininterceptor",
-    "targetId": "tieinterceptor",
-    "kind": "Direct",
-    "name": "TIE Interceptor",
-    "size": "small",
-    "attack": 3,
-    "agility": 3,
-    "hull": 3,
-    "shields": 0,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "barrelroll",
-      "boost",
-      "evade"
-    ],
-    "factions": [
-      "galacticempire"
-    ]
-  },
-  {
     "mappingId": "ship-tiephantom-alias-v1",
     "sourceId": "tiephphantom",
     "targetId": "tiephantom",
@@ -769,62 +783,39 @@
     ]
   },
   {
-    "mappingId": "ship-tiepunisher-alias-v1",
-    "sourceId": "tiecapunisher",
-    "targetId": "tiepunisher",
+    "mappingId": "ship-tiebomber-alias-v1",
+    "sourceId": "tiesabomber",
+    "targetId": "tiebomber",
     "kind": "Direct",
-    "name": "TIE Punisher",
+    "name": "TIE Bomber",
     "size": "small",
     "attack": 2,
-    "agility": 1,
+    "agility": 2,
     "hull": 6,
-    "shields": 3,
+    "shields": 0,
     "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
-      "boost"
+      "barrelroll"
     ],
     "factions": [
       "galacticempire"
     ]
   },
   {
-    "mappingId": "ship-tiereaper-direct-v1",
-    "sourceId": "tierereaper",
-    "targetId": "tiereaper",
+    "mappingId": "ship-tiesffighter-direct-v1",
+    "sourceId": "tiesffighter",
+    "targetId": "tiesffighter",
     "kind": "Direct",
-    "name": "TIE Reaper",
+    "name": "TIE/sf Fighter",
     "size": "small",
-    "attack": 3,
-    "agility": 1,
-    "hull": 6,
-    "shields": 2,
-    "exclusionReason": "",
-    "actions": [
-      "evade",
-      "focus",
-      "jam"
-    ],
-    "factions": [
-      "galacticempire"
-    ]
-  },
-  {
-    "mappingId": "ship-tiesilencer-direct-v1",
-    "sourceId": "tievnsilencer",
-    "targetId": "tiesilencer",
-    "kind": "Direct",
-    "name": "TIE Silencer",
-    "size": "small",
-    "attack": 3,
-    "agility": 3,
-    "hull": 4,
-    "shields": 2,
-    "exclusionReason": "",
+    "attack": 2,
+    "agility": 2,
+    "hull": 3,
+    "shields": 3,
     "actions": [
       "barrelroll",
-      "boost",
       "focus",
       "targetlock"
     ],
@@ -854,41 +845,39 @@
     ]
   },
   {
-    "mappingId": "ship-tiefofighter-direct-v1",
-    "sourceId": "tiefofighter",
-    "targetId": "tiefofighter",
+    "mappingId": "ship-tiesilencer-direct-v1",
+    "sourceId": "tievnsilencer",
+    "targetId": "tiesilencer",
     "kind": "Direct",
-    "name": "TIE/fo Fighter",
+    "name": "TIE Silencer",
     "size": "small",
-    "attack": 2,
+    "attack": 3,
     "agility": 3,
-    "hull": 3,
-    "shields": 1,
-    "exclusionReason": "",
+    "hull": 4,
+    "shields": 2,
     "actions": [
-      "focus",
-      "targetlock",
       "barrelroll",
-      "evade"
+      "boost",
+      "focus",
+      "targetlock"
     ],
     "factions": [
       "firstorder"
     ]
   },
   {
-    "mappingId": "ship-tiesffighter-direct-v1",
-    "sourceId": "tiesffighter",
-    "targetId": "tiesffighter",
+    "mappingId": "ship-upsilonclassshuttle-direct-v1",
+    "sourceId": "upsilonclasscommandshuttle",
+    "targetId": "upsilonclassshuttle",
     "kind": "Direct",
-    "name": "TIE/sf Fighter",
-    "size": "small",
-    "attack": 2,
-    "agility": 2,
-    "hull": 3,
-    "shields": 3,
-    "exclusionReason": "",
+    "name": "Upsilon-class Shuttle",
+    "size": "large",
+    "attack": 4,
+    "agility": 1,
+    "hull": 6,
+    "shields": 6,
     "actions": [
-      "barrelroll",
+      "coordinate",
       "focus",
       "targetlock"
     ],
@@ -907,34 +896,12 @@
     "agility": 1,
     "hull": 4,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "targetlock",
       "focus"
     ],
     "factions": [
       "rebelalliance"
-    ]
-  },
-  {
-    "mappingId": "ship-upsilonclassshuttle-direct-v1",
-    "sourceId": "upsilonclasscommandshuttle",
-    "targetId": "upsilonclassshuttle",
-    "kind": "Direct",
-    "name": "Upsilon-class Shuttle",
-    "size": "large",
-    "attack": 4,
-    "agility": 1,
-    "hull": 6,
-    "shields": 6,
-    "exclusionReason": "",
-    "actions": [
-      "coordinate",
-      "focus",
-      "targetlock"
-    ],
-    "factions": [
-      "firstorder"
     ]
   },
   {
@@ -948,7 +915,6 @@
     "agility": 0,
     "hull": 10,
     "shields": 6,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "evade",
@@ -969,75 +935,12 @@
     "agility": 0,
     "hull": 12,
     "shields": 4,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
     ],
     "factions": [
       "galacticempire"
-    ]
-  },
-  {
-    "mappingId": "ship-xwing-direct-v1",
-    "sourceId": "t65xwing",
-    "targetId": "xwing",
-    "kind": "Direct",
-    "name": "X-Wing",
-    "size": "small",
-    "attack": 3,
-    "agility": 2,
-    "hull": 3,
-    "shields": 2,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock"
-    ],
-    "factions": [
-      "rebelalliance"
-    ]
-  },
-  {
-    "mappingId": "ship-ywing-direct-v1",
-    "sourceId": "btla4ywing",
-    "targetId": "ywing",
-    "kind": "Direct",
-    "name": "Y-wing",
-    "size": "small",
-    "attack": 2,
-    "agility": 1,
-    "hull": 5,
-    "shields": 3,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock"
-    ],
-    "factions": [
-      "rebelalliance",
-      "scumandvillainy"
-    ]
-  },
-  {
-    "mappingId": "ship-yt1300-alias-v1",
-    "sourceId": "modifiedyt1300lightfreighter",
-    "targetId": "yt1300",
-    "kind": "Direct",
-    "name": "YT-1300",
-    "size": "large",
-    "attack": 3,
-    "agility": 1,
-    "hull": 8,
-    "shields": 5,
-    "exclusionReason": "",
-    "actions": [
-      "focus",
-      "targetlock"
-    ],
-    "factions": [
-      "rebelalliance",
-      "resistance"
     ]
   },
   {
@@ -1051,7 +954,6 @@
     "agility": 2,
     "hull": 5,
     "shields": 5,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock",
@@ -1072,7 +974,6 @@
     "agility": 1,
     "hull": 6,
     "shields": 6,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
@@ -1092,7 +993,6 @@
     "agility": 2,
     "hull": 2,
     "shields": 2,
-    "exclusionReason": "",
     "actions": [
       "focus",
       "targetlock"
@@ -1100,6 +1000,28 @@
     "factions": [
       "rebelalliance",
       "scumandvillainy"
+    ]
+  },
+  {
+    "mappingId": "ship-tieadvprototype-alias-v1",
+    "sourceId": "tieadvancedv1",
+    "targetId": "tieadvprototype",
+    "kind": "Direct",
+    "name": "TIE Adv. Prototype",
+    "size": "small",
+    "attack": 2,
+    "agility": 3,
+    "hull": 2,
+    "shields": 2,
+    "exclusionReason": "",
+    "actions": [
+      "barrelroll",
+      "boost",
+      "focus",
+      "targetlock"
+    ],
+    "factions": [
+      "galacticempire"
     ]
   }
 ]

@@ -19,6 +19,36 @@ public static class PilotConverter
             if(targetRepository.FindShip(map.ShipId) is null){issues.Add(Issue("Error","UnknownTargetPilotShip",map.SourceId,map.TargetId,$"Target ship '{map.ShipId}' does not exist in the converted repository."));continue;}
             pilots.Add(new FirstEditionPilot{Id=map.TargetId,Name=map.Name,ShipId=map.ShipId,Faction=map.Faction,PilotSkill=map.PilotSkill,SquadPointCost=map.SquadPointCost,Unique=map.Unique,UpgradeSlots=map.UpgradeSlots.ToArray(),Provenance=new ConversionProvenance{SourceId=source.Id,MappingId=map.MappingId,Kind=ConversionKind.Direct,MappingVersion=mappings.Version}});
         }
+
+        foreach (var official in mappings.OfficialPilots)
+        {
+            if (targetRepository.FindShip(official.ShipId) is null)
+            {
+                issues.Add(Issue("Error", "UnknownOfficialPilotShip", official.Id, official.Id,
+                    $"Official pilot target ship '{official.ShipId}' does not exist in the converted repository."));
+                continue;
+            }
+
+            pilots.Add(new FirstEditionPilot
+            {
+                Id = official.Id,
+                Name = official.Name,
+                ShipId = official.ShipId,
+                Faction = official.Faction,
+                PilotSkill = official.PilotSkill,
+                SquadPointCost = official.SquadPointCost,
+                Unique = official.Unique,
+                UpgradeSlots = official.UpgradeSlots.ToArray(),
+                Provenance = new ConversionProvenance
+                {
+                    SourceId = official.Id,
+                    MappingId = official.ImportId,
+                    Kind = ConversionKind.Official,
+                    MappingVersion = mappings.Version
+                }
+            });
+        }
+
         return (pilots,issues);
     }
     private static ConversionIssue Issue(string severity,string code,string source,string target,string message)=>new(){Severity=severity,Category="Pilot",Code=code,SourceType="Pilot",SourceId=source,TargetId=target,Message=message};

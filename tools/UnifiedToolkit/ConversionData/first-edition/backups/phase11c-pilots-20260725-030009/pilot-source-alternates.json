@@ -1,0 +1,389 @@
+[
+  {
+    "SourceId": "arvelcrynyd-battleoverendor",
+    "CanonicalSourceId": "arvelcrynyd",
+    "TargetId": "arvelcrynyd",
+    "TargetShipId": "awing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "arvelcrynyd-swz106",
+    "CanonicalSourceId": "arvelcrynyd",
+    "TargetId": "arvelcrynyd",
+    "TargetShipId": "awing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "biggsdarklighter-battleofyavin",
+    "CanonicalSourceId": "biggsdarklighter",
+    "TargetId": "biggsdarklighter",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "captainjonus-swz105",
+    "CanonicalSourceId": "captainjonus",
+    "TargetId": "captainjonus",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "captainjonus-swz98",
+    "CanonicalSourceId": "captainjonus",
+    "TargetId": "captainjonus",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "darthvader-battleofyavin",
+    "CanonicalSourceId": "darthvader",
+    "TargetId": "darthvader",
+    "TargetShipId": "tieadvanced",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "darthvader-swz105",
+    "CanonicalSourceId": "darthvader",
+    "TargetId": "darthvader",
+    "TargetShipId": "tieadvanced",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dashrendar-swz103-rebelalliance",
+    "CanonicalSourceId": "dashrendar",
+    "TargetId": "dashrendar",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dashrendar-swz103-scumandvillainy",
+    "CanonicalSourceId": "dashrendar",
+    "TargetId": "dashrendar",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dashrendar-swz103-sl-rebelalliance",
+    "CanonicalSourceId": "dashrendar",
+    "TargetId": "dashrendar",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dashrendar-swz103-sl-scumandvillainy",
+    "CanonicalSourceId": "dashrendar",
+    "TargetId": "dashrendar",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "deathfire-swz98",
+    "CanonicalSourceId": "deathfire",
+    "TargetId": "deathfire",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dutchvander-battleofyavin",
+    "CanonicalSourceId": "dutchvander",
+    "TargetId": "dutchvander",
+    "TargetShipId": "ywing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "dutchvander-swz106",
+    "CanonicalSourceId": "dutchvander",
+    "TargetId": "dutchvander",
+    "TargetShipId": "ywing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "echo-ssl",
+    "CanonicalSourceId": "echo",
+    "TargetId": "echo",
+    "TargetShipId": "tiephantom",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "fennrau-fangfighter",
+    "CanonicalSourceId": "fennrau",
+    "TargetId": "fennrau",
+    "TargetShipId": "protectoratestarfighter",
+    "TargetFaction": "scumandvillainy",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "garvendreis-battleofyavin",
+    "CanonicalSourceId": "garvendreis-t65xwing",
+    "TargetId": "garvendreis",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "hansolo-modifiedyt1300lightfreighter",
+    "CanonicalSourceId": "hansolo-battleofyavin",
+    "TargetId": "hansolo",
+    "TargetShipId": "yt1300",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "hortonsalm-swz106",
+    "CanonicalSourceId": "hortonsalm",
+    "TargetId": "hortonsalm",
+    "TargetShipId": "ywing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "jakefarrell-swz106",
+    "CanonicalSourceId": "jakefarrell",
+    "TargetId": "jakefarrell",
+    "TargetShipId": "awing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "jekporkins-battleofyavin",
+    "CanonicalSourceId": "jekporkins",
+    "TargetId": "jekporkins",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "jekporkins-swz106",
+    "CanonicalSourceId": "jekporkins",
+    "TargetId": "jekporkins",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "landocalrissian-modifiedyt1300lightfreighter",
+    "CanonicalSourceId": "landocalrissian-battleoverendor",
+    "TargetId": "landocalrissian",
+    "TargetShipId": "yt1300",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "leebo-swz103-rebelalliance",
+    "CanonicalSourceId": "leebo",
+    "TargetId": "leebo",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "leebo-swz103-scumandvillainy",
+    "CanonicalSourceId": "leebo",
+    "TargetId": "leebo",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "leebo-swz103-sl-rebelalliance",
+    "CanonicalSourceId": "leebo",
+    "TargetId": "leebo",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "leebo-swz103-sl-scumandvillainy",
+    "CanonicalSourceId": "leebo",
+    "TargetId": "leebo",
+    "TargetShipId": "yt2400",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "lieutenantkarsabi-ssl",
+    "CanonicalSourceId": "lieutenantkarsabi",
+    "TargetId": "lieutenantkarsabi",
+    "TargetShipId": "alphaclassstarwing",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "lukeskywalker-battleofyavin",
+    "CanonicalSourceId": "lukeskywalker",
+    "TargetId": "lukeskywalker",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "lukeskywalker-swz106",
+    "CanonicalSourceId": "lukeskywalker",
+    "TargetId": "lukeskywalker",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "maarekstele-swz105",
+    "CanonicalSourceId": "maarekstele",
+    "TargetId": "maarekstele",
+    "TargetShipId": "tieadvanced",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "majorrhymer-swz98",
+    "CanonicalSourceId": "majorrhymer",
+    "TargetId": "majorrhymer",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "majorvynder-ssl",
+    "CanonicalSourceId": "majorvynder",
+    "TargetId": "majorvynder",
+    "TargetShipId": "alphaclassstarwing",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "maulermithel-battleofyavin",
+    "CanonicalSourceId": "maulermithel",
+    "TargetId": "maulermithel",
+    "TargetShipId": "tiefighter",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "nightbeast-swz105",
+    "CanonicalSourceId": "nightbeast",
+    "TargetId": "nightbeast",
+    "TargetShipId": "tiefighter",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "soontirfel-battleoverendor",
+    "CanonicalSourceId": "soontirfel",
+    "TargetId": "soontirfel",
+    "TargetShipId": "tieinterceptor",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "tomaxbren-swz105",
+    "CanonicalSourceId": "tomaxbren",
+    "TargetId": "tomaxbren",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "tomaxbren-swz98",
+    "CanonicalSourceId": "tomaxbren",
+    "TargetId": "tomaxbren",
+    "TargetShipId": "tiebomber",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "tychocelchu-battleoverendor",
+    "CanonicalSourceId": "tychocelchu",
+    "TargetId": "tychocelchu",
+    "TargetShipId": "awing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "wampa-battleofyavin",
+    "CanonicalSourceId": "wampa",
+    "TargetId": "wampa",
+    "TargetShipId": "tiefighter",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "wedgeantilles-battleofyavin",
+    "CanonicalSourceId": "wedgeantilles",
+    "TargetId": "wedgeantilles",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "wedgeantilles-battleoverendor",
+    "CanonicalSourceId": "wedgeantilles",
+    "TargetId": "wedgeantilles",
+    "TargetShipId": "xwing",
+    "TargetFaction": "rebelalliance",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  },
+  {
+    "SourceId": "whisper-ssl",
+    "CanonicalSourceId": "whisper",
+    "TargetId": "whisper",
+    "TargetShipId": "tiephantom",
+    "TargetFaction": "galacticempire",
+    "Relationship": "AlternatePrinting",
+    "Notes": "This Unified source record resolves to the same First Edition pilot identity as the canonical source record."
+  }
+]

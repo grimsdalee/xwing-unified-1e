@@ -24,6 +24,7 @@ public static class ConversionMappingLoader
             Ships = ReadRequired<ShipMapping>(shipsPath, options),
             ShipDispositions = ReadOptional<ShipDisposition>(Path.Combine(folder,"ship-dispositions.json"), options),
             Pilots = ReadOptional<PilotMapping>(Path.Combine(folder,"pilots.json"), options),
+            OfficialPilots = ReadOptional<OfficialFirstEditionPilot>(Path.Combine(folder,"official-pilots.json"), options),
             PilotSourceAlternates = ReadOptional<PilotSourceAlternate>(Path.Combine(folder,"pilot-source-alternates.json"), options),
             PilotDispositions = ReadOptional<PilotDisposition>(Path.Combine(folder,"pilot-dispositions.json"), options),
             Upgrades = ReadOptional<UpgradeMapping>(Path.Combine(folder,"upgrades.json"), options),

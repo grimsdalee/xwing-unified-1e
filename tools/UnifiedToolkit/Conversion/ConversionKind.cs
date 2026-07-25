@@ -4,6 +4,7 @@ public enum ConversionKind
 {
     Direct,
     Adapted,
+    Official,
     Custom,
     Excluded
 }

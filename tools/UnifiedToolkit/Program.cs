@@ -81,6 +81,11 @@ return command switch
     "inspect-legacy-pilot-source" => InspectLegacyPilotSourceCommand.Run(commandArgs),
     "plan-ship-packages" => PlanShipPackagesCommand.Run(commandArgs),
     "analyse-dial-runtime" => AnalyseDialRuntimeCommand.Run(commandArgs),
+    "analyse-ship-runtime" => AnalyseShipRuntimeCommand.Run(commandArgs),
+    "prepare-first-edition-dial-data" => PrepareFirstEditionDialDataCommand.Run(commandArgs),
+    "extend-standard-first-edition-ships" => ExtendStandardFirstEditionShipsCommand.Run(commandArgs),
+    "extend-standard-first-edition-pilots" => ExtendStandardFirstEditionPilotsCommand.Run(commandArgs),
+    "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -159,6 +164,11 @@ static void ShowHelp()
     Console.WriteLine("  inspect-legacy-pilot-source <first-edition-repo-folder> <pilot-name> [--legacy-save <save.json>] [--output <folder>]");
     Console.WriteLine("  plan-ship-packages <first-edition-repo-folder> [mapping-folder] [--allow-source-errors] [--output <folder>]");
     Console.WriteLine("  analyse-dial-runtime <tts-save.json> [--output <folder>]");
+    Console.WriteLine("  analyse-ship-runtime <tts-save.json> [--output <folder>]");
+    Console.WriteLine("  prepare-first-edition-dial-data <first-edition-repo-folder> <xwing-data-folder> [mapping-folder] [--output <folder>]");
+    Console.WriteLine("  extend-standard-first-edition-ships <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
+    Console.WriteLine("  extend-standard-first-edition-pilots <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
+    Console.WriteLine("  import-official-first-edition-pilots <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
 }
 
 static int UnknownCommand(string command)
