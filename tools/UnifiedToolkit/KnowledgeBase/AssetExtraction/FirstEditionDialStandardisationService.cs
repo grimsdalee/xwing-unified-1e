@@ -2,6 +2,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
+using System.Text.RegularExpressions;
 using SkiaSharp;
 
 namespace UnifiedToolkit.KnowledgeBase.AssetExtraction;
@@ -10,6 +11,10 @@ public sealed class FirstEditionDialStandardisationService
 {
     private const int TargetWidth = 250;
     private const int TargetHeight = 250;
+
+    private static readonly Regex GeneratedDialFileNamePattern = new(
+        @"^.+__dial-[0-9a-f]{12}\.png$",
+        RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Compiled);
 
     private static readonly HashSet<string> SupportedExtensions = new(StringComparer.OrdinalIgnoreCase)
     {
@@ -55,13 +60,18 @@ public sealed class FirstEditionDialStandardisationService
             records.Add(ProcessFile(repositoryRoot, sourceRoot, generatedRoot, sourceFile, inventoryOnly));
         }
 
+        var hasProcessingErrors = records.Any(record => record.Severity == "Error");
+        var staleOutputs = inventoryOnly || hasProcessingErrors
+            ? new List<FirstEditionDialStaleOutputRecord>()
+            : RemoveStaleGeneratedOutputs(repositoryRoot, generatedRoot, records);
+
         var inventoryCsv = Path.Combine(reportRoot, "dial-image-inventory.csv");
         var manifestFile = Path.Combine(reportRoot, "first-edition-dial-standardisation.json");
         var reportFile = Path.Combine(reportRoot, "DIAL-STANDARDISATION-REPORT.md");
 
         WriteInventoryCsv(inventoryCsv, records);
-        WriteManifest(manifestFile, repositoryRoot, sourceRoot, generatedRoot, inventoryOnly, records);
-        WriteReport(reportFile, sourceRoot, generatedRoot, inventoryOnly, records);
+        WriteManifest(manifestFile, repositoryRoot, sourceRoot, generatedRoot, inventoryOnly, records, staleOutputs);
+        WriteReport(reportFile, sourceRoot, generatedRoot, inventoryOnly, records, staleOutputs);
 
         return new FirstEditionDialStandardisationResult
         {
@@ -71,6 +81,7 @@ public sealed class FirstEditionDialStandardisationService
             ResizeRequired = records.Count(record => record.NeedsResize),
             Generated = records.Count(record => record.OutputStatus == "Generated"),
             UnchangedOutputs = records.Count(record => record.OutputStatus == "Unchanged"),
+            StaleOutputsRemoved = staleOutputs.Count,
             Warnings = records.Count(record => record.Severity == "Warning"),
             Errors = records.Count(record => record.Severity == "Error"),
             SourceRoot = sourceRoot,
@@ -162,6 +173,70 @@ public sealed class FirstEditionDialStandardisationService
         }
 
         return record;
+    }
+
+
+    private static List<FirstEditionDialStaleOutputRecord> RemoveStaleGeneratedOutputs(
+        string repositoryRoot,
+        string generatedRoot,
+        IReadOnlyCollection<FirstEditionDialInventoryRecord> records)
+    {
+        var liveOutputPaths = records
+            .Where(record => !string.IsNullOrWhiteSpace(record.OutputPath) && record.Severity != "Error")
+            .Select(record => Path.GetFullPath(Path.Combine(
+                repositoryRoot,
+                record.OutputPath.Replace('/', Path.DirectorySeparatorChar))))
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        var removed = new List<FirstEditionDialStaleOutputRecord>();
+        if (!Directory.Exists(generatedRoot))
+        {
+            return removed;
+        }
+
+        var generatedFiles = Directory
+            .EnumerateFiles(generatedRoot, "*.png", SearchOption.AllDirectories)
+            .OrderBy(path => Path.GetRelativePath(generatedRoot, path), StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        foreach (var generatedFile in generatedFiles)
+        {
+            var fullPath = Path.GetFullPath(generatedFile);
+            if (liveOutputPaths.Contains(fullPath))
+            {
+                continue;
+            }
+
+            // Only remove files that match the canonical hash-named output pattern produced by Phase 10G.
+            // Unrelated or manually managed PNG files are deliberately left untouched.
+            if (!GeneratedDialFileNamePattern.IsMatch(Path.GetFileName(generatedFile)))
+            {
+                continue;
+            }
+
+            File.Delete(generatedFile);
+            removed.Add(new FirstEditionDialStaleOutputRecord
+            {
+                Path = NormalisePath(Path.GetRelativePath(repositoryRoot, generatedFile)),
+                Reason = "No matching curated source image produced this output during the current run."
+            });
+        }
+
+        RemoveEmptyDirectories(generatedRoot);
+        return removed;
+    }
+
+    private static void RemoveEmptyDirectories(string root)
+    {
+        foreach (var directory in Directory
+                     .EnumerateDirectories(root, "*", SearchOption.AllDirectories)
+                     .OrderByDescending(path => path.Length))
+        {
+            if (!Directory.EnumerateFileSystemEntries(directory).Any())
+            {
+                Directory.Delete(directory);
+            }
+        }
     }
 
     private static byte[] CreateStandardisedPng(string sourceFile, bool alreadyCompliant)
@@ -257,7 +332,8 @@ public sealed class FirstEditionDialStandardisationService
         string sourceRoot,
         string generatedRoot,
         bool inventoryOnly,
-        IReadOnlyCollection<FirstEditionDialInventoryRecord> records)
+        IReadOnlyCollection<FirstEditionDialInventoryRecord> records,
+        IReadOnlyCollection<FirstEditionDialStaleOutputRecord> staleOutputs)
     {
         var manifest = new FirstEditionDialStandardisationManifest
         {
@@ -270,7 +346,8 @@ public sealed class FirstEditionDialStandardisationService
             TargetFormat = "PNG",
             TargetWidth = TargetWidth,
             TargetHeight = TargetHeight,
-            Images = records.ToList()
+            Images = records.ToList(),
+            StaleOutputsRemoved = staleOutputs.ToList()
         };
 
         var options = new JsonSerializerOptions
@@ -287,7 +364,8 @@ public sealed class FirstEditionDialStandardisationService
         string sourceRoot,
         string generatedRoot,
         bool inventoryOnly,
-        IReadOnlyCollection<FirstEditionDialInventoryRecord> records)
+        IReadOnlyCollection<FirstEditionDialInventoryRecord> records,
+        IReadOnlyCollection<FirstEditionDialStaleOutputRecord> staleOutputs)
     {
         var errors = records.Where(record => record.Severity == "Error").ToList();
         var nonCompliant = records.Where(record => !record.AlreadyCompliant).ToList();
@@ -304,12 +382,13 @@ public sealed class FirstEditionDialStandardisationService
         builder.AppendLine($"- Already compliant: **{records.Count(record => record.AlreadyCompliant)}**");
         builder.AppendLine($"- Format conversion required: **{records.Count(record => record.NeedsFormatConversion)}**");
         builder.AppendLine($"- Resize required: **{records.Count(record => record.NeedsResize)}**");
+        builder.AppendLine($"- Stale generated outputs removed: **{staleOutputs.Count}**");
         builder.AppendLine($"- Errors: **{errors.Count}**");
         builder.AppendLine();
 
         builder.AppendLine("## Processing policy");
         builder.AppendLine();
-        builder.AppendLine("Curated images in `assets/source/first-edition-dials` are never modified. Compliant PNG files are copied byte-for-byte. Other images are decoded, resized to exactly 250 × 250 pixels with high-quality cubic sampling, and encoded as PNG files.");
+        builder.AppendLine("Curated images in `assets/source/first-edition-dials` are never modified. Compliant PNG files are copied byte-for-byte. Other images are decoded, resized to exactly 250 × 250 pixels with linear mipmap sampling, and encoded as PNG files. Stale cleanup runs only after every source image has processed without error.");
         builder.AppendLine();
 
         builder.AppendLine("## Images requiring processing");
@@ -325,6 +404,19 @@ public sealed class FirstEditionDialStandardisationService
             foreach (var record in nonCompliant)
             {
                 builder.AppendLine($"| {Markdown(record.Faction)} | {Markdown(record.ShipId)} | `{Markdown(record.SourcePath)}` | {record.Width} × {record.Height} | {Markdown(record.SourceFormat)} | {Markdown(record.Action)} |");
+            }
+        }
+
+        if (staleOutputs.Count > 0)
+        {
+            builder.AppendLine();
+            builder.AppendLine("## Stale generated outputs removed");
+            builder.AppendLine();
+            builder.AppendLine("These hash-named files were produced by an earlier Phase 10G run but were not generated by the current curated source tree.");
+            builder.AppendLine();
+            foreach (var staleOutput in staleOutputs)
+            {
+                builder.AppendLine($"- `{Markdown(staleOutput.Path)}`");
             }
         }
 
@@ -361,6 +453,7 @@ public sealed class FirstEditionDialStandardisationResult
     public int ResizeRequired { get; init; }
     public int Generated { get; init; }
     public int UnchangedOutputs { get; init; }
+    public int StaleOutputsRemoved { get; init; }
     public int Warnings { get; init; }
     public int Errors { get; init; }
     public string SourceRoot { get; init; } = string.Empty;
@@ -382,6 +475,13 @@ public sealed class FirstEditionDialStandardisationManifest
     public int TargetWidth { get; init; }
     public int TargetHeight { get; init; }
     public List<FirstEditionDialInventoryRecord> Images { get; init; } = new();
+    public List<FirstEditionDialStaleOutputRecord> StaleOutputsRemoved { get; init; } = new();
+}
+
+public sealed class FirstEditionDialStaleOutputRecord
+{
+    public string Path { get; init; } = string.Empty;
+    public string Reason { get; init; } = string.Empty;
 }
 
 public sealed class FirstEditionDialInventoryRecord

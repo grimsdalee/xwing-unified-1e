@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2.0",
-  "generatedUtc": "2026-07-24T01:06:42.0725831+00:00",
+  "generatedUtc": "2026-07-24T18:39:52.2099313+00:00",
   "ships": [
     {
       "shipId": "SHIP-7D46DA71157C",
@@ -622,8 +622,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-3F762F15AA14DD4A",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-3f762f15aa14.png",
+              "assetId": "AST-2A8BE41ED99189A1",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-2a8be41ed991.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -1096,8 +1096,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-4868DDBC1AC245F7",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-4868ddbc1ac2.png",
+              "assetId": "AST-2ED6C3846B76BDE4",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-2ed6c3846b76.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -1368,8 +1368,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-9ED4092318C35458",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-9ed4092318c3.png",
+              "assetId": "AST-6A9CD06506F45930",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-6a9cd06506f4.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -1629,8 +1629,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-93CA01CD4E8D3C52",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-93ca01cd4e8d.png",
+              "assetId": "AST-5B91B064E8E4B7C9",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-5b91b064e8e4.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -1992,8 +1992,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-999FC21E8733979E",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-999fc21e8733.png",
+              "assetId": "AST-1C99A9E18FD4D2B8",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-1c99a9e18fd4.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -2218,6 +2218,19 @@
           "status": "clear",
           "candidates": [
             {
+              "assetId": "AST-333AC5393A01B01F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-333ac5393a01.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027firespray31\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
               "assetId": "AST-A521FDD01F3146F5",
               "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/firespray31__dial-a521fdd01f31.png",
               "warehouse": "generated",
@@ -2226,19 +2239,6 @@
               "reasons": [
                 "explicit Phase 10H First Edition dial import",
                 "exact faction \u0027scumandvillainy\u0027",
-                "exact semantic ship \u0027firespray31\u0027",
-                "standardised 250 x 250 PNG"
-              ]
-            },
-            {
-              "assetId": "AST-66FE12CB7FBF739F",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-66fe12cb7fbf.png",
-              "warehouse": "generated",
-              "score": 1000,
-              "confidence": "authoritative",
-              "reasons": [
-                "explicit Phase 10H First Edition dial import",
-                "exact faction \u0027galacticempire\u0027",
                 "exact semantic ship \u0027firespray31\u0027",
                 "standardised 250 x 250 PNG"
               ]
@@ -2494,8 +2494,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-C03C316B32F1D138",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-c03c316b32f1.png",
+              "assetId": "AST-AA81BA1CDA121E2F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-aa81ba1cda12.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -3114,8 +3114,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-B91F1885EC87E8BE",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-b91f1885ec87.png",
+              "assetId": "AST-04CEBE59E29711D1",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-04cebe59e297.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -3127,8 +3127,8 @@
               ]
             },
             {
-              "assetId": "AST-F4408C9A7667D1C6",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-f4408c9a7667.png",
+              "assetId": "AST-ED0FF4E2CCEAA1EA",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-ed0ff4e2ccea.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -3337,8 +3337,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-48773AC05AB2670D",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-48773ac05ab2.png",
+              "assetId": "AST-05858FC90BADDE88",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-05858fc90bad.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -3517,8 +3517,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-E89504C5D2BC5424",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-e89504c5d2bc.png",
+              "assetId": "AST-618B7B8BD178546E",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-618b7b8bd178.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -4639,8 +4639,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-E10259CECCCCE740",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-e10259cecccc.png",
+              "assetId": "AST-B169E4C576588F5A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-b169e4c57658.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -4910,8 +4910,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-DE58B65901EDF566",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-de58b65901ed.png",
+              "assetId": "AST-1DA4E16BCB7F7932",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-1da4e16bcb7f.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -5100,8 +5100,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-96488F2FA6952627",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-96488f2fa695.png",
+              "assetId": "AST-4CC5CB8515DC638F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-4cc5cb8515dc.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -5358,8 +5358,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-C99A4E48F9CCF89C",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-c99a4e48f9cc.png",
+              "assetId": "AST-4EEB41563190AC4F",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-4eeb41563190.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -6521,8 +6521,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-ED2F6139026FDD3F",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-ed2f6139026f.png",
+              "assetId": "AST-1A736DE536F2332B",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-1a736de536f2.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -6728,8 +6728,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-10E85E7759A2A879",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-10e85e7759a2.png",
+              "assetId": "AST-0007BEDEDB5F4C58",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-0007bededb5f.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -7217,8 +7217,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-FCBF69E0DA4A503E",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-fcbf69e0da4a.png",
+              "assetId": "AST-ADF83F12D299D8AE",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-adf83f12d299.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -7401,6 +7401,19 @@
           "status": "clear",
           "candidates": [
             {
+              "assetId": "AST-ACDAE99EB5736D34",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-acdae99eb573.png",
+              "warehouse": "generated",
+              "score": 1000,
+              "confidence": "authoritative",
+              "reasons": [
+                "explicit Phase 10H First Edition dial import",
+                "exact faction \u0027galacticempire\u0027",
+                "exact semantic ship \u0027tiefighter\u0027",
+                "standardised 250 x 250 PNG"
+              ]
+            },
+            {
               "assetId": "AST-FF9C58A42A7057D8",
               "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-ff9c58a42a70.png",
               "warehouse": "generated",
@@ -7409,19 +7422,6 @@
               "reasons": [
                 "explicit Phase 10H First Edition dial import",
                 "exact faction \u0027rebelalliance\u0027",
-                "exact semantic ship \u0027tiefighter\u0027",
-                "standardised 250 x 250 PNG"
-              ]
-            },
-            {
-              "assetId": "AST-B26A284157B35B69",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-b26a284157b3.png",
-              "warehouse": "generated",
-              "score": 1000,
-              "confidence": "authoritative",
-              "reasons": [
-                "explicit Phase 10H First Edition dial import",
-                "exact faction \u0027galacticempire\u0027",
                 "exact semantic ship \u0027tiefighter\u0027",
                 "standardised 250 x 250 PNG"
               ]
@@ -7668,8 +7668,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-B4CA23D98D041B41",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-b4ca23d98d04.png",
+              "assetId": "AST-2AF2ECBD24160581",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-2af2ecbd2416.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -7860,8 +7860,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-2AABE4F826DE17D3",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-2aabe4f826de.png",
+              "assetId": "AST-19C27A5306C4E0DA",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-19c27a5306c4.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -9547,8 +9547,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-887738B0F25AD99A",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-887738b0f25a.png",
+              "assetId": "AST-5E6E4D43DDC2726A",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-5e6e4d43ddc2.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -9738,8 +9738,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-F03E167095A40BF3",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-f03e167095a4.png",
+              "assetId": "AST-4211B35E302352C0",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-4211b35e3023.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -9999,8 +9999,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-D3A7B65A9E7EFF5F",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-d3a7b65a9e7e.png",
+              "assetId": "AST-37CCA8D137982BDB",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-37cca8d13798.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -10636,8 +10636,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-AF224456B0E209F8",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-952b74023956.png",
+              "assetId": "AST-1DA4323052E19AE3",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-1da4323052e1.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -10649,8 +10649,8 @@
               ]
             },
             {
-              "assetId": "AST-952B740239561696",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-952b74023956.png",
+              "assetId": "AST-1DA4323052E19AE3",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-1da4323052e1.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",
@@ -11254,8 +11254,8 @@
           "status": "clear",
           "candidates": [
             {
-              "assetId": "AST-82BCBB25A397EB2B",
-              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-82bcbb25a397.png",
+              "assetId": "AST-772FB38F675A49BB",
+              "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-772fb38f675a.png",
               "warehouse": "generated",
               "score": 1000,
               "confidence": "authoritative",

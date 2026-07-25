@@ -1,11 +1,11 @@
 {
-  "fileCount": 5529,
-  "uniqueAssetCount": 5280,
-  "totalBytes": 2193160217,
+  "fileCount": 5480,
+  "uniqueAssetCount": 5231,
+  "totalBytes": 2187843589,
   "duplicateFileCount": 249,
   "unavailableSourceCount": 566,
   "byWarehouse": {
-    "generated": 400,
+    "generated": 351,
     "first-edition-dials": 56,
     "generated-pilot-tokens": 8,
     "legacy1e-non-pilot": 418,
@@ -14,7 +14,7 @@
     "xwing-data": 880
   },
   "byAssetType": {
-    "image": 4462,
+    "image": 4413,
     "json": 3,
     "other": 11,
     "model": 810,

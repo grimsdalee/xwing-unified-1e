@@ -80,6 +80,7 @@ return command switch
     "standardise-first-edition-dials" => StandardiseFirstEditionDialsCommand.Run(commandArgs),
     "inspect-legacy-pilot-source" => InspectLegacyPilotSourceCommand.Run(commandArgs),
     "plan-ship-packages" => PlanShipPackagesCommand.Run(commandArgs),
+    "analyse-dial-runtime" => AnalyseDialRuntimeCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -157,6 +158,7 @@ static void ShowHelp()
     Console.WriteLine("  standardise-first-edition-dials <first-edition-repo-folder> [--inventory-only]");
     Console.WriteLine("  inspect-legacy-pilot-source <first-edition-repo-folder> <pilot-name> [--legacy-save <save.json>] [--output <folder>]");
     Console.WriteLine("  plan-ship-packages <first-edition-repo-folder> [mapping-folder] [--allow-source-errors] [--output <folder>]");
+    Console.WriteLine("  analyse-dial-runtime <tts-save.json> [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

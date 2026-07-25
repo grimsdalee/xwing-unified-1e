@@ -1,11 +1,5 @@
 [
   {
-    "assetId": "AST-0A88E2DFF11BD6E2",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-0a88e2dff11b.png",
-    "sha256": "0a88e2dff11bd6e21e0c43589cf86792b6ca374a156066323baa4f0468a1247c",
-    "sizeBytes": 91355
-  },
-  {
     "assetId": "AST-C585DC1375658113",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-c585dc137565.png",
     "sha256": "c585dc1375658113e28f701bda8c18a46a23b962c298337e86b588ff1ea69785",
@@ -36,28 +30,10 @@
     "sizeBytes": 82338
   },
   {
-    "assetId": "AST-3F762F15AA14DD4A",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/alphaclassstarwing__dial-3f762f15aa14.png",
-    "sha256": "3f762f15aa14dd4a911370a3f77ff321252d02f9bf5b3bcc337b7ccfc5397751",
-    "sizeBytes": 90900
-  },
-  {
     "assetId": "AST-333AC5393A01B01F",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-333ac5393a01.png",
     "sha256": "333ac5393a01b01fc36d65ea95cfdd1e5e3feb7967ea5ca941efb0849b2e56f5",
     "sizeBytes": 80665
-  },
-  {
-    "assetId": "AST-66FE12CB7FBF739F",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/firespray31__dial-66fe12cb7fbf.png",
-    "sha256": "66fe12cb7fbf739f35a1c5238d6d4516e5faf23067f5bcb7fd34f07a12a9faae",
-    "sizeBytes": 89456
-  },
-  {
-    "assetId": "AST-90ED0CCDDEC9B5B9",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/lambdaclassshuttle__dial-90ed0ccddec9.png",
-    "sha256": "90ed0ccddec9b5b95d1235ce65c3d9ce4b69479abad9540ae6e7dbc7f1fbfe5f",
-    "sizeBytes": 90485
   },
   {
     "assetId": "AST-CBDDA497FEFE0CFA",
@@ -72,18 +48,6 @@
     "sizeBytes": 80935
   },
   {
-    "assetId": "AST-ED2F6139026FDD3F",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvanced__dial-ed2f6139026f.png",
-    "sha256": "ed2f6139026fdd3f0539b78ee05c32bf937dea1bf19b9864ba2f2783df17f1ff",
-    "sizeBytes": 89760
-  },
-  {
-    "assetId": "AST-180D71D7C62300F3",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvprototype__dial-180d71d7c623.png",
-    "sha256": "180d71d7c62300f32f979eff11fd0a69bc80c69beb1e4a0f640d5987c58b268f",
-    "sizeBytes": 90085
-  },
-  {
     "assetId": "AST-829CFEC0C1ADDBFF",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieadvprototype__dial-829cfec0c1ad.png",
     "sha256": "829cfec0c1addbffd6ecdae90e13a656fbb5499ec9a207331ac2fa8c056758b3",
@@ -94,18 +58,6 @@
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-0007bededb5f.png",
     "sha256": "0007bededb5f4c58d3397e49bb7bd7d2f84011323dd54e526fbaaaf77af5b405",
     "sizeBytes": 81262
-  },
-  {
-    "assetId": "AST-10E85E7759A2A879",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieaggressor__dial-10e85e7759a2.png",
-    "sha256": "10e85e7759a2a879adc25736a038301e7434db62eadacb6b25f414933672c25e",
-    "sizeBytes": 89969
-  },
-  {
-    "assetId": "AST-40508AEFB6668F99",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiebomber__dial-40508aefb666.png",
-    "sha256": "40508aefb6668f99a3a5d81f95391d302ac457422db23c2b37976a1da62ca6e9",
-    "sizeBytes": 89134
   },
   {
     "assetId": "AST-CF8BA079EF2C744C",
@@ -120,22 +72,10 @@
     "sizeBytes": 80629
   },
   {
-    "assetId": "AST-FCBF69E0DA4A503E",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiedefender__dial-fcbf69e0da4a.png",
-    "sha256": "fcbf69e0da4a503e6eb05514e413ae287edb55b2408811e58817b6c7af1ddd78",
-    "sizeBytes": 89456
-  },
-  {
     "assetId": "AST-ACDAE99EB5736D34",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-acdae99eb573.png",
     "sha256": "acdae99eb5736d34757690a7856e62b83d923bcbd84bb1718a298c80c28053fa",
     "sizeBytes": 97955
-  },
-  {
-    "assetId": "AST-B26A284157B35B69",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiefighter__dial-b26a284157b3.png",
-    "sha256": "b26a284157b35b698a156c19e7c3ff7138d8c6c7a35dac01d24236bd6e2b7a4f",
-    "sizeBytes": 103430
   },
   {
     "assetId": "AST-2AF2ECBD24160581",
@@ -144,28 +84,10 @@
     "sizeBytes": 80808
   },
   {
-    "assetId": "AST-B4CA23D98D041B41",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tieinterceptor__dial-b4ca23d98d04.png",
-    "sha256": "b4ca23d98d041b41232d7f140f24673f3e5301df358fffbad07530abd7135e32",
-    "sizeBytes": 89577
-  },
-  {
     "assetId": "AST-19C27A5306C4E0DA",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-19c27a5306c4.png",
     "sha256": "19c27a5306c4e0dadc76b0e6d68d0d9353079902346656e0466f9ff7bf54dd87",
     "sizeBytes": 81345
-  },
-  {
-    "assetId": "AST-2AABE4F826DE17D3",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiephantom__dial-2aabe4f826de.png",
-    "sha256": "2aabe4f826de17d3d9c58fbb00a5431a9c00acb22f6047615e9062cc53ce47b7",
-    "sizeBytes": 90333
-  },
-  {
-    "assetId": "AST-8144A1EDCC7FD34A",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/tiepunisher__dial-8144a1edcc7f.png",
-    "sha256": "8144a1edcc7fd34a58c9b29ee772e6ad007ec750d87925074270263662e89f77",
-    "sizeBytes": 89228
   },
   {
     "assetId": "AST-B6143CE71F676278",
@@ -192,18 +114,6 @@
     "sizeBytes": 81446
   },
   {
-    "assetId": "AST-F03E167095A40BF3",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/galacticempire/vt49decimator__dial-f03e167095a4.png",
-    "sha256": "f03e167095a40bf3ba60c9fd1d43601fafc4961733e108514c74777b9248b27c",
-    "sizeBytes": 90284
-  },
-  {
-    "assetId": "AST-1547B1FA97479AA5",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-1547b1fa9747.png",
-    "sha256": "1547b1fa97479aa568e416217422c28df8aa860410a57a4e9d531984dc60468d",
-    "sizeBytes": 122504
-  },
-  {
     "assetId": "AST-63864AA624609F7B",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-63864aa62460.png",
     "sha256": "63864aa624609f7b2ab19a802da1899a8d1f53db3d4db377166f5670727bd001",
@@ -216,28 +126,10 @@
     "sizeBytes": 108345
   },
   {
-    "assetId": "AST-4868DDBC1AC245F7",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/attackshuttle__dial-4868ddbc1ac2.png",
-    "sha256": "4868ddbc1ac245f7724ccccdeac99b738aee76c6d2556effe96fc9c8518049c4",
-    "sizeBytes": 119357
-  },
-  {
     "assetId": "AST-6A9CD06506F45930",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-6a9cd06506f4.png",
     "sha256": "6a9cd06506f45930170e35e0eeecf26bdb8a558930fb19a36daf57ad53ca4421",
     "sizeBytes": 110169
-  },
-  {
-    "assetId": "AST-9ED4092318C35458",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/auzituckgunship__dial-9ed4092318c3.png",
-    "sha256": "9ed4092318c35458de74ec2839fd7967873912cb46fcb4ec0778d4e0fa913fac",
-    "sizeBytes": 121010
-  },
-  {
-    "assetId": "AST-25FE186CB024AACE",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/awing__dial-25fe186cb024.png",
-    "sha256": "25fe186cb024aaced414251d51759a5063b91a748c7f796ecfc1c7a2edd1772f",
-    "sizeBytes": 119035
   },
   {
     "assetId": "AST-BE942E68F55A3DE3",
@@ -252,22 +144,10 @@
     "sizeBytes": 108174
   },
   {
-    "assetId": "AST-93CA01CD4E8D3C52",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/bwing__dial-93ca01cd4e8d.png",
-    "sha256": "93ca01cd4e8d3c526f6d3c75174e8c565c26cd50b52e37af0e30f3c30b024d37",
-    "sizeBytes": 119010
-  },
-  {
     "assetId": "AST-1C99A9E18FD4D2B8",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-1c99a9e18fd4.png",
     "sha256": "1c99a9e18fd4d2b81613fa5b11d5d9935adbec17018599474a3aa5d61a122477",
     "sizeBytes": 108299
-  },
-  {
-    "assetId": "AST-999FC21E8733979E",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ewing__dial-999fc21e8733.png",
-    "sha256": "999fc21e8733979ef29e51516102d72a3018fa7ab8741c5443e21c724074b6b4",
-    "sizeBytes": 119057
   },
   {
     "assetId": "AST-ED0FF4E2CCEAA1EA",
@@ -276,28 +156,10 @@
     "sizeBytes": 108817
   },
   {
-    "assetId": "AST-F4408C9A7667D1C6",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/hwk290__dial-f4408c9a7667.png",
-    "sha256": "f4408c9a7667d1c651b9f69a429c63905a6b088fc86d2c32be3571df44a7b94d",
-    "sizeBytes": 119634
-  },
-  {
     "assetId": "AST-618B7B8BD178546E",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-618b7b8bd178.png",
     "sha256": "618b7b8bd178546e4524eae3155351fb7ca920ae83d6d0f19ec51cf3fb4a7baa",
     "sizeBytes": 108196
-  },
-  {
-    "assetId": "AST-E89504C5D2BC5424",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/kwing__dial-e89504c5d2bc.png",
-    "sha256": "e89504c5d2bc542465a1453e65e26a194d499519eed399033938d1e8c80fb5a1",
-    "sizeBytes": 119057
-  },
-  {
-    "assetId": "AST-713ACBDF9244A78E",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/scurrgh6bomber__dial-713acbdf9244.png",
-    "sha256": "713acbdf9244a78e8c43b75ebeddf4e63816cf99837777a983637682f3c5343b",
-    "sizeBytes": 120473
   },
   {
     "assetId": "AST-E6214398975A3801",
@@ -306,34 +168,16 @@
     "sizeBytes": 109584
   },
   {
-    "assetId": "AST-C7F1C19EFB24F1FD",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-88380281f09d.png",
-    "sha256": "c7f1c19efb24f1fd64fee86241dc8be1a0c6c26a4e18499091c331d82dcd9cdc",
-    "sizeBytes": 116667
-  },
-  {
     "assetId": "AST-F9D3CF0CE3A63CF0",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-f9d3cf0ce3a6.png",
     "sha256": "f9d3cf0ce3a63cf0a0e453a21cfddfa4b962ba56533dc639edca157b8ab83775",
     "sizeBytes": 121785
   },
   {
-    "assetId": "AST-8A0EE95D1FF4FDBA",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-8a0ee95d1ff4.png",
-    "sha256": "8a0ee95d1ff4fdbab1fa371064005a479127638e53ba877d594ae4c843ac8e8d",
-    "sizeBytes": 119190
-  },
-  {
     "assetId": "AST-FF9C58A42A7057D8",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/tiefighter__dial-ff9c58a42a70.png",
     "sha256": "ff9c58a42a7057d8aa7760ef2ebc17fd6b719ad1613067ff4de102a3fa59ea76",
     "sizeBytes": 108382
-  },
-  {
-    "assetId": "AST-DAB7FDFD1E4CDC64",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/uwing__dial-5959c9086c3a.png",
-    "sha256": "dab7fdfd1e4cdc646588771acbbac3f53273d623b248038fc95847a28fe9e375",
-    "sizeBytes": 112644
   },
   {
     "assetId": "AST-F0AED2263DC0929F",
@@ -348,22 +192,10 @@
     "sizeBytes": 108480
   },
   {
-    "assetId": "AST-887738B0F25AD99A",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/vcx100__dial-887738b0f25a.png",
-    "sha256": "887738b0f25ad99a3a61d452e6b4947b991dc567debcbd5abf30066a87f31150",
-    "sizeBytes": 119245
-  },
-  {
     "assetId": "AST-37CCA8D137982BDB",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-37cca8d13798.png",
     "sha256": "37cca8d137982bdb3f9b8c19c49f849feff9e342b6155110b94e6d8deb7db947",
     "sizeBytes": 108370
-  },
-  {
-    "assetId": "AST-D3A7B65A9E7EFF5F",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/xwing__dial-d3a7b65a9e7e.png",
-    "sha256": "d3a7b65a9e7eff5f88bbe8e7641b1b8effd1d233c5d6aed162eed46930d7a880",
-    "sizeBytes": 119106
   },
   {
     "assetId": "AST-1DA4323052E19AE3",
@@ -372,40 +204,16 @@
     "sizeBytes": 108310
   },
   {
-    "assetId": "AST-952B740239561696",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt1300__dial-952b74023956.png",
-    "sha256": "952b740239561696d145279250f6102a2856a7c6921cdb474ba9f9fbeaaf8abe",
-    "sizeBytes": 119148
-  },
-  {
-    "assetId": "AST-66D9E88CE1882E54",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt2400__dial-66d9e88ce188.png",
-    "sha256": "66d9e88ce1882e54df5609eef481b5e4b91bfb35a75ef8645c024bdd1799452a",
-    "sizeBytes": 119353
-  },
-  {
     "assetId": "AST-A4EB131D2624FF3C",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/yt2400__dial-a4eb131d2624.png",
     "sha256": "a4eb131d2624ff3c507b4377f4aabcb059c35017e91627c8d65d9be0136b4342",
     "sizeBytes": 108499
   },
   {
-    "assetId": "AST-723822E6306B2373",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ywing__dial-723822e6306b.png",
-    "sha256": "723822e6306b23733edfef77ab7749c3d4f4d9f2c40f8b2359e22dd373ae9fe1",
-    "sizeBytes": 119032
-  },
-  {
     "assetId": "AST-830A3F48E9926578",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/ywing__dial-830a3f48e992.png",
     "sha256": "830a3f48e99265783ccc02a18d4c8ac674fc488644dfeaf5fd795907112d7c6e",
     "sizeBytes": 108257
-  },
-  {
-    "assetId": "AST-1413F6BD2EFA0B73",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/rebelalliance/z95headhunter__dial-1413f6bd2efa.png",
-    "sha256": "1413f6bd2efa0b73c8b4cd9aa9a5b35c14eb3a70efcde4bdfd525f23dfc1396f",
-    "sizeBytes": 120551
   },
   {
     "assetId": "AST-F693F781152DB723",
@@ -432,28 +240,10 @@
     "sizeBytes": 108310
   },
   {
-    "assetId": "AST-AF224456B0E209F8",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/resistance/yt1300__dial-952b74023956.png",
-    "sha256": "af224456b0e209f805de53d35033a3e84f5fac89f7b23481b5574ef005724cf5",
-    "sizeBytes": 109477
-  },
-  {
-    "assetId": "AST-6C6A88092209980A",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/aggressor__dial-6c6a88092209.png",
-    "sha256": "6c6a88092209980a6f5b3bde22d0afaec7d9068aac508741d4a8f41367791f2f",
-    "sizeBytes": 111964
-  },
-  {
     "assetId": "AST-7BF1092954225FD0",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/aggressor__dial-7bf109295422.png",
     "sha256": "7bf1092954225fd0135cc11f92fa459603db1a1a01732e442be372f0527f71ba",
     "sizeBytes": 102240
-  },
-  {
-    "assetId": "AST-6B9AF7ED1B4EBE45",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/firespray31__dial-6b9af7ed1b4e.png",
-    "sha256": "6b9af7ed1b4ebe45b458aea89cfa74fe9e8f8ec5e2a5ac5ce9c0113088ea7fc0",
-    "sizeBytes": 111698
   },
   {
     "assetId": "AST-A521FDD01F3146F5",
@@ -468,22 +258,10 @@
     "sizeBytes": 102696
   },
   {
-    "assetId": "AST-C03C316B32F1D138",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/g1astarfighter__dial-c03c316b32f1.png",
-    "sha256": "c03c316b32f1d1382be166578b081878276b07be29a3d9754451a9e5a91d941d",
-    "sizeBytes": 112506
-  },
-  {
     "assetId": "AST-04CEBE59E29711D1",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-04cebe59e297.png",
     "sha256": "04cebe59e29711d13eff4feaa115a0a376f719cc24560b462eb3f0e696440354",
     "sizeBytes": 101915
-  },
-  {
-    "assetId": "AST-B91F1885EC87E8BE",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/hwk290__dial-b91f1885ec87.png",
-    "sha256": "b91f1885ec87e8be381c1046ea79a97e76f44ca29c14498e18b857cc31097f83",
-    "sizeBytes": 111436
   },
   {
     "assetId": "AST-05858FC90BADDE88",
@@ -492,40 +270,16 @@
     "sizeBytes": 102759
   },
   {
-    "assetId": "AST-48773AC05AB2670D",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/jumpmaster5000__dial-48773ac05ab2.png",
-    "sha256": "48773ac05ab2670de719f7511f52c8d0edc55bf3e80feb0de4a2f42b438ae33c",
-    "sizeBytes": 112448
-  },
-  {
-    "assetId": "AST-2BDA13575B46EF3B",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/kihraxzfighter__dial-2bda13575b46.png",
-    "sha256": "2bda13575b46ef3bd758403095b5891bf981f2d7ab81f2ce6b7b97307482d96f",
-    "sizeBytes": 112646
-  },
-  {
     "assetId": "AST-30B243B40A2A189A",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/kihraxzfighter__dial-30b243b40a2a.png",
     "sha256": "30b243b40a2a189a3a4a42b9a83bd23ee7263c0664ac589f48729d7d7df82566",
     "sizeBytes": 102835
   },
   {
-    "assetId": "AST-91BBD789135FB8A2",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/lancerclasspursuitcraft__dial-91bbd789135f.png",
-    "sha256": "91bbd789135fb8a2ed05b754990c5a8f468c7ed29bf41aefcdad61e5b2c18307",
-    "sizeBytes": 112429
-  },
-  {
     "assetId": "AST-A168CF15B0947289",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/lancerclasspursuitcraft__dial-a168cf15b094.png",
     "sha256": "a168cf15b094728942c8d7cb91ec28e0a091dc02c11722588c987a8b9937d1e7",
     "sizeBytes": 102755
-  },
-  {
-    "assetId": "AST-75726B5521951B19",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m12lkimogilafighter__dial-75726b552195.png",
-    "sha256": "75726b5521951b19587b2c55aee52acf30c42c838d221a64821a26995a151955",
-    "sizeBytes": 110743
   },
   {
     "assetId": "AST-BF07C94D6F495E8A",
@@ -540,22 +294,10 @@
     "sizeBytes": 102728
   },
   {
-    "assetId": "AST-E10259CECCCCE740",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/m3ainterceptor__dial-e10259cecccc.png",
-    "sha256": "e10259cecccce740215eba3aee3aee2b69f19fd06d6d69a4a993a479c4e26819",
-    "sizeBytes": 112294
-  },
-  {
     "assetId": "AST-1DA4E16BCB7F7932",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-1da4e16bcb7f.png",
     "sha256": "1da4e16bcb7f7932b5aa01b65119567033095862e91a571aa8a47b34b5a3038c",
     "sizeBytes": 102727
-  },
-  {
-    "assetId": "AST-DE58B65901EDF566",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/protectoratestarfighter__dial-de58b65901ed.png",
-    "sha256": "de58b65901edf56683da1096749712f5546b00c89ab72489335857daed6d551a",
-    "sizeBytes": 112523
   },
   {
     "assetId": "AST-4CC5CB8515DC638F",
@@ -564,28 +306,10 @@
     "sizeBytes": 101502
   },
   {
-    "assetId": "AST-96488F2FA6952627",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/quadjumper__dial-96488f2fa695.png",
-    "sha256": "96488f2fa6952627364951843e35c1048388bca97ff1a95b877c72f9781a5a5f",
-    "sizeBytes": 110995
-  },
-  {
     "assetId": "AST-4EEB41563190AC4F",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-4eeb41563190.png",
     "sha256": "4eeb41563190ac4f81576b092020717331a6ded55dd5c0045f2f2550ea1a5ac1",
     "sizeBytes": 102178
-  },
-  {
-    "assetId": "AST-C99A4E48F9CCF89C",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/scurrgh6bomber__dial-c99a4e48f9cc.png",
-    "sha256": "c99a4e48f9ccf89c75ba08d0b4e7575938dc2bbe2d881c0970ca29c3075afbdf",
-    "sizeBytes": 112045
-  },
-  {
-    "assetId": "AST-D13B612076C02570",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/starviper__dial-d13b612076c0.png",
-    "sha256": "d13b612076c025704576b4b14c206d3b5919722aefc2ab5988919e356c283804",
-    "sizeBytes": 111765
   },
   {
     "assetId": "AST-DB598857BB0483A0",
@@ -594,22 +318,10 @@
     "sizeBytes": 102123
   },
   {
-    "assetId": "AST-B729AD620C73E4C3",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/yv666__dial-b729ad620c73.png",
-    "sha256": "b729ad620c73e4c3fa5df1b1b8a9b33a0110ee42fccd6e73d8a433f2d66abbce",
-    "sizeBytes": 110957
-  },
-  {
     "assetId": "AST-EEF322FF64E81D78",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/yv666__dial-eef322ff64e8.png",
     "sha256": "eef322ff64e81d78c6e42b4b8e3c24973a455bbec368a7541b89ede1e73ca9f4",
     "sizeBytes": 101547
-  },
-  {
-    "assetId": "AST-3EF730A2903F1792",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/ywing__dial-3ef730a2903f.png",
-    "sha256": "3ef730a2903f17925b0279ad4d648b3cd73a13a7f8f3e21a0aefa79b4f5983fe",
-    "sizeBytes": 111044
   },
   {
     "assetId": "AST-CEDCF6106DA7FEB9",
@@ -622,12 +334,6 @@
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-772fb38f675a.png",
     "sha256": "772fb38f675a49bb8cf6d51b28f20fa71f713efe74e72638556b43a39802083b",
     "sizeBytes": 102540
-  },
-  {
-    "assetId": "AST-82BCBB25A397EB2B",
-    "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-82bcbb25a397.png",
-    "sha256": "82bcbb25a397eb2b43c8b501a68c3b90f71a6ded079e094005b0d8e1e1ec0764",
-    "sizeBytes": 112133
   },
   {
     "assetId": "AST-328D4B0ECF80F3AA",

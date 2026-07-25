@@ -35,6 +35,7 @@ public static class StandardiseFirstEditionDialsCommand
             Console.WriteLine($"Resize required:            {result.ResizeRequired}");
             Console.WriteLine($"Generated:                  {result.Generated}");
             Console.WriteLine($"Unchanged outputs:          {result.UnchangedOutputs}");
+            Console.WriteLine($"Stale outputs removed:      {result.StaleOutputsRemoved}");
             Console.WriteLine($"Warnings:                   {result.Warnings}");
             Console.WriteLine($"Errors:                     {result.Errors}");
             Console.WriteLine();
