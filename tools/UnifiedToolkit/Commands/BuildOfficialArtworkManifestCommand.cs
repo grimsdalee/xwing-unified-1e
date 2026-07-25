@@ -23,6 +23,31 @@ public static class BuildOfficialArtworkManifestCommand
         @"(?<separator>[-_.\s])(?<side>front|back|fore|aft|reverse|rear|side[-_.\s]?[ab])$",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant | RegexOptions.Compiled);
 
+    private static readonly IReadOnlyDictionary<string, UpgradeArtworkPair> DoubleSidedUpgradePairs =
+        new Dictionary<string, UpgradeArtworkPair>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["adaptability"] = new("adaptability-increase", "adaptability-decrease"),
+            ["arccaster"] = new("arc-caster", "arc-caster-recharging"),
+            ["intensity"] = new("intensity", "intensity-exhausted"),
+            ["pivotwing"] = new("pivot-wing-attack", "pivot-wing-landing"),
+            ["servomotorsfoils"] = new("servomotor-s-foils-attack", "servomotor-s-foils-closed")
+        };
+
+    private static readonly IReadOnlyDictionary<string, string> UpgradePrintingArtwork =
+        new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            ["millenniumfalcon-swx57"] = "millennium-falcon-hotr"
+        };
+
+
+    private static readonly IReadOnlyDictionary<string, string> PilotPrintingArtwork =
+        new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            // Heroes of the Resistance Poe Dameron is a distinct PS9 pilot
+            // printing, not alternate artwork for the Core Set PS8 pilot.
+            ["poedameron-swx57"] = "poe-dameron-hotr"
+        };
+
     public static int Run(string[] args)
     {
         if (args.Length < 1)
@@ -94,7 +119,8 @@ public static class BuildOfficialArtworkManifestCommand
             Console.WriteLine($"Pilot definitions:      {pilots.Count}");
             Console.WriteLine($"Pilot images:           {pilotImages.Count}");
             Console.WriteLine($"Pilot entries matched:  {pilotEntries.Count(entry => entry.Status == "Matched")}");
-            Console.WriteLine($"Epic fore/aft entries:  {pilotEntries.Count(entry => entry.CardStructure == "ForeAft")}");
+            Console.WriteLine($"Epic fore section cards:{pilotEntries.Count(entry => entry.CardStructure == "EpicFore"),4}");
+            Console.WriteLine($"Epic aft section cards: {pilotEntries.Count(entry => entry.CardStructure == "EpicAft"),4}");
             Console.WriteLine();
             Console.WriteLine($"Upgrade definitions:    {upgrades.Count}");
             Console.WriteLine($"Upgrade images:         {upgradeImages.Count}");
@@ -124,7 +150,9 @@ public static class BuildOfficialArtworkManifestCommand
         IReadOnlyList<OfficialArtworkImage> images)
     {
         var definitions = pilots
-            .GroupBy(pilot => $"{Normalise(pilot.Id)}|{Normalise(pilot.ShipId)}|{Normalise(pilot.Faction)}", StringComparer.OrdinalIgnoreCase)
+            .GroupBy(
+                pilot => $"{Normalise(pilot.Id)}|{Normalise(pilot.ShipId)}|{Normalise(pilot.Faction)}",
+                StringComparer.OrdinalIgnoreCase)
             .Select(group => group.First())
             .ToList();
 
@@ -132,11 +160,12 @@ public static class BuildOfficialArtworkManifestCommand
 
         foreach (var pilot in definitions)
         {
-            var matches = images
-                .Where(image => MatchesPilot(image, pilot))
+            var matches = MatchPilotImages(pilot, images)
                 .OrderBy(image => SideOrder(image.Side))
                 .ThenBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
                 .ToList();
+
+            var isEpicSection = TryGetEpicSection(pilot, out var section);
 
             result.Add(new OfficialPilotArtworkEntry
             {
@@ -144,39 +173,118 @@ public static class BuildOfficialArtworkManifestCommand
                 Name = pilot.Name,
                 ShipId = pilot.ShipId,
                 Faction = pilot.Faction,
-                CardStructure = ClassifyPilotStructure(matches),
-                Status = matches.Count == 0 ? "Missing" : matches.Count <= 2 ? "Matched" : "Ambiguous",
+                CardStructure = isEpicSection
+                    ? $"Epic{section}"
+                    : "SingleCard",
+                Status = matches.Count switch
+                {
+                    0 => "Missing",
+                    1 => "Matched",
+                    _ => "Ambiguous"
+                },
                 Images = matches
-            });
-        }
-
-        // Huge ship section cards do not always have ordinary pilot definitions.
-        foreach (var group in images
-                     .Where(image => image.Side is "Fore" or "Aft")
-                     .GroupBy(image => $"{Normalise(image.FactionFolder)}|{Normalise(image.EntityFolder)}", StringComparer.OrdinalIgnoreCase))
-        {
-            var groupImages = group.OrderBy(image => SideOrder(image.Side)).ToList();
-            if (result.Any(entry => entry.Images.Any(image => groupImages.Any(candidate => candidate.RepositoryPath.Equals(image.RepositoryPath, StringComparison.OrdinalIgnoreCase)))))
-                continue;
-
-            result.Add(new OfficialPilotArtworkEntry
-            {
-                Id = Normalise(groupImages[0].EntityFolder),
-                Name = groupImages[0].EntityFolder,
-                ShipId = Normalise(groupImages[0].EntityFolder),
-                Faction = Normalise(groupImages[0].FactionFolder),
-                CardStructure = "ForeAft",
-                Status = groupImages.Any(image => image.Side == "Fore") && groupImages.Any(image => image.Side == "Aft")
-                    ? "Matched"
-                    : "Ambiguous",
-                Images = groupImages
             });
         }
 
         return result
             .OrderBy(entry => entry.Name, StringComparer.OrdinalIgnoreCase)
             .ThenBy(entry => entry.ShipId, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(entry => entry.Id, StringComparer.OrdinalIgnoreCase)
             .ToList();
+    }
+
+    private static IEnumerable<OfficialArtworkImage> MatchPilotImages(
+        FirstEditionDataPilot pilot,
+        IReadOnlyList<OfficialArtworkImage> images)
+    {
+        var pilotIdentity = Normalise(pilot.Id);
+        var expectedStem = PilotPrintingArtwork.TryGetValue(
+            pilot.Id,
+            out var printingStem)
+            ? Normalise(printingStem)
+            : pilotIdentity.Equals("poedameronswx57", StringComparison.OrdinalIgnoreCase)
+                ? Normalise("poe-dameron-hotr")
+                : pilotIdentity;
+
+        var exact = images.Where(image =>
+            PilotFolderMatches(image, pilot)
+            && image.NormalisedBaseStem.Equals(
+                expectedStem,
+                StringComparison.OrdinalIgnoreCase));
+
+        if (exact.Any())
+            return exact;
+
+        var normalisedName = Normalise(pilot.Name);
+        var byName = images.Where(image =>
+            PilotFolderMatches(image, pilot)
+            && image.NormalisedBaseStem.Equals(
+                normalisedName,
+                StringComparison.OrdinalIgnoreCase));
+
+        if (byName.Any())
+            return byName;
+
+        if (TryGetEpicSection(pilot, out var section))
+        {
+            return images.Where(image =>
+                PilotFolderMatches(image, pilot)
+                && image.Side.Equals(section, StringComparison.OrdinalIgnoreCase));
+        }
+
+        return Array.Empty<OfficialArtworkImage>();
+    }
+
+    private static bool PilotFolderMatches(
+        OfficialArtworkImage image,
+        FirstEditionDataPilot pilot)
+    {
+        var faction = Normalise(pilot.Faction);
+        var shipId = NormaliseEpicSectionShipId(pilot.ShipId);
+
+        if (!string.IsNullOrWhiteSpace(image.FactionFolder)
+            && !FactionEquivalent(Normalise(image.FactionFolder), faction))
+            return false;
+
+        return string.IsNullOrWhiteSpace(image.EntityFolder)
+            || EquivalentToken(Normalise(image.EntityFolder), shipId);
+    }
+
+    private static string NormaliseEpicSectionShipId(string shipId)
+    {
+        var value = Normalise(shipId);
+
+        return value switch
+        {
+            "cr90corvettefore" or "cr90corvetteaft" => "cr90corvette",
+            "raiderclasscorvettefore" or "raiderclasscorvetteaft" => "raiderclasscorvette",
+            _ => value
+        };
+    }
+
+    private static bool TryGetEpicSection(
+        FirstEditionDataPilot pilot,
+        out string section)
+    {
+        // Do not use a generic EndsWith("aft") test here:
+        // ordinary pilot identities such as "Backdraft" also end in "aft".
+        // Epic section cards are explicit, finite semantic identities.
+        var id = Normalise(pilot.Id);
+
+        if (id is "cr90corvettefore" or "raiderclasscorvettefore")
+        {
+            section = "Fore";
+            return true;
+        }
+
+        if (id is "cr90corvetteaft" or "raiderclasscorvetteaft")
+        {
+            section = "Aft";
+            return true;
+        }
+
+        section = string.Empty;
+        return false;
     }
 
     private static List<OfficialUpgradeArtworkEntry> BuildUpgradeEntries(
@@ -187,38 +295,44 @@ public static class BuildOfficialArtworkManifestCommand
 
         foreach (var upgrade in upgrades)
         {
-            var id = Normalise(upgrade.Id);
-            var name = Normalise(upgrade.Name);
+            var normalisedId = Normalise(upgrade.Id);
+            var slot = Normalise(upgrade.Slot);
+
+            if (DoubleSidedUpgradePairs.TryGetValue(normalisedId, out var pair))
+            {
+                result.Add(BuildDoubleSidedEntry(upgrade, images, pair));
+                continue;
+            }
+
+            var expectedStem = UpgradePrintingArtwork.TryGetValue(
+                upgrade.Id,
+                out var printingStem)
+                ? Normalise(printingStem)
+                : normalisedId;
 
             var matches = images
                 .Where(image =>
-                    image.NormalisedBaseStem.Equals(id, StringComparison.OrdinalIgnoreCase)
-                    || image.NormalisedBaseStem.Equals(name, StringComparison.OrdinalIgnoreCase))
-                .OrderBy(image => SideOrder(image.Side))
-                .ThenBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
+                    SlotEquivalent(image.EntityFolder, slot)
+                    && image.NormalisedBaseStem.Equals(
+                        expectedStem,
+                        StringComparison.OrdinalIgnoreCase))
+                .OrderBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
                 .ToList();
 
-            var front = matches.Where(image => image.Side is "Front" or "Primary").ToList();
-            var back = matches.Where(image => image.Side is "Back" or "Reverse").ToList();
-            var unidentified = matches.Where(image => image.Side == "Unspecified").ToList();
-
-            string structure;
-            string status;
-
+            // Some older source definitions use an unsuffixed semantic ID while
+            // the image stem is derived from the display name. Use this only
+            // when exact ID + slot matching produced no result.
             if (matches.Count == 0)
             {
-                structure = "Missing";
-                status = "Missing";
-            }
-            else if (HasRecognisedPair(front, back, unidentified, matches))
-            {
-                structure = "DoubleSided";
-                status = matches.Count <= 2 ? "Matched" : "Ambiguous";
-            }
-            else
-            {
-                structure = "SingleSided";
-                status = matches.Count == 1 ? "Matched" : "Ambiguous";
+                var normalisedName = Normalise(upgrade.Name);
+                matches = images
+                    .Where(image =>
+                        SlotEquivalent(image.EntityFolder, slot)
+                        && image.NormalisedBaseStem.Equals(
+                            normalisedName,
+                            StringComparison.OrdinalIgnoreCase))
+                    .OrderBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
+                    .ToList();
             }
 
             result.Add(new OfficialUpgradeArtworkEntry
@@ -226,10 +340,15 @@ public static class BuildOfficialArtworkManifestCommand
                 Id = upgrade.Id,
                 Name = upgrade.Name,
                 Slot = upgrade.Slot,
-                CardStructure = structure,
-                Status = status,
-                FrontImage = SelectFront(matches),
-                BackImage = SelectBack(matches),
+                CardStructure = matches.Count == 0 ? "Missing" : "SingleSided",
+                Status = matches.Count switch
+                {
+                    0 => "Missing",
+                    1 => "Matched",
+                    _ => "Ambiguous"
+                },
+                FrontImage = matches.Count == 1 ? matches[0] : null,
+                BackImage = null,
                 Images = matches
             });
         }
@@ -237,53 +356,114 @@ public static class BuildOfficialArtworkManifestCommand
         return result
             .OrderBy(entry => entry.Name, StringComparer.OrdinalIgnoreCase)
             .ThenBy(entry => entry.Slot, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(entry => entry.Id, StringComparer.OrdinalIgnoreCase)
             .ToList();
     }
 
-    private static bool HasRecognisedPair(
-        IReadOnlyCollection<OfficialArtworkImage> front,
-        IReadOnlyCollection<OfficialArtworkImage> back,
-        IReadOnlyCollection<OfficialArtworkImage> unidentified,
-        IReadOnlyCollection<OfficialArtworkImage> all)
+    private static OfficialUpgradeArtworkEntry BuildDoubleSidedEntry(
+        FirstEditionDataUpgrade upgrade,
+        IReadOnlyList<OfficialArtworkImage> images,
+        UpgradeArtworkPair pair)
     {
-        if (front.Count == 1 && back.Count == 1)
-            return true;
+        var slot = Normalise(upgrade.Slot);
+        var frontStem = Normalise(pair.FrontStem);
+        var backStem = Normalise(pair.BackStem);
 
-        if (back.Count == 1 && unidentified.Count == 1 && all.Count == 2)
-            return true;
+        var frontMatches = images
+            .Where(image =>
+                SlotEquivalent(image.EntityFolder, slot)
+                && image.NormalisedBaseStem.Equals(
+                    frontStem,
+                    StringComparison.OrdinalIgnoreCase))
+            .OrderBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
+            .ToList();
 
-        return false;
+        var backMatches = images
+            .Where(image =>
+                SlotEquivalent(image.EntityFolder, slot)
+                && image.NormalisedBaseStem.Equals(
+                    backStem,
+                    StringComparison.OrdinalIgnoreCase))
+            .OrderBy(image => image.RepositoryPath, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        var all = frontMatches
+            .Concat(backMatches)
+            .GroupBy(
+                image => image.SourceRelativePath,
+                StringComparer.OrdinalIgnoreCase)
+            .Select(group => group.First())
+            .ToList();
+
+        var matched = frontMatches.Count == 1 && backMatches.Count == 1;
+        var missing = frontMatches.Count == 0 || backMatches.Count == 0;
+
+        return new OfficialUpgradeArtworkEntry
+        {
+            Id = upgrade.Id,
+            Name = upgrade.Name,
+            Slot = upgrade.Slot,
+            CardStructure = "DoubleSided",
+            Status = matched
+                ? "Matched"
+                : missing
+                    ? "Missing"
+                    : "Ambiguous",
+            FrontImage = frontMatches.Count == 1
+                ? MarkSide(frontMatches[0], "Front")
+                : null,
+            BackImage = backMatches.Count == 1
+                ? MarkSide(backMatches[0], "Back")
+                : null,
+            Images = all
+                .Select(image =>
+                    image.SourceRelativePath.Equals(
+                        frontMatches.FirstOrDefault()?.SourceRelativePath,
+                        StringComparison.OrdinalIgnoreCase)
+                        ? MarkSide(image, "Front")
+                        : image.SourceRelativePath.Equals(
+                            backMatches.FirstOrDefault()?.SourceRelativePath,
+                            StringComparison.OrdinalIgnoreCase)
+                            ? MarkSide(image, "Back")
+                            : image)
+                .OrderBy(image => SideOrder(image.Side))
+                .ToList()
+        };
     }
 
-    private static OfficialArtworkImage? SelectFront(IReadOnlyList<OfficialArtworkImage> matches) =>
-        matches.FirstOrDefault(image => image.Side == "Front")
-        ?? matches.FirstOrDefault(image => image.Side == "Primary")
-        ?? matches.FirstOrDefault(image => image.Side == "Unspecified");
+    private static OfficialArtworkImage MarkSide(
+        OfficialArtworkImage image,
+        string side) =>
+        new()
+        {
+            AssetKey = image.AssetKey,
+            RepositoryPath = image.RepositoryPath,
+            SourceRelativePath = image.SourceRelativePath,
+            FactionFolder = image.FactionFolder,
+            EntityFolder = image.EntityFolder,
+            FileName = image.FileName,
+            BaseStem = image.BaseStem,
+            NormalisedBaseStem = image.NormalisedBaseStem,
+            Side = side
+        };
 
-    private static OfficialArtworkImage? SelectBack(IReadOnlyList<OfficialArtworkImage> matches) =>
-        matches.FirstOrDefault(image => image.Side == "Back")
-        ?? matches.FirstOrDefault(image => image.Side == "Reverse");
-
-    private static bool MatchesPilot(OfficialArtworkImage image, FirstEditionDataPilot pilot)
+    private static bool SlotEquivalent(string imageFolder, string upgradeSlot)
     {
-        var pilotId = Normalise(pilot.Id);
-        var pilotName = Normalise(pilot.Name);
-        var shipId = Normalise(pilot.ShipId);
-        var faction = Normalise(pilot.Faction);
+        var folder = Normalise(imageFolder);
+        var slot = Normalise(upgradeSlot);
 
-        if (!string.IsNullOrWhiteSpace(image.FactionFolder)
-            && !FactionEquivalent(Normalise(image.FactionFolder), faction))
-            return false;
+        if (folder.Equals(slot, StringComparison.OrdinalIgnoreCase))
+            return true;
 
-        if (!string.IsNullOrWhiteSpace(image.EntityFolder)
-            && !EquivalentToken(Normalise(image.EntityFolder), shipId))
-            return false;
-
-        return image.NormalisedBaseStem.Equals(pilotId, StringComparison.OrdinalIgnoreCase)
-            || image.NormalisedBaseStem.Equals(pilotName, StringComparison.OrdinalIgnoreCase)
-            || (image.NormalisedBaseStem.Equals(shipId, StringComparison.OrdinalIgnoreCase)
-                && image.Side is "Fore" or "Aft");
+        return (folder, slot) switch
+        {
+            ("elite", "talent") or ("talent", "elite") => true,
+            ("astromech", "amd") or ("amd", "astromech") => true,
+            ("salvagedastromech", "salvagedastromech") => true,
+            _ => false
+        };
     }
+
 
     private static bool FactionEquivalent(string left, string right)
     {
@@ -448,7 +628,8 @@ public static class BuildOfficialArtworkManifestCommand
         writer.WriteLine($"- Upgrade definitions: **{manifest.UpgradeDefinitionCount}**");
         writer.WriteLine($"- Upgrade images: **{manifest.UpgradeImageCount}**");
         writer.WriteLine($"- Double-sided upgrade cards: **{manifest.UpgradeEntries.Count(entry => entry.CardStructure == "DoubleSided")}**");
-        writer.WriteLine($"- Fore/aft Epic card entries: **{manifest.PilotEntries.Count(entry => entry.CardStructure == "ForeAft")}**");
+        writer.WriteLine($"- Epic fore section cards: **{manifest.PilotEntries.Count(entry => entry.CardStructure == "EpicFore")}**");
+        writer.WriteLine($"- Epic aft section cards: **{manifest.PilotEntries.Count(entry => entry.CardStructure == "EpicAft")}**");
         writer.WriteLine($"- Unassigned pilot images: **{manifest.UnassignedPilotImages.Count}**");
         writer.WriteLine($"- Unassigned upgrade images: **{manifest.UnassignedUpgradeImages.Count}**");
         writer.WriteLine();
@@ -461,14 +642,16 @@ public static class BuildOfficialArtworkManifestCommand
             foreach (var entry in doubleSided)
                 writer.WriteLine($"- **{entry.Name}** — `{entry.FrontImage?.SourceRelativePath}` / `{entry.BackImage?.SourceRelativePath}`");
         writer.WriteLine();
-        writer.WriteLine("## Epic fore/aft cards");
+        writer.WriteLine("## Epic section cards");
         writer.WriteLine();
-        var foreAft = manifest.PilotEntries.Where(entry => entry.CardStructure == "ForeAft").ToList();
-        if (foreAft.Count == 0)
+        var epicSections = manifest.PilotEntries
+            .Where(entry => entry.CardStructure is "EpicFore" or "EpicAft")
+            .ToList();
+        if (epicSections.Count == 0)
             writer.WriteLine("None.");
         else
-            foreach (var entry in foreAft)
-                writer.WriteLine($"- **{entry.Name}** — {string.Join(", ", entry.Images.Select(image => $"`{image.SourceRelativePath}`"))}");
+            foreach (var entry in epicSections)
+                writer.WriteLine($"- **{entry.Name}** ({entry.CardStructure[4..]}) — {string.Join(", ", entry.Images.Select(image => $"`{image.SourceRelativePath}`"))}");
         writer.WriteLine();
         writer.WriteLine("Ambiguous and unassigned images remain in the JSON/CSV reports for review. The command never merges images silently.");
     }
@@ -485,6 +668,10 @@ public static class BuildOfficialArtworkManifestCommand
         Console.WriteLine("  build-official-artwork-manifest <first-edition-repository> [xwing-data-folder] [--output <folder>]");
     }
 }
+
+public sealed record UpgradeArtworkPair(
+    string FrontStem,
+    string BackStem);
 
 public sealed class OfficialArtworkManifest
 {
