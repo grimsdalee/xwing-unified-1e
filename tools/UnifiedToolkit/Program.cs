@@ -88,6 +88,13 @@ return command switch
     "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
     "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
     "build-official-artwork-manifest" => BuildOfficialArtworkManifestCommand.Run(commandArgs),
+    "prepare-standard-first-edition-runtime-data" => PrepareStandardFirstEditionRuntimeDataCommand.Run(commandArgs),
+    "analyse-runtime-action-codes" => AnalyseRuntimeActionCodesCommand.Run(commandArgs),
+    "generate-standard-first-edition-runtime-payloads" => GenerateStandardFirstEditionRuntimePayloadsCommand.Run(commandArgs),
+    "prepare-first-edition-maneuver-icons" => PrepareFirstEditionManeuverIconsCommand.Run(commandArgs),
+    "build-first-edition-maneuver-icon-library" => BuildFirstEditionManeuverIconLibraryCommand.Run(commandArgs),
+    "register-first-edition-maneuver-icons" => RegisterFirstEditionManeuverIconsCommand.Run(commandArgs),
+    "build-first-edition-dial-runtime" => BuildFirstEditionDialRuntimeCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -173,6 +180,13 @@ static void ShowHelp()
     Console.WriteLine("  import-official-first-edition-pilots <first-edition-repo-folder> <xwing-data-folder> [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  audit-official-first-edition-content <first-edition-repo-folder> [xwing-data-folder] [mapping-folder] [--output <folder>]");
     Console.WriteLine("  build-official-artwork-manifest <first-edition-repo-folder> [xwing-data-folder] [--output <folder>]");
+    Console.WriteLine("  prepare-standard-first-edition-runtime-data <first-edition-repo-folder> [xwing-data-folder] [mapping-folder] [--output <folder>]");
+    Console.WriteLine("  analyse-runtime-action-codes <first-edition-repo-folder> [--runtime-data <file>] [--output <folder>]");
+    Console.WriteLine("  generate-standard-first-edition-runtime-payloads <first-edition-repo-folder> [--runtime-data <file>] [--action-analysis <file>] [--output <folder>]");
+    Console.WriteLine("  prepare-first-edition-maneuver-icons <first-edition-repo-folder> [--runtime-payloads <file>] [--output <folder>] [--inventory-only]");
+    Console.WriteLine("  build-first-edition-maneuver-icon-library <first-edition-repo-folder> [--runtime-data <file>] [--output <folder>] [--validate-only]");
+    Console.WriteLine("  register-first-edition-maneuver-icons <first-edition-repo-folder> [--icon-library <file>] [--runtime-data <file>] [--output <folder>]");
+    Console.WriteLine("  build-first-edition-dial-runtime <first-edition-repo-folder> [--icon-contract <file>] [--asset-base-url <url>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

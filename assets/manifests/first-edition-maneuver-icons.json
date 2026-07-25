@@ -1,0 +1,489 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-25T18:50:17.3143149+00:00",
+  "assetRole": "FirstEditionManeuverIcon",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "sourceManifest": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase12a/maneuver-icon-library/first-edition-maneuver-icon-library.json",
+  "assetCount": 26,
+  "assets": [
+    {
+      "assetId": "FE-MANEUVER-5F7979A72DB26D0F",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "green:bank-left",
+      "shape": "BankLeft",
+      "difficulty": "Green",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+      "fileName": "bank-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "84A1614494B79C96DAD9B6E9C9ACD0A107B7D7D283EE0EC4F4E50D7639CB1702",
+      "sourceCodes": [
+        "1BG",
+        "2BG",
+        "3BG"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-E7F918035C628849",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "green:bank-right",
+      "shape": "BankRight",
+      "difficulty": "Green",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+      "fileName": "bank-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "47E56943D76155BD7919C57467519C23E9A27C682955B63D05D9CDBC3A340E3C",
+      "sourceCodes": [
+        "1NG",
+        "2NG",
+        "3NG"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-909D6828D19DC593",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "green:straight",
+      "shape": "Straight",
+      "difficulty": "Green",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/straight.png",
+      "fileName": "straight.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "64DC0C6E8F17B058A5DDEAB48BBE3150B9D02E794F85C022DD7D09E6C6F2FBDA",
+      "sourceCodes": [
+        "1FG",
+        "2FG",
+        "3FG",
+        "4FG",
+        "5FG"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-E5F16DCF496F6B4E",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "green:turn-left",
+      "shape": "TurnLeft",
+      "difficulty": "Green",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+      "fileName": "turn-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "56DD1CB40CAA13EBB38C906B08B8B8FC7515DE1384F49A08EBBC9FA1A5A98599",
+      "sourceCodes": [
+        "1TG",
+        "2TG",
+        "3TG"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-9C7A799B9D177308",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "green:turn-right",
+      "shape": "TurnRight",
+      "difficulty": "Green",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+      "fileName": "turn-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "F9CBEB9D3AA4C0C75E1BFFFE6EC1B09C2C81C1B48A99843CC90F46070D023B07",
+      "sourceCodes": [
+        "1YG",
+        "2YG",
+        "3YG"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-10A0F6493646B299",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:bank-left",
+      "shape": "BankLeft",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+      "fileName": "bank-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "B4DDE1A2DB70F3F079F3B2B7A21C4503FE874BED7B92708BAF64C43625473D9E",
+      "sourceCodes": [
+        "3BR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-432A8C33EB603DA4",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:bank-right",
+      "shape": "BankRight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+      "fileName": "bank-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "7E79F8F172B4512AEEC90A1A4FFD07038F4B08C0E8267F2EF100BA744DD9A23F",
+      "sourceCodes": [
+        "3NR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-09A7829CC6019368",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:koiogran-turn",
+      "shape": "KoiogranTurn",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+      "fileName": "koiogran-turn.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "A2236B0BF507B7B6C9ED587873B2F3B88D8F501744CA5F2F768FE07141E9BECD",
+      "sourceCodes": [
+        "2KR",
+        "3KR",
+        "4KR",
+        "5KR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-53418D14D448C2C5",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:reverse-bank-left",
+      "shape": "ReverseBankLeft",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+      "fileName": "reverse-bank-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "518A5B5C6612F47287A7B2513F0A095D926EB67AEDB36C2DFE56A931631B4185",
+      "sourceCodes": [
+        "1AR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-2EDD3598A00E2A77",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:reverse-bank-right",
+      "shape": "ReverseBankRight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+      "fileName": "reverse-bank-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "556ECF7E0F1B447296BC31994C2F974F4D086113815D24416B60744EA7F0A321",
+      "sourceCodes": [
+        "1DR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-F09BF0A7E107FF53",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:reverse-straight",
+      "shape": "ReverseStraight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+      "fileName": "reverse-straight.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "2037638CEF33778ADCF8ED9394777518ED2EFCEE404E5EF198C840D7AD819EA3",
+      "sourceCodes": [
+        "1SR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-A8EA95890E0C40B7",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:segnors-loop-left",
+      "shape": "SegnorsLoopLeft",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+      "fileName": "segnors-loop-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "7C9B2F2C9B93F90D9803FE950B0E783CADFA8DC19F4569AA7A4886B5E78594C7",
+      "sourceCodes": [
+        "1LR",
+        "2LR",
+        "3LR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-C07C7DFD865E3F89",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:segnors-loop-right",
+      "shape": "SegnorsLoopRight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+      "fileName": "segnors-loop-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "5EC7D2E34364E0FF168F0C100857BAE82BF2AD728E2851FE751298B480885178",
+      "sourceCodes": [
+        "2RR",
+        "3RR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-E132F45D558E2DFF",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:stop",
+      "shape": "Stop",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/stop.png",
+      "fileName": "stop.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "E4CA8F00DD13A7EC9FE40E4A6F394CAC6C0CDC3F4ADA198F5BE037B9DF8D5EF3",
+      "sourceCodes": [
+        "0OR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-9C78AB805481C868",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:straight",
+      "shape": "Straight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/straight.png",
+      "fileName": "straight.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "3C2FF1B1B62854A7C5DA39586B4AC91751F586346095CD81DCF8FFD2604601F3",
+      "sourceCodes": [
+        "4FR",
+        "5FR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-D2DEEB0F0B70D289",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:tallon-roll-left",
+      "shape": "TallonRollLeft",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+      "fileName": "tallon-roll-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "90CDC2832E8874CA7F786232A588E1E80A221F6EB35989357A280D53DC80EE72",
+      "sourceCodes": [
+        "2ER",
+        "3ER"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-93C0761628B24848",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:tallon-roll-right",
+      "shape": "TallonRollRight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+      "fileName": "tallon-roll-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "D33348E30FEDB2FCEC468EA12EC21BE3F80B3147D9E4F91BEED2D9A7982BA091",
+      "sourceCodes": [
+        "1PR",
+        "2PR",
+        "3PR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-0DE7F682157731EB",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:turn-left",
+      "shape": "TurnLeft",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+      "fileName": "turn-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "AEB6CEB8EAF0095A08EBEA0416E233B164E7DA0D177A4851C26A822763CF6EC2",
+      "sourceCodes": [
+        "1TR",
+        "2TR",
+        "3TR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-6048A3B4107A72D0",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "red:turn-right",
+      "shape": "TurnRight",
+      "difficulty": "Red",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+      "fileName": "turn-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "D2E094DD56A25DC6748AF6E001E2F9468B43A4901B46EB5CF8C57BDDE32B4AF3",
+      "sourceCodes": [
+        "1YR",
+        "2YR",
+        "3YR"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-F23B8478D0A365B9",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:bank-left",
+      "shape": "BankLeft",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+      "fileName": "bank-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "AA64C5C1254089685AD2B889D169E965A2C5178502D66F8B642E12824A626F3C",
+      "sourceCodes": [
+        "1BW",
+        "2BW",
+        "3BW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-FC7FA57C5EFFFA31",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:bank-right",
+      "shape": "BankRight",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+      "fileName": "bank-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "690FFB169B39B2173083F101B8440B65E788D9F3A6B4439A70EC9521A5C148D4",
+      "sourceCodes": [
+        "1NW",
+        "2NW",
+        "3NW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-D035792883505D88",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:koiogran-turn",
+      "shape": "KoiogranTurn",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+      "fileName": "koiogran-turn.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "04612BF12C20CC082E2BB13843A7A67E484188A24488F35FB1EBBDEDAF02A8CB",
+      "sourceCodes": [
+        "4KW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-D3BA72815A85F7F9",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:segnors-loop-left",
+      "shape": "SegnorsLoopLeft",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+      "fileName": "segnors-loop-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "D58BEC8B3F92564AEE162388859E6B9577A2886D1500C441CC5AA96AB53F8575",
+      "sourceCodes": [
+        "2LW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-EBCD68595F707FFF",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:straight",
+      "shape": "Straight",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/straight.png",
+      "fileName": "straight.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "27FFB7E1D59D1D075AC25E3FBF79A216B4B5C32D2084837A56D28EFE38972A8E",
+      "sourceCodes": [
+        "1FW",
+        "3FW",
+        "4FW",
+        "5FW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-BB8F03BBDBBD2CEC",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:turn-left",
+      "shape": "TurnLeft",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+      "fileName": "turn-left.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "F3FE880A6C5D71D7E23C3871658A034B642F91979530FA784C03A1C3EED4BAD4",
+      "sourceCodes": [
+        "1TW",
+        "2TW",
+        "3TW"
+      ]
+    },
+    {
+      "assetId": "FE-MANEUVER-347BCE3844163063",
+      "assetRole": "FirstEditionManeuverIcon",
+      "semanticKey": "white:turn-right",
+      "shape": "TurnRight",
+      "difficulty": "White",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
+      "fileName": "turn-right.png",
+      "width": 400,
+      "height": 400,
+      "pngColourType": 6,
+      "hasTransparency": true,
+      "sha256": "614E4FA708716AD83A81D2E79E1A62F2FCB1A66C08142E4FD181564122460B8C",
+      "sourceCodes": [
+        "1YW",
+        "2YW",
+        "3YW"
+      ]
+    }
+  ]
+}
