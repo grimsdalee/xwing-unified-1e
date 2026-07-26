@@ -100,6 +100,7 @@ return command switch
     "catalogue-ship-peg-assets" => CatalogueShipPegAssetsCommand.Run(commandArgs),
     "extract-runtime-templates" => ExtractRuntimeTemplatesCommand.Run(commandArgs),
     "generate-prototype-save" => GeneratePrototypeSaveCommand.Run(commandArgs),
+    "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -197,6 +198,7 @@ static void ShowHelp()
     Console.WriteLine("  catalogue-ship-peg-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  extract-runtime-templates <first-edition-repo-folder> <tts-save.json> [--peg-catalogue <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  generate-prototype-save <first-edition-repo-folder> <reference-save.json> [--assembly-plan <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <file>]");
+    Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
 }
 
 static int UnknownCommand(string command)

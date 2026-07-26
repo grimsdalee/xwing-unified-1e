@@ -3,6 +3,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
+using SkiaSharp;
 
 namespace UnifiedToolkit.Commands;
 
@@ -117,7 +118,7 @@ public static class GeneratePrototypeSaveCommand
 
             var outputSave = referenceSave.DeepClone().AsObject();
             outputSave["SaveName"] =
-                "X-Wing Unified 1E - Phase 12C R3 Geometry and Artwork Prototype";
+                "X-Wing Unified 1E - Phase 12C R4 Token and Dial Artwork Prototype";
             outputSave["Date"] = DateTime.UtcNow.ToString("yyyy-MM-dd");
 
             // The full Unified Global runtime expects the complete original
@@ -151,7 +152,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12C-2-R3-Fix2",
+                ImplementationVersion = "12C-3-R4-Fix1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -162,7 +163,7 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "StaticVisualPrototype-R3-GeometryArtwork"
+                RuntimeMode = "StaticVisualPrototype-R4-TokenDialArtwork"
             };
 
             var manifestPath = Path.Combine(
@@ -182,7 +183,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12C-2 R3 Fix 2 Asset URL Scope");
+            Console.WriteLine("Implementation:          12C-3 R4 Fix 1 SkiaSharp Compatibility");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -296,6 +297,13 @@ public static class GeneratePrototypeSaveCommand
         var textureUrl = AssetUrl(assetBaseUrl, texture.RepositoryPath);
         var tokenUrl = AssetUrl(assetBaseUrl, pilotToken.RepositoryPath);
         var cardUrl = AssetUrl(assetBaseUrl, pilotCard.RepositoryPath);
+
+        dialTexture = PublishCircularDialTexture(
+            repositoryRoot,
+            assembly,
+            dialTexture,
+            diagnostics);
+
         var dialUrl = AssetUrl(assetBaseUrl, dialTexture.RepositoryPath);
         var pegUrl = pegTemplate.AssetUrl.Length > 0
             ? pegTemplate.AssetUrl
@@ -468,8 +476,8 @@ public static class GeneratePrototypeSaveCommand
         var scale = assembly.BaseSize.Equals(
             "large",
             StringComparison.OrdinalIgnoreCase)
-            ? 0.84
-            : 0.42;
+            ? 2.0
+            : 1.0;
 
         return new JsonObject
         {
@@ -478,7 +486,7 @@ public static class GeneratePrototypeSaveCommand
             ["Transform"] = new JsonObject
             {
                 ["posX"] = 0.0,
-                ["posY"] = 0.10,
+                ["posY"] = 0.52,
                 ["posZ"] = 0.0,
                 ["rotX"] = 0.0,
                 ["rotY"] = 180.0,
@@ -800,7 +808,7 @@ public static class GeneratePrototypeSaveCommand
                 ["scaleY"] = 0.99999994,
                 ["scaleZ"] = 1.0
             },
-            ["Nickname"] = "Ship",
+            ["Nickname"] = $"{assembly.PilotName} — {assembly.ShipName}",
             ["Description"] = assembly.ShipName,
             ["ColorDiffuse"] = OpaqueWhite(),
             ["Locked"] = false,
@@ -934,6 +942,120 @@ public static class GeneratePrototypeSaveCommand
             ["XmlUI"] = string.Empty
         };
     }
+
+    private static PrototypeAssetInput PublishCircularDialTexture(
+        string repositoryRoot,
+        PrototypeAssemblyInput assembly,
+        PrototypeAssetInput dialTexture,
+        ICollection<string> diagnostics)
+    {
+        ValidateFile(
+            dialTexture.FullPath,
+            $"{assembly.ShipName} dial texture");
+
+        using var source = SKBitmap.Decode(dialTexture.FullPath)
+            ?? throw new InvalidDataException(
+                $"Could not decode dial texture: {dialTexture.FullPath}");
+
+        var size = Math.Min(source.Width, source.Height);
+        var sourceX = (source.Width - size) / 2;
+        var sourceY = (source.Height - size) / 2;
+
+        using var output = new SKBitmap(
+            new SKImageInfo(
+                size,
+                size,
+                SKColorType.Rgba8888,
+                SKAlphaType.Premul));
+
+        using (var canvas = new SKCanvas(output))
+        {
+            canvas.Clear(SKColors.Transparent);
+
+            using var clipPath = new SKPath();
+            clipPath.AddCircle(
+                size / 2f,
+                size / 2f,
+                size / 2f - 1f);
+
+            canvas.Save();
+            canvas.ClipPath(
+                clipPath,
+                SKClipOperation.Intersect,
+                antialias: true);
+
+            var sourceRect = new SKRectI(
+                sourceX,
+                sourceY,
+                sourceX + size,
+                sourceY + size);
+            var destinationRect = new SKRect(
+                0,
+                0,
+                size,
+                size);
+
+            using var paint = new SKPaint
+            {
+                IsAntialias = true,
+                FilterQuality = SKFilterQuality.High
+            };
+
+            canvas.DrawBitmap(
+                source,
+                sourceRect,
+                destinationRect,
+                paint);
+            canvas.Restore();
+        }
+
+        var factionFolder = NormaliseIdentifier(assembly.Faction);
+        var shipFolder = NormaliseIdentifier(assembly.ShipId);
+
+        var destination = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "PrototypeDialTexture",
+            factionFolder,
+            shipFolder,
+            "dial-transparent.png");
+
+        Directory.CreateDirectory(
+            Path.GetDirectoryName(destination)!);
+
+        using var image = SKImage.FromBitmap(output);
+        using var encoded = image.Encode(
+            SKEncodedImageFormat.Png,
+            100);
+        using var stream = File.Create(destination);
+        encoded.SaveTo(stream);
+
+        var relative = NormalisePath(
+            Path.GetRelativePath(
+                repositoryRoot,
+                destination));
+
+        diagnostics.Add(
+            $"{assembly.ShipName} dial artwork published with transparent " +
+            $"circular exterior: {relative}. Commit and push this generated " +
+            "file before loading the R4 save in TTS.");
+
+        return new PrototypeAssetInput
+        {
+            Role = dialTexture.Role,
+            AssetId = dialTexture.AssetId,
+            RepositoryPath = relative,
+            FullPath = destination,
+            Exists = true
+        };
+    }
+
+    private static string NormaliseIdentifier(string value) =>
+        new((value ?? string.Empty)
+            .ToLowerInvariant()
+            .Where(char.IsLetterOrDigit)
+            .ToArray());
 
     private static PrototypeAssetInput PublishPrototypeTexture(
         string repositoryRoot,
@@ -1403,7 +1525,7 @@ public static class GeneratePrototypeSaveCommand
                 "assets",
                 "generated",
                 "prototypes",
-                "XWing-1E-Phase12C-R3-Geometry-Artwork-Prototype-Save.json")
+                "XWing-1E-Phase12C-R4-Token-Dial-Prototype-Save.json")
             : Path.GetFullPath(explicitPath);
     }
 
@@ -1464,7 +1586,7 @@ public static class GeneratePrototypeSaveCommand
             new UTF8Encoding(false));
 
         writer.WriteLine(
-            "# Phase 12C-2 – R3 Geometry and Artwork Prototype Save");
+            "# Phase 12C-3 – R4 Token and Dial Artwork Prototype Save");
         writer.WriteLine();
         writer.WriteLine(
             $"Output: `{manifest.OutputSave}`");
