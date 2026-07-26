@@ -1,0 +1,19 @@
+
+   TypeName: System.Management.Automation.PSCustomObject
+
+Name                       MemberType   Definition
+----                       ----------   ----------
+Equals                     Method       bool Equals(System.Object obj)
+GetHashCode                Method       int GetHashCode()
+GetType                    Method       type GetType()
+ToString                   Method       string ToString()
+destinationRoot            NoteProperty string destinationRoot=C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e
+dryRun                     NoteProperty bool dryRun=False
+entries                    NoteProperty Object[] entries=System.Object[]
+firstEditionRepositoryRoot NoteProperty string firstEditionRepositoryRoot=C:/Users/Evan/Documents/GitHub/xwing-unified-1e
+generatedUtc               NoteProperty datetime generatedUtc=18/07/2026 15:33:00
+legacySavePath             NoteProperty string legacySavePath=C:/Users/Evan/Documents/GitHub/xwing-unified-1e/source/legacy-1e/3302209318.json
+referenceCount             NoteProperty long referenceCount=12087
+schemaVersion              NoteProperty string schemaVersion=1.0.0
+uniqueUrlCount             NoteProperty long uniqueUrlCount=954
+
