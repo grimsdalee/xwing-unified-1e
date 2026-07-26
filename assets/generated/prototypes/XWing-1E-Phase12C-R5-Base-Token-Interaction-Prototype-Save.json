@@ -542,7 +542,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/small/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
@@ -570,7 +570,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,
@@ -964,7 +964,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/small/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
@@ -992,7 +992,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,
@@ -1290,7 +1290,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/small/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
@@ -1318,7 +1318,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,
@@ -1712,7 +1712,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/small/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/galacticempire/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
@@ -1740,7 +1740,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,
@@ -2041,7 +2041,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/large/base.obj?1",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/scumandvillainy/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Large_base_Collider.obj",
         "Convex": true,
@@ -2069,7 +2069,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,
@@ -2367,7 +2367,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/ships-v2/bases/small/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/plain-black.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
@@ -2395,7 +2395,7 @@
           "Name": "Custom_Tile",
           "Transform": {
             "posX": 0,
-            "posY": 0.07,
+            "posY": 0.24,
             "posZ": 0,
             "rotX": 0,
             "rotY": 0,

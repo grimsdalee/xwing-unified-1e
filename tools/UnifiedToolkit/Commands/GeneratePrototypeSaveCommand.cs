@@ -152,7 +152,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12C-4-R5-Fix1",
+                ImplementationVersion = "12C-4-R5-Fix2",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -183,7 +183,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12C-4 R5 Fix 1 Diagnostics Scope");
+            Console.WriteLine("Implementation:          12C-4 R5 Fix 2 Faction Base and Token Height");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -393,9 +393,10 @@ public static class GeneratePrototypeSaveCommand
         var customMesh = EnsureObject(
             baseObject,
             "CustomMesh");
-        customMesh["DiffuseURL"] = PublishPlainBaseTexture(
+        customMesh["DiffuseURL"] = PublishFactionBaseTexture(
             repositoryRoot,
             assetBaseUrl,
+            assembly,
             diagnostics);
 
         var childObjects = new JsonArray
@@ -498,7 +499,7 @@ public static class GeneratePrototypeSaveCommand
             ["Transform"] = new JsonObject
             {
                 ["posX"] = 0.0,
-                ["posY"] = 0.07,
+                ["posY"] = 0.24,
                 ["posZ"] = 0.0,
                 ["rotX"] = 0.0,
                 ["rotY"] = 0.0,
@@ -988,30 +989,42 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
-    private static string PublishPlainBaseTexture(
+    private static string PublishFactionBaseTexture(
         string repositoryRoot,
         string assetBaseUrl,
+        PrototypeAssemblyInput assembly,
         ICollection<string> diagnostics)
     {
+        var factionId = NormaliseIdentifier(assembly.Faction);
+
+        var colour = factionId switch
+        {
+            "galacticempire" => new SKColor(38, 67, 91, 255),
+            "firstorder" => new SKColor(62, 62, 68, 255),
+            "scumandvillainy" => new SKColor(105, 84, 24, 255),
+            "resistance" => new SKColor(125, 76, 25, 255),
+            _ => new SKColor(105, 24, 30, 255)
+        };
+
         var destination = Path.Combine(
             repositoryRoot,
             "assets",
             "generated",
             "PrototypeBaseTexture",
-            "plain-black.png");
+            factionId,
+            "plain-faction.png");
 
         Directory.CreateDirectory(
             Path.GetDirectoryName(destination)!);
 
-        if (!File.Exists(destination))
+        using (var bitmap = new SKBitmap(
+                   new SKImageInfo(
+                       16,
+                       16,
+                       SKColorType.Rgba8888,
+                       SKAlphaType.Premul)))
         {
-            using var bitmap = new SKBitmap(
-                new SKImageInfo(
-                    16,
-                    16,
-                    SKColorType.Rgba8888,
-                    SKAlphaType.Premul));
-            bitmap.Erase(new SKColor(8, 8, 8, 255));
+            bitmap.Erase(colour);
 
             using var image = SKImage.FromBitmap(bitmap);
             using var encoded = image.Encode(
@@ -1019,16 +1032,17 @@ public static class GeneratePrototypeSaveCommand
                 100);
             using var stream = File.Create(destination);
             encoded.SaveTo(stream);
-
-            diagnostics.Add(
-                "Generated plain base texture to hide the remaining 2.5 " +
-                "base-top artwork. Commit and push the generated file.");
         }
 
         var relative = NormalisePath(
             Path.GetRelativePath(
                 repositoryRoot,
                 destination));
+
+        diagnostics.Add(
+            $"{assembly.Faction} plain faction-colour base texture published: " +
+            $"{relative}. Commit and push this generated file before loading " +
+            "the updated R5 save.");
 
         return AssetUrl(assetBaseUrl, relative);
     }
