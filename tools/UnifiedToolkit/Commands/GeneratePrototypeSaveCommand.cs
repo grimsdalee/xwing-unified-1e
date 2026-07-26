@@ -118,7 +118,7 @@ public static class GeneratePrototypeSaveCommand
 
             var outputSave = referenceSave.DeepClone().AsObject();
             outputSave["SaveName"] =
-                "X-Wing Unified 1E - Phase 12C R5 Base Token and Interaction Prototype";
+                "X-Wing Unified 1E - Phase 12D R6 First Edition Card and Dial Backs Prototype";
             outputSave["Date"] = DateTime.UtcNow.ToString("yyyy-MM-dd");
 
             // The full Unified Global runtime expects the complete original
@@ -152,7 +152,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12C-4-R5-Fix2",
+                ImplementationVersion = "12D-1-R6",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -163,7 +163,7 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "StaticVisualPrototype-R5-BaseTokenInteraction"
+                RuntimeMode = "StaticVisualPrototype-R6-FirstEditionCardDialBacks"
             };
 
             var manifestPath = Path.Combine(
@@ -183,7 +183,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12C-4 R5 Fix 2 Faction Base and Token Height");
+            Console.WriteLine("Implementation:          12D-1 R6 First Edition Card and Dial Backs");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -228,7 +228,8 @@ public static class GeneratePrototypeSaveCommand
         var dialTemplate = BuildStaticDialToken(
             dialGuid: string.Empty,
             assembly,
-            dialTextureUrl: string.Empty);
+            dialTextureUrl: string.Empty,
+            dialBackUrl: string.Empty);
 
         var baseGuid = NextGuid(
             assembly.PackageId + ":base",
@@ -311,6 +312,13 @@ public static class GeneratePrototypeSaveCommand
             diagnostics);
 
         var dialUrl = AssetUrl(assetBaseUrl, dialTexture.RepositoryPath);
+
+        var dialBackUrl = PublishFactionDialBack(
+            repositoryRoot,
+            assetBaseUrl,
+            assembly,
+            diagnostics);
+
         var pegUrl = pegTemplate.AssetUrl.Length > 0
             ? pegTemplate.AssetUrl
             : AssetUrl(assetBaseUrl, pegTemplate.RepositoryPath);
@@ -337,9 +345,12 @@ public static class GeneratePrototypeSaveCommand
             dialGuid,
             baseGuid,
             assembly,
-            dialUrl);
+            dialUrl,
+            dialBackUrl);
 
         var cardObject = BuildPilotCard(
+            repositoryRoot,
+            assetBaseUrl,
             cardGuid,
             assembly,
             cardUrl);
@@ -649,7 +660,8 @@ public static class GeneratePrototypeSaveCommand
     private static JsonObject BuildStaticDialToken(
         string dialGuid,
         PrototypeAssemblyInput assembly,
-        string dialTextureUrl)
+        string dialTextureUrl,
+        string dialBackUrl)
     {
         return new JsonObject
         {
@@ -685,7 +697,7 @@ public static class GeneratePrototypeSaveCommand
             ["CustomImage"] = new JsonObject
             {
                 ["ImageURL"] = dialTextureUrl,
-                ["ImageSecondaryURL"] = string.Empty,
+                ["ImageSecondaryURL"] = dialBackUrl,
                 ["ImageScalar"] = 1.0,
                 ["WidthScale"] = 0.0,
                 ["CustomToken"] = new JsonObject
@@ -725,20 +737,51 @@ public static class GeneratePrototypeSaveCommand
             $"assets/ships-v2/bases/{baseFolder}/front/{factionFile}";
     }
 
-    private static string ResolvePilotCardBackUrl(string faction)
+    private static string ResolvePilotCardBackUrl(
+        string repositoryRoot,
+        string assetBaseUrl,
+        string faction)
     {
-        var fileName = faction.ToLowerInvariant() switch
+        var relativePath = faction.ToLowerInvariant() switch
         {
-            "galacticempire" => "Empireback.png",
-            "firstorder" => "FOback.png",
-            "scumandvillainy" => "Scumback.png",
-            "resistance" => "Resback.jpg",
-            _ => "Rebelback.png"
+            "firstorder" =>
+                "assets/source/legacy1e-non-pilot/" +
+                "steamusercontent-a.akamaihd.net/other/" +
+                "asset__5116e93fe5cbf393.png",
+
+            "galacticempire" =>
+                "assets/source/legacy1e-non-pilot/" +
+                "steamusercontent-a.akamaihd.net/images/" +
+                "asset__1ca546de0b098648.png",
+
+            "rebelalliance" =>
+                "assets/source/legacy1e-non-pilot/" +
+                "steamusercontent-a.akamaihd.net/images/" +
+                "asset__08124f6a69f3b2a3.png",
+
+            "resistance" =>
+                "assets/source/legacy1e-non-pilot/" +
+                "steamusercontent-a.akamaihd.net/images/" +
+                "asset__2d891250284c8a5b.jpg",
+
+            "scumandvillainy" =>
+                "assets/source/legacy1e-non-pilot/" +
+                "steamusercontent-a.akamaihd.net/images/" +
+                "asset__54724d9056f5f36a.png",
+
+            _ => throw new InvalidDataException(
+                $"No First Edition pilot-card back is registered for faction '{faction}'.")
         };
 
-        return
-            "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/" +
-            "assets/textures/cardback/" + fileName;
+        var fullPath = Path.Combine(
+            repositoryRoot,
+            relativePath.Replace('/', Path.DirectorySeparatorChar));
+
+        ValidateFile(
+            fullPath,
+            $"{faction} First Edition pilot-card back");
+
+        return AssetUrl(assetBaseUrl, relativePath);
     }
 
     private static JsonObject BuildPegChild(
@@ -871,13 +914,15 @@ public static class GeneratePrototypeSaveCommand
         string dialGuid,
         string baseGuid,
         PrototypeAssemblyInput assembly,
-        string dialTextureUrl)
+        string dialTextureUrl,
+        string dialBackUrl)
     {
         dialObject.Clear();
         var replacement = BuildStaticDialToken(
             dialGuid,
             assembly,
-            dialTextureUrl);
+            dialTextureUrl,
+            dialBackUrl);
 
         foreach (var property in replacement)
             dialObject[property.Key] = property.Value?.DeepClone();
@@ -900,6 +945,8 @@ public static class GeneratePrototypeSaveCommand
     }
 
     private static JsonObject BuildPilotCard(
+        string repositoryRoot,
+        string assetBaseUrl,
         string guid,
         PrototypeAssemblyInput assembly,
         string cardUrl)
@@ -939,6 +986,8 @@ public static class GeneratePrototypeSaveCommand
             {
                 ["ImageURL"] = cardUrl,
                 ["ImageSecondaryURL"] = ResolvePilotCardBackUrl(
+                    repositoryRoot,
+                    assetBaseUrl,
                     assembly.Faction),
                 ["ImageScalar"] = 1.0,
                 ["WidthScale"] = 0.0,
@@ -987,6 +1036,87 @@ public static class GeneratePrototypeSaveCommand
             FullPath = fullPath,
             Exists = true
         };
+    }
+
+    private static string PublishFactionDialBack(
+        string repositoryRoot,
+        string assetBaseUrl,
+        PrototypeAssemblyInput assembly,
+        ICollection<string> diagnostics)
+    {
+        var factionId = NormaliseIdentifier(assembly.Faction);
+
+        var colour = factionId switch
+        {
+            "galacticempire" => new SKColor(50, 58, 66, 255),
+            "firstorder" => new SKColor(43, 43, 48, 255),
+            "scumandvillainy" => new SKColor(96, 76, 34, 255),
+            "resistance" => new SKColor(116, 73, 38, 255),
+            _ => new SKColor(92, 43, 48, 255)
+        };
+
+        const int size = 512;
+        var destination = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "FirstEditionDialBack",
+            factionId,
+            "dial-back.png");
+
+        Directory.CreateDirectory(
+            Path.GetDirectoryName(destination)!);
+
+        using (var bitmap = new SKBitmap(
+                   new SKImageInfo(
+                       size,
+                       size,
+                       SKColorType.Rgba8888,
+                       SKAlphaType.Premul)))
+        using (var canvas = new SKCanvas(bitmap))
+        {
+            canvas.Clear(SKColors.Transparent);
+
+            using var fillPaint = new SKPaint
+            {
+                IsAntialias = true,
+                Color = colour,
+                Style = SKPaintStyle.Fill
+            };
+
+            using var rimPaint = new SKPaint
+            {
+                IsAntialias = true,
+                Color = new SKColor(
+                    (byte)Math.Max(0, colour.Red - 18),
+                    (byte)Math.Max(0, colour.Green - 18),
+                    (byte)Math.Max(0, colour.Blue - 18),
+                    255),
+                Style = SKPaintStyle.Stroke,
+                StrokeWidth = 18
+            };
+
+            var centre = size / 2f;
+            var radius = size / 2f - 10f;
+
+            canvas.DrawCircle(centre, centre, radius, fillPaint);
+            canvas.DrawCircle(centre, centre, radius - 8f, rimPaint);
+
+            using var image = SKImage.FromBitmap(bitmap);
+            using var encoded = image.Encode(SKEncodedImageFormat.Png, 100);
+            using var stream = File.Create(destination);
+            encoded.SaveTo(stream);
+        }
+
+        var relative = NormalisePath(
+            Path.GetRelativePath(repositoryRoot, destination));
+
+        diagnostics.Add(
+            $"{assembly.Faction} faction-colour First Edition dial back " +
+            $"published: {relative}. Commit and push this generated file " +
+            "before loading the R6 save.");
+
+        return AssetUrl(assetBaseUrl, relative);
     }
 
     private static string PublishFactionBaseTexture(
@@ -1708,7 +1838,7 @@ public static class GeneratePrototypeSaveCommand
                 "assets",
                 "generated",
                 "prototypes",
-                "XWing-1E-Phase12C-R5-Base-Token-Interaction-Prototype-Save.json")
+                "XWing-1E-Phase12D-R6-Card-Dial-Backs-Prototype-Save.json")
             : Path.GetFullPath(explicitPath);
     }
 
@@ -1769,7 +1899,7 @@ public static class GeneratePrototypeSaveCommand
             new UTF8Encoding(false));
 
         writer.WriteLine(
-            "# Phase 12C-4 – R5 Base Token and Interaction Prototype Save");
+            "# Phase 12D-1 – R6 First Edition Card and Dial Backs Prototype Save");
         writer.WriteLine();
         writer.WriteLine(
             $"Output: `{manifest.OutputSave}`");
