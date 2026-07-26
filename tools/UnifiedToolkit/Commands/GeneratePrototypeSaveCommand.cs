@@ -118,7 +118,7 @@ public static class GeneratePrototypeSaveCommand
 
             var outputSave = referenceSave.DeepClone().AsObject();
             outputSave["SaveName"] =
-                "X-Wing Unified 1E - Phase 12C R4 Token and Dial Artwork Prototype";
+                "X-Wing Unified 1E - Phase 12C R5 Base Token and Interaction Prototype";
             outputSave["Date"] = DateTime.UtcNow.ToString("yyyy-MM-dd");
 
             // The full Unified Global runtime expects the complete original
@@ -152,7 +152,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12C-3-R4-Fix1",
+                ImplementationVersion = "12C-4-R5-Fix1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -163,7 +163,7 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "StaticVisualPrototype-R4-TokenDialArtwork"
+                RuntimeMode = "StaticVisualPrototype-R5-BaseTokenInteraction"
             };
 
             var manifestPath = Path.Combine(
@@ -183,7 +183,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12C-3 R4 Fix 1 SkiaSharp Compatibility");
+            Console.WriteLine("Implementation:          12C-4 R5 Fix 1 Diagnostics Scope");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -261,6 +261,12 @@ public static class GeneratePrototypeSaveCommand
         var pilotCard = RequireAsset(assembly, "PilotCard");
         var dialTexture = RequireAsset(assembly, "DialTexture");
 
+        model = CorrectKnownPrototypeShipModel(
+            repositoryRoot,
+            assembly,
+            model,
+            diagnostics);
+
         model = CorrectXWingMultipartModel(
             repositoryRoot,
             assembly,
@@ -322,7 +328,9 @@ public static class GeneratePrototypeSaveCommand
             tokenGuid,
             openConfigGuid,
             closedConfigGuid,
-            assetBaseUrl);
+            assetBaseUrl,
+            repositoryRoot,
+            diagnostics);
 
         ConfigureDial(
             dialTemplate,
@@ -357,10 +365,12 @@ public static class GeneratePrototypeSaveCommand
         string tokenGuid,
         string openConfigGuid,
         string closedConfigGuid,
-        string assetBaseUrl)
+        string assetBaseUrl,
+        string repositoryRoot,
+        ICollection<string> diagnostics)
     {
         baseObject["GUID"] = baseGuid;
-        baseObject["Nickname"] = string.Empty;
+        baseObject["Nickname"] = $"{assembly.PilotName} — {assembly.ShipName}";
         baseObject["Description"] =
             $"Phase 12B structural prototype\n" +
             $"Ship: {assembly.ShipName}\n" +
@@ -368,7 +378,8 @@ public static class GeneratePrototypeSaveCommand
             $"Base: {assembly.BaseTemplateKey}\n" +
             $"Peg: {assembly.PegTemplateKey}";
 
-        baseObject["Tooltip"] = false;
+        baseObject["Tooltip"] = true;
+        baseObject["Locked"] = false;
 
         // TS_Save_42 confirms that both standard Small and Large spawned
         // base objects use the same parent scale and resting height.
@@ -382,9 +393,10 @@ public static class GeneratePrototypeSaveCommand
         var customMesh = EnsureObject(
             baseObject,
             "CustomMesh");
-        customMesh["DiffuseURL"] = ResolveNeutralBaseTexture(
-            assembly,
-            assetBaseUrl);
+        customMesh["DiffuseURL"] = PublishPlainBaseTexture(
+            repositoryRoot,
+            assetBaseUrl,
+            diagnostics);
 
         var childObjects = new JsonArray
         {
@@ -486,10 +498,10 @@ public static class GeneratePrototypeSaveCommand
             ["Transform"] = new JsonObject
             {
                 ["posX"] = 0.0,
-                ["posY"] = 0.52,
+                ["posY"] = 0.07,
                 ["posZ"] = 0.0,
                 ["rotX"] = 0.0,
-                ["rotY"] = 180.0,
+                ["rotY"] = 0.0,
                 ["rotZ"] = 0.0,
                 ["scaleX"] = scale,
                 ["scaleY"] = 1.0,
@@ -943,6 +955,84 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    private static PrototypeAssetInput UseKnownTexture(
+        string repositoryRoot,
+        PrototypeAssemblyInput assembly,
+        PrototypeAssetInput current,
+        string relativePath,
+        string sourceDescription,
+        ICollection<string> diagnostics)
+    {
+        var fullPath = Path.Combine(
+            repositoryRoot,
+            relativePath.Replace('/', Path.DirectorySeparatorChar));
+        ValidateFile(fullPath, $"{assembly.ShipName} reference texture");
+
+        if (!current.RepositoryPath.Equals(
+                relativePath,
+                StringComparison.OrdinalIgnoreCase))
+        {
+            diagnostics.Add(
+                $"{assembly.ShipName} ShipTexture corrected using " +
+                $"{sourceDescription}: {current.RepositoryPath} -> " +
+                $"{relativePath}");
+        }
+
+        return new PrototypeAssetInput
+        {
+            Role = current.Role,
+            AssetId = current.AssetId,
+            RepositoryPath = relativePath,
+            FullPath = fullPath,
+            Exists = true
+        };
+    }
+
+    private static string PublishPlainBaseTexture(
+        string repositoryRoot,
+        string assetBaseUrl,
+        ICollection<string> diagnostics)
+    {
+        var destination = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "PrototypeBaseTexture",
+            "plain-black.png");
+
+        Directory.CreateDirectory(
+            Path.GetDirectoryName(destination)!);
+
+        if (!File.Exists(destination))
+        {
+            using var bitmap = new SKBitmap(
+                new SKImageInfo(
+                    16,
+                    16,
+                    SKColorType.Rgba8888,
+                    SKAlphaType.Premul));
+            bitmap.Erase(new SKColor(8, 8, 8, 255));
+
+            using var image = SKImage.FromBitmap(bitmap);
+            using var encoded = image.Encode(
+                SKEncodedImageFormat.Png,
+                100);
+            using var stream = File.Create(destination);
+            encoded.SaveTo(stream);
+
+            diagnostics.Add(
+                "Generated plain base texture to hide the remaining 2.5 " +
+                "base-top artwork. Commit and push the generated file.");
+        }
+
+        var relative = NormalisePath(
+            Path.GetRelativePath(
+                repositoryRoot,
+                destination));
+
+        return AssetUrl(assetBaseUrl, relative);
+    }
+
     private static PrototypeAssetInput PublishCircularDialTexture(
         string repositoryRoot,
         PrototypeAssemblyInput assembly,
@@ -997,8 +1087,7 @@ public static class GeneratePrototypeSaveCommand
 
             using var paint = new SKPaint
             {
-                IsAntialias = true,
-                FilterQuality = SKFilterQuality.High
+                IsAntialias = true
             };
 
             canvas.DrawBitmap(
@@ -1105,12 +1194,92 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    private static PrototypeAssetInput CorrectKnownPrototypeShipModel(
+        string repositoryRoot,
+        PrototypeAssemblyInput assembly,
+        PrototypeAssetInput model,
+        ICollection<string> diagnostics)
+    {
+        string? relative = null;
+
+        if (assembly.ShipId.Equals(
+                "kwing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/medium/" +
+                "btls8kwing/kwing.obj";
+        }
+        else if (assembly.ShipId.Equals(
+                     "sheathipedeclassshuttle",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "sheathipedeclassshuttle/Sheathipede2.obj";
+        }
+
+        if (relative is null)
+            return model;
+
+        var fullPath = Path.Combine(
+            repositoryRoot,
+            relative.Replace('/', Path.DirectorySeparatorChar));
+        ValidateFile(fullPath, $"{assembly.ShipName} reference model");
+
+        if (!model.RepositoryPath.Equals(
+                relative,
+                StringComparison.OrdinalIgnoreCase))
+        {
+            diagnostics.Add(
+                $"{assembly.ShipName} ShipModel corrected from TS_Save_43: " +
+                $"{model.RepositoryPath} -> {relative}");
+        }
+
+        return new PrototypeAssetInput
+        {
+            Role = model.Role,
+            AssetId = model.AssetId,
+            RepositoryPath = relative,
+            FullPath = fullPath,
+            Exists = true
+        };
+    }
+
     private static PrototypeAssetInput CorrectPrototypeShipTexture(
         string repositoryRoot,
         PrototypeAssemblyInput assembly,
         PrototypeAssetInput texture,
         ICollection<string> diagnostics)
     {
+        if (assembly.ShipId.Equals(
+                "kwing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return UseKnownTexture(
+                repositoryRoot,
+                assembly,
+                texture,
+                "assets/source/unified25/assets/ships-v2/medium/" +
+                "btls8kwing/Textures/MirandaDoni.png",
+                "TS_Save_43 red/white default",
+                diagnostics);
+        }
+
+        if (assembly.ShipId.Equals(
+                "sheathipedeclassshuttle",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return UseKnownTexture(
+                repositoryRoot,
+                assembly,
+                texture,
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "sheathipedeclassshuttle/Textures/standard.jpg",
+                "TS_Save_43 model-compatible standard",
+                diagnostics);
+        }
+
         if (assembly.ShipId.Equals("xwing", StringComparison.OrdinalIgnoreCase)
             || assembly.ShipId.Equals("t65xwing", StringComparison.OrdinalIgnoreCase))
         {
@@ -1525,7 +1694,7 @@ public static class GeneratePrototypeSaveCommand
                 "assets",
                 "generated",
                 "prototypes",
-                "XWing-1E-Phase12C-R4-Token-Dial-Prototype-Save.json")
+                "XWing-1E-Phase12C-R5-Base-Token-Interaction-Prototype-Save.json")
             : Path.GetFullPath(explicitPath);
     }
 
@@ -1586,7 +1755,7 @@ public static class GeneratePrototypeSaveCommand
             new UTF8Encoding(false));
 
         writer.WriteLine(
-            "# Phase 12C-3 – R4 Token and Dial Artwork Prototype Save");
+            "# Phase 12C-4 – R5 Base Token and Interaction Prototype Save");
         writer.WriteLine();
         writer.WriteLine(
             $"Output: `{manifest.OutputSave}`");
