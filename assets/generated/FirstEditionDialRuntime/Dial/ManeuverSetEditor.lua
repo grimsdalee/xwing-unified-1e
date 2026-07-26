@@ -13,7 +13,6 @@ local DISABLED_COLOR = "#333333"
 local RED_COLOR = "#8f2020"
 local WHITE_COLOR = "#777777"
 local GREEN_COLOR = "#269b3fff"
-local PURPLE_COLOR = "#d000b3"
 local ICON_ON = "#ffffffff"
 local ICON_OFF = "#666666aa"
 local SPEED_ASSET_BASE_URL = "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/maneuvers/"
@@ -26,32 +25,32 @@ local ASSET_FILES = {
     Speed4 = SPEED_ASSET_BASE_URL .. "v4.png",
     Speed5 = SPEED_ASSET_BASE_URL .. "v5.png",
 
-    GreenBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
-    GreenBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
-    GreenStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/green/straight.png",
-    GreenTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
-    GreenTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
-    RedBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
-    RedBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
-    RedK = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
-    RedReverseBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
-    RedReverseBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
-    RedReverseStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
-    RedSloopL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
-    RedSloopR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
-    RedStall = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/stop.png",
-    RedStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/straight.png",
-    RedTalonL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
-    RedTalonR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
-    RedTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
-    RedTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
-    WhiteBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
-    WhiteBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
-    WhiteK = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
-    WhiteSloopL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
-    WhiteStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/straight.png",
-    WhiteTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
-    WhiteTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
+    GreenBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+    GreenBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+    GreenStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/green/straight.png",
+    GreenTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+    GreenTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+    RedBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+    RedBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+    RedK = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+    RedReverseBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+    RedReverseBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+    RedReverseStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+    RedSloopL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+    RedSloopR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+    RedStall = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/stop.png",
+    RedStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/straight.png",
+    RedTalonL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+    RedTalonR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+    RedTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+    RedTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+    WhiteBankL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+    WhiteBankR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+    WhiteK = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+    WhiteSloopL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+    WhiteStraight = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/straight.png",
+    WhiteTurnL = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+    WhiteTurnR = "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/refs/heads/main/assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
 }
 
 local ROW_Y = {
@@ -98,8 +97,6 @@ local function colorName(color)
         return "White"
     elseif color == "r" then
         return "Red"
-    elseif color == "p" then
-        return "Purple"
     end
     return "Red"
 end
@@ -203,8 +200,6 @@ local function buttonColor(color)
         return WHITE_COLOR
     elseif color == "b" then
         return GREEN_COLOR
-    elseif color == "p" then
-        return PURPLE_COLOR
     end
     return DISABLED_COLOR
 end
@@ -315,8 +310,6 @@ local function nextColor(current)
         return "w"
     elseif current == "w" then
         return "b"
-    elseif current == "b" then
-        return "p"
     end
     return nil
 end

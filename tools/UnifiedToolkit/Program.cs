@@ -95,6 +95,11 @@ return command switch
     "build-first-edition-maneuver-icon-library" => BuildFirstEditionManeuverIconLibraryCommand.Run(commandArgs),
     "register-first-edition-maneuver-icons" => RegisterFirstEditionManeuverIconsCommand.Run(commandArgs),
     "build-first-edition-dial-runtime" => BuildFirstEditionDialRuntimeCommand.Run(commandArgs),
+    "prepare-five-ship-prototype-assembly" => PrepareFiveShipPrototypeAssemblyCommand.Run(commandArgs),
+    "inspect-prototype-runtime-templates" => InspectPrototypeRuntimeTemplatesCommand.Run(commandArgs),
+    "catalogue-ship-peg-assets" => CatalogueShipPegAssetsCommand.Run(commandArgs),
+    "extract-runtime-templates" => ExtractRuntimeTemplatesCommand.Run(commandArgs),
+    "generate-prototype-save" => GeneratePrototypeSaveCommand.Run(commandArgs),
     _ => UnknownCommand(command)
 };
 
@@ -187,6 +192,11 @@ static void ShowHelp()
     Console.WriteLine("  build-first-edition-maneuver-icon-library <first-edition-repo-folder> [--runtime-data <file>] [--output <folder>] [--validate-only]");
     Console.WriteLine("  register-first-edition-maneuver-icons <first-edition-repo-folder> [--icon-library <file>] [--runtime-data <file>] [--output <folder>]");
     Console.WriteLine("  build-first-edition-dial-runtime <first-edition-repo-folder> [--icon-contract <file>] [--asset-base-url <url>] [--output <folder>]");
+    Console.WriteLine("  prepare-five-ship-prototype-assembly <first-edition-repo-folder> [--package-plan <file>] [--runtime-payloads <file>] [--dial-runtime <file>] [--output <folder>]");
+    Console.WriteLine("  inspect-prototype-runtime-templates <tts-save.json> [--output <folder>]");
+    Console.WriteLine("  catalogue-ship-peg-assets <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  extract-runtime-templates <first-edition-repo-folder> <tts-save.json> [--peg-catalogue <file>] [--asset-base-url <url>] [--output <folder>]");
+    Console.WriteLine("  generate-prototype-save <first-edition-repo-folder> <reference-save.json> [--assembly-plan <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <file>]");
 }
 
 static int UnknownCommand(string command)

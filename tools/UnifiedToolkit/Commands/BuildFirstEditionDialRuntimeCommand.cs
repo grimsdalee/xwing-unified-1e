@@ -309,20 +309,68 @@ public static class BuildFirstEditionDialRuntimeCommand
             "        return GREEN_COLOR",
             StringComparison.Ordinal);
 
-        // Remove Purple from accepted manoeuvre colours regardless of spacing.
+        // Replace the complete colour helpers rather than trying to remove
+        // individual Purple lines. This is resilient to whitespace changes and
+        // prevents stale Purple branches from surviving in generated Lua.
         text = Regex.Replace(
             text,
-            @"if\s+color\s*==\s*[\"']r[\"']\s+or\s+color\s*==\s*[\"']w[\"']\s+or\s+color\s*==\s*[\"']b[\"']\s+or\s+color\s*==\s*[\"']p[\"']\s+then",
-            "if color == \"r\" or color == \"w\" or color == \"b\" then",
-            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            @"local\s+function\s+colorName\s*\(\s*color\s*\).*?\nend",
+            """
+local function colorName(color)
+    if color == "b" then
+        return "Green"
+    elseif color == "w" then
+        return "White"
+    elseif color == "r" then
+        return "Red"
+    end
+    return "Red"
+end
+""",
+            RegexOptions.IgnoreCase | RegexOptions.Singleline |
+            RegexOptions.CultureInvariant);
 
-        // Terminate the colour cycle after Green/Blue-prefix rather than
-        // entering Purple. The source Lua has varied indentation over time,
-        // so use a formatting-independent replacement.
         text = Regex.Replace(
             text,
-            @"elseif\s+current\s*==\s*[\"']b[\"']\s+then\s*return\s+[\"']p[\"']",
-            "elseif current == \"b\" then\n        return nil",
+            @"local\s+function\s+buttonColor\s*\(\s*color\s*\).*?\nend",
+            """
+local function buttonColor(color)
+    if color == "r" then
+        return RED_COLOR
+    elseif color == "w" then
+        return WHITE_COLOR
+    elseif color == "b" then
+        return GREEN_COLOR
+    end
+    return DISABLED_COLOR
+end
+""",
+            RegexOptions.IgnoreCase | RegexOptions.Singleline |
+            RegexOptions.CultureInvariant);
+
+        text = Regex.Replace(
+            text,
+            @"local\s+function\s+nextColor\s*\(\s*current\s*\).*?\nend",
+            """
+local function nextColor(current)
+    if current == nil then
+        return "r"
+    elseif current == "r" then
+        return "w"
+    elseif current == "w" then
+        return "b"
+    end
+    return nil
+end
+""",
+            RegexOptions.IgnoreCase | RegexOptions.Singleline |
+            RegexOptions.CultureInvariant);
+
+        // Remove Purple from imported move-set acceptance.
+        text = Regex.Replace(
+            text,
+            """if\s+color\s*==\s*["']r["']\s+or\s+color\s*==\s*["']w["']\s+or\s+color\s*==\s*["']b["']\s+or\s+color\s*==\s*["']p["']\s+then""",
+            "if color == \"r\" or color == \"w\" or color == \"b\" then",
             RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
 
         // Purple is not a First Edition manoeuvre difficulty.
@@ -398,16 +446,30 @@ public static class BuildFirstEditionDialRuntimeCommand
         if (lua.Contains("return \"Blue\"", StringComparison.Ordinal))
             errors.Add("Runtime prefix b still resolves to Blue.");
 
-        var purpleCycleMatch = Regex.Match(
+        var nextColorMatch = Regex.Match(
             lua,
-            @"return\s+[\"']p[\"']",
-            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+            @"local\s+function\s+nextColor\s*\(\s*current\s*\)(?<body>.*?)\nend",
+            RegexOptions.IgnoreCase | RegexOptions.Singleline |
+            RegexOptions.CultureInvariant);
 
-        if (purpleCycleMatch.Success)
+        if (!nextColorMatch.Success)
         {
-            var line = 1 + lua[..purpleCycleMatch.Index].Count(character => character == '\n');
-            errors.Add(
-                $"The manoeuvre editor still cycles into Purple at generated Lua line {line}.");
+            errors.Add("Generated ManeuverSetEditor.lua has no nextColor function.");
+        }
+        else if (Regex.IsMatch(
+                     nextColorMatch.Groups["body"].Value,
+                     """return\s+["']p["']""",
+                     RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+        {
+            errors.Add("The manoeuvre editor nextColor function still cycles into Purple.");
+        }
+
+        if (Regex.IsMatch(
+                lua,
+                """color\s*==\s*["']p["']|PURPLE_COLOR|return\s+["']Purple["']""",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant))
+        {
+            errors.Add("Generated ManeuverSetEditor.lua still contains Purple manoeuvre handling.");
         }
 
         if (xml.Contains("image=\"Blue", StringComparison.Ordinal))
