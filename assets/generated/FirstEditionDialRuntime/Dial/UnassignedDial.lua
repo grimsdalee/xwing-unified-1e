@@ -558,6 +558,22 @@ local function extractPilotName(fullName)
     return pilotName or cleaned
 end
 
+-- Applies only the approved space-saving First Edition dial abbreviations.
+-- The semantic pilot name, ship name, filenames, mappings, and saved object
+-- names remain unchanged; this affects only the text rendered on the dial.
+local function formatPilotNameForDial(fullName)
+    local pilotName = extractPilotName(fullName)
+
+    pilotName = pilotName
+        :gsub("%f[%a]Squadron%f[%A]", "SQ.")
+        :gsub("%f[%a]Lieutenant%f[%A]", "Lt.")
+        :gsub("%s+", " ")
+        :gsub("^%s+", "")
+        :gsub("%s+$", "")
+
+    return pilotName
+end
+
 -- Lays out the pilot name over one, two, or three lines and returns the
 -- largest font size that fits the First Edition white nameplate.
 --
@@ -567,11 +583,11 @@ end
 -- wide glyph combinations.
 local DIAL_NAME_MAX_FONT_SIZE = 28
 local DIAL_NAME_MIN_FONT_SIZE = 10
-local DIAL_NAME_PLATE_WIDTH = 238
-local DIAL_NAME_PLATE_HEIGHT = 78
+local DIAL_NAME_PLATE_WIDTH = 204
+local DIAL_NAME_PLATE_HEIGHT = 74
 local DIAL_NAME_LINE_HEIGHT_FACTOR = 1.25
-local DIAL_NAME_HORIZONTAL_PADDING = 10
-local DIAL_NAME_VERTICAL_PADDING = 6
+local DIAL_NAME_HORIZONTAL_PADDING = 14
+local DIAL_NAME_VERTICAL_PADDING = 7
 
 local function estimatedCharacterWidth(character)
     if character == " " then
@@ -639,9 +655,9 @@ local function scoreDialNameLayout(lines)
         usableHeight / (#lines * DIAL_NAME_LINE_HEIGHT_FACTOR))
     local lineCountMaximum = DIAL_NAME_MAX_FONT_SIZE
     if #lines == 2 then
-        lineCountMaximum = 24
+        lineCountMaximum = 19
     elseif #lines == 3 then
-        lineCountMaximum = 17
+        lineCountMaximum = 14
     end
 
     local fontSize = math.min(
@@ -659,7 +675,7 @@ local function scoreDialNameLayout(lines)
 end
 
 local function layoutDialName(fullName)
-    local cleaned = extractPilotName(fullName)
+    local cleaned = formatPilotNameForDial(fullName)
 
     if cleaned == "" then
         return "", DIAL_NAME_MAX_FONT_SIZE
