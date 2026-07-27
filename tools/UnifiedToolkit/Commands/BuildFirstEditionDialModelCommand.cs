@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 namespace UnifiedToolkit.Commands;
 
 /// <summary>
-/// Phase 12E-5C:
+/// Phase 12E-5D:
 /// Builds a repository-owned copy of the Unified dial OBJ with the front-face
 /// UV island rotated independently from the reverse face and side geometry.
 ///
@@ -43,7 +43,11 @@ public static class BuildFirstEditionDialModelCommand
             var rotationDegrees = ParseDoubleOption(
                 args,
                 "--front-rotation-degrees",
-                5.0);
+                2.5);
+            var horizontalOffset = ParseDoubleOption(
+                args,
+                "--front-u-offset",
+                0.015);
             var verticalOffset = ParseDoubleOption(
                 args,
                 "--front-v-offset",
@@ -58,7 +62,7 @@ public static class BuildFirstEditionDialModelCommand
                     "assets",
                     "generated",
                     "FirstEditionDialModel",
-                    BuildCalibrationFileName(rotationDegrees, verticalOffset)));
+                    BuildCalibrationFileName(rotationDegrees, horizontalOffset, verticalOffset)));
 
             var reportFolder = Path.Combine(
                 repositoryRoot,
@@ -70,7 +74,7 @@ public static class BuildFirstEditionDialModelCommand
             Directory.CreateDirectory(reportFolder);
 
             var sourceText = LoadSource(source, repositoryRoot);
-            var result = TransformFrontUvIsland(sourceText, rotationDegrees, verticalOffset);
+            var result = TransformFrontUvIsland(sourceText, rotationDegrees, horizontalOffset, verticalOffset);
 
             File.WriteAllText(
                 outputPath,
@@ -82,10 +86,11 @@ public static class BuildFirstEditionDialModelCommand
 
             var manifest = new DialModelGenerationManifest
             {
-                Phase = "12E-5C",
+                Phase = "12E-5D",
                 Source = source,
                 OutputPath = relativeOutput,
                 FrontUvRotationDegrees = rotationDegrees,
+                FrontUvHorizontalOffset = horizontalOffset,
                 FrontUvVerticalOffset = verticalOffset,
                 FrontFacesDetected = result.FrontFaceCount,
                 FrontUvCoordinatesRotated = result.RotatedUvCount,
@@ -116,12 +121,13 @@ public static class BuildFirstEditionDialModelCommand
                 BuildReport(manifest),
                 new UTF8Encoding(false));
 
-            Console.WriteLine("UnifiedToolkit Phase 12E-5C First Edition Dial Front Alignment and Centring");
+            Console.WriteLine("UnifiedToolkit Phase 12E-5D First Edition Dial Front Transform Calibration");
             Console.WriteLine("========================================================");
             Console.WriteLine();
             Console.WriteLine($"Repository:                 {repositoryRoot}");
             Console.WriteLine($"Source model:               {source}");
             Console.WriteLine($"Front UV rotation:          {rotationDegrees.ToString("0.###", CultureInfo.InvariantCulture)} degrees");
+            Console.WriteLine($"Front UV horizontal offset: {horizontalOffset.ToString("0.###", CultureInfo.InvariantCulture)}");
             Console.WriteLine($"Front UV vertical offset:   {verticalOffset.ToString("0.###", CultureInfo.InvariantCulture)}");
             Console.WriteLine($"Front faces detected:       {result.FrontFaceCount}");
             Console.WriteLine($"Front UV coordinates:       {result.RotatedUvCount}");
@@ -144,6 +150,7 @@ public static class BuildFirstEditionDialModelCommand
     private static UvRotationResult TransformFrontUvIsland(
         string sourceText,
         double rotationDegrees,
+        double horizontalOffset,
         double verticalOffset)
     {
         var newline = sourceText.Contains("\r\n", StringComparison.Ordinal)
@@ -235,7 +242,7 @@ public static class BuildFirstEditionDialModelCommand
             var offsetV = original.V - centreV;
 
             uvs[index] = new Vector2(
-                centreU + offsetU * cosine - offsetV * sine,
+                centreU + offsetU * cosine - offsetV * sine + horizontalOffset,
                 centreV + offsetU * sine + offsetV * cosine + verticalOffset);
         }
 
@@ -270,17 +277,24 @@ public static class BuildFirstEditionDialModelCommand
         };
     }
 
-    private static string BuildCalibrationFileName(double rotationDegrees, double verticalOffset)
+    private static string BuildCalibrationFileName(
+        double rotationDegrees,
+        double horizontalOffset,
+        double verticalOffset)
     {
         var direction = rotationDegrees < 0 ? "minus" : "plus";
         var magnitude = Math.Abs(rotationDegrees)
+            .ToString("0.###", CultureInfo.InvariantCulture)
+            .Replace('.', '_');
+        var horizontalDirection = horizontalOffset < 0 ? "minus" : "plus";
+        var horizontalMagnitude = Math.Abs(horizontalOffset)
             .ToString("0.###", CultureInfo.InvariantCulture)
             .Replace('.', '_');
         var verticalDirection = verticalOffset < 0 ? "minus" : "plus";
         var verticalMagnitude = Math.Abs(verticalOffset)
             .ToString("0.###", CultureInfo.InvariantCulture)
             .Replace('.', '_');
-        return $"first-edition-dial-model-uv-{direction}-{magnitude}-v-{verticalDirection}-{verticalMagnitude}.obj";
+        return $"first-edition-dial-model-r-{direction}-{magnitude}-u-{horizontalDirection}-{horizontalMagnitude}-v-{verticalDirection}-{verticalMagnitude}.obj";
     }
 
     private static string LoadSource(string source, string repositoryRoot)
@@ -409,12 +423,13 @@ public static class BuildFirstEditionDialModelCommand
         builder.AppendLine($"- Source: `{manifest.Source}`");
         builder.AppendLine($"- Output: `{manifest.OutputPath}`");
         builder.AppendLine($"- Front UV rotation: `{manifest.FrontUvRotationDegrees.ToString("0.###", CultureInfo.InvariantCulture)} degrees`");
+        builder.AppendLine($"- Front UV horizontal offset: `{manifest.FrontUvHorizontalOffset.ToString("0.###", CultureInfo.InvariantCulture)}`");
         builder.AppendLine($"- Front UV vertical offset: `{manifest.FrontUvVerticalOffset.ToString("0.###", CultureInfo.InvariantCulture)}`");
         builder.AppendLine($"- Front faces detected: `{manifest.FrontFacesDetected}`");
         builder.AppendLine($"- UV coordinates rotated: `{manifest.FrontUvCoordinatesRotated}`");
         builder.AppendLine($"- Full-disk geometry applied: `{manifest.FullDiskGeometryApplied}`");
         builder.AppendLine();
-        builder.AppendLine("Only the upward-facing front UV island was rotated and vertically offset. The reverse face, side geometry and collider were not modified.");
+        builder.AppendLine("Only the upward-facing front UV island was rotated and translated horizontally and vertically. The reverse face, side geometry and collider were not modified.");
         builder.AppendLine();
         builder.AppendLine("The lower cut-out remains in this calibration model and will be addressed after the alignment angle is visually approved.");
         return builder.ToString();
@@ -429,7 +444,7 @@ public static class BuildFirstEditionDialModelCommand
     private static void ShowUsage()
     {
         Console.WriteLine("Usage:");
-        Console.WriteLine("  build-first-edition-dial-model <first-edition-repository> [--front-rotation-degrees <degrees>] [--front-v-offset <value>] [--source <file-or-url>] [--output <file>]");
+        Console.WriteLine("  build-first-edition-dial-model <first-edition-repository> [--front-rotation-degrees <degrees>] [--front-u-offset <value>] [--front-v-offset <value>] [--source <file-or-url>] [--output <file>]");
     }
 
     private readonly record struct Vector2(double U, double V);
@@ -458,6 +473,7 @@ public static class BuildFirstEditionDialModelCommand
         public string Source { get; set; } = string.Empty;
         public string OutputPath { get; set; } = string.Empty;
         public double FrontUvRotationDegrees { get; set; }
+        public double FrontUvHorizontalOffset { get; set; }
         public double FrontUvVerticalOffset { get; set; }
         public int FrontFacesDetected { get; set; }
         public int FrontUvCoordinatesRotated { get; set; }

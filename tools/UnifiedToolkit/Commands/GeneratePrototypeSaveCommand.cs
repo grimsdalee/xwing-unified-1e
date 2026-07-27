@@ -70,6 +70,7 @@ public static class GeneratePrototypeSaveCommand
             var runtimeTemplates = Read<PrototypeRuntimeTemplateManifestInput>(
                 runtimeTemplatesPath);
             var dialRuntime = LoadFirstEditionDialRuntime(repositoryRoot);
+            var dialModelRepositoryPath = LoadFirstEditionDialModelPath(repositoryRoot);
 
             if (assemblyPlan.InvalidPrototypeCount != 0
                 || assemblyPlan.ValidationErrors.Count != 0)
@@ -111,6 +112,7 @@ public static class GeneratePrototypeSaveCommand
                     baseTemplates,
                     pegIndex,
                     dialRuntime,
+                    dialModelRepositoryPath,
                     usedGuids,
                     diagnostics);
 
@@ -154,7 +156,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12E-5A-R1",
+                ImplementationVersion = "12E-5D-R1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -185,7 +187,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12E-5C R1 Dial Front Alignment and Centring");
+            Console.WriteLine("Implementation:          12E-5D R1 Independent Dial Front UV Transform");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -221,6 +223,7 @@ public static class GeneratePrototypeSaveCommand
         IReadOnlyDictionary<string, JsonObject> snapshots,
         IReadOnlyDictionary<string, PrototypeRuntimeTemplateInput> pegIndex,
         FirstEditionDialRuntimeInput dialRuntime,
+        string dialModelRepositoryPath,
         ISet<string> usedGuids,
         ICollection<string> diagnostics)
     {
@@ -344,7 +347,8 @@ public static class GeneratePrototypeSaveCommand
             assembly,
             dialUrl,
             dialRuntime,
-            assetBaseUrl);
+            assetBaseUrl,
+            dialModelRepositoryPath);
 
         var cardObject = BuildPilotCard(
             repositoryRoot,
@@ -907,6 +911,37 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    private static string LoadFirstEditionDialModelPath(string repositoryRoot)
+    {
+        var manifestPath = Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "phase12e",
+            "dial-model-generation",
+            "first-edition-dial-model.json");
+
+        ValidateFile(manifestPath, "Phase 12E dial-model manifest");
+
+        var manifest = JsonNode.Parse(File.ReadAllText(manifestPath))?.AsObject()
+            ?? throw new InvalidDataException(
+                "Could not parse the Phase 12E dial-model manifest.");
+
+        var outputPath = manifest["outputPath"]?.GetValue<string>();
+        if (string.IsNullOrWhiteSpace(outputPath))
+        {
+            throw new InvalidDataException(
+                "The Phase 12E dial-model manifest has no outputPath.");
+        }
+
+        var normalized = outputPath.Replace('\\', '/').TrimStart('/');
+        var localPath = Path.Combine(
+            repositoryRoot,
+            normalized.Replace('/', Path.DirectorySeparatorChar));
+        ValidateFile(localPath, "Generated First Edition dial model");
+
+        return normalized;
+    }
+
     private static void ConfigureDial(
         JsonObject dialObject,
         string dialGuid,
@@ -914,7 +949,8 @@ public static class GeneratePrototypeSaveCommand
         PrototypeAssemblyInput assembly,
         string dialTextureUrl,
         FirstEditionDialRuntimeInput dialRuntime,
-        string assetBaseUrl)
+        string assetBaseUrl,
+        string dialModelRepositoryPath)
     {
         dialObject["GUID"] = dialGuid;
         dialObject["Name"] = "Custom_Model";
@@ -952,7 +988,7 @@ public static class GeneratePrototypeSaveCommand
                 "Assigned dial template has no CustomMesh object.");
         customMesh["MeshURL"] = AssetUrl(
             assetBaseUrl,
-            "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-plus-5-v-plus-0_02.obj");
+            dialModelRepositoryPath);
         customMesh["DiffuseURL"] = dialTextureUrl;
 
         var bundledLua = dialObject["LuaScript"]?.GetValue<string>()
