@@ -185,7 +185,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12E-5A R1 Dial Front UV Alignment");
+            Console.WriteLine("Implementation:          12E-5B R1 Cache-Busted Dial Front UV Calibration");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -952,7 +952,7 @@ public static class GeneratePrototypeSaveCommand
                 "Assigned dial template has no CustomMesh object.");
         customMesh["MeshURL"] = AssetUrl(
             assetBaseUrl,
-            "assets/generated/FirstEditionDialModel/first-edition-dial-model.obj");
+            "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-minus-5.obj");
         customMesh["DiffuseURL"] = dialTextureUrl;
 
         var bundledLua = dialObject["LuaScript"]?.GetValue<string>()

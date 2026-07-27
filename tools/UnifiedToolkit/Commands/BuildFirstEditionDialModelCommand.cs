@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 namespace UnifiedToolkit.Commands;
 
 /// <summary>
-/// Phase 12E-5A:
+/// Phase 12E-5B:
 /// Builds a repository-owned copy of the Unified dial OBJ with the front-face
 /// UV island rotated independently from the reverse face and side geometry.
 ///
@@ -45,14 +45,16 @@ public static class BuildFirstEditionDialModelCommand
                 "--front-rotation-degrees",
                 -2.5);
 
+            var requestedOutput = GetOption(args, "--output");
+
             var outputPath = Path.GetFullPath(
-                GetOption(args, "--output")
+                requestedOutput
                 ?? Path.Combine(
                     repositoryRoot,
                     "assets",
                     "generated",
                     "FirstEditionDialModel",
-                    "first-edition-dial-model.obj"));
+                    BuildAngleSpecificFileName(rotationDegrees)));
 
             var reportFolder = Path.Combine(
                 repositoryRoot,
@@ -76,7 +78,7 @@ public static class BuildFirstEditionDialModelCommand
 
             var manifest = new DialModelGenerationManifest
             {
-                Phase = "12E-5A",
+                Phase = "12E-5B",
                 Source = source,
                 OutputPath = relativeOutput,
                 FrontUvRotationDegrees = rotationDegrees,
@@ -109,7 +111,7 @@ public static class BuildFirstEditionDialModelCommand
                 BuildReport(manifest),
                 new UTF8Encoding(false));
 
-            Console.WriteLine("UnifiedToolkit Phase 12E-5A First Edition Dial Model");
+            Console.WriteLine("UnifiedToolkit Phase 12E-5B First Edition Dial Model Cache-Busting Calibration");
             Console.WriteLine("========================================================");
             Console.WriteLine();
             Console.WriteLine($"Repository:                 {repositoryRoot}");
@@ -122,7 +124,7 @@ public static class BuildFirstEditionDialModelCommand
             Console.WriteLine($"Report:                     {reportPath}");
             Console.WriteLine();
             Console.WriteLine("The reverse UV island and side geometry were not modified.");
-            Console.WriteLine("The lower dial cut-out is intentionally unchanged in this calibration stage.");
+            Console.WriteLine("The lower dial cut-out remains unchanged in this cache-busting calibration stage.");
             return 0;
         }
         catch (Exception ex)
@@ -259,6 +261,15 @@ public static class BuildFirstEditionDialModelCommand
             CentreU = centreU,
             CentreV = centreV
         };
+    }
+
+    private static string BuildAngleSpecificFileName(double rotationDegrees)
+    {
+        var direction = rotationDegrees < 0 ? "minus" : "plus";
+        var magnitude = Math.Abs(rotationDegrees)
+            .ToString("0.###", CultureInfo.InvariantCulture)
+            .Replace('.', '_');
+        return $"first-edition-dial-model-uv-{direction}-{magnitude}.obj";
     }
 
     private static string LoadSource(string source, string repositoryRoot)
