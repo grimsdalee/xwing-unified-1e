@@ -567,11 +567,11 @@ end
 -- wide glyph combinations.
 local DIAL_NAME_MAX_FONT_SIZE = 28
 local DIAL_NAME_MIN_FONT_SIZE = 10
-local DIAL_NAME_PLATE_WIDTH = 286
-local DIAL_NAME_PLATE_HEIGHT = 122
-local DIAL_NAME_LINE_HEIGHT_FACTOR = 1.08
-local DIAL_NAME_HORIZONTAL_PADDING = 12
-local DIAL_NAME_VERTICAL_PADDING = 8
+local DIAL_NAME_PLATE_WIDTH = 238
+local DIAL_NAME_PLATE_HEIGHT = 78
+local DIAL_NAME_LINE_HEIGHT_FACTOR = 1.25
+local DIAL_NAME_HORIZONTAL_PADDING = 10
+local DIAL_NAME_VERTICAL_PADDING = 6
 
 local function estimatedCharacterWidth(character)
     if character == " " then
@@ -637,8 +637,15 @@ local function scoreDialNameLayout(lines)
         or DIAL_NAME_MAX_FONT_SIZE
     local heightFontSize = math.floor(
         usableHeight / (#lines * DIAL_NAME_LINE_HEIGHT_FACTOR))
+    local lineCountMaximum = DIAL_NAME_MAX_FONT_SIZE
+    if #lines == 2 then
+        lineCountMaximum = 24
+    elseif #lines == 3 then
+        lineCountMaximum = 17
+    end
+
     local fontSize = math.min(
-        DIAL_NAME_MAX_FONT_SIZE,
+        lineCountMaximum,
         widthFontSize,
         heightFontSize)
 
