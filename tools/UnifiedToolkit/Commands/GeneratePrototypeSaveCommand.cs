@@ -154,7 +154,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12E-3-R1",
+                ImplementationVersion = "12E-4-R1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -185,7 +185,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12E-3 R1 Runtime Faction Dial Integration");
+            Console.WriteLine("Implementation:          12E-4 R1 Dial Runtime Usability Corrections");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -919,6 +919,14 @@ public static class GeneratePrototypeSaveCommand
         dialObject["Nickname"] = assembly.PilotName;
         dialObject["Description"] =
             $"{assembly.ShipName} First Edition manoeuvre dial";
+        dialObject["Locked"] = false;
+        dialObject["Grid"] = true;
+        dialObject["Snap"] = true;
+        dialObject["DragSelectable"] = true;
+        dialObject["Autoraise"] = true;
+        dialObject["Sticky"] = true;
+        dialObject["Tooltip"] = true;
+        dialObject["Hands"] = false;
 
         SetTransform(
             dialObject,
@@ -1198,7 +1206,7 @@ public static class GeneratePrototypeSaveCommand
                 ["CustomTile"] = new JsonObject
                 {
                     ["Type"] = 0,
-                    ["Thickness"] = 0.1,
+                    ["Thickness"] = 0.02,
                     ["Stackable"] = false,
                     ["Stretch"] = true
                 }

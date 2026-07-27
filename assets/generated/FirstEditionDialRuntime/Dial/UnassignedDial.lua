@@ -538,18 +538,30 @@ function onPickUp(player_color)
     end
 end
 
--- Formats the visual nameplate only. The TTS object keeps the full pilot name.
--- Names are balanced over no more than three centred lines. XML best-fit then
--- reduces the font size for exceptionally long individual words.
-local function formatDialName(fullName)
+-- Returns only the pilot portion of a generated ship name such as
+-- "Luke Skywalker — X-Wing". The full base-object name is left unchanged.
+local function extractPilotName(fullName)
     if fullName == nil then
         return ""
     end
 
     local cleaned = tostring(fullName)
+        :gsub('"', "")
         :gsub("%s+", " ")
         :gsub("^%s+", "")
         :gsub("%s+$", "")
+
+    local pilotName = cleaned:match("^(.-)%s+—%s+.+$")
+        or cleaned:match("^(.-)%s+–%s+.+$")
+        or cleaned:match("^(.-)%s+%-%s+.+$")
+
+    return pilotName or cleaned
+end
+
+-- Formats the visual nameplate only. Names are balanced over no more than
+-- three centred lines. XML best-fit handles exceptionally long words.
+local function formatDialName(fullName)
+    local cleaned = extractPilotName(fullName)
 
     if cleaned == "" then
         return ""
@@ -564,7 +576,7 @@ local function formatDialName(fullName)
         return cleaned
     end
 
-    local lineCount = #cleaned <= 36 and 2 or 3
+    local lineCount = #cleaned <= 34 and 2 or 3
     lineCount = math.min(lineCount, #words)
 
     local totalCharacters = #cleaned - (#words - 1)
@@ -619,6 +631,26 @@ local function formatDialName(fullName)
 
     return table.concat(lines, "\n")
 end
+
+-- Reads semantic data from a live Unified ship where available, or from the
+-- static prototype payload stored in GMNotes. This keeps prototype dials from
+-- failing when the full ship runtime is intentionally disabled.
+local function getAssignedShipData(ship)
+    local data = ship.getTable("Data")
+    if data ~= nil then
+        return data
+    end
+
+    local notes = ship.getGMNotes()
+    if notes ~= nil and notes ~= "" then
+        local ok, state = pcall(JSON.decode, notes)
+        if ok and state ~= nil and state.shipData ~= nil then
+            return state.shipData
+        end
+    end
+
+    return {}
+end
 -- Assign a ship to the dial
 function assignShip(args)
     self.UI.setAttribute("CenterFD", "active", "true")
@@ -629,14 +661,23 @@ function assignShip(args)
     self.UI.hide("proxyPanel")
     self.UI.setAttribute("relocPanel", "active", "true")
     self.UI.setAttribute("setManPeekPanel", "active", "true")
+    if args == nil or args.ship == nil then
+        print("First Edition dial assignShip ignored: no ship was supplied.")
+        return
+    end
     assignedShip = args.ship
-    Name = removeQuotes(assignedShip.getName())
+    local sourceName = removeQuotes(assignedShip.getName()) or ""
+    Name = extractPilotName(sourceName)
     local displayName = formatDialName(Name)
     self.setName(Name)
     finished_setup = assignedShip.getVar("finished_setup") or false
     self.UI.setValue("Name", displayName)
     self.UI.setValue("SetupName", displayName)
-    shipData = assignedShip.getTable("Data")
+    shipData = getAssignedShipData(assignedShip)
+    shipData.arcs = shipData.arcs or {}
+    shipData.executeOptions = shipData.executeOptions or {}
+    shipData.moveSet = shipData.moveSet or {}
+    shipData.actSet = shipData.actSet or shipData.firstEditionActions or {}
     if shipData.arcs and shipData.arcs.fixed then
         self.UI.setAttribute("FixedArc", "active", "true")
         arcCommands['FixedArc'] = "a"
@@ -676,7 +717,7 @@ function assignShip(args)
     setMan = ""
     prevMan = ""
     local repos = false
-    for _, v in pairs(shipData['actSet']) do
+    for _, v in pairs(shipData['actSet'] or {}) do
         if v == 'F' then
             self.UI.setAttribute('FocusBtn', 'active', 'true')
         elseif v == 'TL' then
@@ -747,7 +788,9 @@ function assignShip(args)
         self.UI.setAttribute("RelocMenuFU", "active", "false")
     end
 
-    Global.call("API_AssignDial", { dial = self, ship = assignedShip, player = pColor })
+    pcall(function()
+        Global.call("API_AssignDial", { dial = self, ship = assignedShip, player = pColor })
+    end)
     redraw(self.is_face_down)
 end
 

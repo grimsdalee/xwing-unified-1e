@@ -437,18 +437,30 @@ end
         }
 
         const string formatter = """
--- Formats the visual nameplate only. The TTS object keeps the full pilot name.
--- Names are balanced over no more than three centred lines. XML best-fit then
--- reduces the font size for exceptionally long individual words.
-local function formatDialName(fullName)
+-- Returns only the pilot portion of a generated ship name such as
+-- "Luke Skywalker — X-Wing". The full base-object name is left unchanged.
+local function extractPilotName(fullName)
     if fullName == nil then
         return ""
     end
 
     local cleaned = tostring(fullName)
+        :gsub('"', "")
         :gsub("%s+", " ")
         :gsub("^%s+", "")
         :gsub("%s+$", "")
+
+    local pilotName = cleaned:match("^(.-)%s+—%s+.+$")
+        or cleaned:match("^(.-)%s+–%s+.+$")
+        or cleaned:match("^(.-)%s+%-%s+.+$")
+
+    return pilotName or cleaned
+end
+
+-- Formats the visual nameplate only. Names are balanced over no more than
+-- three centred lines. XML best-fit handles exceptionally long words.
+local function formatDialName(fullName)
+    local cleaned = extractPilotName(fullName)
 
     if cleaned == "" then
         return ""
@@ -463,7 +475,7 @@ local function formatDialName(fullName)
         return cleaned
     end
 
-    local lineCount = #cleaned <= 36 and 2 or 3
+    local lineCount = #cleaned <= 34 and 2 or 3
     lineCount = math.min(lineCount, #words)
 
     local totalCharacters = #cleaned - (#words - 1)
@@ -519,6 +531,26 @@ local function formatDialName(fullName)
     return table.concat(lines, "\n")
 end
 
+-- Reads semantic data from a live Unified ship where available, or from the
+-- static prototype payload stored in GMNotes. This keeps prototype dials from
+-- failing when the full ship runtime is intentionally disabled.
+local function getAssignedShipData(ship)
+    local data = ship.getTable("Data")
+    if data ~= nil then
+        return data
+    end
+
+    local notes = ship.getGMNotes()
+    if notes ~= nil and notes ~= "" then
+        local ok, state = pcall(JSON.decode, notes)
+        if ok and state ~= nil and state.shipData ~= nil then
+            return state.shipData
+        end
+    end
+
+    return {}
+end
+
 """;
 
         if (!text.Contains("local function formatDialName", StringComparison.Ordinal))
@@ -530,13 +562,23 @@ end
         }
 
         const string replacementNameAssignment = """
-    Name = removeQuotes(assignedShip.getName())
+    local sourceName = removeQuotes(assignedShip.getName()) or ""
+    Name = extractPilotName(sourceName)
     local displayName = formatDialName(Name)
     self.setName(Name)
     finished_setup = assignedShip.getVar("finished_setup") or false
     self.UI.setValue("Name", displayName)
     self.UI.setValue("SetupName", displayName)
 """;
+
+        text = text.Replace(
+            "    assignedShip = args.ship",
+            "    if args == nil or args.ship == nil then\n" +
+            "        print(\"First Edition dial assignShip ignored: no ship was supplied.\")\n" +
+            "        return\n" +
+            "    end\n" +
+            "    assignedShip = args.ship",
+            StringComparison.Ordinal);
 
         if (!text.Contains("local displayName = formatDialName(Name)", StringComparison.Ordinal))
         {
@@ -562,6 +604,27 @@ end
                 RegexOptions.CultureInvariant);
         }
 
+
+        text = text.Replace(
+            "    shipData = assignedShip.getTable(\"Data\")",
+            "    shipData = getAssignedShipData(assignedShip)\n" +
+            "    shipData.arcs = shipData.arcs or {}\n" +
+            "    shipData.executeOptions = shipData.executeOptions or {}\n" +
+            "    shipData.moveSet = shipData.moveSet or {}\n" +
+            "    shipData.actSet = shipData.actSet or shipData.firstEditionActions or {}",
+            StringComparison.Ordinal);
+
+        text = text.Replace(
+            "    for _, v in pairs(shipData['actSet']) do",
+            "    for _, v in pairs(shipData['actSet'] or {}) do",
+            StringComparison.Ordinal);
+
+        text = text.Replace(
+            "    Global.call(\"API_AssignDial\", { dial = self, ship = assignedShip, player = pColor })",
+            "    pcall(function()\n" +
+            "        Global.call(\"API_AssignDial\", { dial = self, ship = assignedShip, player = pColor })\n" +
+            "    end)",
+            StringComparison.Ordinal);
         File.WriteAllText(path, text, new UTF8Encoding(false));
     }
 
@@ -578,11 +641,11 @@ end
             """<Text\s+id="(?<id>SetupName|Name)"[^>]*>Name</Text>""",
             match =>
                 $"<Text id=\"{match.Groups["id"].Value}\" class=\"DialName\" " +
-                "position=\"0 70 3\" rotation=\"180 180 0\" " +
-                "width=\"230\" height=\"108\" alignment=\"MiddleCenter\" " +
-                "font=\"font/Bank Gothic Light Regular\" fontSize=\"22\" " +
+                "position=\"0 72 3\" rotation=\"180 180 2.5\" " +
+                "width=\"286\" height=\"122\" alignment=\"MiddleCenter\" " +
+                "font=\"font/Bank Gothic Light Regular\" fontSize=\"18\" " +
                 "fontStyle=\"Bold\" resizeTextForBestFit=\"true\" " +
-                "resizeTextMinSize=\"13\" resizeTextMaxSize=\"22\">Name</Text>",
+                "resizeTextMinSize=\"10\" resizeTextMaxSize=\"18\" horizontalOverflow=\"Wrap\" verticalOverflow=\"Truncate\">Name</Text>",
             RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
 
         File.WriteAllText(path, text, new UTF8Encoding(false));
@@ -639,6 +702,12 @@ end
         if (!dialLua.Contains("local function formatDialName", StringComparison.Ordinal))
             errors.Add("Generated UnassignedDial.lua has no pilot-name formatter.");
 
+        if (!dialLua.Contains("local function extractPilotName", StringComparison.Ordinal))
+            errors.Add("Generated UnassignedDial.lua does not remove the ship type from the visual name.");
+
+        if (!dialLua.Contains("local function getAssignedShipData", StringComparison.Ordinal))
+            errors.Add("Generated UnassignedDial.lua has no safe prototype ship-data fallback.");
+
         if (!dialLua.Contains("self.UI.setValue(\"Name\", displayName)", StringComparison.Ordinal) ||
             !dialLua.Contains("self.UI.setValue(\"SetupName\", displayName)", StringComparison.Ordinal))
         {
@@ -667,7 +736,7 @@ end
             var element = nameElement.Value;
             if (!element.Contains("alignment=\"MiddleCenter\"", StringComparison.Ordinal) ||
                 !element.Contains("resizeTextForBestFit=\"true\"", StringComparison.Ordinal) ||
-                !element.Contains("height=\"108\"", StringComparison.Ordinal))
+                !element.Contains("height=\"122\"", StringComparison.Ordinal))
             {
                 errors.Add($"Generated UnassignedDial.xml {id} is not configured for centred three-line names.");
             }
