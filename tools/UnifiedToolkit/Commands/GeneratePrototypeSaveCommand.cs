@@ -154,7 +154,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12E-4-R1",
+                ImplementationVersion = "12E-5A-R1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -165,7 +165,7 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "AssignedUnifiedDial-FirstEditionFactionTexture-R1"
+                RuntimeMode = "AssignedUnifiedDial-RepositoryOwnedAlignedModel-R1"
             };
 
             var manifestPath = Path.Combine(
@@ -185,7 +185,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12E-4 R1 Dial Runtime Usability Corrections");
+            Console.WriteLine("Implementation:          12E-5A R1 Dial Front UV Alignment");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -343,7 +343,8 @@ public static class GeneratePrototypeSaveCommand
             baseGuid,
             assembly,
             dialUrl,
-            dialRuntime);
+            dialRuntime,
+            assetBaseUrl);
 
         var cardObject = BuildPilotCard(
             repositoryRoot,
@@ -912,7 +913,8 @@ public static class GeneratePrototypeSaveCommand
         string baseGuid,
         PrototypeAssemblyInput assembly,
         string dialTextureUrl,
-        FirstEditionDialRuntimeInput dialRuntime)
+        FirstEditionDialRuntimeInput dialRuntime,
+        string assetBaseUrl)
     {
         dialObject["GUID"] = dialGuid;
         dialObject["Name"] = "Custom_Model";
@@ -948,6 +950,9 @@ public static class GeneratePrototypeSaveCommand
         var customMesh = dialObject["CustomMesh"]?.AsObject()
             ?? throw new InvalidDataException(
                 "Assigned dial template has no CustomMesh object.");
+        customMesh["MeshURL"] = AssetUrl(
+            assetBaseUrl,
+            "assets/generated/FirstEditionDialModel/first-edition-dial-model.obj");
         customMesh["DiffuseURL"] = dialTextureUrl;
 
         var bundledLua = dialObject["LuaScript"]?.GetValue<string>()
