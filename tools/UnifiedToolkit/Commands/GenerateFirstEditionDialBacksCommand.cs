@@ -62,22 +62,22 @@ public static class GenerateFirstEditionDialBacksCommand
             new FactionDialBackDefinition(
                 FactionId: "resistance",
                 DisplayName: "Resistance",
-                FillRed: 110,
-                FillGreen: 52,
-                FillBlue: 58,
-                RimRed: 88,
-                RimGreen: 36,
-                RimBlue: 42),
+                FillRed: 163,
+                FillGreen: 62,
+                FillBlue: 22,
+                RimRed: 145,
+                RimGreen: 44,
+                RimBlue: 4),
 
             new FactionDialBackDefinition(
                 FactionId: "scumandvillainy",
                 DisplayName: "Scum and Villainy",
-                FillRed: 96,
-                FillGreen: 76,
-                FillBlue: 34,
-                RimRed: 78,
-                RimGreen: 58,
-                RimBlue: 16)
+                FillRed: 245,
+                FillGreen: 153,
+                FillBlue: 27,
+                RimRed: 227,
+                RimGreen: 135,
+                RimBlue: 9)
         };
 
     public static int Run(string[] args)

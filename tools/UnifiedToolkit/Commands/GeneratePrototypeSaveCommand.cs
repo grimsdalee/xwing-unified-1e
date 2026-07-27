@@ -1385,14 +1385,7 @@ public static class GeneratePrototypeSaveCommand
     {
         var factionId = NormaliseIdentifier(assembly.Faction);
 
-        var colour = factionId switch
-        {
-            "galacticempire" => new SKColor(50, 58, 66, 255),
-            "firstorder" => new SKColor(43, 43, 48, 255),
-            "scumandvillainy" => new SKColor(96, 76, 34, 255),
-            "resistance" => new SKColor(116, 73, 38, 255),
-            _ => new SKColor(92, 43, 48, 255)
-        };
+        var colour = FactionColourPalette.GetPrimary(factionId);
 
         const int size = 512;
         var destination = Path.Combine(
@@ -1466,14 +1459,7 @@ public static class GeneratePrototypeSaveCommand
     {
         var factionId = NormaliseIdentifier(assembly.Faction);
 
-        var colour = factionId switch
-        {
-            "galacticempire" => new SKColor(38, 67, 91, 255),
-            "firstorder" => new SKColor(62, 62, 68, 255),
-            "scumandvillainy" => new SKColor(105, 84, 24, 255),
-            "resistance" => new SKColor(125, 76, 25, 255),
-            _ => new SKColor(105, 24, 30, 255)
-        };
+        var colour = FactionColourPalette.GetPrimary(factionId);
 
         var destination = Path.Combine(
             repositoryRoot,
