@@ -43,11 +43,11 @@ public static class BuildFirstEditionDialModelCommand
             var rotationDegrees = ParseDoubleOption(
                 args,
                 "--front-rotation-degrees",
-                2.5);
+                1.9);
             var horizontalOffset = ParseDoubleOption(
                 args,
                 "--front-u-offset",
-                0.015);
+                0.005);
             var verticalOffset = ParseDoubleOption(
                 args,
                 "--front-v-offset",

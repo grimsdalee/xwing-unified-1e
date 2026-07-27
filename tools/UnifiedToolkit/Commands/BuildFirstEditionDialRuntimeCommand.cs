@@ -457,13 +457,111 @@ local function extractPilotName(fullName)
     return pilotName or cleaned
 end
 
--- Formats the visual nameplate only. Names are balanced over no more than
--- three centred lines. XML best-fit handles exceptionally long words.
-local function formatDialName(fullName)
+-- Lays out the pilot name over one, two, or three lines and returns the
+-- largest font size that fits the First Edition white nameplate.
+--
+-- Tabletop Simulator does not expose the font's measured glyph widths, so the
+-- calculation uses conservative Bank Gothic character-width estimates. The
+-- XML element still has best-fit enabled as a final safety net for unusually
+-- wide glyph combinations.
+local DIAL_NAME_MAX_FONT_SIZE = 28
+local DIAL_NAME_MIN_FONT_SIZE = 10
+local DIAL_NAME_PLATE_WIDTH = 238
+local DIAL_NAME_PLATE_HEIGHT = 78
+local DIAL_NAME_LINE_HEIGHT_FACTOR = 1.25
+local DIAL_NAME_HORIZONTAL_PADDING = 10
+local DIAL_NAME_VERTICAL_PADDING = 6
+
+local function estimatedCharacterWidth(character)
+    if character == " " then
+        return 0.34
+    end
+
+    if character:match("[ilI1%.,'`]") then
+        return 0.36
+    end
+
+    if character:match("[MW@#%%&]") then
+        return 0.96
+    end
+
+    if character:match("[mw]") then
+        return 0.82
+    end
+
+    if character:match("[ABCDEFGHKNOPQRSTUVXYZ023456789]") then
+        return 0.69
+    end
+
+    return 0.58
+end
+
+local function estimatedLineUnits(line)
+    local units = 0
+    for index = 1, #line do
+        units = units + estimatedCharacterWidth(line:sub(index, index))
+    end
+    return units
+end
+
+local function buildLineLayout(words, break1, break2)
+    local lines = {}
+    local starts = { 1, break1 + 1, break2 + 1 }
+    local ends = { break1, break2, #words }
+
+    for lineIndex = 1, 3 do
+        if starts[lineIndex] <= ends[lineIndex] then
+            local lineWords = {}
+            for wordIndex = starts[lineIndex], ends[lineIndex] do
+                table.insert(lineWords, words[wordIndex])
+            end
+            table.insert(lines, table.concat(lineWords, " "))
+        end
+    end
+
+    return lines
+end
+
+local function scoreDialNameLayout(lines)
+    local usableWidth = DIAL_NAME_PLATE_WIDTH - (DIAL_NAME_HORIZONTAL_PADDING * 2)
+    local usableHeight = DIAL_NAME_PLATE_HEIGHT - (DIAL_NAME_VERTICAL_PADDING * 2)
+    local widestUnits = 0
+
+    for _, line in ipairs(lines) do
+        widestUnits = math.max(widestUnits, estimatedLineUnits(line))
+    end
+
+    local widthFontSize = widestUnits > 0
+        and math.floor(usableWidth / widestUnits)
+        or DIAL_NAME_MAX_FONT_SIZE
+    local heightFontSize = math.floor(
+        usableHeight / (#lines * DIAL_NAME_LINE_HEIGHT_FACTOR))
+    local lineCountMaximum = DIAL_NAME_MAX_FONT_SIZE
+    if #lines == 2 then
+        lineCountMaximum = 24
+    elseif #lines == 3 then
+        lineCountMaximum = 17
+    end
+
+    local fontSize = math.min(
+        lineCountMaximum,
+        widthFontSize,
+        heightFontSize)
+
+    local shortestUnits = widestUnits
+    for _, line in ipairs(lines) do
+        shortestUnits = math.min(shortestUnits, estimatedLineUnits(line))
+    end
+
+    local imbalance = widestUnits - shortestUnits
+    return fontSize, imbalance
+end
+
+local function layoutDialName(fullName)
     local cleaned = extractPilotName(fullName)
 
     if cleaned == "" then
-        return ""
+        return "", DIAL_NAME_MAX_FONT_SIZE
     end
 
     local words = {}
@@ -471,64 +569,60 @@ local function formatDialName(fullName)
         table.insert(words, word)
     end
 
-    if #words <= 1 or #cleaned <= 18 then
-        return cleaned
-    end
+    local bestLines = { cleaned }
+    local bestFontSize, bestImbalance = scoreDialNameLayout(bestLines)
+    local maximumLines = math.min(3, #words)
 
-    local lineCount = #cleaned <= 34 and 2 or 3
-    lineCount = math.min(lineCount, #words)
+    for lineCount = 2, maximumLines do
+        if lineCount == 2 then
+            for break1 = 1, #words - 1 do
+                local lines = buildLineLayout(words, break1, #words)
+                local fontSize, imbalance = scoreDialNameLayout(lines)
 
-    local totalCharacters = #cleaned - (#words - 1)
-    local lines = {}
-    local wordIndex = 1
-    local remainingCharacters = totalCharacters
-
-    for lineIndex = 1, lineCount do
-        local remainingLines = lineCount - lineIndex + 1
-        local remainingWords = #words - wordIndex + 1
-        local target = math.ceil(
-            (remainingCharacters + math.max(0, remainingWords - remainingLines)) /
-            remainingLines)
-
-        local lineWords = {}
-        local lineLength = 0
-        local wordsNeededAfter = remainingLines - 1
-
-        while wordIndex <= #words do
-            local word = words[wordIndex]
-            local proposedLength = lineLength == 0
-                and #word
-                or lineLength + 1 + #word
-            local wordsAfter = #words - wordIndex
-
-            if lineLength > 0 and
-               proposedLength > target and
-               wordsAfter >= wordsNeededAfter then
-                break
+                if fontSize > bestFontSize or
+                   (fontSize == bestFontSize and imbalance < bestImbalance) then
+                    bestLines = lines
+                    bestFontSize = fontSize
+                    bestImbalance = imbalance
+                end
             end
+        else
+            for break1 = 1, #words - 2 do
+                for break2 = break1 + 1, #words - 1 do
+                    local lines = buildLineLayout(words, break1, break2)
+                    local fontSize, imbalance = scoreDialNameLayout(lines)
 
-            table.insert(lineWords, word)
-            lineLength = proposedLength
-            remainingCharacters = remainingCharacters - #word
-            wordIndex = wordIndex + 1
-
-            if wordsAfter < wordsNeededAfter then
-                break
+                    if fontSize > bestFontSize or
+                       (fontSize == bestFontSize and imbalance < bestImbalance) then
+                        bestLines = lines
+                        bestFontSize = fontSize
+                        bestImbalance = imbalance
+                    end
+                end
             end
         end
-
-        table.insert(lines, table.concat(lineWords, " "))
     end
 
-    if wordIndex <= #words then
-        local remainder = {}
-        for index = wordIndex, #words do
-            table.insert(remainder, words[index])
-        end
-        lines[#lines] = lines[#lines] .. " " .. table.concat(remainder, " ")
-    end
+    bestFontSize = math.max(
+        DIAL_NAME_MIN_FONT_SIZE,
+        math.min(DIAL_NAME_MAX_FONT_SIZE, bestFontSize))
 
-    return table.concat(lines, "\n")
+    return table.concat(bestLines, "\n"), bestFontSize
+end
+
+local function applyDialName(fullName)
+    local displayName, fontSize = layoutDialName(fullName)
+    local fontSizeText = tostring(fontSize)
+
+    self.UI.setAttribute("Name", "fontSize", fontSizeText)
+    self.UI.setAttribute("Name", "resizeTextMinSize", fontSizeText)
+    self.UI.setAttribute("Name", "resizeTextMaxSize", fontSizeText)
+    self.UI.setValue("Name", displayName)
+
+    self.UI.setAttribute("SetupName", "fontSize", fontSizeText)
+    self.UI.setAttribute("SetupName", "resizeTextMinSize", fontSizeText)
+    self.UI.setAttribute("SetupName", "resizeTextMaxSize", fontSizeText)
+    self.UI.setValue("SetupName", displayName)
 end
 
 -- Reads semantic data from a live Unified ship where available, or from the
@@ -553,7 +647,7 @@ end
 
 """;
 
-        if (!text.Contains("local function formatDialName", StringComparison.Ordinal))
+        if (!text.Contains("local function layoutDialName", StringComparison.Ordinal))
         {
             text = text.Replace(
                 assignMarker,
@@ -564,11 +658,9 @@ end
         const string replacementNameAssignment = """
     local sourceName = removeQuotes(assignedShip.getName()) or ""
     Name = extractPilotName(sourceName)
-    local displayName = formatDialName(Name)
     self.setName(Name)
     finished_setup = assignedShip.getVar("finished_setup") or false
-    self.UI.setValue("Name", displayName)
-    self.UI.setValue("SetupName", displayName)
+    applyDialName(Name)
 """;
 
         text = text.Replace(
@@ -580,7 +672,7 @@ end
             "    assignedShip = args.ship",
             StringComparison.Ordinal);
 
-        if (!text.Contains("local displayName = formatDialName(Name)", StringComparison.Ordinal))
+        if (!text.Contains("applyDialName(Name)", StringComparison.Ordinal))
         {
             const string nameBlockPattern = """
 (?m)^[ \t]*Name[ \t]*=[ \t]*removeQuotes\(assignedShip\.getName\(\)\)[ \t]*\r?\n^[ \t]*self\.setName\(Name\)[ \t]*\r?\n^[ \t]*finished_setup[ \t]*=[ \t]*assignedShip\.getVar\("finished_setup"\)[ \t]*or[ \t]*false[ \t]*\r?\n(?:^[ \t]*--self\.UI\.setAttribute\("DialName",[ \t]*Name\)[ \t]*\r?\n)?^[ \t]*self\.UI\.setValue\("Name",[ \t]*Name\)[ \t]*\r?\n^[ \t]*self\.UI\.setValue\("SetupName",[ \t]*Name\)[ \t]*(?:\r?\n)?
@@ -641,11 +733,11 @@ end
             """<Text\s+id="(?<id>SetupName|Name)"[^>]*>Name</Text>""",
             match =>
                 $"<Text id=\"{match.Groups["id"].Value}\" class=\"DialName\" " +
-                "position=\"0 72 3\" rotation=\"180 180 2.5\" " +
-                "width=\"286\" height=\"122\" alignment=\"MiddleCenter\" " +
-                "font=\"font/Bank Gothic Light Regular\" fontSize=\"18\" " +
+                "position=\"0 82 3\" rotation=\"180 180 0.6\" " +
+                "width=\"238\" height=\"78\" alignment=\"MiddleCenter\" " +
+                "font=\"font/Bank Gothic Light Regular\" fontSize=\"28\" " +
                 "fontStyle=\"Bold\" resizeTextForBestFit=\"true\" " +
-                "resizeTextMinSize=\"10\" resizeTextMaxSize=\"18\" horizontalOverflow=\"Wrap\" verticalOverflow=\"Truncate\">Name</Text>",
+                "resizeTextMinSize=\"10\" resizeTextMaxSize=\"28\" horizontalOverflow=\"Wrap\" verticalOverflow=\"Truncate\">Name</Text>",
             RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
 
         File.WriteAllText(path, text, new UTF8Encoding(false));
@@ -699,8 +791,11 @@ end
         if (xml.Contains("image=\"Blue", StringComparison.Ordinal))
             errors.Add("Generated UnassignedDial.xml still references Blue manoeuvre assets.");
 
-        if (!dialLua.Contains("local function formatDialName", StringComparison.Ordinal))
-            errors.Add("Generated UnassignedDial.lua has no pilot-name formatter.");
+        if (!dialLua.Contains("local function layoutDialName", StringComparison.Ordinal) ||
+            !dialLua.Contains("local function applyDialName", StringComparison.Ordinal))
+        {
+            errors.Add("Generated UnassignedDial.lua has no dynamic pilot-name layout engine.");
+        }
 
         if (!dialLua.Contains("local function extractPilotName", StringComparison.Ordinal))
             errors.Add("Generated UnassignedDial.lua does not remove the ship type from the visual name.");
@@ -708,16 +803,11 @@ end
         if (!dialLua.Contains("local function getAssignedShipData", StringComparison.Ordinal))
             errors.Add("Generated UnassignedDial.lua has no safe prototype ship-data fallback.");
 
-        if (!dialLua.Contains("self.UI.setValue(\"Name\", displayName)", StringComparison.Ordinal) ||
-            !dialLua.Contains("self.UI.setValue(\"SetupName\", displayName)", StringComparison.Ordinal))
+        if (!dialLua.Contains("applyDialName(Name)", StringComparison.Ordinal) ||
+            !dialLua.Contains("setAttribute(\"Name\", \"fontSize\"", StringComparison.Ordinal) ||
+            !dialLua.Contains("setAttribute(\"SetupName\", \"fontSize\"", StringComparison.Ordinal))
         {
-            errors.Add("Generated UnassignedDial.lua does not apply the formatted pilot name.");
-        }
-
-        if (dialLua.Contains("self.UI.setValue(\"Name\", Name)", StringComparison.Ordinal) ||
-            dialLua.Contains("self.UI.setValue(\"SetupName\", Name)", StringComparison.Ordinal))
-        {
-            errors.Add("Generated UnassignedDial.lua still writes the unformatted name to the nameplate.");
+            errors.Add("Generated UnassignedDial.lua does not apply dynamic name text and font sizing.");
         }
 
         foreach (var id in new[] { "Name", "SetupName" })
@@ -736,7 +826,11 @@ end
             var element = nameElement.Value;
             if (!element.Contains("alignment=\"MiddleCenter\"", StringComparison.Ordinal) ||
                 !element.Contains("resizeTextForBestFit=\"true\"", StringComparison.Ordinal) ||
-                !element.Contains("height=\"122\"", StringComparison.Ordinal))
+                !element.Contains("height=\"78\"", StringComparison.Ordinal) ||
+                !element.Contains("width=\"238\"", StringComparison.Ordinal) ||
+                !element.Contains("position=\"0 82 3\"", StringComparison.Ordinal) ||
+                !element.Contains("rotation=\"180 180 0.6\"", StringComparison.Ordinal) ||
+                !element.Contains("resizeTextMaxSize=\"28\"", StringComparison.Ordinal))
             {
                 errors.Add($"Generated UnassignedDial.xml {id} is not configured for centred three-line names.");
             }
