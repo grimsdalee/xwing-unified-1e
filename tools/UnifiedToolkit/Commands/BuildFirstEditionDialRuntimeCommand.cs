@@ -102,11 +102,15 @@ public static class BuildFirstEditionDialRuntimeCommand
             var editorLuaPath = Path.Combine(
                 generatedDialFolder,
                 "ManeuverSetEditor.lua");
+            var unassignedLuaPath = Path.Combine(
+                generatedDialFolder,
+                "UnassignedDial.lua");
             var unassignedXmlPath = Path.Combine(
                 generatedDialFolder,
                 "UnassignedDial.xml");
 
             ValidateFile(editorLuaPath, "Generated ManeuverSetEditor.lua");
+            ValidateFile(unassignedLuaPath, "Generated UnassignedDial.lua");
             ValidateFile(unassignedXmlPath, "Generated UnassignedDial.xml");
 
             var logicalAssets = BuildLogicalAssets(
@@ -115,6 +119,7 @@ public static class BuildFirstEditionDialRuntimeCommand
                 assetBaseUrl);
 
             PatchManeuverSetEditor(editorLuaPath, logicalAssets);
+            PatchUnassignedDialLua(unassignedLuaPath);
             PatchUnassignedDialXml(unassignedXmlPath);
 
             var generatedFiles = Directory
@@ -126,6 +131,7 @@ public static class BuildFirstEditionDialRuntimeCommand
 
             var validation = ValidateGeneratedRuntime(
                 editorLuaPath,
+                unassignedLuaPath,
                 unassignedXmlPath,
                 logicalAssets);
 
@@ -419,6 +425,146 @@ end
         return builder.ToString();
     }
 
+    private static void PatchUnassignedDialLua(string path)
+    {
+        var text = File.ReadAllText(path);
+
+        const string assignMarker = "-- Assign a ship to the dial";
+        if (!text.Contains(assignMarker, StringComparison.Ordinal))
+        {
+            throw new InvalidDataException(
+                "UnassignedDial.lua does not contain the expected assignShip marker.");
+        }
+
+        const string formatter = """
+-- Formats the visual nameplate only. The TTS object keeps the full pilot name.
+-- Names are balanced over no more than three centred lines. XML best-fit then
+-- reduces the font size for exceptionally long individual words.
+local function formatDialName(fullName)
+    if fullName == nil then
+        return ""
+    end
+
+    local cleaned = tostring(fullName)
+        :gsub("%s+", " ")
+        :gsub("^%s+", "")
+        :gsub("%s+$", "")
+
+    if cleaned == "" then
+        return ""
+    end
+
+    local words = {}
+    for word in cleaned:gmatch("%S+") do
+        table.insert(words, word)
+    end
+
+    if #words <= 1 or #cleaned <= 18 then
+        return cleaned
+    end
+
+    local lineCount = #cleaned <= 36 and 2 or 3
+    lineCount = math.min(lineCount, #words)
+
+    local totalCharacters = #cleaned - (#words - 1)
+    local lines = {}
+    local wordIndex = 1
+    local remainingCharacters = totalCharacters
+
+    for lineIndex = 1, lineCount do
+        local remainingLines = lineCount - lineIndex + 1
+        local remainingWords = #words - wordIndex + 1
+        local target = math.ceil(
+            (remainingCharacters + math.max(0, remainingWords - remainingLines)) /
+            remainingLines)
+
+        local lineWords = {}
+        local lineLength = 0
+        local wordsNeededAfter = remainingLines - 1
+
+        while wordIndex <= #words do
+            local word = words[wordIndex]
+            local proposedLength = lineLength == 0
+                and #word
+                or lineLength + 1 + #word
+            local wordsAfter = #words - wordIndex
+
+            if lineLength > 0 and
+               proposedLength > target and
+               wordsAfter >= wordsNeededAfter then
+                break
+            end
+
+            table.insert(lineWords, word)
+            lineLength = proposedLength
+            remainingCharacters = remainingCharacters - #word
+            wordIndex = wordIndex + 1
+
+            if wordsAfter < wordsNeededAfter then
+                break
+            end
+        end
+
+        table.insert(lines, table.concat(lineWords, " "))
+    end
+
+    if wordIndex <= #words then
+        local remainder = {}
+        for index = wordIndex, #words do
+            table.insert(remainder, words[index])
+        end
+        lines[#lines] = lines[#lines] .. " " .. table.concat(remainder, " ")
+    end
+
+    return table.concat(lines, "\n")
+end
+
+""";
+
+        if (!text.Contains("local function formatDialName", StringComparison.Ordinal))
+        {
+            text = text.Replace(
+                assignMarker,
+                formatter + assignMarker,
+                StringComparison.Ordinal);
+        }
+
+        const string replacementNameAssignment = """
+    Name = removeQuotes(assignedShip.getName())
+    local displayName = formatDialName(Name)
+    self.setName(Name)
+    finished_setup = assignedShip.getVar("finished_setup") or false
+    self.UI.setValue("Name", displayName)
+    self.UI.setValue("SetupName", displayName)
+""";
+
+        if (!text.Contains("local displayName = formatDialName(Name)", StringComparison.Ordinal))
+        {
+            const string nameBlockPattern = """
+(?m)^[ \t]*Name[ \t]*=[ \t]*removeQuotes\(assignedShip\.getName\(\)\)[ \t]*\r?\n^[ \t]*self\.setName\(Name\)[ \t]*\r?\n^[ \t]*finished_setup[ \t]*=[ \t]*assignedShip\.getVar\("finished_setup"\)[ \t]*or[ \t]*false[ \t]*\r?\n(?:^[ \t]*--self\.UI\.setAttribute\("DialName",[ \t]*Name\)[ \t]*\r?\n)?^[ \t]*self\.UI\.setValue\("Name",[ \t]*Name\)[ \t]*\r?\n^[ \t]*self\.UI\.setValue\("SetupName",[ \t]*Name\)[ \t]*(?:\r?\n)?
+""";
+
+            var nameBlockMatches = Regex.Matches(
+                text,
+                nameBlockPattern,
+                RegexOptions.CultureInvariant);
+
+            if (nameBlockMatches.Count != 1)
+            {
+                throw new InvalidDataException(
+                    $"Expected exactly one assignShip name block in UnassignedDial.lua, found {nameBlockMatches.Count}.");
+            }
+
+            text = Regex.Replace(
+                text,
+                nameBlockPattern,
+                replacementNameAssignment + Environment.NewLine,
+                RegexOptions.CultureInvariant);
+        }
+
+        File.WriteAllText(path, text, new UTF8Encoding(false));
+    }
+
     private static void PatchUnassignedDialXml(string path)
     {
         var text = File.ReadAllText(path);
@@ -426,11 +572,25 @@ end
             "image=\"Blue",
             "image=\"Green",
             StringComparison.Ordinal);
+
+        text = Regex.Replace(
+            text,
+            """<Text\s+id="(?<id>SetupName|Name)"[^>]*>Name</Text>""",
+            match =>
+                $"<Text id=\"{match.Groups["id"].Value}\" class=\"DialName\" " +
+                "position=\"0 70 3\" rotation=\"180 180 0\" " +
+                "width=\"230\" height=\"108\" alignment=\"MiddleCenter\" " +
+                "font=\"font/Bank Gothic Light Regular\" fontSize=\"22\" " +
+                "fontStyle=\"Bold\" resizeTextForBestFit=\"true\" " +
+                "resizeTextMinSize=\"13\" resizeTextMaxSize=\"22\">Name</Text>",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
         File.WriteAllText(path, text, new UTF8Encoding(false));
     }
 
     private static RuntimeValidationResult ValidateGeneratedRuntime(
         string editorLuaPath,
+        string unassignedLuaPath,
         string unassignedXmlPath,
         IReadOnlyList<FirstEditionDialLogicalAsset> assets)
     {
@@ -438,6 +598,7 @@ end
         var warnings = new List<string>();
 
         var lua = File.ReadAllText(editorLuaPath);
+        var dialLua = File.ReadAllText(unassignedLuaPath);
         var xml = File.ReadAllText(unassignedXmlPath);
 
         if (lua.Contains("local BLUE_COLOR", StringComparison.Ordinal))
@@ -474,6 +635,43 @@ end
 
         if (xml.Contains("image=\"Blue", StringComparison.Ordinal))
             errors.Add("Generated UnassignedDial.xml still references Blue manoeuvre assets.");
+
+        if (!dialLua.Contains("local function formatDialName", StringComparison.Ordinal))
+            errors.Add("Generated UnassignedDial.lua has no pilot-name formatter.");
+
+        if (!dialLua.Contains("self.UI.setValue(\"Name\", displayName)", StringComparison.Ordinal) ||
+            !dialLua.Contains("self.UI.setValue(\"SetupName\", displayName)", StringComparison.Ordinal))
+        {
+            errors.Add("Generated UnassignedDial.lua does not apply the formatted pilot name.");
+        }
+
+        if (dialLua.Contains("self.UI.setValue(\"Name\", Name)", StringComparison.Ordinal) ||
+            dialLua.Contains("self.UI.setValue(\"SetupName\", Name)", StringComparison.Ordinal))
+        {
+            errors.Add("Generated UnassignedDial.lua still writes the unformatted name to the nameplate.");
+        }
+
+        foreach (var id in new[] { "Name", "SetupName" })
+        {
+            var nameElement = Regex.Match(
+                xml,
+                $"<Text\\s+id=\"{id}\"[^>]*>",
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+            if (!nameElement.Success)
+            {
+                errors.Add($"Generated UnassignedDial.xml has no {id} text element.");
+                continue;
+            }
+
+            var element = nameElement.Value;
+            if (!element.Contains("alignment=\"MiddleCenter\"", StringComparison.Ordinal) ||
+                !element.Contains("resizeTextForBestFit=\"true\"", StringComparison.Ordinal) ||
+                !element.Contains("height=\"108\"", StringComparison.Ordinal))
+            {
+                errors.Add($"Generated UnassignedDial.xml {id} is not configured for centred three-line names.");
+            }
+        }
 
         foreach (var asset in assets)
         {

@@ -1,0 +1,121 @@
+{
+  "SchemaVersion": "1.0.0",
+  "GeneratedUtc": "2026-07-27T00:23:45.9536849+00:00",
+  "SourceSave": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/source/unified-2.5/2486128992.json",
+  "ObjectsInspected": 1768,
+  "DialObjectsFound": 2,
+  "UniqueMeshes": [
+    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialmodel.obj"
+  ],
+  "UniqueColliders": [
+    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj"
+  ],
+  "UniqueFactionSkins": [
+    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/skin/1/Empire.png"
+  ],
+  "ReferencedUrls": [
+    "http://github.com/tjakubo2/TTS_xwing"
+  ],
+  "ActionTerms": [
+    "barrel roll",
+    "boost",
+    "calculate",
+    "cloak",
+    "evade",
+    "focus",
+    "jam",
+    "lock",
+    "reinforce",
+    "target lock"
+  ],
+  "ManeuverTerms": [
+    "bank",
+    "reverse",
+    "straight",
+    "turn"
+  ],
+  "Dials": [
+    {
+      "Number": 1,
+      "JsonPath": "ObjectStates[2]/ContainedObjects[83]",
+      "Guid": "e8e6c0",
+      "Name": "Custom_Model",
+      "Nickname": "Unassigned Dial",
+      "Description": "",
+      "MeshUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialmodel.obj",
+      "ColliderUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
+      "DiffuseUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/skin/1/Empire.png",
+      "NormalUrl": "",
+      "MaterialIndex": 3,
+      "LuaCharacters": 53258,
+      "XmlCharacters": 65369,
+      "LuaStateCharacters": 0,
+      "LuaFile": "01-unassigned-dial-e8e6c0.lua",
+      "XmlFile": "01-unassigned-dial-e8e6c0.xml",
+      "LuaStateFile": "",
+      "ReferencedUrls": [
+        "http://github.com/tjakubo2/TTS_xwing"
+      ],
+      "ButtonLabels": [],
+      "ActionTerms": [
+        "barrel roll",
+        "boost",
+        "calculate",
+        "cloak",
+        "evade",
+        "focus",
+        "jam",
+        "lock",
+        "reinforce",
+        "target lock"
+      ],
+      "ManeuverTerms": [
+        "bank",
+        "reverse",
+        "straight",
+        "turn"
+      ]
+    },
+    {
+      "Number": 2,
+      "JsonPath": "ObjectStates[156]/ContainedObjects[79]",
+      "Guid": "e8e6c0",
+      "Name": "Custom_Model",
+      "Nickname": "Unassigned Dial",
+      "Description": "",
+      "MeshUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialmodel.obj",
+      "ColliderUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
+      "DiffuseUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/skin/1/Empire.png",
+      "NormalUrl": "",
+      "MaterialIndex": 3,
+      "LuaCharacters": 53990,
+      "XmlCharacters": 65369,
+      "LuaStateCharacters": 0,
+      "LuaFile": "02-unassigned-dial-e8e6c0.lua",
+      "XmlFile": "02-unassigned-dial-e8e6c0.xml",
+      "LuaStateFile": "",
+      "ReferencedUrls": [
+        "http://github.com/tjakubo2/TTS_xwing"
+      ],
+      "ButtonLabels": [],
+      "ActionTerms": [
+        "barrel roll",
+        "boost",
+        "calculate",
+        "cloak",
+        "evade",
+        "focus",
+        "jam",
+        "lock",
+        "reinforce",
+        "target lock"
+      ],
+      "ManeuverTerms": [
+        "bank",
+        "reverse",
+        "straight",
+        "turn"
+      ]
+    }
+  ]
+}

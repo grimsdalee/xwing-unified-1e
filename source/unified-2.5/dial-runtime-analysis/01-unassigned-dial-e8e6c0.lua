@@ -1,3 +1,51 @@
+-- Bundled by luabundle {"rootModuleName":"Unassigned Dial.e8e6c0.lua","version":"1.6.0"}
+local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)
+	local loadingPlaceholder = {[{}] = true}
+
+	local register
+	local modules = {}
+
+	local require
+	local loaded = {}
+
+	register = function(name, body)
+		if not modules[name] then
+			modules[name] = body
+		end
+	end
+
+	require = function(name)
+		local loadedModule = loaded[name]
+
+		if loadedModule then
+			if loadedModule == loadingPlaceholder then
+				return nil
+			end
+		else
+			if not modules[name] then
+				if not superRequire then
+					local identifier = type(name) == 'string' and '\"' .. name .. '\"' or tostring(name)
+					error('Tried to require ' .. identifier .. ', but no such module has been registered')
+				else
+					return superRequire(name)
+				end
+			end
+
+			loaded[name] = loadingPlaceholder
+			loadedModule = modules[name](require, loaded, register, modules)
+			loaded[name] = loadedModule
+		end
+
+		return loadedModule
+	end
+
+	return require, loaded, register, modules
+end)(nil)
+__bundle_register("Unassigned Dial.e8e6c0.lua", function(require, _LOADED, __bundle_register, __bundle_modules)
+require("Dial.UnassignedDial")
+
+end)
+__bundle_register("Dial.UnassignedDial", function(require, _LOADED, __bundle_register, __bundle_modules)
 local menu   = require("Dial.Menu")
 local button = require("Dial.Button")
 local proxy  = require("Dial.Proxy")
@@ -104,28 +152,21 @@ exOptButtons = { "ExOpt1", "ExOpt2", "ExOpt3", "ExOpt4", "ExOpt5", "ExOpt6", "Ex
     "ExOpt11", "ExOpt12", "ExOpt13" }
 
 local maneuverButtonIds = {
-    "BBL0", "BS0", "BBR0", "WBL0", "WS0", "WBR0", "RBL0", "RS0",
-    "RBR0", "PBL0", "PS0", "PBR0",
-    "BTL1", "BBL1", "BS1", "BBR1", "BTR1", "BBL1R", "BBR1R", "BTL1T",
-    "BTR1T", "BBL1S", "BBR1S", "BS1R", "BK1", "WTL1", "WBL1", "WS1",
-    "WBR1", "WTR1", "WBL1R", "WBR1R", "WTL1T", "WTR1T", "WBL1S", "WBR1S",
-    "WS1R", "WK1", "RTL1", "RBL1", "RS1", "RBR1", "RTR1", "RBL1R",
-    "RBR1R", "RTL1T", "RTR1T", "RBL1S", "RBR1S", "RS1R", "RK1", "PTL1",
-    "PBL1", "PS1", "PBR1", "PTR1", "PBL1R", "PBR1R", "PTL1T", "PTR1T",
-    "PBL1S", "PBR1S", "PS1R", "PK1",
-    "BTL2", "BBL2", "BS2", "BBR2", "BTR2", "BTL2T", "BTR2T", "BBL2S",
-    "BBR2S", "BS2R", "BK2", "WTL2", "WBL2", "WS2", "WBR2", "WTR2",
-    "WTL2T", "WTR2T", "WBL2S", "WBR2S", "WS2R", "WK2", "RTL2", "RBL2",
-    "RS2", "RBR2", "RTR2", "RTL2T", "RTR2T", "RBL2S", "RBR2S", "RS2R",
-    "RK2", "PTL2", "PBL2", "PS2", "PBR2", "PTR2", "PTL2T", "PTR2T",
-    "PBL2S", "PBR2S", "PS2R", "PK2",
-    "BTL3", "BBL3", "BS3", "BBR3", "BTR3", "BTL3T", "BTR3T", "BBL3S",
-    "BBR3S", "BK3", "WTL3", "WBL3", "WS3", "WBR3", "WTR3", "WTL3T",
-    "WTR3T", "WBL3S", "WBR3S", "WK3", "RTL3", "RBL3", "RS3", "RBR3",
-    "RTR3", "RTL3T", "RTR3T", "RBL3S", "RBR3S", "RK3", "PTL3", "PBL3",
-    "PS3", "PBR3", "PTR3", "PTL3T", "PTR3T", "PBL3S", "PBR3S", "PK3",
-    "BS4", "BK4", "WS4", "WK4", "RS4", "RK4", "PS4", "PK4",
-    "BS5", "BK5", "WS5", "WK5", "RS5", "RK5", "PS5", "PK5",
+    "RBL0", "RS0", "RBR0",
+    "BTL1", "BBL1", "BS1", "BBR1", "BTR1",
+    "WTL1", "WBL1", "WS1", "WBR1", "WTR1",
+    "RTL1", "RBL1", "RS1", "RBR1", "RTR1",
+    "RBL1R", "RBR1R", "RTL1T", "RTR1T", "RBL1S", "RBR1S", "RK1", "RS1R", "WS1R",
+    "BTL2", "BBL2", "BS2", "BBR2", "BTR2",
+    "WTL2", "WBL2", "WS2", "WBR2", "WTR2",
+    "RTL2", "RBL2", "RS2", "RBR2", "RTR2",
+    "PTL2T", "PTR2T", "RTL2T", "RTR2T", "RBL2S", "RBR2S", "RK2", "RS2R",
+    "BTL3", "BBL3", "BS3", "BBR3", "BTR3",
+    "WTL3", "WBL3", "WS3", "WBR3", "WTR3",
+    "RTL3", "RBL3", "RS3", "RBR3", "RTR3",
+    "RTL3T", "RTR3T", "RBL3S", "RBR3S", "RK3",
+    "BS4", "WS4", "RS4", "RK4", "WK4",
+    "BS5", "WS5", "RS5", "WK5", "RK5",
 }
 
 local function clearManeuverButtons()
@@ -538,87 +579,6 @@ function onPickUp(player_color)
     end
 end
 
--- Formats the visual nameplate only. The TTS object keeps the full pilot name.
--- Names are balanced over no more than three centred lines. XML best-fit then
--- reduces the font size for exceptionally long individual words.
-local function formatDialName(fullName)
-    if fullName == nil then
-        return ""
-    end
-
-    local cleaned = tostring(fullName)
-        :gsub("%s+", " ")
-        :gsub("^%s+", "")
-        :gsub("%s+$", "")
-
-    if cleaned == "" then
-        return ""
-    end
-
-    local words = {}
-    for word in cleaned:gmatch("%S+") do
-        table.insert(words, word)
-    end
-
-    if #words <= 1 or #cleaned <= 18 then
-        return cleaned
-    end
-
-    local lineCount = #cleaned <= 36 and 2 or 3
-    lineCount = math.min(lineCount, #words)
-
-    local totalCharacters = #cleaned - (#words - 1)
-    local lines = {}
-    local wordIndex = 1
-    local remainingCharacters = totalCharacters
-
-    for lineIndex = 1, lineCount do
-        local remainingLines = lineCount - lineIndex + 1
-        local remainingWords = #words - wordIndex + 1
-        local target = math.ceil(
-            (remainingCharacters + math.max(0, remainingWords - remainingLines)) /
-            remainingLines)
-
-        local lineWords = {}
-        local lineLength = 0
-        local wordsNeededAfter = remainingLines - 1
-
-        while wordIndex <= #words do
-            local word = words[wordIndex]
-            local proposedLength = lineLength == 0
-                and #word
-                or lineLength + 1 + #word
-            local wordsAfter = #words - wordIndex
-
-            if lineLength > 0 and
-               proposedLength > target and
-               wordsAfter >= wordsNeededAfter then
-                break
-            end
-
-            table.insert(lineWords, word)
-            lineLength = proposedLength
-            remainingCharacters = remainingCharacters - #word
-            wordIndex = wordIndex + 1
-
-            if wordsAfter < wordsNeededAfter then
-                break
-            end
-        end
-
-        table.insert(lines, table.concat(lineWords, " "))
-    end
-
-    if wordIndex <= #words then
-        local remainder = {}
-        for index = wordIndex, #words do
-            table.insert(remainder, words[index])
-        end
-        lines[#lines] = lines[#lines] .. " " .. table.concat(remainder, " ")
-    end
-
-    return table.concat(lines, "\n")
-end
 -- Assign a ship to the dial
 function assignShip(args)
     self.UI.setAttribute("CenterFD", "active", "true")
@@ -631,11 +591,11 @@ function assignShip(args)
     self.UI.setAttribute("setManPeekPanel", "active", "true")
     assignedShip = args.ship
     Name = removeQuotes(assignedShip.getName())
-    local displayName = formatDialName(Name)
     self.setName(Name)
     finished_setup = assignedShip.getVar("finished_setup") or false
-    self.UI.setValue("Name", displayName)
-    self.UI.setValue("SetupName", displayName)
+    --self.UI.setAttribute("DialName", Name)
+    self.UI.setValue("Name", Name)
+    self.UI.setValue("SetupName", Name)
     shipData = assignedShip.getTable("Data")
     if shipData.arcs and shipData.arcs.fixed then
         self.UI.setAttribute("FixedArc", "active", "true")
@@ -1372,3 +1332,351 @@ function deleteTemplate()
     Table = { [1] = assignedShip, [2] = 'deleteMoveTemplate', [3] = playerColor }
     Global.call("proxyPerformAction", Table)
 end
+
+end)
+__bundle_register("Dim", function(require, _LOADED, __bundle_register, __bundle_modules)
+-- ~~~~~~
+-- Script by dzikakulka
+-- Issues, history at: http://github.com/tjakubo2/TTS_xwing
+--
+-- X-Wing related measurements for TTS
+-- ~~~~~~
+
+local Dim = {}
+
+-- adjusted length = 40mm = 1.4536igu
+-- 1mm = 0.03612igu
+Dim.mm_igu_ratio = 0.03637
+
+-- 40mm = 1.445igu
+-- (s1 length / small base size)
+
+-- 1mm = 0.036125igu
+-- mm_igu_ratio = 0.036125
+
+-- Millimeter dimensions of ship bases
+Dim.mm_baseSize = {
+    small = 40,
+    medium = 60,
+    large = 80,
+    huge = 80,
+    smallBase = 40,
+    mediumBase = 60,
+    largeBase = 80,
+    hugeBase = 80,
+    objective = 36,
+}
+
+Dim.mm_smallBase = Dim.mm_baseSize.small
+Dim.mm_mediumBase = Dim.mm_baseSize.medium
+Dim.mm_largeBase = Dim.mm_baseSize.large
+
+----------------------------------------
+-- Standard X-Wing Maneuver Templates --
+----------------------------------------
+
+Dim.XWingTemplates = {
+    straight = { 40, 80, 120, 160, 200 }, -- Speed to millimeters
+    turn = { 35, 62.5, 90 },              -- Turn Middle Radius (mm)
+    bank = { 80, 130, 180 },              -- Bank Middle Radius (mm)
+}
+
+-- Millimeter dimensions for cards
+Dim.mm_upgrade_width = 41
+Dim.mm_upgrade_height = 63
+Dim.mm_pilot_width = 63.5
+Dim.mm_pilot_height = 88
+
+Dim.mm_ship_scale = vector(0.629, 0.629, 0.629)
+
+Dim.mm_cardSize = {
+    upgrade = { width = 41, height = 63 },
+    pilot = { width = 63.5, height = 88 }
+}
+
+-- Millimeter dimension for dial cards
+Dim.mm_dialSize = 54
+
+-- Convert argument from MILLIMETERS to IN-GAME UNITS
+function Dim.Convert_mm_igu(millimeters)
+    return millimeters * Dim.mm_igu_ratio
+end
+
+-- Convert argument from IN-GAME UNITS to MILLIMETERS
+function Dim.Convert_igu_mm(in_game_units)
+    return in_game_units / Dim.mm_igu_ratio
+end
+
+return Dim
+
+end)
+__bundle_register("Dial.Proxy", function(require, _LOADED, __bundle_register, __bundle_modules)
+local obj = self
+
+local P = {}
+
+local active_proxies = {}
+
+local function createOffsets(move_code, offsets)
+    local outputs = {}
+
+    if move_code:sub(1, 1) == "r" then
+        move_code = move_code:sub(1, 2)
+    elseif move_code:sub(1, 1) == "c" then
+        move_code = move_code:sub(1, 2)
+    elseif move_code:sub(1, 2) == "vt" then
+        move_code = move_code:sub(1, 4)
+    elseif move_code:sub(1, 1) == "v" then
+        move_code = move_code:sub(1, 3)
+    elseif move_code:sub(-1, -1) == "t" then
+        move_code = move_code:sub(1, 3)
+    end
+
+    for c, v in pairs(offsets) do
+        outputs[c] = move_code .. v
+    end
+
+    return outputs
+end
+
+local function isDone(proxy)
+    return proxy.state == "term"
+end
+
+local function isReady(proxy)
+    return proxy.state == "active"
+end
+
+local function setActiveProxies(proxies)
+    for position, proxy in pairs(proxies) do
+        active_proxies[position] = proxy.getGUID()
+    end
+end
+
+local function unsetActiveProxies()
+    active_proxies = {}
+end
+
+function P.isActive()
+    if not active_proxies then return false end
+
+    for k, v in pairs(active_proxies) do return true end
+    return false
+end
+
+function P.cancel(ship_guid)
+    Global.call("DeleteShipProxies", { ship_guid = ship_guid })
+end
+
+function P.isProxyable(move_code)
+    if move_code:sub(1, 1) == "r" then
+        return true
+    elseif move_code:sub(1, 1) == "c" then
+        return true
+    elseif move_code:sub(1, 1) == "v" then
+        return true
+    end
+    return false
+end
+
+function P.spawn(args)
+    if P.isActive() then
+        printToAll("Please finish this ship's active proxy maneuver before setting another one")
+        return
+    end
+
+    local ship_guid              = args.ship_guid
+    local move_code              = args.move_code
+    local offsets                = args.offsets
+    local cancellable            = args.cancellable
+    local button_func            = args.button_func
+
+    local move_codes             = createOffsets(move_code, offsets)
+    local proxy_args             = {
+        ship_guid  = ship_guid,
+        move_codes = move_codes,
+    }
+
+    local proxy_objects, success = Global.call("SpawnProxyOptions", proxy_args)
+
+    if not success then return end
+
+    Wait.condition(function() setActiveProxies(proxy_objects.proxy_table) end, function() return isReady(proxy_objects) end)
+    Wait.condition(function() button_func(true, cancellable, active_proxies) end, function() return isReady(proxy_objects) end)
+    Wait.condition(unsetActiveProxies, function() return isDone(proxy_objects) end)
+    Wait.condition(function() button_func(false) end, function() return isDone(proxy_objects) end)
+    Wait.condition(function() obj.setVar("befAft", "_A") end, function() return isDone(proxy_objects) end)
+end
+
+return P
+
+end)
+__bundle_register("Dial.Button", function(require, _LOADED, __bundle_register, __bundle_modules)
+local obj = self
+
+local B = {}
+
+local offsetXY = {
+    Setup = "0 0",
+    proxyPanel = "0 -215",
+}
+
+local function changeButtonState(button, activate)
+    if activate then
+        obj.UI.setAttribute(button, "active", "true")
+        -- deactivating a button resets text color to black, we have to set it again
+        obj.UI.setAttribute(button, "textColor", "#FFFFFF")
+    else
+        obj.UI.setAttribute(button, "active", "false")
+    end
+end
+
+function B.setAttributeFacing(attribute, face_state)
+    local up_rotation   = "0 180 0"
+    local down_rotation = "0 0 0"
+    local up_z          = "1"
+    local down_z        = "-25"
+    local base_xy       = offsetXY[attribute]
+
+    local attributes    = {}
+    if face_state == "Down" then
+        attributes = {
+            position = base_xy .. " " .. down_z,
+            rotation = down_rotation,
+        }
+    elseif face_state == "Up" then
+        attributes = {
+            position = base_xy .. " " .. up_z,
+            rotation = up_rotation,
+        }
+    end
+
+    obj.UI.setAttributes(attribute, attributes)
+end
+
+function B.setProxyState(activate, cancellable, active_proxies)
+    if activate then
+        obj.UI.show("proxyPanel")
+    else
+        obj.UI.hide("proxyPanel")
+    end
+
+    changeButtonState("proxyCancelBtn", cancellable)
+
+    --if not cancellable then
+    --    changeButtonState("UndoBtn", not activate)
+    --end
+
+    if not active_proxies then
+        obj.UI.setAttribute("proxyFrontBtn", "active", "false")
+        obj.UI.setAttribute("proxyCenterBtn", "active", "false")
+        obj.UI.setAttribute("proxyBackBtn", "active", "false")
+
+        return
+    end
+    for position, guid in pairs(active_proxies) do
+        local attribute_name = string.upper(position:sub(1, 1)) .. position:sub(2, -1)
+        obj.UI.setAttribute("proxy" .. attribute_name .. "Btn", "onMouseEnter", guid .. "/onHoverEnter")
+        obj.UI.setAttribute("proxy" .. attribute_name .. "Btn", "onMouseExit", guid .. "/onHoverLeave")
+        obj.UI.setAttribute("proxy" .. attribute_name .. "Btn", "onClick", guid .. "/select")
+        obj.UI.setAttribute("proxy" .. attribute_name .. "Btn", "active", "true")
+    end
+end
+
+function B.setBarrelRollState(proxyMode, activate)
+    if activate then
+        obj.UI.setAttribute("BarrelRightFD", "active", "true")
+        obj.UI.setAttribute("BarrelLeftFD", "active", "true")
+        obj.UI.setAttribute("BarrelRBtn", "active", "true")
+        obj.UI.setAttribute("BarrelLBtn", "active", "true")
+    end
+
+    local extra_buttons = tostring(not proxyMode)
+    obj.UI.setAttribute("BarrelRFBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelRBBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelLFBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelLBBtn", "active", extra_buttons)
+end
+
+function B.setBarrelRoll2State(proxyMode, activate)
+    if activate then
+        obj.UI.setAttribute("BarrelRight2FD", "active", "true")
+        obj.UI.setAttribute("BarrelLeft2FD", "active", "true")
+        obj.UI.setAttribute("BarrelL2Btn", "active", "true")
+        obj.UI.setAttribute("BarrelR2Btn", "active", "true")
+    end
+
+    local extra_buttons = tostring(not proxyMode)
+    obj.UI.setAttribute("BarrelRF2Btn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelRB2Btn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelLF2Btn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelLB2Btn", "active", extra_buttons)
+end
+
+function B.setViperBarrelRollState(proxyMode, activate)
+    if activate then
+        obj.UI.setAttribute("BarrelRightFD", "active", "true")
+        obj.UI.setAttribute("BarrelLeftFD", "active", "true")
+    end
+    local extra_buttons = tostring(proxyMode)
+    obj.UI.setAttribute("BarrelVRUBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVRDBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVLUBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVLDBtn", "active", extra_buttons)
+end
+
+function B.setTurnBarrelRollState(proxyMode, activate)
+    if activate then
+        obj.UI.setAttribute("BarrelRightFD", "active", "true")
+        obj.UI.setAttribute("BarrelLeftFD", "active", "true")
+    end
+    local extra_buttons = tostring(proxyMode)
+    obj.UI.setAttribute("BarrelVTRUBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVTRDBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVTLUBtn", "active", extra_buttons)
+    obj.UI.setAttribute("BarrelVTLDBtn", "active", extra_buttons)
+end
+
+return B
+
+end)
+__bundle_register("Dial.Menu", function(require, _LOADED, __bundle_register, __bundle_modules)
+local obj = self
+
+local M = {}
+
+local toggleItems = {}
+
+function M.addToggleItem(name, text, func, noToggle)
+    local i = {
+        name = name,
+        text = text,
+        func = func,
+        noToggle = noToggle
+    }
+
+    table.insert(toggleItems, i)
+end
+
+function M.update()
+    obj.clearContextMenu()
+
+    for _, v in ipairs(toggleItems) do
+        local text = ""
+        local value = _G[v.name] or false
+        if v.noToggle then
+            text = v.text
+        elseif value then
+            text = "Disable " .. v.text
+        else
+            text = "Enable " .. v.text
+        end
+
+        obj.addContextMenuItem(text, function() v.func(not value) end)
+    end
+end
+
+return M
+
+end)
+return __bundle_require("Unassigned Dial.e8e6c0.lua")

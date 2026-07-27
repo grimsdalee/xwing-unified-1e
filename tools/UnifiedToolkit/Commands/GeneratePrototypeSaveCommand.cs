@@ -69,6 +69,7 @@ public static class GeneratePrototypeSaveCommand
                 assemblyPlanPath);
             var runtimeTemplates = Read<PrototypeRuntimeTemplateManifestInput>(
                 runtimeTemplatesPath);
+            var dialRuntime = LoadFirstEditionDialRuntime(repositoryRoot);
 
             if (assemblyPlan.InvalidPrototypeCount != 0
                 || assemblyPlan.ValidationErrors.Count != 0)
@@ -109,6 +110,7 @@ public static class GeneratePrototypeSaveCommand
                     assembly,
                     baseTemplates,
                     pegIndex,
+                    dialRuntime,
                     usedGuids,
                     diagnostics);
 
@@ -118,7 +120,7 @@ public static class GeneratePrototypeSaveCommand
 
             var outputSave = referenceSave.DeepClone().AsObject();
             outputSave["SaveName"] =
-                "X-Wing Unified 1E - Phase 12D R6 First Edition Card and Dial Backs Prototype";
+                "X-Wing Unified 1E - Phase 12E R1 Runtime Faction Dial Prototype";
             outputSave["Date"] = DateTime.UtcNow.ToString("yyyy-MM-dd");
 
             // The full Unified Global runtime expects the complete original
@@ -152,7 +154,7 @@ public static class GeneratePrototypeSaveCommand
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
-                ImplementationVersion = "12D-1-R6",
+                ImplementationVersion = "12E-3-R1",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 ReferenceSave = NormalisePath(referenceSavePath),
@@ -163,7 +165,7 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "StaticVisualPrototype-R6-FirstEditionCardDialBacks"
+                RuntimeMode = "AssignedUnifiedDial-FirstEditionFactionTexture-R1"
             };
 
             var manifestPath = Path.Combine(
@@ -183,7 +185,7 @@ public static class GeneratePrototypeSaveCommand
                 "UnifiedToolkit Phase 12B-3 Structural Prototype Save Generation");
             Console.WriteLine(
                 "=================================================================");
-            Console.WriteLine("Implementation:          12D-1 R6 First Edition Card and Dial Backs");
+            Console.WriteLine("Implementation:          12E-3 R1 Runtime Faction Dial Integration");
             Console.WriteLine();
             Console.WriteLine($"Repository:              {repositoryRoot}");
             Console.WriteLine($"Reference save:          {referenceSavePath}");
@@ -218,6 +220,7 @@ public static class GeneratePrototypeSaveCommand
         PrototypeAssemblyInput assembly,
         IReadOnlyDictionary<string, JsonObject> snapshots,
         IReadOnlyDictionary<string, PrototypeRuntimeTemplateInput> pegIndex,
+        FirstEditionDialRuntimeInput dialRuntime,
         ISet<string> usedGuids,
         ICollection<string> diagnostics)
     {
@@ -225,11 +228,9 @@ public static class GeneratePrototypeSaveCommand
             .DeepClone()
             .AsObject();
 
-        var dialTemplate = BuildStaticDialToken(
-            dialGuid: string.Empty,
-            assembly,
-            dialTextureUrl: string.Empty,
-            dialBackUrl: string.Empty);
+        var dialTemplate = snapshots["FirstEditionAssignedDial"]
+            .DeepClone()
+            .AsObject();
 
         var baseGuid = NextGuid(
             assembly.PackageId + ":base",
@@ -305,19 +306,15 @@ public static class GeneratePrototypeSaveCommand
         var tokenUrl = AssetUrl(assetBaseUrl, pilotToken.RepositoryPath);
         var cardUrl = AssetUrl(assetBaseUrl, pilotCard.RepositoryPath);
 
-        dialTexture = PublishCircularDialTexture(
-            repositoryRoot,
-            assembly,
-            dialTexture,
-            diagnostics);
+        ValidateFile(
+            dialTexture.FullPath,
+            $"{assembly.Faction} faction master dial texture");
 
         var dialUrl = AssetUrl(assetBaseUrl, dialTexture.RepositoryPath);
 
-        var dialBackUrl = PublishFactionDialBack(
-            repositoryRoot,
-            assetBaseUrl,
-            assembly,
-            diagnostics);
+        diagnostics.Add(
+            $"{assembly.PilotName} dial uses the shared {assembly.Faction} " +
+            $"master texture directly: {dialTexture.RepositoryPath}.");
 
         var pegUrl = pegTemplate.AssetUrl.Length > 0
             ? pegTemplate.AssetUrl
@@ -346,7 +343,7 @@ public static class GeneratePrototypeSaveCommand
             baseGuid,
             assembly,
             dialUrl,
-            dialBackUrl);
+            dialRuntime);
 
         var cardObject = BuildPilotCard(
             repositoryRoot,
@@ -915,33 +912,240 @@ public static class GeneratePrototypeSaveCommand
         string baseGuid,
         PrototypeAssemblyInput assembly,
         string dialTextureUrl,
-        string dialBackUrl)
+        FirstEditionDialRuntimeInput dialRuntime)
     {
-        dialObject.Clear();
-        var replacement = BuildStaticDialToken(
-            dialGuid,
-            assembly,
-            dialTextureUrl,
-            dialBackUrl);
+        dialObject["GUID"] = dialGuid;
+        dialObject["Name"] = "Custom_Model";
+        dialObject["Nickname"] = assembly.PilotName;
+        dialObject["Description"] =
+            $"{assembly.ShipName} First Edition manoeuvre dial";
 
-        foreach (var property in replacement)
-            dialObject[property.Key] = property.Value?.DeepClone();
+        SetTransform(
+            dialObject,
+            assembly.PositionX,
+            1.0f,
+            assembly.PositionZ + 5.5f,
+            0.70f);
+
+        var transform = dialObject["Transform"]?.AsObject()
+            ?? throw new InvalidDataException(
+                "Assigned dial template has no Transform object.");
+        transform["rotX"] = 0.0;
+        transform["rotY"] = 0.0;
+        transform["rotZ"] = 0.0;
+        transform["scaleX"] = 0.70;
+        transform["scaleY"] = 0.70;
+        transform["scaleZ"] = 0.70;
+
+        var customMesh = dialObject["CustomMesh"]?.AsObject()
+            ?? throw new InvalidDataException(
+                "Assigned dial template has no CustomMesh object.");
+        customMesh["DiffuseURL"] = dialTextureUrl;
+
+        var bundledLua = dialObject["LuaScript"]?.GetValue<string>()
+            ?? throw new InvalidDataException(
+                "Assigned dial template has no bundled Lua runtime.");
+
+        dialObject["LuaScript"] = ReplaceBundledDialModules(
+            bundledLua,
+            dialRuntime.Modules);
+        dialObject["XmlUI"] = dialRuntime.Xml;
+        dialObject["CustomUIAssets"] = MergeDialUiAssets(
+            dialObject["CustomUIAssets"] as JsonArray,
+            dialRuntime.Assets);
 
         var dialState = new JsonObject
         {
             ["assignedShipGUID"] = baseGuid,
             ["clickMode"] = true,
             ["owningPlayer"] = "Black",
+            ["owningPlayerTeam"] = "",
             ["proxyMode"] = true,
-            ["timeoutDuration"] = 20,
-            ["moveSet"] = ToJsonArray(assembly.MoveSet)
+            ["timeoutDuration"] = 20
         };
 
-        dialObject["GMNotes"] = dialState.ToJsonString();
-        dialObject["LuaScript"] = string.Empty;
-        dialObject["LuaScriptState"] = string.Empty;
-        dialObject["XmlUI"] = string.Empty;
-        dialObject["CustomUIAssets"] = new JsonArray();
+        var encodedState = dialState.ToJsonString();
+        dialObject["LuaScriptState"] = encodedState;
+        dialObject["GMNotes"] = encodedState;
+    }
+
+    private static string ReplaceBundledDialModules(
+        string bundledLua,
+        IReadOnlyDictionary<string, string> modules)
+    {
+        var result = bundledLua;
+
+        foreach (var module in modules)
+        {
+            var registration =
+                $"__bundle_register(\"{module.Key}\", function(require, _LOADED, __bundle_register, __bundle_modules)";
+            var registrationIndex = result.IndexOf(
+                registration,
+                StringComparison.Ordinal);
+
+            if (registrationIndex < 0)
+            {
+                throw new InvalidDataException(
+                    $"Assigned dial bundle does not contain module '{module.Key}'.");
+            }
+
+            var bodyStart = result.IndexOf('\n', registrationIndex);
+            if (bodyStart < 0)
+            {
+                throw new InvalidDataException(
+                    $"Could not locate the body of bundled module '{module.Key}'.");
+            }
+            bodyStart += 1;
+
+            var bodyEnd = result.IndexOf(
+                "\nend)\n__bundle_register(\"",
+                bodyStart,
+                StringComparison.Ordinal);
+
+            if (bodyEnd < 0)
+            {
+                bodyEnd = result.IndexOf(
+                    "\nend)\nreturn __bundle_require",
+                    bodyStart,
+                    StringComparison.Ordinal);
+            }
+
+            if (bodyEnd < 0)
+            {
+                throw new InvalidDataException(
+                    $"Could not locate the end of bundled module '{module.Key}'.");
+            }
+
+            var normalisedSource = module.Value
+                .Replace("\r\n", "\n", StringComparison.Ordinal)
+                .TrimEnd();
+
+            result = result[..bodyStart]
+                + normalisedSource
+                + result[bodyEnd..];
+        }
+
+        return result;
+    }
+
+    private static JsonArray MergeDialUiAssets(
+        JsonArray? templateAssets,
+        IReadOnlyList<FirstEditionDialRuntimeAssetInput> runtimeAssets)
+    {
+        var merged = templateAssets?.DeepClone().AsArray()
+            ?? new JsonArray();
+
+        var byName = new Dictionary<string, JsonObject>(
+            StringComparer.OrdinalIgnoreCase);
+
+        foreach (var node in merged)
+        {
+            if (node is not JsonObject asset)
+                continue;
+
+            var name = asset["Name"]?.GetValue<string>();
+            if (!string.IsNullOrWhiteSpace(name))
+                byName[name] = asset;
+        }
+
+        foreach (var runtimeAsset in runtimeAssets)
+        {
+            if (byName.TryGetValue(runtimeAsset.LogicalName, out var existing))
+            {
+                existing["Type"] = 0;
+                existing["URL"] = runtimeAsset.Url;
+                continue;
+            }
+
+            var added = new JsonObject
+            {
+                ["Type"] = 0,
+                ["Name"] = runtimeAsset.LogicalName,
+                ["URL"] = runtimeAsset.Url
+            };
+            merged.Add(added);
+            byName[runtimeAsset.LogicalName] = added;
+        }
+
+        return merged;
+    }
+
+    private static FirstEditionDialRuntimeInput LoadFirstEditionDialRuntime(
+        string repositoryRoot)
+    {
+        var runtimeRoot = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "FirstEditionDialRuntime",
+            "Dial");
+
+        var manifestPath = Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "phase12a",
+            "dial-runtime-integration",
+            "first-edition-dial-runtime.json");
+
+        ValidateFile(manifestPath, "First Edition dial-runtime manifest");
+
+        var manifest = JsonNode.Parse(File.ReadAllText(manifestPath))?.AsObject()
+            ?? throw new InvalidDataException(
+                "Could not parse the First Edition dial-runtime manifest.");
+
+        var assets = new List<FirstEditionDialRuntimeAssetInput>();
+        if (manifest["assets"] is not JsonArray assetArray)
+        {
+            throw new InvalidDataException(
+                "First Edition dial-runtime manifest has no assets array.");
+        }
+
+        foreach (var node in assetArray)
+        {
+            if (node is not JsonObject asset)
+                continue;
+
+            var logicalName = asset["logicalName"]?.GetValue<string>() ?? "";
+            var url = asset["url"]?.GetValue<string>() ?? "";
+            if (logicalName.Length == 0 || url.Length == 0)
+            {
+                throw new InvalidDataException(
+                    "First Edition dial-runtime manifest contains an incomplete logical asset.");
+            }
+
+            assets.Add(new FirstEditionDialRuntimeAssetInput
+            {
+                LogicalName = logicalName,
+                Url = url
+            });
+        }
+
+        var moduleFiles = new Dictionary<string, string>(
+            StringComparer.Ordinal)
+        {
+            ["Dial.UnassignedDial"] = "UnassignedDial.lua",
+            ["Dial.Proxy"] = "Proxy.lua",
+            ["Dial.Button"] = "Button.lua",
+            ["Dial.Menu"] = "Menu.lua"
+        };
+
+        var modules = new Dictionary<string, string>(StringComparer.Ordinal);
+        foreach (var moduleFile in moduleFiles)
+        {
+            var path = Path.Combine(runtimeRoot, moduleFile.Value);
+            ValidateFile(path, $"Generated dial module '{moduleFile.Key}'");
+            modules[moduleFile.Key] = File.ReadAllText(path);
+        }
+
+        var xmlPath = Path.Combine(runtimeRoot, "UnassignedDial.xml");
+        ValidateFile(xmlPath, "Generated UnassignedDial.xml");
+
+        return new FirstEditionDialRuntimeInput
+        {
+            Xml = File.ReadAllText(xmlPath),
+            Modules = modules,
+            Assets = assets
+        };
     }
 
     private static JsonObject BuildPilotCard(
@@ -1177,112 +1381,6 @@ public static class GeneratePrototypeSaveCommand
         return AssetUrl(assetBaseUrl, relative);
     }
 
-    private static PrototypeAssetInput PublishCircularDialTexture(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput dialTexture,
-        ICollection<string> diagnostics)
-    {
-        ValidateFile(
-            dialTexture.FullPath,
-            $"{assembly.ShipName} dial texture");
-
-        using var source = SKBitmap.Decode(dialTexture.FullPath)
-            ?? throw new InvalidDataException(
-                $"Could not decode dial texture: {dialTexture.FullPath}");
-
-        var size = Math.Min(source.Width, source.Height);
-        var sourceX = (source.Width - size) / 2;
-        var sourceY = (source.Height - size) / 2;
-
-        using var output = new SKBitmap(
-            new SKImageInfo(
-                size,
-                size,
-                SKColorType.Rgba8888,
-                SKAlphaType.Premul));
-
-        using (var canvas = new SKCanvas(output))
-        {
-            canvas.Clear(SKColors.Transparent);
-
-            using var clipPath = new SKPath();
-            clipPath.AddCircle(
-                size / 2f,
-                size / 2f,
-                size / 2f - 1f);
-
-            canvas.Save();
-            canvas.ClipPath(
-                clipPath,
-                SKClipOperation.Intersect,
-                antialias: true);
-
-            var sourceRect = new SKRectI(
-                sourceX,
-                sourceY,
-                sourceX + size,
-                sourceY + size);
-            var destinationRect = new SKRect(
-                0,
-                0,
-                size,
-                size);
-
-            using var paint = new SKPaint
-            {
-                IsAntialias = true
-            };
-
-            canvas.DrawBitmap(
-                source,
-                sourceRect,
-                destinationRect,
-                paint);
-            canvas.Restore();
-        }
-
-        var factionFolder = NormaliseIdentifier(assembly.Faction);
-        var shipFolder = NormaliseIdentifier(assembly.ShipId);
-
-        var destination = Path.Combine(
-            repositoryRoot,
-            "assets",
-            "generated",
-            "PrototypeDialTexture",
-            factionFolder,
-            shipFolder,
-            "dial-transparent.png");
-
-        Directory.CreateDirectory(
-            Path.GetDirectoryName(destination)!);
-
-        using var image = SKImage.FromBitmap(output);
-        using var encoded = image.Encode(
-            SKEncodedImageFormat.Png,
-            100);
-        using var stream = File.Create(destination);
-        encoded.SaveTo(stream);
-
-        var relative = NormalisePath(
-            Path.GetRelativePath(
-                repositoryRoot,
-                destination));
-
-        diagnostics.Add(
-            $"{assembly.ShipName} dial artwork published with transparent " +
-            $"circular exterior: {relative}. Commit and push this generated " +
-            "file before loading the R4 save in TTS.");
-
-        return new PrototypeAssetInput
-        {
-            Role = dialTexture.Role,
-            AssetId = dialTexture.AssetId,
-            RepositoryPath = relative,
-            FullPath = destination,
-            Exists = true
-        };
-    }
 
     private static string NormaliseIdentifier(string value) =>
         new((value ?? string.Empty)
@@ -2021,4 +2119,20 @@ public sealed class PrototypeRuntimeTemplateInput
     public string RepositoryPath { get; init; } = string.Empty;
     public string AssetUrl { get; init; } = string.Empty;
     public string SnapshotPath { get; init; } = string.Empty;
+}
+
+
+public sealed class FirstEditionDialRuntimeInput
+{
+    public string Xml { get; set; } = string.Empty;
+    public IReadOnlyDictionary<string, string> Modules { get; set; } =
+        new Dictionary<string, string>();
+    public IReadOnlyList<FirstEditionDialRuntimeAssetInput> Assets { get; set; } =
+        Array.Empty<FirstEditionDialRuntimeAssetInput>();
+}
+
+public sealed class FirstEditionDialRuntimeAssetInput
+{
+    public string LogicalName { get; set; } = string.Empty;
+    public string Url { get; set; } = string.Empty;
 }
