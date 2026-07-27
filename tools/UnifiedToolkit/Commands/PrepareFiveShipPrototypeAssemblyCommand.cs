@@ -24,12 +24,24 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
 
     private static readonly PrototypeSelection[] RequestedPrototypes =
     {
-        new("t65xwing", new[] { "xwing", "t65xwing" }, new[] { "lukeskywalker" }, -15f, -5f),
-        new("kwing", new[] { "kwing" }, new[] { "wardensquadronpilot", "mirandadoni" }, -9f, -5f),
-        new("asf01bwing", new[] { "asf01bwing", "bwing" }, new[] { "bladesquadronveteran", "bluesquadronpilot", "tennumb" }, -3f, -5f),
-        new("tiereaper", new[] { "tiereaper" }, new[] { "majorvermeil", "scarifbasepilot" }, 3f, -5f),
-        new("lancerclasspursuitcraft", new[] { "lancerclasspursuitcraft" }, new[] { "ketsuonyo", "shadowporthunter" }, 9f, -5f),
-        new("sheathipedeclassshuttle", new[] { "sheathipedeclassshuttle" }, new[] { "fennrau", "ezrabridger" }, 15f, -5f)
+        // One guaranteed assembly for every First Edition faction.
+        new("t65xwing", "rebelalliance", new[] { "xwing", "t65xwing" }, new[] { "lukeskywalker" }, -15f, -5f),
+        new("tiereaper", "galacticempire", new[] { "tiereaper" }, new[] { "majorvermeil", "scarifbasepilot" }, -9f, -5f),
+        new("lancerclasspursuitcraft", "scumandvillainy", new[] { "lancerclasspursuitcraft" }, new[] { "ketsuonyo", "shadowporthunter" }, -3f, -5f),
+        new("t70xwing", "resistance", new[] { "t70xwing" }, new[] { "poedameron-swx57", "poedameron", "elloasty", "niennunb" }, 3f, -5f),
+        new("upsilonclassshuttle", "firstorder", new[] { "upsilonclassshuttle" }, new[] { "lieutenantdormitz", "majorstridan", "starkillerbasepilot" }, 9f, -5f),
+
+        // Sixth slot remains a deliberate long-name and abbreviation stress test.
+        new("kwing", "rebelalliance", new[] { "kwing" }, new[] { "wardensquadronpilot", "mirandadoni" }, 15f, -5f)
+    };
+
+    private static readonly string[] RequiredPrototypeFactions =
+    {
+        "rebelalliance",
+        "galacticempire",
+        "scumandvillainy",
+        "resistance",
+        "firstorder"
     };
 
     // These are repository image/model assets selected by the package planner.
@@ -128,6 +140,17 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
             errors.AddRange(
                 missingPegKeys.Select(key =>
                     $"Peg catalogue: required template '{key}' is not resolved."));
+
+            var readyFactions = assemblies
+                .Where(assembly => assembly.Status.Equals("Ready", StringComparison.OrdinalIgnoreCase))
+                .Select(assembly => Normalise(assembly.Faction))
+                .ToHashSet(StringComparer.OrdinalIgnoreCase);
+            var missingFactions = RequiredPrototypeFactions
+                .Where(faction => !readyFactions.Contains(faction))
+                .ToList();
+            errors.AddRange(missingFactions.Select(faction =>
+                $"Faction coverage: no ready prototype assembly was generated for '{DisplayFaction(faction)}'."));
+
             var warnings = assemblies
                 .SelectMany(assembly => assembly.ValidationWarnings.Select(warning => $"{assembly.RequestedShipId}: {warning}"))
                 .ToList();
@@ -136,7 +159,7 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
 
             var document = new FiveShipPrototypeAssemblyDocument
             {
-                SchemaVersion = "1.0.0",
+                SchemaVersion = "1.1.0",
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 RepositoryRoot = NormalisePath(repositoryRoot),
                 PackagePlanPath = NormalisePath(packagePlanPath),
@@ -146,6 +169,9 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
                 ReadyPrototypeCount = assemblies.Count(assembly => assembly.Status == "Ready"),
                 InvalidPrototypeCount = assemblies.Count(assembly => assembly.Status != "Ready"),
                 DialRuntimeValidated = dialRuntime.ValidationErrors.Count == 0,
+                RequiredFactions = RequiredPrototypeFactions.Select(DisplayFaction).ToList(),
+                CoveredFactions = readyFactions.Select(DisplayFaction).OrderBy(value => value).ToList(),
+                MissingFactions = missingFactions.Select(DisplayFaction).ToList(),
                 ValidationErrors = errors,
                 ValidationWarnings = warnings,
                 Assemblies = assemblies
@@ -173,6 +199,7 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
             Console.WriteLine($"Ready assemblies:         {document.ReadyPrototypeCount}");
             Console.WriteLine($"Invalid assemblies:       {document.InvalidPrototypeCount}");
             Console.WriteLine($"Dial runtime validated:   {document.DialRuntimeValidated}");
+            Console.WriteLine($"Factions covered:         {document.CoveredFactions.Count}/{document.RequiredFactions.Count}");
             Console.WriteLine($"Validation errors:        {document.ValidationErrors.Count}");
             Console.WriteLine($"Validation warnings:      {document.ValidationWarnings.Count}");
             Console.WriteLine();
@@ -220,6 +247,9 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
             .Where(package => request.ShipAliases.Contains(
                 Normalise(package.ShipId),
                 StringComparer.OrdinalIgnoreCase))
+            .Where(package => Normalise(package.Faction).Equals(
+                request.ExpectedFaction,
+                StringComparison.OrdinalIgnoreCase))
             .ToList();
 
         var selectedPackage = matchingPackages
@@ -229,7 +259,8 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
 
         if (selectedPackage is null)
         {
-            errors.Add("No ready package was found for the requested ship.");
+            errors.Add(
+                $"No ready package was found for the requested ship in faction '{DisplayFaction(request.ExpectedFaction)}'.");
             return InvalidAssembly(request, errors, warnings);
         }
 
@@ -328,9 +359,19 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
         if (pegTemplateKey.Length == 0)
             errors.Add($"No reusable peg template is defined for '{selectedPackage.BaseSize}'.");
 
+        if (!Normalise(selectedPackage.Faction).Equals(
+                request.ExpectedFaction,
+                StringComparison.OrdinalIgnoreCase))
+        {
+            errors.Add(
+                $"Selected package faction '{selectedPackage.Faction}' does not match expected faction " +
+                $"'{DisplayFaction(request.ExpectedFaction)}'.");
+        }
+
         return new FiveShipPrototypeAssembly
         {
             RequestedShipId = request.CanonicalShipId,
+            ExpectedFaction = DisplayFaction(request.ExpectedFaction),
             PackageId = selectedPackage.PackageId,
             ShipId = selectedPackage.ShipId,
             ShipName = selectedPackage.ShipName,
@@ -376,6 +417,7 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
         List<string> warnings) => new()
     {
         RequestedShipId = request.CanonicalShipId,
+        ExpectedFaction = DisplayFaction(request.ExpectedFaction),
         PositionX = request.PositionX,
         PositionZ = request.PositionZ,
         Status = "Invalid",
@@ -430,6 +472,16 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
             .ToLowerInvariant()
             .Where(char.IsLetterOrDigit)
             .ToArray());
+
+    private static string DisplayFaction(string faction) => Normalise(faction) switch
+    {
+        "rebelalliance" => "Rebel Alliance",
+        "galacticempire" => "Galactic Empire",
+        "scumandvillainy" => "Scum and Villainy",
+        "resistance" => "Resistance",
+        "firstorder" => "First Order",
+        _ => faction
+    };
 
     private static string NormalisePath(string path) =>
         path.Replace('\\', '/');
@@ -499,6 +551,10 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
         writer.WriteLine($"- Ready: **{document.ReadyPrototypeCount}**");
         writer.WriteLine($"- Invalid: **{document.InvalidPrototypeCount}**");
         writer.WriteLine($"- Dial runtime validated: **{document.DialRuntimeValidated}**");
+        writer.WriteLine($"- Required faction coverage: **{document.CoveredFactions.Count}/{document.RequiredFactions.Count}**");
+        writer.WriteLine($"- Covered factions: **{Md(string.Join(", ", document.CoveredFactions))}**");
+        if (document.MissingFactions.Count > 0)
+            writer.WriteLine($"- Missing factions: **{Md(string.Join(", ", document.MissingFactions))}**");
         writer.WriteLine();
         writer.WriteLine("| Ship | Pilot | Faction | Base | Maneuvers | Special 1E actions | Status |");
         writer.WriteLine("|---|---|---|---|---:|---|---|");
@@ -584,6 +640,7 @@ public static class PrepareFiveShipPrototypeAssemblyCommand
 
     private sealed record PrototypeSelection(
         string CanonicalShipId,
+        string ExpectedFaction,
         IReadOnlyList<string> ShipAliases,
         IReadOnlyList<string> PreferredPilotIds,
         float PositionX,
@@ -602,6 +659,9 @@ public sealed class FiveShipPrototypeAssemblyDocument
     public int ReadyPrototypeCount { get; init; }
     public int InvalidPrototypeCount { get; init; }
     public bool DialRuntimeValidated { get; init; }
+    public List<string> RequiredFactions { get; init; } = new();
+    public List<string> CoveredFactions { get; init; } = new();
+    public List<string> MissingFactions { get; init; } = new();
     public List<string> ValidationErrors { get; init; } = new();
     public List<string> ValidationWarnings { get; init; } = new();
     public List<FiveShipPrototypeAssembly> Assemblies { get; init; } = new();
@@ -610,6 +670,7 @@ public sealed class FiveShipPrototypeAssemblyDocument
 public sealed class FiveShipPrototypeAssembly
 {
     public string RequestedShipId { get; init; } = string.Empty;
+    public string ExpectedFaction { get; init; } = string.Empty;
     public string PackageId { get; init; } = string.Empty;
     public string ShipId { get; init; } = string.Empty;
     public string ShipName { get; init; } = string.Empty;
