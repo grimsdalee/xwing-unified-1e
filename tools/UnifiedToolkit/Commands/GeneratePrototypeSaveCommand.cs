@@ -99,6 +99,7 @@ public static class GeneratePrototypeSaveCommand
                     StringComparer.OrdinalIgnoreCase);
 
             var diagnostics = new List<string>();
+            var assemblyDiagnostics = new List<PrototypeAssemblyAssetDiagnostic>();
             var generatedObjects = new JsonArray();
             var usedGuids = new HashSet<string>(
                 StringComparer.OrdinalIgnoreCase);
@@ -114,7 +115,8 @@ public static class GeneratePrototypeSaveCommand
                     dialRuntime,
                     dialModelRepositoryPath,
                     usedGuids,
-                    diagnostics);
+                    diagnostics,
+                    assemblyDiagnostics);
 
                 foreach (var item in shipObjects)
                     generatedObjects.Add(item);
@@ -153,6 +155,10 @@ public static class GeneratePrototypeSaveCommand
                 "prototype-save-generation");
             Directory.CreateDirectory(reportDirectory);
 
+            var assetDiagnosticPath = Path.Combine(
+                reportDirectory,
+                "prototype-assembly-asset-diagnostics.json");
+
             var manifest = new PrototypeSaveGenerationManifest
             {
                 SchemaVersion = "1.0.0",
@@ -167,7 +173,8 @@ public static class GeneratePrototypeSaveCommand
                 AssembliesGenerated = assemblyPlan.Assemblies.Count,
                 TtsObjectsGenerated = generatedObjects.Count,
                 Diagnostics = diagnostics,
-                RuntimeMode = "AssignedUnifiedDial-RepositoryOwnedAlignedModel-R1"
+                AssetDiagnosticPath = NormalisePath(assetDiagnosticPath),
+                RuntimeMode = "AssignedUnifiedDial-RepositoryOwnedAlignedModel-R2"
             };
 
             var manifestPath = Path.Combine(
@@ -176,6 +183,10 @@ public static class GeneratePrototypeSaveCommand
             var reportPath = Path.Combine(
                 reportDirectory,
                 "PROTOTYPE-SAVE-GENERATION.md");
+            File.WriteAllText(
+                assetDiagnosticPath,
+                JsonSerializer.Serialize(assemblyDiagnostics, JsonOptions),
+                new UTF8Encoding(false));
 
             File.WriteAllText(
                 manifestPath,
@@ -202,6 +213,7 @@ public static class GeneratePrototypeSaveCommand
             Console.WriteLine($"Prototype save:          {outputPath}");
             Console.WriteLine($"Manifest:                {manifestPath}");
             Console.WriteLine($"Report:                  {reportPath}");
+            Console.WriteLine($"Asset diagnostics:       {assetDiagnosticPath}");
             Console.WriteLine();
             Console.WriteLine(
                 "Structural prototype generated. The reference save and repository assets were not modified.");
@@ -225,7 +237,8 @@ public static class GeneratePrototypeSaveCommand
         FirstEditionDialRuntimeInput dialRuntime,
         string dialModelRepositoryPath,
         ISet<string> usedGuids,
-        ICollection<string> diagnostics)
+        ICollection<string> diagnostics,
+        ICollection<PrototypeAssemblyAssetDiagnostic> assemblyDiagnostics)
     {
         var baseTemplate = snapshots[assembly.BaseTemplateKey]
             .DeepClone()
@@ -357,12 +370,78 @@ public static class GeneratePrototypeSaveCommand
             assembly,
             cardUrl);
 
+        assemblyDiagnostics.Add(new PrototypeAssemblyAssetDiagnostic
+        {
+            PackageId = assembly.PackageId,
+            ShipId = assembly.ShipId,
+            ShipName = assembly.ShipName,
+            PilotId = assembly.PilotId,
+            PilotName = assembly.PilotName,
+            Faction = assembly.Faction,
+            BaseSize = assembly.BaseSize,
+            BaseGuid = baseGuid,
+            DialGuid = dialGuid,
+            CardGuid = cardGuid,
+            BaseTemplateKey = assembly.BaseTemplateKey,
+            BaseTextureUrl = customBaseTextureUrl(baseTemplate),
+            PegTemplateKey = assembly.PegTemplateKey,
+            PegAsset = pegUrl,
+            PilotTokenAsset = pilotToken.RepositoryPath,
+            ShipModelAsset = model.RepositoryPath,
+            ShipTextureAsset = texture.RepositoryPath,
+            DialModelAsset = dialModelRepositoryPath,
+            DialTextureAsset = dialTexture.RepositoryPath,
+            PilotCardAsset = pilotCard.RepositoryPath,
+            ChildHierarchy = DescribeChildHierarchy(baseTemplate)
+        });
+
         return new List<JsonObject>
         {
             baseTemplate,
             dialTemplate,
             cardObject
         };
+    }
+
+    private static string customBaseTextureUrl(JsonObject baseObject)
+    {
+        return baseObject["CustomMesh"]?["DiffuseURL"]?.GetValue<string>()
+            ?? string.Empty;
+    }
+
+    private static List<PrototypeObjectHierarchyDiagnostic> DescribeChildHierarchy(
+        JsonObject baseObject)
+    {
+        var results = new List<PrototypeObjectHierarchyDiagnostic>();
+        if (baseObject["ChildObjects"] is not JsonArray children)
+            return results;
+
+        foreach (var node in children)
+        {
+            if (node is not JsonObject child)
+                continue;
+
+            var mesh = child["CustomMesh"] as JsonObject;
+            var image = child["CustomImage"] as JsonObject;
+            var transform = child["Transform"] as JsonObject;
+
+            results.Add(new PrototypeObjectHierarchyDiagnostic
+            {
+                Guid = child["GUID"]?.GetValue<string>() ?? string.Empty,
+                Name = child["Name"]?.GetValue<string>() ?? string.Empty,
+                Nickname = child["Nickname"]?.GetValue<string>() ?? string.Empty,
+                MeshUrl = mesh?["MeshURL"]?.GetValue<string>() ?? string.Empty,
+                DiffuseUrl = mesh?["DiffuseURL"]?.GetValue<string>()
+                    ?? image?["ImageURL"]?.GetValue<string>()
+                    ?? string.Empty,
+                PositionY = transform?["posY"]?.GetValue<double>() ?? 0.0,
+                ScaleX = transform?["scaleX"]?.GetValue<double>() ?? 0.0,
+                ScaleY = transform?["scaleY"]?.GetValue<double>() ?? 0.0,
+                ScaleZ = transform?["scaleZ"]?.GetValue<double>() ?? 0.0
+            });
+        }
+
+        return results;
     }
 
     private static void ConfigureBase(
@@ -568,7 +647,14 @@ public static class GeneratePrototypeSaveCommand
         string? openPath = null;
         string? closedPath = null;
 
-        if (assembly.ShipId.Equals("xwing", StringComparison.OrdinalIgnoreCase)
+        if (assembly.ShipId.Equals("t70xwing", StringComparison.OrdinalIgnoreCase))
+        {
+            openPath =
+                "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_openv2.obj";
+            closedPath =
+                "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closedv2.obj";
+        }
+        else if (assembly.ShipId.Equals("xwing", StringComparison.OrdinalIgnoreCase)
             || assembly.ShipId.Equals("t65xwing", StringComparison.OrdinalIgnoreCase))
         {
             openPath =
@@ -1494,6 +1580,14 @@ public static class GeneratePrototypeSaveCommand
         string? relative = null;
 
         if (assembly.ShipId.Equals(
+                "t70xwing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "t70xwing/t70_basev2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "kwing",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -1543,6 +1637,37 @@ public static class GeneratePrototypeSaveCommand
         PrototypeAssetInput texture,
         ICollection<string> diagnostics)
     {
+        if (assembly.ShipId.Equals(
+                "t70xwing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return UseKnownTexture(
+                repositoryRoot,
+                assembly,
+                texture,
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "t70xwing/Textures/1/poe.jpg",
+                "TS_Save_42 Poe Dameron model-compatible texture",
+                diagnostics);
+        }
+
+        if (assembly.ShipId.Equals(
+                "upsilonclassshuttle",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "upsilonclasscommandshuttle",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return UseKnownTexture(
+                repositoryRoot,
+                assembly,
+                texture,
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "upsilonclasscommandshuttle/Textures/standard.jpg",
+                "TS_Save_42 model-compatible standard texture",
+                diagnostics);
+        }
+
         if (assembly.ShipId.Equals(
                 "kwing",
                 StringComparison.OrdinalIgnoreCase))
@@ -2117,7 +2242,47 @@ public sealed class PrototypeSaveGenerationManifest
     public int AssembliesGenerated { get; init; }
     public int TtsObjectsGenerated { get; init; }
     public string RuntimeMode { get; init; } = string.Empty;
+    public string AssetDiagnosticPath { get; init; } = string.Empty;
     public List<string> Diagnostics { get; init; } = new();
+}
+
+
+public sealed class PrototypeAssemblyAssetDiagnostic
+{
+    public string PackageId { get; init; } = string.Empty;
+    public string ShipId { get; init; } = string.Empty;
+    public string ShipName { get; init; } = string.Empty;
+    public string PilotId { get; init; } = string.Empty;
+    public string PilotName { get; init; } = string.Empty;
+    public string Faction { get; init; } = string.Empty;
+    public string BaseSize { get; init; } = string.Empty;
+    public string BaseGuid { get; init; } = string.Empty;
+    public string DialGuid { get; init; } = string.Empty;
+    public string CardGuid { get; init; } = string.Empty;
+    public string BaseTemplateKey { get; init; } = string.Empty;
+    public string BaseTextureUrl { get; init; } = string.Empty;
+    public string PegTemplateKey { get; init; } = string.Empty;
+    public string PegAsset { get; init; } = string.Empty;
+    public string PilotTokenAsset { get; init; } = string.Empty;
+    public string ShipModelAsset { get; init; } = string.Empty;
+    public string ShipTextureAsset { get; init; } = string.Empty;
+    public string DialModelAsset { get; init; } = string.Empty;
+    public string DialTextureAsset { get; init; } = string.Empty;
+    public string PilotCardAsset { get; init; } = string.Empty;
+    public List<PrototypeObjectHierarchyDiagnostic> ChildHierarchy { get; init; } = new();
+}
+
+public sealed class PrototypeObjectHierarchyDiagnostic
+{
+    public string Guid { get; init; } = string.Empty;
+    public string Name { get; init; } = string.Empty;
+    public string Nickname { get; init; } = string.Empty;
+    public string MeshUrl { get; init; } = string.Empty;
+    public string DiffuseUrl { get; init; } = string.Empty;
+    public double PositionY { get; init; }
+    public double ScaleX { get; init; }
+    public double ScaleY { get; init; }
+    public double ScaleZ { get; init; }
 }
 
 public sealed class PrototypeSaveAssemblyPlanInput
