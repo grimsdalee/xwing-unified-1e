@@ -119,7 +119,10 @@ public static class GeneratePrototypeSaveCommand
                     assemblyDiagnostics);
 
                 foreach (var item in shipObjects)
+                {
+                    RepositoryAssetUrlPolicy.RewriteObjectUrls(item, assetBaseUrl);
                     generatedObjects.Add(item);
+                }
             }
 
             var outputSave = referenceSave.DeepClone().AsObject();

@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-27T23:44:39.7173424+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "jumpmaster5000",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/jumpmaster5000/contractedscout",
+      "shipId": "jumpmaster5000",
+      "shipName": "JumpMaster 5000",
+      "pilotId": "contractedscout",
+      "pilotName": "Contracted Scout",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "btl1",
+        "bbl1",
+        "bs1",
+        "wbr1",
+        "wtr1",
+        "btl2",
+        "bbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl2s",
+        "rtr2t",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-4E1DCEF99057B37E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-AADF6ECE3A671EDF",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-898A72F8940DF87C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-C772A2B282C45E0B",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "jumpmaster5000",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/jumpmaster5000/manaroo",
+      "shipId": "jumpmaster5000",
+      "shipName": "JumpMaster 5000",
+      "pilotId": "manaroo",
+      "pilotName": "Manaroo",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "btl1",
+        "bbl1",
+        "bs1",
+        "wbr1",
+        "wtr1",
+        "btl2",
+        "bbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl2s",
+        "rtr2t",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-4E1DCEF99057B37E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-AADF6ECE3A671EDF",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-9C29E2F7DE0CF9C2",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/manaroo.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/manaroo.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-5A8D29FDFD4D300B",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "jumpmaster5000",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/jumpmaster5000/teltrevura",
+      "shipId": "jumpmaster5000",
+      "shipName": "JumpMaster 5000",
+      "pilotId": "teltrevura",
+      "pilotName": "Tel Trevura",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "btl1",
+        "bbl1",
+        "bs1",
+        "wbr1",
+        "wtr1",
+        "btl2",
+        "bbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl2s",
+        "rtr2t",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-4E1DCEF99057B37E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-AADF6ECE3A671EDF",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-EDBE82D338896B36",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-0E0A089873E01183",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "jumpmaster5000",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/jumpmaster5000/dengar",
+      "shipId": "jumpmaster5000",
+      "shipName": "JumpMaster 5000",
+      "pilotId": "dengar",
+      "pilotName": "Dengar",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "btl1",
+        "bbl1",
+        "bs1",
+        "wbr1",
+        "wtr1",
+        "btl2",
+        "bbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl2s",
+        "rtr2t",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-4E1DCEF99057B37E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-AADF6ECE3A671EDF",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-D544DDDD2400CEE7",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/dengar.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/dengar.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-6E32883C3BFB878B",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

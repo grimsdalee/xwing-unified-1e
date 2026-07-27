@@ -1,0 +1,304 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-27T23:44:37.3140185+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 3,
+  "readyPrototypeCount": 3,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "tiefighter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/tiefighter/zeborrelios",
+      "shipId": "tiefighter",
+      "shipName": "TIE Fighter",
+      "pilotId": "zeborrelios",
+      "pilotName": "\u0022Zeb\u0022 Orrelios",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4",
+        "rk4",
+        "ws5"
+      ],
+      "actSet": [
+        "F",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0B6D6D62A77FB06E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-088458018B8CB1E7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-9C8CBA4508E23BE6",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-8675603FAAD7FAC0",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/zeb-orrelios.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/zeb-orrelios.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-A9BB772169C38F55",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/tiefighter/zeborrelios__pilot-6a68adf29bda.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/tiefighter/zeborrelios__pilot-6a68adf29bda.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiefighter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/tiefighter/captainrex",
+      "shipId": "tiefighter",
+      "shipName": "TIE Fighter",
+      "pilotId": "captainrex",
+      "pilotName": "Captain Rex",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4",
+        "rk4",
+        "ws5"
+      ],
+      "actSet": [
+        "F",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0B6D6D62A77FB06E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-088458018B8CB1E7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-9C8CBA4508E23BE6",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-AA7CF6DA46962C74",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/captain-rex.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/captain-rex.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-25305DE05CB21D05",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/tiefighter/captainrex__pilot-c280ac2074b3.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/tiefighter/captainrex__pilot-c280ac2074b3.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiefighter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/tiefighter/sabinewren",
+      "shipId": "tiefighter",
+      "shipName": "TIE Fighter",
+      "pilotId": "sabinewren",
+      "pilotName": "Sabine Wren",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4",
+        "rk4",
+        "ws5"
+      ],
+      "actSet": [
+        "F",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0B6D6D62A77FB06E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-088458018B8CB1E7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-9C8CBA4508E23BE6",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-D1FF1097C61F569D",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/sabine-wren.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/TIE Fighter/sabine-wren.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4EB9AEDC3C044AFE",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/tiefighter/sabinewren__pilot-fe8eb2dfd9a2.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/tiefighter/sabinewren__pilot-fe8eb2dfd9a2.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

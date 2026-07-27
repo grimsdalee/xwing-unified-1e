@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-27T23:44:36.5418588+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 1,
+  "readyPrototypeCount": 1,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "ewing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/ewing/corranhorn",
+      "shipId": "ewing",
+      "shipName": "E-wing",
+      "pilotId": "corranhorn",
+      "pilotName": "Corran Horn",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4",
+        "rk4",
+        "ws5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-498C6F06703F1F52",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/ewing/ewing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/ewing/ewing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-4084B1CFC61489E2",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/ewing/Textures/CorranHorn.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/ewing/Textures/CorranHorn.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-9C8CBA4508E23BE6",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-0E0D4B0E8C1E5336",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/E-wing/corran-horn.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/E-wing/corran-horn.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-EFFBE990493C0689",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/ewing/corranhorn__pilot-e5b046ce0938.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/ewing/corranhorn__pilot-e5b046ce0938.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

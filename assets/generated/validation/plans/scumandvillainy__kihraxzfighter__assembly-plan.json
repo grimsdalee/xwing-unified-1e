@@ -1,0 +1,484 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-27T23:44:39.8887613+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 5,
+  "readyPrototypeCount": 5,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "kihraxzfighter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/kihraxzfighter/cartelmarauder",
+      "shipId": "kihraxzfighter",
+      "shipName": "Kihraxz Fighter",
+      "pilotId": "cartelmarauder",
+      "pilotName": "Cartel Marauder",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-57F520492109DBAE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-144C7EA6CE5CA8F6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-B349CEBEA6D75FC5",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/cartel-marauder.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/cartel-marauder.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F72A25BE41C61609",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/cartelmarauder__pilot-18166cd2aacd.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/cartelmarauder__pilot-18166cd2aacd.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "kihraxzfighter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/kihraxzfighter/captainjostero",
+      "shipId": "kihraxzfighter",
+      "shipName": "Kihraxz Fighter",
+      "pilotId": "captainjostero",
+      "pilotName": "Captain Jostero",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-57F520492109DBAE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-144C7EA6CE5CA8F6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-739591FFAA43CB4C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/captain-jostero.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/captain-jostero.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-9D674A7A0BA6756B",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/captainjostero__pilot-2bf2dae8f20e.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/captainjostero__pilot-2bf2dae8f20e.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "kihraxzfighter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/kihraxzfighter/blacksunace",
+      "shipId": "kihraxzfighter",
+      "shipName": "Kihraxz Fighter",
+      "pilotId": "blacksunace",
+      "pilotName": "Black Sun Ace",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-57F520492109DBAE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-144C7EA6CE5CA8F6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-A4B96E77C1E3C478",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/black-sun-ace.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/black-sun-ace.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-D5B68593D78D170A",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/blacksunace__pilot-47be7dd4c303.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/blacksunace__pilot-47be7dd4c303.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "kihraxzfighter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/kihraxzfighter/viktorhel",
+      "shipId": "kihraxzfighter",
+      "shipName": "Kihraxz Fighter",
+      "pilotId": "viktorhel",
+      "pilotName": "Viktor Hel",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-57F520492109DBAE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-144C7EA6CE5CA8F6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-BA7154F67F64EB36",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/viktor-hel.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/viktor-hel.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-CECA185B24BD7386",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/viktorhel__pilot-53f462b28696.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/viktorhel__pilot-53f462b28696.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "kihraxzfighter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/kihraxzfighter/talonbanecobra",
+      "shipId": "kihraxzfighter",
+      "shipName": "Kihraxz Fighter",
+      "pilotId": "talonbanecobra",
+      "pilotName": "Talonbane Cobra",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "ws4",
+        "rk4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-57F520492109DBAE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/khiraxz.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-144C7EA6CE5CA8F6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-2B31328BF663B92D",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/talonbane-cobra.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Kihraxz Fighter/talonbane-cobra.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-62E6D65B9768A119",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/talonbanecobra__pilot-212219b823a7.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/kihraxzfighter/talonbanecobra__pilot-212219b823a7.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

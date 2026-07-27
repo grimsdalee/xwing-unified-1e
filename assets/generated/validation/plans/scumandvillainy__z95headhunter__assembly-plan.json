@@ -1,0 +1,391 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-27T23:44:41.4982185+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/z95headhunter/binayrepirate",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "binayrepirate",
+      "pilotName": "Binayre Pirate",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-5803C2462A78E12C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7656D35E724BDF0A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-E2EBFF3CDF28F4EF",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/binayre-pirate.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/binayre-pirate.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-B8A530A5361287A7",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/binayrepirate__pilot-75ca1ac0b24b.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/binayrepirate__pilot-75ca1ac0b24b.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/z95headhunter/blacksunsoldier",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "blacksunsoldier",
+      "pilotName": "Black Sun Soldier",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-5803C2462A78E12C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7656D35E724BDF0A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-F0FABC68876578E9",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/black-sun-soldier.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/black-sun-soldier.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-53FA2174731075A6",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/blacksunsoldier__pilot-e244dba12dc6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/blacksunsoldier__pilot-e244dba12dc6.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/z95headhunter/kaatoleeachos",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "kaatoleeachos",
+      "pilotName": "Kaa\u0027to Leeachos",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-5803C2462A78E12C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7656D35E724BDF0A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-E764AC51CAE96F6B",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/kaa-to-leeachos.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/kaa-to-leeachos.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F9F58F57537CBE20",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/kaatoleeachos__pilot-7c8d83a06980.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/kaatoleeachos__pilot-7c8d83a06980.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/z95headhunter/ndrusuhlak",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "ndrusuhlak",
+      "pilotName": "N\u0027dru Suhlak",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-5803C2462A78E12C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7656D35E724BDF0A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-21C4BE3ABDD9CCB1",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-F4B8581D8D0EB11E",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/n-dru-suhlak.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/n-dru-suhlak.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-E05FBA4AE2552AE8",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/ndrusuhlak__pilot-3cf4b6b87b64.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/ndrusuhlak__pilot-3cf4b6b87b64.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}
