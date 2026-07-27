@@ -865,7 +865,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
@@ -1965,7 +1965,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
@@ -3161,7 +3161,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
@@ -4261,7 +4261,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/galacticempire_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
@@ -5364,7 +5364,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
@@ -6464,7 +6464,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomMesh": {
-        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+        "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
         "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/dial/dialcollider.obj",
