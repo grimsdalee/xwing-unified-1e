@@ -12,6 +12,7 @@ public sealed class ShipConverter
     private readonly Dictionary<string, ShipDisposition> _dispositions;
     private readonly string _mappingVersion;
     private readonly ConversionProfile _profile;
+    private readonly HashSet<string> _requiredCompositeEpicParentIds;
 
     public ShipConverter(ConversionMappingSet mappings, ConversionProfile profile)
     {
@@ -19,6 +20,11 @@ public sealed class ShipConverter
         _profile = profile;
         _mappings = mappings.Ships.ToDictionary(x => x.SourceId, StringComparer.OrdinalIgnoreCase);
         _dispositions = mappings.ShipDispositions.ToDictionary(x => x.SourceId, StringComparer.OrdinalIgnoreCase);
+        _requiredCompositeEpicParentIds = mappings.OfficialPilots
+            .Select(x => ResolveCompositeEpicParentId(x.ShipId))
+            .Where(x => x is not null)
+            .Select(x => x!)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
     }
 
     public ShipConversionResult Convert(IReadOnlyList<ShipDefinition> sourceShips)
@@ -77,8 +83,103 @@ public sealed class ShipConverter
             ships.Add(target);
         }
 
+        AddRequiredCompositeEpicParents(ships, issues);
+
         return new ShipConversionResult(ships, issues, excluded, deferred);
     }
+
+    private void AddRequiredCompositeEpicParents(
+        ICollection<FirstEditionShip> ships,
+        ICollection<ConversionIssue> issues)
+    {
+        var existingIds = ships
+            .Select(x => x.Id)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var parentId in _requiredCompositeEpicParentIds
+                     .OrderBy(x => x, StringComparer.OrdinalIgnoreCase))
+        {
+            if (existingIds.Contains(parentId))
+                continue;
+
+            var definition = GetCompositeEpicParentDefinition(parentId);
+            if (definition is null)
+            {
+                issues.Add(new ConversionIssue
+                {
+                    Severity = "Error",
+                    Category = "Ship",
+                    Code = "UnknownCompositeEpicParent",
+                    SourceType = "Ship",
+                    SourceId = parentId,
+                    TargetId = parentId,
+                    Message =
+                        "An official Epic section requires a composite parent ship, but no parent definition exists."
+                });
+                continue;
+            }
+
+            var ship = new FirstEditionShip
+            {
+                Id = definition.Id,
+                Name = definition.Name,
+                Size = "epic",
+                Attack = 0,
+                Agility = 0,
+                Hull = 0,
+                Shields = 0,
+                Provenance = new ConversionProvenance
+                {
+                    SourceId = $"official-epic-parent:{definition.Id}",
+                    MappingId = $"official-epic-parent-{definition.Id}-v1",
+                    Kind = ConversionKind.Official,
+                    MappingVersion = _mappingVersion
+                }
+            };
+
+            ship.Factions.Add(definition.Faction);
+            ships.Add(ship);
+            existingIds.Add(ship.Id);
+
+            issues.Add(new ConversionIssue
+            {
+                Severity = "Information",
+                Category = "Ship",
+                Code = "CompositeEpicParentAdded",
+                SourceType = "Ship",
+                SourceId = ship.Provenance.SourceId,
+                SourceName = ship.Name,
+                TargetId = ship.Id,
+                Message =
+                    "Added a semantic parent shell for official fore/aft Epic ship sections. " +
+                    "Section statistics and runtime object assembly remain represented by the section entries and later Epic phases."
+            });
+        }
+    }
+
+    private static string? ResolveCompositeEpicParentId(string sectionShipId) =>
+        sectionShipId.ToLowerInvariant() switch
+        {
+            "cr90corvettefore" => "cr90corvette",
+            "cr90corvetteaft" => "cr90corvette",
+            "raiderclasscorvettefore" => "raiderclasscorvette",
+            "raiderclasscorvetteaft" => "raiderclasscorvette",
+            _ => null
+        };
+
+    private static CompositeEpicParentDefinition? GetCompositeEpicParentDefinition(string parentId) =>
+        parentId.ToLowerInvariant() switch
+        {
+            "cr90corvette" => new CompositeEpicParentDefinition(
+                "cr90corvette",
+                "CR90 Corvette",
+                "rebelalliance"),
+            "raiderclasscorvette" => new CompositeEpicParentDefinition(
+                "raiderclasscorvette",
+                "Raider-class Corvette",
+                "galacticempire"),
+            _ => null
+        };
 
     private ConversionIssue CreateUnmappedIssue(ShipDefinition source) => new()
     {
@@ -92,4 +193,13 @@ public sealed class ShipConverter
     };
 }
 
-public sealed record ShipConversionResult(IReadOnlyList<FirstEditionShip> Ships, IReadOnlyList<ConversionIssue> Issues, int ExcludedCount, int DeferredCount);
+public sealed record ShipConversionResult(
+    IReadOnlyList<FirstEditionShip> Ships,
+    IReadOnlyList<ConversionIssue> Issues,
+    int ExcludedCount,
+    int DeferredCount);
+
+internal sealed record CompositeEpicParentDefinition(
+    string Id,
+    string Name,
+    string Faction);

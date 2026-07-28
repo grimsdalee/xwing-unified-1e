@@ -266,6 +266,24 @@
     "sourceFile": "data/pilots.js"
   },
   {
+    "importId": "official-epic-pilot-gozanticlasscruiser-gozanticlasscruiser-galacticempire-v1",
+    "id": "gozanticlasscruiser",
+    "name": "Gozanti-class Cruiser",
+    "shipId": "gozanticlasscruiser",
+    "faction": "galacticempire",
+    "pilotSkill": 2,
+    "squadPointCost": 40,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
     "importId": "official-pilot-captainyorr-lambdaclassshuttle-galacticempire-v1",
     "id": "captainyorr",
     "name": "Captain Yorr",
@@ -278,6 +296,41 @@
       "system",
       "cannon",
       "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-epic-pilot-raiderclasscorvetteaft-raiderclasscorvetteaft-galacticempire-v1",
+    "id": "raiderclasscorvetteaft",
+    "name": "Raider-class Corvette (Aft)",
+    "shipId": "raiderclasscorvetteaft",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 50,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-epic-pilot-raiderclasscorvettefore-raiderclasscorvettefore-galacticempire-v1",
+    "id": "raiderclasscorvettefore",
+    "name": "Raider-class Corvette (Fore)",
+    "shipId": "raiderclasscorvettefore",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 50,
+    "unique": false,
+    "upgradeSlots": [
+      "hardpoint",
+      "team",
+      "cargo"
     ],
     "sourceDataset": "xwing-data",
     "sourceFile": "data/pilots.js"
@@ -877,6 +930,42 @@
     "sourceFile": "data/pilots.js"
   },
   {
+    "importId": "official-epic-pilot-cr90corvetteaft-cr90corvetteaft-rebelalliance-v1",
+    "id": "cr90corvetteaft",
+    "name": "CR90 Corvette (Aft)",
+    "shipId": "cr90corvetteaft",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 40,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-epic-pilot-cr90corvettefore-cr90corvettefore-rebelalliance-v1",
+    "id": "cr90corvettefore",
+    "name": "CR90 Corvette (Fore)",
+    "shipId": "cr90corvettefore",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 50,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
     "importId": "official-pilot-blackmoonsquadronpilot-ewing-rebelalliance-v1",
     "id": "blackmoonsquadronpilot",
     "name": "Blackmoon Squadron Pilot",
@@ -924,6 +1013,22 @@
       "system",
       "torpedo",
       "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-epic-pilot-gr75mediumtransport-gr75mediumtransport-rebelalliance-v1",
+    "id": "gr75mediumtransport",
+    "name": "GR-75 Medium Transport",
+    "shipId": "gr75mediumtransport",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 30,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "cargo"
     ],
     "sourceDataset": "xwing-data",
     "sourceFile": "data/pilots.js"
@@ -1365,6 +1470,24 @@
       "crew",
       "elite",
       "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-epic-pilot-croccruiser-croccruiser-scumandvillainy-v1",
+    "id": "croccruiser",
+    "name": "C-ROC Cruiser",
+    "shipId": "croccruiser",
+    "faction": "scumandvillainy",
+    "pilotSkill": 1,
+    "squadPointCost": 35,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "hardpoint",
+      "team",
+      "cargo"
     ],
     "sourceDataset": "xwing-data",
     "sourceFile": "data/pilots.js"

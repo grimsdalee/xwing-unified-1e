@@ -1021,6 +1021,15 @@
     ]
   },
   {
+    "sha256": "63dc1f8c4a37d7ad403a32294259e849bcde67e01299548cc0132946f10e1811",
+    "assetId": "AST-63DC1F8C4A37D7AD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.png",
+      "assets/source/unified25/assets/ships-v2/medium/tierereaper/icon.png"
+    ]
+  },
+  {
     "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
     "assetId": "AST-64DC0C6E8F17B058",
     "fileCount": 2,
@@ -1072,6 +1081,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/AllMines.jpg",
       "assets/source/unified25/assets/textures/bombs/all-mines-texture.jpg"
+    ]
+  },
+  {
+    "sha256": "68f3aff5783bc9e13a7c6683eb8d49827f367df4b042922af4a65829e657cedc",
+    "assetId": "AST-68F3AFF5783BC9E1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/assetbundles/fonts-image.unity3d",
+      "assets/source/unified25/assets/assetbundles/fonts.unity3d"
     ]
   },
   {

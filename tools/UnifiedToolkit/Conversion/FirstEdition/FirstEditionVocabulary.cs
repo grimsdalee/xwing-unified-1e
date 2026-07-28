@@ -6,7 +6,8 @@ public static class FirstEditionVocabulary
     {
         "small",
         "large",
-        "huge"
+        "huge",
+        "epic"
     };
 
     public static readonly IReadOnlySet<string> Factions = new HashSet<string>(StringComparer.OrdinalIgnoreCase)

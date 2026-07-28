@@ -22,10 +22,15 @@ public static class PilotConverter
 
         foreach (var official in mappings.OfficialPilots)
         {
-            if (targetRepository.FindShip(official.ShipId) is null)
+            var targetShip = targetRepository.FindShip(official.ShipId);
+            var epicParentShipId = ResolveEpicSectionParentShipId(official.ShipId);
+
+            if (targetShip is null
+                && (epicParentShipId is null
+                    || targetRepository.FindShip(epicParentShipId) is null))
             {
                 issues.Add(Issue("Error", "UnknownOfficialPilotShip", official.Id, official.Id,
-                    $"Official pilot target ship '{official.ShipId}' does not exist in the converted repository."));
+                    $"Official pilot target ship '{official.ShipId}' does not exist in the converted repository and has no resolved Epic parent ship."));
                 continue;
             }
 
@@ -51,5 +56,15 @@ public static class PilotConverter
 
         return (pilots,issues);
     }
+    private static string? ResolveEpicSectionParentShipId(string shipId) =>
+        shipId.ToLowerInvariant() switch
+        {
+            "cr90corvettefore" => "cr90corvette",
+            "cr90corvetteaft" => "cr90corvette",
+            "raiderclasscorvettefore" => "raiderclasscorvette",
+            "raiderclasscorvetteaft" => "raiderclasscorvette",
+            _ => null
+        };
+
     private static ConversionIssue Issue(string severity,string code,string source,string target,string message)=>new(){Severity=severity,Category="Pilot",Code=code,SourceType="Pilot",SourceId=source,TargetId=target,Message=message};
 }

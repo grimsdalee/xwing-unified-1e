@@ -1,13 +1,13 @@
 # Unified Knowledge Base Report
 
-Generated: `2026-07-28T01:09:46.9981513+00:00`
+Generated: `2026-07-28T13:06:01.6134253+00:00`
 
 ## Assets domain
 
-- Files: **5568**
-- Unique content assets: **5289**
-- Total bytes: **2,194,339,090**
-- Duplicate files: **279**
+- Files: **5690**
+- Unique content assets: **5409**
+- Total bytes: **2,265,082,100**
+- Duplicate files: **281**
 - Unavailable source references: **566**
 
 ## By warehouse
@@ -15,22 +15,22 @@ Generated: `2026-07-28T01:09:46.9981513+00:00`
 - first-edition-dial-textures: 5
 - first-edition-dials: 56
 - first-edition-maneuver-icons: 14
-- generated: 411
+- generated: 526
 - generated-pilot-tokens: 8
 - legacy1e: 379
 - legacy1e-non-pilot: 418
-- unified25: 3397
+- unified25: 3404
 - xwing-data: 880
 
 ## By asset type
 
-- image: 4477
+- image: 4478
 - model: 817
 - lua: 229
-- other: 19
+- json: 116
+- other: 27
 - xml: 15
 - text: 5
-- json: 3
 - pdf: 3
 
 ## Validation

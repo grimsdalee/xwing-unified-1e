@@ -19,8 +19,23 @@ public static class FirstEditionRepositoryValidator
                 issues.Add(Ship(ship, "BlankTargetShipName", "The target ship name is blank."));
             if (!FirstEditionVocabulary.ShipSizes.Contains(ship.Size))
                 issues.Add(Ship(ship, "UnknownFirstEditionShipSize", $"Unknown First Edition ship size '{ship.Size}'."));
-            if (ship.Attack < 0 || ship.Agility < 0 || ship.Hull <= 0 || ship.Shields < 0)
-                issues.Add(Ship(ship, "InvalidFirstEditionShipStats", "Target ship statistics are invalid."));
+            var isCompositeEpicParent =
+                ship.Size.Equals("epic", StringComparison.OrdinalIgnoreCase)
+                && ship.Provenance.SourceId.StartsWith(
+                    "official-epic-parent:",
+                    StringComparison.OrdinalIgnoreCase);
+
+            if (ship.Attack < 0
+                || ship.Agility < 0
+                || ship.Shields < 0
+                || (!isCompositeEpicParent && ship.Hull <= 0)
+                || (isCompositeEpicParent && ship.Hull < 0))
+            {
+                issues.Add(Ship(
+                    ship,
+                    "InvalidFirstEditionShipStats",
+                    "Target ship statistics are invalid."));
+            }
 
             foreach (var faction in ship.Factions.Where(x => !FirstEditionVocabulary.Factions.Contains(x)))
                 issues.Add(Ship(ship, "UnknownTargetShipFaction", $"Unknown First Edition faction '{faction}'."));
@@ -30,8 +45,14 @@ public static class FirstEditionRepositoryValidator
         {
             if (string.IsNullOrWhiteSpace(pilot.Id))
                 issues.Add(Pilot(pilot, "BlankTargetPilotId", "The target pilot ID is blank."));
-            if (repository.FindShip(pilot.ShipId) is null)
-                issues.Add(Pilot(pilot, "UnknownTargetPilotShip", $"Target ship '{pilot.ShipId}' does not exist."));
+            if (repository.FindShip(pilot.ShipId) is null
+                && !FirstEditionVocabulary.DeferredEpicShipSectionIds.Contains(pilot.ShipId))
+            {
+                issues.Add(Pilot(
+                    pilot,
+                    "UnknownTargetPilotShip",
+                    $"Target ship '{pilot.ShipId}' does not exist or resolve to a recognised Epic section."));
+            }
             if (!FirstEditionVocabulary.Factions.Contains(pilot.Faction))
                 issues.Add(Pilot(pilot, "UnknownTargetPilotFaction", $"Unknown First Edition faction '{pilot.Faction}'."));
             if (pilot.PilotSkill < 0 || pilot.PilotSkill > 12)

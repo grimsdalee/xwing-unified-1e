@@ -91,6 +91,7 @@ return command switch
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
+    "import-deferred-epic-first-edition-pilots" => ImportDeferredEpicFirstEditionPilotsCommand.Run(commandArgs),
     "build-official-artwork-manifest" => BuildOfficialArtworkManifestCommand.Run(commandArgs),
     "prepare-standard-first-edition-runtime-data" => PrepareStandardFirstEditionRuntimeDataCommand.Run(commandArgs),
     "analyse-runtime-action-codes" => AnalyseRuntimeActionCodesCommand.Run(commandArgs),
@@ -211,6 +212,7 @@ static void ShowHelp()
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  prepare-missing-pilot-package-assets <repository> [--package-plan <file>] [--output <folder>]");
+    Console.WriteLine("  import-deferred-epic-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
 }
 
