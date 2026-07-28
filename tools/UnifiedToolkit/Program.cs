@@ -87,6 +87,7 @@ return command switch
     "extend-standard-first-edition-pilots" => ExtendStandardFirstEditionPilotsCommand.Run(commandArgs),
     "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
     "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
+    "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
     "build-official-artwork-manifest" => BuildOfficialArtworkManifestCommand.Run(commandArgs),
     "prepare-standard-first-edition-runtime-data" => PrepareStandardFirstEditionRuntimeDataCommand.Run(commandArgs),
     "analyse-runtime-action-codes" => AnalyseRuntimeActionCodesCommand.Run(commandArgs),
