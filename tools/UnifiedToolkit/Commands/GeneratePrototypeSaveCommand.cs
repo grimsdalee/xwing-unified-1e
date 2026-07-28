@@ -2008,7 +2008,7 @@ public static class GeneratePrototypeSaveCommand
                 assembly,
                 texture,
                 "assets/source/unified25/assets/ships-v2/small/" +
-                "tiefofighter/Textures/2/standard.jpg",
+                "tiefofighter/Textures/standard.jpg",
                 "authoritative Unified 2.5 setup-mode texture",
                 diagnostics);
         }
