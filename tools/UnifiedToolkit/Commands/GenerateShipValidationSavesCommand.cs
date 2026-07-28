@@ -222,7 +222,7 @@ public static class GenerateShipValidationSavesCommand
     {
         const int columns = 5;
         const float spacingX = 8.0f;
-        const float spacingZ = 10.0f;
+        const float spacingZ = 13.0f;
 
         var rows = (int)Math.Ceiling(packages.Count / (double)columns);
         var startX = -((Math.Min(columns, packages.Count) - 1) * spacingX) / 2.0f;

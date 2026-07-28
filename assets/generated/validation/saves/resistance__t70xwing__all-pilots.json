@@ -505,7 +505,7 @@
       "Transform": {
         "posX": -16,
         "posY": 1.1033678,
-        "posZ": -5,
+        "posZ": -6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -560,8 +560,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u00221fdb1b\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -825,9 +825,9 @@
       "Transform": {
         "posX": -16,
         "posY": 1,
-        "posZ": 0.5,
+        "posZ": -12.3,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -1651,7 +1651,7 @@
       "Transform": {
         "posX": -16,
         "posY": 1,
-        "posZ": -11,
+        "posZ": -9.1,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -1701,7 +1701,7 @@
       "Transform": {
         "posX": -8,
         "posY": 1.1033678,
-        "posZ": -5,
+        "posZ": -6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -1756,8 +1756,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022e37e6c\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -2021,9 +2021,9 @@
       "Transform": {
         "posX": -8,
         "posY": 1,
-        "posZ": 0.5,
+        "posZ": -12.3,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -2847,7 +2847,7 @@
       "Transform": {
         "posX": -8,
         "posY": 1,
-        "posZ": -11,
+        "posZ": -9.1,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -2897,7 +2897,7 @@
       "Transform": {
         "posX": 0,
         "posY": 1.1033678,
-        "posZ": -5,
+        "posZ": -6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -2952,8 +2952,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022f3ddec\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -3217,9 +3217,9 @@
       "Transform": {
         "posX": 0,
         "posY": 1,
-        "posZ": 0.5,
+        "posZ": -12.3,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -4043,7 +4043,7 @@
       "Transform": {
         "posX": 0,
         "posY": 1,
-        "posZ": -11,
+        "posZ": -9.1,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -4093,7 +4093,7 @@
       "Transform": {
         "posX": 8,
         "posY": 1.1033678,
-        "posZ": -5,
+        "posZ": -6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -4148,8 +4148,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u00223cf2ef\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -4413,9 +4413,9 @@
       "Transform": {
         "posX": 8,
         "posY": 1,
-        "posZ": 0.5,
+        "posZ": -12.3,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -5239,7 +5239,7 @@
       "Transform": {
         "posX": 8,
         "posY": 1,
-        "posZ": -11,
+        "posZ": -9.1,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -5289,7 +5289,7 @@
       "Transform": {
         "posX": 16,
         "posY": 1.1033678,
-        "posZ": -5,
+        "posZ": -6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -5344,8 +5344,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022302cad\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -5609,9 +5609,9 @@
       "Transform": {
         "posX": 16,
         "posY": 1,
-        "posZ": 0.5,
+        "posZ": -12.3,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -6435,7 +6435,7 @@
       "Transform": {
         "posX": 16,
         "posY": 1,
-        "posZ": -11,
+        "posZ": -9.1,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -6485,7 +6485,7 @@
       "Transform": {
         "posX": -16,
         "posY": 1.1033678,
-        "posZ": 5,
+        "posZ": 6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -6540,8 +6540,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022fe55c3\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -6805,9 +6805,9 @@
       "Transform": {
         "posX": -16,
         "posY": 1,
-        "posZ": 10.5,
+        "posZ": 0.6999998,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -7631,7 +7631,7 @@
       "Transform": {
         "posX": -16,
         "posY": 1,
-        "posZ": -1,
+        "posZ": 3.9,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -7681,7 +7681,7 @@
       "Transform": {
         "posX": -8,
         "posY": 1.1033678,
-        "posZ": 5,
+        "posZ": 6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -7736,8 +7736,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022935a20\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -8001,9 +8001,9 @@
       "Transform": {
         "posX": -8,
         "posY": 1,
-        "posZ": 10.5,
+        "posZ": 0.6999998,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -8827,7 +8827,7 @@
       "Transform": {
         "posX": -8,
         "posY": 1,
-        "posZ": -1,
+        "posZ": 3.9,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -8877,7 +8877,7 @@
       "Transform": {
         "posX": 0,
         "posY": 1.1033678,
-        "posZ": 5,
+        "posZ": 6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -8932,8 +8932,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u00225c7afc\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -9197,9 +9197,9 @@
       "Transform": {
         "posX": 0,
         "posY": 1,
-        "posZ": 10.5,
+        "posZ": 0.6999998,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -10023,7 +10023,7 @@
       "Transform": {
         "posX": 0,
         "posY": 1,
-        "posZ": -1,
+        "posZ": 3.9,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -10073,7 +10073,7 @@
       "Transform": {
         "posX": 8,
         "posY": 1.1033678,
-        "posZ": 5,
+        "posZ": 6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -10128,8 +10128,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u00225e29f1\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -10393,9 +10393,9 @@
       "Transform": {
         "posX": 8,
         "posY": 1,
-        "posZ": 10.5,
+        "posZ": 0.6999998,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -11219,7 +11219,7 @@
       "Transform": {
         "posX": 8,
         "posY": 1,
-        "posZ": -1,
+        "posZ": 3.9,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,
@@ -11269,7 +11269,7 @@
       "Transform": {
         "posX": 16,
         "posY": 1.1033678,
-        "posZ": 5,
+        "posZ": 6.5,
         "rotX": 0,
         "rotY": 0,
         "rotZ": 0,
@@ -11324,8 +11324,8 @@
         },
         "CastShadows": true
       },
-      "LuaScript": "",
-      "LuaScriptState": "",
+      "LuaScript": "local textureReview = {}\nlocal textureChangeInProgress = false\n\nfunction onLoad(savedData)\n    if savedData ~= nil and savedData ~= \u0022\u0022 then\n        local ok, decoded = pcall(JSON.decode, savedData)\n        if ok and decoded ~= nil then\n            textureReview = decoded\n        end\n    end\n\n    if textureReview.textures == nil then\n        textureReview.textures = {}\n    end\n\n    self.clearContextMenu()\n\n    if #textureReview.textures \u003E 1 then\n        self.addContextMenuItem(\u0022Next Texture\u0022, NextTexture, false)\n    end\nend\n\nlocal function findShipAttachment()\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n\n    for _, attachment in ipairs(self.getAttachments()) do\n        if attachment.guid == shipGuid then\n            return attachment\n        end\n    end\n\n    return nil\nend\n\nlocal function reattachShip(ship)\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not restore the ship model attachment for \u0022 .. self.getName())\n        return\n    end\n\n    self.addAttachment(ship)\n    textureChangeInProgress = false\nend\n\nlocal function applyTextureAfterDetach(nextTexture)\n    local shipGuid = textureReview.shipGuid or \u0022\u0022\n    local ship = getObjectFromGUID(shipGuid)\n\n    if ship == nil then\n        textureChangeInProgress = false\n        print(\u0022Could not find the detached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    ship.setCustomObject({ diffuse = nextTexture })\n\n    Wait.frames(\n        function()\n            reattachShip(ship)\n        end,\n        2)\nend\n\nfunction NextTexture()\n    if textureChangeInProgress then\n        print(\u0022Texture change already in progress for \u0022 .. self.getName())\n        return\n    end\n\n    local textures = textureReview.textures or {}\n    if #textures \u003C= 1 then\n        print(\u0022No alternative ship textures are registered for \u0022 .. self.getName())\n        return\n    end\n\n    local attachment = findShipAttachment()\n    if attachment == nil then\n        print(\u0022Could not find the attached ship model for \u0022 .. self.getName())\n        return\n    end\n\n    local current = textureReview.currentTexture or \u0022\u0022\n    local currentIndex = 0\n\n    for index, url in ipairs(textures) do\n        if url == current then\n            currentIndex = index\n            break\n        end\n    end\n\n    local nextIndex = (currentIndex % #textures) \u002B 1\n    local nextTexture = textures[nextIndex]\n\n    textureReview.currentTexture = nextTexture\n    self.script_state = JSON.encode(textureReview)\n    textureChangeInProgress = true\n\n    self.removeAttachment(attachment.index)\n\n    Wait.frames(\n        function()\n            applyTextureAfterDetach(nextTexture)\n        end,\n        2)\n\n    print(\n        self.getName()\n        .. \u0022 texture \u0022\n        .. tostring(nextIndex)\n        .. \u0022/\u0022\n        .. tostring(#textures)\n        .. \u0022: \u0022\n        .. nextTexture)\nend",
+      "LuaScriptState": "{\u0022currentTexture\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022shipGuid\u0022:\u0022bdebd2\u0022,\u0022textures\u0022:[\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png\u0022,\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png\u0022]}",
       "XmlUI": "",
       "CustomUIAssets": [],
       "ChildObjects": [
@@ -11589,9 +11589,9 @@
       "Transform": {
         "posX": 16,
         "posY": 1,
-        "posZ": 10.5,
+        "posZ": 0.6999998,
         "rotX": 0,
-        "rotY": 0,
+        "rotY": 180,
         "rotZ": 0,
         "scaleX": 0.7,
         "scaleY": 0.7,
@@ -12415,7 +12415,7 @@
       "Transform": {
         "posX": 16,
         "posY": 1,
-        "posZ": -1,
+        "posZ": 3.9,
         "rotX": 0,
         "rotY": 180,
         "rotZ": 0,

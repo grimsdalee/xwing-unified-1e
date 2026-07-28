@@ -324,6 +324,10 @@ public static class GeneratePrototypeSaveCommand
 
         var modelUrl = AssetUrl(assetBaseUrl, model.RepositoryPath);
         var textureUrl = AssetUrl(assetBaseUrl, texture.RepositoryPath);
+        var textureReviewUrls = DiscoverShipTextureUrls(
+            repositoryRoot,
+            assetBaseUrl,
+            texture);
         var tokenUrl = AssetUrl(assetBaseUrl, pilotToken.RepositoryPath);
         var cardUrl = AssetUrl(assetBaseUrl, pilotCard.RepositoryPath);
 
@@ -348,6 +352,7 @@ public static class GeneratePrototypeSaveCommand
             tokenUrl,
             modelUrl,
             textureUrl,
+            textureReviewUrls,
             pegUrl,
             pegGuid,
             shipGuid,
@@ -457,6 +462,7 @@ public static class GeneratePrototypeSaveCommand
         string tokenUrl,
         string modelUrl,
         string textureUrl,
+        IReadOnlyList<string> textureReviewUrls,
         string pegUrl,
         string pegGuid,
         string shipGuid,
@@ -511,6 +517,7 @@ public static class GeneratePrototypeSaveCommand
                 shipGuid,
                 modelUrl,
                 textureUrl,
+                textureReviewUrls,
                 assembly)
         };
 
@@ -573,8 +580,26 @@ public static class GeneratePrototypeSaveCommand
         // for inspection and will be re-bundled with the First Edition runtime
         // in a later revision.
         baseObject["GMNotes"] = state.ToJsonString();
-        baseObject["LuaScript"] = string.Empty;
-        baseObject["LuaScriptState"] = string.Empty;
+
+        if (textureReviewUrls.Count > 1)
+        {
+            baseObject["LuaScript"] = BuildTextureReviewLua();
+            baseObject["LuaScriptState"] = new JsonObject
+            {
+                ["currentTexture"] = textureUrl,
+                ["shipGuid"] = shipGuid,
+                ["textures"] = new JsonArray(
+                    textureReviewUrls
+                        .Select(url => JsonValue.Create(url))
+                        .ToArray())
+            }.ToJsonString();
+        }
+        else
+        {
+            baseObject["LuaScript"] = string.Empty;
+            baseObject["LuaScriptState"] = string.Empty;
+        }
+
         baseObject["XmlUI"] = string.Empty;
         baseObject["CustomUIAssets"] = new JsonArray();
     }
@@ -937,6 +962,7 @@ public static class GeneratePrototypeSaveCommand
         string guid,
         string modelUrl,
         string textureUrl,
+        IReadOnlyList<string> textureReviewUrls,
         PrototypeAssemblyInput assembly)
     {
         // The Unified base/peg geometry is authored around this exact
@@ -1004,6 +1030,181 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    private static string BuildTextureReviewLua() =>
+        """
+        local textureReview = {}
+        local textureChangeInProgress = false
+
+        function onLoad(savedData)
+            if savedData ~= nil and savedData ~= "" then
+                local ok, decoded = pcall(JSON.decode, savedData)
+                if ok and decoded ~= nil then
+                    textureReview = decoded
+                end
+            end
+
+            if textureReview.textures == nil then
+                textureReview.textures = {}
+            end
+
+            self.clearContextMenu()
+
+            if #textureReview.textures > 1 then
+                self.addContextMenuItem("Next Texture", NextTexture, false)
+            end
+        end
+
+        local function findShipAttachment()
+            local shipGuid = textureReview.shipGuid or ""
+
+            for _, attachment in ipairs(self.getAttachments()) do
+                if attachment.guid == shipGuid then
+                    return attachment
+                end
+            end
+
+            return nil
+        end
+
+        local function reattachShip(ship)
+            if ship == nil then
+                textureChangeInProgress = false
+                print("Could not restore the ship model attachment for " .. self.getName())
+                return
+            end
+
+            self.addAttachment(ship)
+            textureChangeInProgress = false
+        end
+
+        local function applyTextureAfterDetach(nextTexture)
+            local shipGuid = textureReview.shipGuid or ""
+            local ship = getObjectFromGUID(shipGuid)
+
+            if ship == nil then
+                textureChangeInProgress = false
+                print("Could not find the detached ship model for " .. self.getName())
+                return
+            end
+
+            ship.setCustomObject({ diffuse = nextTexture })
+
+            Wait.frames(
+                function()
+                    reattachShip(ship)
+                end,
+                2)
+        end
+
+        function NextTexture()
+            if textureChangeInProgress then
+                print("Texture change already in progress for " .. self.getName())
+                return
+            end
+
+            local textures = textureReview.textures or {}
+            if #textures <= 1 then
+                print("No alternative ship textures are registered for " .. self.getName())
+                return
+            end
+
+            local attachment = findShipAttachment()
+            if attachment == nil then
+                print("Could not find the attached ship model for " .. self.getName())
+                return
+            end
+
+            local current = textureReview.currentTexture or ""
+            local currentIndex = 0
+
+            for index, url in ipairs(textures) do
+                if url == current then
+                    currentIndex = index
+                    break
+                end
+            end
+
+            local nextIndex = (currentIndex % #textures) + 1
+            local nextTexture = textures[nextIndex]
+
+            textureReview.currentTexture = nextTexture
+            self.script_state = JSON.encode(textureReview)
+            textureChangeInProgress = true
+
+            self.removeAttachment(attachment.index)
+
+            Wait.frames(
+                function()
+                    applyTextureAfterDetach(nextTexture)
+                end,
+                2)
+
+            print(
+                self.getName()
+                .. " texture "
+                .. tostring(nextIndex)
+                .. "/"
+                .. tostring(#textures)
+                .. ": "
+                .. nextTexture)
+        end
+        """;
+
+    private static IReadOnlyList<string> DiscoverShipTextureUrls(
+        string repositoryRoot,
+        string assetBaseUrl,
+        PrototypeAssetInput selectedTexture)
+    {
+        var selectedPath = Path.GetFullPath(selectedTexture.FullPath);
+        var directory = new DirectoryInfo(
+            Path.GetDirectoryName(selectedPath)
+            ?? throw new InvalidDataException(
+                $"Ship texture has no parent folder: {selectedPath}"));
+
+        DirectoryInfo? texturesRoot = directory;
+        while (texturesRoot is not null
+               && !texturesRoot.Name.Equals(
+                   "Textures",
+                   StringComparison.OrdinalIgnoreCase))
+        {
+            texturesRoot = texturesRoot.Parent;
+        }
+
+        texturesRoot ??= directory;
+
+        var supportedExtensions = new HashSet<string>(
+            new[] { ".png", ".jpg", ".jpeg", ".webp" },
+            StringComparer.OrdinalIgnoreCase);
+
+        var discovered = texturesRoot
+            .EnumerateFiles("*", SearchOption.AllDirectories)
+            .Where(file => supportedExtensions.Contains(file.Extension))
+            .Select(file => new
+            {
+                FullPath = file.FullName,
+                RelativePath = NormalisePath(
+                    Path.GetRelativePath(repositoryRoot, file.FullName))
+            })
+            .Where(item => item.RelativePath.Contains(
+                "/assets/ships-v2/",
+                StringComparison.OrdinalIgnoreCase))
+            .OrderBy(item => item.RelativePath, StringComparer.OrdinalIgnoreCase)
+            .Select(item => AssetUrl(assetBaseUrl, item.RelativePath))
+            .ToList();
+
+        var selectedUrl = AssetUrl(
+            assetBaseUrl,
+            selectedTexture.RepositoryPath);
+
+        discovered.RemoveAll(url =>
+            url.Equals(selectedUrl, StringComparison.OrdinalIgnoreCase));
+        discovered.Insert(0, selectedUrl);
+
+        return discovered
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .ToList();
+    }
+
     private static string LoadFirstEditionDialModelPath(string repositoryRoot)
     {
         var manifestPath = Path.Combine(
@@ -1064,14 +1265,14 @@ public static class GeneratePrototypeSaveCommand
             dialObject,
             assembly.PositionX,
             1.0f,
-            assembly.PositionZ + 5.5f,
+            assembly.PositionZ - 5.8f,
             0.70f);
 
         var transform = dialObject["Transform"]?.AsObject()
             ?? throw new InvalidDataException(
                 "Assigned dial template has no Transform object.");
         transform["rotX"] = 0.0;
-        transform["rotY"] = 0.0;
+        transform["rotY"] = 180.0;
         transform["rotZ"] = 0.0;
         transform["scaleX"] = 0.70;
         transform["scaleY"] = 0.70;
@@ -1428,7 +1629,7 @@ public static class GeneratePrototypeSaveCommand
             {
                 ["posX"] = assembly.PositionX,
                 ["posY"] = 1.0,
-                ["posZ"] = assembly.PositionZ - 6.0,
+                ["posZ"] = assembly.PositionZ - 2.6,
                 ["rotX"] = 0.0,
                 ["rotY"] = 180.0,
                 ["rotZ"] = 0.0,
@@ -1674,6 +1875,14 @@ public static class GeneratePrototypeSaveCommand
         string? relative = null;
 
         if (assembly.ShipId.Equals(
+                "tiefofighter",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tiefofighter/TieFOv2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "t70xwing",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -1731,6 +1940,20 @@ public static class GeneratePrototypeSaveCommand
         PrototypeAssetInput texture,
         ICollection<string> diagnostics)
     {
+        if (assembly.ShipId.Equals(
+                "tiefofighter",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return UseKnownTexture(
+                repositoryRoot,
+                assembly,
+                texture,
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tiefofighter/Textures/2/standard.jpg",
+                "authoritative Unified 2.5 setup-mode texture",
+                diagnostics);
+        }
+
         if (assembly.ShipId.Equals(
                 "t70xwing",
                 StringComparison.OrdinalIgnoreCase))
