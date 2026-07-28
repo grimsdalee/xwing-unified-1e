@@ -1,0 +1,70 @@
+[
+  {
+    "importId": "official-pilot-cobaltleader-bsf17bomber-resistance-v1",
+    "id": "cobaltleader",
+    "name": "\u0022Cobalt Leader\u0022",
+    "shipId": "bsf17bomber",
+    "faction": "resistance",
+    "pilotSkill": 6,
+    "squadPointCost": 28,
+    "unique": true,
+    "upgradeSlots": [
+      "bomb",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-crimsonleader-bsf17bomber-resistance-v1",
+    "id": "crimsonleader",
+    "name": "\u0022Crimson Leader\u0022",
+    "shipId": "bsf17bomber",
+    "faction": "resistance",
+    "pilotSkill": 7,
+    "squadPointCost": 29,
+    "unique": true,
+    "upgradeSlots": [
+      "bomb",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-crimsonspecialist-bsf17bomber-resistance-v1",
+    "id": "crimsonspecialist",
+    "name": "\u0022Crimson Specialist\u0022",
+    "shipId": "bsf17bomber",
+    "faction": "resistance",
+    "pilotSkill": 4,
+    "squadPointCost": 27,
+    "unique": true,
+    "upgradeSlots": [
+      "bomb",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-crimsonsquadronpilot-bsf17bomber-resistance-v1",
+    "id": "crimsonsquadronpilot",
+    "name": "Crimson Squadron Pilot",
+    "shipId": "bsf17bomber",
+    "faction": "resistance",
+    "pilotSkill": 1,
+    "squadPointCost": 25,
+    "unique": false,
+    "upgradeSlots": [
+      "bomb",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  }
+]

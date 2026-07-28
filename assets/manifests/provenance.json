@@ -1,5 +1,173 @@
 [
   {
+    "assetId": "AST-B0ABB46A052335ED",
+    "repositoryPath": "assets/generated/FirstEditionDialBack/firstorder/dial-back.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4BC5A372D6D68AC4",
+    "repositoryPath": "assets/generated/FirstEditionDialBack/galacticempire/dial-back.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F5C16DEA2FE502A5",
+    "repositoryPath": "assets/generated/FirstEditionDialBack/rebelalliance/dial-back.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8FD6B53BC38AF027",
+    "repositoryPath": "assets/generated/FirstEditionDialBack/resistance/dial-back.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C53AB1B7C6044185",
+    "repositoryPath": "assets/generated/FirstEditionDialBack/scumandvillainy/dial-back.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9EFF7CC7DF9B6C30",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7550FAE20E1FF7CA",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2707F62E9B438CB8",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-2-u-plus-0_008-v-plus-0_02.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D6FF1A31BB838808",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-2_5-u-plus-0_015-v-plus-0_02.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9AEC5373663E22BF",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-minus-5.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-36D2DB7CD20CC240",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-plus-5-v-plus-0_02.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2C114A4A896A1D80",
+    "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3A609478E81EA275",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Button.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B36A8DA291D38D0D",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/DialManager.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A812D2AEF596CC65",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/DialSetSource.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-484EE1F3C36CAA0D",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-27148E92B69587AA",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.xml",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-130791EBC407EA96",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9A4640C9D230A049",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Proxy.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-73FFF3B0481F474D",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/UnassignedDial.lua",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1C33E741A69B2FEA",
+    "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/UnassignedDial.xml",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-C585DC1375658113",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/firstorder/tiefofighter__dial-c585dc137565.png",
     "origin": "generated",
@@ -442,6 +610,214 @@
   {
     "assetId": "AST-772FB38F675A49BB",
     "repositoryPath": "assets/generated/FirstEditionDialTexture/scumandvillainy/z95headhunter__dial-772fb38f675a.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-84A1614494B79C96",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-47E56943D76155BD",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-64DC0C6E8F17B058",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/straight.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-56DD1CB40CAA13EB",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F9CBEB9D3AA4C0C7",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B4DDE1A2DB70F3F0",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7E79F8F172B4512A",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A2236B0BF507B7B6",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-518A5B5C6612F472",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-556ECF7E0F1B4472",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2037638CEF33778A",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7C9B2F2C9B93F90D",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5EC7D2E34364E0FF",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4CA8F00DD13A7EC",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/stop.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3C2FF1B1B62854A7",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/straight.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-90CDC2832E8874CA",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D33348E30FEDB2FC",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AEB6CEB8EAF0095A",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D2E094DD56A25DC6",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AA64C5C125408968",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-690FFB169B39B217",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-04612BF12C20CC08",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D58BEC8B3F92564A",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-27FFB7E1D59D1D07",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/straight.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F3FE880A6C5D71D7",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-614E4FA708716AD8",
+    "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -2808,6 +3184,150 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-A0C716F9CB4446CB",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/firstorder/plain-faction.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2D3233CCD7A102AB",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/galacticempire/plain-faction.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-891A0ACC3E7BD437",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/plain-black.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-95E0356592FA2DD0",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-81F2EAA3AE928DCC",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/resistance/plain-faction.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-87957C9CEF34C7E0",
+    "repositoryPath": "assets/generated/PrototypeBaseTexture/scumandvillainy/plain-faction.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-31212A4BAC00F725",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/galacticempire/tiereaper/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-267C955D32B140C8",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/bwing/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3B49E9CDB00A1E0A",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/kwing/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-71C07CBF7778A20E",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/sheathipedeclassshuttle/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8F26B4A4006FCC6F",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/xwing/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3AAE003849D9D47E",
+    "repositoryPath": "assets/generated/PrototypeDialTexture/scumandvillainy/lancerclasspursuitcraft/dial-transparent.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-25981D97E7A74919",
+    "repositoryPath": "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-03F286F537575D8E",
+    "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+    "origin": "first-edition-dial-textures",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B6F45CF2DE39F708",
+    "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+    "origin": "first-edition-dial-textures",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BEB675A04A9CC1BE",
+    "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+    "origin": "first-edition-dial-textures",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F5B2F3E561B9FAE7",
+    "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+    "origin": "first-edition-dial-textures",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB42BE2323CEC608",
+    "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+    "origin": "first-edition-dial-textures",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-13D37D8777BDC272",
     "repositoryPath": "assets/source/first-edition-dials/firstorder/tiefofighter.jpg",
     "origin": "first-edition-dials",
@@ -3251,6 +3771,118 @@
     "assetId": "AST-2A2C4E5EAF5F7D1B",
     "repositoryPath": "assets/source/first-edition-dials/scumandvillainy/z95headhunter.jpg",
     "origin": "first-edition-dials",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-84A1614494B79C96",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/beb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-47E56943D76155BD",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/brb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-78F2D0C5FF0A7C90",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/kb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-67AD6EBCE27B3606",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/reb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-947630E461E6FFB2",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/rrb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F7D4B412E67D6E65",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/rsb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F747C522C9F74713",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/s-loopeb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C06259547D891AD0",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/s-looprb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-64DC0C6E8F17B058",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/sb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3437C65D65625056",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/stopb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-56DD1CB40CAA13EB",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/teb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F9CBEB9D3AA4C0C7",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/trb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D39D7D97D60FC981",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/treb.png",
+    "origin": "first-edition-maneuver-icons",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E25F6A5BF2F6599E",
+    "repositoryPath": "assets/source/first-edition-maneuver-icons/trrb.png",
+    "origin": "first-edition-maneuver-icons",
     "isGenerated": false,
     "originalSource": null,
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
@@ -20329,7 +20961,23 @@
   },
   {
     "assetId": "AST-1B331A20D6C0FFC2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard - Copy.jpg",
+    "origin": "unified25",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5EA4877973A30001",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.jpg",
+    "origin": "unified25",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B6DDDA137CF9A3B9",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.pdn",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -36808,7 +37456,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-20BF5E21C942AB6E",
+    "assetId": "AST-7B61FB42A2BEE6E7",
     "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-pilots.csv",
     "origin": "unified25",
     "isGenerated": false,
@@ -36816,7 +37464,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5B388CA12EDA21D2",
+    "assetId": "AST-25F90C7384AE2681",
     "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-ships.csv",
     "origin": "unified25",
     "isGenerated": false,
@@ -36824,7 +37472,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-86ABC56FC5AC8593",
+    "assetId": "AST-55CECCE3EB463F1A",
     "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-upgrades.csv",
     "origin": "unified25",
     "isGenerated": false,
@@ -39681,7 +40329,7 @@
   },
   {
     "assetId": "AST-F2419DC6EE5CBC36",
-    "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/nashtah-pup.png",
+    "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/nashtah-pup-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
     "originalSource": null,

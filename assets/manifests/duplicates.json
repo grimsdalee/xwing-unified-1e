@@ -121,6 +121,15 @@
     ]
   },
   {
+    "sha256": "04612bf12c20cc082e2bb13843a7a67e484188a24488f35fb1ebbdedaf02a8cb",
+    "assetId": "AST-04612BF12C20CC08",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+      "assets/source/unified25/assets/dial/maneuvers/kw.png"
+    ]
+  },
+  {
     "sha256": "04b99d4d791b3d409dd1be551ea7c324457e227f6decccd3a7f514356ae8c9e9",
     "assetId": "AST-04B99D4D791B3D40",
     "fileCount": 2,
@@ -229,6 +238,15 @@
     ]
   },
   {
+    "sha256": "130791ebc407ea968144f09e981e7dbe08d66f8b814760de4ee05290feeab9b3",
+    "assetId": "AST-130791EBC407EA96",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
+      "assets/source/unified25/TTS_xwing/src/Dial/Menu.lua"
+    ]
+  },
+  {
     "sha256": "13d37d8777bdc27236328c636419234e016bca43e36199f26a928bda0208811b",
     "assetId": "AST-13D37D8777BDC272",
     "fileCount": 2,
@@ -328,6 +346,15 @@
     ]
   },
   {
+    "sha256": "2037638cef33778adcf8ed9394777518ed2efcee404e5ef198c840d7ad819ea3",
+    "assetId": "AST-2037638CEF33778A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+      "assets/source/unified25/assets/dial/maneuvers/rsr.png"
+    ]
+  },
+  {
     "sha256": "229a650bcb93bb1b3993d9a662b99f8ac42721b27738d31af810d0a8e9ffd8e5",
     "assetId": "AST-229A650BCB93BB1B",
     "fileCount": 2,
@@ -364,12 +391,39 @@
     ]
   },
   {
+    "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
+    "assetId": "AST-25981D97E7A74919",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
+      "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/tierereapergrey.jpg"
+    ]
+  },
+  {
+    "sha256": "27148e92b69587aad82940f0e1cd72167374878e8b4d647a4c0ccecb3f65e8d5",
+    "assetId": "AST-27148E92B69587AA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.xml",
+      "assets/source/unified25/TTS_xwing/src/Dial/ManeuverSetEditor.xml"
+    ]
+  },
+  {
     "sha256": "2764f20183d13c515767ea7567d5a65e9d03d194412fe66fa3dfc524a7b59b36",
     "assetId": "AST-2764F20183D13C51",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/first-edition-dials/scumandvillainy/g1astarfighter.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__a7aa1032c3b7ef90.jpg"
+    ]
+  },
+  {
+    "sha256": "27ffb7e1d59d1d075ac25e3fbf79a216b4b5c32d2084837a56d28efe38972a8e",
+    "assetId": "AST-27FFB7E1D59D1D07",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/straight.png",
+      "assets/source/unified25/assets/dial/maneuvers/sw.png"
     ]
   },
   {
@@ -526,6 +580,15 @@
     ]
   },
   {
+    "sha256": "3a609478e81ea275e57d8df0aba2aa95b93e9f9016d1b858dffeaddde1df72cc",
+    "assetId": "AST-3A609478E81EA275",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/Button.lua",
+      "assets/source/unified25/TTS_xwing/src/Dial/Button.lua"
+    ]
+  },
+  {
     "sha256": "3a8a3f0ae6dedc820394c5d7d4619121c3e30b4223aeafb404becde83bbe53b1",
     "assetId": "AST-3A8A3F0AE6DEDC82",
     "fileCount": 2,
@@ -550,6 +613,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/spare-parts-texture.png",
       "assets/source/unified25/assets/Items/tokens/devices/spare.png"
+    ]
+  },
+  {
+    "sha256": "3c2ff1b1b62854a7c5da39586b4ac91751f586346095cd81dcf8ffd2604601f3",
+    "assetId": "AST-3C2FF1B1B62854A7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/straight.png",
+      "assets/source/unified25/assets/dial/maneuvers/sr.png"
     ]
   },
   {
@@ -640,6 +712,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/dial/actions/barrellb-image.png",
       "assets/source/unified25/assets/dial/actions/broll/brollLeftRe.png"
+    ]
+  },
+  {
+    "sha256": "47e56943d76155bd7919c57467519c23e9a27c682955b63d05d9cdbc3a340e3c",
+    "assetId": "AST-47E56943D76155BD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+      "assets/source/first-edition-maneuver-icons/brb.png"
     ]
   },
   {
@@ -769,6 +850,15 @@
     ]
   },
   {
+    "sha256": "518a5b5c6612f47287a7b2513f0a095d926eb67aedb36c2dfe56a931631b4185",
+    "assetId": "AST-518A5B5C6612F472",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/rer.png"
+    ]
+  },
+  {
     "sha256": "519fd87652e02f38cea75c14dc349cbca8772b11bd2d98022034a7ee1c46c5a0",
     "assetId": "AST-519FD87652E02F38",
     "fileCount": 2,
@@ -802,6 +892,24 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/HotAC/Tokens/Tracking Token.png",
       "assets/source/unified25/assets/Items/tokens/devices/tracking-token-image.png"
+    ]
+  },
+  {
+    "sha256": "556ecf7e0f1b447296bc31994c2f974f4d086113815d24416b60744ea7f0a321",
+    "assetId": "AST-556ECF7E0F1B4472",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/rrr.png"
+    ]
+  },
+  {
+    "sha256": "56dd1cb40caa13ebb38c906b08b8b8fc7515de1384f49a08ebbc9fa1a5a98599",
+    "assetId": "AST-56DD1CB40CAA13EB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+      "assets/source/first-edition-maneuver-icons/teb.png"
     ]
   },
   {
@@ -877,6 +985,15 @@
     ]
   },
   {
+    "sha256": "5ec7d2e34364e0ff168f0c100857bae82bf2ad728e2851fe751298b480885178",
+    "assetId": "AST-5EC7D2E34364E0FF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/s-looprr.png"
+    ]
+  },
+  {
     "sha256": "5f7231670e234112e852364a88838ab4c8f9241af5437d21510836dc57a4d749",
     "assetId": "AST-5F7231670E234112",
     "fileCount": 2,
@@ -886,12 +1003,30 @@
     ]
   },
   {
+    "sha256": "614e4fa708716ad83a81d2e79e1a62f2fcb1a66c08142e4fd181564122460b8c",
+    "assetId": "AST-614E4FA708716AD8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/trw.png"
+    ]
+  },
+  {
     "sha256": "63864aa624609f7b2ab19a802da1899a8d1f53db3d4db377166f5670727bd001",
     "assetId": "AST-63864AA624609F7B",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-63864aa62460.png",
       "assets/source/first-edition-dials/rebelalliance/arc170.png"
+    ]
+  },
+  {
+    "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
+    "assetId": "AST-64DC0C6E8F17B058",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/green/straight.png",
+      "assets/source/first-edition-maneuver-icons/sb.png"
     ]
   },
   {
@@ -937,6 +1072,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/AllMines.jpg",
       "assets/source/unified25/assets/textures/bombs/all-mines-texture.jpg"
+    ]
+  },
+  {
+    "sha256": "690ffb169b39b2173083f101b8440b65e788d9f3a6b4439a70ec9521a5c148d4",
+    "assetId": "AST-690FFB169B39B217",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/brw.png"
     ]
   },
   {
@@ -1057,12 +1201,30 @@
     ]
   },
   {
+    "sha256": "7c9b2f2c9b93f90d9803fe950b0e783cadfa8dc19f4569aa7a4886b5e78594c7",
+    "assetId": "AST-7C9B2F2C9B93F90D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/s-looper.png"
+    ]
+  },
+  {
     "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
     "assetId": "AST-7CD2EE00223E78C2",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
       "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj"
+    ]
+  },
+  {
+    "sha256": "7e79f8f172b4512aeec90a1a4ffd07038f4b08c0e8267f2ef100ba744dd9a23f",
+    "assetId": "AST-7E79F8F172B4512A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/brr.png"
     ]
   },
   {
@@ -1120,6 +1282,15 @@
     ]
   },
   {
+    "sha256": "84a1614494b79c96dad9b6e9c9acd0a107b7d7d283ee0ec4f4e50d7639cb1702",
+    "assetId": "AST-84A1614494B79C96",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+      "assets/source/first-edition-maneuver-icons/beb.png"
+    ]
+  },
+  {
     "sha256": "860a8965bd1cb5e3b4ae2a6cff3748ae33b746622bf8632e2cbcd8a10e763695",
     "assetId": "AST-860A8965BD1CB5E3",
     "fileCount": 2,
@@ -1162,6 +1333,15 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/scumandvillainy/lancerclasspursuitcraft.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__2669dea4a5dc036d.jpg"
+    ]
+  },
+  {
+    "sha256": "90cdc2832e8874ca7f786232a588e1e80a221f6eb35989357a280d53dc80ee72",
+    "assetId": "AST-90CDC2832E8874CA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/trer.png"
     ]
   },
   {
@@ -1246,6 +1426,15 @@
     ]
   },
   {
+    "sha256": "9a4640c9d230a0497e68fdbb5fad4b98ceab40e84f4711ac213336bf8f9173f2",
+    "assetId": "AST-9A4640C9D230A049",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/Proxy.lua",
+      "assets/source/unified25/TTS_xwing/src/Dial/Proxy.lua"
+    ]
+  },
+  {
     "sha256": "9b5825d8b419cc56ee9e00bb9ff7b1819a2daafd057c63763febfb4ccb2f3fb8",
     "assetId": "AST-9B5825D8B419CC56",
     "fileCount": 2,
@@ -1279,6 +1468,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/HotAC/terrain/cargo-container-image.jpg",
       "assets/source/unified25/assets/HotAC/Tokens/Cargo Container.jpg"
+    ]
+  },
+  {
+    "sha256": "a2236b0bf507b7b6c9ed587873b2f3b88d8f501744ca5f2f768fe07141e9becd",
+    "assetId": "AST-A2236B0BF507B7B6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+      "assets/source/unified25/assets/dial/maneuvers/kr.png"
     ]
   },
   {
@@ -1327,6 +1525,15 @@
     ]
   },
   {
+    "sha256": "a812d2aef596cc65c38364a768165163e71a7093c5b01ede77d262fd6b987ea7",
+    "assetId": "AST-A812D2AEF596CC65",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/DialSetSource.lua",
+      "assets/source/unified25/TTS_xwing/src/Dial/DialSetSource.lua"
+    ]
+  },
+  {
     "sha256": "a84b544689d68606be357ee83127d5d17161b74cebeeca1a17be750a2517a8bc",
     "assetId": "AST-A84B544689D68606",
     "fileCount": 2,
@@ -1369,6 +1576,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.obj",
       "assets/source/unified25/assets/models/trayextension.obj"
+    ]
+  },
+  {
+    "sha256": "aa64c5c1254089685ad2b889d169e965a2c5178502d66f8b642e12824a626f3c",
+    "assetId": "AST-AA64C5C125408968",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/bew.png"
     ]
   },
   {
@@ -1435,6 +1651,15 @@
     ]
   },
   {
+    "sha256": "aeb6ceb8eaf0095a08ebea0416e233b164e7da0d177a4851c26a822763cf6ec2",
+    "assetId": "AST-AEB6CEB8EAF0095A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/ter.png"
+    ]
+  },
+  {
     "sha256": "afbbd14d2b1a254089fa49d17ee3627615edf4d1d8ef556ff45e42a3fa630b52",
     "assetId": "AST-AFBBD14D2B1A2540",
     "fileCount": 2,
@@ -1471,12 +1696,30 @@
     ]
   },
   {
+    "sha256": "b36a8da291d38d0ddd45db66d869ecffe536630ce5dd76696139d475314714c3",
+    "assetId": "AST-B36A8DA291D38D0D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionDialRuntime/Dial/DialManager.lua",
+      "assets/source/unified25/TTS_xwing/src/Dial/DialManager.lua"
+    ]
+  },
+  {
     "sha256": "b4b081db6529941ca6fed052c74dea678d9468a829b88e4904c548e1b9c48d9b",
     "assetId": "AST-B4B081DB6529941C",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/condition/tokens/listening-device-texture.png",
       "assets/source/unified25/assets/Items/condition/tokens/listeningdevice.png"
+    ]
+  },
+  {
+    "sha256": "b4dde1a2db70f3f079f3b2b7a21c4503fe874bed7b92708baf64c43625473d9e",
+    "assetId": "AST-B4DDE1A2DB70F3F0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/ber.png"
     ]
   },
   {
@@ -1660,12 +1903,39 @@
     ]
   },
   {
+    "sha256": "d2e094dd56a25dc6748af6e001e2f9468b43a4901b46eb5cf8c57bdde32b4af3",
+    "assetId": "AST-D2E094DD56A25DC6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/trr.png"
+    ]
+  },
+  {
+    "sha256": "d33348e30fedb2fcec468ea12ec21be3f80b3147d9e4f91beed2d9a7982ba091",
+    "assetId": "AST-D33348E30FEDB2FC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+      "assets/source/unified25/assets/dial/maneuvers/trrr.png"
+    ]
+  },
+  {
     "sha256": "d4d926936e785b505f81b59ba77fd050a4b06c5d2f9f0aed28709d25168c1b88",
     "assetId": "AST-D4D926936E785B50",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/yellow.jpg",
       "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/yellow.jpg"
+    ]
+  },
+  {
+    "sha256": "d58bec8b3f92564aee162388859e6b9577a2886d1500c441cc5aa96ab53f8575",
+    "assetId": "AST-D58BEC8B3F92564A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/s-loopew.png"
     ]
   },
   {
@@ -1765,6 +2035,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
+    ]
+  },
+  {
+    "sha256": "e4ca8f00dd13a7ec9fe40e4a6f394cac6c0cdc3f4ada198f5be037b9df8d5ef3",
+    "assetId": "AST-E4CA8F00DD13A7EC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/red/stop.png",
+      "assets/source/unified25/assets/dial/maneuvers/stopr.png"
     ]
   },
   {
@@ -1930,6 +2209,15 @@
     ]
   },
   {
+    "sha256": "f3fe880a6c5d71d7e23c3871658a034b642f91979530fa784c03a1c3eed4bad4",
+    "assetId": "AST-F3FE880A6C5D71D7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+      "assets/source/unified25/assets/dial/maneuvers/tew.png"
+    ]
+  },
+  {
     "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
     "assetId": "AST-F5CFE5650F917DC4",
     "fileCount": 2,
@@ -1954,6 +2242,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunishergrey.jpg",
       "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabombergrey.jpg"
+    ]
+  },
+  {
+    "sha256": "f9cbeb9d3aa4c0c75e1bfffe6ec1b09c2c81c1b48a99843cc90f46070d023b07",
+    "assetId": "AST-F9CBEB9D3AA4C0C7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+      "assets/source/first-edition-maneuver-icons/trb.png"
     ]
   },
   {

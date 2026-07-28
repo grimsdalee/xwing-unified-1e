@@ -1,5 +1,1136 @@
 [
   {
+    "importId": "official-pilot-epsilonace-tiefofighter-firstorder-v1",
+    "id": "epsilonace",
+    "name": "\u0022Epsilon Ace\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 4,
+    "squadPointCost": 17,
+    "unique": true,
+    "upgradeSlots": [
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-epsilonleader-tiefofighter-firstorder-v1",
+    "id": "epsilonleader",
+    "name": "\u0022Epsilon Leader\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 6,
+    "squadPointCost": 19,
+    "unique": true,
+    "upgradeSlots": [
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-omegaace-tiefofighter-firstorder-v1",
+    "id": "omegaace",
+    "name": "\u0022Omega Ace\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 7,
+    "squadPointCost": 20,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-omegaleader-tiefofighter-firstorder-v1",
+    "id": "omegaleader",
+    "name": "\u0022Omega Leader\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 8,
+    "squadPointCost": 21,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-zetaace-tiefofighter-firstorder-v1",
+    "id": "zetaace",
+    "name": "\u0022Zeta Ace\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 5,
+    "squadPointCost": 18,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-zetaleader-tiefofighter-firstorder-v1",
+    "id": "zetaleader",
+    "name": "\u0022Zeta Leader\u0022",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 7,
+    "squadPointCost": 20,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-epsilonsquadronpilot-tiefofighter-firstorder-v1",
+    "id": "epsilonsquadronpilot",
+    "name": "Epsilon Squadron Pilot",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 1,
+    "squadPointCost": 15,
+    "unique": false,
+    "upgradeSlots": [
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-omegasquadronpilot-tiefofighter-firstorder-v1",
+    "id": "omegasquadronpilot",
+    "name": "Omega Squadron Pilot",
+    "shipId": "tiefofighter",
+    "faction": "firstorder",
+    "pilotSkill": 4,
+    "squadPointCost": 17,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-omegaspecialist-tiesffighter-firstorder-v1",
+    "id": "omegaspecialist",
+    "name": "Omega Specialist",
+    "shipId": "tiesffighter",
+    "faction": "firstorder",
+    "pilotSkill": 5,
+    "squadPointCost": 25,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "missile",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-zetaspecialist-tiesffighter-firstorder-v1",
+    "id": "zetaspecialist",
+    "name": "Zeta Specialist",
+    "shipId": "tiesffighter",
+    "faction": "firstorder",
+    "pilotSkill": 3,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "missile",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-sienarjaemusanalyst-tiesilencer-firstorder-v1",
+    "id": "sienarjaemusanalyst",
+    "name": "Sienar-Jaemus Analyst",
+    "shipId": "tiesilencer",
+    "faction": "firstorder",
+    "pilotSkill": 4,
+    "squadPointCost": 26,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-testpilotblackout-tiesilencer-firstorder-v1",
+    "id": "testpilotblackout",
+    "name": "Test Pilot \u0022Blackout\u0022",
+    "shipId": "tiesilencer",
+    "faction": "firstorder",
+    "pilotSkill": 7,
+    "squadPointCost": 31,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-kyloren-upsilonclassshuttle-firstorder-v1",
+    "id": "kyloren",
+    "name": "Kylo Ren",
+    "shipId": "upsilonclassshuttle",
+    "faction": "firstorder",
+    "pilotSkill": 6,
+    "squadPointCost": 34,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "crew",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-rhosquadronveteran-alphaclassstarwing-galacticempire-v1",
+    "id": "rhosquadronveteran",
+    "name": "Rho Squadron Veteran",
+    "shipId": "alphaclassstarwing",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 21,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "missile",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-bobafett-firespray31-galacticempire-v1",
+    "id": "bobafett",
+    "name": "Boba Fett",
+    "shipId": "firespray31",
+    "faction": "galacticempire",
+    "pilotSkill": 8,
+    "squadPointCost": 39,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-kathscarlet-firespray31-galacticempire-v1",
+    "id": "kathscarlet",
+    "name": "Kath Scarlet",
+    "shipId": "firespray31",
+    "faction": "galacticempire",
+    "pilotSkill": 7,
+    "squadPointCost": 38,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-captainyorr-lambdaclassshuttle-galacticempire-v1",
+    "id": "captainyorr",
+    "name": "Captain Yorr",
+    "shipId": "lambdaclassshuttle",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 24,
+    "unique": true,
+    "upgradeSlots": [
+      "system",
+      "cannon",
+      "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-commanderalozen-tieadvanced-galacticempire-v1",
+    "id": "commanderalozen",
+    "name": "Commander Alozen",
+    "shipId": "tieadvanced",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-lieutenantcolzet-tieadvanced-galacticempire-v1",
+    "id": "lieutenantcolzet",
+    "name": "Lieutenant Colzet",
+    "shipId": "tieadvanced",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 23,
+    "unique": true,
+    "upgradeSlots": [
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-stormsquadronpilot-tieadvanced-galacticempire-v1",
+    "id": "stormsquadronpilot",
+    "name": "Storm Squadron Pilot",
+    "shipId": "tieadvanced",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-sienartestpilot-tieadvprototype-galacticempire-v1",
+    "id": "sienartestpilot",
+    "name": "Sienar Test Pilot",
+    "shipId": "tieadvprototype",
+    "faction": "galacticempire",
+    "pilotSkill": 2,
+    "squadPointCost": 16,
+    "unique": false,
+    "upgradeSlots": [
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-theinquisitor-tieadvprototype-galacticempire-v1",
+    "id": "theinquisitor",
+    "name": "The Inquisitor",
+    "shipId": "tieadvprototype",
+    "faction": "galacticempire",
+    "pilotSkill": 8,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-valenrudor-tieadvprototype-galacticempire-v1",
+    "id": "valenrudor",
+    "name": "Valen Rudor",
+    "shipId": "tieadvprototype",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 22,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-onyxsquadronescort-tieaggressor-galacticempire-v1",
+    "id": "onyxsquadronescort",
+    "name": "Onyx Squadron Escort",
+    "shipId": "tieaggressor",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 19,
+    "unique": false,
+    "upgradeSlots": [
+      "missile",
+      "turret"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-gammasquadronpilot-tiebomber-galacticempire-v1",
+    "id": "gammasquadronpilot",
+    "name": "Gamma Squadron Pilot",
+    "shipId": "tiebomber",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 18,
+    "unique": false,
+    "upgradeSlots": [
+      "torpedo",
+      "missile",
+      "bomb"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-gammasquadronveteran-tiebomber-galacticempire-v1",
+    "id": "gammasquadronveteran",
+    "name": "Gamma Squadron Veteran",
+    "shipId": "tiebomber",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 19,
+    "unique": false,
+    "upgradeSlots": [
+      "bomb",
+      "elite",
+      "missile",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-glaivesquadronpilot-tiedefender-galacticempire-v1",
+    "id": "glaivesquadronpilot",
+    "name": "Glaive Squadron Pilot",
+    "shipId": "tiedefender",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 34,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "missile",
+      "cannon"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-maarekstele-tiedefender-galacticempire-v1",
+    "id": "maarekstele",
+    "name": "Maarek Stele",
+    "shipId": "tiedefender",
+    "faction": "galacticempire",
+    "pilotSkill": 7,
+    "squadPointCost": 35,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "cannon",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-onyxsquadronpilot-tiedefender-galacticempire-v1",
+    "id": "onyxsquadronpilot",
+    "name": "Onyx Squadron Pilot",
+    "shipId": "tiedefender",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 32,
+    "unique": false,
+    "upgradeSlots": [
+      "cannon",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-chaser-tiefighter-galacticempire-v1",
+    "id": "chaser",
+    "name": "\u0022Chaser\u0022",
+    "shipId": "tiefighter",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 14,
+    "unique": true,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-scourge-tiefighter-galacticempire-v1",
+    "id": "scourge",
+    "name": "\u0022Scourge\u0022",
+    "shipId": "tiefighter",
+    "faction": "galacticempire",
+    "pilotSkill": 7,
+    "squadPointCost": 17,
+    "unique": true,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-wingedgundark-tiefighter-galacticempire-v1",
+    "id": "wingedgundark",
+    "name": "\u0022Winged Gundark\u0022",
+    "shipId": "tiefighter",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 15,
+    "unique": true,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-youngster-tiefighter-galacticempire-v1",
+    "id": "youngster",
+    "name": "\u0022Youngster\u0022",
+    "shipId": "tiefighter",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 15,
+    "unique": true,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-blacksquadronpilot-tiefighter-galacticempire-v1",
+    "id": "blacksquadronpilot",
+    "name": "Black Squadron Pilot",
+    "shipId": "tiefighter",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 14,
+    "unique": false,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-felswrath-tieinterceptor-galacticempire-v1",
+    "id": "felswrath",
+    "name": "\u0022Fel\u0027s Wrath\u0022",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 23,
+    "unique": true,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-avengersquadronpilot-tieinterceptor-galacticempire-v1",
+    "id": "avengersquadronpilot",
+    "name": "Avenger Squadron Pilot",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 20,
+    "unique": false,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-carnorjax-tieinterceptor-galacticempire-v1",
+    "id": "carnorjax",
+    "name": "Carnor Jax",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 8,
+    "squadPointCost": 26,
+    "unique": true,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-kirkanos-tieinterceptor-galacticempire-v1",
+    "id": "kirkanos",
+    "name": "Kir Kanos",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 24,
+    "unique": true,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-royalguardpilot-tieinterceptor-galacticempire-v1",
+    "id": "royalguardpilot",
+    "name": "Royal Guard Pilot",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 22,
+    "unique": false,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-sabersquadronpilot-tieinterceptor-galacticempire-v1",
+    "id": "sabersquadronpilot",
+    "name": "Saber Squadron Pilot",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 21,
+    "unique": false,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-tetrancowall-tieinterceptor-galacticempire-v1",
+    "id": "tetrancowall",
+    "name": "Tetran Cowall",
+    "shipId": "tieinterceptor",
+    "faction": "galacticempire",
+    "pilotSkill": 7,
+    "squadPointCost": 24,
+    "unique": true,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-shadowsquadronpilot-tiephantom-galacticempire-v1",
+    "id": "shadowsquadronpilot",
+    "name": "Shadow Squadron Pilot",
+    "shipId": "tiephantom",
+    "faction": "galacticempire",
+    "pilotSkill": 5,
+    "squadPointCost": 27,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-sigmasquadronpilot-tiephantom-galacticempire-v1",
+    "id": "sigmasquadronpilot",
+    "name": "Sigma Squadron Pilot",
+    "shipId": "tiephantom",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 25,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-blackeightsqpilot-tiepunisher-galacticempire-v1",
+    "id": "blackeightsqpilot",
+    "name": "Black Eight Squadron Pilot",
+    "shipId": "tiepunisher",
+    "faction": "galacticempire",
+    "pilotSkill": 4,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "torpedo",
+      "missile",
+      "bomb"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-imperialtrainee-tiestriker-galacticempire-v1",
+    "id": "imperialtrainee",
+    "name": "Imperial Trainee",
+    "shipId": "tiestriker",
+    "faction": "galacticempire",
+    "pilotSkill": 1,
+    "squadPointCost": 17,
+    "unique": false,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-scarifdefender-tiestriker-galacticempire-v1",
+    "id": "scarifdefender",
+    "name": "Scarif Defender",
+    "shipId": "tiestriker",
+    "faction": "galacticempire",
+    "pilotSkill": 3,
+    "squadPointCost": 18,
+    "unique": false,
+    "upgradeSlots": [],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-commanderkenkirk-vt49decimator-galacticempire-v1",
+    "id": "commanderkenkirk",
+    "name": "Commander Kenkirk",
+    "shipId": "vt49decimator",
+    "faction": "galacticempire",
+    "pilotSkill": 6,
+    "squadPointCost": 44,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "torpedo",
+      "crew",
+      "bomb"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-braylenstramm-arc170-rebelalliance-v1",
+    "id": "braylenstramm",
+    "name": "Braylen Stramm",
+    "shipId": "arc170",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "astromech",
+      "crew",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-thanekyrell-arc170-rebelalliance-v1",
+    "id": "thanekyrell",
+    "name": "Thane Kyrell",
+    "shipId": "arc170",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 26,
+    "unique": true,
+    "upgradeSlots": [
+      "astromech",
+      "crew",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-wookieeliberator-auzituckgunship-rebelalliance-v1",
+    "id": "wookieeliberator",
+    "name": "Wookiee Liberator",
+    "shipId": "auzituckgunship",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 26,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-prototypepilot-awing-rebelalliance-v1",
+    "id": "prototypepilot",
+    "name": "Prototype Pilot",
+    "shipId": "awing",
+    "faction": "rebelalliance",
+    "pilotSkill": 1,
+    "squadPointCost": 17,
+    "unique": false,
+    "upgradeSlots": [
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-daggersquadronpilot-bwing-rebelalliance-v1",
+    "id": "daggersquadronpilot",
+    "name": "Dagger Squadron Pilot",
+    "shipId": "bwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 24,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "cannon",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-ibtisam-bwing-rebelalliance-v1",
+    "id": "ibtisam",
+    "name": "Ibtisam",
+    "shipId": "bwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 6,
+    "squadPointCost": 28,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-keyanfarlander-bwing-rebelalliance-v1",
+    "id": "keyanfarlander",
+    "name": "Keyan Farlander",
+    "shipId": "bwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 7,
+    "squadPointCost": 29,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-neradantels-bwing-rebelalliance-v1",
+    "id": "neradantels",
+    "name": "Nera Dantels",
+    "shipId": "bwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 5,
+    "squadPointCost": 26,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "cannon",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-blackmoonsquadronpilot-ewing-rebelalliance-v1",
+    "id": "blackmoonsquadronpilot",
+    "name": "Blackmoon Squadron Pilot",
+    "shipId": "ewing",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 29,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-etahnabaht-ewing-rebelalliance-v1",
+    "id": "etahnabaht",
+    "name": "Etahn A\u0027baht",
+    "shipId": "ewing",
+    "faction": "rebelalliance",
+    "pilotSkill": 5,
+    "squadPointCost": 32,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "system",
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-knavesquadronpilot-ewing-rebelalliance-v1",
+    "id": "knavesquadronpilot",
+    "name": "Knave Squadron Pilot",
+    "shipId": "ewing",
+    "faction": "rebelalliance",
+    "pilotSkill": 1,
+    "squadPointCost": 27,
+    "unique": false,
+    "upgradeSlots": [
+      "system",
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-rebeloperative-hwk290-rebelalliance-v1",
+    "id": "rebeloperative",
+    "name": "Rebel Operative",
+    "shipId": "hwk290",
+    "faction": "rebelalliance",
+    "pilotSkill": 2,
+    "squadPointCost": 16,
+    "unique": false,
+    "upgradeSlots": [
+      "turret",
+      "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-guardiansquadronpilot-kwing-rebelalliance-v1",
+    "id": "guardiansquadronpilot",
+    "name": "Guardian Squadron Pilot",
+    "shipId": "kwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 25,
+    "unique": false,
+    "upgradeSlots": [
+      "turret",
+      "torpedo",
+      "missile",
+      "crew",
+      "bomb"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-captainnym-scurrgh6bomber-rebelalliance-v1",
+    "id": "captainnym",
+    "name": "Captain Nym",
+    "shipId": "scurrgh6bomber",
+    "faction": "rebelalliance",
+    "pilotSkill": 8,
+    "squadPointCost": 30,
+    "unique": true,
+    "upgradeSlots": [
+      "bomb",
+      "crew",
+      "elite",
+      "missile",
+      "torpedo",
+      "turret"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-ahsokatano-tiefighter-rebelalliance-v1",
+    "id": "ahsokatano",
+    "name": "Ahsoka Tano",
+    "shipId": "tiefighter",
+    "faction": "rebelalliance",
+    "pilotSkill": 7,
+    "squadPointCost": 17,
+    "unique": true,
+    "upgradeSlots": [
+      "elite"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-bluesquadronpathfinder-uwing-rebelalliance-v1",
+    "id": "bluesquadronpathfinder",
+    "name": "Blue Squadron Pathfinder",
+    "shipId": "uwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 2,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "system",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-hobbieklivian-xwing-rebelalliance-v1",
+    "id": "hobbieklivian",
+    "name": "\u0022Hobbie\u0022 Klivian",
+    "shipId": "xwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 5,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-redsquadronpilot-xwing-rebelalliance-v1",
+    "id": "redsquadronpilot",
+    "name": "Red Squadron Pilot",
+    "shipId": "xwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-rookiepilot-xwing-rebelalliance-v1",
+    "id": "rookiepilot",
+    "name": "Rookie Pilot",
+    "shipId": "xwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 2,
+    "squadPointCost": 21,
+    "unique": false,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-tarnmison-xwing-rebelalliance-v1",
+    "id": "tarnmison",
+    "name": "Tarn Mison",
+    "shipId": "xwing",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 23,
+    "unique": true,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-eadenvrill-yt2400-rebelalliance-v1",
+    "id": "eadenvrill",
+    "name": "Eaden Vrill",
+    "shipId": "yt2400",
+    "faction": "rebelalliance",
+    "pilotSkill": 3,
+    "squadPointCost": 32,
+    "unique": true,
+    "upgradeSlots": [
+      "cannon",
+      "missile",
+      "crew"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-goldsquadronpilot-ywing-rebelalliance-v1",
+    "id": "goldsquadronpilot",
+    "name": "Gold Squadron Pilot",
+    "shipId": "ywing",
+    "faction": "rebelalliance",
+    "pilotSkill": 2,
+    "squadPointCost": 18,
+    "unique": false,
+    "upgradeSlots": [
+      "turret",
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-graysquadronpilot-ywing-rebelalliance-v1",
+    "id": "graysquadronpilot",
+    "name": "Gray Squadron Pilot",
+    "shipId": "ywing",
+    "faction": "rebelalliance",
+    "pilotSkill": 4,
+    "squadPointCost": 20,
+    "unique": false,
+    "upgradeSlots": [
+      "turret",
+      "torpedo",
+      "astromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
     "importId": "official-pilot-cobaltleader-bsf17bomber-resistance-v1",
     "id": "cobaltleader",
     "name": "\u0022Cobalt Leader\u0022",
@@ -64,6 +1195,359 @@
       "system",
       "tech"
     ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-blueace-t70xwing-resistance-v1",
+    "id": "blueace",
+    "name": "\u0022Blue Ace\u0022",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 5,
+    "squadPointCost": 27,
+    "unique": true,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-redace-t70xwing-resistance-v1",
+    "id": "redace",
+    "name": "\u0022Red Ace\u0022",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 6,
+    "squadPointCost": 29,
+    "unique": true,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-snapwexley-t70xwing-resistance-v1",
+    "id": "snapwexley",
+    "name": "\u0022Snap\u0022 Wexley",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 6,
+    "squadPointCost": 28,
+    "unique": true,
+    "upgradeSlots": [
+      "astromech",
+      "elite",
+      "tech",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-bluesquadronnovice-t70xwing-resistance-v1",
+    "id": "bluesquadronnovice",
+    "name": "Blue Squadron Novice",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 2,
+    "squadPointCost": 24,
+    "unique": false,
+    "upgradeSlots": [
+      "torpedo",
+      "astromech",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-jesspava-t70xwing-resistance-v1",
+    "id": "jesspava",
+    "name": "Jess Pava",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 3,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "astromech",
+      "tech",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-redsquadronveteran-t70xwing-resistance-v1",
+    "id": "redsquadronveteran",
+    "name": "Red Squadron Veteran",
+    "shipId": "t70xwing",
+    "faction": "resistance",
+    "pilotSkill": 4,
+    "squadPointCost": 26,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "torpedo",
+      "astromech",
+      "tech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-chewbaccaswx57-yt1300-resistance-v1",
+    "id": "chewbacca-swx57",
+    "name": "Chewbacca",
+    "shipId": "yt1300",
+    "faction": "resistance",
+    "pilotSkill": 5,
+    "squadPointCost": 42,
+    "unique": true,
+    "upgradeSlots": [
+      "crew",
+      "elite",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-hansoloswx57-yt1300-resistance-v1",
+    "id": "hansolo-swx57",
+    "name": "Han Solo",
+    "shipId": "yt1300",
+    "faction": "resistance",
+    "pilotSkill": 9,
+    "squadPointCost": 46,
+    "unique": true,
+    "upgradeSlots": [
+      "elite",
+      "crew",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-resistancesympathizer-yt1300-resistance-v1",
+    "id": "resistancesympathizer",
+    "name": "Resistance Sympathizer",
+    "shipId": "yt1300",
+    "faction": "resistance",
+    "pilotSkill": 3,
+    "squadPointCost": 38,
+    "unique": false,
+    "upgradeSlots": [
+      "crew",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-rey-yt1300-resistance-v1",
+    "id": "rey",
+    "name": "Rey",
+    "shipId": "yt1300",
+    "faction": "resistance",
+    "pilotSkill": 8,
+    "squadPointCost": 45,
+    "unique": true,
+    "upgradeSlots": [
+      "crew",
+      "elite",
+      "missile"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-mandalorianmercenary-firespray31-scumandvillainy-v1",
+    "id": "mandalorianmercenary",
+    "name": "Mandalorian Mercenary",
+    "shipId": "firespray31",
+    "faction": "scumandvillainy",
+    "pilotSkill": 5,
+    "squadPointCost": 35,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "cannon",
+      "bomb",
+      "crew",
+      "missile",
+      "illicit"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-ruthlessfreelancer-g1astarfighter-scumandvillainy-v1",
+    "id": "ruthlessfreelancer",
+    "name": "Ruthless Freelancer",
+    "shipId": "g1astarfighter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 3,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "illicit",
+      "crew",
+      "system"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-grazthehunter-kihraxzfighter-scumandvillainy-v1",
+    "id": "grazthehunter",
+    "name": "Graz the Hunter",
+    "shipId": "kihraxzfighter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 6,
+    "squadPointCost": 25,
+    "unique": true,
+    "upgradeSlots": [
+      "missile",
+      "illicit"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-cartelbrute-m12lkimogilafighter-scumandvillainy-v1",
+    "id": "cartelbrute",
+    "name": "Cartel Brute",
+    "shipId": "m12lkimogilafighter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 3,
+    "squadPointCost": 22,
+    "unique": false,
+    "upgradeSlots": [
+      "illicit",
+      "missile",
+      "salvagedastromech",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-concorddawnace-protectoratestarfighter-scumandvillainy-v1",
+    "id": "concorddawnace",
+    "name": "Concord Dawn Ace",
+    "shipId": "protectoratestarfighter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 5,
+    "squadPointCost": 23,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-concorddawnveteran-protectoratestarfighter-scumandvillainy-v1",
+    "id": "concorddawnveteran",
+    "name": "Concord Dawn Veteran",
+    "shipId": "protectoratestarfighter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 3,
+    "squadPointCost": 22,
+    "unique": false,
+    "upgradeSlots": [
+      "elite",
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-karthakkpirate-scurrgh6bomber-scumandvillainy-v1",
+    "id": "karthakkpirate",
+    "name": "Karthakk Pirate",
+    "shipId": "scurrgh6bomber",
+    "faction": "scumandvillainy",
+    "pilotSkill": 1,
+    "squadPointCost": 24,
+    "unique": false,
+    "upgradeSlots": [
+      "bomb",
+      "crew",
+      "missile",
+      "torpedo",
+      "turret"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-blacksunvigo-starviper-scumandvillainy-v1",
+    "id": "blacksunvigo",
+    "name": "Black Sun Vigo",
+    "shipId": "starviper",
+    "faction": "scumandvillainy",
+    "pilotSkill": 3,
+    "squadPointCost": 27,
+    "unique": false,
+    "upgradeSlots": [
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-thweek-starviper-scumandvillainy-v1",
+    "id": "thweek",
+    "name": "Thweek",
+    "shipId": "starviper",
+    "faction": "scumandvillainy",
+    "pilotSkill": 4,
+    "squadPointCost": 28,
+    "unique": true,
+    "upgradeSlots": [
+      "torpedo"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-syndicatethug-ywing-scumandvillainy-v1",
+    "id": "syndicatethug",
+    "name": "Syndicate Thug",
+    "shipId": "ywing",
+    "faction": "scumandvillainy",
+    "pilotSkill": 2,
+    "squadPointCost": 18,
+    "unique": false,
+    "upgradeSlots": [
+      "turret",
+      "torpedo",
+      "salvagedastromech"
+    ],
+    "sourceDataset": "xwing-data",
+    "sourceFile": "data/pilots.js"
+  },
+  {
+    "importId": "official-pilot-nashtahpuppilot-z95headhunter-scumandvillainy-v1",
+    "id": "nashtahpuppilot",
+    "name": "Nashtah Pup Pilot",
+    "shipId": "z95headhunter",
+    "faction": "scumandvillainy",
+    "pilotSkill": 0,
+    "squadPointCost": 0,
+    "unique": true,
+    "upgradeSlots": [],
     "sourceDataset": "xwing-data",
     "sourceFile": "data/pilots.js"
   }

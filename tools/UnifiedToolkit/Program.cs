@@ -88,6 +88,9 @@ return command switch
     "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
     "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
     "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
+    "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
+    "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
+    "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
     "build-official-artwork-manifest" => BuildOfficialArtworkManifestCommand.Run(commandArgs),
     "prepare-standard-first-edition-runtime-data" => PrepareStandardFirstEditionRuntimeDataCommand.Run(commandArgs),
     "analyse-runtime-action-codes" => AnalyseRuntimeActionCodesCommand.Run(commandArgs),
@@ -205,6 +208,9 @@ static void ShowHelp()
     Console.WriteLine("  generate-prototype-save <first-edition-repo-folder> <reference-save.json> [--assembly-plan <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <file>]");
     Console.WriteLine("  generate-ship-validation-saves <first-edition-repo-folder> <reference-save.json> [--package-plan <file>] [--runtime-payloads <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
+    Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
+    Console.WriteLine("  prepare-missing-pilot-package-assets <repository> [--package-plan <file>] [--output <folder>]");
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
 }
 

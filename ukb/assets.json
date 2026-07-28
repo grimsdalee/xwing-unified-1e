@@ -1,7 +1,322 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-25T15:29:32.9299546+00:00",
+  "generatedUtc": "2026-07-28T01:09:46.9981513+00:00",
   "assets": [
+    {
+      "assetId": "AST-B0ABB46A052335ED",
+      "sha256": "b0abb46a052335ed235a7d7a040767c1a78e66e78726f155230a42904d9799a8",
+      "repositoryPath": "assets/generated/FirstEditionDialBack/firstorder/dial-back.png",
+      "fileName": "dial-back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18748,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-4BC5A372D6D68AC4",
+      "sha256": "4bc5a372d6d68ac4a084c454627dbd7c16601707ce9c87b382920381f14bc37b",
+      "repositoryPath": "assets/generated/FirstEditionDialBack/galacticempire/dial-back.png",
+      "fileName": "dial-back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18919,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F5C16DEA2FE502A5",
+      "sha256": "f5c16dea2fe502a5f3c1efa271c16d4c49dff0722e09108c1719e9d696b6911e",
+      "repositoryPath": "assets/generated/FirstEditionDialBack/rebelalliance/dial-back.png",
+      "fileName": "dial-back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 19391,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-8FD6B53BC38AF027",
+      "sha256": "8fd6b53bc38af02734f56e79ab87823cd258b368770b7679431bd11a80ae9514",
+      "repositoryPath": "assets/generated/FirstEditionDialBack/resistance/dial-back.png",
+      "fileName": "dial-back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 19297,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-C53AB1B7C6044185",
+      "sha256": "c53ab1b7c604418598ace32f717de9215ddc0eab8a8af78065e285593186b344",
+      "repositoryPath": "assets/generated/FirstEditionDialBack/scumandvillainy/dial-back.png",
+      "fileName": "dial-back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 19527,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-9EFF7CC7DF9B6C30",
+      "sha256": "9eff7cc7df9b6c3099d9480225401218c571d7fdd221bb09df883097a7101d98",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+      "fileName": "first-edition-dial-model-r-plus-1_8-u-plus-0_005-v-plus-0_02.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-7550FAE20E1FF7CA",
+      "sha256": "7550fae20e1ff7ca6c823e4b420f9c6006bedf97cc4e19abf4a70db9cdc767b1",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
+      "fileName": "first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2707F62E9B438CB8",
+      "sha256": "2707f62e9b438cb80a9c30f35275724bad618ddb32364184bb189e6c4bc294cf",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-2-u-plus-0_008-v-plus-0_02.obj",
+      "fileName": "first-edition-dial-model-r-plus-2-u-plus-0_008-v-plus-0_02.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D6FF1A31BB838808",
+      "sha256": "d6ff1a31bb8388081fafca9a54915de1cc3b6806b5b9e46343062cdc0875670d",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-2_5-u-plus-0_015-v-plus-0_02.obj",
+      "fileName": "first-edition-dial-model-r-plus-2_5-u-plus-0_015-v-plus-0_02.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-9AEC5373663E22BF",
+      "sha256": "9aec5373663e22bf4af678d4754384dcf794bbc224bdf2738ccf95f1e34eb7a1",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-minus-5.obj",
+      "fileName": "first-edition-dial-model-uv-minus-5.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47152,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-36D2DB7CD20CC240",
+      "sha256": "36d2db7cd20cc24005e3f13e9cec05e0812fff6755f8f1002b1b6437cb68c98d",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model-uv-plus-5-v-plus-0_02.obj",
+      "fileName": "first-edition-dial-model-uv-plus-5-v-plus-0_02.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2C114A4A896A1D80",
+      "sha256": "2c114a4a896a1d801854a56ab8eac98955e50b9294e3094f4ad6bd6f45feb79f",
+      "repositoryPath": "assets/generated/FirstEditionDialModel/first-edition-dial-model.obj",
+      "fileName": "first-edition-dial-model.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 47147,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-3A609478E81EA275",
+      "sha256": "3a609478e81ea275e57d8df0aba2aa95b93e9f9016d1b858dffeaddde1df72cc",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Button.lua",
+      "fileName": "Button.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 4640,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-B36A8DA291D38D0D",
+      "sha256": "b36a8da291d38d0ddd45db66d869ecffe536630ce5dd76696139d475314714c3",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/DialManager.lua",
+      "fileName": "DialManager.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 2062,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-A812D2AEF596CC65",
+      "sha256": "a812d2aef596cc65c38364a768165163e71a7093c5b01ede77d262fd6b987ea7",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/DialSetSource.lua",
+      "fileName": "DialSetSource.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 6279,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-484EE1F3C36CAA0D",
+      "sha256": "484ee1f3c36caa0dc8315e7a81f0f5f3f467ea13520c11c4f1736609391eada5",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.lua",
+      "fileName": "ManeuverSetEditor.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 13567,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-27148E92B69587AA",
+      "sha256": "27148e92b69587aad82940f0e1cd72167374878e8b4d647a4c0ccecb3f65e8d5",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.xml",
+      "fileName": "ManeuverSetEditor.xml",
+      "extension": ".xml",
+      "assetType": "xml",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 6128,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-130791EBC407EA96",
+      "sha256": "130791ebc407ea968144f09e981e7dbe08d66f8b814760de4ee05290feeab9b3",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
+      "fileName": "Menu.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 727,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-9A4640C9D230A049",
+      "sha256": "9a4640c9d230a0497e68fdbb5fad4b98ceab40e84f4711ac213336bf8f9173f2",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/Proxy.lua",
+      "fileName": "Proxy.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 2879,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-73FFF3B0481F474D",
+      "sha256": "73fff3b0481f474d8a3b2f4f73b96481f0fd769a5f367b5ebc711a70eedcf254",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/UnassignedDial.lua",
+      "fileName": "UnassignedDial.lua",
+      "extension": ".lua",
+      "assetType": "lua",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 49615,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-1C33E741A69B2FEA",
+      "sha256": "1c33e741a69b2fea2b940f4294f0479148a13be62f20b13cbe0332776bfd5036",
+      "repositoryPath": "assets/generated/FirstEditionDialRuntime/Dial/UnassignedDial.xml",
+      "fileName": "UnassignedDial.xml",
+      "extension": ".xml",
+      "assetType": "xml",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 66744,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
     {
       "assetId": "AST-C585DC1375658113",
       "sha256": "c585dc1375658113e28f701bda8c18a46a23b962c298337e86b588ff1ea69785",
@@ -15,13 +330,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D0410F516D0F1530",
@@ -36,13 +345,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-69A56C149C5F65D8",
@@ -57,13 +360,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-48BFA7DBA3B20952",
@@ -78,28 +375,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2A8BE41ED99189A1",
@@ -114,13 +390,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-333AC5393A01B01F",
@@ -135,13 +405,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CBDDA497FEFE0CFA",
@@ -156,28 +420,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1A736DE536F2332B",
@@ -192,13 +435,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-829CFEC0C1ADDBFF",
@@ -213,13 +450,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0007BEDEDB5F4C58",
@@ -234,18 +465,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CF8BA079EF2C744C",
@@ -260,23 +480,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ADF83F12D299D8AE",
@@ -291,13 +495,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ACDAE99EB5736D34",
@@ -312,13 +510,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2AF2ECBD24160581",
@@ -333,18 +525,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-19C27A5306C4E0DA",
@@ -359,13 +540,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B6143CE71F676278",
@@ -380,13 +555,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A84B544689D68606",
@@ -401,13 +570,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-17F2AE93E3B2D0F7",
@@ -422,13 +585,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4211B35E302352C0",
@@ -443,13 +600,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-63864AA624609F7B",
@@ -464,13 +615,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2ED6C3846B76BDE4",
@@ -485,28 +630,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-6A9CD06506F45930",
@@ -521,13 +645,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BE942E68F55A3DE3",
@@ -542,13 +660,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5B91B064E8E4B7C9",
@@ -563,13 +675,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1C99A9E18FD4D2B8",
@@ -584,13 +690,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ED0FF4E2CCEAA1EA",
@@ -605,13 +705,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-618B7B8BD178546E",
@@ -626,13 +720,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E6214398975A3801",
@@ -647,23 +735,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D09C0DDBF1D10B41",
@@ -678,28 +750,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FF9C58A42A7057D8",
@@ -714,13 +765,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FA91495F198B8D34",
@@ -735,13 +780,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5E6E4D43DDC2726A",
@@ -756,13 +795,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-37CCA8D137982BDB",
@@ -777,13 +810,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1DA4323052E19AE3",
@@ -798,13 +825,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A4EB131D2624FF3C",
@@ -819,13 +840,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-830A3F48E9926578",
@@ -840,13 +855,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F693F781152DB723",
@@ -861,13 +870,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5A868CF6CF681EFF",
@@ -882,23 +885,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-94DC9B64E755B7BD",
@@ -913,18 +900,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-860A8965BD1CB5E3",
@@ -939,13 +915,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7BF1092954225FD0",
@@ -960,18 +930,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A521FDD01F3146F5",
@@ -986,13 +945,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AA81BA1CDA121E2F",
@@ -1007,18 +960,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-04CEBE59E29711D1",
@@ -1033,13 +975,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-05858FC90BADDE88",
@@ -1054,13 +990,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-30B243B40A2A189A",
@@ -1075,13 +1005,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A168CF15B0947289",
@@ -1096,13 +1020,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9912CF46FD81F9A4",
@@ -1117,13 +1035,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B169E4C576588F5A",
@@ -1138,18 +1050,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1DA4E16BCB7F7932",
@@ -1164,18 +1065,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4CC5CB8515DC638F",
@@ -1190,13 +1080,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4EEB41563190AC4F",
@@ -1211,23 +1095,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-DB598857BB0483A0",
@@ -1242,13 +1110,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EEF322FF64E81D78",
@@ -1263,13 +1125,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CEDCF6106DA7FEB9",
@@ -1284,13 +1140,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-772FB38F675A49BB",
@@ -1305,13 +1155,397 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-84A1614494B79C96",
+      "sha256": "84a1614494b79c96dad9b6e9c9acd0a107b7d7d283ee0ec4f4e50d7639cb1702",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+      "fileName": "bank-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 10248,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-47E56943D76155BD",
+      "sha256": "47e56943d76155bd7919c57467519c23e9a27c682955b63d05d9cdbc3a340e3c",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+      "fileName": "bank-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 10276,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-64DC0C6E8F17B058",
+      "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/straight.png",
+      "fileName": "straight.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 7569,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-56DD1CB40CAA13EB",
+      "sha256": "56dd1cb40caa13ebb38c906b08b8b8fc7515de1384f49a08ebbc9fa1a5a98599",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+      "fileName": "turn-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 7832,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F9CBEB9D3AA4C0C7",
+      "sha256": "f9cbeb9d3aa4c0c75e1bfffe6ec1b09c2c81c1b48a99843cc90f46070d023b07",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+      "fileName": "turn-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 7897,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-B4DDE1A2DB70F3F0",
+      "sha256": "b4dde1a2db70f3f079f3b2b7a21c4503fe874bed7b92708baf64c43625473d9e",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+      "fileName": "bank-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17286,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-7E79F8F172B4512A",
+      "sha256": "7e79f8f172b4512aeec90a1a4ffd07038f4b08c0e8267f2ef100ba744dd9a23f",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+      "fileName": "bank-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16927,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-A2236B0BF507B7B6",
+      "sha256": "a2236b0bf507b7b6c9ed587873b2f3b88d8f501744ca5f2f768fe07141e9becd",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+      "fileName": "koiogran-turn.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18133,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-518A5B5C6612F472",
+      "sha256": "518a5b5c6612f47287a7b2513f0a095d926eb67aedb36c2dfe56a931631b4185",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+      "fileName": "reverse-bank-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18221,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-556ECF7E0F1B4472",
+      "sha256": "556ecf7e0f1b447296bc31994c2f974f4d086113815d24416b60744ea7f0a321",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+      "fileName": "reverse-bank-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18116,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2037638CEF33778A",
+      "sha256": "2037638cef33778adcf8ed9394777518ed2efcee404e5ef198c840d7ad819ea3",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+      "fileName": "reverse-straight.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 12692,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-7C9B2F2C9B93F90D",
+      "sha256": "7c9b2f2c9b93f90d9803fe950b0e783cadfa8dc19f4569aa7a4886b5e78594c7",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+      "fileName": "segnors-loop-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 20187,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-5EC7D2E34364E0FF",
+      "sha256": "5ec7d2e34364e0ff168f0c100857bae82bf2ad728e2851fe751298b480885178",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+      "fileName": "segnors-loop-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 19731,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-E4CA8F00DD13A7EC",
+      "sha256": "e4ca8f00dd13a7ec9fe40e4a6f394cac6c0cdc3f4ada198f5be037b9df8d5ef3",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/stop.png",
+      "fileName": "stop.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 11319,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-3C2FF1B1B62854A7",
+      "sha256": "3c2ff1b1b62854a7c5da39586b4ac91751f586346095cd81dcf8ffd2604601f3",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/straight.png",
+      "fileName": "straight.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 13914,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-90CDC2832E8874CA",
+      "sha256": "90cdc2832e8874ca7f786232a588e1e80a221f6eb35989357a280d53dc80ee72",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+      "fileName": "tallon-roll-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14567,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D33348E30FEDB2FC",
+      "sha256": "d33348e30fedb2fcec468ea12ec21be3f80b3147d9e4f91beed2d9a7982ba091",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+      "fileName": "tallon-roll-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14424,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-AEB6CEB8EAF0095A",
+      "sha256": "aeb6ceb8eaf0095a08ebea0416e233b164e7da0d177a4851c26a822763cf6ec2",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+      "fileName": "turn-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14622,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D2E094DD56A25DC6",
+      "sha256": "d2e094dd56a25dc6748af6e001e2f9468b43a4901b46eb5cf8c57bdde32b4af3",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+      "fileName": "turn-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14469,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-AA64C5C125408968",
+      "sha256": "aa64c5c1254089685ad2b889d169e965a2c5178502d66f8b642e12824a626f3c",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+      "fileName": "bank-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17824,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-690FFB169B39B217",
+      "sha256": "690ffb169b39b2173083f101b8440b65e788d9f3a6b4439a70ec9521a5c148d4",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+      "fileName": "bank-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17473,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-04612BF12C20CC08",
+      "sha256": "04612bf12c20cc082e2bb13843a7a67e484188a24488f35fb1ebbdedaf02a8cb",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+      "fileName": "koiogran-turn.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18467,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D58BEC8B3F92564A",
+      "sha256": "d58bec8b3f92564aee162388859e6b9577a2886d1500c441cc5aa96ab53f8575",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+      "fileName": "segnors-loop-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 20850,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-27FFB7E1D59D1D07",
+      "sha256": "27ffb7e1d59d1d075ac25e3fbf79a216b4b5c32d2084837a56d28efe38972a8e",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/straight.png",
+      "fileName": "straight.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 13751,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F3FE880A6C5D71D7",
+      "sha256": "f3fe880a6c5d71d7e23c3871658a034b642f91979530fa784c03a1c3eed4bad4",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+      "fileName": "turn-left.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14549,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-614E4FA708716AD8",
+      "sha256": "614e4fa708716ad83a81d2e79e1a62f2fcb1a66c08142e4fd181564122460b8c",
+      "repositoryPath": "assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
+      "fileName": "turn-right.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 14417,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
     },
     {
       "assetId": "AST-328D4B0ECF80F3AA",
@@ -1461,13 +1695,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A50D1D27CD971DDE",
@@ -1482,13 +1710,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-86AF4945AB3C74D6",
@@ -1533,13 +1755,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-57CD6A92ED0F4EEF",
@@ -1554,13 +1770,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C067613BFFBC2126",
@@ -1575,13 +1785,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1FBBE8EF39F257C7",
@@ -1671,13 +1875,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-291FF5833FC5BD4E",
@@ -1692,13 +1890,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5FC6A0A42232DA44",
@@ -1713,13 +1905,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BAE5B788B019D990",
@@ -1734,13 +1920,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-45D2F597EF9AD8BA",
@@ -2955,13 +3135,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B2FF2F29D18CB61B",
@@ -2976,13 +3150,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4EC5EA97BE62945A",
@@ -2997,13 +3165,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-290553B8E86D3CED",
@@ -5073,13 +5235,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1A688A45DD7A38E7",
@@ -5094,13 +5250,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5A87BE1C04907A6A",
@@ -5115,13 +5265,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0DF41305BDA1FD27",
@@ -5136,13 +5280,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-327FDF9FB822B84B",
@@ -5157,13 +5295,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-861F64E4F28B94A8",
@@ -5178,13 +5310,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BA353BA3B62CAD46",
@@ -5439,13 +5565,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-434088C9421ACF1D",
@@ -5460,13 +5580,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4D8D3EEAA78C43A1",
@@ -5859,6 +5973,276 @@
       "referencedBy": []
     },
     {
+      "assetId": "AST-A0C716F9CB4446CB",
+      "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/firstorder/plain-faction.png",
+      "fileName": "plain-faction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2D3233CCD7A102AB",
+      "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/galacticempire/plain-faction.png",
+      "fileName": "plain-faction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-891A0ACC3E7BD437",
+      "sha256": "891a0acc3e7bd437ed5247bac20af73655db645a5351fda2811bdf5b15aa9f2e",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/plain-black.png",
+      "fileName": "plain-black.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-95E0356592FA2DD0",
+      "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/rebelalliance/plain-faction.png",
+      "fileName": "plain-faction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-81F2EAA3AE928DCC",
+      "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/resistance/plain-faction.png",
+      "fileName": "plain-faction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-87957C9CEF34C7E0",
+      "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
+      "repositoryPath": "assets/generated/PrototypeBaseTexture/scumandvillainy/plain-faction.png",
+      "fileName": "plain-faction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 102,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-31212A4BAC00F725",
+      "sha256": "31212a4bac00f7259eb24cd7773c99e329b92bf5c94c60d0eca48e48a2cae3ac",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/galacticempire/tiereaper/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 97410,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-267C955D32B140C8",
+      "sha256": "267c955d32b140c886f5e89cd175ff429e5e8b490a8d28b5881fa1779607cd5e",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/bwing/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 118392,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-3B49E9CDB00A1E0A",
+      "sha256": "3b49e9cdb00a1e0a50d91418f4863acd37d753cee00093a145aa6ce906eddc80",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/kwing/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 118457,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-71C07CBF7778A20E",
+      "sha256": "71c07cbf7778a20ee936d47a53bf8bd2012791dcefd55677c5bccf26211351ca",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/sheathipedeclassshuttle/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 119889,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-8F26B4A4006FCC6F",
+      "sha256": "8f26b4a4006fcc6fc8cc8e313fe115d2843e8505e2f91bb52aba6a33877c567d",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/rebelalliance/xwing/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 118565,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-3AAE003849D9D47E",
+      "sha256": "3aae003849d9d47ec6f38b3142e7bff536d54c510f55d1edc8e4f19476071af8",
+      "repositoryPath": "assets/generated/PrototypeDialTexture/scumandvillainy/lancerclasspursuitcraft/dial-transparent.png",
+      "fileName": "dial-transparent.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 113972,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-25981D97E7A74919",
+      "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
+      "repositoryPath": "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
+      "fileName": "standard.jpg",
+      "extension": ".jpg",
+      "assetType": "image",
+      "warehouse": "generated",
+      "isGenerated": true,
+      "sizeBytes": 331386,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-03F286F537575D8E",
+      "sha256": "03f286f537575d8e04cce03d2633782a70562c5a7d63a434f0ea188a589863ec",
+      "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+      "fileName": "firstorder_texture.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-dial-textures",
+      "isGenerated": false,
+      "sizeBytes": 392557,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-B6F45CF2DE39F708",
+      "sha256": "b6f45cf2de39f708b705f21209b0006fae4e88b06d801fcf719512affb2a2ca5",
+      "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+      "fileName": "galacticempire_texture.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-dial-textures",
+      "isGenerated": false,
+      "sizeBytes": 385643,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-BEB675A04A9CC1BE",
+      "sha256": "beb675a04a9cc1be4c9b3082afd068ae76de3a9f7cf4931e73024c819163fd58",
+      "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+      "fileName": "rebelalliance_texture.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-dial-textures",
+      "isGenerated": false,
+      "sizeBytes": 445023,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F5B2F3E561B9FAE7",
+      "sha256": "f5b2f3e561b9fae7b6ab90735b282bde566774dd452322df394965bcf2b03ff9",
+      "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+      "fileName": "resistance_texture.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-dial-textures",
+      "isGenerated": false,
+      "sizeBytes": 439099,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-EB42BE2323CEC608",
+      "sha256": "eb42be2323cec6081f344557e1bfe1c84a320b45fd4fea84c8484327c485c410",
+      "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+      "fileName": "scumandvillainy_texture.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-dial-textures",
+      "isGenerated": false,
+      "sizeBytes": 452342,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
       "assetId": "AST-13D37D8777BDC272",
       "sha256": "13d37d8777bdc27236328c636419234e016bca43e36199f26a928bda0208811b",
       "repositoryPath": "assets/source/first-edition-dials/firstorder/tiefofighter.jpg",
@@ -5871,13 +6255,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D0410F516D0F1530",
@@ -5892,13 +6270,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-69A56C149C5F65D8",
@@ -5913,13 +6285,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-48BFA7DBA3B20952",
@@ -5934,28 +6300,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-15E7F5136EFA9DF9",
@@ -5970,13 +6315,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-98C9E5E36E218D90",
@@ -5991,13 +6330,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AD115147DFF45B85",
@@ -6012,28 +6345,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-8095EB24613A33D9",
@@ -6048,13 +6360,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E909ACE47C539425",
@@ -6069,13 +6375,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D703E4CC7D71038E",
@@ -6090,18 +6390,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2D7D1550DD9C921C",
@@ -6116,23 +6405,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9669858FC02A91E2",
@@ -6147,13 +6420,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9545AECE5D720EAD",
@@ -6168,13 +6435,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5BE4718CF1E56090",
@@ -6189,18 +6450,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F70282071297D330",
@@ -6215,13 +6465,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-8AF36F211D680980",
@@ -6236,13 +6480,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A84B544689D68606",
@@ -6257,13 +6495,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-17F2AE93E3B2D0F7",
@@ -6278,13 +6510,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4A9020EE30073B05",
@@ -6299,13 +6525,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-63864AA624609F7B",
@@ -6320,13 +6540,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3E3697021F2E3592",
@@ -6341,28 +6555,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-74953E6C9DBD2CC5",
@@ -6377,13 +6570,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1543A51384307B38",
@@ -6398,13 +6585,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-734D82896FBFA6B5",
@@ -6419,13 +6600,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3A8A3F0AE6DEDC82",
@@ -6440,13 +6615,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-519FD87652E02F38",
@@ -6461,13 +6630,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ECB12C8B2292C149",
@@ -6482,13 +6645,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7B513AF80403C218",
@@ -6503,23 +6660,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D09C0DDBF1D10B41",
@@ -6534,28 +6675,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-E8900428DFE3",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-173C5CA407C6",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7ECDEFD3C896",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-9109BDDDB34D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-08494DC1242D5728",
@@ -6570,13 +6690,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FA91495F198B8D34",
@@ -6591,13 +6705,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F120E7EEB96C69D0",
@@ -6612,13 +6720,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EF931F367B313D6D",
@@ -6633,13 +6735,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-15037334E137396D",
@@ -6654,13 +6750,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A89BF73ACABCE81D",
@@ -6675,13 +6765,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-79C2202466BF5DCC",
@@ -6696,13 +6780,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1F63AF39823AF2F1",
@@ -6717,13 +6795,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5A868CF6CF681EFF",
@@ -6738,23 +6810,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-94DC9B64E755B7BD",
@@ -6769,18 +6825,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-860A8965BD1CB5E3",
@@ -6795,13 +6840,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F319AE3328BBA0B9",
@@ -6816,18 +6855,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5411EFDD5C985917",
@@ -6842,13 +6870,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2764F20183D13C51",
@@ -6863,18 +6885,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2A9153CCB6120003",
@@ -6889,13 +6900,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FEA81BB4FD8D7259",
@@ -6910,13 +6915,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F1F9E27036319718",
@@ -6931,13 +6930,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-8E1280D71D0C9CE7",
@@ -6952,13 +6945,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9912CF46FD81F9A4",
@@ -6973,13 +6960,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4B479C023330F60E",
@@ -6994,18 +6975,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FED00C5B803493C4",
@@ -7020,18 +6990,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F2D2E699F74307AF",
@@ -7046,13 +7005,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3DDCDE505258236A",
@@ -7067,23 +7020,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-22EBE6094502",
-          "role": "candidate:DialTexture:85"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4C64DF0C9D6A",
-          "role": "candidate:DialTexture:100"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-533870BAA09A",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2B71C1086FDD5854",
@@ -7098,13 +7035,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AB982EE808673FFA",
@@ -7119,13 +7050,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B579DBE8E3D6605C",
@@ -7140,13 +7065,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:85"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2A2C4E5EAF5F7D1B",
@@ -7161,13 +7080,217 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:100"
-        }
-      ]
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-84A1614494B79C96",
+      "sha256": "84a1614494b79c96dad9b6e9c9acd0a107b7d7d283ee0ec4f4e50d7639cb1702",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/beb.png",
+      "fileName": "beb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 10248,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-47E56943D76155BD",
+      "sha256": "47e56943d76155bd7919c57467519c23e9a27c682955b63d05d9cdbc3a340e3c",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/brb.png",
+      "fileName": "brb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 10276,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-78F2D0C5FF0A7C90",
+      "sha256": "78f2d0c5ff0a7c9044578c81ffb08220712d830b138acc4e1d658fe974342c3e",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/kb.png",
+      "fileName": "kb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 10690,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-67AD6EBCE27B3606",
+      "sha256": "67ad6ebce27b360628bce72ea1f5ee1da0c9edda84fbac158c61f6cf925137d0",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/reb.png",
+      "fileName": "reb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 10496,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-947630E461E6FFB2",
+      "sha256": "947630e461e6ffb2516626b8e2210c584d8dc3c3564a6d557337615a78255caf",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/rrb.png",
+      "fileName": "rrb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 10318,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F7D4B412E67D6E65",
+      "sha256": "f7d4b412e67d6e65b08bc409100d499deca86658888fbe41cbfd2d668d91946d",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/rsb.png",
+      "fileName": "rsb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 6570,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F747C522C9F74713",
+      "sha256": "f747c522c9f747137113e23318db2735d8ddad75db1add06c24a5b037bb25e19",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/s-loopeb.png",
+      "fileName": "s-loopeb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 11690,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-C06259547D891AD0",
+      "sha256": "c06259547d891ad0d4dbab7495dc114f04537aa713a8f281d225cb3bbd50c836",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/s-looprb.png",
+      "fileName": "s-looprb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 11663,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-64DC0C6E8F17B058",
+      "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/sb.png",
+      "fileName": "sb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 7569,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-3437C65D65625056",
+      "sha256": "3437c65d65625056dc0a79c01100fa04e9ce853fce682a2c6d101b3da3436401",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/stopb.png",
+      "fileName": "stopb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 5621,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-56DD1CB40CAA13EB",
+      "sha256": "56dd1cb40caa13ebb38c906b08b8b8fc7515de1384f49a08ebbc9fa1a5a98599",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/teb.png",
+      "fileName": "teb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 7832,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F9CBEB9D3AA4C0C7",
+      "sha256": "f9cbeb9d3aa4c0c75e1bfffe6ec1b09c2c81c1b48a99843cc90f46070d023b07",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/trb.png",
+      "fileName": "trb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 7897,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D39D7D97D60FC981",
+      "sha256": "d39d7d97d60fc981e9deedd2627c73a6e9780b6845ad687d1584921ddbb16d51",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/treb.png",
+      "fileName": "treb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 8251,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-E25F6A5BF2F6599E",
+      "sha256": "e25f6a5bf2f6599e7ce0fbbfd346b3123f4e4b9cf3499874b7218ae70a40646d",
+      "repositoryPath": "assets/source/first-edition-maneuver-icons/trrb.png",
+      "fileName": "trrb.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "first-edition-maneuver-icons",
+      "isGenerated": false,
+      "sizeBytes": 8098,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
     },
     {
       "assetId": "AST-1DC72C16899532DD",
@@ -36289,13 +36412,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2624ED2583B618C3",
@@ -50463,13 +50580,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-06F7D9ED41859DDC",
@@ -50492,13 +50603,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2B6C7B81B97023BF",
@@ -50521,13 +50626,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9BC0F99B709FD4C9",
@@ -50550,13 +50649,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B09AB8320E1D1033",
@@ -50579,13 +50672,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-274058906459B476",
@@ -52080,18 +52167,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-587E11632BC03CFE",
@@ -52114,18 +52190,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9B41135F1EEF7380",
@@ -52171,18 +52236,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:63"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-186FA3DAA94B0FCD",
@@ -52205,18 +52259,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:63"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BC14A915D3DA2D61",
@@ -52262,13 +52305,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BE5242272F848E50",
@@ -52291,13 +52328,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5B523FDBE76FBCCE",
@@ -53148,13 +53179,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4E1DCEF99057B37E",
@@ -53223,13 +53248,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5ABA7B2FB1121445",
@@ -53252,13 +53271,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7184DE9ECA067A49",
@@ -53281,13 +53294,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3AFBE50D2C20AF75",
@@ -53310,13 +53317,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AADF6ECE3A671EDF",
@@ -53339,13 +53340,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-397CC9947450",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2FC059AD52EC792B",
@@ -53529,13 +53524,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3190DC275EB673E1",
@@ -53581,13 +53570,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-42F9FB612832",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3D45D66C3F010B1A",
@@ -53725,13 +53708,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-715D650221B102C3",
@@ -53777,13 +53754,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ACEEB793E2ACA86B",
@@ -53806,13 +53777,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3CC4582F9124E6DE",
@@ -53835,13 +53800,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4E6208779DB2",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-82BF33838ECBAA3D",
@@ -54651,13 +54610,28 @@
     {
       "assetId": "AST-1B331A20D6C0FFC2",
       "sha256": "1b331a20d6c0ffc22fe78c26109d5c63b42ae116f2bd66c49a0950795f6404d0",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard - Copy.jpg",
+      "fileName": "standard - Copy.jpg",
+      "extension": ".jpg",
+      "assetType": "image",
+      "warehouse": "unified25",
+      "isGenerated": false,
+      "sizeBytes": 247595,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-5EA4877973A30001",
+      "sha256": "5ea4877973a3000124c02dd1ee0cb90c6a5867720b8c903a421030add9b7e95a",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.jpg",
       "fileName": "standard.jpg",
       "extension": ".jpg",
       "assetType": "image",
       "warehouse": "unified25",
       "isGenerated": false,
-      "sizeBytes": 247595,
+      "sizeBytes": 538678,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [
@@ -54669,6 +54643,21 @@
           "jsonPaths": []
         }
       ],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-B6DDDA137CF9A3B9",
+      "sha256": "b6ddda137cf9a3b9b933c5d66b7282ee8b89015432319cb14a24a2cacf4f9520",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.pdn",
+      "fileName": "standard.pdn",
+      "extension": ".pdn",
+      "assetType": "other",
+      "warehouse": "unified25",
+      "isGenerated": false,
+      "sizeBytes": 2156712,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
       "referencedBy": []
     },
     {
@@ -54715,13 +54704,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-35D56086ABC8BC10",
@@ -54744,13 +54727,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F129EEB47D82CE08",
@@ -54796,13 +54773,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7819F7CFA2470C8B",
@@ -54825,13 +54796,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0C87FBAEBFBDD607",
@@ -54854,13 +54819,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D8279B5F524D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EEE4D890214BAFD6",
@@ -54906,13 +54865,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-75F1EC8E66EAE67E",
@@ -54935,13 +54888,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AAF667E515B56F78",
@@ -54987,13 +54934,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0AFBDAFCC3AC291C",
@@ -55016,13 +54957,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-58440FD60628F421",
@@ -55045,13 +54980,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-83147569595C82B2",
@@ -55074,13 +55003,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-708D033325446A68",
@@ -55103,13 +55026,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5455A8079DCFC0A9",
@@ -55132,13 +55049,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F9A95CA8C049",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1227FCBE2683ACBC",
@@ -55322,13 +55233,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A806758CCBE6D251",
@@ -55351,13 +55256,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FD504231CBB3C56A",
@@ -55426,23 +55325,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-46E5080D15A965A3",
@@ -55465,23 +55348,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-478474BB3B5771A4",
@@ -55504,23 +55371,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5F25DE37EE42049F",
@@ -55543,23 +55394,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-49D60C615280",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-91B1426FD17F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7DF226716D4FF6B8",
@@ -55582,13 +55417,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4667B361A7A1E45F",
@@ -55611,13 +55440,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6CE316AFEE90",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B92A72BBC0085965",
@@ -55686,13 +55509,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ACA05A0DA470B6F4",
@@ -55738,13 +55555,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BD2BBC8D4173484B",
@@ -55767,13 +55578,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-23A4A323B7E0F403",
@@ -55796,13 +55601,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-96DF602B28B5B16A",
@@ -55940,13 +55739,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7455B58961AB2B01",
@@ -55969,13 +55762,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-04EBD5BFCE169F87",
@@ -55998,13 +55785,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7D6D5F36103B58B2",
@@ -56027,13 +55808,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DF2C0D63695B",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0E7A9A1A094A786F",
@@ -57022,13 +56797,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-261E45837DD6C65E",
@@ -57074,13 +56843,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0E1823AE8DF54AED",
@@ -57103,13 +56866,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3B9F5809D18ED688",
@@ -57132,13 +56889,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F3FAD61215EB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-58D5E94CD38FA4E1",
@@ -57368,13 +57119,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-893996346E366A4C",
@@ -57397,13 +57142,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F998823017010FC6",
@@ -57426,13 +57165,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A6DDE4C5E92CDEA1",
@@ -57570,13 +57303,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F3D5FD2E841351DC",
@@ -57599,13 +57326,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-25981D97E7A74919",
@@ -57628,13 +57349,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A3CE1FA0B7F76C4B",
@@ -57680,13 +57395,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9BEADB83152FADE1",
@@ -57709,13 +57418,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3695044E6FBBD6C9",
@@ -57738,13 +57441,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-454FEEEEFB825752",
@@ -57767,13 +57464,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AC858FC6E27229AA",
@@ -57796,13 +57487,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C53A2C1BA67D0AB6",
@@ -57825,13 +57510,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-DD44D7E0372D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1FBC7CE6668ABED3",
@@ -58176,13 +57855,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-07FCEDB807FDC8A6",
@@ -58205,13 +57878,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-6BE5905FA887",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2F4E6595612A089D",
@@ -58303,13 +57970,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A8ED51193A8BA246",
@@ -58332,13 +57993,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B6EFD6CF0D1DAB2F",
@@ -58361,13 +58016,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-DB31ED4EEB436310",
@@ -58390,13 +58039,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D2AD050CC3C520B4",
@@ -58419,13 +58062,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C19E9913622084DF",
@@ -58448,13 +58085,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-5B8E1347C2F5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5AFD6E9281172BE5",
@@ -58661,13 +58292,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A46ACA8256843797",
@@ -58690,13 +58315,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E468726CC47B508C",
@@ -58719,13 +58338,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-BF141FE8639C9D25",
@@ -58748,13 +58361,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B2C0239CAD8C10D6",
@@ -58777,13 +58384,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-996B8C38DC767FFF",
@@ -58806,13 +58407,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-55EF9C7515C5",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E2D271D62171E063",
@@ -59341,13 +58936,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FD5F26E0E2B1F28E",
@@ -59370,13 +58959,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F8755E59369A4FFD",
@@ -59399,13 +58982,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7BC53141B8E2A551",
@@ -59428,13 +59005,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-10CDA52089D8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7DA37204D6E336C1",
@@ -59917,13 +59488,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C15162440E61DC14",
@@ -59946,13 +59511,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-56CF63A9BC19C0CA",
@@ -59975,13 +59534,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3DA57979B7DAF904",
@@ -60004,13 +59557,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FCC25B8DD116",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7656D35E724BDF0A",
@@ -61137,13 +60684,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4084B1CFC61489E2",
@@ -61166,13 +60707,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7EBEA87C5B9C13BB",
@@ -61195,13 +60730,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-388FC9B7EBB5A1E3",
@@ -61224,13 +60753,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E957C351414B85C3",
@@ -61253,13 +60776,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2C67236858DF1F18",
@@ -61765,13 +61282,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-AC0414722FF15D37",
@@ -61794,13 +61305,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-6479D7046D9310DC",
@@ -61823,13 +61328,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FBBC76846FD5A0EB",
@@ -61852,13 +61351,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A66B6C1926C9",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EFA44B19E14F86A4",
@@ -62318,13 +61811,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7CED1D9BB08C4152",
@@ -62347,13 +61834,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A469C9978DA3F6AD",
@@ -62376,13 +61857,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-028DB3BF3FD6A947",
@@ -62405,13 +61880,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-1DC0B31A87CE4CD5",
@@ -62434,13 +61903,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-144C7EA6CE5CA8F6",
@@ -62463,13 +61926,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25FCB1D83351",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B8963DD01A260CCF",
@@ -62538,18 +61995,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-6D330C84D7548093",
@@ -62595,18 +62041,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-71AE91371C945BBC",
@@ -62629,18 +62064,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FBB53AA0825F5BD8",
@@ -62663,18 +62087,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-4FC3623ACC9A",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-16E9397D0581",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A179C7CE45DC4F39",
@@ -62858,13 +62271,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0B6D6D62A77FB06E",
@@ -62910,13 +62317,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-224B8C0E1AEE3413",
@@ -63675,13 +63076,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A2224DE21C312CF9",
@@ -63704,13 +63099,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EC12B3254B16D8E2",
@@ -63733,13 +63122,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CEFB4E17D5E70F87",
@@ -64475,13 +63858,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E5EA078DBFBF5528",
@@ -64527,13 +63904,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-828E05258D4277A4",
@@ -64556,13 +63927,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C4B52F7C60BFA709",
@@ -64585,13 +63950,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4C39475AAA1218D2",
@@ -64614,13 +63973,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7ED87CA79DC29E7B",
@@ -64643,13 +63996,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D46DA71157C",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B3A67C75522F7174",
@@ -65247,13 +64594,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-531821FC6A1C4714",
@@ -65322,13 +64663,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-135CE6AFDBA7B716",
@@ -65351,13 +64686,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-6AB5F2089FF50000",
@@ -65380,13 +64709,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ACF4F4759EBB0646",
@@ -65409,13 +64732,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3699E85BC97E83B7",
@@ -65438,13 +64755,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-920950FA4BC46464",
@@ -65467,13 +64778,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E921CDF22B1D4D6B",
@@ -65496,13 +64801,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CD0C1CCAF02A3AF5",
@@ -65525,13 +64824,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-36823DBE73F1",
-          "role": "candidate:DialTexture:63"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-31B1FD3F4D7AB8A1",
@@ -66658,13 +65951,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CC2716B2D1B764A0",
@@ -66825,13 +66112,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-6C6182896CA6D78A",
@@ -66854,13 +66135,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-615DBAD82A3F0F18",
@@ -66883,13 +66158,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B2D28FEED24ABBD6",
@@ -66912,13 +66181,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CF233286574FF32E",
@@ -66941,13 +66204,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-25737E8F5AE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2F9155B15189AC5B",
@@ -67062,18 +66319,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-40E8E8289E93A7E1",
@@ -67096,18 +66342,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-310B1628F7CFC093",
@@ -67130,18 +66365,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4413C79D04E0D847",
@@ -67164,18 +66388,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-718B1CF34559E1F6",
@@ -67198,18 +66411,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:78"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-43E5A4473CB2B511",
@@ -67278,13 +66480,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-3F106789B007",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CAA07E4966F337FA",
@@ -67445,18 +66641,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:63"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-72CFB07F5FB859AB",
@@ -67479,18 +66664,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-A7919F5F25FD",
-          "role": "candidate:DialTexture:63"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F5CFE5650F917DC4",
@@ -67513,13 +66687,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-72CFB07F5FB859AB",
@@ -67542,13 +66710,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D37C351E2E7F",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F5CFE5650F917DC4",
@@ -67847,13 +67009,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A945C65204ECCEDB",
@@ -67876,13 +67032,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D90D53A6DDC6B2EF",
@@ -67905,13 +67055,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-DD5BEF391C7908A8",
@@ -67934,13 +67078,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-8C916E7638C498B8",
@@ -67963,13 +67101,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-49452BD3E92057A4",
@@ -67992,13 +67124,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2287759F7AD8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2A9202D9A7BBF8F2",
@@ -68044,13 +67170,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CD9C83B61307B9FD",
@@ -68073,13 +67193,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-678528E025717346",
@@ -68102,13 +67216,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5370A30BA56212FC",
@@ -68131,13 +67239,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-B1D0811F8D4A71E5",
@@ -68160,13 +67262,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-CD9C83B61307B9FD",
@@ -68189,13 +67285,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-F526B530F030",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-A0A1F3B640AFB436",
@@ -68494,13 +67584,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-8975CDD3CEFDA2D7",
@@ -68523,13 +67607,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-346E9CB0AAE8",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2CBF88D63AE7BAA8",
@@ -68644,13 +67722,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-EF0E59264052803F",
@@ -68673,13 +67745,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-56534E0D0DB8C62B",
@@ -68702,13 +67768,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-94CB59B4225D0967",
@@ -68731,13 +67791,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D0EA161052CA7369",
@@ -68760,13 +67814,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-3D7700BEDB8E0DB5",
@@ -69019,13 +68067,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-72E7496D7F5CA4E9",
@@ -69048,13 +68090,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F3C1ABE2696CDE4F",
@@ -69077,13 +68113,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-66CE4AE0F4C34037",
@@ -69106,13 +68136,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-04EEB8286BF7",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-77854E25A8B0DAB8",
@@ -69204,13 +68228,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-F1C633969F159019",
@@ -69233,13 +68251,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-44F7402D83D0FBCA",
@@ -69262,13 +68274,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-0C62E6E7A739FD03",
@@ -69314,13 +68320,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-77F32B507A56A59B",
@@ -69343,13 +68343,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-9ACF0D9C1A7F5CCC",
@@ -69372,13 +68366,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-43ADAF676DEB",
-          "role": "candidate:DialTexture:78"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C2602B1E36AE402C",
@@ -71310,13 +70298,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-85E1B20DFB63",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-4D2587678A22AB68",
@@ -72305,13 +71287,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-7AF8450D0B29F475",
@@ -72334,13 +71310,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-17CCB104EA17EC86",
@@ -72363,13 +71333,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7D4C70190E9A",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-125BC4B383E86088",
@@ -73588,18 +72552,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:61"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-5228B5631F7AE1D3",
@@ -73645,18 +72598,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:61"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-ECC95DF1853301B7",
@@ -74461,13 +73403,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FA890C024CB89D43",
@@ -74490,13 +73426,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-586A2FC9F9F0E4B9",
@@ -74519,13 +73449,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-FD9C8003B3666B87",
@@ -74548,13 +73472,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-13A27BB27C26",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-99E5CD9937CDCDBE",
@@ -75934,13 +74852,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-DE4D395FF3B9B0F4",
@@ -75963,13 +74875,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E92153210F263387",
@@ -75992,13 +74898,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-D157360E17DF",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-69EE5A43489F1D85",
@@ -77677,13 +76577,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-12F03CA29943FD3D",
@@ -77706,13 +76600,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-ED46D4F2614F",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-66F24E49B7B3A3AB",
@@ -77850,13 +76738,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-B195218647C2",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-63E057B957C3DCDF",
@@ -79144,13 +78026,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-92197DFA9B13EBB1",
@@ -79173,13 +78049,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2F92F4DD1DC4F4C2",
@@ -79202,13 +78072,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-CD028BEF3884",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-2ECBFC61F8869E1D",
@@ -82635,13 +81499,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7769CA39E15D",
-          "role": "candidate:DialTexture:61"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-E36E4FD4EB8C6B7F",
@@ -85194,13 +84052,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-FC26D92DD4BF",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-16B805A5B4BD8B7B",
@@ -85338,13 +84190,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-05819F01CEC88A03",
@@ -85367,13 +84213,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D00C91B9A0883777",
@@ -85396,13 +84236,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-7F2B68AD3C27",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-C411268E41A13836",
@@ -91727,13 +90561,7 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-1BC5599BA737",
-          "role": "candidate:DialTexture:76"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-677156EBE83435D3",
@@ -103182,23 +102010,23 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-20BF5E21C942AB6E",
-      "sha256": "20bf5e21c942ab6e399188d2e20bc6785cdefdf6bf0498910c8c0fbab60dc2be",
+      "assetId": "AST-7B61FB42A2BEE6E7",
+      "sha256": "7b61fb42a2bee6e77ba820654f5473f08463990495e08080c56f746148df59d5",
       "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-pilots.csv",
       "fileName": "first-edition-pilots.csv",
       "extension": ".csv",
       "assetType": "other",
       "warehouse": "unified25",
       "isGenerated": false,
-      "sizeBytes": 33160,
+      "sizeBytes": 48894,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-5B388CA12EDA21D2",
-      "sha256": "5b388ca12eda21d2ec4b55c97a6784b271963a05db9519d43346b98e1404acea",
+      "assetId": "AST-25F90C7384AE2681",
+      "sha256": "25f90c7384ae2681721024b5a0bf4d0f7e7575f42c4e6f90091f7b09b82865f7",
       "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-ships.csv",
       "fileName": "first-edition-ships.csv",
       "extension": ".csv",
@@ -103212,8 +102040,8 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-86ABC56FC5AC8593",
-      "sha256": "86abc56fc5ac8593cbdbc6f7c7eae08377eeed547200ed073c8987a6f2f1c917",
+      "assetId": "AST-55CECCE3EB463F1A",
+      "sha256": "55cecce3eb463f1a2b4505e371776e10552511eef2406315ffe8e96a5e7a29cf",
       "repositoryPath": "assets/source/unified25/_unifiedtoolkit_reports/conversion/first-edition-upgrades.csv",
       "fileName": "first-edition-upgrades.csv",
       "extension": ".csv",
@@ -104574,18 +103402,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:55"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-91046FE6CF199DDB",
@@ -106280,13 +105097,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-2EDA4729AD4F",
-          "role": "candidate:DialTexture:70"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-D372E78B55214A43",
@@ -107516,18 +106327,7 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": [
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-EC8D6A546561",
-          "role": "candidate:DialTexture:70"
-        },
-        {
-          "entityType": "ship",
-          "entityId": "SHIP-97FC566A27A9",
-          "role": "candidate:DialTexture:55"
-        }
-      ]
+      "referencedBy": []
     },
     {
       "assetId": "AST-79BCF5889BA8AC7A",
@@ -108597,8 +107397,8 @@
     {
       "assetId": "AST-F2419DC6EE5CBC36",
       "sha256": "f2419dc6ee5cbc364011a4a8a09f85cd5c573a1aaaeacf7b55a2555aba834bc6",
-      "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/nashtah-pup.png",
-      "fileName": "nashtah-pup.png",
+      "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Z-95 Headhunter/nashtah-pup-pilot.png",
+      "fileName": "nashtah-pup-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
@@ -134273,6 +133073,14 @@
       ]
     },
     {
+      "assetId": "AST-04612BF12C20CC08",
+      "sha256": "04612bf12c20cc082e2bb13843a7a67e484188a24488f35fb1ebbdedaf02a8cb",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/koiogran-turn.png",
+        "assets/source/unified25/assets/dial/maneuvers/kw.png"
+      ]
+    },
+    {
       "assetId": "AST-04B99D4D791B3D40",
       "sha256": "04b99d4d791b3d409dd1be551ea7c324457e227f6decccd3a7f514356ae8c9e9",
       "repositoryPaths": [
@@ -134369,6 +133177,14 @@
       ]
     },
     {
+      "assetId": "AST-130791EBC407EA96",
+      "sha256": "130791ebc407ea968144f09e981e7dbe08d66f8b814760de4ee05290feeab9b3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
+        "assets/source/unified25/TTS_xwing/src/Dial/Menu.lua"
+      ]
+    },
+    {
       "assetId": "AST-13D37D8777BDC272",
       "sha256": "13d37d8777bdc27236328c636419234e016bca43e36199f26a928bda0208811b",
       "repositoryPaths": [
@@ -134457,6 +133273,14 @@
       ]
     },
     {
+      "assetId": "AST-2037638CEF33778A",
+      "sha256": "2037638cef33778adcf8ed9394777518ed2efcee404e5ef198c840d7ad819ea3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
+        "assets/source/unified25/assets/dial/maneuvers/rsr.png"
+      ]
+    },
+    {
       "assetId": "AST-229A650BCB93BB1B",
       "sha256": "229a650bcb93bb1b3993d9a662b99f8ac42721b27738d31af810d0a8e9ffd8e5",
       "repositoryPaths": [
@@ -134489,11 +133313,35 @@
       ]
     },
     {
+      "assetId": "AST-25981D97E7A74919",
+      "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
+      "repositoryPaths": [
+        "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
+        "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/tierereapergrey.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-27148E92B69587AA",
+      "sha256": "27148e92b69587aad82940f0e1cd72167374878e8b4d647a4c0ccecb3f65e8d5",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/ManeuverSetEditor.xml",
+        "assets/source/unified25/TTS_xwing/src/Dial/ManeuverSetEditor.xml"
+      ]
+    },
+    {
       "assetId": "AST-2764F20183D13C51",
       "sha256": "2764f20183d13c515767ea7567d5a65e9d03d194412fe66fa3dfc524a7b59b36",
       "repositoryPaths": [
         "assets/source/first-edition-dials/scumandvillainy/g1astarfighter.jpg",
         "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__a7aa1032c3b7ef90.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-27FFB7E1D59D1D07",
+      "sha256": "27ffb7e1d59d1d075ac25e3fbf79a216b4b5c32d2084837a56d28efe38972a8e",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/straight.png",
+        "assets/source/unified25/assets/dial/maneuvers/sw.png"
       ]
     },
     {
@@ -134633,6 +133481,14 @@
       ]
     },
     {
+      "assetId": "AST-3A609478E81EA275",
+      "sha256": "3a609478e81ea275e57d8df0aba2aa95b93e9f9016d1b858dffeaddde1df72cc",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/Button.lua",
+        "assets/source/unified25/TTS_xwing/src/Dial/Button.lua"
+      ]
+    },
+    {
       "assetId": "AST-3A8A3F0AE6DEDC82",
       "sha256": "3a8a3f0ae6dedc820394c5d7d4619121c3e30b4223aeafb404becde83bbe53b1",
       "repositoryPaths": [
@@ -134654,6 +133510,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/Items/tokens/devices/spare-parts-texture.png",
         "assets/source/unified25/assets/Items/tokens/devices/spare.png"
+      ]
+    },
+    {
+      "assetId": "AST-3C2FF1B1B62854A7",
+      "sha256": "3c2ff1b1b62854a7c5da39586b4ac91751f586346095cd81dcf8ffd2604601f3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/straight.png",
+        "assets/source/unified25/assets/dial/maneuvers/sr.png"
       ]
     },
     {
@@ -134734,6 +133598,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/dial/actions/barrellb-image.png",
         "assets/source/unified25/assets/dial/actions/broll/brollLeftRe.png"
+      ]
+    },
+    {
+      "assetId": "AST-47E56943D76155BD",
+      "sha256": "47e56943d76155bd7919c57467519c23e9a27c682955b63d05d9cdbc3a340e3c",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/green/bank-right.png",
+        "assets/source/first-edition-maneuver-icons/brb.png"
       ]
     },
     {
@@ -134849,6 +133721,14 @@
       ]
     },
     {
+      "assetId": "AST-518A5B5C6612F472",
+      "sha256": "518a5b5c6612f47287a7b2513f0a095d926eb67aedb36c2dfe56a931631b4185",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/rer.png"
+      ]
+    },
+    {
       "assetId": "AST-519FD87652E02F38",
       "sha256": "519fd87652e02f38cea75c14dc349cbca8772b11bd2d98022034a7ee1c46c5a0",
       "repositoryPaths": [
@@ -134878,6 +133758,22 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/HotAC/Tokens/Tracking Token.png",
         "assets/source/unified25/assets/Items/tokens/devices/tracking-token-image.png"
+      ]
+    },
+    {
+      "assetId": "AST-556ECF7E0F1B4472",
+      "sha256": "556ecf7e0f1b447296bc31994c2f974f4d086113815d24416b60744ea7f0a321",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/reverse-bank-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/rrr.png"
+      ]
+    },
+    {
+      "assetId": "AST-56DD1CB40CAA13EB",
+      "sha256": "56dd1cb40caa13ebb38c906b08b8b8fc7515de1384f49a08ebbc9fa1a5a98599",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
+        "assets/source/first-edition-maneuver-icons/teb.png"
       ]
     },
     {
@@ -134945,6 +133841,14 @@
       ]
     },
     {
+      "assetId": "AST-5EC7D2E34364E0FF",
+      "sha256": "5ec7d2e34364e0ff168f0c100857bae82bf2ad728e2851fe751298b480885178",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/s-looprr.png"
+      ]
+    },
+    {
       "assetId": "AST-5F7231670E234112",
       "sha256": "5f7231670e234112e852364a88838ab4c8f9241af5437d21510836dc57a4d749",
       "repositoryPaths": [
@@ -134953,11 +133857,27 @@
       ]
     },
     {
+      "assetId": "AST-614E4FA708716AD8",
+      "sha256": "614e4fa708716ad83a81d2e79e1a62f2fcb1a66c08142e4fd181564122460b8c",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/turn-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/trw.png"
+      ]
+    },
+    {
       "assetId": "AST-63864AA624609F7B",
       "sha256": "63864aa624609f7b2ab19a802da1899a8d1f53db3d4db377166f5670727bd001",
       "repositoryPaths": [
         "assets/generated/FirstEditionDialTexture/rebelalliance/arc170__dial-63864aa62460.png",
         "assets/source/first-edition-dials/rebelalliance/arc170.png"
+      ]
+    },
+    {
+      "assetId": "AST-64DC0C6E8F17B058",
+      "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/green/straight.png",
+        "assets/source/first-edition-maneuver-icons/sb.png"
       ]
     },
     {
@@ -134998,6 +133918,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/Items/tokens/devices/AllMines.jpg",
         "assets/source/unified25/assets/textures/bombs/all-mines-texture.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-690FFB169B39B217",
+      "sha256": "690ffb169b39b2173083f101b8440b65e788d9f3a6b4439a70ec9521a5c148d4",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/bank-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/brw.png"
       ]
     },
     {
@@ -135105,11 +134033,27 @@
       ]
     },
     {
+      "assetId": "AST-7C9B2F2C9B93F90D",
+      "sha256": "7c9b2f2c9b93f90d9803fe950b0e783cadfa8dc19f4569aa7a4886b5e78594c7",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/s-looper.png"
+      ]
+    },
+    {
       "assetId": "AST-7CD2EE00223E78C2",
       "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
       "repositoryPaths": [
         "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
         "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj"
+      ]
+    },
+    {
+      "assetId": "AST-7E79F8F172B4512A",
+      "sha256": "7e79f8f172b4512aeec90a1a4ffd07038f4b08c0e8267f2ef100ba744dd9a23f",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/bank-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/brr.png"
       ]
     },
     {
@@ -135161,6 +134105,14 @@
       ]
     },
     {
+      "assetId": "AST-84A1614494B79C96",
+      "sha256": "84a1614494b79c96dad9b6e9c9acd0a107b7d7d283ee0ec4f4e50d7639cb1702",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/green/bank-left.png",
+        "assets/source/first-edition-maneuver-icons/beb.png"
+      ]
+    },
+    {
       "assetId": "AST-860A8965BD1CB5E3",
       "sha256": "860a8965bd1cb5e3b4ae2a6cff3748ae33b746622bf8632e2cbcd8a10e763695",
       "repositoryPaths": [
@@ -135198,6 +134150,14 @@
       "repositoryPaths": [
         "assets/source/first-edition-dials/scumandvillainy/lancerclasspursuitcraft.jpg",
         "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__2669dea4a5dc036d.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-90CDC2832E8874CA",
+      "sha256": "90cdc2832e8874ca7f786232a588e1e80a221f6eb35989357a280d53dc80ee72",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/trer.png"
       ]
     },
     {
@@ -135273,6 +134233,14 @@
       ]
     },
     {
+      "assetId": "AST-9A4640C9D230A049",
+      "sha256": "9a4640c9d230a0497e68fdbb5fad4b98ceab40e84f4711ac213336bf8f9173f2",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/Proxy.lua",
+        "assets/source/unified25/TTS_xwing/src/Dial/Proxy.lua"
+      ]
+    },
+    {
       "assetId": "AST-9B5825D8B419CC56",
       "sha256": "9b5825d8b419cc56ee9e00bb9ff7b1819a2daafd057c63763febfb4ccb2f3fb8",
       "repositoryPaths": [
@@ -135302,6 +134270,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/HotAC/terrain/cargo-container-image.jpg",
         "assets/source/unified25/assets/HotAC/Tokens/Cargo Container.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-A2236B0BF507B7B6",
+      "sha256": "a2236b0bf507b7b6c9ed587873b2f3b88d8f501744ca5f2f768fe07141e9becd",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/koiogran-turn.png",
+        "assets/source/unified25/assets/dial/maneuvers/kr.png"
       ]
     },
     {
@@ -135345,6 +134321,14 @@
       ]
     },
     {
+      "assetId": "AST-A812D2AEF596CC65",
+      "sha256": "a812d2aef596cc65c38364a768165163e71a7093c5b01ede77d262fd6b987ea7",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/DialSetSource.lua",
+        "assets/source/unified25/TTS_xwing/src/Dial/DialSetSource.lua"
+      ]
+    },
+    {
       "assetId": "AST-A84B544689D68606",
       "sha256": "a84b544689d68606be357ee83127d5d17161b74cebeeca1a17be750a2517a8bc",
       "repositoryPaths": [
@@ -135382,6 +134366,14 @@
       "repositoryPaths": [
         "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__b32ce2b8cca7a62d.obj",
         "assets/source/unified25/assets/models/trayextension.obj"
+      ]
+    },
+    {
+      "assetId": "AST-AA64C5C125408968",
+      "sha256": "aa64c5c1254089685ad2b889d169e965a2c5178502d66f8b642e12824a626f3c",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/bank-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/bew.png"
       ]
     },
     {
@@ -135441,6 +134433,14 @@
       ]
     },
     {
+      "assetId": "AST-AEB6CEB8EAF0095A",
+      "sha256": "aeb6ceb8eaf0095a08ebea0416e233b164e7da0d177a4851c26a822763cf6ec2",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/turn-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/ter.png"
+      ]
+    },
+    {
       "assetId": "AST-AFBBD14D2B1A2540",
       "sha256": "afbbd14d2b1a254089fa49d17ee3627615edf4d1d8ef556ff45e42a3fa630b52",
       "repositoryPaths": [
@@ -135473,11 +134473,27 @@
       ]
     },
     {
+      "assetId": "AST-B36A8DA291D38D0D",
+      "sha256": "b36a8da291d38d0ddd45db66d869ecffe536630ce5dd76696139d475314714c3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionDialRuntime/Dial/DialManager.lua",
+        "assets/source/unified25/TTS_xwing/src/Dial/DialManager.lua"
+      ]
+    },
+    {
       "assetId": "AST-B4B081DB6529941C",
       "sha256": "b4b081db6529941ca6fed052c74dea678d9468a829b88e4904c548e1b9c48d9b",
       "repositoryPaths": [
         "assets/source/unified25/assets/Items/condition/tokens/listening-device-texture.png",
         "assets/source/unified25/assets/Items/condition/tokens/listeningdevice.png"
+      ]
+    },
+    {
+      "assetId": "AST-B4DDE1A2DB70F3F0",
+      "sha256": "b4dde1a2db70f3f079f3b2b7a21c4503fe874bed7b92708baf64c43625473d9e",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/bank-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/ber.png"
       ]
     },
     {
@@ -135641,11 +134657,35 @@
       ]
     },
     {
+      "assetId": "AST-D2E094DD56A25DC6",
+      "sha256": "d2e094dd56a25dc6748af6e001e2f9468b43a4901b46eb5cf8c57bdde32b4af3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/turn-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/trr.png"
+      ]
+    },
+    {
+      "assetId": "AST-D33348E30FEDB2FC",
+      "sha256": "d33348e30fedb2fcec468ea12ec21be3f80b3147d9e4f91beed2d9a7982ba091",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/tallon-roll-right.png",
+        "assets/source/unified25/assets/dial/maneuvers/trrr.png"
+      ]
+    },
+    {
       "assetId": "AST-D4D926936E785B50",
       "sha256": "d4d926936e785b505f81b59ba77fd050a4b06c5d2f9f0aed28709d25168c1b88",
       "repositoryPaths": [
         "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/yellow.jpg",
         "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/yellow.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-D58BEC8B3F92564A",
+      "sha256": "d58bec8b3f92564aee162388859e6b9577a2886d1500c441cc5aa96ab53f8575",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/segnors-loop-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/s-loopew.png"
       ]
     },
     {
@@ -135734,6 +134774,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.png",
         "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
+      ]
+    },
+    {
+      "assetId": "AST-E4CA8F00DD13A7EC",
+      "sha256": "e4ca8f00dd13a7ec9fe40e4a6f394cac6c0cdc3f4ada198f5be037b9df8d5ef3",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/red/stop.png",
+        "assets/source/unified25/assets/dial/maneuvers/stopr.png"
       ]
     },
     {
@@ -135881,6 +134929,14 @@
       ]
     },
     {
+      "assetId": "AST-F3FE880A6C5D71D7",
+      "sha256": "f3fe880a6c5d71d7e23c3871658a034b642f91979530fa784c03a1c3eed4bad4",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/white/turn-left.png",
+        "assets/source/unified25/assets/dial/maneuvers/tew.png"
+      ]
+    },
+    {
       "assetId": "AST-F5CFE5650F917DC4",
       "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
       "repositoryPaths": [
@@ -135902,6 +134958,14 @@
       "repositoryPaths": [
         "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunishergrey.jpg",
         "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabombergrey.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-F9CBEB9D3AA4C0C7",
+      "sha256": "f9cbeb9d3aa4c0c75e1bfffe6ec1b09c2c81c1b48a99843cc90f46070d023b07",
+      "repositoryPaths": [
+        "assets/generated/FirstEditionManeuverIcon/green/turn-right.png",
+        "assets/source/first-edition-maneuver-icons/trb.png"
       ]
     },
     {

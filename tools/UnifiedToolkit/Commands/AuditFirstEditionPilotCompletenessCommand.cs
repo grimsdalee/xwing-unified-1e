@@ -430,17 +430,41 @@ public static class AuditFirstEditionPilotCompletenessCommand
         public string? Find(string id, string name)
         {
             var idKey = Normalise(id);
-            if (_byStem.TryGetValue(idKey, out var exactId)) return exactId;
+            foreach (var candidate in ExpandArtworkKeys(idKey))
+            {
+                if (_byStem.TryGetValue(candidate, out var exactId))
+                    return exactId;
+            }
 
             var nameKey = Normalise(name);
-            if (_byStem.TryGetValue(nameKey, out var exactName)) return exactName;
+            foreach (var candidate in ExpandArtworkKeys(nameKey))
+            {
+                if (_byStem.TryGetValue(candidate, out var exactName))
+                    return exactName;
+            }
 
             return _files.FirstOrDefault(path =>
             {
                 var stem = SafeStem(path);
-                return stem.Contains(idKey, StringComparison.OrdinalIgnoreCase)
-                    || stem.Contains(nameKey, StringComparison.OrdinalIgnoreCase);
+                return ExpandArtworkKeys(idKey).Any(candidate =>
+                           stem.Contains(candidate, StringComparison.OrdinalIgnoreCase))
+                    || ExpandArtworkKeys(nameKey).Any(candidate =>
+                           stem.Contains(candidate, StringComparison.OrdinalIgnoreCase));
             });
+        }
+
+        private static IEnumerable<string> ExpandArtworkKeys(string key)
+        {
+            if (key.Length == 0)
+                yield break;
+
+            yield return key;
+
+            // xwing-data abbreviates "Corvette" as "corv" in the Raider section artwork filenames.
+            if (key.Equals("raiderclasscorvetteaft", StringComparison.OrdinalIgnoreCase))
+                yield return "raiderclasscorvaft";
+            else if (key.Equals("raiderclasscorvettefore", StringComparison.OrdinalIgnoreCase))
+                yield return "raiderclasscorvfore";
         }
     }
 
