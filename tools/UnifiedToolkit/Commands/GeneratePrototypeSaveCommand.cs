@@ -588,6 +588,18 @@ public static class GeneratePrototypeSaveCommand
             {
                 ["currentTexture"] = textureUrl,
                 ["shipGuid"] = shipGuid,
+                ["shipLocalPosition"] = new JsonObject
+                {
+                    ["x"] = -1.18049023e-07,
+                    ["y"] = 3.49761486,
+                    ["z"] = 6.2130125e-15
+                },
+                ["shipLocalRotation"] = new JsonObject
+                {
+                    ["x"] = 0.0,
+                    ["y"] = 0.0,
+                    ["z"] = 0.0
+                },
                 ["textures"] = new JsonArray(
                     textureReviewUrls
                         .Select(url => JsonValue.Create(url))
@@ -1047,6 +1059,22 @@ public static class GeneratePrototypeSaveCommand
                 textureReview.textures = {}
             end
 
+            if textureReview.shipLocalPosition == nil then
+                textureReview.shipLocalPosition = {
+                    x = -0.000000118049023,
+                    y = 3.49761486,
+                    z = 0.0000000000000062130125
+                }
+            end
+
+            if textureReview.shipLocalRotation == nil then
+                textureReview.shipLocalRotation = {
+                    x = 0,
+                    y = 0,
+                    z = 0
+                }
+            end
+
             self.clearContextMenu()
 
             if #textureReview.textures > 1 then
@@ -1066,6 +1094,29 @@ public static class GeneratePrototypeSaveCommand
             return nil
         end
 
+        local function exactShipWorldPosition()
+            return self.positionToWorld(textureReview.shipLocalPosition)
+        end
+
+        local function exactShipWorldRotation()
+            local baseRotation = self.getRotation()
+            local localRotation = textureReview.shipLocalRotation
+
+            return {
+                x = baseRotation.x + localRotation.x,
+                y = baseRotation.y + localRotation.y,
+                z = baseRotation.z + localRotation.z
+            }
+        end
+
+        local function restoreShipTransform(ship)
+            ship.setLock(true)
+            ship.setVelocity({ 0, 0, 0 })
+            ship.setAngularVelocity({ 0, 0, 0 })
+            ship.setPosition(exactShipWorldPosition())
+            ship.setRotation(exactShipWorldRotation())
+        end
+
         local function reattachShip(ship)
             if ship == nil then
                 textureChangeInProgress = false
@@ -1073,8 +1124,15 @@ public static class GeneratePrototypeSaveCommand
                 return
             end
 
-            self.addAttachment(ship)
-            textureChangeInProgress = false
+            restoreShipTransform(ship)
+
+            Wait.frames(
+                function()
+                    restoreShipTransform(ship)
+                    self.addAttachment(ship)
+                    textureChangeInProgress = false
+                end,
+                1)
         end
 
         local function applyTextureAfterDetach(nextTexture)
@@ -1087,6 +1145,7 @@ public static class GeneratePrototypeSaveCommand
                 return
             end
 
+            restoreShipTransform(ship)
             ship.setCustomObject({ diffuse = nextTexture })
 
             Wait.frames(
@@ -1137,7 +1196,7 @@ public static class GeneratePrototypeSaveCommand
                 function()
                     applyTextureAfterDetach(nextTexture)
                 end,
-                2)
+                1)
 
             print(
                 self.getName()
