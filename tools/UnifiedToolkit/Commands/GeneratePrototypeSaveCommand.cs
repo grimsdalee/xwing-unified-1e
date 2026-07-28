@@ -3,6 +3,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 using SkiaSharp;
 
 namespace UnifiedToolkit.Commands;
@@ -1091,13 +1092,20 @@ public static class GeneratePrototypeSaveCommand
         var integratedLua = ReplaceBundledDialModules(
             bundledLua,
             dialRuntime.Modules);
-        dialObject["LuaScript"] = StaggerDialInitialisation(
+        dialObject["LuaScript"] = StaggerAssignedShipRestore(
             integratedLua,
             assemblyIndex);
-        dialObject["XmlUI"] = dialRuntime.Xml;
-        dialObject["CustomUIAssets"] = MergeDialUiAssets(
+
+        var mergedUiAssets = MergeDialUiAssets(
             dialObject["CustomUIAssets"] as JsonArray,
             dialRuntime.Assets);
+        var namespacedUi = NamespaceDialUiAssets(
+            dialRuntime.Xml,
+            mergedUiAssets,
+            dialGuid);
+
+        dialObject["XmlUI"] = namespacedUi.Xml;
+        dialObject["CustomUIAssets"] = namespacedUi.Assets;
 
         var dialState = new JsonObject
         {
@@ -1171,6 +1179,118 @@ public static class GeneratePrototypeSaveCommand
         }
 
         return result;
+    }
+
+    private static string StaggerAssignedShipRestore(
+        string lua,
+        int assemblyIndex)
+    {
+        const string restorePattern =
+            @"Wait\.condition\(\s*" +
+            @"function\(\)\s*" +
+            @"local\s+savedShip\s*=\s*getObjectFromGUID\(savedShipGuid\)\s*" +
+            @"if\s+savedShip\s+then\s*" +
+            @"dial\.call\(""assignShip"",\s*\{\s*ship\s*=\s*savedShip\s*\}\)\s*" +
+            @"end\s*" +
+            @"end,\s*" +
+            @"function\(\)\s*" +
+            @"local\s+savedShip\s*=\s*getObjectFromGUID\(savedShipGuid\)\s*" +
+            @"return\s+savedShip\s*~=\s*nil" +
+            @"(?:\s+and\s+not\s+savedShip\.loading_custom)?\s*" +
+            @"end,\s*30\s*\)";
+
+        var matches = Regex.Matches(
+            lua,
+            restorePattern,
+            RegexOptions.CultureInvariant);
+
+        if (matches.Count != 1)
+        {
+            throw new InvalidDataException(
+                $"Expected exactly one assigned-ship restore block in the dial Lua, but found {matches.Count}.");
+        }
+
+        var initialDelayFrames = 30 + (assemblyIndex * 45);
+        var replacementBlock =
+            $$"""
+            local restoreAttempts = 0
+            local function restoreAssignedShip()
+                local savedShip = getObjectFromGUID(savedShipGuid)
+                if savedShip then
+                    dial.call("assignShip", { ship = savedShip })
+                    return
+                end
+
+                restoreAttempts = restoreAttempts + 1
+                if restoreAttempts < 120 then
+                    Wait.frames(restoreAssignedShip, 15)
+                else
+                    print(
+                        "First Edition dial could not restore assigned ship "
+                        .. tostring(savedShipGuid))
+                end
+            end
+            Wait.frames(restoreAssignedShip, {{initialDelayFrames}})
+            """;
+
+        return Regex.Replace(
+            lua,
+            restorePattern,
+            _ => replacementBlock,
+            RegexOptions.CultureInvariant,
+            TimeSpan.FromSeconds(2));
+    }
+
+    private static NamespacedDialUi NamespaceDialUiAssets(
+        string xml,
+        JsonArray assets,
+        string dialGuid)
+    {
+        if (string.IsNullOrWhiteSpace(dialGuid))
+            throw new ArgumentException("Dial GUID is required.", nameof(dialGuid));
+
+        var prefix = $"dial_{dialGuid}_";
+        var namespacedAssets = assets.DeepClone().AsArray();
+        var namespacedXml = xml;
+        var renamedCount = 0;
+
+        foreach (var node in namespacedAssets)
+        {
+            if (node is not JsonObject asset)
+                continue;
+
+            var originalName = asset["Name"]?.GetValue<string>();
+            if (string.IsNullOrWhiteSpace(originalName))
+                continue;
+
+            var namespacedName = prefix + originalName;
+            asset["Name"] = namespacedName;
+
+            namespacedXml = namespacedXml
+                .Replace(
+                    $"\"{originalName}\"",
+                    $"\"{namespacedName}\"",
+                    StringComparison.Ordinal)
+                .Replace(
+                    $"'{originalName}'",
+                    $"'{namespacedName}'",
+                    StringComparison.Ordinal);
+
+            renamedCount++;
+        }
+
+        if (renamedCount == 0)
+        {
+            throw new InvalidDataException(
+                $"Dial '{dialGuid}' has no custom UI assets to namespace.");
+        }
+
+        return new NamespacedDialUi
+        {
+            Xml = namespacedXml,
+            Assets = namespacedAssets,
+            RenamedAssetCount = renamedCount
+        };
     }
 
     private static JsonArray MergeDialUiAssets(
@@ -1518,39 +1638,6 @@ public static class GeneratePrototypeSaveCommand
             .ToLowerInvariant()
             .Where(char.IsLetterOrDigit)
             .ToArray());
-
-    private static string StaggerDialInitialisation(
-        string bundledLua,
-        int assemblyIndex)
-    {
-        const string onLoadSignature = "function onLoad(savedData)";
-        var onLoadIndex = bundledLua.IndexOf(
-            onLoadSignature,
-            StringComparison.Ordinal);
-
-        if (onLoadIndex < 0)
-        {
-            throw new InvalidDataException(
-                "Assigned dial runtime does not contain function onLoad(savedData).");
-        }
-
-        var renamed = bundledLua.Remove(onLoadIndex, onLoadSignature.Length)
-            .Insert(onLoadIndex, "function __firstEditionOriginalOnLoad(savedData)");
-
-        var delaySeconds = 0.50 + (assemblyIndex * 0.85);
-        return renamed + $"""
-
--- UnifiedToolkit validation-save startup staggering.
--- Each scripted dial receives its own delayed onLoad so TTS does not initialise
--- several large XML/custom-asset interfaces in the same frame.
-function onLoad(savedData)
-    local capturedSavedData = savedData
-    Wait.time(function()
-        __firstEditionOriginalOnLoad(capturedSavedData)
-    end, {delaySeconds.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture)})
-end
-""";
-    }
 
     private static void ValidateShipAssetPolicy(
         PrototypeAssemblyInput assembly,
@@ -2342,6 +2429,13 @@ public sealed class PrototypeRuntimeTemplateInput
     public string SnapshotPath { get; init; } = string.Empty;
 }
 
+
+public sealed class NamespacedDialUi
+{
+    public string Xml { get; init; } = string.Empty;
+    public JsonArray Assets { get; init; } = new();
+    public int RenamedAssetCount { get; init; }
+}
 
 public sealed class FirstEditionDialRuntimeInput
 {
