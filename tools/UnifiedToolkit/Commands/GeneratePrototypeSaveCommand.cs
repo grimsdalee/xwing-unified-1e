@@ -104,8 +104,9 @@ public static class GeneratePrototypeSaveCommand
             var usedGuids = new HashSet<string>(
                 StringComparer.OrdinalIgnoreCase);
 
-            foreach (var assembly in assemblyPlan.Assemblies)
+            for (var assemblyIndex = 0; assemblyIndex < assemblyPlan.Assemblies.Count; assemblyIndex++)
             {
+                var assembly = assemblyPlan.Assemblies[assemblyIndex];
                 var shipObjects = BuildAssemblyObjects(
                     repositoryRoot,
                     assetBaseUrl,
@@ -114,6 +115,7 @@ public static class GeneratePrototypeSaveCommand
                     pegIndex,
                     dialRuntime,
                     dialModelRepositoryPath,
+                    assemblyIndex,
                     usedGuids,
                     diagnostics,
                     assemblyDiagnostics);
@@ -121,6 +123,7 @@ public static class GeneratePrototypeSaveCommand
                 foreach (var item in shipObjects)
                 {
                     RepositoryAssetUrlPolicy.RewriteObjectUrls(item, assetBaseUrl);
+                    RepositoryAssetUrlPolicy.ValidateNoUpstreamOrPrototypeShipTextures(item);
                     generatedObjects.Add(item);
                 }
             }
@@ -239,6 +242,7 @@ public static class GeneratePrototypeSaveCommand
         IReadOnlyDictionary<string, PrototypeRuntimeTemplateInput> pegIndex,
         FirstEditionDialRuntimeInput dialRuntime,
         string dialModelRepositoryPath,
+        int assemblyIndex,
         ISet<string> usedGuids,
         ICollection<string> diagnostics,
         ICollection<PrototypeAssemblyAssetDiagnostic> assemblyDiagnostics)
@@ -314,11 +318,8 @@ public static class GeneratePrototypeSaveCommand
             texture,
             diagnostics);
 
-        texture = PublishPrototypeTexture(
-            repositoryRoot,
-            assembly,
-            texture,
-            diagnostics);
+        ValidateShipAssetPolicy(assembly, model, "ShipModel");
+        ValidateShipAssetPolicy(assembly, texture, "ShipTexture");
 
         var modelUrl = AssetUrl(assetBaseUrl, model.RepositoryPath);
         var textureUrl = AssetUrl(assetBaseUrl, texture.RepositoryPath);
@@ -364,7 +365,8 @@ public static class GeneratePrototypeSaveCommand
             dialUrl,
             dialRuntime,
             assetBaseUrl,
-            dialModelRepositoryPath);
+            dialModelRepositoryPath,
+            assemblyIndex);
 
         var cardObject = BuildPilotCard(
             repositoryRoot,
@@ -581,11 +583,12 @@ public static class GeneratePrototypeSaveCommand
         string tokenUrl,
         PrototypeAssemblyInput assembly)
     {
+        const double pilotTokenScaleIncrease = 1.10;
         var scale = assembly.BaseSize.Equals(
             "large",
             StringComparison.OrdinalIgnoreCase)
-            ? 2.0
-            : 1.0;
+            ? 2.0 * pilotTokenScaleIncrease
+            : pilotTokenScaleIncrease;
 
         return new JsonObject
         {
@@ -1039,7 +1042,8 @@ public static class GeneratePrototypeSaveCommand
         string dialTextureUrl,
         FirstEditionDialRuntimeInput dialRuntime,
         string assetBaseUrl,
-        string dialModelRepositoryPath)
+        string dialModelRepositoryPath,
+        int assemblyIndex)
     {
         dialObject["GUID"] = dialGuid;
         dialObject["Name"] = "Custom_Model";
@@ -1084,9 +1088,12 @@ public static class GeneratePrototypeSaveCommand
             ?? throw new InvalidDataException(
                 "Assigned dial template has no bundled Lua runtime.");
 
-        dialObject["LuaScript"] = ReplaceBundledDialModules(
+        var integratedLua = ReplaceBundledDialModules(
             bundledLua,
             dialRuntime.Modules);
+        dialObject["LuaScript"] = StaggerDialInitialisation(
+            integratedLua,
+            assemblyIndex);
         dialObject["XmlUI"] = dialRuntime.Xml;
         dialObject["CustomUIAssets"] = MergeDialUiAssets(
             dialObject["CustomUIAssets"] as JsonArray,
@@ -1512,52 +1519,63 @@ public static class GeneratePrototypeSaveCommand
             .Where(char.IsLetterOrDigit)
             .ToArray());
 
-    private static PrototypeAssetInput PublishPrototypeTexture(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput texture,
-        ICollection<string> diagnostics)
+    private static string StaggerDialInitialisation(
+        string bundledLua,
+        int assemblyIndex)
     {
-        if (!assembly.ShipId.Equals(
-                "tiereaper",
-                StringComparison.OrdinalIgnoreCase))
+        const string onLoadSignature = "function onLoad(savedData)";
+        var onLoadIndex = bundledLua.IndexOf(
+            onLoadSignature,
+            StringComparison.Ordinal);
+
+        if (onLoadIndex < 0)
         {
-            return texture;
+            throw new InvalidDataException(
+                "Assigned dial runtime does not contain function onLoad(savedData).");
         }
 
-        var extension = Path.GetExtension(texture.FullPath);
-        if (string.IsNullOrWhiteSpace(extension))
-            extension = ".jpg";
+        var renamed = bundledLua.Remove(onLoadIndex, onLoadSignature.Length)
+            .Insert(onLoadIndex, "function __firstEditionOriginalOnLoad(savedData)");
 
-        var destination = Path.Combine(
-            repositoryRoot,
-            "assets",
-            "generated",
-            "PrototypeShipTexture",
-            "galacticempire",
-            "tiereaper",
-            "standard" + extension.ToLowerInvariant());
+        var delaySeconds = 0.50 + (assemblyIndex * 0.85);
+        return renamed + $"""
 
-        Directory.CreateDirectory(
-            Path.GetDirectoryName(destination)!);
-        File.Copy(texture.FullPath, destination, true);
+-- UnifiedToolkit validation-save startup staggering.
+-- Each scripted dial receives its own delayed onLoad so TTS does not initialise
+-- several large XML/custom-asset interfaces in the same frame.
+function onLoad(savedData)
+    local capturedSavedData = savedData
+    Wait.time(function()
+        __firstEditionOriginalOnLoad(capturedSavedData)
+    end, {delaySeconds.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture)})
+end
+""";
+    }
 
-        var relative = NormalisePath(
-            Path.GetRelativePath(repositoryRoot, destination));
+    private static void ValidateShipAssetPolicy(
+        PrototypeAssemblyInput assembly,
+        PrototypeAssetInput asset,
+        string role)
+    {
+        const string requiredRoot =
+            "assets/source/unified25/assets/ships-v2/";
+        var path = asset.RepositoryPath.Replace('\\', '/');
 
-        diagnostics.Add(
-            $"TIE Reaper texture published to stable prototype asset: " +
-            $"{relative}. Commit and push this generated file before loading " +
-            "the R3 save in TTS.");
-
-        return new PrototypeAssetInput
+        if (!path.StartsWith(requiredRoot, StringComparison.OrdinalIgnoreCase))
         {
-            Role = texture.Role,
-            AssetId = texture.AssetId,
-            RepositoryPath = relative,
-            FullPath = destination,
-            Exists = true
-        };
+            throw new InvalidDataException(
+                $"{assembly.PilotName} {role} must resolve under " +
+                $"'{requiredRoot}', but resolved to '{asset.RepositoryPath}'.");
+        }
+
+        if (path.Contains(
+                "/PrototypeShipTexture/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            throw new InvalidDataException(
+                $"{assembly.PilotName} {role} resolved to a prohibited " +
+                "generated PrototypeShipTexture asset.");
+        }
     }
 
     private static PrototypeAssetInput CorrectKnownPrototypeShipModel(

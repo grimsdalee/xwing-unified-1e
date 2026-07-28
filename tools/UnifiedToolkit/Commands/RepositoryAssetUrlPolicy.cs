@@ -71,6 +71,29 @@ internal static partial class RepositoryAssetUrlPolicy
             });
     }
 
+    public static void ValidateNoUpstreamOrPrototypeShipTextures(JsonNode? node)
+    {
+        if (node is null)
+            return;
+
+        var json = node.ToJsonString();
+        if (json.Contains(
+                "raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            throw new InvalidDataException(
+                "Generated object still contains a JohnnyCheese upstream asset URL.");
+        }
+
+        if (json.Contains(
+                "assets/generated/PrototypeShipTexture",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            throw new InvalidDataException(
+                "Generated object contains a prohibited PrototypeShipTexture reference.");
+        }
+    }
+
     [GeneratedRegex(
         "https://raw\\.githubusercontent\\.com/JohnnyCheese/TTS_X-Wing2\\.0/[^/]+/([^\\s\\\"']+)",
         RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]

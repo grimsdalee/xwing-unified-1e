@@ -326,9 +326,14 @@ public static class GenerateShipValidationSavesCommand
 
         if (role is "ShipModel" or "ShipTexture")
         {
-            var shipsV2 = candidates
-                .Where(asset => asset.RepositoryPath.Contains(
-                    "assets/source/unified25/assets/ships-v2/",
+            const string requiredRoot =
+                "assets/source/unified25/assets/ships-v2/";
+
+            return candidates
+                .Where(asset => asset.RepositoryPath.Replace('\\', '/')
+                    .StartsWith(requiredRoot, StringComparison.OrdinalIgnoreCase))
+                .Where(asset => !asset.RepositoryPath.Contains(
+                    "PrototypeShipTexture",
                     StringComparison.OrdinalIgnoreCase))
                 .Where(asset => File.Exists(Path.Combine(
                     repositoryRoot,
@@ -337,9 +342,6 @@ public static class GenerateShipValidationSavesCommand
                 .ThenByDescending(asset => asset.Score)
                 .ThenBy(asset => asset.RepositoryPath, StringComparer.OrdinalIgnoreCase)
                 .FirstOrDefault();
-
-            if (shipsV2 is not null)
-                return shipsV2;
         }
 
         return candidates.FirstOrDefault(asset => File.Exists(Path.Combine(
