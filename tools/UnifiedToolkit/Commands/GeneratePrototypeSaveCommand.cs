@@ -1943,6 +1943,14 @@ public static class GeneratePrototypeSaveCommand
                 "alphaclassstarwing/Alpha Class2.obj";
         }
         else if (assembly.ShipId.Equals(
+                "firespray31",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/medium/" +
+                "firesprayclasspatrolcraft/firesprayV2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tiefofighter",
                 StringComparison.OrdinalIgnoreCase))
         {
