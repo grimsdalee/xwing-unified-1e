@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-28T23:31:13.9439482+00:00",
+  "generatedUtc": "2026-07-28T23:52:30.4218077+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -63,18 +63,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -158,18 +158,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -253,18 +253,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -348,18 +348,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -443,18 +443,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -538,18 +538,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -633,18 +633,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -728,18 +728,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -823,18 +823,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -918,18 +918,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -1013,18 +1013,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -1108,18 +1108,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -1203,18 +1203,18 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-0B6D6D62A77FB06E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
+          "assetId": "AST-05FAE6754363F472",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/TIE_LN.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-088458018B8CB1E7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
+          "assetId": "AST-8975CDD3CEFDA2D7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
