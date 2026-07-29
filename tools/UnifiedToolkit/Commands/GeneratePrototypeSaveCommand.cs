@@ -617,17 +617,24 @@ public static class GeneratePrototypeSaveCommand
         baseObject["CustomUIAssets"] = new JsonArray();
     }
 
+    private const double SmallPilotTokenScale = 1.10;
+    private const double LargePilotTokenScale = 2.13;
+    private const double EpicPilotTokenScale = 1.00;
+
     private static JsonObject BuildPilotTokenChild(
         string guid,
         string tokenUrl,
         PrototypeAssemblyInput assembly)
     {
-        const double pilotTokenScaleIncrease = 1.10;
-        var scale = assembly.BaseSize.Equals(
-            "large",
-            StringComparison.OrdinalIgnoreCase)
-            ? 2.0 * pilotTokenScaleIncrease
-            : pilotTokenScaleIncrease;
+        var scale = assembly.BaseSize.ToLowerInvariant() switch
+        {
+            "small" => SmallPilotTokenScale,
+            "large" => LargePilotTokenScale,
+            "epic" => EpicPilotTokenScale,
+            _ => throw new InvalidDataException(
+                $"Unsupported First Edition base size for pilot-token scaling: " +
+                $"{assembly.BaseSize}")
+        };
 
         return new JsonObject
         {
@@ -1949,6 +1956,14 @@ public static class GeneratePrototypeSaveCommand
             relative =
                 "assets/source/unified25/assets/ships-v2/medium/" +
                 "firesprayclasspatrolcraft/firesprayV2.obj";
+        }
+        else if (assembly.ShipId.Equals(
+                "tieadvanced",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tieadvancedx1/tieadvancedx1v2.obj";
         }
         else if (assembly.ShipId.Equals(
                 "tiefofighter",

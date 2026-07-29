@@ -436,15 +436,6 @@
     ]
   },
   {
-    "sha256": "291304ad0e856eeaeb4031e8f9e5fff635a898541f385bfd24b5442c6c631fed",
-    "assetId": "AST-291304AD0E856EEA",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/standard.png"
-    ]
-  },
-  {
     "sha256": "293a90675023005a3f0a21adefa21052bab6382a63dcdd5f7b696fa4693d3758",
     "assetId": "AST-293A90675023005A",
     "fileCount": 2,
@@ -1810,15 +1801,6 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/HotAC/terrain/cloud-4-texture.jpg",
       "assets/source/unified25/assets/HotAC/Tokens/HotAC board 1.jpg"
-    ]
-  },
-  {
-    "sha256": "cad0addedf50ef8977b6bb02246650e2ba9a3962ea83b1d9f23e5ab4f4c2f8d9",
-    "assetId": "AST-CAD0ADDEDF50EF89",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.jpg",
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/standard.jpg"
     ]
   },
   {
