@@ -2223,24 +2223,44 @@ public static class GeneratePrototypeSaveCommand
         IReadOnlyList<string> rootTextures,
         string fallbackPath)
     {
-        if (!assembly.Faction.Equals(
+        string? fileName = null;
+
+        if (assembly.Faction.Equals(
                 "galacticempire",
                 StringComparison.OrdinalIgnoreCase)
-            || !assembly.ShipId.Equals(
+            && assembly.ShipId.Equals(
                 "firespray31",
                 StringComparison.OrdinalIgnoreCase))
         {
-            return fallbackPath;
+            fileName = assembly.PilotName switch
+            {
+                "Bounty Hunter" => "standard.jpg",
+                "Krassis Trelix" => "krassis.jpg",
+                "Kath Scarlet" => "kath.jpg",
+                "Boba Fett" => "boba.jpg",
+                _ => null
+            };
         }
-
-        var fileName = assembly.PilotName switch
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tieadvanced",
+                     StringComparison.OrdinalIgnoreCase))
         {
-            "Bounty Hunter" => "standard.jpg",
-            "Krassis Trelix" => "krassis.jpg",
-            "Kath Scarlet" => "kath.jpg",
-            "Boba Fett" => "boba.jpg",
-            _ => null
-        };
+            fileName = assembly.PilotName switch
+            {
+                "Tempest Squadron Pilot" => "standard.jpg",
+                "Lieutenant Colzet" => "standard.jpg",
+                "Storm Squadron Pilot" => "standard.jpg",
+                "Commander Alozen" => "blue.jpg",
+                "Zertik Strom" => "blue.jpg",
+                "Maarek Stele" => "standard.jpg",
+                "Juno Eclipse" => "blue.jpg",
+                "Darth Vader" => "blue.jpg",
+                _ => null
+            };
+        }
 
         if (fileName is null)
             return fallbackPath;
