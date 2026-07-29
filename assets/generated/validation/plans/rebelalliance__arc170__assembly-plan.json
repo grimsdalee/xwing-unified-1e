@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-28T23:52:32.4543044+00:00",
+  "generatedUtc": "2026-07-29T16:44:41.3333528+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -70,9 +70,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-7C9E80BE6B557BC0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
+          "assetId": "AST-478474BB3B5771A4",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -163,9 +163,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-7C9E80BE6B557BC0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
+          "assetId": "AST-478474BB3B5771A4",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -256,9 +256,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-7C9E80BE6B557BC0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
+          "assetId": "AST-478474BB3B5771A4",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -349,9 +349,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-7C9E80BE6B557BC0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Icon.png",
+          "assetId": "AST-478474BB3B5771A4",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

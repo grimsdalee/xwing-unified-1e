@@ -316,6 +316,7 @@ public static class GeneratePrototypeSaveCommand
         texture = CorrectPrototypeShipTexture(
             repositoryRoot,
             assembly,
+            model,
             texture,
             diagnostics);
 
@@ -1236,7 +1237,7 @@ public static class GeneratePrototypeSaveCommand
             StringComparer.OrdinalIgnoreCase);
 
         var discovered = texturesRoot
-            .EnumerateFiles("*", SearchOption.AllDirectories)
+            .EnumerateFiles("*", SearchOption.TopDirectoryOnly)
             .Where(file => supportedExtensions.Contains(file.Extension))
             .Select(file => new
             {
@@ -1996,173 +1997,88 @@ public static class GeneratePrototypeSaveCommand
     private static PrototypeAssetInput CorrectPrototypeShipTexture(
         string repositoryRoot,
         PrototypeAssemblyInput assembly,
-        PrototypeAssetInput texture,
+        PrototypeAssetInput model,
+        PrototypeAssetInput linkedTexture,
         ICollection<string> diagnostics)
     {
-        if (assembly.ShipId.Equals(
-                "tiefofighter",
-                StringComparison.OrdinalIgnoreCase))
+        var modelPath = Path.GetFullPath(model.FullPath);
+        var shipFolder = Path.GetDirectoryName(modelPath)
+            ?? throw new InvalidDataException(
+                $"{assembly.ShipName} model has no parent folder: {modelPath}");
+
+        var texturesFolder = Path.Combine(shipFolder, "Textures");
+        if (!Directory.Exists(texturesFolder))
         {
-            return UseKnownTexture(
-                repositoryRoot,
-                assembly,
-                texture,
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tiefofighter/Textures/standard.jpg",
-                "authoritative Unified 2.5 setup-mode texture",
-                diagnostics);
+            throw new InvalidDataException(
+                $"{assembly.ShipName} model folder has no sibling Textures folder. " +
+                $"Expected: {NormalisePath(Path.GetRelativePath(repositoryRoot, texturesFolder))}");
         }
 
-        if (assembly.ShipId.Equals(
-                "t70xwing",
-                StringComparison.OrdinalIgnoreCase))
+        var supportedExtensions = new HashSet<string>(
+            new[] { ".jpg", ".jpeg", ".png", ".webp" },
+            StringComparer.OrdinalIgnoreCase);
+
+        var rootTextures = Directory
+            .EnumerateFiles(texturesFolder, "*", SearchOption.TopDirectoryOnly)
+            .Where(path => supportedExtensions.Contains(Path.GetExtension(path)))
+            .OrderBy(path => Path.GetFileName(path), StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        if (rootTextures.Count == 0)
         {
-            return UseKnownTexture(
-                repositoryRoot,
-                assembly,
-                texture,
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/Textures/1/poe.jpg",
-                "TS_Save_42 Poe Dameron model-compatible texture",
-                diagnostics);
+            throw new InvalidDataException(
+                $"{assembly.ShipName} has no root-level texture images in: " +
+                NormalisePath(Path.GetRelativePath(repositoryRoot, texturesFolder)));
         }
 
-        if (assembly.ShipId.Equals(
-                "upsilonclassshuttle",
-                StringComparison.OrdinalIgnoreCase)
-            || assembly.ShipId.Equals(
-                "upsilonclasscommandshuttle",
-                StringComparison.OrdinalIgnoreCase))
+        var preferredStandardJpeg = rootTextures.FirstOrDefault(path =>
+            Path.GetFileName(path).Equals(
+                "standard.jpg",
+                StringComparison.OrdinalIgnoreCase));
+
+        var alternateStandard = rootTextures.FirstOrDefault(path =>
+            Path.GetFileNameWithoutExtension(path).Equals(
+                "standard",
+                StringComparison.OrdinalIgnoreCase));
+
+        var selectedPath =
+            preferredStandardJpeg
+            ?? alternateStandard
+            ?? rootTextures[0];
+
+        var selectedRelative = NormalisePath(
+            Path.GetRelativePath(repositoryRoot, selectedPath));
+
+        if (preferredStandardJpeg is null)
         {
-            return UseKnownTexture(
-                repositoryRoot,
-                assembly,
-                texture,
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "upsilonclasscommandshuttle/Textures/standard.jpg",
-                "TS_Save_42 model-compatible standard texture",
-                diagnostics);
-        }
-
-        if (assembly.ShipId.Equals(
-                "kwing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return UseKnownTexture(
-                repositoryRoot,
-                assembly,
-                texture,
-                "assets/source/unified25/assets/ships-v2/medium/" +
-                "btls8kwing/Textures/MirandaDoni.png",
-                "TS_Save_43 red/white default",
-                diagnostics);
-        }
-
-        if (assembly.ShipId.Equals(
-                "sheathipedeclassshuttle",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return UseKnownTexture(
-                repositoryRoot,
-                assembly,
-                texture,
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "sheathipedeclassshuttle/Textures/standard.jpg",
-                "TS_Save_43 model-compatible standard",
-                diagnostics);
-        }
-
-        if (assembly.ShipId.Equals("xwing", StringComparison.OrdinalIgnoreCase)
-            || assembly.ShipId.Equals("t65xwing", StringComparison.OrdinalIgnoreCase))
-        {
-            var path = Path.Combine(
-                repositoryRoot,
-                "assets",
-                "source",
-                "unified25",
-                "assets",
-                "ships-v2",
-                "small",
-                "t65xwing",
-                "Textures",
-                "2",
-                "luke.jpg");
-
-            ValidateFile(path, "Luke Skywalker X-Wing V3 texture");
-
-            var relative = NormalisePath(
-                Path.GetRelativePath(repositoryRoot, path));
+            var reason = alternateStandard is not null
+                ? $"standard.jpg is missing; temporarily using {Path.GetFileName(alternateStandard)}"
+                : $"standard.jpg is missing; temporarily using the first root-level texture {Path.GetFileName(selectedPath)}";
 
             diagnostics.Add(
-                $"X-Wing ShipTexture corrected for V3 model compatibility: " +
-                $"{texture.RepositoryPath} -> {relative}");
-
-            return new PrototypeAssetInput
-            {
-                Role = texture.Role,
-                AssetId = texture.AssetId,
-                RepositoryPath = relative,
-                FullPath = path,
-                Exists = true
-            };
+                $"{assembly.ShipName} ShipTexture fallback: {reason}. " +
+                $"Create {NormalisePath(Path.Combine(
+                    Path.GetRelativePath(repositoryRoot, texturesFolder),
+                    "standard.jpg"))} to remove this fallback.");
         }
 
-        if (assembly.ShipId.Equals(
-                "tiereaper",
-                StringComparison.OrdinalIgnoreCase)
-            && !texture.RepositoryPath.Contains(
-                "/ships-v2/",
+        if (!linkedTexture.RepositoryPath.Equals(
+                selectedRelative,
                 StringComparison.OrdinalIgnoreCase))
         {
-            var folder = Path.Combine(
-                repositoryRoot,
-                "assets",
-                "source",
-                "unified25",
-                "assets",
-                "ships-v2",
-                "medium",
-                "tierereaper",
-                "Textures");
-
-            var candidates = Directory.Exists(folder)
-                ? Directory.EnumerateFiles(folder, "*.*")
-                    .Where(path =>
-                        path.EndsWith(".png", StringComparison.OrdinalIgnoreCase)
-                        || path.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase)
-                        || path.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase))
-                    .OrderByDescending(path =>
-                        Path.GetFileNameWithoutExtension(path).Equals(
-                            "standard",
-                            StringComparison.OrdinalIgnoreCase))
-                    .ThenBy(path => path, StringComparer.OrdinalIgnoreCase)
-                    .ToList()
-                : new List<string>();
-
-            if (candidates.Count == 0)
-            {
-                throw new InvalidDataException(
-                    $"No model-compatible TIE Reaper texture was found in '{folder}'.");
-            }
-
-            var relative = NormalisePath(
-                Path.GetRelativePath(repositoryRoot, candidates[0]));
-
             diagnostics.Add(
-                $"TIE Reaper ShipTexture corrected to model-local texture: " +
-                $"{texture.RepositoryPath} -> {relative}");
-
-            return new PrototypeAssetInput
-            {
-                Role = texture.Role,
-                AssetId = texture.AssetId,
-                RepositoryPath = relative,
-                FullPath = candidates[0],
-                Exists = true
-            };
+                $"{assembly.ShipName} ShipTexture resolved from corrected model folder: " +
+                $"{linkedTexture.RepositoryPath} -> {selectedRelative}");
         }
 
-        return texture;
+        return new PrototypeAssetInput
+        {
+            Role = linkedTexture.Role,
+            AssetId = linkedTexture.AssetId,
+            RepositoryPath = selectedRelative,
+            FullPath = selectedPath,
+            Exists = true
+        };
     }
 
     private static PrototypeAssetInput CorrectXWingMultipartModel(

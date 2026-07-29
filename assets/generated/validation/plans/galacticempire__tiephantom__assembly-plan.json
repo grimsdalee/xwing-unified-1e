@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-28T23:52:31.0905387+00:00",
+  "generatedUtc": "2026-07-29T16:44:40.1609777+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -72,9 +72,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-56534E0D0DB8C62B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
+          "assetId": "AST-EF0E59264052803F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -167,9 +167,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-56534E0D0DB8C62B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
+          "assetId": "AST-EF0E59264052803F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -262,9 +262,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-56534E0D0DB8C62B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
+          "assetId": "AST-EF0E59264052803F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -357,9 +357,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-56534E0D0DB8C62B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
+          "assetId": "AST-EF0E59264052803F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

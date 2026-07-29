@@ -310,6 +310,15 @@
     ]
   },
   {
+    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
+    "assetId": "AST-1BFA19CD61C22039",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.jpg",
+      "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/standard.jpg"
+    ]
+  },
+  {
     "sha256": "1c947ab7123da10a8852a1e8adb4ac30b65b9cc141835291d8fe2980b648cb4d",
     "assetId": "AST-1C947AB7123DA10A",
     "fileCount": 2,
@@ -388,15 +397,6 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/standard.jpg",
       "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/classic.jpg"
-    ]
-  },
-  {
-    "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
-    "assetId": "AST-25981D97E7A74919",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
-      "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/tierereapergrey.jpg"
     ]
   },
   {
@@ -496,15 +496,6 @@
     "repositoryPaths": [
       "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
       "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
-    ]
-  },
-  {
-    "sha256": "2c85c25092cd81e069de3b2f609f1eee150f7fb4e8a334fd0accdad675465a4b",
-    "assetId": "AST-2C85C25092CD81E0",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7.png",
-      "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7b.png"
     ]
   },
   {
@@ -1021,15 +1012,6 @@
     ]
   },
   {
-    "sha256": "63dc1f8c4a37d7ad403a32294259e849bcde67e01299548cc0132946f10e1811",
-    "assetId": "AST-63DC1F8C4A37D7AD",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.png",
-      "assets/source/unified25/assets/ships-v2/medium/tierereaper/icon.png"
-    ]
-  },
-  {
     "sha256": "64dc0c6e8f17b058a5ddeab48bbe3150b9d02e794f85c022dd7d09e6c6f2fbda",
     "assetId": "AST-64DC0C6E8F17B058",
     "fileCount": 2,
@@ -1126,15 +1108,6 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1f891fb46a2ff5a6.png",
       "assets/source/unified25/assets/textures/Mats/standard-14-purple-star-nebula.png"
-    ]
-  },
-  {
-    "sha256": "72cfb07f5fb859abe3abce317eefdefaac919a54a367d95892d2333e628d349d",
-    "assetId": "AST-72CFB07F5FB859AB",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-blue.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorblue.jpg"
     ]
   },
   {
@@ -1322,8 +1295,8 @@
     "assetId": "AST-893996346E366A4C",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunisherblue.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabomberblue.jpg"
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/standard.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/standard.jpg"
     ]
   },
   {
@@ -1696,15 +1669,6 @@
     ]
   },
   {
-    "sha256": "b1d0811f8d4a71e5b24195422cf78025ff5d7ccc7b7c2a56098d4cb0b34d434e",
-    "assetId": "AST-B1D0811F8D4A71E5",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg"
-    ]
-  },
-  {
     "sha256": "b345c9c0de9f8a32740335bf908ffe130f1e23ee0b1cc35ce2d60e2a250b7bdf",
     "assetId": "AST-B345C9C0DE9F8A32",
     "fileCount": 2,
@@ -1756,15 +1720,6 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__fe777b0b5b4a86a8.png",
       "assets/source/unified25/assets/Items/asteroids/Debris4.png"
-    ]
-  },
-  {
-    "sha256": "b6efd6cf0d1dab2fc3e8c96290f1d895231184e42d645d08e44919bdf3100528",
-    "assetId": "AST-B6EFD6CF0D1DAB2F",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blue.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/BlueSquadronPilot.png"
     ]
   },
   {
@@ -1858,6 +1813,15 @@
     ]
   },
   {
+    "sha256": "cad0addedf50ef8977b6bb02246650e2ba9a3962ea83b1d9f23e5ab4f4c2f8d9",
+    "assetId": "AST-CAD0ADDEDF50EF89",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.jpg",
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/standard.jpg"
+    ]
+  },
+  {
     "sha256": "ccd92c7ca91f31dd350a4349141b0f49952e6421cec1724414431c8d950d8b00",
     "assetId": "AST-CCD92C7CA91F31DD",
     "fileCount": 2,
@@ -1873,15 +1837,6 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/cavernangels.jpg",
       "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/cavernangels.jpg"
-    ]
-  },
-  {
-    "sha256": "cd9c83b61307b9fd53ad5ef21ecdd6eb45ddb59b7f2a111e5b8b026e6603aa09",
-    "assetId": "AST-CD9C83B61307B9FD",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.png",
-      "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.png"
     ]
   },
   {
@@ -2044,6 +1999,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
       "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png"
+    ]
+  },
+  {
+    "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
+    "assetId": "AST-E254EA944DA8E2E3",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
+      "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg"
     ]
   },
   {
@@ -2236,15 +2200,6 @@
     ]
   },
   {
-    "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
-    "assetId": "AST-F5CFE5650F917DC4",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-grey.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorgrey.jpg"
-    ]
-  },
-  {
     "sha256": "f70282071297d3307181034e1461fafbe230b2eccf12e1c673a8cd784e15f08b",
     "assetId": "AST-F70282071297D330",
     "fileCount": 2,
@@ -2258,8 +2213,8 @@
     "assetId": "AST-F998823017010FC6",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunishergrey.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabombergrey.jpg"
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/grey.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/grey.jpg"
     ]
   },
   {

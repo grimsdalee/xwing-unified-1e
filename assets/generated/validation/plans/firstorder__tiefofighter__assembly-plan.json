@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-28T23:52:26.3748661+00:00",
+  "generatedUtc": "2026-07-29T16:44:35.8738686+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -74,9 +74,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -171,9 +171,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -268,9 +268,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -365,9 +365,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -462,9 +462,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -559,9 +559,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -656,9 +656,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -753,9 +753,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -850,9 +850,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-80BD74356ECC9539",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.png",
+          "assetId": "AST-5370A30BA56212FC",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

@@ -2460,700 +2460,466 @@
     "sizeBytes": 113972
   },
   {
-    "assetId": "AST-25981D97E7A74919",
-    "repositoryPath": "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.jpg",
-    "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
-    "sizeBytes": 331386
-  },
-  {
-    "assetId": "AST-63DC1F8C4A37D7AD",
-    "repositoryPath": "assets/generated/PrototypeShipTexture/galacticempire/tiereaper/standard.png",
-    "sha256": "63dc1f8c4a37d7ad403a32294259e849bcde67e01299548cc0132946f10e1811",
-    "sizeBytes": 1200
-  },
-  {
-    "assetId": "AST-82FA55CF0C54221C",
+    "assetId": "AST-F013A63E9193D1F4",
     "repositoryPath": "assets/generated/validation/plans/firstorder__tiefofighter__assembly-plan.json",
-    "sha256": "82fa55cf0c54221cb6167307a9ff85f520a2a3d1d9ee695db292e7fed1781789",
-    "sizeBytes": 36310
+    "sha256": "f013a63e9193d1f4e0dd280fae77c703e8872a8a0bc6614b27e9120bae90d1a8",
+    "sizeBytes": 36292
   },
   {
-    "assetId": "AST-DFF131DB381F6681",
+    "assetId": "AST-D68F3B39019BA81E",
     "repositoryPath": "assets/generated/validation/plans/firstorder__tiesffighter__assembly-plan.json",
-    "sha256": "dff131db381f6681886caf85031b56e7a5ab7bc046e72900a76933a6159031b4",
+    "sha256": "d68f3b39019ba81e075a4f81faa96e449906ff9ae9a2969bff7f5c62f18a27c4",
     "sizeBytes": 16571
   },
   {
-    "assetId": "AST-804EF564926B935D",
+    "assetId": "AST-3D758849A2B47EEC",
     "repositoryPath": "assets/generated/validation/plans/firstorder__tiesilencer__assembly-plan.json",
-    "sha256": "804ef564926b935dd0b6594dfd1d13eab42e993db55c3e46a74d51c5c5fed0d4",
-    "sizeBytes": 16645
+    "sha256": "3d758849a2b47eec4f3585efda95299e6abab578d8f5f9902acc955a70699b14",
+    "sizeBytes": 16646
   },
   {
-    "assetId": "AST-E3EEB9E9494C1AC7",
+    "assetId": "AST-26A0B0F9A12EFF17",
     "repositoryPath": "assets/generated/validation/plans/firstorder__upsilonclassshuttle__assembly-plan.json",
-    "sha256": "e3eeb9e9494c1ac713a2a98239fa330995b3df657ce1d5d95d5cf4d6b221cf7f",
+    "sha256": "26a0b0f9a12eff17c3bf36409d10650059c61fb79708ab6c785d00067e7c7144",
     "sizeBytes": 17281
   },
   {
-    "assetId": "AST-0E73AEB993BC8942",
+    "assetId": "AST-97D9C9B24C21B95B",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__alphaclassstarwing__assembly-plan.json",
-    "sha256": "0e73aeb993bc8942d527812c07270460502fe5f862de32f36f00f2dbcba1564a",
+    "sha256": "97d9c9b24c21b95b8744939ddd6f965c7b4c135b863f63d937b92b436bfc663c",
     "sizeBytes": 17410
   },
   {
-    "assetId": "AST-72BBA3294A413C59",
+    "assetId": "AST-6F9BB4C2902DC705",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__firespray31__assembly-plan.json",
-    "sha256": "72bba3294a413c5917d30e40ad74f9edf9c15574f49aa094b3f0547e9abec6ea",
+    "sha256": "6f9bb4c2902dc705d7487c1e384273964b52ac999fc456879705f42219735f12",
     "sizeBytes": 16650
   },
   {
-    "assetId": "AST-C402274F15FB4092",
+    "assetId": "AST-273B0F974E57ED4D",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__lambdaclassshuttle__assembly-plan.json",
-    "sha256": "c402274f15fb4092f2e8ae12a4f98215d707db16f12ef7350d2a05542e6a1d11",
+    "sha256": "273b0f974e57ed4d1c21755dabdca5a090b16f7925f79e47c53259ddb159d26d",
     "sizeBytes": 16600
   },
   {
-    "assetId": "AST-7F86BA1C127389CA",
+    "assetId": "AST-EB7A682A69FD0D61",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvanced__assembly-plan.json",
-    "sha256": "7f86ba1c127389caefa0da55bd24235b0a43a6d28eea71752882ef34f4fe186b",
-    "sizeBytes": 32613
+    "sha256": "eb7a682a69fd0d6168e574c7d3422f4be1fa5f9807ba4fac3f1b0042bb3d5c27",
+    "sizeBytes": 32629
   },
   {
-    "assetId": "AST-7B22F83AE0CC1AB5",
+    "assetId": "AST-07F819A9042C4AF1",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvprototype__assembly-plan.json",
-    "sha256": "7b22f83ae0cc1ab592313d4a5f90900e10c58a7531c294dfc1e4c3970eedd310",
+    "sha256": "07f819a9042c4af1f3e2f5c80b8420aad8e6f4223bbc8732e854659387da45c1",
     "sizeBytes": 16914
   },
   {
-    "assetId": "AST-BF09C6120C14259D",
+    "assetId": "AST-F2B4EFABAF7C9B4B",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tieaggressor__assembly-plan.json",
-    "sha256": "bf09c6120c14259d7af647d8fa38cd3d7a931fce4270023b1d99c054a29b80e8",
+    "sha256": "f2b4efabaf7c9b4bd240a353ce175d7fdd9f88ce65c65e2fafbaa600f6299f86",
     "sizeBytes": 16756
   },
   {
-    "assetId": "AST-8E3EF3E15563086A",
+    "assetId": "AST-962288366CD3B3F0",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiebomber__assembly-plan.json",
-    "sha256": "8e3ef3e15563086a3f63bd4b783032597364b4612396c16473ff86b4c5d56df8",
-    "sizeBytes": 28398
+    "sha256": "962288366cd3b3f0adae8e939a19fae6d1a993d0e03f0824474ea8eb7042c995",
+    "sizeBytes": 28412
   },
   {
-    "assetId": "AST-A9858FDDD9EF9B47",
+    "assetId": "AST-6149C02A1BD780E1",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiedefender__assembly-plan.json",
-    "sha256": "a9858fddd9ef9b47b22d6f6d2ab4d4aab5558b7b60ed1ae20d327416b47d4309",
-    "sizeBytes": 28732
+    "sha256": "6149c02a1bd780e1f90f015938a90c01b27c05dc3de314b267ec9f285a2d7f1a",
+    "sizeBytes": 28745
   },
   {
-    "assetId": "AST-66007F1B264CC6E1",
+    "assetId": "AST-DFAC6E3D04F0A4D2",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiefighter__assembly-plan.json",
-    "sha256": "66007f1b264cc6e19d360d24093bdf94de18803d3be4d2215801e011ea930e5b",
-    "sizeBytes": 52389
+    "sha256": "dfac6e3d04f0a4d25bf514bb0cf12691465f579033ffa09796fe87cdc776f254",
+    "sizeBytes": 51999
   },
   {
-    "assetId": "AST-17F500D9C5030D63",
+    "assetId": "AST-C0D6C031BD6A8C03",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tieinterceptor__assembly-plan.json",
-    "sha256": "17f500d9c5030d6311433de89de186a0ed7d12fc9d1472338f56201ce369167c",
+    "sha256": "c0d6c031bd6a8c03058e5bdec966c0b8ee4a4d1a4542d8ccca4068aca1db439d",
     "sizeBytes": 44511
   },
   {
-    "assetId": "AST-089DB3DD9E48117C",
+    "assetId": "AST-28885A60377AC3F4",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiephantom__assembly-plan.json",
-    "sha256": "089db3dd9e48117c351ec7913d502a47ca417cf4d35cdde5bcd4ae1945a36bc8",
-    "sizeBytes": 16587
+    "sha256": "28885a60377ac3f41d5395fdbf381699194cdaafb714b861591c6bcfa0a96a47",
+    "sizeBytes": 16588
   },
   {
-    "assetId": "AST-5F50448E535E26E2",
+    "assetId": "AST-D31CB0CA56C4E8ED",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiepunisher__assembly-plan.json",
-    "sha256": "5f50448e535e26e2232eed3d43e1e8c67443fb56b529e6712cf391d20c2b305c",
+    "sha256": "d31cb0ca56c4e8edde51dfaa90ab0c8ac63cd9e4e9485a35b4e4dd4df35e0a05",
     "sizeBytes": 16613
   },
   {
-    "assetId": "AST-AB470B3EDCED4F50",
+    "assetId": "AST-8D8807968E2670BE",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiereaper__assembly-plan.json",
-    "sha256": "ab470b3edced4f50ad6fef43c7462bd04eb0fb85289a59c4bec0c228c29001d4",
-    "sizeBytes": 16600
+    "sha256": "8d8807968e2670bed8f09460135ccc2214531a1e89a1e076a6d300edd1abfad5",
+    "sizeBytes": 16760
   },
   {
-    "assetId": "AST-D2EB9D2896501102",
+    "assetId": "AST-D11149ED295D524A",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__tiestriker__assembly-plan.json",
-    "sha256": "d2eb9d2896501102fb5f5b4a069ba225096cb27827266491908f250269007942",
-    "sizeBytes": 24528
+    "sha256": "d11149ed295d524a3c2214dc5b3ba5408fbf449671371eb56861bdf12cb8afdd",
+    "sizeBytes": 24540
   },
   {
-    "assetId": "AST-D4902DBB53FEE62F",
+    "assetId": "AST-630409BC5A0B0915",
     "repositoryPath": "assets/generated/validation/plans/galacticempire__vt49decimator__assembly-plan.json",
-    "sha256": "d4902dbb53fee62f108c63132cfa646773631a819278d5f832cf42c3ce368536",
+    "sha256": "630409bc5a0b0915c4b1b9480201d2dc63fe1361068a4c52bbc794a534501426",
     "sizeBytes": 16543
   },
   {
-    "assetId": "AST-A43B6119F650170B",
+    "assetId": "AST-BF61E40A027EC482",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__arc170__assembly-plan.json",
-    "sha256": "a43b6119f650170b6fa3c7703eaaf41b192475d12b521ec9f858d21e28a95ad5",
+    "sha256": "bf61e40a027ec482d8bb510013319d22cbc887429b180283695a2c26a053921a",
     "sizeBytes": 16141
   },
   {
-    "assetId": "AST-7C1096752CF0877F",
+    "assetId": "AST-6578E67433AF9F7B",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__attackshuttle__assembly-plan.json",
-    "sha256": "7c1096752cf0877f97e10b6deba368855598cc6f2bfe5a852e007ee613755871",
+    "sha256": "6578e67433af9f7be475b95b677296b207a85552fb76f564e475722af72ce138",
     "sizeBytes": 16698
   },
   {
-    "assetId": "AST-47EF079BB4453391",
+    "assetId": "AST-925BAE056CCD540B",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__auzituckgunship__assembly-plan.json",
-    "sha256": "47ef079bb445339139bfa0e0cc4c783950b560bc5a36d447ef4a7e54313a7468",
+    "sha256": "925bae056ccd540b9d931f78d4107b30e6eb34013e7aabd7b48ceb19ec3c4aa8",
     "sizeBytes": 16503
   },
   {
-    "assetId": "AST-2BCD5DA5DFFBE97B",
+    "assetId": "AST-E9667BBC652B5C1A",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__awing__assembly-plan.json",
-    "sha256": "2bcd5da5dffbe97b814f9fc5084a5650cd77e994a4b349bd03758d328a89ca46",
-    "sizeBytes": 23937
+    "sha256": "e9667bbc652b5c1a3c101b0daf3d68c44c20acc57768ac18744af605938e002e",
+    "sizeBytes": 23949
   },
   {
-    "assetId": "AST-A76919502B0ABD5D",
+    "assetId": "AST-07170311D8B2DE05",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__bwing__assembly-plan.json",
-    "sha256": "a76919502b0abd5d92e69570a9f989e2af98e9ceccee4630544afd98064be4b6",
-    "sizeBytes": 23637
+    "sha256": "07170311d8b2de05578065c4379391c50016f3e6754a885bc787c784c57ce2be",
+    "sizeBytes": 23649
   },
   {
-    "assetId": "AST-70A84B8B74D1FA0A",
+    "assetId": "AST-522E1DA56004930F",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__ewing__assembly-plan.json",
-    "sha256": "70a84b8b74d1fa0a10e53094445a9d6904f49c4266254d105f126533c7efc1fb",
-    "sizeBytes": 16284
+    "sha256": "522e1da56004930fbefc5ffe8979bea8e5cd72dae83fdf29fc7da7a758587115",
+    "sizeBytes": 16285
   },
   {
-    "assetId": "AST-03FF68883744C1C1",
+    "assetId": "AST-A5E678B5CA193B91",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__hwk290__assembly-plan.json",
-    "sha256": "03ff68883744c1c1a3d8885b5cd7bd95c94536a77127ed8d9c6deced0febfb63",
+    "sha256": "a5e678b5ca193b9167d4ba0b402198c5585cacc672263ab34e4d2bb31254853d",
     "sizeBytes": 15956
   },
   {
-    "assetId": "AST-79D2C7B3212D2149",
+    "assetId": "AST-F28A29DF65BF4F26",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__kwing__assembly-plan.json",
-    "sha256": "79d2c7b3212d214902ac783802daab8d1b8bf68984a0fb3673988efcafeac20f",
+    "sha256": "f28a29df65bf4f260e83a2da223ac10621bb1f28f4e7d1d0481a33c7348aa82e",
     "sizeBytes": 16289
   },
   {
-    "assetId": "AST-835324CA2895A005",
+    "assetId": "AST-6073248C04AE17F6",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__scurrgh6bomber__assembly-plan.json",
-    "sha256": "835324ca2895a00551258696d687e7e19183519d45fa4d8eba798cbbbe0ab0f7",
+    "sha256": "6073248c04ae17f63f14d961597b97f7fa62a388b34bc423fd8eb7c6868377d8",
     "sizeBytes": 4729
   },
   {
-    "assetId": "AST-D3E53B66131432B1",
+    "assetId": "AST-6DE229B9332E561E",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__sheathipedeclassshuttle__assembly-plan.json",
-    "sha256": "d3e53b66131432b1a3d45377bdbb234a4694a3ee7ce0404e9d82c34aab3a94d4",
+    "sha256": "6de229b9332e561e62f58bbe469d40684b3d3c9632972afb0348df0e03a28dff",
     "sizeBytes": 17270
   },
   {
-    "assetId": "AST-8796189983038536",
+    "assetId": "AST-1F94CB569B64B149",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__tiefighter__assembly-plan.json",
-    "sha256": "87961899830385364a88555cee5c22784027a2a2903626091ca82ec2e35bb39e",
-    "sizeBytes": 16608
+    "sha256": "1f94cb569b64b149876a10acd7ebb540ee95c9832a45b2b33ced189ac4c1976d",
+    "sizeBytes": 16488
   },
   {
-    "assetId": "AST-5A29EF910C780A8E",
+    "assetId": "AST-D69B4CE1DA06FFB4",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__uwing__assembly-plan.json",
-    "sha256": "5a29ef910c780a8e735810b31658c60ce8fe1784768647bbfbd2113c5440a429",
-    "sizeBytes": 31391
+    "sha256": "d69b4ce1da06ffb47b2c3fabb0cd9d6e43d1f9b1cdefbec851b66d45a9b3c07f",
+    "sizeBytes": 31407
   },
   {
-    "assetId": "AST-36A6BF4E7D026BB5",
+    "assetId": "AST-8B808F4718912B46",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__vcx100__assembly-plan.json",
-    "sha256": "36a6bf4e7d026bb5a549761dc9d1a679f2395c6d8da6b54c6eda677534c89e7b",
+    "sha256": "8b808f4718912b46acabe74b600ff4409abee33dd6e0b77203fce5ffbfb5a9ac",
     "sizeBytes": 16506
   },
   {
-    "assetId": "AST-3765183B4EE689B1",
+    "assetId": "AST-D2CE84C2EB5BB2D5",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__xwing__assembly-plan.json",
-    "sha256": "3765183b4ee689b1a647ca591bd3d1989027eaaab002c792a3b908505dba3bb9",
+    "sha256": "d2ce84c2eb5bb2d58aa062a8380bd08a0d30d6c774d52e45ae5858c33d9f033b",
     "sizeBytes": 54183
   },
   {
-    "assetId": "AST-9D5D179AC7404493",
+    "assetId": "AST-0490BA8C02435E1C",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt1300__assembly-plan.json",
-    "sha256": "9d5d179ac74044932d8ac4baab82af00f1b37c54fd9d29d613d47759fb84de63",
-    "sizeBytes": 16451
+    "sha256": "0490ba8c02435e1c9fa95ad8fed0d643bda2ff8d2041295f2ebe4491ce64e02f",
+    "sizeBytes": 16483
   },
   {
-    "assetId": "AST-65F31814F7E57848",
+    "assetId": "AST-D0521BF603B6BC3E",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt2400__assembly-plan.json",
-    "sha256": "65f31814f7e57848d7efdb8823890b91af8474a5b9cd36b10859e6a67700147d",
+    "sha256": "d0521bf603b6bc3e18c6bf7ed1c6df96530041951251ce691b6c5df4e65c6165",
     "sizeBytes": 16492
   },
   {
-    "assetId": "AST-8AE57F8A0AE271B1",
+    "assetId": "AST-59942F1A1A05791E",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__ywing__assembly-plan.json",
-    "sha256": "8ae57f8a0ae271b16084539b2b9b00bb6b586333d590976f7616587cedbdf2a7",
+    "sha256": "59942f1a1a05791e00ea3b3e0119462de9b7ffa6d53aea77fade3a81b3a8aef2",
     "sizeBytes": 16195
   },
   {
-    "assetId": "AST-09BB3B1C6CB3DDF9",
+    "assetId": "AST-560DB39F288F8C1C",
     "repositoryPath": "assets/generated/validation/plans/rebelalliance__z95headhunter__assembly-plan.json",
-    "sha256": "09bb3b1c6cb3ddf90facd77c6eab67d9c7a3a5ba49e0cfdbb26efaa64f540178",
-    "sizeBytes": 16692
+    "sha256": "560db39f288f8c1ca029dc1c919ad55ed57ac55220b21f769a45f1a4c0f591cd",
+    "sizeBytes": 16513
   },
   {
-    "assetId": "AST-C8AA2115BE9CDB70",
+    "assetId": "AST-AF3C0496863F250A",
     "repositoryPath": "assets/generated/validation/plans/resistance__bsf17bomber__assembly-plan.json",
-    "sha256": "c8aa2115be9cdb708da6975babae5ef9a15a208ba80af90d2e0cde0bdac46ab9",
+    "sha256": "af3c0496863f250a511394ea225c5d4514a65a23d11b3364f2f032a4d3545261",
     "sizeBytes": 16507
   },
   {
-    "assetId": "AST-A10E39D70FE5529F",
+    "assetId": "AST-1F93EF3976677C6A",
     "repositoryPath": "assets/generated/validation/plans/resistance__t70xwing__assembly-plan.json",
-    "sha256": "a10e39d70fe5529f2fb88fc948e2e2df53e549abbef554f685d9236ba7c19cdf",
-    "sizeBytes": 39301
+    "sha256": "1f93ef3976677c6aded531115e49fe198065c0b8d189a8f29a306f9e6546fa88",
+    "sizeBytes": 39321
   },
   {
-    "assetId": "AST-FE2860343F2A78A5",
+    "assetId": "AST-0550E483D2E7D774",
     "repositoryPath": "assets/generated/validation/plans/resistance__yt1300__assembly-plan.json",
-    "sha256": "fe2860343f2a78a527d7a5d43e4862ea167b94cfd5fa947cb23dd507614b93c1",
-    "sizeBytes": 16230
+    "sha256": "0550e483d2e7d7744c5f47da6db08325e3f3eaf3f50d8a09c8495bb69a6b820e",
+    "sizeBytes": 16261
   },
   {
-    "assetId": "AST-69F76A2563590821",
+    "assetId": "AST-AD95987701E32883",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__aggressor__assembly-plan.json",
-    "sha256": "69f76a2563590821f736e42e0d011d3eecdcd98d4c75436a438df04f252c249f",
-    "sizeBytes": 16593
+    "sha256": "ad95987701e32883e828afa24abb08e84e59e545e56cb11872bc1d153ebd5793",
+    "sizeBytes": 16594
   },
   {
-    "assetId": "AST-0B93FDAF0AB13488",
+    "assetId": "AST-B23FF73081CA1022",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__firespray31__assembly-plan.json",
-    "sha256": "0b93fdaf0ab134888901ddb07fbdf521246385d4b76a4cb6e12af91fea83a56a",
+    "sha256": "b23ff73081ca1022b56720349152c45d59d6a3cc33108b5c0072b909f3d07405",
     "sizeBytes": 16718
   },
   {
-    "assetId": "AST-FDB3294AD7E2C668",
+    "assetId": "AST-EC7312863904EC72",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__g1astarfighter__assembly-plan.json",
-    "sha256": "fdb3294ad7e2c668f9feaae35b5ecb388e50209d4d302c4155f2db23cfcbe24d",
+    "sha256": "ec7312863904ec72bbdd925a06b8229647c0667a09ab51521e2a373900e1812f",
     "sizeBytes": 16557
   },
   {
-    "assetId": "AST-4BE0EF6B9E12AD93",
+    "assetId": "AST-FDBAFC33701F7C7E",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__hwk290__assembly-plan.json",
-    "sha256": "4be0ef6b9e12ad9356f873b9f1b2aab6526ebe4083c7c26b711083c36c8df259",
-    "sizeBytes": 16063
+    "sha256": "fdbafc33701f7c7e8cc99421182107165c78ec2a47a0a64037ca9154c90fc32a",
+    "sizeBytes": 16062
   },
   {
-    "assetId": "AST-B1B28A4FAC52A374",
+    "assetId": "AST-9A9FE665799E2746",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__jumpmaster5000__assembly-plan.json",
-    "sha256": "b1b28a4fac52a374727352e49808f696c33146de3b52a3e75c2714c13a5f9a96",
+    "sha256": "9a9fe665799e274600e994ade2e4aedcef8aae9ef43056c4e17d63171867590d",
     "sizeBytes": 16698
   },
   {
-    "assetId": "AST-E02AFF8D64D8D8B2",
+    "assetId": "AST-83901D41F21E8EE4",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__kihraxzfighter__assembly-plan.json",
-    "sha256": "e02aff8d64d8d8b24cfd04e8375dd72e92ef9ee96c668f6ec45d1192d5bdecba",
-    "sizeBytes": 24501
+    "sha256": "83901d41f21e8ee4c86314bf4f56659376784703ee63d74d445391b681e0aa18",
+    "sizeBytes": 24513
   },
   {
-    "assetId": "AST-BD94C8B8CFEAC652",
+    "assetId": "AST-19730C0BC0B11FA1",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__lancerclasspursuitcraft__assembly-plan.json",
-    "sha256": "bd94c8b8cfeac6525482c9872594c7f2cd0990373be2c0f5b0d9df039542f35e",
+    "sha256": "19730c0bc0b11fa1a1b3130b0ac52ed30883b13ff9b93d69ab70a477a250c123",
     "sizeBytes": 17534
   },
   {
-    "assetId": "AST-281F4A8C5B418E78",
+    "assetId": "AST-A6D8F88B281FC2E7",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m12lkimogilafighter__assembly-plan.json",
-    "sha256": "281f4a8c5b418e78d4a77083371aa3d2a47f87bbf2526b0ed28e933bffb24841",
+    "sha256": "a6d8f88b281fc2e7f5eafafb0c20d8e22ae42db91e3441e8961bfcafb860401f",
     "sizeBytes": 17335
   },
   {
-    "assetId": "AST-7B178993E42FD1E5",
+    "assetId": "AST-94C81D412B039659",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m3ainterceptor__assembly-plan.json",
-    "sha256": "7b178993e42fd1e5ddfbb4f22fad8e24d9910fd326cc0188a8210df838232100",
-    "sizeBytes": 32428
+    "sha256": "94c81d412b039659e4ece98b2dc5071b19c061e491112dae279bdb22883263c8",
+    "sizeBytes": 32444
   },
   {
-    "assetId": "AST-65A0888F9E941849",
+    "assetId": "AST-2194B1F94A1FE82F",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__protectoratestarfighter__assembly-plan.json",
-    "sha256": "65a0888f9e941849db6904623fcbed956923d97da70a115ffc228c7d86cdb452",
-    "sizeBytes": 25159
+    "sha256": "2194b1f94a1fe82f43f45bc49771c34dced4e38f2219e227468d3b3e972becdc",
+    "sizeBytes": 25171
   },
   {
-    "assetId": "AST-10438B85EAB1BE8F",
+    "assetId": "AST-62735B4685B25FE2",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__quadjumper__assembly-plan.json",
-    "sha256": "10438b85eab1be8f01d18e25e6c813d849e5d9a4de57a7e64362d029a9f05e22",
-    "sizeBytes": 16744
+    "sha256": "62735b4685b25fe2b7c614a36b7b12b1829eba28ad4963d501ab555704f2bed2",
+    "sizeBytes": 16746
   },
   {
-    "assetId": "AST-6E8BB54380676DD6",
+    "assetId": "AST-AA19A52B90795868",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__scurrgh6bomber__assembly-plan.json",
-    "sha256": "6e8bb54380676dd6036d7ad8892479fc467c02d38dd2be3ee04afa97c5cd3ae9",
+    "sha256": "aa19a52b90795868a3bb6a04ce2bbbf4514c06669a15bcd12dc1cbadb4a7a311",
     "sizeBytes": 16666
   },
   {
-    "assetId": "AST-B889343FB61077E7",
+    "assetId": "AST-88161E0274FF2A82",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__starviper__assembly-plan.json",
-    "sha256": "b889343fb61077e705f270d13a404e4734dba0f05862e5a54c05f5f493972c8d",
-    "sizeBytes": 28712
+    "sha256": "88161e0274ff2a821fc405dd28d03faaa061ecaca1e36d1ecbb897793e344180",
+    "sizeBytes": 28726
   },
   {
-    "assetId": "AST-AA014290BAE34863",
+    "assetId": "AST-A1A8D9F5C80222F2",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__yv666__assembly-plan.json",
-    "sha256": "aa014290bae3486368f23629f55a5611518f7acf8609ee16661d61fd3a0633f6",
-    "sizeBytes": 16334
+    "sha256": "a1a8d9f5c80222f200c1e231b25a0e175fc762f4118cfb872302a70788ab8617",
+    "sizeBytes": 16333
   },
   {
-    "assetId": "AST-33F1E1EFC65D4F46",
+    "assetId": "AST-A41D97A74D93089A",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__ywing__assembly-plan.json",
-    "sha256": "33f1e1efc65d4f46fb89879ab25a327e7c1c7d85acbb2e4122af5d6827a47b3b",
+    "sha256": "a41d97a74d93089a796b793c223629fb4ef7717fd21966161bf308c97627de9a",
     "sizeBytes": 16163
   },
   {
-    "assetId": "AST-0D4000D76F599805",
+    "assetId": "AST-FBF3CA99A58D2475",
     "repositoryPath": "assets/generated/validation/plans/scumandvillainy__z95headhunter__assembly-plan.json",
-    "sha256": "0d4000d76f599805ff1423fa08a003c57675980c65c7f2c6b483c972ab083c9a",
-    "sizeBytes": 20649
+    "sha256": "fbf3ca99a58d24759c5fbec3347fca9b0a89b3c82ee2b5e298122d211376303d",
+    "sizeBytes": 20429
   },
   {
-    "assetId": "AST-812E465D3B0A299B",
+    "assetId": "AST-5976A1F03FFEB120",
     "repositoryPath": "assets/generated/validation/saves/firstorder__tiefofighter__all-pilots.json",
-    "sha256": "812e465d3b0a299b1e79005a678198f25f72e1d8f99304fcdead500c89f6fd81",
-    "sizeBytes": 2060008
+    "sha256": "5976a1f03ffeb120ac340bad752d0ddf28ec1f5d068dd0f4fcdeb77a07849594",
+    "sizeBytes": 2151791
   },
   {
-    "assetId": "AST-C8B7A0FB585A24F6",
+    "assetId": "AST-A81783E832927A57",
     "repositoryPath": "assets/generated/validation/saves/firstorder__tiesffighter__all-pilots.json",
-    "sha256": "c8b7a0fb585a24f628d7aaa01e37025f1959de070cb9f3add2b0dbd8732a2ea7",
-    "sizeBytes": 928966
+    "sha256": "a81783e832927a57eadd9395805d78dc10b872e4e1bd5a844ac06f225b3ec342",
+    "sizeBytes": 969760
   },
   {
-    "assetId": "AST-518E071B1A195909",
+    "assetId": "AST-439D23E824A05BEC",
     "repositoryPath": "assets/generated/validation/saves/firstorder__tiesilencer__all-pilots.json",
-    "sha256": "518e071b1a19590974c4d78d0d801a904fd80c49e8bd343ccd19abf9fc6abc59",
-    "sizeBytes": 929005
+    "sha256": "439d23e824a05bec5e28648afa0739c0b9c3c5242a658b9ffaf1d6ac3e056f4e",
+    "sizeBytes": 969187
   },
   {
-    "assetId": "AST-B5A1394E4B2630D1",
+    "assetId": "AST-03E2C83236EC86B8",
     "repositoryPath": "assets/generated/validation/saves/firstorder__upsilonclassshuttle__all-pilots.json",
-    "sha256": "b5a1394e4b2630d10aac803bb01315d71ae8676f43c0507e313415dd9bb6eb40",
-    "sizeBytes": 930159
+    "sha256": "03e2c83236ec86b897ec15b34b787600f53881e4604170ec4bf7f337cba88691",
+    "sizeBytes": 971741
   },
   {
-    "assetId": "AST-CBF5582C65864118",
+    "assetId": "AST-71485AC06EC45C89",
     "repositoryPath": "assets/generated/validation/saves/galacticempire__alphaclassstarwing__all-pilots.json",
-    "sha256": "cbf5582c658641182c20329b52139fc40bded4f2c6fe293461f2598245a0122c",
-    "sizeBytes": 929292
+    "sha256": "71485ac06ec45c892760a41e24e9f41f72dd3c09f1e5d680dbc7f94b0da3c871",
+    "sizeBytes": 969534
   },
   {
-    "assetId": "AST-E49E11C021F8C2E2",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__firespray31__all-pilots.json",
-    "sha256": "e49e11c021f8c2e2d9126333ed5eb41018a21bf09c04e485b6ef6150be015dce",
-    "sizeBytes": 929603
-  },
-  {
-    "assetId": "AST-DBC74A762D11AAF1",
+    "assetId": "AST-2995082EA3CD6CE6",
     "repositoryPath": "assets/generated/validation/saves/galacticempire__lambdaclassshuttle__all-pilots.json",
-    "sha256": "dbc74a762d11aaf13f8200923145a80def0f5de663b1f8dd438cd61f9f6e6b4e",
-    "sizeBytes": 929652
+    "sha256": "2995082ea3cd6ce629ceda3e8d17b9a1650d719787c548ece7d94b9a45fd03bf",
+    "sizeBytes": 971282
   },
   {
-    "assetId": "AST-30D0740C2A641335",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvanced__all-pilots.json",
-    "sha256": "30d0740c2a6413351c16bbc2dc1982953f75555bbca6199eeef03e50cc921da3",
-    "sizeBytes": 1833529
-  },
-  {
-    "assetId": "AST-38BD6CEE1B7F6282",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvprototype__all-pilots.json",
-    "sha256": "38bd6cee1b7f62823a8453e310ae58fde0a722bcbc37d6267c133ceb8af12107",
-    "sizeBytes": 929248
-  },
-  {
-    "assetId": "AST-1D527236E5005008",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieaggressor__all-pilots.json",
-    "sha256": "1d527236e5005008201f7b7f3e05124b0ce36ddf827756dd05fca3b2596ab751",
-    "sizeBytes": 929046
-  },
-  {
-    "assetId": "AST-2118E820E623F0F7",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiebomber__all-pilots.json",
-    "sha256": "2118e820e623f0f7cb568fb162691291d4cb1d894a7c9922b56379f83c96cd9c",
-    "sizeBytes": 1607154
-  },
-  {
-    "assetId": "AST-C222F41E03F7AAFD",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiedefender__all-pilots.json",
-    "sha256": "c222f41e03f7aafd40cc06dc3590e7c55dea5059616addf3447ef821f6aca3eb",
-    "sizeBytes": 1607497
-  },
-  {
-    "assetId": "AST-C9B7A848B08FCA6A",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiefighter__all-pilots.json",
-    "sha256": "c9b7a848b08fca6a337dbc5f626c050adedb06920ba98df5eabab7fa2627d46c",
-    "sizeBytes": 2964644
-  },
-  {
-    "assetId": "AST-FBD8C1768D00CFFC",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieinterceptor__all-pilots.json",
-    "sha256": "fbd8c1768d00cffcc29d5877d0f3b6d15b23cc3ce8b7e76c8102ea68f1c7cc01",
-    "sizeBytes": 2512186
-  },
-  {
-    "assetId": "AST-13549F6A8887C4F2",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiephantom__all-pilots.json",
-    "sha256": "13549f6a8887c4f26d686b003a0e179e3a604aa6be4c6810324a31efaa29c11f",
-    "sizeBytes": 928909
-  },
-  {
-    "assetId": "AST-C6CF4DCCB12F9581",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiepunisher__all-pilots.json",
-    "sha256": "c6cf4dccb12f95817a3d525f6302cacd0ca54571cb66f70327c91a5f22fe8f6d",
-    "sizeBytes": 928963
-  },
-  {
-    "assetId": "AST-41DD8E7CD6C699C7",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiereaper__all-pilots.json",
-    "sha256": "41dd8e7cd6c699c7ea0c84c775c11bef78fa3418bdab3d32e862e87a139e566d",
-    "sizeBytes": 928673
-  },
-  {
-    "assetId": "AST-C17779635E8417F5",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiestriker__all-pilots.json",
-    "sha256": "c17779635e8417f506dae182eb9e35f21bcd8b4575eaca677d9f83e26a1e94b8",
-    "sizeBytes": 1381230
-  },
-  {
-    "assetId": "AST-BBF46F4098FDDD04",
-    "repositoryPath": "assets/generated/validation/saves/galacticempire__vt49decimator__all-pilots.json",
-    "sha256": "bbf46f4098fddd043c0ed28fb84b2002f6fa89d0235510570cd9ffa24711fcd7",
-    "sizeBytes": 929553
-  },
-  {
-    "assetId": "AST-473CC56ED21780F1",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__arc170__all-pilots.json",
-    "sha256": "473cc56ed21780f12a8d2d12ce4720957e3bb98ccfe8e13dab582de3e735670b",
-    "sizeBytes": 928292
-  },
-  {
-    "assetId": "AST-EDC1104ECC804845",
+    "assetId": "AST-56EC1070683EF5C3",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__attackshuttle__all-pilots.json",
-    "sha256": "edc1104ecc8048454124081cd36850a2ddd273cc694144cce7927fd5dae8fc85",
-    "sizeBytes": 928955
+    "sha256": "56ec1070683ef5c39122c05312dc59c9428f20de712f5055423396331388b9e4",
+    "sizeBytes": 948525
   },
   {
-    "assetId": "AST-88E8E12609DEFE0C",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__auzituckgunship__all-pilots.json",
-    "sha256": "88e8e12609defe0c8d7942ca38c6a3ba06387cdbbbd8de196ec0c7c63ddaaa96",
-    "sizeBytes": 928751
-  },
-  {
-    "assetId": "AST-295D2E2F14AB70CD",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__awing__all-pilots.json",
-    "sha256": "295d2e2f14ab70cdcf8ea897d57ff8ea02dca4279796072eb366b070db598b25",
-    "sizeBytes": 1380373
-  },
-  {
-    "assetId": "AST-D382A179CAE11D37",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__bwing__all-pilots.json",
-    "sha256": "d382a179cae11d3773ec3b4f1d69e7dd1799b1c32c4bb91356b833988e3791bd",
-    "sizeBytes": 1401062
-  },
-  {
-    "assetId": "AST-E4080FBF6B05F9F6",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__ewing__all-pilots.json",
-    "sha256": "e4080fbf6b05f9f6d0964deb542bdb6dd0869da152116b1323a135eab69ac62f",
-    "sizeBytes": 928517
-  },
-  {
-    "assetId": "AST-44C11AE578925E93",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__hwk290__all-pilots.json",
-    "sha256": "44c11ae578925e93149cc51f6225d1fbf93250e6012acd937c01654603dc6ffb",
-    "sizeBytes": 928082
-  },
-  {
-    "assetId": "AST-E8AC0864B296AD05",
+    "assetId": "AST-1E98608D8AE0FF6F",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__kwing__all-pilots.json",
-    "sha256": "e8ac0864b296ad053d19dc7a6359c1849dfc558c0ea3ace29efd35d28d4a90d2",
-    "sizeBytes": 928241
+    "sha256": "1e98608d8ae0ff6f1a4b49b1c51ed2964872609585941e5ff82692107ac94dae",
+    "sizeBytes": 970967
   },
   {
-    "assetId": "AST-F6320829040255CA",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__scurrgh6bomber__all-pilots.json",
-    "sha256": "f6320829040255caef729ac4a60f8dce1cac435f8441c04a87d244409e02b153",
-    "sizeBytes": 250451
-  },
-  {
-    "assetId": "AST-0B69CB804D7FEDD7",
+    "assetId": "AST-E28C7A6AD54B5345",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__sheathipedeclassshuttle__all-pilots.json",
-    "sha256": "0b69cb804d7fedd76b73bf7bcd3c51953826f1f920af53c90a268d478d7c5c14",
-    "sizeBytes": 929363
+    "sha256": "e28c7a6ad54b53458e6569e205867f55bc9a5d5f8c12fabd07cc0033e771086e",
+    "sizeBytes": 970353
   },
   {
-    "assetId": "AST-D690A0D0155F9532",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__tiefighter__all-pilots.json",
-    "sha256": "d690a0d0155f9532aaf43e1426cbd7899ca88d4e480c093ff283624f44d4d88b",
-    "sizeBytes": 928844
-  },
-  {
-    "assetId": "AST-E9EC6261DAA3562B",
+    "assetId": "AST-1691FCDA7F8938D2",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__uwing__all-pilots.json",
-    "sha256": "e9ec6261daa3562b5412fe1448de751fade2fa3f85913f12359928e738884e43",
-    "sizeBytes": 1833633
+    "sha256": "1691fcda7f8938d2e35504c12200b8a4199d1e21bb7bdf8948966bf7413d1fc9",
+    "sizeBytes": 1926632
   },
   {
-    "assetId": "AST-9B27636C55739ED6",
+    "assetId": "AST-42EB12BE1F2386A6",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__vcx100__all-pilots.json",
-    "sha256": "9b27636c55739ed61f95f31a17bcfea24aa2a92c941226130102621ba7c9838e",
-    "sizeBytes": 929421
+    "sha256": "42eb12be1f2386a6e9fa16aa853b859abc89139be75c8a5d0576ed885e4fd19c",
+    "sizeBytes": 948991
   },
   {
-    "assetId": "AST-6B9A511BD23FD95E",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__xwing__all-pilots.json",
-    "sha256": "6b9a511bd23fd95e71c2193178a9d3c5737ee2dcbc6e88cede6eb24ee1ffec4b",
-    "sizeBytes": 3237030
-  },
-  {
-    "assetId": "AST-939966CBB64BC14A",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt1300__all-pilots.json",
-    "sha256": "939966cbb64bc14a15f0fb85ec4de5770fe6525de7760150a3194e5bf6cce2e0",
-    "sizeBytes": 929320
-  },
-  {
-    "assetId": "AST-D5621520487B9C1D",
+    "assetId": "AST-A070D6663BEA2F2A",
     "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt2400__all-pilots.json",
-    "sha256": "d5621520487b9c1db2ca94f29df71ab720e75a32b832294fc69f5149ab160eab",
-    "sizeBytes": 929432
+    "sha256": "a070d6663bea2f2ae6c028b692e57729cebb1173e08acaa59e50d002699ae07f",
+    "sizeBytes": 949002
   },
   {
-    "assetId": "AST-CDE9A8F9162E64E5",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__ywing__all-pilots.json",
-    "sha256": "cde9a8f9162e64e527142fcb539a4f22f75868287d73344839d7e6d0909dc410",
-    "sizeBytes": 928428
-  },
-  {
-    "assetId": "AST-7837E681CA0CFE62",
-    "repositoryPath": "assets/generated/validation/saves/rebelalliance__z95headhunter__all-pilots.json",
-    "sha256": "7837e681ca0cfe622de74849ee913eadeb2f6a74a9637e5ff78a278d33d1cacd",
-    "sizeBytes": 928951
-  },
-  {
-    "assetId": "AST-EA48CF17270948CF",
+    "assetId": "AST-E7258E641D79C961",
     "repositoryPath": "assets/generated/validation/saves/resistance__bsf17bomber__all-pilots.json",
-    "sha256": "ea48cf17270948cfa1c0502cbde6fcf96e4734565c1e1185ee5661dfec443ce8",
-    "sizeBytes": 929728
+    "sha256": "e7258e641d79c96165fc3b6f25f3fd51884d317f59aa4472dd13713385c2ff46",
+    "sizeBytes": 970614
   },
   {
-    "assetId": "AST-BF2EE9DBC2C6BF3C",
-    "repositoryPath": "assets/generated/validation/saves/resistance__t70xwing__all-pilots.json",
-    "sha256": "bf2ee9dbc2c6bf3ccf74aaabc5d409b84be19d44b586095a9751084214e208ea",
-    "sizeBytes": 2319830
-  },
-  {
-    "assetId": "AST-FCFCAA3661FEEB89",
-    "repositoryPath": "assets/generated/validation/saves/resistance__yt1300__all-pilots.json",
-    "sha256": "fcfcaa3661feeb8928776269420dc31c023792a58e4f3f6504408c8ef57909ef",
-    "sizeBytes": 929179
-  },
-  {
-    "assetId": "AST-764E300E3DE92854",
+    "assetId": "AST-AF015D9E2F677C40",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__aggressor__all-pilots.json",
-    "sha256": "764e300e3de92854debb02ec180f2fe57c4f33c856ef27fe56170c4267582f81",
-    "sizeBytes": 929401
+    "sha256": "af015d9e2f677c4017a79a385ad67a9593052f396308f5543f49f73630d59b13",
+    "sizeBytes": 948971
   },
   {
-    "assetId": "AST-34F81B1CBDAC41FE",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__firespray31__all-pilots.json",
-    "sha256": "34f81b1cbdac41fe3b51434605e3b3b9f17597ff309ac78da6b829ae42187869",
-    "sizeBytes": 929648
-  },
-  {
-    "assetId": "AST-0FB1BFE4E8160619",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__g1astarfighter__all-pilots.json",
-    "sha256": "0fb1bfe4e8160619cef14df058efe246ce46ba2f2d16780de9c452d457961bb9",
-    "sizeBytes": 928763
-  },
-  {
-    "assetId": "AST-50CF1631B699254B",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__hwk290__all-pilots.json",
-    "sha256": "50cf1631b699254b63a551b505bb56487865cc52f37398e4c244d6c7fee17856",
-    "sizeBytes": 928144
-  },
-  {
-    "assetId": "AST-2196EC2BD4470CA5",
+    "assetId": "AST-7F74D20B8655D49D",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__jumpmaster5000__all-pilots.json",
-    "sha256": "2196ec2bd4470ca5b4f29490acaca3a3ed4d0e4d4d561fe4d85782a2e9fcf044",
-    "sizeBytes": 929609
+    "sha256": "7f74d20b8655d49d256e36f6384c7317a2e10c9f033c49684437facdaf10d3a8",
+    "sizeBytes": 974319
   },
   {
-    "assetId": "AST-9DA138ED476B30BF",
+    "assetId": "AST-B7A5B111B602B645",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__kihraxzfighter__all-pilots.json",
-    "sha256": "9da138ed476b30bf8d44784c51a041ce9fc83ebb25aa95833627682cc55447f2",
-    "sizeBytes": 1381059
+    "sha256": "b7a5b111b602b64518a732739e523e397f9eb445d32adfc60c9b79e657c386ac",
+    "sizeBytes": 1448128
   },
   {
-    "assetId": "AST-96380B7D2B9C6013",
+    "assetId": "AST-8091E58CF7BD81E3",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__lancerclasspursuitcraft__all-pilots.json",
-    "sha256": "96380b7d2b9c60137dfc7d7ff673238b436fb42364949ad4276167770db5a92d",
-    "sizeBytes": 930329
+    "sha256": "8091e58cf7bd81e3fbc49559d4f40a7d1e445b69174c6a18a8f90c8f0c17e59d",
+    "sizeBytes": 949899
   },
   {
-    "assetId": "AST-37BD164E8B267963",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m12lkimogilafighter__all-pilots.json",
-    "sha256": "37bd164e8b267963bcb2a4215ec63178ccc0cca13ed597228452293bef4ac5bf",
-    "sizeBytes": 929387
-  },
-  {
-    "assetId": "AST-85E6E660B1D6557C",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m3ainterceptor__all-pilots.json",
-    "sha256": "85e6e660b1d6557c51d2d5dd7e307c8bae7170628438bf00a1f075c3ff73a474",
-    "sizeBytes": 1833325
-  },
-  {
-    "assetId": "AST-F04564A3801DD978",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__protectoratestarfighter__all-pilots.json",
-    "sha256": "f04564a3801dd9787c041e2da77f7343068361a6b01f9861e6662a5e186245ea",
-    "sizeBytes": 1381890
-  },
-  {
-    "assetId": "AST-DEB418D61BCE9C84",
+    "assetId": "AST-858AAAA900D4F2A7",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__quadjumper__all-pilots.json",
-    "sha256": "deb418d61bce9c84b36b3415110334eb24b525417905d6fcbf647979e45ef118",
-    "sizeBytes": 928869
+    "sha256": "858aaaa900d4f2a78e9b783b0ed094e768969b5bda61640b1cf4227972dad4e0",
+    "sizeBytes": 969187
   },
   {
-    "assetId": "AST-4C6A3CB8EA30FB42",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__scurrgh6bomber__all-pilots.json",
-    "sha256": "4c6a3cb8ea30fb429a7d13aee4992485605ea7a05ec9256271ad2935a243efc5",
-    "sizeBytes": 928896
-  },
-  {
-    "assetId": "AST-279D806851D6426D",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__starviper__all-pilots.json",
-    "sha256": "279d806851d6426de10cc79f08e3eeac24d5781eb5402ad5662f5e6b87688d13",
-    "sizeBytes": 1607298
-  },
-  {
-    "assetId": "AST-A1A0CBA86A8F962A",
+    "assetId": "AST-DC93F7921C33BF57",
     "repositoryPath": "assets/generated/validation/saves/scumandvillainy__yv666__all-pilots.json",
-    "sha256": "a1a0cba86a8f962aed98b6d2f4c8a77ca69454338d6b030f3c762425951a1fc3",
-    "sizeBytes": 929147
+    "sha256": "dc93f7921c33bf57da2dc262863d8f509dfb9e7b37cd8e1d298822512876d760",
+    "sizeBytes": 970029
   },
   {
-    "assetId": "AST-7CC0841DBBB0C914",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__ywing__all-pilots.json",
-    "sha256": "7cc0841dbbb0c914c834cf64c3852648d684eab20907cb32c9ae9330202a3aff",
-    "sizeBytes": 928237
-  },
-  {
-    "assetId": "AST-C6D6BAA05F4CA738",
-    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__z95headhunter__all-pilots.json",
-    "sha256": "c6d6baa05f4ca7383ab8ae51c82d01e1df60174dbd5c7ea0b01a135dfa6146cf",
-    "sizeBytes": 1155105
-  },
-  {
-    "assetId": "AST-F3355ACDF1B12BB4",
+    "assetId": "AST-3B2F3DA0F2579E6D",
     "repositoryPath": "assets/generated/validation/ship-validation-saves.csv",
-    "sha256": "f3355acdf1b12bb4a535906e0a0d43920d38226b1c97b40e5fe3b06832513456",
-    "sizeBytes": 18461
+    "sha256": "3b2f3da0f2579e6d3db57fe3bcf8bd65b23251b0693594933db23fd27406ffab",
+    "sizeBytes": 18350
   },
   {
-    "assetId": "AST-662E0EBD0AC51C82",
+    "assetId": "AST-E3E04A7FD4F433C9",
     "repositoryPath": "assets/generated/validation/ship-validation-saves.json",
-    "sha256": "662e0ebd0ac51c82650b91ff998d43c2ebf35edaa705c4bd184e3eb33899e75f",
-    "sizeBytes": 32555
+    "sha256": "e3e04a7fd4f433c901684d829653b71b5e8d31287f1b5a42e4330bee17ef6697",
+    "sizeBytes": 32445
   },
   {
     "assetId": "AST-03F286F537575D8E",
@@ -15876,204 +15642,6 @@
     "sizeBytes": 195525
   },
   {
-    "assetId": "AST-88141D9D40D4CDF6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/tridentclassassaultship/icon.png",
-    "sha256": "88141d9d40d4cdf6d63c7ba89753d5c3740528b1c86e6ebf30d3068a6ed794c3",
-    "sizeBytes": 2900
-  },
-  {
-    "assetId": "AST-1958953DD380B4F7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/tridentclassassaultship/Textures/standard.jpg",
-    "sha256": "1958953dd380b4f7a7b32df60bd895f80c1a810318150031a92c4720a054fd5e",
-    "sizeBytes": 100954
-  },
-  {
-    "assetId": "AST-C0B770FFA5F2810F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/huge/tridentclassassaultship/trident.obj",
-    "sha256": "c0b770ffa5f2810f8bb1ffd801ffec83ae10b6b352489e02a722de363f312ce6",
-    "sizeBytes": 2465719
-  },
-  {
-    "assetId": "AST-83A5C6755951020F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/icon.png",
-    "sha256": "83a5c6755951020f7cb52ae53ab9c7608b47ba934a419d72a6a65a75ee51492d",
-    "sizeBytes": 2142
-  },
-  {
-    "assetId": "AST-C2F7268B32169289",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/blacksun.jpg",
-    "sha256": "c2f7268b321692890d47d07ce2ea0b18d1373241a7c74c1a2dcdf245edd64704",
-    "sizeBytes": 547744
-  },
-  {
-    "assetId": "AST-E8335A11CC1C5EDD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/blue.jpg",
-    "sha256": "e8335a11cc1c5eddf0c28322c8025ecb8170f8e686f036af2765a53e854f0edd",
-    "sizeBytes": 515304
-  },
-  {
-    "assetId": "AST-14BF8CAD9445397B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/brown.jpg",
-    "sha256": "14bf8cad9445397b103585ab9b631fc3be9e2a58e69f37358a7d2faedbada791",
-    "sizeBytes": 540796
-  },
-  {
-    "assetId": "AST-B7D74FB27EFA089E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/dark.jpg",
-    "sha256": "b7d74fb27efa089e52a60b698082d9067ea165d5c1dbcde4d9d8ade08e3e8b3d",
-    "sizeBytes": 335065
-  },
-  {
-    "assetId": "AST-56D6828689436A55",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/maul.jpg",
-    "sha256": "56d6828689436a55f230b4769b9a9588390098056ffadf92277ffebac418dc3e",
-    "sizeBytes": 501607
-  },
-  {
-    "assetId": "AST-8A073C42036F53A2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/mytho.jpg",
-    "sha256": "8a073c42036f53a244b0a6650d390788456c72e7cf41339642c4382f0324d549",
-    "sizeBytes": 514041
-  },
-  {
-    "assetId": "AST-DC7F70B784BEFC15",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/plain.jpg",
-    "sha256": "dc7f70b784befc15d7feb25668ce7c5941ccb82ceb036a783f9d18ea343d5000",
-    "sizeBytes": 504620
-  },
-  {
-    "assetId": "AST-8C41EB91557A8EA2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/red.jpg",
-    "sha256": "8c41eb91557a8ea24557a18dc81724afecf945e6f595a9bbaddb1d30f6986cf6",
-    "sizeBytes": 542608
-  },
-  {
-    "assetId": "AST-D97B76CBF0E363BF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/standard.jpg",
-    "sha256": "d97b76cbf0e363bf0243f7a2fb8ba73daa3ffbdca2fe0d0f5d3893307711d59c",
-    "sizeBytes": 516466
-  },
-  {
-    "assetId": "AST-D55DE0EB988F7F31",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/1/yellow.jpg",
-    "sha256": "d55de0eb988f7f317a9679eb45bbfb3e1fa9e54e6f8e1e50b5b678b03a017c5c",
-    "sizeBytes": 552366
-  },
-  {
-    "assetId": "AST-9457A9840A3155D9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/Textures/standard.jpg",
-    "sha256": "9457a9840a3155d9a849f846a7686d5656fab5b27f9c66e3cf263fca2e76f49b",
-    "sizeBytes": 322700
-  },
-  {
-    "assetId": "AST-7A78DFE6BCF979B2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/yt1300.obj",
-    "sha256": "7a78dfe6bcf979b2abfba7177ee4113f0a4ba282e1e47841aaba26f84c652249",
-    "sizeBytes": 257679
-  },
-  {
-    "assetId": "AST-29EFB55A8A9166E0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/yt1300customized.obj",
-    "sha256": "29efb55a8a9166e03cea7b8240789ab5d9c9af428caed97fe79898a6ac7ba2db",
-    "sizeBytes": 424017
-  },
-  {
-    "assetId": "AST-3E1DE662A635B58F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/customizedyt1300lightfreighter/yt1300undocked.obj",
-    "sha256": "3e1de662a635b58f0fff29295ba6596b559fa6d7d6758e02b00dd9bf1bf58639",
-    "sizeBytes": 264190
-  },
-  {
-    "assetId": "AST-F7DB784B76648246",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/icon.png",
-    "sha256": "f7db784b76648246b97774f5071de75a25e88b1edef8c056995383c5414f412d",
-    "sizeBytes": 2388
-  },
-  {
-    "assetId": "AST-9868FBDFB8095DF5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/ship-base.obj",
-    "sha256": "9868fbdfb8095df56dcbece716e9b4d5c1ad7ca7e7a02857fe1a2679fb943eb8",
-    "sizeBytes": 538042
-  },
-  {
-    "assetId": "AST-8DDD557A5AFDC242",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/BoKatan.jpg",
-    "sha256": "8ddd557a5afdc242a49fff6f948461140243d7d74e879c6c557628faadaebcd1",
-    "sizeBytes": 306131
-  },
-  {
-    "assetId": "AST-3B1481B165DEB89D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/BoKatanCIS.jpg",
-    "sha256": "3b1481b165deb89d50a68bb2cfb9493107c4d576c2e9781c054647541c26ddfd",
-    "sizeBytes": 325846
-  },
-  {
-    "assetId": "AST-9E1F7D25D9459CEA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/Deathwatch.jpg",
-    "sha256": "9e1f7d25d9459cea12ca8e7a7128761867de99936a419eddbf3aa0d43c49eaa1",
-    "sizeBytes": 323524
-  },
-  {
-    "assetId": "AST-4D3C48F619AFA0D0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/Default.jpg",
-    "sha256": "4d3c48f619afa0d021f9a7cad25f4a758dfe67bfdcea196f836f7cd7e98a63d5",
-    "sizeBytes": 356191
-  },
-  {
-    "assetId": "AST-C9B9FB73F6CC9397",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/Imperial.jpg",
-    "sha256": "c9b9fb73f6cc93978278344bfa1a06111ac19401f026a329095176160467ba36",
-    "sizeBytes": 340506
-  },
-  {
-    "assetId": "AST-CBEF514A8C0C172B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/Maul.jpg",
-    "sha256": "cbef514a8c0c172b353b4319e734ee6de6314032342945d5a1554eb9cdf61f75",
-    "sizeBytes": 362612
-  },
-  {
-    "assetId": "AST-ADDF07B54C2728E8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/Plain.jpg",
-    "sha256": "addf07b54c2728e881b5255e471c56a5eb660063e0ef6abf92135b5c7301d26a",
-    "sizeBytes": 311680
-  },
-  {
-    "assetId": "AST-B1C13BDD1062C3D3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/PreVizla.jpg",
-    "sha256": "b1c13bdd1062c3d396e5596ee3d901bdf535aaef0b80bdd83aab4f8affe318ce",
-    "sizeBytes": 337379
-  },
-  {
-    "assetId": "AST-308D084D54276BBD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/rebel.jpg",
-    "sha256": "308d084d54276bbd9ddc42b548de6acb9663766aa4a0b2336e14fbd87b58d487",
-    "sizeBytes": 468342
-  },
-  {
-    "assetId": "AST-9EFA87F4AD207D3D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/red.jpg",
-    "sha256": "9efa87f4ad207d3d1d0f2a664cf14aa544540396e45cfddc911d2e66f836d9cf",
-    "sizeBytes": 347072
-  },
-  {
-    "assetId": "AST-B7B736F41A1974E3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/textures/ScumColours.jpg",
-    "sha256": "b7b736f41a1974e31b76be2894f979c21671193f27ecd8395456f2671443343f",
-    "sizeBytes": 357178
-  },
-  {
-    "assetId": "AST-7D5F631C02EED2BC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/wings-normal.obj",
-    "sha256": "7d5f631c02eed2bc2d0424c722d71dedcf66093e6f81eade9b91f5b4e08513a0",
-    "sizeBytes": 72778
-  },
-  {
-    "assetId": "AST-5D5D04FEFA17CA1A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/gauntletfighter/wings-pivot.obj",
-    "sha256": "5d5d04fefa17ca1ab7aad5606c782f617558e7c644534c2073c239162a72ef0d",
-    "sizeBytes": 72706
-  },
-  {
     "assetId": "AST-84919B29F7552815",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/icon.png",
     "sha256": "84919b29f755281567236660e47c3cb13bde0f4cdfc40c96184ba93179aa56e9",
@@ -16104,6 +15672,12 @@
     "sizeBytes": 842351
   },
   {
+    "assetId": "AST-DB412707490A6191",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb2.jpg",
+    "sha256": "db412707490a61917519683157322ebc239d0a17bdfe3c0131325875847fe71e",
+    "sizeBytes": 213503
+  },
+  {
     "assetId": "AST-7184DE9ECA067A49",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/plain.jpg",
     "sha256": "7184de9eca067a49e2a5c1883edd490180de4aae20934be8528862e4f0834894",
@@ -16126,6 +15700,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
     "sha256": "2fc059ad52ec792baf5940182d54392a52fa4662838940655ae3024f1a7d5075",
     "sizeBytes": 826924
+  },
+  {
+    "assetId": "AST-100420CD453C0C4B",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard2.jpg",
+    "sha256": "100420cd453c0c4b30654123d2c5233b527c884a23469df2e793a11fc70e13c5",
+    "sizeBytes": 204557
   },
   {
     "assetId": "AST-A6AD14EE9F737AAE",
@@ -16152,10 +15732,22 @@
     "sizeBytes": 1225898
   },
   {
+    "assetId": "AST-CAD0ADDEDF50EF89",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.jpg",
+    "sha256": "cad0addedf50ef8977b6bb02246650e2ba9a3962ea83b1d9f23e5ab4f4c2f8d9",
+    "sizeBytes": 212335
+  },
+  {
     "assetId": "AST-291304AD0E856EEA",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
     "sha256": "291304ad0e856eeaeb4031e8f9e5fff635a898541f385bfd24b5442c6c631fed",
     "sizeBytes": 795493
+  },
+  {
+    "assetId": "AST-CAD0ADDEDF50EF89",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/standard.jpg",
+    "sha256": "cad0addedf50ef8977b6bb02246650e2ba9a3962ea83b1d9f23e5ab4f4c2f8d9",
+    "sizeBytes": 212335
   },
   {
     "assetId": "AST-291304AD0E856EEA",
@@ -16177,7 +15769,7 @@
   },
   {
     "assetId": "AST-FAD11FF6F40D9250",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/Standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg",
     "sha256": "fad11ff6f40d92508d990b01f0cbc0394294a8d8d11b31e34f7660c3d0511eb3",
     "sizeBytes": 408728
   },
@@ -16201,7 +15793,7 @@
   },
   {
     "assetId": "AST-42579D068E0419F4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/Standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/standard.jpg",
     "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
     "sizeBytes": 237061
   },
@@ -16386,88 +15978,34 @@
     "sizeBytes": 276271
   },
   {
-    "assetId": "AST-D574EF5CDEDCC7A2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/icon.png",
-    "sha256": "d574ef5cdedcc7a226790af6363a50a174878268ea7bebd70fc4cac179501746",
-    "sizeBytes": 2496
-  },
-  {
-    "assetId": "AST-0EB4F84D019C0BD9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Infiltrator.obj",
-    "sha256": "0eb4f84d019c0bd99402f7923807686231df3ca0632976add76d4d9acc440a30",
-    "sizeBytes": 204062
-  },
-  {
-    "assetId": "AST-B1F1B909BEE984F3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/sithinfiltrator.obj",
-    "sha256": "b1f1b909bee984f338506837e5bdfd6cc1e041050d32b8203f636f260a1fd02f",
-    "sizeBytes": 202778
-  },
-  {
-    "assetId": "AST-58C38A3247924692",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/DarthMaul.png",
-    "sha256": "58c38a32479246926e76a1379d1bc61752c57b23f982c70235d22b1dfd7f1f6b",
-    "sizeBytes": 747173
-  },
-  {
-    "assetId": "AST-DEA8EF8835C6C758",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/maul.jpg",
-    "sha256": "dea8ef8835c6c758c5ad94f64abc57e44b5053a2416182c493e753c162b895d8",
-    "sizeBytes": 282819
-  },
-  {
-    "assetId": "AST-AF842B9C9C974AED",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/red.jpg",
-    "sha256": "af842b9c9c974aed9e7b88f44ddc3d27c8e17306f39bcee7940c36548d0bee55",
-    "sizeBytes": 283653
-  },
-  {
-    "assetId": "AST-980CDECEF4FC9B1A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/standard.jpg",
-    "sha256": "980cdecef4fc9b1a9d0986810e1e19d83aeb6a24a59c3477294d4193f5f81082",
-    "sizeBytes": 326169
-  },
-  {
-    "assetId": "AST-EB21DE4CA804E104",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/Standard.png",
-    "sha256": "eb21de4ca804e104584ac17e7433731159ecf2d30d60a5dd3b6216e2fce02e58",
-    "sizeBytes": 786092
-  },
-  {
-    "assetId": "AST-23A24558D0C4206B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/sithinfiltrator/Textures/white.jpg",
-    "sha256": "23a24558d0c4206be925e308fec8d0e3eb391d4ebe682a3d725aae6f463b8f5a",
-    "sizeBytes": 418612
-  },
-  {
     "assetId": "AST-D6CE03E2E5A73995",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
     "sha256": "d6ce03e2e5a73995492ea54d040e414cdd2dcd38272cfee52204cf96301a8dce",
     "sizeBytes": 2703
   },
   {
-    "assetId": "AST-8945A7D53A756172",
+    "assetId": "AST-921B242D79EF8F7A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/red.jpg",
-    "sha256": "8945a7d53a756172aac3e4fee7a0d98489dbcb0c59ef7064ea1dba1fd46d0622",
-    "sizeBytes": 453961
+    "sha256": "921b242d79ef8f7aaa2ebe9ed7c2a9c8d97fc62d4488faf31b0cfa9ffeae9eb0",
+    "sizeBytes": 1010443
   },
   {
-    "assetId": "AST-1B331A20D6C0FFC2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard - Copy.jpg",
-    "sha256": "1b331a20d6c0ffc22fe78c26109d5c63b42ae116f2bd66c49a0950795f6404d0",
-    "sizeBytes": 247595
+    "assetId": "AST-DC25A82529E69021",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/red.pdn",
+    "sha256": "dc25a82529e690216808c87a991edcd18427f9a7cca421ad3395cd4a294592c9",
+    "sizeBytes": 5537906
   },
   {
-    "assetId": "AST-5EA4877973A30001",
+    "assetId": "AST-BCEF5796D0F3A032",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.jpg",
-    "sha256": "5ea4877973a3000124c02dd1ee0cb90c6a5867720b8c903a421030add9b7e95a",
-    "sizeBytes": 538678
+    "sha256": "bcef5796d0f3a0321006e7b3ce7a9506cc5fb770605961dc807b16f81f8e3200",
+    "sizeBytes": 540028
   },
   {
-    "assetId": "AST-B6DDDA137CF9A3B9",
+    "assetId": "AST-60181AF92F3252D8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Textures/standard.pdn",
-    "sha256": "b6ddda137cf9a3b9b933c5d66b7282ee8b89015432319cb14a24a2cacf4f9520",
-    "sizeBytes": 2156712
+    "sha256": "60181af92f3252d806a9dc1a3069ddc7f28a5b6b0ec575c24d893cbac6f69bdf",
+    "sizeBytes": 2207967
   },
   {
     "assetId": "AST-66F3B9086B6E3AA4",
@@ -16507,7 +16045,7 @@
   },
   {
     "assetId": "AST-0C87FBAEBFBDD607",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/textures/grey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/textures/standard.jpg",
     "sha256": "0c87fbaebfbdd60723f173b4a7fc8a3a7f42717cad798e77f4453dfd0266f5ef",
     "sizeBytes": 393456
   },
@@ -16650,22 +16188,28 @@
     "sizeBytes": 206858
   },
   {
-    "assetId": "AST-478474BB3B5771A4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.jpg",
-    "sha256": "478474bb3b5771a477ce1856c91c8f1563b057f4e9c1206e4694162b38219c9f",
-    "sizeBytes": 103243
-  },
-  {
     "assetId": "AST-5F25DE37EE42049F",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
     "sha256": "5f25de37ee42049f50be17db0532c8af38b2c8eac45c6084972cd0bb818e5446",
     "sizeBytes": 831080
   },
   {
+    "assetId": "AST-D2380AE89A749A5F",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel2.jpg",
+    "sha256": "d2380ae89a749a5fc5e61ee4bf0a1432703af1ba1ab94731909778624e8c18af",
+    "sizeBytes": 177507
+  },
+  {
     "assetId": "AST-7DF226716D4FF6B8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
     "sha256": "7df226716d4ff6b8466038e214ff2da017f582121748bdb7e9b8accb02a36590",
     "sizeBytes": 361396
+  },
+  {
+    "assetId": "AST-2C8CB8142BD0C035",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.jpg",
+    "sha256": "2c8cb8142bd0c035349e628fb4fc916e2c11a077faf7e3392dd061c961992e71",
+    "sizeBytes": 212787
   },
   {
     "assetId": "AST-4667B361A7A1E45F",
@@ -16686,6 +16230,12 @@
     "sizeBytes": 97796
   },
   {
+    "assetId": "AST-478474BB3B5771A4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+    "sha256": "478474bb3b5771a477ce1856c91c8f1563b057f4e9c1206e4694162b38219c9f",
+    "sizeBytes": 103243
+  },
+  {
     "assetId": "AST-58A18CDFD30DAFD6",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
     "sha256": "58a18cdfd30dafd6c77d783036df2dcc56fea2d8649de77f5c76b8422609007b",
@@ -16698,16 +16248,34 @@
     "sizeBytes": 3004331
   },
   {
+    "assetId": "AST-30A3A3F3C7356A7D",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.jpg",
+    "sha256": "30a3a3f3c7356a7d0f00ca8c977eb1842a8cbe3107dad972855707d3f68427a4",
+    "sizeBytes": 141789
+  },
+  {
     "assetId": "AST-42E08B55DC985627",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.png",
     "sha256": "42e08b55dc9856272e9b1a23ea243a26ae22e3884ba3852a799c64edf223312d",
     "sizeBytes": 311485
   },
   {
+    "assetId": "AST-28BC4C2792FC7201",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.jpg",
+    "sha256": "28bc4c2792fc72017a60ff4f3c938e38c2824b1fc30dfb4e74946b40c0a2b499",
+    "sizeBytes": 120448
+  },
+  {
     "assetId": "AST-BD2BBC8D4173484B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.png",
     "sha256": "bd2bbc8d4173484bbfdb631f2992b7dc829c22d15d527f69a775cb38cfa276cf",
     "sizeBytes": 256364
+  },
+  {
+    "assetId": "AST-667AF7907FA8D820",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
+    "sha256": "667af7907fa8d82039ca22d11749cf82a076f94d4cea59874c52d99b2f1ddb01",
+    "sizeBytes": 113233
   },
   {
     "assetId": "AST-23A4A323B7E0F403",
@@ -16836,6 +16404,12 @@
     "sizeBytes": 934119
   },
   {
+    "assetId": "AST-D437F24E6818E3E1",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/bobafett.jpg",
+    "sha256": "d437f24e6818e3e1aa625597c2bf03420fbb5ec253e12eea34c69f288f4df0d7",
+    "sizeBytes": 679626
+  },
+  {
     "assetId": "AST-D47711B173BC493F",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/bobafett.png",
     "sha256": "d47711b173bc493fd466c3644c991f6e392f76f99bbd84af33e5ff4d35dec7dd",
@@ -16846,6 +16420,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/bountyhunter.png",
     "sha256": "024a004f9ded7eb605bf0f8d969b973858b0f854a5c717d0dad7a8a94d7f9dc1",
     "sizeBytes": 1970721
+  },
+  {
+    "assetId": "AST-CF1D1BFAF5659AB3",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/emonazzameen.jpg",
+    "sha256": "cf1d1bfaf5659ab39e1116032eef8becb4ebaafb5b55f25806cdf8a2b9829577",
+    "sizeBytes": 622784
   },
   {
     "assetId": "AST-2F1119DBC7432B72",
@@ -16860,10 +16440,22 @@
     "sizeBytes": 626828
   },
   {
+    "assetId": "AST-392171E118549DB4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/kathscarlet.jpg",
+    "sha256": "392171e118549db47ce5e4c50b4b42501ae4dd7fa4bb792f8543344425a7b833",
+    "sizeBytes": 615822
+  },
+  {
     "assetId": "AST-3B046022F2D6FE6A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/kathscarlet.png",
     "sha256": "3b046022f2d6fe6aaab9afb95231512f52ead1e492e6e4b216b720ee159606c1",
     "sizeBytes": 1545902
+  },
+  {
+    "assetId": "AST-3B55864771440BC2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/koshkafrost.jpg",
+    "sha256": "3b55864771440bc241868f47fe4da77c865160628892b593404c4876729e6bb4",
+    "sizeBytes": 757536
   },
   {
     "assetId": "AST-3663D47C49B49962",
@@ -16872,10 +16464,22 @@
     "sizeBytes": 1864803
   },
   {
+    "assetId": "AST-0986C005EF9BA83B",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/krassistrelix.jpg",
+    "sha256": "0986c005ef9ba83b5d80f4d9e8b588a9ec91613872900c849d087b61d2b79ff9",
+    "sizeBytes": 695814
+  },
+  {
     "assetId": "AST-F82B465A32E03681",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/krassistrelix.png",
     "sha256": "f82b465a32e03681c0662b028d537a5eb649beaae7d17e4b444673b8a1660e29",
     "sizeBytes": 1943421
+  },
+  {
+    "assetId": "AST-7E5C5960F9861803",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
+    "sha256": "7e5c5960f9861803ab3b82165d627b81a6fa354e27a882e0314d8e94269ba171",
+    "sizeBytes": 650097
   },
   {
     "assetId": "AST-6F1E896CB39A9DC0",
@@ -16896,130 +16500,16 @@
     "sizeBytes": 2697
   },
   {
+    "assetId": "AST-4221DFE8D261EE69",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.jpg",
+    "sha256": "4221dfe8d261ee698ab92ad3fed25fdbd8c19f2db64753727df225473bf47657",
+    "sizeBytes": 190253
+  },
+  {
     "assetId": "AST-DDEEA01BF8225080",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
     "sha256": "ddeea01bf82250809e6c2a769f6731ed6ce340b2d0c5555c075b758e503f01f0",
     "sizeBytes": 783531
-  },
-  {
-    "assetId": "AST-1D2A072EEA989A77",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/GRP_LAAT.obj",
-    "sha256": "1d2a072eea989a77891357eeadb23cebdedf68612ac046f5567b7a10c6187b6f",
-    "sizeBytes": 635766
-  },
-  {
-    "assetId": "AST-0674B1AD8405F4AF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Icon.png",
-    "sha256": "0674b1ad8405f4af4a9f8b83dc1cd7cd8b7331b6c0c592cffd69360deb6bd1b7",
-    "sizeBytes": 2073
-  },
-  {
-    "assetId": "AST-88A5138910B106F0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/LAAT.obj",
-    "sha256": "88a5138910b106f01145d281b2003f0084024b15aa36fb8bf7ec590c0b2e919a",
-    "sizeBytes": 1038200
-  },
-  {
-    "assetId": "AST-EF4AC9F699EC5F81",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/LAATv2.obj",
-    "sha256": "ef4ac9f699ec5f8142bd7a63f3113e8b7036feb3250daf28b9ec943dafcc3889",
-    "sizeBytes": 897777
-  },
-  {
-    "assetId": "AST-0FD5008F32E1DABF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/black.jpg",
-    "sha256": "0fd5008f32e1dabf4854940025a4ff533347b854aa21ac4e3029935ea1535cea",
-    "sizeBytes": 247019
-  },
-  {
-    "assetId": "AST-BE8E451499E5A21F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/blue.jpg",
-    "sha256": "be8e451499e5a21f18c0efcbaccca46ee20996b3954de784e5d0830f4b3c6350",
-    "sizeBytes": 349436
-  },
-  {
-    "assetId": "AST-2E10293C88493B6C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/hound1.jpg",
-    "sha256": "2e10293c88493b6c26457e6e780f91963a1617df320d127df75b8f17e8678cb3",
-    "sizeBytes": 357266
-  },
-  {
-    "assetId": "AST-F5AD179C9F317DC4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/hound2.jpg",
-    "sha256": "f5ad179c9f317dc45309019f2739a6f731159dea4e7ea2db1cb654b2c5f1db19",
-    "sizeBytes": 342310
-  },
-  {
-    "assetId": "AST-56641757A34C261C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/munilist.jpg",
-    "sha256": "56641757a34c261c05b27c842c15a4c4cb7dc8080db32d5b54cd0176d20a2205",
-    "sizeBytes": 378251
-  },
-  {
-    "assetId": "AST-89D4A24E3DC10AE1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/nosecrumb.jpg",
-    "sha256": "89d4a24e3dc10ae19e63c5809469f39eeeb003889ea96a7d6fdccf32015c774f",
-    "sizeBytes": 352797
-  },
-  {
-    "assetId": "AST-34498088F0E7ACD1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/nosenexu.jpg",
-    "sha256": "34498088f0e7acd10001112ade26d8a49c24af3d8ba6029aa8d450f1bc418e0e",
-    "sizeBytes": 352333
-  },
-  {
-    "assetId": "AST-89D4F2C18C212CB6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/red.jpg",
-    "sha256": "89d4f2c18c212cb6874cbfd3ca92990211c3ff445f77c6ec4f35fb3ae0d4cea8",
-    "sizeBytes": 368264
-  },
-  {
-    "assetId": "AST-C0B4F80184326A41",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/standard.jpg",
-    "sha256": "c0b4f80184326a41f1b98922dc900c0ab7db515fd919956c2c1b84fd625e7dc8",
-    "sizeBytes": 348350
-  },
-  {
-    "assetId": "AST-551E119E8BD299CE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/stealth.jpg",
-    "sha256": "551e119e8bd299ce44adf94f2b702c5a0d8dd161bab243b76dac5da8b2f40200",
-    "sizeBytes": 252335
-  },
-  {
-    "assetId": "AST-B8AA6647A9489027",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/1/warthog.jpg",
-    "sha256": "b8aa6647a94890273e9f76bed098df13ffe8415620c0f0cd7f56ae4f3bb69f52",
-    "sizeBytes": 353459
-  },
-  {
-    "assetId": "AST-AD0AE81F20BB80A6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/blue.jpg",
-    "sha256": "ad0ae81f20bb80a6c351be224bf864c134b07a7f268f71080d89306acd08b127",
-    "sizeBytes": 584093
-  },
-  {
-    "assetId": "AST-1D006CC880FBBD77",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/Hawk.png",
-    "sha256": "1d006cc880fbbd77d9b90e9c32cac5127ac0c4da1b4a6e5a6bcf90208e488e1a",
-    "sizeBytes": 791540
-  },
-  {
-    "assetId": "AST-674E6447D5B603C8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/Hound.png",
-    "sha256": "674e6447d5b603c8d4609a4a0569eb4dbfda6069867e54f62b1696c6561841eb",
-    "sizeBytes": 1274668
-  },
-  {
-    "assetId": "AST-3C34D97864777C51",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/standard.png",
-    "sha256": "3c34d97864777c519289cf33948521dcffa73ee2f4d5d4338e53c4cabd05362d",
-    "sizeBytes": 1223930
-  },
-  {
-    "assetId": "AST-C50DB535CFEB3D63",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/laatigunship/Textures/Warthog.png",
-    "sha256": "c50db535cfeb3d638d43057d4e2a3422c48e3e871cc51611363631d70ce9bf72",
-    "sizeBytes": 1253569
   },
   {
     "assetId": "AST-605330AA97631C0B",
@@ -17040,10 +16530,28 @@
     "sizeBytes": 1753848
   },
   {
+    "assetId": "AST-D56136977293E8A6",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.jpg",
+    "sha256": "d56136977293e8a609718835ed4e897ac42ce6e3e9e0f755a43c5382af97f3f4",
+    "sizeBytes": 694334
+  },
+  {
     "assetId": "AST-0E1823AE8DF54AED",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.png",
     "sha256": "0e1823ae8df54aed08a4757b009c192b4155da646eb4e28a0afa2b765c49cd04",
     "sizeBytes": 2768128
+  },
+  {
+    "assetId": "AST-91A9FCC35AC28A84",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/standard.jpg",
+    "sha256": "91a9fcc35ac28a8498feaa6742d5bdbe887d11968f7baa09f4f63cba76d4e67e",
+    "sizeBytes": 435734
+  },
+  {
+    "assetId": "AST-84376C0AFF5B124F",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/ToraniKulda.jpg",
+    "sha256": "84376c0aff5b124f92a56cf4c1d1a7985c39e61c7542665b64d2faab6b7083cf",
+    "sizeBytes": 659213
   },
   {
     "assetId": "AST-3B9F5809D18ED688",
@@ -17064,6 +16572,12 @@
     "sizeBytes": 437511
   },
   {
+    "assetId": "AST-C6662985DEC61275",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.jpg",
+    "sha256": "c6662985dec6127550df1ad4dd6cf72ccaa507279e00c897a8d4e0ee26f84ec8",
+    "sizeBytes": 172182
+  },
+  {
     "assetId": "AST-C82706889C98976D",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
     "sha256": "c82706889c98976dedd3d9bce5c0cee2f966212b43dbe14508f206b36a789fd5",
@@ -17076,34 +16590,10 @@
     "sizeBytes": 630252
   },
   {
-    "assetId": "AST-5F868614F26C6B5A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/st70assaultship/icon.png",
-    "sha256": "5f868614f26c6b5aff27eaadb38f77e8f9e139e8d742131a25d8880df6114da0",
-    "sizeBytes": 2270
-  },
-  {
-    "assetId": "AST-10B63517A2016A35",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/st70assaultship/razorcrest.obj",
-    "sha256": "10b63517a2016a35eba03fafe55343299d74777a0e1a056ef9f6a62d17927a37",
-    "sizeBytes": 424215
-  },
-  {
-    "assetId": "AST-DB69572A3DAB8E27",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/st70assaultship/textures/guildbountyhunter.jpg",
-    "sha256": "db69572a3dab8e27db7699c7f79f92dfe65939b517b68d7d64ed0e0108338303",
-    "sizeBytes": 1389833
-  },
-  {
-    "assetId": "AST-9BA534D8646485EB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/st70assaultship/textures/mandalorian.png",
-    "sha256": "9ba534d8646485eb0da322c01d01a9dcddff204ea320b1322c1798133f75ff13",
-    "sizeBytes": 2211108
-  },
-  {
-    "assetId": "AST-8A65EAA51403D333",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/st70assaultship/textures/plain.jpg",
-    "sha256": "8a65eaa51403d333b2eb53bc0e586894acf7d338fde171728fd74e90f526c0d8",
-    "sizeBytes": 1216478
+    "assetId": "AST-9785B17D561234E7",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/standard.jpg",
+    "sha256": "9785b17d561234e74a9dcd161c26146c10e9e3f14a6b9404c2c7cf98f3e97cb1",
+    "sizeBytes": 182358
   },
   {
     "assetId": "AST-9AD1E8CCB52C22A7",
@@ -17112,16 +16602,16 @@
     "sizeBytes": 1347
   },
   {
-    "assetId": "AST-893996346E366A4C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunisherblue.jpg",
-    "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
-    "sizeBytes": 280692
-  },
-  {
     "assetId": "AST-F998823017010FC6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/tiecapunishergrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/grey.jpg",
     "sha256": "f998823017010fc6626f7de4d03d6d3997904677d1ab4a1fbd6759c0abf9feaa",
     "sizeBytes": 234235
+  },
+  {
+    "assetId": "AST-893996346E366A4C",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/standard.jpg",
+    "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
+    "sizeBytes": 280692
   },
   {
     "assetId": "AST-A6DDE4C5E92CDEA1",
@@ -17130,46 +16620,22 @@
     "sizeBytes": 834474
   },
   {
-    "assetId": "AST-3FB2E3AB56FEEBA8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierbheavy/icon.png",
-    "sha256": "3fb2e3ab56feeba8e21fd730fe773001882c9ea58a737e62035066712b7fa8fb",
-    "sizeBytes": 1180
-  },
-  {
-    "assetId": "AST-54FFD4B420564FA8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierbheavy/textures/tierbheavyblue.jpg",
-    "sha256": "54ffd4b420564fa897d04b31ab5400fd5c680b83452c1551ffe9893f3f7a9987",
-    "sizeBytes": 217934
-  },
-  {
-    "assetId": "AST-927FF2C16FF7626F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierbheavy/textures/tierbheavygrey.jpg",
-    "sha256": "927ff2c16ff7626fcaac85b68d92790e318c4e51c5e025c0a691c56078111e2f",
-    "sizeBytes": 188478
-  },
-  {
-    "assetId": "AST-BCF992595012EDA7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierbheavy/tieheavy.obj",
-    "sha256": "bcf992595012eda77bd44408fde99dfcb806807d9b62e415e3b06fbe547c5d03",
-    "sizeBytes": 529100
-  },
-  {
     "assetId": "AST-63DC1F8C4A37D7AD",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/icon.png",
     "sha256": "63dc1f8c4a37d7ad403a32294259e849bcde67e01299548cc0132946f10e1811",
     "sizeBytes": 1200
   },
   {
-    "assetId": "AST-F3D5FD2E841351DC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/tierereaperblue.jpg",
-    "sha256": "f3d5fd2e841351dc56bbd9e5cf85b071725ef7209e640986146ffa9015873530",
-    "sizeBytes": 389212
-  },
-  {
     "assetId": "AST-25981D97E7A74919",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/tierereapergrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/grey.jpg",
     "sha256": "25981d97e7a74919edc6d694c8e3d114dd129801236c2632ce536c7064ce8524",
     "sizeBytes": 331386
+  },
+  {
+    "assetId": "AST-F3D5FD2E841351DC",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/textures/standard.jpg",
+    "sha256": "f3d5fd2e841351dc56bbd9e5cf85b071725ef7209e640986146ffa9015873530",
+    "sizeBytes": 389212
   },
   {
     "assetId": "AST-A3CE1FA0B7F76C4B",
@@ -17196,6 +16662,12 @@
     "sizeBytes": 3274400
   },
   {
+    "assetId": "AST-7A6FCCDD3F813835",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/captain2.jpg",
+    "sha256": "7a6fccdd3f813835520a84bb26d8d9e860ae687643f4145e0ad231a9ff6f3133",
+    "sizeBytes": 915978
+  },
+  {
     "assetId": "AST-454FEEEEFB825752",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/plain.jpg",
     "sha256": "454feeeefb82575203db0135cddf23b1672259070d130cdd3008af2bcfda5fa8",
@@ -17220,6 +16692,12 @@
     "sizeBytes": 3129265
   },
   {
+    "assetId": "AST-89C60873E858BAAF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/renegade2.jpg",
+    "sha256": "89c60873e858baaf1aec095959cea50bc29d3ea0e0416492acb21ef0735d3044",
+    "sizeBytes": 811011
+  },
+  {
     "assetId": "AST-43534A605D1BA94C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard.jpg",
     "sha256": "43534a605d1ba94cc66a0bce758557890b4821a34f59d8a19b732fbc1b902b10",
@@ -17230,6 +16708,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard.png",
     "sha256": "71a86200c83009adba54c1148452e57125db847f73001fb26562661bd261e48a",
     "sizeBytes": 3532261
+  },
+  {
+    "assetId": "AST-2C0691F4E19188DB",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard2.jpg",
+    "sha256": "2c0691f4e19188db34b88c6b51bd02153bcc9511852318558ee7de5253c06cf1",
+    "sizeBytes": 803433
   },
   {
     "assetId": "AST-F40DAFB4DCF39632",
@@ -17262,30 +16746,6 @@
     "sizeBytes": 594309
   },
   {
-    "assetId": "AST-F113B34AE5506814",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/xiclasslightshuttle/Icon.png",
-    "sha256": "f113b34ae5506814433118ba3f71fc187475b452590ecf3ff545a8a76146229e",
-    "sizeBytes": 2385
-  },
-  {
-    "assetId": "AST-8F49B5A41827DEBD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/xiclasslightshuttle/Textures/Dark.jpg",
-    "sha256": "8f49b5a41827debd8621a202d922f449bef7cce499854ac1bb38e633db223c29",
-    "sizeBytes": 207380
-  },
-  {
-    "assetId": "AST-6A70E2D8D61E2D27",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/xiclasslightshuttle/Textures/Light.jpg",
-    "sha256": "6a70e2d8d61e2d27826f78d8de1e6afaf62b03024ce3df73a1cf5385ccef0f12",
-    "sizeBytes": 295738
-  },
-  {
-    "assetId": "AST-BA5F7E32E6C70CCF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/xiclasslightshuttle/XiClassLightShuttle.obj",
-    "sha256": "ba5f7e32e6c70ccf7acf74113f4f3a22d2d4d03db9d39580c57d19bc40c4cb18",
-    "sizeBytes": 463069
-  },
-  {
     "assetId": "AST-BCD4A6DFBD9A6437",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
     "sha256": "bcd4a6dfbd9a643724258c17cd573b790cb0008e97f237049bdf9f9625da0203",
@@ -17302,6 +16762,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
     "sha256": "79ae1a92096231c7429a19d4e966c2f4617492c6c71b1617b11a0fb92eee82fb",
     "sizeBytes": 2494
+  },
+  {
+    "assetId": "AST-5505EF1B8F8866B0",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/textures/standard.jpg",
+    "sha256": "5505ef1b8f8866b0b6e6847dd7a3418c39199bad6571919587588beccfc4b2cb",
+    "sizeBytes": 128391
   },
   {
     "assetId": "AST-07FCEDB807FDC8A6",
@@ -17334,16 +16800,28 @@
     "sizeBytes": 2749
   },
   {
+    "assetId": "AST-B80E3A785F6ADC2E",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blade.jpg",
+    "sha256": "b80e3a785f6adc2eaa00134d971a6a4bc4126a620c7d6bf237636f51858ec067",
+    "sizeBytes": 235492
+  },
+  {
     "assetId": "AST-A8ED51193A8BA246",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blade.png",
     "sha256": "a8ed51193a8ba2468040054a6bb09126f9036fe35c7c2a0a1cdcd0b55e7b28c6",
     "sizeBytes": 1030543
   },
   {
-    "assetId": "AST-B6EFD6CF0D1DAB2F",
+    "assetId": "AST-53328BC486FF878B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blue.png",
-    "sha256": "b6efd6cf0d1dab2fc3e8c96290f1d895231184e42d645d08e44919bdf3100528",
-    "sizeBytes": 941811
+    "sha256": "53328bc486ff878b28bdb812954ed5bb7d5fdeb261b71c5d2ae83bd4582038db",
+    "sizeBytes": 750452
+  },
+  {
+    "assetId": "AST-A7075F78CAB05680",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/braylen.jpg",
+    "sha256": "a7075f78cab05680501c0cb73f1ecaef7d3860375c3799418379952869204e52",
+    "sizeBytes": 234845
   },
   {
     "assetId": "AST-DB31ED4EEB436310",
@@ -17352,10 +16830,22 @@
     "sizeBytes": 891217
   },
   {
+    "assetId": "AST-D0FC0A25D009CE24",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/gina.jpg",
+    "sha256": "d0fc0a25d009ce2453f3781f7dbb9acef88090f91744fe8d9e04cc648ad6e561",
+    "sizeBytes": 258989
+  },
+  {
     "assetId": "AST-D2AD050CC3C520B4",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/gina.png",
     "sha256": "d2ad050cc3c520b4a56baa67ddffec017b985ee1346568d6780db96e70d0c510",
     "sizeBytes": 1061856
+  },
+  {
+    "assetId": "AST-5297EC20493FCA41",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/hera.jpg",
+    "sha256": "5297ec20493fca4196206b0c63f61582b70f10de7f37bade52cb7be3cc3e74a5",
+    "sizeBytes": 545955
   },
   {
     "assetId": "AST-C19E9913622084DF",
@@ -17370,16 +16860,40 @@
     "sizeBytes": 668122
   },
   {
+    "assetId": "AST-1818AC077408497B",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/netrem.jpg",
+    "sha256": "1818ac077408497bc09f24fdef8a6af82385920250cda8f767a81e467350c602",
+    "sizeBytes": 244554
+  },
+  {
     "assetId": "AST-293A90675023005A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/netrem.png",
     "sha256": "293a90675023005a3f0a21adefa21052bab6382a63dcdd5f7b696fa4693d3758",
     "sizeBytes": 934926
   },
   {
+    "assetId": "AST-9087098EA00753CC",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/plain.jpg",
+    "sha256": "9087098ea00753ccff5b83fc70abde71621cce327258c27a73c1dbe021d00548",
+    "sizeBytes": 218558
+  },
+  {
     "assetId": "AST-BDB6D9B010A7E3A2",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/plain.png",
     "sha256": "bdb6d9b010a7e3a2f98f1acd868a56d1b07b2b275cd0414e886e2dca3b96055d",
     "sizeBytes": 509408
+  },
+  {
+    "assetId": "AST-CD78E441CD2873BC",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/standard.jpg",
+    "sha256": "cd78e441cd2873bc1814de189276fe49243c51ded20745cc751fa6c279fd322c",
+    "sizeBytes": 303040
+  },
+  {
+    "assetId": "AST-3878B0FDBEFBF284",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.jpg",
+    "sha256": "3878b0fdbefbf284a39c4cf617a24de4eadd9f7a2c241facc88bd489ea481028",
+    "sizeBytes": 255552
   },
   {
     "assetId": "AST-E49E518782887446",
@@ -17418,16 +16932,16 @@
     "sizeBytes": 2795
   },
   {
-    "assetId": "AST-A46ACA8256843797",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/cream.jpg",
-    "sha256": "a46aca8256843797ebe199914403d0ad3bd91160a764af2b94493fbec6ec10ee",
-    "sizeBytes": 422139
-  },
-  {
     "assetId": "AST-E468726CC47B508C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/cream.png",
     "sha256": "e468726cc47b508c8f7b8baaf01f85d3ffb72f1574c87ec3e8fb9a190f24ed2a",
     "sizeBytes": 608504
+  },
+  {
+    "assetId": "AST-37288E6B3A06C289",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/cream2.jpg",
+    "sha256": "37288e6b3a06c28912411cb12b98f5c25d8edf74162789c8da2ea75f9a982238",
+    "sizeBytes": 162854
   },
   {
     "assetId": "AST-BF141FE8639C9D25",
@@ -17442,130 +16956,28 @@
     "sizeBytes": 617644
   },
   {
+    "assetId": "AST-FEFFD0EC4100AAC2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/orange2.jpg",
+    "sha256": "feffd0ec4100aac280d309c6eb9ac97eb506fa3591d3cf71f64ad038b01fca54",
+    "sizeBytes": 176445
+  },
+  {
+    "assetId": "AST-A46ACA8256843797",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
+    "sha256": "a46aca8256843797ebe199914403d0ad3bd91160a764af2b94493fbec6ec10ee",
+    "sizeBytes": 422139
+  },
+  {
+    "assetId": "AST-2446ADA3375A9C46",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/tarfful.jpg",
+    "sha256": "2446ada3375a9c465bb1e852f379bced57d7fb52b4e3cdc4b7b881451ce1854d",
+    "sizeBytes": 240852
+  },
+  {
     "assetId": "AST-996B8C38DC767FFF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/tarfful.png",
     "sha256": "996b8c38dc767ffff97b8ae6ae9780d1f767fcc6e8a7dfe3bfb9c57a1d5e7e15",
     "sizeBytes": 928650
-  },
-  {
-    "assetId": "AST-E2D271D62171E063",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Belbullab.obj",
-    "sha256": "e2d271d62171e063b68ee7128b2838f25028317927e449c38db05b8c14309ca9",
-    "sizeBytes": 576888
-  },
-  {
-    "assetId": "AST-1917D04B537623E7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Belbullab.png",
-    "sha256": "1917d04b537623e72a86b95ba7de3df2465a37ee65fa39a2a5b82ad4c131ef31",
-    "sizeBytes": 2450
-  },
-  {
-    "assetId": "AST-1124BCC0C29F0A3B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Belbullab1.obj",
-    "sha256": "1124bcc0c29f0a3b35abab82d919916813bd4c9294b154ad6db9fc059c26dbdc",
-    "sizeBytes": 489251
-  },
-  {
-    "assetId": "AST-A7B3AA3AF9C452FF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/bas.png",
-    "sha256": "a7b3aa3af9c452ff52563bac1dc3c83cecd21031da58c2348da35c5d47a151ed",
-    "sizeBytes": 943805
-  },
-  {
-    "assetId": "AST-78478290E999776D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/HotRod.jpg",
-    "sha256": "78478290e999776d4a74a8fc7e2a08832db1902e04a4ae69b6fd7fdb31be8ce5",
-    "sizeBytes": 449627
-  },
-  {
-    "assetId": "AST-5EFE388C304602F7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/standard.jpg",
-    "sha256": "5efe388c304602f7bf51e603d4aec2a1662b29a60b2e171a262e5c88c53350ab",
-    "sizeBytes": 436279
-  },
-  {
-    "assetId": "AST-579CB08FEE666395",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/standard.png",
-    "sha256": "579cb08fee666395135a1020679898f69b61d2d2827af3309e7bb949dd739f37",
-    "sizeBytes": 785601
-  },
-  {
-    "assetId": "AST-0C85CB4379781C63",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/WatTambor.jpg",
-    "sha256": "0c85cb4379781c63b0fb58b1dd9493f33e4fedb37d1a90dc942931a71fe3cee2",
-    "sizeBytes": 400659
-  },
-  {
-    "assetId": "AST-4C4DDCAEC4249795",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/WatTambor.png",
-    "sha256": "4c4ddcaec4249795784618d98fd0db74cd02afd10c26a7a13d6a503913e4c841",
-    "sizeBytes": 777552
-  },
-  {
-    "assetId": "AST-DF890174971CF79B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/belbulab22starfighter/Textures/white.jpg",
-    "sha256": "df890174971cf79b83a4f066d422e5bab4be4ab60af41e5d0bd8814e8f0f0885",
-    "sizeBytes": 348907
-  },
-  {
-    "assetId": "AST-4FD3395B08D9C56D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Icon.png",
-    "sha256": "4fd3395b08d9c56d4947960a1ad430c27c8852363972a856356d332703db1683",
-    "sizeBytes": 2045
-  },
-  {
-    "assetId": "AST-99C3B22930BACF32",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/RIS_Y-Wing.obj",
-    "sha256": "99c3b22930bacf3277d878a448ee7f171b4b657eff722b720a69bbb4a725b8cf",
-    "sizeBytes": 789811
-  },
-  {
-    "assetId": "AST-D54005678968795D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/blue.png",
-    "sha256": "d54005678968795dafbd775242c53f6340fa14dbef377dc2abcc3b5242e911cc",
-    "sizeBytes": 2903623
-  },
-  {
-    "assetId": "AST-8A3E3AF04372FF42",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/caithrenalli.png",
-    "sha256": "8a3e3af04372ff42a7d4037fd412ae322db678098182c3b85bca9e5c953384fd",
-    "sizeBytes": 2905060
-  },
-  {
-    "assetId": "AST-B67C925FC25FD12E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/coruskapellim.png",
-    "sha256": "b67c925fc25fd12e13e4596fb829065ad65f001bf075378d6cad973cc8696428",
-    "sizeBytes": 2905665
-  },
-  {
-    "assetId": "AST-246F03D1B136832E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/legafossang.png",
-    "sha256": "246f03d1b136832e5bf673db194ce612924b57cc4bf711554d98b0a57a947e98",
-    "sizeBytes": 3796897
-  },
-  {
-    "assetId": "AST-FCD4187A589D3EC4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/plain.png",
-    "sha256": "fcd4187a589d3ec41f680597b6500397e0bd41b5b7cb38c8db4bbd8376a95072",
-    "sizeBytes": 3678132
-  },
-  {
-    "assetId": "AST-4967A351F8160D14",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/red.png",
-    "sha256": "4967a351f8160d146e0f4d620b06278d654dfb38e3da9614e9f7f1750659c6d2",
-    "sizeBytes": 2906482
-  },
-  {
-    "assetId": "AST-6189E1061404402B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/tezanasz.png",
-    "sha256": "6189e1061404402b9615e7caf632286558164eaf472e62997a5d0f385d9e7f0b",
-    "sizeBytes": 3813166
-  },
-  {
-    "assetId": "AST-F735B1615772E70D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btanr2ywing/Textures/wilsateshlo.png",
-    "sha256": "f735b1615772e70d55da8180b82ab3cf7be8763d210598a08a0dc219cd127211",
-    "sizeBytes": 2901393
   },
   {
     "assetId": "AST-C62ADA0278FBDB37",
@@ -17586,10 +16998,22 @@
     "sizeBytes": 2806
   },
   {
+    "assetId": "AST-750ABF6B2322F145",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/amaxine.jpg",
+    "sha256": "750abf6b2322f14565dfc43a7310346f2c21d766f8cd6e7c73293792c04a4edb",
+    "sizeBytes": 109058
+  },
+  {
     "assetId": "AST-FD5F26E0E2B1F28E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/amaxine.png",
     "sha256": "fd5f26e0e2b1f28e22cc9960d6cee70ff6cb84ca97cb5788669757b1ebbb0607",
     "sizeBytes": 336113
+  },
+  {
+    "assetId": "AST-783F1B1F623245F9",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/blank.jpg",
+    "sha256": "783f1b1f623245f92a5aa539ba5d234a0d33afc5d36a440331186c3353e67dd8",
+    "sizeBytes": 135924
   },
   {
     "assetId": "AST-F8755E59369A4FFD",
@@ -17598,10 +17022,22 @@
     "sizeBytes": 489923
   },
   {
+    "assetId": "AST-3E0A1667249592AF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/crymorah.jpg",
+    "sha256": "3e0a1667249592af301b3301d9241679c3061f3016730e20862c87367b452126",
+    "sizeBytes": 134591
+  },
+  {
     "assetId": "AST-7BC53141B8E2A551",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/crymorah.png",
     "sha256": "7bc53141b8e2a551c6bed67d003df0155e23f1cc96f3a063ca39e5533200f957",
     "sizeBytes": 638555
+  },
+  {
+    "assetId": "AST-8C11F1F145578E98",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/drearenthal.jpg",
+    "sha256": "8c11f1f145578e984d3798b6758159af1ad6b937f83202c7b4ba60d318407e94",
+    "sizeBytes": 141041
   },
   {
     "assetId": "AST-7DA37204D6E336C1",
@@ -17616,10 +17052,22 @@
     "sizeBytes": 412175
   },
   {
+    "assetId": "AST-5277061D5B8DB9EE",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/grey.jpg",
+    "sha256": "5277061d5b8db9ee25a0d9807659e14a58eb16ac614368b5502a099e0056972d",
+    "sizeBytes": 125665
+  },
+  {
     "assetId": "AST-BC10FEB5500DEF0E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/grey.png",
     "sha256": "bc10feb5500def0e7abd17de28e4a9851d2a9661f45cd8b511e858e4e732d36a",
     "sizeBytes": 407172
+  },
+  {
+    "assetId": "AST-8C8C5BCA5D238958",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hiredgun.jpg",
+    "sha256": "8c8c5bca5d238958c8174bbad17785404d66b37f5773dc43583af9d51185bedb",
+    "sizeBytes": 137336
   },
   {
     "assetId": "AST-A65E65E0ECB3E630",
@@ -17628,10 +17076,22 @@
     "sizeBytes": 637221
   },
   {
+    "assetId": "AST-AA24D80B23EF6C60",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hortonsalm.jpg",
+    "sha256": "aa24d80b23ef6c601e5afd1b4dacdce881824f799526f6e24410fc72ab58c980",
+    "sizeBytes": 126348
+  },
+  {
     "assetId": "AST-15C4A1A0949A3B48",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hortonsalm.png",
     "sha256": "15c4a1a0949a3b4855c01d2118e28119347a6a9c02aecd43b58bef3d386a0b1a",
     "sizeBytes": 408464
+  },
+  {
+    "assetId": "AST-71441981B0AA842C",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.jpg",
+    "sha256": "71441981b0aa842cb79ece85fcbabb02c3a1b80303b5fe9508614444c634ca79",
+    "sizeBytes": 185608
   },
   {
     "assetId": "AST-855B7E2A229E5207",
@@ -17640,10 +17100,22 @@
     "sizeBytes": 379021
   },
   {
+    "assetId": "AST-C9DDAA05D77F8F50",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/kavil.jpg",
+    "sha256": "c9ddaa05d77f8f509ceaf3cfc09f1522fc2119ec3c610616c6618d6829ab50f9",
+    "sizeBytes": 95699
+  },
+  {
     "assetId": "AST-566E0E9466DDDEE3",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/kavil.png",
     "sha256": "566e0e9466dddee37c754554f1f38f45c9a6f8bfe6b0d40a249578488f7cc418",
     "sizeBytes": 516474
+  },
+  {
+    "assetId": "AST-7AA0DB2ED83A2EAC",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/norrawexley.jpg",
+    "sha256": "7aa0db2ed83a2eac4e86be786866d041dea9442912ba778a548a98b767598978",
+    "sizeBytes": 126709
   },
   {
     "assetId": "AST-3060DABD45C4931C",
@@ -17652,382 +17124,22 @@
     "sizeBytes": 411195
   },
   {
+    "assetId": "AST-D70C5417EAE3D0B2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.jpg",
+    "sha256": "d70c5417eae3d0b27910959f357c9bcc283fbcf9ac31989ab1b7f1c0c50cbbe7",
+    "sizeBytes": 130968
+  },
+  {
     "assetId": "AST-A5A912AA2CB26CDD",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.png",
     "sha256": "a5a912aa2cb26cdde122b60d6191153152993757acdd5ab9cd34216d0bbd7bb7",
     "sizeBytes": 576549
   },
   {
-    "assetId": "AST-91B12DA8C9396AC7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/BTLB_YWING.obj",
-    "sha256": "91b12da8c9396ac7a92d9416fa4e9e7e2c05bc16f1332907e15f3291f86af171",
-    "sizeBytes": 906352
-  },
-  {
-    "assetId": "AST-A662A7EF7CC63B31",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/BTLB_YWINGv2.obj",
-    "sha256": "a662a7ef7cc63b3176b68ca43e1018e6b376878f9c01801a690a3f3e5366109f",
-    "sizeBytes": 262607
-  },
-  {
-    "assetId": "AST-BBD944121804087F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Icon.png",
-    "sha256": "bbd944121804087f769fa1c396a2ea85d18c3ada762f98411a4ebb332f22ae34",
-    "sizeBytes": 2648
-  },
-  {
-    "assetId": "AST-39E6B6EAF873F345",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/black.jpg",
-    "sha256": "39e6b6eaf873f3451243b95be52c90757ccd13c50c8b31c1ebd1077b18c5ec28",
-    "sizeBytes": 340073
-  },
-  {
-    "assetId": "AST-59132942F73B5859",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/blue.jpg",
-    "sha256": "59132942f73b5859649f81099baaf401214e94b452710ed941f557d8bc4b32b3",
-    "sizeBytes": 285600
-  },
-  {
-    "assetId": "AST-BA112A6C03B1EA09",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/green.jpg",
-    "sha256": "ba112a6c03b1ea090b59b60fa806d369d661f81fabefdc5c95ec55fb929b9d5d",
-    "sizeBytes": 318804
-  },
-  {
-    "assetId": "AST-276E3406E6D3F289",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/plain.jpg",
-    "sha256": "276e3406e6d3f289d0be27d97b0c5b1e9e47f54964a6152c66f50290e9bcc3ac",
-    "sizeBytes": 316731
-  },
-  {
-    "assetId": "AST-572D58BFD05DF1F7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/red.jpg",
-    "sha256": "572d58bfd05df1f7c1ba7c1c92f6390a37ec763b5a73b925c6ecfc6a2b05d735",
-    "sizeBytes": 282379
-  },
-  {
-    "assetId": "AST-2CB56D5D3EBCEA7A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/1/standard.jpg",
-    "sha256": "2cb56d5d3ebcea7a9189b1bd37bc675869a4a5b296d84279d47b0ca2c9f913d6",
-    "sizeBytes": 349988
-  },
-  {
-    "assetId": "AST-96352A12C7479C6B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btlbywing/Textures/standard.png",
-    "sha256": "96352a12c7479c6bd90327ed0288c58a75c105ceda3f228998a9b3747755ac80",
-    "sizeBytes": 732096
-  },
-  {
-    "assetId": "AST-5803C2462A78E12C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/CloneZ95.obj",
-    "sha256": "5803c2462a78e12c7fb34488fe3ccfaed1407817dc1881a4d1aff46e4897695c",
-    "sizeBytes": 302741
-  },
-  {
-    "assetId": "AST-E83BAF233633334B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/icon.png",
-    "sha256": "e83baf233633334b59a27f00e01037cac03fa19dfc1321901a64e2e675d3b638",
-    "sizeBytes": 2845
-  },
-  {
-    "assetId": "AST-C15162440E61DC14",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/black.jpg",
-    "sha256": "c15162440e61dc142ed74251d91bb559b109aa2ce71f8e06de547223e24e1771",
-    "sizeBytes": 295025
-  },
-  {
-    "assetId": "AST-56CF63A9BC19C0CA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/blue.jpg",
-    "sha256": "56cf63a9bc19c0ca345e6afe13ef52312f9e3947114c69775c9520503256435d",
-    "sizeBytes": 97288
-  },
-  {
-    "assetId": "AST-3DA57979B7DAF904",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/plain.jpg",
-    "sha256": "3da57979b7daf904787a0a59fb61ae79f5a01e1a4042a71d344f73349ff7d4b3",
-    "sizeBytes": 328260
-  },
-  {
-    "assetId": "AST-7656D35E724BDF0A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/clonez95headhunter/textures/standard.jpg",
-    "sha256": "7656d35e724bdf0ac60986f4e10f601a6fc4cc2efd646c8b078d23a00d26a36f",
-    "sizeBytes": 371235
-  },
-  {
-    "assetId": "AST-001C91149D4EFA85",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7.obj",
-    "sha256": "001c91149d4efa85f139632a633dc1fb39ebf1788bd995ca569c6a207796ed38",
-    "sizeBytes": 1345371
-  },
-  {
-    "assetId": "AST-2C85C25092CD81E0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7.png",
-    "sha256": "2c85c25092cd81e069de3b2f609f1eee150f7fb4e8a334fd0accdad675465a4b",
-    "sizeBytes": 2245
-  },
-  {
-    "assetId": "AST-2C85C25092CD81E0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Delta7b.png",
-    "sha256": "2c85c25092cd81e069de3b2f609f1eee150f7fb4e8a334fd0accdad675465a4b",
-    "sizeBytes": 2245
-  },
-  {
-    "assetId": "AST-385BDC36C8E39637",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Jedi_Delta7.obj",
-    "sha256": "385bdc36c8e396379e65f58ea0681ffa2861e367384ab360183cb037c0889756",
-    "sizeBytes": 1278856
-  },
-  {
-    "assetId": "AST-E50762AFAC283AAA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Jedi_Delta7_tint.obj",
-    "sha256": "e50762afac283aaa5da22fed84e2f54bfae830353cbb511ad0cf14b7f4e747ad",
-    "sizeBytes": 1382158
-  },
-  {
-    "assetId": "AST-F453DDA748BFDC6A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/AhsokaTano.jpg",
-    "sha256": "f453dda748bfdc6a92c67d786679ac83f16197e3e12bd9b0b184800dc8f9df46",
-    "sizeBytes": 374215
-  },
-  {
-    "assetId": "AST-0ECA748260B5608A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/AhsokaTano.png",
-    "sha256": "0eca748260b5608ac5f7c31c4cee6650383e5aa46b222ff0c06654e0ed2d361d",
-    "sizeBytes": 1074706
-  },
-  {
-    "assetId": "AST-4FA2C57C74BE6B59",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/AnakinSkywalker.jpg",
-    "sha256": "4fa2c57c74be6b5919cada2d01c067e3ed76611f43d2204a27d117460d4718de",
-    "sizeBytes": 494807
-  },
-  {
-    "assetId": "AST-54985BC60272C66F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/AnakinSkywalker.png",
-    "sha256": "54985bc60272c66fcf83eb8ea2d94bb746bd6165ebcc745094dcf43deca31615",
-    "sizeBytes": 771163
-  },
-  {
-    "assetId": "AST-DFB36FFCD772C690",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/BarrissOffee.jpg",
-    "sha256": "dfb36ffcd772c6907c88cd75e8c354d2a1663c2125fe801ee79d98e3bde25642",
-    "sizeBytes": 535180
-  },
-  {
-    "assetId": "AST-63454E095FFA0527",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/BarrissOffee.png",
-    "sha256": "63454e095ffa0527e51ece79e1e49e8fcb36247761a193c65808ca2f0a58cb6e",
-    "sizeBytes": 961562
-  },
-  {
-    "assetId": "AST-B19C444BC5F9EED0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/black.jpg",
-    "sha256": "b19c444bc5f9eed0de585f58e66320e80d1db57ed9fb727930ea80f0f59a79d0",
-    "sizeBytes": 340393
-  },
-  {
-    "assetId": "AST-542F7140861DAD66",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/depa.png",
-    "sha256": "542f7140861dad6664963f4b2e67dfb75897a80867965e9ee27ae221bc5520e1",
-    "sizeBytes": 872118
-  },
-  {
-    "assetId": "AST-DB32E781FEC413E4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/JediKnight-tint.jpg",
-    "sha256": "db32e781fec413e4b1c94f39b55c9415459e719bf69827fd1e9bdd9efa90d04a",
-    "sizeBytes": 468790
-  },
-  {
-    "assetId": "AST-4CC4196364EC9D26",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/JediKnight-tint.png",
-    "sha256": "4cc4196364ec9d26d97c744c156c8fa785c94a715da546eed6f5da6e3aeac402",
-    "sizeBytes": 1011661
-  },
-  {
-    "assetId": "AST-B674C6ADFC83DC9D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/JediKnight.jpg",
-    "sha256": "b674c6adfc83dc9d23b6c6d0832c130333ca445bb4dc47e036751d3d1f1bb8ca",
-    "sizeBytes": 518480
-  },
-  {
-    "assetId": "AST-AF53359007FBFA06",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/JediKnight.png",
-    "sha256": "af53359007fbfa06dc4095e12f56f5430430a2d2588e7160aa2c0b08051fd248",
-    "sizeBytes": 1085731
-  },
-  {
-    "assetId": "AST-9B52913A38FCDB15",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/LuminaraUnduli.jpg",
-    "sha256": "9b52913a38fcdb1589acf4c2cb0086894a95661a0425ef3b98d001c9493f0c46",
-    "sizeBytes": 505926
-  },
-  {
-    "assetId": "AST-E79BFC2E2B4E6214",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/LuminaraUnduli.png",
-    "sha256": "e79bfc2e2b4e62148ff30b89b01802b668947bc2f62a5cede2d2f3e8cf0c0109",
-    "sizeBytes": 860241
-  },
-  {
-    "assetId": "AST-92DAC17B92242CD0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/MaceWindu.jpg",
-    "sha256": "92dac17b92242cd0d5fee1c43b4a2b4ad7d886561db4d988e255db45ad1342df",
-    "sizeBytes": 475288
-  },
-  {
-    "assetId": "AST-16F292035DBB6427",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/MaceWindu.png",
-    "sha256": "16f292035dbb64271660d37b68b653686b19c47e0b5ae29d1f21bf28af1edc31",
-    "sizeBytes": 1016543
-  },
-  {
-    "assetId": "AST-0E038AACF1ECEAA0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/Obi-WanKenobi.jpg",
-    "sha256": "0e038aacf1eceaa08f3c21949f3e26c9a1b658016b23569f6933288203d2cd74",
-    "sizeBytes": 252477
-  },
-  {
-    "assetId": "AST-EE4B13C178B1ECF0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/Obi-WanKenobi.png",
-    "sha256": "ee4b13c178b1ecf05768010d34b9a61eb5c1c693e1ae63f475849cc9bcf9e4d8",
-    "sizeBytes": 960134
-  },
-  {
-    "assetId": "AST-3F61E976F3CA3263",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/plain.jpg",
-    "sha256": "3f61e976f3ca326323e0f5fa3658eaf4ed7cdf577e1d91478c35b72baed501f3",
-    "sizeBytes": 380105
-  },
-  {
-    "assetId": "AST-FC186B7A86BB5A83",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/PloKoon.jpg",
-    "sha256": "fc186b7a86bb5a83d6d3ee1147ed1718c45d012de25267bd83b7e3730e136e13",
-    "sizeBytes": 529233
-  },
-  {
-    "assetId": "AST-294E9A1BFA7E802C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/PloKoon.png",
-    "sha256": "294e9a1bfa7e802c9e2551fc340bfb6730a27109382d8f3bd914cb0bb9f01ae3",
-    "sizeBytes": 933732
-  },
-  {
-    "assetId": "AST-99695CB9672F3BAE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/SaeseeTiin.jpg",
-    "sha256": "99695cb9672f3bae1799245798261f998fb556226eddf82bd682af370c3f412a",
-    "sizeBytes": 458416
-  },
-  {
-    "assetId": "AST-3D091DF4D7758CF7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/delta7aethersprite/Textures/SaeseeTiin.png",
-    "sha256": "3d091df4d7758cf7ddb60b5cedf8bedc5e23463d3804c5462619fe1c872b12d5",
-    "sizeBytes": 971896
-  },
-  {
-    "assetId": "AST-7FA3F025DA06207B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/droidtrifighter/CIS_Tri-Fighter.obj",
-    "sha256": "7fa3f025da06207b80a36905c1e26a5f06d612cd0a96fb67ccdd1b1e35f7064c",
-    "sizeBytes": 1042576
-  },
-  {
-    "assetId": "AST-09C7CFC4F12FDD0F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/droidtrifighter/Icon.png",
-    "sha256": "09c7cfc4f12fdd0f645ce603c0463e4f18a55a370a469d3e981b9c4e6b985996",
-    "sizeBytes": 2782
-  },
-  {
-    "assetId": "AST-B15F483007BD92C9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/droidtrifighter/Textures/standard.png",
-    "sha256": "b15f483007bd92c98e92b46bc2796e5e281005e1b59d973a045cd9414eac6a17",
-    "sizeBytes": 440582
-  },
-  {
-    "assetId": "AST-9EF470AC057BE102",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/escapecraft.obj",
-    "sha256": "9ef470ac057be1021e9a0a7c0689e702083a883f84f40c7e1c37e7943d1026e8",
-    "sizeBytes": 218122
-  },
-  {
-    "assetId": "AST-D232C4C2BAC5358F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/escapecraft1.obj",
-    "sha256": "d232c4c2bac5358fad4e13f13818f8a788cfe7629c5b0d27c634db93a139921b",
-    "sizeBytes": 217497
-  },
-  {
-    "assetId": "AST-8E2FCDBEADF59F21",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/Icon.png",
-    "sha256": "8e2fcdbeadf59f21bdf57c1e5c4649abd6c0a6226e65f4df77023b0aa0eb4bb0",
-    "sizeBytes": 2122
-  },
-  {
-    "assetId": "AST-CFC748C4C8D86D19",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/Textures/standard.jpg",
-    "sha256": "cfc748c4c8d86d19675933d290daa7e85b94c0e43a0565eb1be4afc0e7853231",
-    "sizeBytes": 222277
-  },
-  {
-    "assetId": "AST-1A484DBE5AAB2734",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/escapecraft/Textures/standard.png",
-    "sha256": "1a484dbe5aab2734b0cd2ebff67ecad43be684c18415ac9e65f337606140a8c1",
-    "sizeBytes": 328393
-  },
-  {
-    "assetId": "AST-41777E098BC65EF6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/eta2actis-Yoda.obj",
-    "sha256": "41777e098bc65ef654c6b9cce976d11551da887acd99d40e8e0bdcf4a61fca5f",
-    "sizeBytes": 307394
-  },
-  {
-    "assetId": "AST-4C31638688193365",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/eta2actis.obj",
-    "sha256": "4c31638688193365af5169a18ca1ab92ca2c766f44c0aea385eb0c4e839c5fab",
-    "sizeBytes": 365000
-  },
-  {
-    "assetId": "AST-366CBDEA4001FEFB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Icon.png",
-    "sha256": "366cbdea4001fefba7ecfd821a23f6ee0e127465ec122252e1d7664ab060cdaf",
-    "sizeBytes": 2678
-  },
-  {
-    "assetId": "AST-94463B68384E973A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/AaylaSecura.jpg",
-    "sha256": "94463b68384e973a32603a254ec972c26f82c8fd1384b6c69a4996de1f65e3ee",
-    "sizeBytes": 376351
-  },
-  {
-    "assetId": "AST-55A8415FC1E614DB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/AnakinSkywalker.jpg",
-    "sha256": "55a8415fc1e614db665668d64bb8d6c8c101d9cd0484ea62ecc7947f1dfd8c25",
-    "sizeBytes": 329843
-  },
-  {
-    "assetId": "AST-6FF6147122D6D7D3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/JediGeneral.jpg",
-    "sha256": "6ff6147122d6d7d3e58e13b6f2f3cb6dd5b1f760c1a42141a95e8e5efd6a416e",
-    "sizeBytes": 343598
-  },
-  {
-    "assetId": "AST-6F27AC56A728AF0A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/kit.jpg",
-    "sha256": "6f27ac56a728af0a724e9ab73fe6a87e8a68ece6eeb15010778902b8a3fddc8e",
-    "sizeBytes": 311437
-  },
-  {
-    "assetId": "AST-368F4BE563D9D5B7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/ObiWanKenobi.jpg",
-    "sha256": "368f4be563d9d5b7ca691f5176aaad7b6fb7bf75906f0a9ea33cc453d479206c",
-    "sizeBytes": 344965
-  },
-  {
-    "assetId": "AST-4C4A357721A1FD67",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/ShaakTi.jpg",
-    "sha256": "4c4a357721a1fd67c7e96b168680a002a26db1fd90e16f8172a549a1b8a57bae",
-    "sizeBytes": 344643
-  },
-  {
-    "assetId": "AST-E24B8CF75AF9FE6D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/eta2actis/Textures/Yoda.jpg",
-    "sha256": "e24b8cf75af9fe6dc0d13144592e4d0af8ea22aa4167de0ba951098dfda10789",
-    "sizeBytes": 237537
+    "assetId": "AST-5527C80D77004748",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/standard.jpg",
+    "sha256": "5527c80d77004748b41384443f52421b590fc34f590499624cc9bd8fd8950b81",
+    "sizeBytes": 126560
   },
   {
     "assetId": "AST-498C6F06703F1F52",
@@ -18054,16 +17166,16 @@
     "sizeBytes": 102979
   },
   {
-    "assetId": "AST-388FC9B7EBB5A1E3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/ewing/Textures/KnaveSquadronEscort.jpg",
-    "sha256": "388fc9b7ebb5a1e3b75694bd21fa944c38b5f93dd7eb09c01c34a4cd8fbf9cb4",
-    "sizeBytes": 101746
-  },
-  {
     "assetId": "AST-E957C351414B85C3",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/ewing/Textures/RogueSquadronEscort.jpg",
     "sha256": "e957c351414b85c366f4249817704db68a551a228465d1a781a4345a4f12ff1a",
     "sizeBytes": 96367
+  },
+  {
+    "assetId": "AST-388FC9B7EBB5A1E3",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/ewing/Textures/standard.jpg",
+    "sha256": "388fc9b7ebb5a1e3b75694bd21fa944c38b5f93dd7eb09c01c34a4cd8fbf9cb4",
+    "sizeBytes": 101746
   },
   {
     "assetId": "AST-2C67236858DF1F18",
@@ -18102,12 +17214,6 @@
     "sizeBytes": 375801
   },
   {
-    "assetId": "AST-C9F17CD24DABF2E6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fangfighter/textures/Original.jpg",
-    "sha256": "c9f17cd24dabf2e64c2e8365d85e22fa61891eb522af2f74bee324c18a03f5fb",
-    "sizeBytes": 390182
-  },
-  {
     "assetId": "AST-5AE8757D7CBB7B55",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fangfighter/textures/Rebel-Fenn.jpg",
     "sha256": "5ae8757d7cbb7b55f19d8502e45cb2f37f972eba19f88b16df4b0078e1e5258a",
@@ -18126,58 +17232,16 @@
     "sizeBytes": 347729
   },
   {
+    "assetId": "AST-C9F17CD24DABF2E6",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fangfighter/textures/standard.jpg",
+    "sha256": "c9f17cd24dabf2e64c2e8365d85e22fa61891eb522af2f74bee324c18a03f5fb",
+    "sizeBytes": 390182
+  },
+  {
     "assetId": "AST-931F31AE3B9E2586",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fangfighter/textures/Volunteer.jpg",
     "sha256": "931f31ae3b9e25869a0f8e9c28abbc6e06e83381bc088990668369b8bf6f2edf",
     "sizeBytes": 397993
-  },
-  {
-    "assetId": "AST-182BD1B0B9D67832",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fireball/fireball.obj",
-    "sha256": "182bd1b0b9d678321d40009d46b0f9780e76ac9b81c0d25b7abc4c755e4d452f",
-    "sizeBytes": 1459478
-  },
-  {
-    "assetId": "AST-8151935C98CB27CC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fireball/Icon.png",
-    "sha256": "8151935c98cb27ccf2b073a11f7c1d62d5a8ad57198cb59a0f1cdfddcfa38f2b",
-    "sizeBytes": 2272
-  },
-  {
-    "assetId": "AST-E14066D65C2B4FDB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fireball/Textures/doza.png",
-    "sha256": "e14066d65c2b4fdb9ba2a4ed6e0db1adc674a5b166d1d048ed41a71014ea22d2",
-    "sizeBytes": 2686869
-  },
-  {
-    "assetId": "AST-839EE73D5C7A80E5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/fireball/Textures/standard.jpg",
-    "sha256": "839ee73d5c7a80e514c4cd58ac071441dbc79b8ab0cd79b471fe5631f0043944",
-    "sizeBytes": 528134
-  },
-  {
-    "assetId": "AST-5C87D01FDDC74E4E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hmpdroidgunship/HMP_GunshipSlipping.obj",
-    "sha256": "5c87d01fddc74e4e60b3a85a27e639c1aa395e4b2c24bc0d3ba9462bd2ffd912",
-    "sizeBytes": 3311969
-  },
-  {
-    "assetId": "AST-74D90375A60DDA02",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hmpdroidgunship/HMP_GunshipStable.obj",
-    "sha256": "74d90375a60dda02fbe5e460ffcefa5205440f3729d2191e3cba57c66d4b0e48",
-    "sizeBytes": 3158646
-  },
-  {
-    "assetId": "AST-E6CBE5BF82B54050",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hmpdroidgunship/Icon.png",
-    "sha256": "e6cbe5bf82b540501140db31e38740d0db6a750bfff83aa4c2da48ce67218fb5",
-    "sizeBytes": 2152
-  },
-  {
-    "assetId": "AST-8B865DD65C1FBE61",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hmpdroidgunship/Textures/standard.png",
-    "sha256": "8b865dd65c1fbe61edf82e5bcb3e02be258faa7b176c1ef9a2fbedd0fd1033b6",
-    "sizeBytes": 813735
   },
   {
     "assetId": "AST-2259871A23C1D545",
@@ -18208,6 +17272,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/1/brown.jpg",
     "sha256": "6479d7046d9310dc00b96e932288a32641f374881a9db87c5655514bd515a307",
     "sizeBytes": 344323
+  },
+  {
+    "assetId": "AST-AF9E766FD9ECE0DA",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/1/kasmir.jpg",
+    "sha256": "af9e766fd9ece0da3cdcf1f8f992e0f9c36f90f3514f800c098e6a2c76eb250a",
+    "sizeBytes": 181878
   },
   {
     "assetId": "AST-FBBC76846FD5A0EB",
@@ -18246,82 +17316,16 @@
     "sizeBytes": 110460
   },
   {
-    "assetId": "AST-A85672FB32242E72",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/hwkbrown.jpg",
-    "sha256": "a85672fb32242e7252711d8e2df6b373bd5b1b6dacd81a3f71a5181796a2382c",
-    "sizeBytes": 107369
-  },
-  {
     "assetId": "AST-81AB0DFBB9FB61DB",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/Kyber.jpg",
     "sha256": "81ab0dfbb9fb61dbc28fd9aab70fd7b23fbe2a515531d0f9ea28c0e39a6ca94f",
     "sizeBytes": 115265
   },
   {
-    "assetId": "AST-93755A2F557F6328",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Hyena_Closed.obj",
-    "sha256": "93755a2f557f6328aaa82f9d2841ed440f58f8706c52c20f77fe76259b597669",
-    "sizeBytes": 1578203
-  },
-  {
-    "assetId": "AST-66170B41E04CC7C7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Hyena_Closedv2.obj",
-    "sha256": "66170b41e04cc7c77c4bcc2bb4abdcef571ecf14fb8253466875f4ffa0c78cd9",
-    "sizeBytes": 879320
-  },
-  {
-    "assetId": "AST-1CFF57FF3FBBA556",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Hyena_Open.obj",
-    "sha256": "1cff57ff3fbba5565994e8f7d860a020973ff2cfc2a90215906beb65e3f72adb",
-    "sizeBytes": 1675376
-  },
-  {
-    "assetId": "AST-B2601CDD1FB1ED80",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Hyena_Openv2.obj",
-    "sha256": "b2601cdd1fb1ed80298a8f3f8bc124401607acd4c7c2cdac6691a65298ea2995",
-    "sizeBytes": 908544
-  },
-  {
-    "assetId": "AST-14FD5B9A53FA00AB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Icon.png",
-    "sha256": "14fd5b9a53fa00ab43c2db64be9a41b14b646b2097cc7a64eb5e9b9e2cc63a4a",
-    "sizeBytes": 2445
-  },
-  {
-    "assetId": "AST-906BF425A95B17B7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/1/baktoid.jpg",
-    "sha256": "906bf425a95b17b725e925fc47dac1d970bda76419c3a0c314dcab89bf2ccddd",
-    "sizeBytes": 315210
-  },
-  {
-    "assetId": "AST-49E08FD09FA19151",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/1/fourohfour.jpg",
-    "sha256": "49e08fd09fa191515f3ed743741dd646aa3a65306a1bcc782e491ab507e3099b",
-    "sizeBytes": 363305
-  },
-  {
-    "assetId": "AST-E9DD3A8B56793A77",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/1/plain.jpg",
-    "sha256": "e9dd3a8b56793a773abb8de2c6488bb319e0ca4c52572dd2ecd11ef02b4996a3",
-    "sizeBytes": 252217
-  },
-  {
-    "assetId": "AST-41FD27880FEC5E23",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/1/standard.jpg",
-    "sha256": "41fd27880fec5e23620ceee350be12747f2c5f0bb0b7d63360b187f617e87103",
-    "sizeBytes": 146813
-  },
-  {
-    "assetId": "AST-A9CDEC590F37FC75",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/1/white.jpg",
-    "sha256": "a9cdec590f37fc7579e03a2af48ca813653e3ba54faeab734a7c48a0c401954c",
-    "sizeBytes": 243451
-  },
-  {
-    "assetId": "AST-57920C0670ED0E2D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hyenaclassdroidbomber/Textures/Standard.png",
-    "sha256": "57920c0670ed0e2d3dd2fc3899a72317081a718d4b640f2439426d689d844c9e",
-    "sizeBytes": 390107
+    "assetId": "AST-A85672FB32242E72",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/standard.jpg",
+    "sha256": "a85672fb32242e7252711d8e2df6b373bd5b1b6dacd81a3f71a5181796a2382c",
+    "sizeBytes": 107369
   },
   {
     "assetId": "AST-57F520492109DBAE",
@@ -18348,6 +17352,12 @@
     "sizeBytes": 1877413
   },
   {
+    "assetId": "AST-B34915F4C0A9F2F1",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun2.jpg",
+    "sha256": "b34915f4c0a9f2f16ab96bd7c76ad2b427f1c9d1bb23b124c8cdaa1ba7dea19c",
+    "sizeBytes": 703443
+  },
+  {
     "assetId": "AST-028DB3BF3FD6A947",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/green.jpg",
     "sha256": "028db3bf3fd6a9474367f69aaf106f19f7446c6a0847cc92b89cac53f28d4330",
@@ -18370,6 +17380,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/talonbane.jpg",
     "sha256": "b8963dd01a260ccf86a9caccf38e455ea969a6805206e3a5f55fcc2160dc7ce8",
     "sizeBytes": 412484
+  },
+  {
+    "assetId": "AST-13938320D53E7C94",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.jpg",
+    "sha256": "13938320d53e7c9435017c966d65801c202fb711a7f6133ec200cb8e9dc7690a",
+    "sizeBytes": 384423
   },
   {
     "assetId": "AST-4A7F17BA29464A43",
@@ -18402,6 +17418,12 @@
     "sizeBytes": 948893
   },
   {
+    "assetId": "AST-F9684341795C2BD8",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer2.jpg",
+    "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
+    "sizeBytes": 236841
+  },
+  {
     "assetId": "AST-FBB53AA0825F5BD8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r.jpg",
     "sha256": "fbb53aa0825f5bd869f8ae226935f387d6d77c10eb40fe4340bd032fbdfb8a73",
@@ -18412,6 +17434,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r.png",
     "sha256": "a179c7ce45dc4f397f34f8291133b1cacba0ea5c20dd305323980dcc4e11dc71",
     "sizeBytes": 931643
+  },
+  {
+    "assetId": "AST-40AA3A40B6200EF5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r2.jpg",
+    "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
+    "sizeBytes": 237438
   },
   {
     "assetId": "AST-D5ADE14AFD30BCF0",
@@ -18426,6 +17454,18 @@
     "sizeBytes": 580819
   },
   {
+    "assetId": "AST-BEAD622F85808CA4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed2.jpg",
+    "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
+    "sizeBytes": 196856
+  },
+  {
+    "assetId": "AST-1F6FEA4849F602F2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/standard.jpg",
+    "sha256": "1f6fea4849f602f26791340963ab4181a3c186f8825248d0c52ba1d9cb276cb5",
+    "sizeBytes": 457453
+  },
+  {
     "assetId": "AST-EE2BBBA7FF0AD012",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.jpg",
     "sha256": "ee2bbba7ff0ad012c09a6855f3d95675627dffe0de3a723107aad36e00cc1c98",
@@ -18438,10 +17478,10 @@
     "sizeBytes": 1136947
   },
   {
-    "assetId": "AST-1F6FEA4849F602F2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran.jpg",
-    "sha256": "1f6fea4849f602f26791340963ab4181a3c186f8825248d0c52ba1d9cb276cb5",
-    "sizeBytes": 457453
+    "assetId": "AST-AE745E4CA70337B1",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder2.jpg",
+    "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
+    "sizeBytes": 236032
   },
   {
     "assetId": "AST-965BBF4B0C830D34",
@@ -18450,208 +17490,10 @@
     "sizeBytes": 1175398
   },
   {
-    "assetId": "AST-D37C7743A4063666",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Icon.png",
-    "sha256": "d37c7743a4063666d33c4a5bbf523a2ac259af4a0a055308a838297d5547a8ec",
-    "sizeBytes": 2725
-  },
-  {
-    "assetId": "AST-0B6D6D62A77FB06E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/miningguildtie.obj",
-    "sha256": "0b6d6d62a77fb06e78327c2d02fa6bb00424ca15dc8a5bdfdf6f6b1b9b64cf13",
-    "sizeBytes": 200546
-  },
-  {
-    "assetId": "AST-088458018B8CB1E7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/modifiedtielnfighter/Textures/standard.png",
-    "sha256": "088458018b8cb1e7e9b6423b9810d0b390d444e3ac3d05035fe91566284ec873",
-    "sizeBytes": 485405
-  },
-  {
-    "assetId": "AST-224B8C0E1AEE3413",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Icon.png",
-    "sha256": "224b8c0e1aee34136483bc37b57583c431ae91a4a513c709d3883e9682664327",
-    "sizeBytes": 2412
-  },
-  {
-    "assetId": "AST-A13E9F374748694B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/MandoN1.obj",
-    "sha256": "a13e9f374748694b4b4a969614df3084671859170eb9a379a6d98065d93e4dd4",
-    "sizeBytes": 606201
-  },
-  {
-    "assetId": "AST-274907631B13A2DC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/N1.obj",
-    "sha256": "274907631b13a2dcb1922c392b7c9d0e4695e7470f536b3161441d08b8f40887",
-    "sizeBytes": 405065
-  },
-  {
-    "assetId": "AST-D5A2E07292D273B5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Naboo_Royal_N1.obj",
-    "sha256": "d5a2e07292d273b5170f910a6c164f1bae99ae62ce77e7ccea01ad891ee36327",
-    "sizeBytes": 443703
-  },
-  {
-    "assetId": "AST-C15D40748BEDEC28",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/black.jpg",
-    "sha256": "c15d40748bedec289347632cc5a27a1886d98d6469a84679dc860ba8cf67c812",
-    "sizeBytes": 86985
-  },
-  {
-    "assetId": "AST-C3B7F1CE3408A9EA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/blue.jpg",
-    "sha256": "c3b7f1ce3408a9ea8d38a216a1d7a02518503acc7223e74bdb003942d62805c4",
-    "sizeBytes": 190272
-  },
-  {
-    "assetId": "AST-F4E8F2B7068052BE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/jinata.jpg",
-    "sha256": "f4e8f2b7068052beeb9e0f4b7f3879a5c9265f35a956336028132ec70efa237c",
-    "sizeBytes": 83443
-  },
-  {
-    "assetId": "AST-8E742B265C68746E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/mandalorian.jpg",
-    "sha256": "8e742b265c68746e0b505304c75f7ab066ad856b61304c308948fbd348c3e886",
-    "sizeBytes": 247243
-  },
-  {
-    "assetId": "AST-4B4DC45F256217DF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/red.jpg",
-    "sha256": "4b4dc45f256217df99fc92862c85d9cbf3bc5e40a83c8e27aa38216fa2bc1999",
-    "sizeBytes": 205473
-  },
-  {
-    "assetId": "AST-3129669A3C1D47C6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/silver.jpg",
-    "sha256": "3129669a3c1d47c68f2ccc3ba5e80b3e70384111687d7119deb2201291ff1f1f",
-    "sizeBytes": 87643
-  },
-  {
-    "assetId": "AST-2EDEAC6D2A02FB67",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/Silver.png",
-    "sha256": "2edeac6d2a02fb67c262911ffc08489c00611d53d6e46f96afe853cbca4ee200",
-    "sizeBytes": 367851
-  },
-  {
-    "assetId": "AST-E101ECCF41B16C3A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/yellow.jpg",
-    "sha256": "e101eccf41b16c3a532d894763784975e7f75411e10da34e8dd3224ae5cfebf1",
-    "sizeBytes": 108661
-  },
-  {
-    "assetId": "AST-4E2EC249ECC2D193",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nabooroyaln1starfighter/Textures/Yellow.png",
-    "sha256": "4e2ec249ecc2d193ee0efeb41ec1eade8621cc6c1cf984f0c7f67bd2c66086c4",
-    "sizeBytes": 474583
-  },
-  {
-    "assetId": "AST-EC460B43B5F73009",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Icon.png",
-    "sha256": "ec460b43b5f73009886e14e5b4f024635c107d4eaa955315aedc8acd4cfced89",
-    "sizeBytes": 2687
-  },
-  {
-    "assetId": "AST-2B4842A21BAC1936",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Nantex.obj",
-    "sha256": "2b4842a21bac1936531fcae1ecb95f8bd7b7abda4c4441c8b49668177078c531",
-    "sizeBytes": 312875
-  },
-  {
-    "assetId": "AST-6B5808DB46FA2779",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Nantex2.obj",
-    "sha256": "6b5808db46fa27795e4dc55952db3dd7f9e2792a6feae9987e60ede917c802c9",
-    "sizeBytes": 254732
-  },
-  {
-    "assetId": "AST-5433A180BE515A29",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Textures/blue.png",
-    "sha256": "5433a180be515a2983361b339db931e3178ecb8a800da0fd64acff39ebca777a",
-    "sizeBytes": 667106
-  },
-  {
-    "assetId": "AST-743FF2D377432203",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Textures/newstandard.jpg",
-    "sha256": "743ff2d377432203fcf74f75daf22d4b490f7d4e08b8915453aa6fcecfbe3784",
-    "sizeBytes": 95029
-  },
-  {
-    "assetId": "AST-24B8C9F509F90A78",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Textures/standard.png",
-    "sha256": "24b8c9f509f90a782dce868ef552a4a3964ba54bc2099177ad5acc5d6e568ae7",
-    "sizeBytes": 476442
-  },
-  {
-    "assetId": "AST-10EBBC7A60B6A78E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nantexclassstarfighter/Textures/white.jpg",
-    "sha256": "10ebbc7a60b6a78ec59edd35627c2007471697233cbe76053afa7567d8ed0e3d",
-    "sizeBytes": 84934
-  },
-  {
-    "assetId": "AST-8E44527702B24CA9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Icon.png",
-    "sha256": "8e44527702b24ca94f554bbb5c5351c5b8d4f15ab9ac6dcf1bbad33848f7b8a1",
-    "sizeBytes": 2423
-  },
-  {
-    "assetId": "AST-42211C681668ABE2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Republic_V-Wing.obj",
-    "sha256": "42211c681668abe273c5742855393384125b419cf9c70c2802ce5dee18bd7ed5",
-    "sizeBytes": 192185
-  },
-  {
-    "assetId": "AST-3F1935EAE2039327",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/black.jpg",
-    "sha256": "3f1935eae20393273fe41df5dbd903b73c215d897fbf751058e8a20cb9175ae9",
-    "sizeBytes": 305692
-  },
-  {
-    "assetId": "AST-19B04126559E2D71",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/blue.jpg",
-    "sha256": "19b04126559e2d71ba533f5bd0000e638a75268ef5589909c4e46d8adb72986f",
-    "sizeBytes": 125866
-  },
-  {
-    "assetId": "AST-A5E4625C1FB7F3C4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/contrail.jpg",
-    "sha256": "a5e4625c1fb7f3c4eca3cb06ec7d43b75f4d15ff60d3546b87177183f4226ba4",
-    "sizeBytes": 250840
-  },
-  {
-    "assetId": "AST-77505BF66AF2384A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/jinata.jpg",
-    "sha256": "77505bf66af2384a235b789400483a39d539d9af3e524f1bcf3ec882d128578f",
-    "sizeBytes": 126310
-  },
-  {
-    "assetId": "AST-8A8955A06CFA3991",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/plain.jpg",
-    "sha256": "8a8955a06cfa399158059964a9b8dc48cf495d2f1e53db4bf9cb348206a457d3",
-    "sizeBytes": 110332
-  },
-  {
-    "assetId": "AST-7AFD684B63BD6787",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/red.jpg",
-    "sha256": "7afd684b63bd6787dfc93abe86d13c1ea6f88530d9103f52b5b05bf9f90c4301",
-    "sizeBytes": 121373
-  },
-  {
-    "assetId": "AST-99D6F04F71A32A6D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/VwingBlue.png",
-    "sha256": "99d6f04f71a32a6db15852fe72a7573a8fcce5be34e6c5b4bb35d0fa1144a5c8",
-    "sizeBytes": 4303083
-  },
-  {
-    "assetId": "AST-070EE141FE636040",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/Textures/VwingRed.png",
-    "sha256": "070ee141fe636040f28da2836d6bafed0f687be1cddab1f30b00cfbc26d776d3",
-    "sizeBytes": 4245001
-  },
-  {
-    "assetId": "AST-3918C93414A3AA58",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/nimbusclassvwing/vwing.obj",
-    "sha256": "3918c93414a3aa58a3e7db712e27929f0eae838ceacb5a205ca18f8c8e44a990",
-    "sizeBytes": 333334
+    "assetId": "AST-01FC8294C9C452AF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran2.jpg",
+    "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
+    "sizeBytes": 273413
   },
   {
     "assetId": "AST-B818005FB94E6CCB",
@@ -18676,186 +17518,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
     "sha256": "ec12b3254b16d8e26367deef4f34891b5149372b405bc1d11a82ddf2fb1c4d04",
     "sizeBytes": 523124
-  },
-  {
-    "assetId": "AST-CEFB4E17D5E70F87",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Icon.png",
-    "sha256": "cefb4e17d5e70f87ce35b47faa964058246a3dae1c064dd9eaace41214b164b5",
-    "sizeBytes": 1763
-  },
-  {
-    "assetId": "AST-A1C2E85C0D98D821",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Textures/jannah.png",
-    "sha256": "a1c2e85c0d98d821b45c1ac32d34965fc96b6303e38c16a3b214f58ea969e59d",
-    "sizeBytes": 3246487
-  },
-  {
-    "assetId": "AST-8D99DD1DB42ECFDA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Textures/plain.jpg",
-    "sha256": "8d99dd1db42ecfda0a20ce2c7104cce476db04681b198fb19cd3df8931cfa848",
-    "sizeBytes": 402210
-  },
-  {
-    "assetId": "AST-1F447FF5146B0E72",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Textures/red.jpg",
-    "sha256": "1f447ff5146b0e72dbf757411a41a84c249aae2e971ffcc9ed572532f792af2c",
-    "sizeBytes": 417268
-  },
-  {
-    "assetId": "AST-01F9C65E5AE07BEB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Textures/standard.jpg",
-    "sha256": "01f9c65e5ae07bebaee07ba4df70c0c9d75af1d9f20bb095329326aaff5e1b6a",
-    "sizeBytes": 412946
-  },
-  {
-    "assetId": "AST-FE34743A33642DF1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/Textures/standard.png",
-    "sha256": "fe34743a33642df1f0385052f4234e70cbaa529d8ea25948f457533b357258d7",
-    "sizeBytes": 639403
-  },
-  {
-    "assetId": "AST-0BE6FDC56DD16DFB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/transport.obj",
-    "sha256": "0be6fdc56dd16dfbb687472a28b4ad714e1e983202f53f6edb64a669ae4767e7",
-    "sizeBytes": 2283336
-  },
-  {
-    "assetId": "AST-38690041E3240776",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransport/transport2.obj",
-    "sha256": "38690041e324077661006fa9ad3843dca8b05113fa50b30abcdd3e5f18869c67",
-    "sizeBytes": 643931
-  },
-  {
-    "assetId": "AST-02CA6B9F25F016A4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Icon.png",
-    "sha256": "02ca6b9f25f016a44afdb39f7a1c9cd016d41c16a70a45b923c1124543f59ed4",
-    "sizeBytes": 2561
-  },
-  {
-    "assetId": "AST-AF5F9AD8B041674F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/pod.obj",
-    "sha256": "af5f9ad8b041674f26f127e3163201222f158da89be7c399977aebc82cf45d21",
-    "sizeBytes": 160338
-  },
-  {
-    "assetId": "AST-4E3221F74FADED01",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/pod2.obj",
-    "sha256": "4e3221f74faded01318e72103a011ca2df9577286489e68d22daa2af100c55c1",
-    "sizeBytes": 205314
-  },
-  {
-    "assetId": "AST-2EAF63DD2438E225",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/dj.png",
-    "sha256": "2eaf63dd2438e2258c49516b7fd520c07c0e451b2609b54a2b4f88b57f9e2b63",
-    "sizeBytes": 920374
-  },
-  {
-    "assetId": "AST-6EAA97E5D6C1F811",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/plain.jpg",
-    "sha256": "6eaa97e5d6c1f811ef18a4d58ea4181c65a14ed97cbf64f8b29c12db0c04ca09",
-    "sizeBytes": 100265
-  },
-  {
-    "assetId": "AST-294D861BFE43E8F6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/plain2.jpg",
-    "sha256": "294d861bfe43e8f6dc72280956f2b360e85e1cf1bfa824514c14957b6ae6411d",
-    "sizeBytes": 119158
-  },
-  {
-    "assetId": "AST-EE20FFDCA047CB52",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/red.jpg",
-    "sha256": "ee20ffdca047cb5284edea736d31541e97d8f6f3f25f274718031cc76a4bc567",
-    "sizeBytes": 103196
-  },
-  {
-    "assetId": "AST-35DD68DCFF798A8B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/red2.jpg",
-    "sha256": "35dd68dcff798a8bf507b24bd061dfed56e499b1bd0dde596d29b9e7f9aa524f",
-    "sizeBytes": 121484
-  },
-  {
-    "assetId": "AST-97DA5C9AFE67ECDE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/standard.jpg",
-    "sha256": "97da5c9afe67ecde4d5d3e9787faa435a4835088ea3e92f04163a4f79beda0ef",
-    "sizeBytes": 103399
-  },
-  {
-    "assetId": "AST-B9BC2E6E176485CD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/standard.png",
-    "sha256": "b9bc2e6e176485cdf9cd7fec5547ffa97998e183a51e7ed78a80056c7b6124e5",
-    "sizeBytes": 639251
-  },
-  {
-    "assetId": "AST-5F6B691834D603E4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/Textures/standard2.jpg",
-    "sha256": "5f6b691834d603e4ef582ae4f57f405a439418960633338919b7381ea26d3b61",
-    "sizeBytes": 121796
-  },
-  {
-    "assetId": "AST-15630E0454E1837A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/resistancetransportpod/transport_pod.obj",
-    "sha256": "15630e0454e1837a643172a3b46ccd66246473d5e9a78afd366a6b0a098a606d",
-    "sizeBytes": 606254
-  },
-  {
-    "assetId": "AST-BA1F9D6D84601806",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/icon.png",
-    "sha256": "ba1f9d6d84601806067b83b529efa23ede0a26d0f36f790e043f8fda1dfe26b8",
-    "sizeBytes": 2086
-  },
-  {
-    "assetId": "AST-6DFFC49E56ECBCE0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/Rogue-Class_Fighter Base.obj",
-    "sha256": "6dffc49e56ecbce0ad89072d41793f76a47b615091414574aafa19bd655ef311",
-    "sizeBytes": 382938
-  },
-  {
-    "assetId": "AST-ECDEC6C09C7798D8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/rogueclass.obj",
-    "sha256": "ecdec6c09c7798d824aafc12ab60fd927b58ed14153efd19c0e61fcbf040736e",
-    "sizeBytes": 384578
-  },
-  {
-    "assetId": "AST-0403AF5B249B9CE6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/rogueclass2.obj",
-    "sha256": "0403af5b249b9ce6218e0f2aa495ed38a8704949e027e5d7640fd3c1eb0a7161",
-    "sizeBytes": 384412
-  },
-  {
-    "assetId": "AST-B842A753C9E160A1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/CIS.jpg",
-    "sha256": "b842a753c9e160a15b50d17e01c54eec0510525e92c1d06000ca6ea6a3e83978",
-    "sizeBytes": 234276
-  },
-  {
-    "assetId": "AST-CA7368CE4D900A4B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/durge.jpg",
-    "sha256": "ca7368ce4d900a4b7aa7db2257bc02e56b9cda89c7711447a308d7b5dad6a595",
-    "sizeBytes": 379263
-  },
-  {
-    "assetId": "AST-F2586FB7A63512E1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/plain.jpg",
-    "sha256": "f2586fb7a63512e148dbbd44ae7b7f001543b8d301e00b8ee34c9b6126c435e0",
-    "sizeBytes": 360969
-  },
-  {
-    "assetId": "AST-5805EA12EF19DA62",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/Rogue-Class-Green.jpg",
-    "sha256": "5805ea12ef19da6295c3285dc964c905b40c5daa79f48ecb74f058b155ca2dec",
-    "sizeBytes": 346505
-  },
-  {
-    "assetId": "AST-B0F976B9E3CA8EE7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/Rogue-Class-Grey.jpg",
-    "sha256": "b0f976b9e3ca8ee7e24a72dc4d83963aa498fdb530678f863c005c2f4dd9e2ae",
-    "sizeBytes": 361780
-  },
-  {
-    "assetId": "AST-7C85EF178FF30D91",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rogueclassstarfighter/textures/white.jpg",
-    "sha256": "7c85ef178ff30d91403c694802407d61b80e70b43ddeeed15ff5c2be681a71d5",
-    "sizeBytes": 246389
   },
   {
     "assetId": "AST-03A1CCD02A1E4AA3",
@@ -18888,10 +17550,22 @@
     "sizeBytes": 229881
   },
   {
+    "assetId": "AST-1BFA19CD61C22039",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.jpg",
+    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
+    "sizeBytes": 120318
+  },
+  {
     "assetId": "AST-C4B52F7C60BFA709",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.png",
     "sha256": "c4b52f7c60bfa7098bf3312f6138a000e60c2af2055998f689b97b13428220c0",
     "sizeBytes": 227236
+  },
+  {
+    "assetId": "AST-B93AC063F0228709",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/blank.jpg",
+    "sha256": "b93ac063f022870962beb283b0ce8c49c47a87b72438bc8a06d231f3ac79c815",
+    "sizeBytes": 112200
   },
   {
     "assetId": "AST-4C39475AAA1218D2",
@@ -18918,6 +17592,12 @@
     "sizeBytes": 244808
   },
   {
+    "assetId": "AST-56E3322C618FF0D3",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/GreenSquadronPilot.jpg",
+    "sha256": "56e3322c618ff0d3d6fe5ff561c3c6fb55bcaf66fee185cd8ab036036dbee7a4",
+    "sizeBytes": 118971
+  },
+  {
     "assetId": "AST-4842727B2A7CA1AF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/GreenSquadronPilot.png",
     "sha256": "4842727b2a7ca1afb39b16ef060a5990c0173cb8433bce63d0e88686f9668c45",
@@ -18930,10 +17610,22 @@
     "sizeBytes": 260337
   },
   {
+    "assetId": "AST-A51334871294E590",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/HeraSyndulla.jpg",
+    "sha256": "a51334871294e5900b997932aae39d8f7d7df32abe617834169c73d58947ab50",
+    "sizeBytes": 116416
+  },
+  {
     "assetId": "AST-BD7D4C6837C9686B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/HeraSyndulla.png",
     "sha256": "bd7d4c6837c9686bfa115bc5738410e8a853f9abc42108d530ff7ab88649f663",
     "sizeBytes": 444927
+  },
+  {
+    "assetId": "AST-3AD884B0573C2AE4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/JakeFarrell.jpg",
+    "sha256": "3ad884b0573c2ae4625f30b0ca7c0a54779141735690348af3173c49fe6a2e81",
+    "sizeBytes": 120609
   },
   {
     "assetId": "AST-10A1924BB2E0FA48",
@@ -18966,6 +17658,12 @@
     "sizeBytes": 731631
   },
   {
+    "assetId": "AST-90A93816B5385201",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SabineWren.jpg",
+    "sha256": "90a93816b53852011bb9528bca43eb9593553e1e295e94ca80165713c35390b7",
+    "sizeBytes": 100460
+  },
+  {
     "assetId": "AST-F9618628559CB77E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SabineWren.png",
     "sha256": "f9618628559cb77ecd23608cd793237c6f60bf39176e6cb25df1f3322d2d0e58",
@@ -18978,10 +17676,28 @@
     "sizeBytes": 220492
   },
   {
+    "assetId": "AST-93B59BB892938219",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SharaBey.jpg",
+    "sha256": "93b59bb89293821911640c18298681971504c524cf01b1b171871d136cafa0c4",
+    "sizeBytes": 130259
+  },
+  {
     "assetId": "AST-FDFDCCDEE3BC2466",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SharaBey.png",
     "sha256": "fdfdccdee3bc246684c7c0de97992b6954509bfdf9937f6741e2d6ec20474c24",
     "sizeBytes": 490143
+  },
+  {
+    "assetId": "AST-1BFA19CD61C22039",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/standard.jpg",
+    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
+    "sizeBytes": 120318
+  },
+  {
+    "assetId": "AST-B58A98BB6B6DB000",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/WedgeAntilles.jpg",
+    "sha256": "b58a98bb6b6db000e2819ed9c3e7e5fd876b79934597f8d42d81e52469f99c99",
+    "sizeBytes": 122399
   },
   {
     "assetId": "AST-10F0255B05F04298",
@@ -19008,10 +17724,22 @@
     "sizeBytes": 356693
   },
   {
+    "assetId": "AST-0D366138392AFA62",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/green.jpg",
+    "sha256": "0d366138392afa6211b3691de54749ba584e8f7b89bf8e8698de50d9c2cd2027",
+    "sizeBytes": 122271
+  },
+  {
     "assetId": "AST-7E5CED06E2742282",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/green.png",
     "sha256": "7e5ced06e27422822dc46b41f32b1e061466c5764432c55a8c8f841d76aba5cf",
     "sizeBytes": 280179
+  },
+  {
+    "assetId": "AST-4DADEF6E327965EB",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/orange.jpg",
+    "sha256": "4dadef6e327965ebe7bd912a59a355a7512e2f852ae765bac0abfd5b23502850",
+    "sizeBytes": 124175
   },
   {
     "assetId": "AST-6B2124E0BA037DF9",
@@ -19020,10 +17748,22 @@
     "sizeBytes": 342151
   },
   {
+    "assetId": "AST-2ECB9FB37FE73FBF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/red.jpg",
+    "sha256": "2ecb9fb37fe73fbf752d66248700af8ca89fb10d7afb781f9ff76e958f177581",
+    "sizeBytes": 131821
+  },
+  {
     "assetId": "AST-6FDD9C4B7D4C6E86",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/red.png",
     "sha256": "6fdd9c4b7d4c6e8638afbbd3d4e85636b6a3ba22c4c4f8c57033fc45a7753ae2",
     "sizeBytes": 360453
+  },
+  {
+    "assetId": "AST-A656FD64F4604DC5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/standard.jpg",
+    "sha256": "a656fd64f4604dc5b2404c16c873f9c71dc94fab47bd2ef3066e499f2fa54617",
+    "sizeBytes": 138013
   },
   {
     "assetId": "AST-201937CD12639DC3",
@@ -19056,6 +17796,12 @@
     "sizeBytes": 529099
   },
   {
+    "assetId": "AST-5DCCA1A641BA95CC",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard2.jpg",
+    "sha256": "5dcca1a641ba95cca6151273cf39609b6433612e70df02f70bbe82ed5af60a7f",
+    "sizeBytes": 152056
+  },
+  {
     "assetId": "AST-410FCA103F1A3F2E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Icon.png",
     "sha256": "410fca103f1a3f2e438cf168a96b264abda7793d26d55a96219282d2c41312b3",
@@ -19086,16 +17832,28 @@
     "sizeBytes": 195020
   },
   {
-    "assetId": "AST-6AB5F2089FF50000",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.jpg",
-    "sha256": "6ab5f2089ff500005c3e605592df3d52b8c4329912a3f6546e2d5686c86ddd73",
-    "sizeBytes": 433655
+    "assetId": "AST-123D03A22EC79739",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin2.jpg",
+    "sha256": "123d03a22ec797390c42f7fed633897067230741c593f9a959b082394d13d1b7",
+    "sizeBytes": 69631
   },
   {
     "assetId": "AST-ACF4F4759EBB0646",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.png",
     "sha256": "acf4f4759ebb06462e24bd90d1114f511fc82b33405440dcc499ad5281eab5e7",
     "sizeBytes": 277103
+  },
+  {
+    "assetId": "AST-EA3057F57A94F09B",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer2.jpg",
+    "sha256": "ea3057f57a94f09b36f8929355af20837748378325081de969be83f16c4547e6",
+    "sizeBytes": 82280
+  },
+  {
+    "assetId": "AST-6AB5F2089FF50000",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+    "sha256": "6ab5f2089ff500005c3e605592df3d52b8c4329912a3f6546e2d5686c86ddd73",
+    "sizeBytes": 433655
   },
   {
     "assetId": "AST-3699E85BC97E83B7",
@@ -19188,6 +17946,12 @@
     "sizeBytes": 294391
   },
   {
+    "assetId": "AST-ED60304582F3DD0A",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/merrick.jpg",
+    "sha256": "ed60304582f3dd0a5537214f5dfa325ee60d49fb00d7f81daa07e4f9e4563537",
+    "sizeBytes": 371108
+  },
+  {
     "assetId": "AST-66F8DA4A366211E1",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/merrick.png",
     "sha256": "66f8da4a366211e1d996519c5a00f79ceb2f0b80f59d819c2979650840c2e07d",
@@ -19236,6 +18000,12 @@
     "sizeBytes": 229849
   },
   {
+    "assetId": "AST-7C0F704AD5778F07",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/BiggsDarklighter.jpg",
+    "sha256": "7c0f704ad5778f079159628f9da172da47c44a2c8d74d8035ac4f8fc4d6b5c2a",
+    "sizeBytes": 148777
+  },
+  {
     "assetId": "AST-CDA0BADB53853872",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/BiggsDarklighter.png",
     "sha256": "cda0badb538538723512b33eb8557bae416a8d9dfadb128f8c2de4a7d0b9cb97",
@@ -19254,6 +18024,12 @@
     "sizeBytes": 182075
   },
   {
+    "assetId": "AST-925A6BEDD982AA4B",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/CavernAngelsZealot.jpg",
+    "sha256": "925a6bedd982aa4be6613ad2719069361686aa8a067b9247a589408741d595d2",
+    "sizeBytes": 116648
+  },
+  {
     "assetId": "AST-BFBEE263D2B39FC3",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/CavernAngelsZealot.png",
     "sha256": "bfbee263d2b39fc3dfc58880db79a958a244c823495e2980a1ae054c5526ab3e",
@@ -19266,10 +18042,22 @@
     "sizeBytes": 256830
   },
   {
+    "assetId": "AST-A24950EE405CD8A6",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/GarvenDreis.jpg",
+    "sha256": "a24950ee405cd8a67c89f00f898fcebf36bf0662e8da44017699e321204d3f42",
+    "sizeBytes": 155998
+  },
+  {
     "assetId": "AST-028AE218068C6CF7",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/GarvenDreis.png",
     "sha256": "028ae218068c6cf70031f1015a44836d9efdf2a5aa84f47cf57d5379d782fea9",
     "sizeBytes": 459109
+  },
+  {
+    "assetId": "AST-7D9DE33156DBD2AA",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/JekPorkins.jpg",
+    "sha256": "7d9de33156dbd2aab79b16034c557adb4c869c035fdc8db862ae3ddfb9152f92",
+    "sizeBytes": 155128
   },
   {
     "assetId": "AST-E5628EA4FF8D54EF",
@@ -19282,6 +18070,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/luke.jpg",
     "sha256": "2308ae952fb01c43c8821b45cad2dda165a2b622acaa81984c83927344fb78f3",
     "sizeBytes": 272520
+  },
+  {
+    "assetId": "AST-CB870CCC3F628DD0",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/LukeSkywalker.jpg",
+    "sha256": "cb870ccc3f628dd089e15ff8f9b7f9fb418fc7aa7d3fbb23576d3e4d6fd485c1",
+    "sizeBytes": 156513
   },
   {
     "assetId": "AST-05F57151B2060884",
@@ -19302,6 +18096,12 @@
     "sizeBytes": 256368
   },
   {
+    "assetId": "AST-63BA5A05971D65D8",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/standard.jpg",
+    "sha256": "63ba5a05971d65d82588675c3a082443361c360f18f476e74c5b4eaf6eef52c7",
+    "sizeBytes": 156335
+  },
+  {
     "assetId": "AST-E4BCD79223A589C3",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/standard.png",
     "sha256": "e4bcd79223a589c3db6b4c888b7eca139db8534aabbad28aaf3a40f33e8db766",
@@ -19314,6 +18114,12 @@
     "sizeBytes": 256867
   },
   {
+    "assetId": "AST-736F728029C54D23",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/ThaneKyrell.jpg",
+    "sha256": "736f728029c54d2373da093f97d52f81513c6cbb031cec461a4b26dd2579b53d",
+    "sizeBytes": 155247
+  },
+  {
     "assetId": "AST-C572BFEDF3E83B5F",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/ThaneKyrell.png",
     "sha256": "c572bfedf3e83b5f44f34162891d836b72fa6b481b61d6b9e39562ef5ae31e36",
@@ -19324,6 +18130,12 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wedge.jpg",
     "sha256": "8b995d081f02a6a5636f60bfad2373660ee91c8e3c3f12b66060a769a8cdd723",
     "sizeBytes": 230311
+  },
+  {
+    "assetId": "AST-1DBD8E59B3718544",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/WedgeAntilles.jpg",
+    "sha256": "1dbd8e59b3718544c4c7525813827e2191b682d81ee2faade06d1a54af802b0b",
+    "sizeBytes": 151272
   },
   {
     "assetId": "AST-5944A52646CA6D27",
@@ -19482,10 +18294,22 @@
     "sizeBytes": 288691
   },
   {
+    "assetId": "AST-F90A9F80B0EEE3F5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.jpg",
+    "sha256": "f90a9f80b0eee3f58f10566aa7ac007ac2fffe36028891b48810b4c09cd91572",
+    "sizeBytes": 120878
+  },
+  {
     "assetId": "AST-2F9155B15189AC5B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
     "sha256": "2f9155b15189ac5bc8d98c058a29d6cfaa5d8153e9249464df3213bf8b31d660",
     "sizeBytes": 338700
+  },
+  {
+    "assetId": "AST-1445AF05354E7CA2",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.jpg",
+    "sha256": "1445af05354e7ca27c34d6ff743f29580193f68f957b2d737ef67c2ee98c0e30",
+    "sizeBytes": 154240
   },
   {
     "assetId": "AST-0598CC8910090D98",
@@ -19500,10 +18324,22 @@
     "sizeBytes": 413281
   },
   {
+    "assetId": "AST-89E8D51DA3DC9928",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.jpg",
+    "sha256": "89e8d51da3dc992876fb33738968836617e1af4f13be3333120be4068aacd28f",
+    "sizeBytes": 141371
+  },
+  {
     "assetId": "AST-DB25D0FAABAFB2ED",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png",
     "sha256": "db25d0faabafb2edf0d40aee7cd639c0e7e400b88f335e9fcb299c28d8cbd905",
     "sizeBytes": 345551
+  },
+  {
+    "assetId": "AST-7E89580EA437A003",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/standard.jpg",
+    "sha256": "7e89580ea437a003bad877dd349ad98ee46542ecbd03c111861ab9b5e898167e",
+    "sizeBytes": 146538
   },
   {
     "assetId": "AST-D031855F52EB1D42",
@@ -19525,13 +18361,13 @@
   },
   {
     "assetId": "AST-4413C79D04E0D847",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/tieadvancedv1blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/blue.jpg",
     "sha256": "4413c79d04e0d8470b0fdd45e795eaf176840703a71f5e223551be72075fe05e",
     "sizeBytes": 281776
   },
   {
     "assetId": "AST-718B1CF34559E1F6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/tieadvancedv1grey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
     "sha256": "718b1cf34559e1f622770f2c34def78738871a301efa438bc265949459ab292b",
     "sizeBytes": 255068
   },
@@ -19567,13 +18403,13 @@
   },
   {
     "assetId": "AST-B3DA14F75FEF20DE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/textures/tieadvancedx1blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/textures/blue.jpg",
     "sha256": "b3da14f75fef20de59ea08a1716c3d2b1949d8be14960d1825ab0484beb7c133",
     "sizeBytes": 112513
   },
   {
     "assetId": "AST-2DCA2860B682BF0C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/textures/tieadvancedx1grey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/textures/standard.jpg",
     "sha256": "2dca2860b682bf0cab227219dc210b6d2c13823f38fb7aafecff21549ab39d77",
     "sizeBytes": 108084
   },
@@ -19597,25 +18433,13 @@
   },
   {
     "assetId": "AST-72CFB07F5FB859AB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/blue.jpg",
     "sha256": "72cfb07f5fb859abe3abce317eefdefaac919a54a367d95892d2333e628d349d",
     "sizeBytes": 282258
   },
   {
     "assetId": "AST-F5CFE5650F917DC4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/Tie-Aggressor-grey.jpg",
-    "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
-    "sizeBytes": 280205
-  },
-  {
-    "assetId": "AST-72CFB07F5FB859AB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorblue.jpg",
-    "sha256": "72cfb07f5fb859abe3abce317eefdefaac919a54a367d95892d2333e628d349d",
-    "sizeBytes": 282258
-  },
-  {
-    "assetId": "AST-F5CFE5650F917DC4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/tieagaggressorgrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/textures/standard.jpg",
     "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
     "sizeBytes": 280205
   },
@@ -19632,54 +18456,6 @@
     "sizeBytes": 255406
   },
   {
-    "assetId": "AST-A08592531237B63D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Icon.png",
-    "sha256": "a08592531237b63d674c1bc2687eff60b2f44424292b0bee39508a9497ea6203",
-    "sizeBytes": 2768
-  },
-  {
-    "assetId": "AST-614711DFC2F3DF88",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Textures/black.jpg",
-    "sha256": "614711dfc2f3df882762319a254a437f7e43e138fc0cab53599bc18b77a8623b",
-    "sizeBytes": 94070
-  },
-  {
-    "assetId": "AST-F27B6C2CC1CDBFA6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Textures/jank.jpg",
-    "sha256": "f27b6c2cc1cdbfa6b1f7e39a2bdb0240c4d3ce83e1b187a36d04a3f15577609f",
-    "sizeBytes": 136489
-  },
-  {
-    "assetId": "AST-F69AE0B50BF508D8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Textures/standard.jpg",
-    "sha256": "f69ae0b50bf508d857e62aafdbf0de8190d765f620078806f55e2c9a6f529c3d",
-    "sizeBytes": 116346
-  },
-  {
-    "assetId": "AST-B70C7E16CE454E92",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Textures/standard.png",
-    "sha256": "b70c7e16ce454e92a995ca6be13b82a442b1039b62708cb4022107b658a17578",
-    "sizeBytes": 375350
-  },
-  {
-    "assetId": "AST-B040604634687B8E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/Textures/white.jpg",
-    "sha256": "b040604634687b8eaa4853c0fd588c93502a88dc25cc7e26fea263733057462a",
-    "sizeBytes": 118892
-  },
-  {
-    "assetId": "AST-925D5C0C1B10A6DE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/TieBa.obj",
-    "sha256": "925d5c0c1b10a6de1d53e0275d6477bb923c3e2204979b81101aa7932a61cc71",
-    "sizeBytes": 833551
-  },
-  {
-    "assetId": "AST-1BCE7F19C01B853A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiebainterceptor/TieBaron.obj",
-    "sha256": "1bce7f19c01b853a445e7460729282c4bf04ec17643f1296854454305affcefc",
-    "sizeBytes": 835435
-  },
-  {
     "assetId": "AST-CCE0E64FBDDCC735",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/defender.obj",
     "sha256": "cce0e64fbddcc73568a3983f97c38c3c5df2d9b141d0b4e32850cf7389754208",
@@ -19692,76 +18468,58 @@
     "sizeBytes": 3393
   },
   {
+    "assetId": "AST-D90D53A6DDC6B2EF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/blue.jpg",
+    "sha256": "d90d53a6ddc6b2eff294137563f342fd29d70edc36e1a33afb3418f64f2509db",
+    "sizeBytes": 274524
+  },
+  {
     "assetId": "AST-A945C65204ECCEDB",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/Kyber.jpg",
     "sha256": "a945c65204eccedbddcc127c74246bdd8e5905ef77738e20d6f7e662e1cfbddd",
     "sizeBytes": 357325
   },
   {
-    "assetId": "AST-D90D53A6DDC6B2EF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/tiededefenderblue.jpg",
-    "sha256": "d90d53a6ddc6b2eff294137563f342fd29d70edc36e1a33afb3418f64f2509db",
-    "sizeBytes": 274524
-  },
-  {
-    "assetId": "AST-DD5BEF391C7908A8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/tiededefendergrey.jpg",
-    "sha256": "dd5bef391c7908a8d22b40ded41d423d3956263830744aedc194db448aca02f5",
-    "sizeBytes": 291571
-  },
-  {
     "assetId": "AST-8C916E7638C498B8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/tiededefenderred.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/red.jpg",
     "sha256": "8c916e7638c498b881a0f8cc084a1c7642332636ce97ea354230d67620ed0f50",
     "sizeBytes": 327264
   },
   {
     "assetId": "AST-49452BD3E92057A4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/tiededefenderss.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/ss.jpg",
     "sha256": "49452bd3e92057a49d6c8db85ea5788ac3773b2cc7ae6e3169c7ddc0da2972cc",
     "sizeBytes": 337204
   },
   {
+    "assetId": "AST-DD5BEF391C7908A8",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/standard.jpg",
+    "sha256": "dd5bef391c7908a8d22b40ded41d423d3956263830744aedc194db448aca02f5",
+    "sizeBytes": 291571
+  },
+  {
     "assetId": "AST-2A9202D9A7BBF8F2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/tiededefendervader.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiededefender/textures/vader.jpg",
     "sha256": "2a9202d9a7bbf8f21219ad070ec3608a440837a66ee95f0f6d290ae94ed10b96",
     "sizeBytes": 247314
   },
   {
-    "assetId": "AST-B1D0811F8D4A71E5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.jpg",
-    "sha256": "b1d0811f8d4a71e5b24195422cf78025ff5d7ccc7b7c2a56098d4cb0b34d434e",
-    "sizeBytes": 408915
-  },
-  {
-    "assetId": "AST-CD9C83B61307B9FD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/1/standard.png",
-    "sha256": "cd9c83b61307b9fd53ad5ef21ecdd6eb45ddb59b7f2a111e5b8b026e6603aa09",
-    "sizeBytes": 223890
+    "assetId": "AST-7B3E70EE473B57A5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/blue.jpg",
+    "sha256": "7b3e70ee473b57a5e6cca04dcd8542771564109bc14b0c18b486426afdd47800",
+    "sizeBytes": 703254
   },
   {
     "assetId": "AST-678528E025717346",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/2/fn2187.png",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/blue.png",
     "sha256": "678528e02571734607e62d24b37fbce50b8255d97ea23d48e4bb65b38a0587ce",
     "sizeBytes": 3301315
   },
   {
     "assetId": "AST-5370A30BA56212FC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/2/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
     "sha256": "5370a30ba56212fc87896834a321c9f25215211f3e75fbd90584278fc3c74b5c",
     "sizeBytes": 249809
-  },
-  {
-    "assetId": "AST-B1D0811F8D4A71E5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.jpg",
-    "sha256": "b1d0811f8d4a71e5b24195422cf78025ff5d7ccc7b7c2a56098d4cb0b34d434e",
-    "sizeBytes": 408915
-  },
-  {
-    "assetId": "AST-CD9C83B61307B9FD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Textures/standard.png",
-    "sha256": "cd9c83b61307b9fd53ad5ef21ecdd6eb45ddb59b7f2a111e5b8b026e6603aa09",
-    "sizeBytes": 223890
   },
   {
     "assetId": "AST-A0A1F3B640AFB436",
@@ -19800,34 +18558,34 @@
     "sizeBytes": 2601
   },
   {
+    "assetId": "AST-2233C2B78170222A",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/181.jpg",
+    "sha256": "2233c2b78170222ad252b4e4df5ad3e877903fd63c12f6be3c43737538cb8c19",
+    "sizeBytes": 378655
+  },
+  {
     "assetId": "AST-EA10A96400224D89",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/tieininterceptorblue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/blue.jpg",
     "sha256": "ea10a96400224d89e18b8e6daa9c57a403d905cdc1856084b039384fe5cf76a6",
     "sizeBytes": 339080
   },
   {
-    "assetId": "AST-376EBF0B0E84F2B5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/tieininterceptorgrey.jpg",
-    "sha256": "376ebf0b0e84f2b5fb9c2e7aeec924994a62e577d954cb20beb536dbf63705f4",
-    "sizeBytes": 368105
-  },
-  {
     "assetId": "AST-A1C51CF3286A3C3F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/tieininterceptorred.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/red.jpg",
     "sha256": "a1c51cf3286a3c3ff4ecad3b44ffc1bd12ceeba4f86fc442173692cb6105f1a9",
     "sizeBytes": 407959
   },
   {
     "assetId": "AST-1CC046A865A7CB99",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/tieininterceptorss.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/ss.jpg",
     "sha256": "1cc046a865a7cb99a60304125f08de36b499f2f0f66ef03458316543d92ac0ac",
     "sizeBytes": 350352
   },
   {
-    "assetId": "AST-2233C2B78170222A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/tieinterceptor181.jpg",
-    "sha256": "2233c2b78170222ad252b4e4df5ad3e877903fd63c12f6be3c43737538cb8c19",
-    "sizeBytes": 378655
+    "assetId": "AST-376EBF0B0E84F2B5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/textures/standard.jpg",
+    "sha256": "376ebf0b0e84f2b5fb9c2e7aeec924994a62e577d954cb20beb536dbf63705f4",
+    "sizeBytes": 368105
   },
   {
     "assetId": "AST-A1A83EBD8CA54AC2",
@@ -19837,27 +18595,27 @@
   },
   {
     "assetId": "AST-070433AB129F1331",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Blue2.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/blue.jpg",
     "sha256": "070433ab129f13315cfa0fa86e7c7381694442842e0977676415ebfc797ff6d7",
     "sizeBytes": 159341
   },
   {
-    "assetId": "AST-8975CDD3CEFDA2D7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Grey2.jpg",
-    "sha256": "8975cdd3cefda2d7dd996307f37da1396af12e963dedb085cb1e2507f9463a73",
-    "sizeBytes": 156832
-  },
-  {
     "assetId": "AST-2CBF88D63AE7BAA8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Inferno2.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/inferno2.jpg",
     "sha256": "2cbf88d63ae7baa874394ca3cf744913736fed39d057302df805da56376c2c54",
     "sizeBytes": 186862
   },
   {
     "assetId": "AST-B6B8E46A10744708",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/Tie-Fighter-Rebel.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/rebel.jpg",
     "sha256": "b6b8e46a107447084ba6eb8161bf6c064688896535fb2b566aeb3b34495db9d9",
     "sizeBytes": 194979
+  },
+  {
+    "assetId": "AST-8975CDD3CEFDA2D7",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tielnfighter/textures/standard.jpg",
+    "sha256": "8975cdd3cefda2d7dd996307f37da1396af12e963dedb085cb1e2507f9463a73",
+    "sizeBytes": 156832
   },
   {
     "assetId": "AST-CEB8A7FFD8BD4C8B",
@@ -19878,26 +18636,26 @@
     "sizeBytes": 2807
   },
   {
-    "assetId": "AST-EF0E59264052803F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomblue.jpg",
-    "sha256": "ef0e59264052803f8d90efccf1d908f5a55d07d3dc7b676b7ce1ce6535119d78",
-    "sizeBytes": 283491
-  },
-  {
     "assetId": "AST-56534E0D0DB8C62B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomgrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/grey.jpg",
     "sha256": "56534e0d0db8c62bb23ddcf2b038e7dda39e62748cd49c5ec5162037baab8694",
     "sizeBytes": 267154
   },
   {
     "assetId": "AST-94CB59B4225D0967",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomsigma.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/sigma.jpg",
     "sha256": "94cb59b4225d0967948ba08cd728c343996b5ccc08fcc549b4694c6379d4a1dd",
     "sizeBytes": 223957
   },
   {
+    "assetId": "AST-EF0E59264052803F",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/standard.jpg",
+    "sha256": "ef0e59264052803f8d90efccf1d908f5a55d07d3dc7b676b7ce1ce6535119d78",
+    "sizeBytes": 283491
+  },
+  {
     "assetId": "AST-D0EA161052CA7369",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/tiephphantomwhite.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiephphantom/textures/white.jpg",
     "sha256": "d0ea161052ca73694d7d08bb03c5adbacba63955c7dcde28879896fcdb6cccf8",
     "sizeBytes": 398229
   },
@@ -19914,52 +18672,22 @@
     "sizeBytes": 2630
   },
   {
-    "assetId": "AST-893996346E366A4C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabomberblue.jpg",
-    "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
-    "sizeBytes": 280692
-  },
-  {
     "assetId": "AST-F998823017010FC6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/tiesabombergrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/grey.jpg",
     "sha256": "f998823017010fc6626f7de4d03d6d3997904677d1ab4a1fbd6759c0abf9feaa",
     "sizeBytes": 234235
+  },
+  {
+    "assetId": "AST-893996346E366A4C",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/standard.jpg",
+    "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
+    "sizeBytes": 280692
   },
   {
     "assetId": "AST-F92EB13A99D5AD31",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
     "sha256": "f92eb13a99d5ad315b7c55623245f66b230c3c0ae38fc10336cce5ea2cc3b01d",
     "sizeBytes": 372745
-  },
-  {
-    "assetId": "AST-23F037EAE4BF4822",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesebomber/Icon.png",
-    "sha256": "23f037eae4bf48221ef85546329b0d840df4095c0ab007ab18d9f1eaea42860c",
-    "sizeBytes": 2102
-  },
-  {
-    "assetId": "AST-35217908539BD062",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesebomber/Textures/1/standard.jpg",
-    "sha256": "35217908539bd062efe4665896b842c31e894fb7fc0000d89b5868d91b3573c2",
-    "sizeBytes": 276859
-  },
-  {
-    "assetId": "AST-42F2F2B11BBD24FE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesebomber/Textures/standard.jpg",
-    "sha256": "42f2f2b11bbd24fe7557f3d1efaa0a10067e7b27ca7627570dc61d6d885a7770",
-    "sizeBytes": 320001
-  },
-  {
-    "assetId": "AST-0E72DDD18B7EE498",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesebomber/tie_se.obj",
-    "sha256": "0e72ddd18b7ee4983e7a238f148b6fc66191ec1587c296d396bc7828a22e7389",
-    "sizeBytes": 463864
-  },
-  {
-    "assetId": "AST-30D0BAE49A1F1DB1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesebomber/tie_sev2.obj",
-    "sha256": "30d0bae49a1f1db17c383ed773d94a7c7ca6d3ff9e95f7a1714a7f7e1b588ba8",
-    "sizeBytes": 403343
   },
   {
     "assetId": "AST-31E591EBE7C16BE8",
@@ -19969,21 +18697,21 @@
   },
   {
     "assetId": "AST-72E7496D7F5CA4E9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/1/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
     "sha256": "72e7496d7f5ca4e93414e960d1532d37421bbeb6dec719e18a8bdc1aa7cd54dc",
     "sizeBytes": 263252
   },
   {
-    "assetId": "AST-F3C1ABE2696CDE4F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/1/strife.png",
-    "sha256": "f3c1abe2696cde4f1515fcd29d8601a9aa05017ac4214dd452a61c8ebe9e4796",
-    "sizeBytes": 3096656
+    "assetId": "AST-C117A32C913B809D",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/strife.jpg",
+    "sha256": "c117a32c913b809dbc2ce448561120c425784cdc9fcb5916ed1b469073ed823f",
+    "sizeBytes": 713192
   },
   {
-    "assetId": "AST-66CE4AE0F4C34037",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.png",
-    "sha256": "66ce4ae0f4c34037546b8a410daaa0a144331df4888710798328c0153cf6dafd",
-    "sizeBytes": 287019
+    "assetId": "AST-F3C1ABE2696CDE4F",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/strife.png",
+    "sha256": "f3c1abe2696cde4f1515fcd29d8601a9aa05017ac4214dd452a61c8ebe9e4796",
+    "sizeBytes": 3096656
   },
   {
     "assetId": "AST-77854E25A8B0DAB8",
@@ -20010,16 +18738,16 @@
     "sizeBytes": 2683
   },
   {
-    "assetId": "AST-F1C633969F159019",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/textures/tieskstrikerblue.jpg",
-    "sha256": "f1c633969f1590192d3e0421f7040e4211215aee2c846a0a7c03e0126b9ddf9a",
-    "sizeBytes": 275661
-  },
-  {
     "assetId": "AST-44F7402D83D0FBCA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/textures/tieskstrikergrey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/textures/grey.jpg",
     "sha256": "44f7402d83d0fbca693d53a9864c20a514c7ed24df85c8b80914890ce470ae47",
     "sizeBytes": 229540
+  },
+  {
+    "assetId": "AST-F1C633969F159019",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/textures/standard.jpg",
+    "sha256": "f1c633969f1590192d3e0421f7040e4211215aee2c846a0a7c03e0126b9ddf9a",
+    "sizeBytes": 275661
   },
   {
     "assetId": "AST-0C62E6E7A739FD03",
@@ -20034,10 +18762,10 @@
     "sizeBytes": 2704
   },
   {
-    "assetId": "AST-77F32B507A56A59B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Textures/1/standard.jpg",
-    "sha256": "77f32b507a56a59b64d0fbcb615f584032d6ef78d3874c2cb131e8524a70a459",
-    "sizeBytes": 237446
+    "assetId": "AST-2B8C0E60A5431861",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Textures/standard.jpg",
+    "sha256": "2b8c0e60a5431861419efbd6e7c14f9e82a7b13104349c3012922b3919acf1e8",
+    "sizeBytes": 109622
   },
   {
     "assetId": "AST-9ACF0D9C1A7F5CCC",
@@ -20056,162 +18784,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
     "sha256": "6bd919ef2c74cc858e76b9dd17e8f994b017246c8fa8c52d987b6c0b18993223",
     "sizeBytes": 184935
-  },
-  {
-    "assetId": "AST-C1CCB350D4222852",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/Icon.png",
-    "sha256": "c1ccb350d422285246be825c1ca913a152fe750c3fa27649f600d48fb207f82f",
-    "sizeBytes": 2160
-  },
-  {
-    "assetId": "AST-768C6692AE77CD65",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/Textures/1/standard.jpg",
-    "sha256": "768c6692ae77cd65693987f17a4d28d0e18aba46cdd93ff95c10cc185e0c09ae",
-    "sizeBytes": 172481
-  },
-  {
-    "assetId": "AST-18D825C22D3D0445",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/Textures/standard.jpg",
-    "sha256": "18d825c22d3d044525c3baa91bd4873f774d40725a34a02ccb81604213a5cb04",
-    "sizeBytes": 205597
-  },
-  {
-    "assetId": "AST-2642883FBEE85D32",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/TIE_Wi.obj",
-    "sha256": "2642883fbee85d3220e4544ae65867907ee41600a8c860f6f2de6e6356aa9f00",
-    "sizeBytes": 1647543
-  },
-  {
-    "assetId": "AST-CD5591CA0F13E433",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiewiwhispermodifiedinterceptor/TIE_Wiv2.obj",
-    "sha256": "cd5591ca0f13e43338d56963d919d38ed4390532a8e328f573ba214e348033d0",
-    "sizeBytes": 515190
-  },
-  {
-    "assetId": "AST-EAD4DB6E7E04D9D8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Icon.png",
-    "sha256": "ead4db6e7e04d9d81bf25a575ae53c9f43044cb64134e5ae23bed3553683a700",
-    "sizeBytes": 2404
-  },
-  {
-    "assetId": "AST-5AC3ADCD3E442E21",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/1/black.jpg",
-    "sha256": "5ac3adcd3e442e215df4e34c164bc6947c4f421baab98b5697807d09b8875b17",
-    "sizeBytes": 239651
-  },
-  {
-    "assetId": "AST-26C3E25A1C9D22B5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/1/blue.jpg",
-    "sha256": "26c3e25a1c9d22b517cd2f1ab58e202b28802439b12ab0216d17968693c54011",
-    "sizeBytes": 269869
-  },
-  {
-    "assetId": "AST-5A8BDA30D3EF2196",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/1/logo.jpg",
-    "sha256": "5a8bda30d3ef21968334a6deea114fbdaeeb9ea46e4d9dc01ce1028180acb67a",
-    "sizeBytes": 288132
-  },
-  {
-    "assetId": "AST-F13BEBB67B122AB5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/1/plain.jpg",
-    "sha256": "f13bebb67b122ab510958f6837af199606f89dd32f11158e824701979b22927c",
-    "sizeBytes": 264538
-  },
-  {
-    "assetId": "AST-DA171F68D09D134F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/1/red.jpg",
-    "sha256": "da171f68d09d134fa4c769402ddf506ec17a4033c0b30d8d6199ae4b3c06575b",
-    "sizeBytes": 275380
-  },
-  {
-    "assetId": "AST-67E68A647BEFCFE9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/blue.jpg",
-    "sha256": "67e68a647befcfe92a15680f362195301dd171334261d8cd476ba30532f47670",
-    "sizeBytes": 246952
-  },
-  {
-    "assetId": "AST-D0A2852EAB7E52F1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/Textures/standard.png",
-    "sha256": "d0a2852eab7e52f1470cac7324d1acd0dc34106b26cd0d8e6ef94c9ac2c33630",
-    "sizeBytes": 402615
-  },
-  {
-    "assetId": "AST-87B82E5A8D1ECE98",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/V-19_Torrent.obj",
-    "sha256": "87b82e5a8d1ece98218059a8e81cb5137934da371419233d7a269d0909c0341c",
-    "sizeBytes": 685175
-  },
-  {
-    "assetId": "AST-7580BC5AF90ECC2E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/v19torrentstarfighter/V-19_Torrentv2.obj",
-    "sha256": "7580bc5af90ecc2e9b6df8f1828e8bbf95a7a089b9f811b7fd8dd192d827b19e",
-    "sizeBytes": 455320
-  },
-  {
-    "assetId": "AST-6C1FDF330B800B4D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Icon.png",
-    "sha256": "6c1fdf330b800b4ddb3b0c187c24f628c53ae5cc6cea5c865d2c1b6ae256b43b",
-    "sizeBytes": 2449
-  },
-  {
-    "assetId": "AST-5C0634980A234AD1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/00m.png",
-    "sha256": "5c0634980a234ad1d7660eb0ccbf76239e28dacb35881250e3a31594e1d1f8cc",
-    "sizeBytes": 468340
-  },
-  {
-    "assetId": "AST-D3FE9C8CE5A74276",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/DFS-081.png",
-    "sha256": "d3fe9c8ce5a742765f655bbd41078e3820c80f003516f914a2d564863a2c40c5",
-    "sizeBytes": 539187
-  },
-  {
-    "assetId": "AST-BA845ABDE39D3343",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/DFS-311.png",
-    "sha256": "ba845abde39d3343188a3b4b1507cb02b434293e869c355d9934624ee084df7e",
-    "sizeBytes": 545791
-  },
-  {
-    "assetId": "AST-B9CB83A59B999464",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/dfs420.png",
-    "sha256": "b9cb83a59b99946470a75e131251c5542ca27d712fe47c1992881d5e8076b4b2",
-    "sizeBytes": 612475
-  },
-  {
-    "assetId": "AST-69DD374E2B72C84F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/HaorChallPrototype.png",
-    "sha256": "69dd374e2b72c84fe2ccc4f914bb6e6550f634ff9c401b86065a8704a35128bc",
-    "sizeBytes": 451472
-  },
-  {
-    "assetId": "AST-1E21633554B052F5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/PreciseHunter.png",
-    "sha256": "1e21633554b052f52e6d93cc5a7ea10b15330d0b5c42e6ec05c827831f3f3e3a",
-    "sizeBytes": 536842
-  },
-  {
-    "assetId": "AST-59C5A44765150762",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Textures/SeperatistDrone.png",
-    "sha256": "59c5a44765150762c636ccb694e9ea1b774cc521787c4d6f7f1a1a2c7a489881",
-    "sizeBytes": 505173
-  },
-  {
-    "assetId": "AST-D2A5940A75036D3D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Vulture.obj",
-    "sha256": "d2a5940a75036d3d2c15c44ca72169ebc9c1cbb42240c779be9fea1021636aed",
-    "sizeBytes": 736641
-  },
-  {
-    "assetId": "AST-D45527FEC227A3DD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Vulture_Closed.obj",
-    "sha256": "d45527fec227a3dde6387001a7dc6ce66f4db9f5f8d854d38c7d9d091d17e3cf",
-    "sizeBytes": 748136
-  },
-  {
-    "assetId": "AST-AAED0B5566A3E646",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/vultureclassdroidfighter/Vulture_Open.obj",
-    "sha256": "aaed0b5566a3e64647fd45945cbbb0397d8db47e5c944bc72b709d83200bb4ca",
-    "sizeBytes": 853129
   },
   {
     "assetId": "AST-7F53D86DF8B363DA",
@@ -20286,10 +18858,22 @@
     "sizeBytes": 237133
   },
   {
+    "assetId": "AST-E254EA944DA8E2E3",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
+    "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
+    "sizeBytes": 170864
+  },
+  {
     "assetId": "AST-E7E9D3A4F9BFF07A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.png",
     "sha256": "e7e9d3a4f9bff07a243856e3cb5c57a2d38a95246e557ff7e4ef2f27957d2052",
     "sizeBytes": 729116
+  },
+  {
+    "assetId": "AST-15F213E274C9C9F4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.jpg",
+    "sha256": "15f213e274c9c9f441432ec888407e8e6422d9988bdbd805e4b3665ba8ed4b5c",
+    "sizeBytes": 168028
   },
   {
     "assetId": "AST-74AF4F947D97F49F",
@@ -20298,10 +18882,22 @@
     "sizeBytes": 696004
   },
   {
+    "assetId": "AST-8A835DC15B112654",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.jpg",
+    "sha256": "8a835dc15b112654d649eab706d9dd17d39d56d94a6e9f4a1060032d1e5c8211",
+    "sizeBytes": 166913
+  },
+  {
     "assetId": "AST-3213C819E0D5B54B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.png",
     "sha256": "3213c819e0d5b54bcb29a65874ee0df3a1203650deef4d4d88ece511df481a8f",
     "sizeBytes": 566880
+  },
+  {
+    "assetId": "AST-3F73143BF785C6DA",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.jpg",
+    "sha256": "3f73143bf785c6da2cdceeb38616602ac8c7052647bb197b14d6c7f234e740f6",
+    "sizeBytes": 144726
   },
   {
     "assetId": "AST-C9C1F3700C8521D4",
@@ -20310,10 +18906,22 @@
     "sizeBytes": 349186
   },
   {
+    "assetId": "AST-3D2BE0555EAD8EF7",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.jpg",
+    "sha256": "3d2be0555ead8ef79526391ffa0e6f7f647e821c0eb002f40cf0c366031906f0",
+    "sizeBytes": 202466
+  },
+  {
     "assetId": "AST-6D181BEC0084F5FA",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.png",
     "sha256": "6d181bec0084f5fa0476404fb8829edce3b942964fe25eac4b69c073c0d5b20e",
     "sizeBytes": 718645
+  },
+  {
+    "assetId": "AST-62F280A5322A0904",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.jpg",
+    "sha256": "62f280a5322a0904b7e1fe27f2c3e61e9d9f2e70725d605f9193c81a05816cd0",
+    "sizeBytes": 172249
   },
   {
     "assetId": "AST-26F46A561C74B896",
@@ -20322,16 +18930,40 @@
     "sizeBytes": 739133
   },
   {
+    "assetId": "AST-DB2F8012B432725E",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.jpg",
+    "sha256": "db2f8012b432725e1b5ece348ee05e1ba127e2af5a50b960d43800540de3b873",
+    "sizeBytes": 180263
+  },
+  {
     "assetId": "AST-5E92E4CB84184A1B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.png",
     "sha256": "5e92e4cb84184a1be7357ac154cc77a304a27837e2f8c46c07348ac350e64a7e",
     "sizeBytes": 672064
   },
   {
+    "assetId": "AST-1E52CC00C8D75731",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.jpg",
+    "sha256": "1e52cc00c8d75731e1b9e69777dc7056eb614659ff02b5edf87bf278c7f968d5",
+    "sizeBytes": 170108
+  },
+  {
     "assetId": "AST-2B643D137F638EBE",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.png",
     "sha256": "2b643d137f638ebe20633152aee70b42b4e6eee9d7bdcdf04ecde5a5cd81b3b5",
     "sizeBytes": 568089
+  },
+  {
+    "assetId": "AST-E254EA944DA8E2E3",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg",
+    "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
+    "sizeBytes": 170864
+  },
+  {
+    "assetId": "AST-05C68AA437148F1D",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.jpg",
+    "sha256": "05c68aa437148f1dba2646d66b932e62848a9a6d25fc396d491ffe9593ac78a2",
+    "sizeBytes": 172303
   },
   {
     "assetId": "AST-B747845761623C6A",
