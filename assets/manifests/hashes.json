@@ -16986,36 +16986,6 @@
     "sizeBytes": 2642
   },
   {
-    "assetId": "AST-828E05258D4277A4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/arvel.jpg",
-    "sha256": "828e05258d4277a4960b5736235fe1743c1c101424433d7f8dd722b4482efd58",
-    "sizeBytes": 229881
-  },
-  {
-    "assetId": "AST-1BFA19CD61C22039",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.jpg",
-    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
-    "sizeBytes": 120318
-  },
-  {
-    "assetId": "AST-C4B52F7C60BFA709",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.png",
-    "sha256": "c4b52f7c60bfa7098bf3312f6138a000e60c2af2055998f689b97b13428220c0",
-    "sizeBytes": 227236
-  },
-  {
-    "assetId": "AST-B93AC063F0228709",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/blank.jpg",
-    "sha256": "b93ac063f022870962beb283b0ce8c49c47a87b72438bc8a06d231f3ac79c815",
-    "sizeBytes": 112200
-  },
-  {
-    "assetId": "AST-4C39475AAA1218D2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/blank.png",
-    "sha256": "4c39475aaa1218d2cd4ff1d8ea4d54c7bc61794486e3f9a9cce1827925e72959",
-    "sizeBytes": 239228
-  },
-  {
     "assetId": "AST-7ED87CA79DC29E7B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/blue.jpg",
     "sha256": "7ed87ca79dc29e7ba9470f2dbb2cf7565c2b7cdf70e44a64dd86d1fa2f51ec0f",
@@ -17034,46 +17004,10 @@
     "sizeBytes": 244808
   },
   {
-    "assetId": "AST-56E3322C618FF0D3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/GreenSquadronPilot.jpg",
-    "sha256": "56e3322c618ff0d3d6fe5ff561c3c6fb55bcaf66fee185cd8ab036036dbee7a4",
-    "sizeBytes": 118971
-  },
-  {
-    "assetId": "AST-4842727B2A7CA1AF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/GreenSquadronPilot.png",
-    "sha256": "4842727b2a7ca1afb39b16ef060a5990c0173cb8433bce63d0e88686f9668c45",
-    "sizeBytes": 337197
-  },
-  {
     "assetId": "AST-A446362FE50FEE81",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/hera.jpg",
     "sha256": "a446362fe50fee81933522ac92d9c2274f2cdec84760e3c0fc078652743041c0",
     "sizeBytes": 260337
-  },
-  {
-    "assetId": "AST-A51334871294E590",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/HeraSyndulla.jpg",
-    "sha256": "a51334871294e5900b997932aae39d8f7d7df32abe617834169c73d58947ab50",
-    "sizeBytes": 116416
-  },
-  {
-    "assetId": "AST-BD7D4C6837C9686B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/HeraSyndulla.png",
-    "sha256": "bd7d4c6837c9686bfa115bc5738410e8a853f9abc42108d530ff7ab88649f663",
-    "sizeBytes": 444927
-  },
-  {
-    "assetId": "AST-3AD884B0573C2AE4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/JakeFarrell.jpg",
-    "sha256": "3ad884b0573c2ae4625f30b0ca7c0a54779141735690348af3173c49fe6a2e81",
-    "sizeBytes": 120609
-  },
-  {
-    "assetId": "AST-10A1924BB2E0FA48",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/JakeFarrell.png",
-    "sha256": "10a1924bb2e0fa48347122eced9bb788037e3d4cd376b599d5ca0abc23b282be",
-    "sizeBytes": 286195
   },
   {
     "assetId": "AST-BA507EF3BD4670B9",
@@ -17100,112 +17034,16 @@
     "sizeBytes": 731631
   },
   {
-    "assetId": "AST-90A93816B5385201",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SabineWren.jpg",
-    "sha256": "90a93816b53852011bb9528bca43eb9593553e1e295e94ca80165713c35390b7",
-    "sizeBytes": 100460
-  },
-  {
-    "assetId": "AST-F9618628559CB77E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SabineWren.png",
-    "sha256": "f9618628559cb77ecd23608cd793237c6f60bf39176e6cb25df1f3322d2d0e58",
-    "sizeBytes": 223361
-  },
-  {
     "assetId": "AST-B062384001E3BE6C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/shara.jpg",
     "sha256": "b062384001e3be6c0ae5c5e862489ac642f89d344288d64c070c53aea4382488",
     "sizeBytes": 220492
   },
   {
-    "assetId": "AST-93B59BB892938219",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SharaBey.jpg",
-    "sha256": "93b59bb89293821911640c18298681971504c524cf01b1b171871d136cafa0c4",
-    "sizeBytes": 130259
-  },
-  {
-    "assetId": "AST-FDFDCCDEE3BC2466",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/SharaBey.png",
-    "sha256": "fdfdccdee3bc246684c7c0de97992b6954509bfdf9937f6741e2d6ec20474c24",
-    "sizeBytes": 490143
-  },
-  {
-    "assetId": "AST-1BFA19CD61C22039",
+    "assetId": "AST-828E05258D4277A4",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/standard.jpg",
-    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
-    "sizeBytes": 120318
-  },
-  {
-    "assetId": "AST-B58A98BB6B6DB000",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/WedgeAntilles.jpg",
-    "sha256": "b58a98bb6b6db000e2819ed9c3e7e5fd876b79934597f8d42d81e52469f99c99",
-    "sizeBytes": 122399
-  },
-  {
-    "assetId": "AST-10F0255B05F04298",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/WedgeAntilles.png",
-    "sha256": "10f0255b05f04298637ea9adb49fb276a595773ada9d3fb5d620b2c8a074e2da",
-    "sizeBytes": 418932
-  },
-  {
-    "assetId": "AST-4A83026C1A2B7F32",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/res_awing.obj",
-    "sha256": "4a83026c1a2b7f3234a0e44bf61e80f79c83bf13a5d852ea6986ed4a200ce6c6",
-    "sizeBytes": 2482306
-  },
-  {
-    "assetId": "AST-B873BEBD4043BF7E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/rz2_awing.png",
-    "sha256": "b873bebd4043bf7e9eb4cf5731cb71d27ab1ae1f417265bcd02f78a1ed995e6c",
-    "sizeBytes": 2399
-  },
-  {
-    "assetId": "AST-AB191F9F483E61AB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/blue.png",
-    "sha256": "ab191f9f483e61ab5f6fb145bea7ce07e770645ddfa600e1e5d2f4f62b24810c",
-    "sizeBytes": 356693
-  },
-  {
-    "assetId": "AST-0D366138392AFA62",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/green.jpg",
-    "sha256": "0d366138392afa6211b3691de54749ba584e8f7b89bf8e8698de50d9c2cd2027",
-    "sizeBytes": 122271
-  },
-  {
-    "assetId": "AST-7E5CED06E2742282",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/green.png",
-    "sha256": "7e5ced06e27422822dc46b41f32b1e061466c5764432c55a8c8f841d76aba5cf",
-    "sizeBytes": 280179
-  },
-  {
-    "assetId": "AST-4DADEF6E327965EB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/orange.jpg",
-    "sha256": "4dadef6e327965ebe7bd912a59a355a7512e2f852ae765bac0abfd5b23502850",
-    "sizeBytes": 124175
-  },
-  {
-    "assetId": "AST-6B2124E0BA037DF9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/orange.png",
-    "sha256": "6b2124e0ba037df94cfcc79fd073d7f2afb464af5a2f4c2f917ca4eadd7f6487",
-    "sizeBytes": 342151
-  },
-  {
-    "assetId": "AST-2ECB9FB37FE73FBF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/red.jpg",
-    "sha256": "2ecb9fb37fe73fbf752d66248700af8ca89fb10d7afb781f9ff76e958f177581",
-    "sizeBytes": 131821
-  },
-  {
-    "assetId": "AST-6FDD9C4B7D4C6E86",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/red.png",
-    "sha256": "6fdd9c4b7d4c6e8638afbbd3d4e85636b6a3ba22c4c4f8c57033fc45a7753ae2",
-    "sizeBytes": 360453
-  },
-  {
-    "assetId": "AST-A656FD64F4604DC5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz2awing/Textures/standard.jpg",
-    "sha256": "a656fd64f4604dc5b2404c16c873f9c71dc94fab47bd2ef3066e499f2fa54617",
-    "sizeBytes": 138013
+    "sha256": "828e05258d4277a4960b5736235fe1743c1c101424433d7f8dd722b4482efd58",
+    "sizeBytes": 229881
   },
   {
     "assetId": "AST-201937CD12639DC3",

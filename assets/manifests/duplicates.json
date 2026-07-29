@@ -310,15 +310,6 @@
     ]
   },
   {
-    "sha256": "1bfa19cd61c220394218c657aba0e6fb160eee138e85becb505fba32aa62d48d",
-    "assetId": "AST-1BFA19CD61C22039",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/ArvelCrynyd.jpg",
-      "assets/source/unified25/assets/ships-v2/small/rz1awing/Textures/standard.jpg"
-    ]
-  },
-  {
     "sha256": "1c947ab7123da10a8852a1e8adb4ac30b65b9cc141835291d8fe2980b648cb4d",
     "assetId": "AST-1C947AB7123DA10A",
     "fileCount": 2,

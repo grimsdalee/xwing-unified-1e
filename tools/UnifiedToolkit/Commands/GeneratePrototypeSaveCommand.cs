@@ -1942,6 +1942,14 @@ public static class GeneratePrototypeSaveCommand
         string? relative = null;
 
         if (assembly.ShipId.Equals(
+                "awing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "rz1awing/rz1awing.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "alphaclassstarwing",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -1964,6 +1972,14 @@ public static class GeneratePrototypeSaveCommand
             relative =
                 "assets/source/unified25/assets/ships-v2/small/" +
                 "tieadvancedx1/tieadvancedx1v2.obj";
+        }
+        else if (assembly.ShipId.Equals(
+                "tieaggressor",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tieagaggressor/tieagaggressor.obj";
         }
         else if (assembly.ShipId.Equals(
                 "tieadvprototype",
@@ -2266,6 +2282,122 @@ public static class GeneratePrototypeSaveCommand
                 "Maarek Stele" => "standard.jpg",
                 "Juno Eclipse" => "blue.jpg",
                 "Darth Vader" => "blue.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tiebomber",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Scimitar Squadron Pilot" => "standard.jpg",
+                "\"Deathfire\"" => "grey.jpg",
+                "Deathfire" => "grey.jpg",
+                "Gamma Squadron Pilot" => "standard.jpg",
+                "Gamma Squadron Veteran" => "grey.jpg",
+                "Captain Jonus" => "standard.jpg",
+                "Major Rhymer" => "standard.jpg",
+                "Tomax Bren" => "grey.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tiedefender",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Delta Squadron Pilot" => "standard.jpg",
+                "Onyx Squadron Pilot" => "standard.jpg",
+                "Countess Ryad" => "red.jpg",
+                "Colonel Vessery" => "standard.jpg",
+                "Glaive Squadron Pilot" => "red.jpg",
+                "Maarek Stele" => "blue.jpg",
+                "Rexler Brath" => "standard.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tiefighter",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Academy Pilot" => "standard.jpg",
+                "\"Chaser\"" => "blue.jpg",
+                "Chaser" => "blue.jpg",
+                "Obsidian Squadron Pilot" => "standard.jpg",
+                "\"Wampa\"" => "blue.jpg",
+                "Wampa" => "blue.jpg",
+                "Black Squadron Pilot" => "standard.jpg",
+                "\"Night Beast\"" => "standard.jpg",
+                "Night Beast" => "standard.jpg",
+                "\"Winged Gundark\"" => "standard.jpg",
+                "Winged Gundark" => "standard.jpg",
+                "\"Backstabber\"" => "standard.jpg",
+                "Backstabber" => "standard.jpg",
+                "\"Dark Curse\"" => "standard.jpg",
+                "Dark Curse" => "standard.jpg",
+                "\"Youngster\"" => "blue.jpg",
+                "Youngster" => "blue.jpg",
+                "\"Mauler Mithel\"" => "standard.jpg",
+                "Mauler Mithel" => "standard.jpg",
+                "\"Scourge\"" => "blue.jpg",
+                "Scourge" => "blue.jpg",
+                "\"Howlrunner\"" => "standard.jpg",
+                "Howlrunner" => "standard.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tieinterceptor",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Alpha Squadron Pilot" => "standard.jpg",
+                "Avenger Squadron Pilot" => "standard.jpg",
+                "Saber Squadron Pilot" => "181.jpg",
+                "\"Fel's Wrath\"" => "standard.jpg",
+                "Fel's Wrath" => "standard.jpg",
+                "Lieutenant Lorrir" => "181.jpg",
+                "Kir Kanos" => "red.jpg",
+                "Royal Guard Pilot" => "red.jpg",
+                "Tetran Cowall" => "181.jpg",
+                "Turr Phennir" => "181.jpg",
+                "Carnor Jax" => "red.jpg",
+                "Soontir Fel" => "181.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "galacticempire",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tiephantom",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Sigma Squadron Pilot" => "grey.jpg",
+                "Shadow Squadron Pilot" => "sigma.jpg",
+                "\"Echo\"" => "white.jpg",
+                "Echo" => "white.jpg",
+                "\"Whisper\"" => "standard.jpg",
+                "Whisper" => "standard.jpg",
                 _ => null
             };
         }
