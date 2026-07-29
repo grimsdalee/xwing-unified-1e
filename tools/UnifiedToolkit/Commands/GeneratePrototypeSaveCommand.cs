@@ -1935,6 +1935,14 @@ public static class GeneratePrototypeSaveCommand
         string? relative = null;
 
         if (assembly.ShipId.Equals(
+                "alphaclassstarwing",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "alphaclassstarwing/Alpha Class2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tiefofighter",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -1980,8 +1988,16 @@ public static class GeneratePrototypeSaveCommand
                 StringComparison.OrdinalIgnoreCase))
         {
             diagnostics.Add(
-                $"{assembly.ShipName} ShipModel corrected from TS_Save_43: " +
+                $"{assembly.ShipName} ShipModel corrected from confirmed Unified 2.5 object: " +
                 $"{model.RepositoryPath} -> {relative}");
+
+            RecordShipModelSelectionAudit(
+                repositoryRoot,
+                assembly,
+                model.RepositoryPath,
+                relative,
+                "Confirmed by comparing the generated validation save with a working Unified 2.5 spawned-ship save.",
+                "CleanupCandidate");
         }
 
         return new PrototypeAssetInput
@@ -1992,6 +2008,190 @@ public static class GeneratePrototypeSaveCommand
             FullPath = fullPath,
             Exists = true
         };
+    }
+
+    private static void RecordShipModelSelectionAudit(
+        string repositoryRoot,
+        PrototypeAssemblyInput assembly,
+        string rejectedModelPath,
+        string selectedModelPath,
+        string evidence,
+        string cleanupStatus)
+    {
+        if (rejectedModelPath.Equals(
+                selectedModelPath,
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return;
+        }
+
+        var reportFolder = Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "model-selection");
+        Directory.CreateDirectory(reportFolder);
+
+        var jsonPath = Path.Combine(
+            reportFolder,
+            "ship-model-selection-audit.json");
+        var csvPath = Path.Combine(
+            reportFolder,
+            "ship-model-selection-audit.csv");
+        var markdownPath = Path.Combine(
+            reportFolder,
+            "SHIP-MODEL-SELECTION-AUDIT.md");
+
+        var entries = File.Exists(jsonPath)
+            ? JsonSerializer.Deserialize<List<ShipModelSelectionAuditEntry>>(
+                  File.ReadAllText(jsonPath),
+                  JsonOptions)
+              ?? new List<ShipModelSelectionAuditEntry>()
+            : new List<ShipModelSelectionAuditEntry>();
+
+        var existingIndex = entries.FindIndex(entry =>
+            entry.Faction.Equals(
+                assembly.Faction,
+                StringComparison.OrdinalIgnoreCase)
+            && entry.ShipId.Equals(
+                assembly.ShipId,
+                StringComparison.OrdinalIgnoreCase)
+            && entry.RejectedModelPath.Equals(
+                rejectedModelPath,
+                StringComparison.OrdinalIgnoreCase)
+            && entry.SelectedModelPath.Equals(
+                selectedModelPath,
+                StringComparison.OrdinalIgnoreCase));
+
+        var entry = new ShipModelSelectionAuditEntry
+        {
+            Faction = assembly.Faction,
+            ShipId = assembly.ShipId,
+            ShipName = assembly.ShipName,
+            RejectedModelPath = NormalisePath(rejectedModelPath),
+            SelectedModelPath = NormalisePath(selectedModelPath),
+            Evidence = evidence,
+            CleanupStatus = cleanupStatus,
+            LastConfirmedUtc = DateTimeOffset.UtcNow
+        };
+
+        if (existingIndex >= 0)
+            entries[existingIndex] = entry;
+        else
+            entries.Add(entry);
+
+        entries = entries
+            .OrderBy(item => item.Faction, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(item => item.ShipName, StringComparer.OrdinalIgnoreCase)
+            .ThenBy(item => item.RejectedModelPath, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        File.WriteAllText(
+            jsonPath,
+            JsonSerializer.Serialize(entries, JsonOptions),
+            new UTF8Encoding(false));
+
+        using (var writer = new StreamWriter(
+                   csvPath,
+                   append: false,
+                   new UTF8Encoding(false)))
+        {
+            writer.WriteLine(
+                "Faction,ShipId,ShipName,RejectedModelPath,SelectedModelPath," +
+                "Evidence,CleanupStatus,LastConfirmedUtc");
+
+            foreach (var item in entries)
+            {
+                writer.WriteLine(string.Join(
+                    ",",
+                    CsvValue(item.Faction),
+                    CsvValue(item.ShipId),
+                    CsvValue(item.ShipName),
+                    CsvValue(item.RejectedModelPath),
+                    CsvValue(item.SelectedModelPath),
+                    CsvValue(item.Evidence),
+                    CsvValue(item.CleanupStatus),
+                    CsvValue(item.LastConfirmedUtc.ToString("O"))));
+            }
+        }
+
+        using (var writer = new StreamWriter(
+                   markdownPath,
+                   append: false,
+                   new UTF8Encoding(false)))
+        {
+            writer.WriteLine("# Ship Model Selection Audit");
+            writer.WriteLine();
+            writer.WriteLine(
+                "This report records model links rejected during visual validation " +
+                "and the confirmed OBJ selected instead.");
+            writer.WriteLine();
+            writer.WriteLine(
+                "> Files are never deleted automatically. Review all references, " +
+                "states, variants and duplicate-content records before cleanup.");
+            writer.WriteLine();
+            writer.WriteLine("| Faction | Ship | Rejected OBJ | Confirmed OBJ | Status |");
+            writer.WriteLine("|---|---|---|---|---|");
+
+            foreach (var item in entries)
+            {
+                writer.WriteLine(
+                    $"| {MarkdownCell(item.Faction)} " +
+                    $"| {MarkdownCell(item.ShipName)} " +
+                    $"| `{MarkdownCell(item.RejectedModelPath)}` " +
+                    $"| `{MarkdownCell(item.SelectedModelPath)}` " +
+                    $"| {MarkdownCell(item.CleanupStatus)} |");
+            }
+
+            writer.WriteLine();
+            writer.WriteLine("## Evidence");
+            writer.WriteLine();
+
+            foreach (var item in entries)
+            {
+                writer.WriteLine(
+                    $"- **{item.Faction} / {item.ShipName}:** {item.Evidence}");
+            }
+        }
+    }
+
+    private static string CsvValue(string value)
+    {
+        value ??= string.Empty;
+        return "\"" + value.Replace("\"", "\"\"", StringComparison.Ordinal) + "\"";
+    }
+
+    private static string MarkdownCell(string value) =>
+        (value ?? string.Empty)
+            .Replace("|", "\\|", StringComparison.Ordinal)
+            .Replace("\r", " ", StringComparison.Ordinal)
+            .Replace("\n", " ", StringComparison.Ordinal);
+
+    private static string? ResolveChildDirectoryCaseInsensitive(
+        string parentFolder,
+        string expectedName)
+    {
+        if (!Directory.Exists(parentFolder))
+            return null;
+
+        var matches = Directory
+            .EnumerateDirectories(parentFolder, "*", SearchOption.TopDirectoryOnly)
+            .Where(path => Path.GetFileName(path).Equals(
+                expectedName,
+                StringComparison.OrdinalIgnoreCase))
+            .OrderBy(path => Path.GetFileName(path), StringComparer.Ordinal)
+            .ToList();
+
+        if (matches.Count == 0)
+            return null;
+
+        if (matches.Count > 1)
+        {
+            throw new InvalidDataException(
+                $"Multiple case-variant texture directories were found beneath " +
+                $"{parentFolder}: {string.Join(", ", matches.Select(Path.GetFileName))}");
+        }
+
+        return matches[0];
     }
 
     private static PrototypeAssetInput CorrectPrototypeShipTexture(
@@ -2006,12 +2206,16 @@ public static class GeneratePrototypeSaveCommand
             ?? throw new InvalidDataException(
                 $"{assembly.ShipName} model has no parent folder: {modelPath}");
 
-        var texturesFolder = Path.Combine(shipFolder, "Textures");
-        if (!Directory.Exists(texturesFolder))
+        var texturesFolder = ResolveChildDirectoryCaseInsensitive(
+            shipFolder,
+            "Textures");
+
+        if (texturesFolder is null)
         {
             throw new InvalidDataException(
-                $"{assembly.ShipName} model folder has no sibling Textures folder. " +
-                $"Expected: {NormalisePath(Path.GetRelativePath(repositoryRoot, texturesFolder))}");
+                $"{assembly.ShipName} model folder has no sibling texture directory " +
+                $"named Textures or textures beneath: " +
+                NormalisePath(Path.GetRelativePath(repositoryRoot, shipFolder)));
         }
 
         var supportedExtensions = new HashSet<string>(
@@ -2132,6 +2336,14 @@ public static class GeneratePrototypeSaveCommand
                 $"X-Wing ShipModel corrected for visual prototype generation: " +
                 $"{model.RepositoryPath} -> {relative}. Open/closed V3 state " +
                 "models were also verified.");
+
+            RecordShipModelSelectionAudit(
+                repositoryRoot,
+                assembly,
+                model.RepositoryPath,
+                relative,
+                "Confirmed multipart X-Wing base model; open and closed V3 state models were also verified.",
+                "CleanupCandidate");
         }
 
         return new PrototypeAssetInput
@@ -2206,6 +2418,14 @@ public static class GeneratePrototypeSaveCommand
             $"{model.RepositoryPath} -> {relative}. " +
             "The open and closed wing-state models were also verified and will " +
             "be integrated when the B-Wing state-change runtime is implemented.");
+
+        RecordShipModelSelectionAudit(
+            repositoryRoot,
+            assembly,
+            model.RepositoryPath,
+            relative,
+            "The linked ShipModel was not the confirmed B-Wing base model; the base/open/closed model set was verified.",
+            "ReviewLinkAndCleanup");
 
         return new PrototypeAssetInput
         {
@@ -2518,6 +2738,18 @@ public static class GeneratePrototypeSaveCommand
             "[--runtime-templates <file>] [--asset-base-url <url>] " +
             "[--output <file>]");
     }
+}
+
+public sealed class ShipModelSelectionAuditEntry
+{
+    public string Faction { get; init; } = string.Empty;
+    public string ShipId { get; init; } = string.Empty;
+    public string ShipName { get; init; } = string.Empty;
+    public string RejectedModelPath { get; init; } = string.Empty;
+    public string SelectedModelPath { get; init; } = string.Empty;
+    public string Evidence { get; init; } = string.Empty;
+    public string CleanupStatus { get; init; } = string.Empty;
+    public DateTimeOffset LastConfirmedUtc { get; init; }
 }
 
 public sealed class PrototypeSaveGenerationManifest

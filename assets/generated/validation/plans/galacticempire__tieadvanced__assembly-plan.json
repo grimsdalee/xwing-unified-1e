@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T16:44:38.2917815+00:00",
+  "generatedUtc": "2026-07-29T17:28:27.3707073+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -73,8 +73,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -168,8 +168,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -263,8 +263,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -358,8 +358,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -453,8 +453,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -548,8 +548,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -643,8 +643,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -738,8 +738,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-718B1CF34559E1F6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/textures/standard.jpg",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

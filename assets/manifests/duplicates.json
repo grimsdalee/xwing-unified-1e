@@ -440,8 +440,8 @@
     "assetId": "AST-291304AD0E856EEA",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/standard.png"
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/standard.png"
     ]
   },
   {
@@ -449,7 +449,7 @@
     "assetId": "AST-293A90675023005A",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/netrem.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/netrem.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/NetremPollard.png"
     ]
   },
@@ -1295,8 +1295,8 @@
     "assetId": "AST-893996346E366A4C",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/standard.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/standard.jpg"
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/Textures/standard.jpg"
     ]
   },
   {
@@ -1556,7 +1556,7 @@
     "assetId": "AST-A8ED51193A8BA246",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/blade.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/blade.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/BladeSquadronVeteran.png"
     ]
   },
@@ -1736,7 +1736,7 @@
     "assetId": "AST-BDB6D9B010A7E3A2",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/plain.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/plain.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/PrimedBwing.png"
     ]
   },
@@ -1772,7 +1772,7 @@
     "assetId": "AST-C19E9913622084DF",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/hera.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/hera.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/HeraSyndulla.png"
     ]
   },
@@ -1817,8 +1817,8 @@
     "assetId": "AST-CAD0ADDEDF50EF89",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.jpg",
-      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/standard.jpg"
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.jpg",
+      "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/standard.jpg"
     ]
   },
   {
@@ -1871,7 +1871,7 @@
     "assetId": "AST-D2AD050CC3C520B4",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/gina.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/gina.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/GinaMoonsong.png"
     ]
   },
@@ -1961,7 +1961,7 @@
     "assetId": "AST-DB31ED4EEB436310",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/braylen.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/braylen.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/BraylenStramm.png"
     ]
   },
@@ -2015,7 +2015,7 @@
     "assetId": "AST-E49E518782887446",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/textures/tennumb.png",
+      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/tennumb.png",
       "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
     ]
   },
@@ -2213,8 +2213,8 @@
     "assetId": "AST-F998823017010FC6",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/textures/grey.jpg",
-      "assets/source/unified25/assets/ships-v2/small/tiesabomber/textures/grey.jpg"
+      "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/grey.jpg",
+      "assets/source/unified25/assets/ships-v2/small/tiesabomber/Textures/grey.jpg"
     ]
   },
   {

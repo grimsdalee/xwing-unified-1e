@@ -1,11 +1,11 @@
 {
-  "fileCount": 5462,
-  "uniqueAssetCount": 5186,
-  "totalBytes": 2084522469,
+  "fileCount": 5385,
+  "uniqueAssetCount": 5109,
+  "totalBytes": 2062335788,
   "duplicateFileCount": 276,
   "unavailableSourceCount": 566,
   "byWarehouse": {
-    "generated": 487,
+    "generated": 410,
     "first-edition-dial-textures": 5,
     "first-edition-dials": 56,
     "first-edition-maneuver-icons": 14,
@@ -20,8 +20,8 @@
     "model": 754,
     "lua": 229,
     "xml": 15,
-    "json": 79,
-    "other": 28,
+    "json": 3,
+    "other": 27,
     "pdf": 3,
     "text": 5
   }

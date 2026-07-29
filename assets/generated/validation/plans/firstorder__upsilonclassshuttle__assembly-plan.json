@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T16:44:36.6008542+00:00",
+  "generatedUtc": "2026-07-29T17:28:25.7079451+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -75,8 +75,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-291304AD0E856EEA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -172,8 +172,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-291304AD0E856EEA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -269,8 +269,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-291304AD0E856EEA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -366,8 +366,8 @@
         {
           "role": "ShipTexture",
           "assetId": "AST-291304AD0E856EEA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/textures/default.png",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/Textures/default.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
