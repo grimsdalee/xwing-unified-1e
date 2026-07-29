@@ -2202,6 +2202,50 @@ public static class GeneratePrototypeSaveCommand
         return matches[0];
     }
 
+    private static string ResolvePilotSpecificShipTexture(
+        PrototypeAssemblyInput assembly,
+        string texturesFolder,
+        IReadOnlyList<string> rootTextures,
+        string fallbackPath)
+    {
+        if (!assembly.Faction.Equals(
+                "galacticempire",
+                StringComparison.OrdinalIgnoreCase)
+            || !assembly.ShipId.Equals(
+                "firespray31",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return fallbackPath;
+        }
+
+        var fileName = assembly.PilotName switch
+        {
+            "Bounty Hunter" => "standard.jpg",
+            "Krassis Trelix" => "krassis.jpg",
+            "Kath Scarlet" => "kath.jpg",
+            "Boba Fett" => "boba.jpg",
+            _ => null
+        };
+
+        if (fileName is null)
+            return fallbackPath;
+
+        var selected = rootTextures.FirstOrDefault(path =>
+            Path.GetFileName(path).Equals(
+                fileName,
+                StringComparison.OrdinalIgnoreCase));
+
+        if (selected is null)
+        {
+            throw new InvalidDataException(
+                $"{assembly.PilotName} — {assembly.ShipName} default texture " +
+                $"was not found. Expected: " +
+                $"{NormalisePath(Path.Combine(texturesFolder, fileName))}");
+        }
+
+        return selected;
+    }
+
     private static PrototypeAssetInput CorrectPrototypeShipTexture(
         string repositoryRoot,
         PrototypeAssemblyInput assembly,
@@ -2257,6 +2301,12 @@ public static class GeneratePrototypeSaveCommand
             preferredStandardJpeg
             ?? alternateStandard
             ?? rootTextures[0];
+
+        selectedPath = ResolvePilotSpecificShipTexture(
+            assembly,
+            texturesFolder,
+            rootTextures,
+            selectedPath);
 
         var selectedRelative = NormalisePath(
             Path.GetRelativePath(repositoryRoot, selectedPath));
