@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T21:42:33.6928655+00:00",
+  "generatedUtc": "2026-07-29T22:00:34.680943+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -74,7 +74,7 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-718B1CF34559E1F6",
+          "assetId": "AST-310B1628F7CFC093",
           "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
@@ -171,7 +171,7 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-718B1CF34559E1F6",
+          "assetId": "AST-310B1628F7CFC093",
           "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
@@ -268,7 +268,7 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-718B1CF34559E1F6",
+          "assetId": "AST-310B1628F7CFC093",
           "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,
@@ -365,7 +365,7 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-718B1CF34559E1F6",
+          "assetId": "AST-310B1628F7CFC093",
           "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
           "exists": true,

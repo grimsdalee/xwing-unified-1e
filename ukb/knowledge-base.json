@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T21:30:22.0858739+00:00",
+  "generatedUtc": "2026-07-29T21:54:57.3351604+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -61643,8 +61643,8 @@
       {
         "assetId": "AST-40E8E8289E93A7E1",
         "sha256": "40e8e8289e93a7e126e7f2a6e78fd8687ba565c0588fcbf69456d26f25caa4fa",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1blue.jpg",
-        "fileName": "tieadvancedv1blue.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
+        "fileName": "blue.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
@@ -61652,65 +61652,19 @@
         "sizeBytes": 254297,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/tieadvancedv1/textures/1/tieadvancedv1blue.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-310B1628F7CFC093",
         "sha256": "310b1628f7cfc0937674c88215159bec298e7d5bc45d2dec8c35310c46628c4a",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1grey.jpg",
-        "fileName": "tieadvancedv1grey.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 268236,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/tieadvancedv1/textures/1/tieadvancedv1grey.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-4413C79D04E0D847",
-        "sha256": "4413c79d04e0d8470b0fdd45e795eaf176840703a71f5e223551be72075fe05e",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
-        "fileName": "blue.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 281776,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-718B1CF34559E1F6",
-        "sha256": "718b1cf34559e1f622770f2c34def78738871a301efa438bc265949459ab292b",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
         "fileName": "standard.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
         "isGenerated": false,
-        "sizeBytes": 255068,
+        "sizeBytes": 268236,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -129143,9 +129097,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5367,
-    "uniqueAssetCount": 5093,
-    "totalBytes": 2045337160,
+    "fileCount": 5365,
+    "uniqueAssetCount": 5091,
+    "totalBytes": 2044800316,
     "duplicateFileCount": 274,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -129156,11 +129110,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3197,
+      "unified25": 3195,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4331,
+      "image": 4329,
       "model": 754,
       "lua": 229,
       "xml": 15,

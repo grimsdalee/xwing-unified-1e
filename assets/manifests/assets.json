@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T21:30:21.6207817+00:00",
+  "generatedUtc": "2026-07-29T21:54:56.8653848+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5367,
-  "uniqueAssets": 5093,
+  "totalFiles": 5365,
+  "uniqueAssets": 5091,
   "duplicateFiles": 274,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-29T21:18:18.3339189Z"
+      "lastWriteTimeUtc": "2026-07-29T21:42:32.456169Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-29T21:18:22.5686347Z"
+      "lastWriteTimeUtc": "2026-07-29T21:42:37.2527552Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-29T21:18:26.5287978Z"
+      "lastWriteTimeUtc": "2026-07-29T21:42:42.1316498Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-29T21:18:27.2319754Z"
+      "lastWriteTimeUtc": "2026-07-29T21:42:43.0337548Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-29T21:18:30.5798971Z"
+      "lastWriteTimeUtc": "2026-07-29T21:42:46.4061407Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -35589,8 +35589,8 @@
     },
     {
       "assetId": "AST-40E8E8289E93A7E1",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1blue.jpg",
-      "fileName": "tieadvancedv1blue.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
+      "fileName": "blue.jpg",
       "extension": ".jpg",
       "kind": "image",
       "origin": "unified25",
@@ -35601,8 +35601,8 @@
     },
     {
       "assetId": "AST-310B1628F7CFC093",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1grey.jpg",
-      "fileName": "tieadvancedv1grey.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
+      "fileName": "standard.jpg",
       "extension": ".jpg",
       "kind": "image",
       "origin": "unified25",
@@ -35610,30 +35610,6 @@
       "sizeBytes": 268236,
       "sha256": "310b1628f7cfc0937674c88215159bec298e7d5bc45d2dec8c35310c46628c4a",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7334019Z"
-    },
-    {
-      "assetId": "AST-4413C79D04E0D847",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
-      "fileName": "blue.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 281776,
-      "sha256": "4413c79d04e0d8470b0fdd45e795eaf176840703a71f5e223551be72075fe05e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7375435Z"
-    },
-    {
-      "assetId": "AST-718B1CF34559E1F6",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
-      "fileName": "standard.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 255068,
-      "sha256": "718b1cf34559e1f622770f2c34def78738871a301efa438bc265949459ab292b",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7415574Z"
     },
     {
       "assetId": "AST-43E5A4473CB2B511",

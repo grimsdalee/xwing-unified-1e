@@ -17791,27 +17791,15 @@
   },
   {
     "assetId": "AST-40E8E8289E93A7E1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
     "sha256": "40e8e8289e93a7e126e7f2a6e78fd8687ba565c0588fcbf69456d26f25caa4fa",
     "sizeBytes": 254297
   },
   {
     "assetId": "AST-310B1628F7CFC093",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/1/tieadvancedv1grey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
     "sha256": "310b1628f7cfc0937674c88215159bec298e7d5bc45d2dec8c35310c46628c4a",
     "sizeBytes": 268236
-  },
-  {
-    "assetId": "AST-4413C79D04E0D847",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/blue.jpg",
-    "sha256": "4413c79d04e0d8470b0fdd45e795eaf176840703a71f5e223551be72075fe05e",
-    "sizeBytes": 281776
-  },
-  {
-    "assetId": "AST-718B1CF34559E1F6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/Textures/standard.jpg",
-    "sha256": "718b1cf34559e1f622770f2c34def78738871a301efa438bc265949459ab292b",
-    "sizeBytes": 255068
   },
   {
     "assetId": "AST-43E5A4473CB2B511",

@@ -1966,6 +1966,14 @@ public static class GeneratePrototypeSaveCommand
                 "tieadvancedx1/tieadvancedx1v2.obj";
         }
         else if (assembly.ShipId.Equals(
+                "tieadvprototype",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tieadvancedv1/tieadvv1v2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tiefofighter",
                 StringComparison.OrdinalIgnoreCase))
         {
