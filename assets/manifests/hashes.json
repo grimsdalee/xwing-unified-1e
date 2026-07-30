@@ -15714,36 +15714,6 @@
     "sizeBytes": 206858
   },
   {
-    "assetId": "AST-5F25DE37EE42049F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
-    "sha256": "5f25de37ee42049f50be17db0532c8af38b2c8eac45c6084972cd0bb818e5446",
-    "sizeBytes": 831080
-  },
-  {
-    "assetId": "AST-D2380AE89A749A5F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel2.jpg",
-    "sha256": "d2380ae89a749a5fc5e61ee4bf0a1432703af1ba1ab94731909778624e8c18af",
-    "sizeBytes": 177507
-  },
-  {
-    "assetId": "AST-7DF226716D4FF6B8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
-    "sha256": "7df226716d4ff6b8466038e214ff2da017f582121748bdb7e9b8accb02a36590",
-    "sizeBytes": 361396
-  },
-  {
-    "assetId": "AST-2C8CB8142BD0C035",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.jpg",
-    "sha256": "2c8cb8142bd0c035349e628fb4fc916e2c11a077faf7e3392dd061c961992e71",
-    "sizeBytes": 212787
-  },
-  {
-    "assetId": "AST-4667B361A7A1E45F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.png",
-    "sha256": "4667b361a7a1e45fb8ad52ea8835e8e78ce6a25f91aa117e42a3fc4e43486722",
-    "sizeBytes": 792419
-  },
-  {
     "assetId": "AST-B92A72BBC0085965",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republicblue.jpg",
     "sha256": "b92a72bbc0085965cebce1484e1a6ea567991c6d3f83b094dcda440817ffcc72",

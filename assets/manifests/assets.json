@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T23:43:31.8314926+00:00",
+  "generatedUtc": "2026-07-30T16:36:02.5161248+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5338,
-  "uniqueAssets": 5065,
+  "totalFiles": 5333,
+  "uniqueAssets": 5060,
   "duplicateFiles": 273,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-29T22:13:36.3007577Z"
+      "lastWriteTimeUtc": "2026-07-29T23:44:15.0977936Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-29T22:13:40.4609158Z"
+      "lastWriteTimeUtc": "2026-07-29T23:44:19.3928858Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-29T22:13:44.2709743Z"
+      "lastWriteTimeUtc": "2026-07-29T23:44:23.3643828Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-29T22:13:44.9252384Z"
+      "lastWriteTimeUtc": "2026-07-29T23:44:24.0668476Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-29T22:13:47.9571825Z"
+      "lastWriteTimeUtc": "2026-07-29T23:44:27.5157546Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -31434,66 +31434,6 @@
       "sizeBytes": 206858,
       "sha256": "46e5080d15a965a31faec8eb4f9eace1ef9ebc3a6851a1dc0687cd299b9d833e",
       "lastWriteTimeUtc": "2026-07-08T23:59:19.1723268Z"
-    },
-    {
-      "assetId": "AST-5F25DE37EE42049F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
-      "fileName": "rebel.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 831080,
-      "sha256": "5f25de37ee42049f50be17db0532c8af38b2c8eac45c6084972cd0bb818e5446",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1817109Z"
-    },
-    {
-      "assetId": "AST-D2380AE89A749A5F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel2.jpg",
-      "fileName": "rebel2.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 177507,
-      "sha256": "d2380ae89a749a5fc5e61ee4bf0a1432703af1ba1ab94731909778624e8c18af",
-      "lastWriteTimeUtc": "2026-07-29T15:23:56.4735513Z"
-    },
-    {
-      "assetId": "AST-7DF226716D4FF6B8",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
-      "fileName": "republic-blue.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 361396,
-      "sha256": "7df226716d4ff6b8466038e214ff2da017f582121748bdb7e9b8accb02a36590",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1855897Z"
-    },
-    {
-      "assetId": "AST-2C8CB8142BD0C035",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.jpg",
-      "fileName": "republic.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 212787,
-      "sha256": "2c8cb8142bd0c035349e628fb4fc916e2c11a077faf7e3392dd061c961992e71",
-      "lastWriteTimeUtc": "2026-07-29T15:23:56.5561189Z"
-    },
-    {
-      "assetId": "AST-4667B361A7A1E45F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.png",
-      "fileName": "republic.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 792419,
-      "sha256": "4667b361a7a1e45fb8ad52ea8835e8e78ce6a25f91aa117e42a3fc4e43486722",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1916095Z"
     },
     {
       "assetId": "AST-B92A72BBC0085965",

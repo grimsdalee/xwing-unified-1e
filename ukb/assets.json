@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-29T23:43:32.2804913+00:00",
+  "generatedUtc": "2026-07-30T16:36:02.9715469+00:00",
   "assets": [
     {
       "assetId": "AST-B0ABB46A052335ED",
@@ -54473,105 +54473,6 @@
         {
           "sourceSystem": "unified25",
           "sourceLocation": "assets/ships-v2/medium/arc170starfighter/Textures/black.jpg",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-5F25DE37EE42049F",
-      "sha256": "5f25de37ee42049f50be17db0532c8af38b2c8eac45c6084972cd0bb818e5446",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
-      "fileName": "rebel.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 831080,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-D2380AE89A749A5F",
-      "sha256": "d2380ae89a749a5fc5e61ee4bf0a1432703af1ba1ab94731909778624e8c18af",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel2.jpg",
-      "fileName": "rebel2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 177507,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-7DF226716D4FF6B8",
-      "sha256": "7df226716d4ff6b8466038e214ff2da017f582121748bdb7e9b8accb02a36590",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
-      "fileName": "republic-blue.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 361396,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-2C8CB8142BD0C035",
-      "sha256": "2c8cb8142bd0c035349e628fb4fc916e2c11a077faf7e3392dd061c961992e71",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.jpg",
-      "fileName": "republic.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 212787,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-4667B361A7A1E45F",
-      "sha256": "4667b361a7a1e45fb8ad52ea8835e8e78ce6a25f91aa117e42a3fc4e43486722",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.png",
-      "fileName": "republic.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 792419,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/arc170starfighter/Textures/republic.png",
           "importStatus": "copied",
           "importedUtc": null,
           "jsonPaths": []

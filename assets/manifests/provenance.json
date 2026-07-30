@@ -20952,46 +20952,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5F25DE37EE42049F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-D2380AE89A749A5F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/rebel2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7DF226716D4FF6B8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic-blue.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2C8CB8142BD0C035",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-4667B361A7A1E45F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republic.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-B92A72BBC0085965",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/republicblue.jpg",
     "origin": "unified25",

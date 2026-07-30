@@ -1942,6 +1942,14 @@ public static class GeneratePrototypeSaveCommand
         string? relative = null;
 
         if (assembly.ShipId.Equals(
+                "arc170",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/medium/" +
+                "arc170starfighter/arc.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "awing",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -2398,6 +2406,25 @@ public static class GeneratePrototypeSaveCommand
                 "Echo" => "white.jpg",
                 "\"Whisper\"" => "standard.jpg",
                 "Whisper" => "standard.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "awing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Prototype Pilot" => "blue.jpg",
+                "Green Squadron Pilot" => "green.jpg",
+                "Gemmer Sojan" => "standard.jpg",
+                "Arvel Crynyd" => "standard.jpg",
+                "Jake Farrell" => "blue.jpg",
+                "Tycho Celchu" => "standard.jpg",
                 _ => null
             };
         }
