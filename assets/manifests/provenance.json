@@ -21376,22 +21376,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-3695044E6FBBD6C9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/captain.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7A6FCCDD3F813835",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/captain2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-454FEEEEFB825752",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/plain.jpg",
     "origin": "unified25",
@@ -21416,40 +21400,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-1FBC7CE6668ABED3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/renegade.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-89C60873E858BAAF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/renegade2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-43534A605D1BA94C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-71A86200C83009AD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2C0691F4E19188DB",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/Textures/standard2.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22520,14 +22472,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5DCCA1A641BA95CC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-410FCA103F1A3F2E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Icon.png",
     "origin": "unified25",
@@ -22800,14 +22744,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-CDA0BADB53853872",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/BiggsDarklighter.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-E921CDF22B1D4D6B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/blue.jpg",
     "origin": "unified25",
@@ -22832,14 +22768,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-BFBEE263D2B39FC3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/CavernAngelsZealot.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-31B1FD3F4D7AB8A1",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/garven.jpg",
     "origin": "unified25",
@@ -22856,24 +22784,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-028AE218068C6CF7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/GarvenDreis.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-7D9DE33156DBD2AA",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/JekPorkins.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E5628EA4FF8D54EF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/JekPorkins.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22890,14 +22802,6 @@
   {
     "assetId": "AST-CB870CCC3F628DD0",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/LukeSkywalker.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-05F57151B2060884",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/LukeSkywalker.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22928,14 +22832,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-E4BCD79223A589C3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/standard.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-16146793F8BD92C9",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/thane.jpg",
     "origin": "unified25",
@@ -22952,14 +22848,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-C572BFEDF3E83B5F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/ThaneKyrell.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-8B995D081F02A6A5",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wedge.jpg",
     "origin": "unified25",
@@ -22970,14 +22858,6 @@
   {
     "assetId": "AST-1DBD8E59B3718544",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/WedgeAntilles.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-5944A52646CA6D27",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/WedgeAntilles.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

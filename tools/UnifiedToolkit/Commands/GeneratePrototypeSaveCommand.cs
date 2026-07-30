@@ -2510,6 +2510,27 @@ public static class GeneratePrototypeSaveCommand
             };
         }
 
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "uwing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Partisan Renegade" => "renegade.jpg",
+                "Blue Squadron Pathfinder" => "captain.jpg",
+                "Heff Tobber" => "standard.jpg",
+                "Benthic Two Tubes" => "renegade.jpg",
+                "Bodhi Rook" => "captain.jpg",
+                "Magva Yarro" => "renegade.jpg",
+                "Cassian Andor" => "captain.jpg",
+                "Saw Gerrera" => "renegade.jpg",
+                _ => null
+            };
+        }
+
         if (fileName is null)
             return fallbackPath;
 
