@@ -1959,6 +1959,7 @@ public static class GeneratePrototypeSaveCommand
         ICollection<string> diagnostics)
     {
         string? relative = null;
+        string? obsoleteRelative = null;
 
         if (assembly.ShipId.Equals(
                 "arc170",
@@ -2056,6 +2057,34 @@ public static class GeneratePrototypeSaveCommand
                 "assets/source/unified25/assets/ships-v2/small/" +
                 "sheathipedeclassshuttle/sheathipede2.obj";
         }
+        else if (assembly.ShipId.Equals(
+                     "yt1300",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "modifiedyt1300lightfreighter/yt1300modified.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "modifiedyt1300lightfreighter/rebel_falcon.obj";
+        }
+        else if (assembly.ShipId.Equals(
+                     "yt1300",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.Faction.Equals(
+                     "resistance",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "scavengedyt1300lightfreighter/yt1300scavenged.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "scavengedyt1300lightfreighter/scavengedyt1300.obj";
+        }
 
         if (relative is null)
             return model;
@@ -2064,6 +2093,25 @@ public static class GeneratePrototypeSaveCommand
             repositoryRoot,
             relative.Replace('/', Path.DirectorySeparatorChar));
         ValidateFile(fullPath, $"{assembly.ShipName} reference model");
+
+        if (!string.IsNullOrWhiteSpace(obsoleteRelative))
+        {
+            var obsoleteFullPath = Path.Combine(
+                repositoryRoot,
+                obsoleteRelative.Replace('/', Path.DirectorySeparatorChar));
+            ValidateFile(
+                obsoleteFullPath,
+                $"{assembly.ShipName} obsolete alternate model");
+
+            RecordShipModelSelectionAudit(
+                repositoryRoot,
+                assembly,
+                obsoleteRelative,
+                relative,
+                "Unified 2.5 masterShipDB confirms the selected production OBJ; " +
+                "the alternate OBJ in the same ship folder is unused and retained only for later cleanup review.",
+                "Obsolete");
+        }
 
         if (!model.RepositoryPath.Equals(
                 relative,

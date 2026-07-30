@@ -15337,69 +15337,63 @@
   },
   {
     "assetId": "AST-9B5825D8B419CC56",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/blue.jpg",
     "sha256": "9b5825d8b419cc56ee9e00bb9ff7b1819a2daafd057c63763febfb4ccb2f3fb8",
     "sizeBytes": 544363
   },
   {
     "assetId": "AST-ACEEB793E2ACA86B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/brown.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/brown.jpg",
     "sha256": "aceeb793e2aca86b0b1ed3a007df6010fa6ff19737e0d03de39c7ab632cafa1a",
     "sizeBytes": 514058
   },
   {
     "assetId": "AST-3CC4582F9124E6DE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/dark.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/dark.jpg",
     "sha256": "3cc4582f9124e6de6afef11e37d8d0d754468bdc992d4a01e009f4e565bc251e",
     "sizeBytes": 309687
   },
   {
     "assetId": "AST-82BF33838ECBAA3D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/dirty.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/dirty.jpg",
     "sha256": "82bf33838ecbaa3d636b0527e1ac87fb11ce1a4a2df776581690638082f515f9",
     "sizeBytes": 543348
   },
   {
     "assetId": "AST-C4EEB04087CFE25D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/plain.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/plain.jpg",
     "sha256": "c4eeb04087cfe25dd9dd16bbdd370093e8a9ccf8d8c3d87b6b79f5967e387f51",
     "sizeBytes": 546327
   },
   {
     "assetId": "AST-ABC5C7D76559CCFA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/rebel.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/rebel.jpg",
     "sha256": "abc5c7d76559ccfa3cbccca6f2600d36dcc4437587684716bf199c36db200b06",
     "sizeBytes": 552097
   },
   {
     "assetId": "AST-0567922F3C472332",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/red.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/red.jpg",
     "sha256": "0567922f3c472332ef312eaed7d77ffc2758f883997c46537c0db105c9094583",
     "sizeBytes": 570615
   },
   {
     "assetId": "AST-488EB2FA46DE39F5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/sabine.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/sabine.jpg",
     "sha256": "488eb2fa46de39f52869e54e7699bba7ee8ab11e68b28dfb16006900ddfd93ea",
     "sizeBytes": 635921
   },
   {
     "assetId": "AST-2505ADD150536BB9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/standard.jpg",
     "sha256": "2505add150536bb9d207d320c1921d3544fcb37e95a92c1ec13c5e4165d889b0",
     "sizeBytes": 550362
   },
   {
     "assetId": "AST-D4D926936E785B50",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/1/yellow.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/yellow.jpg",
     "sha256": "d4d926936e785b505f81b59ba77fd050a4b06c5d2f9f0aed28709d25168c1b88",
     "sizeBytes": 574080
-  },
-  {
-    "assetId": "AST-D1AFED46ACAF752C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/Textures/standard.jpg",
-    "sha256": "d1afed46acaf752ca0b8da68bdf809b1a76a9bfe7dbe24e552e1dc1bb62ca5c1",
-    "sizeBytes": 313084
   },
   {
     "assetId": "AST-DD59E7DA916E2691",
@@ -15421,75 +15415,69 @@
   },
   {
     "assetId": "AST-01DA728FCF3EC18C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/blackone.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/blackone.jpg",
     "sha256": "01da728fcf3ec18c303c3dcb1dfbce51a2ef4c2f005eddc3f8671efa94ce48db",
     "sizeBytes": 261319
   },
   {
     "assetId": "AST-9B5825D8B419CC56",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/blue.jpg",
     "sha256": "9b5825d8b419cc56ee9e00bb9ff7b1819a2daafd057c63763febfb4ccb2f3fb8",
     "sizeBytes": 544363
   },
   {
     "assetId": "AST-ACEEB793E2ACA86B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/brown.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/brown.jpg",
     "sha256": "aceeb793e2aca86b0b1ed3a007df6010fa6ff19737e0d03de39c7ab632cafa1a",
     "sizeBytes": 514058
   },
   {
     "assetId": "AST-2505ADD150536BB9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/classic.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/classic.jpg",
     "sha256": "2505add150536bb9d207d320c1921d3544fcb37e95a92c1ec13c5e4165d889b0",
     "sizeBytes": 550362
   },
   {
     "assetId": "AST-3CC4582F9124E6DE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/dark.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/dark.jpg",
     "sha256": "3cc4582f9124e6de6afef11e37d8d0d754468bdc992d4a01e009f4e565bc251e",
     "sizeBytes": 309687
   },
   {
     "assetId": "AST-C4EEB04087CFE25D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/plain.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/plain.jpg",
     "sha256": "c4eeb04087cfe25dd9dd16bbdd370093e8a9ccf8d8c3d87b6b79f5967e387f51",
     "sizeBytes": 546327
   },
   {
     "assetId": "AST-ABC5C7D76559CCFA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/rebel.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/rebel.jpg",
     "sha256": "abc5c7d76559ccfa3cbccca6f2600d36dcc4437587684716bf199c36db200b06",
     "sizeBytes": 552097
   },
   {
     "assetId": "AST-0567922F3C472332",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/red.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/red.jpg",
     "sha256": "0567922f3c472332ef312eaed7d77ffc2758f883997c46537c0db105c9094583",
     "sizeBytes": 570615
   },
   {
     "assetId": "AST-488EB2FA46DE39F5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/sabine.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/sabine.jpg",
     "sha256": "488eb2fa46de39f52869e54e7699bba7ee8ab11e68b28dfb16006900ddfd93ea",
     "sizeBytes": 635921
   },
   {
     "assetId": "AST-82BF33838ECBAA3D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/standard.jpg",
     "sha256": "82bf33838ecbaa3d636b0527e1ac87fb11ce1a4a2df776581690638082f515f9",
     "sizeBytes": 543348
   },
   {
     "assetId": "AST-D4D926936E785B50",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/1/yellow.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/yellow.jpg",
     "sha256": "d4d926936e785b505f81b59ba77fd050a4b06c5d2f9f0aed28709d25168c1b88",
     "sizeBytes": 574080
-  },
-  {
-    "assetId": "AST-230FE38184793A42",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/Textures/standard.jpg",
-    "sha256": "230fe38184793a4254f841aba9919cdd58ed521efbe3a86576291aef3187b4fd",
-    "sizeBytes": 317288
   },
   {
     "assetId": "AST-4AA650BAE34A2EAA",
