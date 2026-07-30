@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T19:27:22.5299267+00:00",
+  "generatedUtc": "2026-07-30T22:07:51.66994+00:00",
   "assets": [
     {
       "assetId": "AST-B0ABB46A052335ED",
@@ -55263,52 +55263,6 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-C82706889C98976D",
-      "sha256": "c82706889c98976dedd3d9bce5c0cee2f966212b43dbe14508f206b36a789fd5",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
-      "fileName": "orange.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 522981,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-39AEAB75991D7A05",
-      "sha256": "39aeab75991d7a05cef69e5ad9db8cead744fe04a163e2ae77f74e49529582bc",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/red.png",
-      "fileName": "red.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 630252,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/scurrgh6bomber/Textures/red.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
       "assetId": "AST-9785B17D561234E7",
       "sha256": "9785b17d561234e74a9dcd161c26146c10e9e3f14a6b9404c2c7cf98f3e97cb1",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/standard.jpg",
@@ -58415,8 +58369,8 @@
     {
       "assetId": "AST-0B8FAA8B6815F1FE",
       "sha256": "0b8faa8b6815f1fea66dddc5cfc0bb77a9b0c6f4ecc61b27d5eb53f40f2da136",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede2.obj",
-      "fileName": "Sheathipede2.obj",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+      "fileName": "sheathipede2.obj",
       "extension": ".obj",
       "assetType": "model",
       "warehouse": "unified25",
@@ -58451,29 +58405,6 @@
         {
           "sourceSystem": "unified25",
           "sourceLocation": "assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-0757FE668CCE126E",
-      "sha256": "0757fe668cce126e0f97001911da6ec507f5b0128afdf2a865ff60843048259c",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
-      "fileName": "standard.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 529099,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
           "importStatus": "copied",
           "importedUtc": null,
           "jsonPaths": []

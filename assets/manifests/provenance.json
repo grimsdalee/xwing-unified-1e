@@ -21288,22 +21288,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-C82706889C98976D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-39AEAB75991D7A05",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/red.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-9785B17D561234E7",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/standard.jpg",
     "origin": "unified25",
@@ -22521,7 +22505,7 @@
   },
   {
     "assetId": "AST-0B8FAA8B6815F1FE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede2.obj",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22530,14 +22514,6 @@
   {
     "assetId": "AST-FBEF5DD1EB8E9098",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0757FE668CCE126E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

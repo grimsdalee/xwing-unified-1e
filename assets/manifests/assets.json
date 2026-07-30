@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T19:27:22.1512939+00:00",
+  "generatedUtc": "2026-07-30T22:07:51.2655991+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5307,
-  "uniqueAssets": 5041,
+  "totalFiles": 5304,
+  "uniqueAssets": 5038,
   "duplicateFiles": 266,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-30T18:31:59.2022522Z"
+      "lastWriteTimeUtc": "2026-07-30T19:27:44.8059136Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-30T18:32:03.2778918Z"
+      "lastWriteTimeUtc": "2026-07-30T19:27:48.6214664Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-30T18:32:07.2663782Z"
+      "lastWriteTimeUtc": "2026-07-30T19:27:52.2162146Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-30T18:32:08.0545955Z"
+      "lastWriteTimeUtc": "2026-07-30T19:27:52.8495408Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-30T18:32:11.2779015Z"
+      "lastWriteTimeUtc": "2026-07-30T19:27:55.7270762Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -31940,30 +31940,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:23:58.8770347Z"
     },
     {
-      "assetId": "AST-C82706889C98976D",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
-      "fileName": "orange.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 522981,
-      "sha256": "c82706889c98976dedd3d9bce5c0cee2f966212b43dbe14508f206b36a789fd5",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.6647858Z"
-    },
-    {
-      "assetId": "AST-39AEAB75991D7A05",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/red.png",
-      "fileName": "red.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 630252,
-      "sha256": "39aeab75991d7a05cef69e5ad9db8cead744fe04a163e2ae77f74e49529582bc",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.6711866Z"
-    },
-    {
       "assetId": "AST-9785B17D561234E7",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/standard.jpg",
       "fileName": "standard.jpg",
@@ -33789,8 +33765,8 @@
     },
     {
       "assetId": "AST-0B8FAA8B6815F1FE",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede2.obj",
-      "fileName": "Sheathipede2.obj",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+      "fileName": "sheathipede2.obj",
       "extension": ".obj",
       "kind": "model",
       "origin": "unified25",
@@ -33810,18 +33786,6 @@
       "sizeBytes": 91031,
       "sha256": "fbef5dd1eb8e909884a093da92285d8f9c73371f01bf6c934ac6b55b74b12c6d",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.509742Z"
-    },
-    {
-      "assetId": "AST-0757FE668CCE126E",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
-      "fileName": "standard.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 529099,
-      "sha256": "0757fe668cce126e0f97001911da6ec507f5b0128afdf2a865ff60843048259c",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.5137428Z"
     },
     {
       "assetId": "AST-5DCCA1A641BA95CC",

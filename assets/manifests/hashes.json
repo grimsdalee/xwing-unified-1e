@@ -15966,18 +15966,6 @@
     "sizeBytes": 172182
   },
   {
-    "assetId": "AST-C82706889C98976D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.png",
-    "sha256": "c82706889c98976dedd3d9bce5c0cee2f966212b43dbe14508f206b36a789fd5",
-    "sizeBytes": 522981
-  },
-  {
-    "assetId": "AST-39AEAB75991D7A05",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/red.png",
-    "sha256": "39aeab75991d7a05cef69e5ad9db8cead744fe04a163e2ae77f74e49529582bc",
-    "sizeBytes": 630252
-  },
-  {
     "assetId": "AST-9785B17D561234E7",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/standard.jpg",
     "sha256": "9785b17d561234e74a9dcd161c26146c10e9e3f14a6b9404c2c7cf98f3e97cb1",
@@ -16891,7 +16879,7 @@
   },
   {
     "assetId": "AST-0B8FAA8B6815F1FE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede2.obj",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
     "sha256": "0b8faa8b6815f1fea66dddc5cfc0bb77a9b0c6f4ecc61b27d5eb53f40f2da136",
     "sizeBytes": 111704
   },
@@ -16900,12 +16888,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
     "sha256": "fbef5dd1eb8e909884a093da92285d8f9c73371f01bf6c934ac6b55b74b12c6d",
     "sizeBytes": 91031
-  },
-  {
-    "assetId": "AST-0757FE668CCE126E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.png",
-    "sha256": "0757fe668cce126e0f97001911da6ec507f5b0128afdf2a865ff60843048259c",
-    "sizeBytes": 529099
   },
   {
     "assetId": "AST-5DCCA1A641BA95CC",

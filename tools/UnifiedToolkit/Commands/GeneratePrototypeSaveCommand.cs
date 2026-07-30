@@ -2054,7 +2054,7 @@ public static class GeneratePrototypeSaveCommand
         {
             relative =
                 "assets/source/unified25/assets/ships-v2/small/" +
-                "sheathipedeclassshuttle/Sheathipede2.obj";
+                "sheathipedeclassshuttle/sheathipede2.obj";
         }
 
         if (relative is null)
@@ -2471,6 +2471,41 @@ public static class GeneratePrototypeSaveCommand
                 "Ibtisam" => "braylen.jpg",
                 "Keyan Farlander" => "standard.jpg",
                 "Ten Numb" => "tennumb.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "kwing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Warden Squadron Pilot" => "standard.jpg",
+                "Guardian Squadron Pilot" => "standard.jpg",
+                "Esege Tuketu" => "EsegeTuketu.jpg",
+                "Miranda Doni" => "standard.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "tiefighter",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "\"Zeb\" Orrelios" => "rebel.jpg",
+                "Zeb Orrelios" => "rebel.jpg",
+                "Captain Rex" => "rebel.jpg",
+                "Sabine Wren" => "rebel.jpg",
+                "Ahsoka Tano" => "rebel.jpg",
                 _ => null
             };
         }
