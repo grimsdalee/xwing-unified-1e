@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:17.1252415+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "hwk290",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/hwk290/spicerunner",
+      "shipId": "hwk290",
+      "shipName": "HWK-290",
+      "pilotId": "spicerunner",
+      "pilotName": "Spice Runner",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-2259871A23C1D545",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A94258B8FFB68B9C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-35536DA1D7C5A3E7",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/spice-runner.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/spice-runner.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-46FCC9D34245AE1A",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/hwk290/spicerunner__pilot-3ea7ff41ab8a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/hwk290/spicerunner__pilot-3ea7ff41ab8a.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "hwk290",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/hwk290/torkilmux",
+      "shipId": "hwk290",
+      "shipName": "HWK-290",
+      "pilotId": "torkilmux",
+      "pilotName": "Torkil Mux",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-2259871A23C1D545",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A94258B8FFB68B9C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-AA631291FDBFFACC",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/torkil-mux.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/torkil-mux.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-B31FFB5A64FF8750",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/hwk290/torkilmux__pilot-3e3851496a42.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/hwk290/torkilmux__pilot-3e3851496a42.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "hwk290",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/hwk290/palobgodalhi",
+      "shipId": "hwk290",
+      "shipName": "HWK-290",
+      "pilotId": "palobgodalhi",
+      "pilotName": "Palob Godalhi",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-2259871A23C1D545",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A94258B8FFB68B9C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-4B25761C3DD0159F",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/palob-godalhi.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/palob-godalhi.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-510788FEC877FC6F",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/hwk290/palobgodalhi__pilot-39582d5dad5c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/hwk290/palobgodalhi__pilot-39582d5dad5c.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "hwk290",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/hwk290/dacebonearm",
+      "shipId": "hwk290",
+      "shipName": "HWK-290",
+      "pilotId": "dacebonearm",
+      "pilotName": "Dace Bonearm",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-2259871A23C1D545",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A94258B8FFB68B9C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-15D2B4AA23E3ABE9",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/dace-bonearm.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/HWK-290/dace-bonearm.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-FF1AC8B9384CF808",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/hwk290/dacebonearm__pilot-5e5a8b3d8f0a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/hwk290/dacebonearm__pilot-5e5a8b3d8f0a.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

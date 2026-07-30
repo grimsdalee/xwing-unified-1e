@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:07.6332047+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "tiesffighter",
+      "expectedFaction": "",
+      "packageId": "firstorder/tiesffighter/zetaspecialist",
+      "shipId": "tiesffighter",
+      "shipName": "TIE/sf Fighter",
+      "pilotId": "zetaspecialist",
+      "pilotName": "Zeta Specialist",
+      "faction": "firstorder",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3s",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-77854E25A8B0DAB8",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-72E7496D7F5CA4E9",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-03F286F537575D8E",
+          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-AA586BB24050DD13",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/zeta-specialist.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/zeta-specialist.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-3AE19F1A1A425594",
+          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/zetaspecialist__pilot-a5c5858434ee.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesffighter/zetaspecialist__pilot-a5c5858434ee.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiesffighter",
+      "expectedFaction": "",
+      "packageId": "firstorder/tiesffighter/omegaspecialist",
+      "shipId": "tiesffighter",
+      "shipName": "TIE/sf Fighter",
+      "pilotId": "omegaspecialist",
+      "pilotName": "Omega Specialist",
+      "faction": "firstorder",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3s",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-77854E25A8B0DAB8",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-72E7496D7F5CA4E9",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-03F286F537575D8E",
+          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-BBB002BDB40E6EEB",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/omega-specialist.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/omega-specialist.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-A50D1D27CD971DDE",
+          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/omegaspecialist__pilot-2724127d2e7c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesffighter/omegaspecialist__pilot-2724127d2e7c.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiesffighter",
+      "expectedFaction": "",
+      "packageId": "firstorder/tiesffighter/backdraft",
+      "shipId": "tiesffighter",
+      "shipName": "TIE/sf Fighter",
+      "pilotId": "backdraft",
+      "pilotName": "\u0022Backdraft\u0022",
+      "faction": "firstorder",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3s",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-77854E25A8B0DAB8",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-72E7496D7F5CA4E9",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-03F286F537575D8E",
+          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-4531DE99F4B3AC0A",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/backdraft.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/backdraft.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-501CB24BE3A6B0EE",
+          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiesffighter",
+      "expectedFaction": "",
+      "packageId": "firstorder/tiesffighter/quickdraw",
+      "shipId": "tiesffighter",
+      "shipName": "TIE/sf Fighter",
+      "pilotId": "quickdraw",
+      "pilotName": "\u0022Quickdraw\u0022",
+      "faction": "firstorder",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl3s",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-77854E25A8B0DAB8",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-72E7496D7F5CA4E9",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesffighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-03F286F537575D8E",
+          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-200400CA55E42170",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/quickdraw.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE-sf Fighter/quickdraw.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-86AF4945AB3C74D6",
+          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesffighter/quickdraw__pilot-dd498faa74c0.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesffighter/quickdraw__pilot-dd498faa74c0.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

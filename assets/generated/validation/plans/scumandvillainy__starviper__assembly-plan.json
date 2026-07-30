@@ -1,0 +1,691 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:18.7812342+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 7,
+  "readyPrototypeCount": 7,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/blacksunenforcer",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "blacksunenforcer",
+      "pilotName": "Black Sun Enforcer",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-1FC184185245A6FB",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-enforcer.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-enforcer.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-91946484DC24E83F",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunenforcer__pilot-f72aa964c4de.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunenforcer__pilot-f72aa964c4de.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/blacksunvigo",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "blacksunvigo",
+      "pilotName": "Black Sun Vigo",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-5DF815759C0FD0C5",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-vigo.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-vigo.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4D55ED7F8A2777EF",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunvigo__pilot-6163bfc10154.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunvigo__pilot-6163bfc10154.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/thweek",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "thweek",
+      "pilotName": "Thweek",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-07B27DF9FF19A670",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/thweek.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/thweek.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-D507012C40D1733C",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/thweek__pilot-c91ee69af970.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/thweek__pilot-c91ee69af970.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/blacksunassassin",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "blacksunassassin",
+      "pilotName": "Black Sun Assassin",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C5CFBBC15156171B",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-assassin.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/black-sun-assassin.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F560E5ACA4E25C4A",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunassassin__pilot-e8e9694b8d34.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/blacksunassassin__pilot-e8e9694b8d34.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/guri",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "guri",
+      "pilotName": "Guri",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-19F490B5AAEEB353",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/guri.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/guri.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-42331185821C15F7",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/guri__pilot-0175b6fff67d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/guri__pilot-0175b6fff67d.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/dalanoberos",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "dalanoberos",
+      "pilotName": "Dalan Oberos",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-5DEC530203E8F36E",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/dalan-oberos.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/dalan-oberos.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-7B88A12F16038BBF",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/dalanoberos__pilot-4324fb797b41.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/dalanoberos__pilot-4324fb797b41.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "starviper",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/starviper/princexizor",
+      "shipId": "starviper",
+      "shipName": "StarViper",
+      "pilotId": "princexizor",
+      "pilotName": "Prince Xizor",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rbl3s",
+        "rtr3t",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-531821FC6A1C4714",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-6AB5F2089FF50000",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6D2E87E06F6E6649",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/prince-xizor.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/StarViper/prince-xizor.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-175B1FD28A13F6AF",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/starviper/princexizor__pilot-37d736f37a40.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/starviper/princexizor__pilot-37d736f37a40.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

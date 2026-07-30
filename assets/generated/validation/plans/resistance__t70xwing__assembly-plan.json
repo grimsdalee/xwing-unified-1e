@@ -1,0 +1,979 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:16.1259162+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 10,
+  "readyPrototypeCount": 10,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/bluesquadronnovice",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "bluesquadronnovice",
+      "pilotName": "Blue Squadron Novice",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-4C268B8475860EFE",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-squadron-novice.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-squadron-novice.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-E4F53353C15B36AB",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/bluesquadronnovice__pilot-a00822d36976.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/bluesquadronnovice__pilot-a00822d36976.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/jesspava",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "jesspava",
+      "pilotName": "Jess Pava",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-8742FEB9A8355F44",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/jess-pava.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/jess-pava.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-C9ADA10D9EF2A53F",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/jesspava__pilot-d2179eefc44b.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/jesspava__pilot-d2179eefc44b.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/redsquadronveteran",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "redsquadronveteran",
+      "pilotName": "Red Squadron Veteran",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-AC5B640A8D4B3B41",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-squadron-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-squadron-veteran.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-58E3B1C8FA781F76",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/redsquadronveteran__pilot-4539ad7a4461.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/redsquadronveteran__pilot-4539ad7a4461.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/blueace",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "blueace",
+      "pilotName": "\u0022Blue Ace\u0022",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-7E301DA4F3A6F5E5",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-ace.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/blue-ace.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-CC7ACC5FE7071B86",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/blueace__pilot-239a2913649d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/blueace__pilot-239a2913649d.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/redace",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "redace",
+      "pilotName": "\u0022Red Ace\u0022",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-5C102137A18E8838",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-ace.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/red-ace.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-74B19535ED647F56",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/redace__pilot-89695cd3445a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/redace__pilot-89695cd3445a.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/snapwexley",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "snapwexley",
+      "pilotName": "\u0022Snap\u0022 Wexley",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-E0BBB20755916A17",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/snap-wexley.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/snap-wexley.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-97B2BCE8B258C70E",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/snapwexley__pilot-4313f481bfd0.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/snapwexley__pilot-4313f481bfd0.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/elloasty",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "elloasty",
+      "pilotName": "Ello Asty",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-1A3D06CE2474E8AA",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/ello-asty.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/ello-asty.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-1740813F45372FC7",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/elloasty__pilot-037c78baf9e1.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/niennunb",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "niennunb",
+      "pilotName": "Nien Nunb",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-75B694C4BFF9F6D8",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/nien-nunb.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/nien-nunb.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-8C282BBD905E19D4",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/niennunb__pilot-dca9ee93e622.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/niennunb__pilot-dca9ee93e622.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/poedameron",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "poedameron",
+      "pilotName": "Poe Dameron",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-2F9155B15189AC5B",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-51223498F72B2A0C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/poe-dameron.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/poe-dameron.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-B7C5440B8FC3187B",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/poedameron-swx57__pilot-6f908e59d57f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/poedameron-swx57__pilot-6f908e59d57f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "t70xwing",
+      "expectedFaction": "",
+      "packageId": "resistance/t70xwing/poedameronswx57",
+      "shipId": "t70xwing",
+      "shipName": "T-70 X-wing",
+      "pilotId": "poedameron-swx57",
+      "pilotName": "Poe Dameron",
+      "faction": "resistance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rtl3t",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "rbr3s",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CC2716B2D1B764A0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-840C03FE4F2C64EE",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/t70xwing/t70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6640298F51F700E4",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/poe-dameron-hotr.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/T-70 X-wing/poe-dameron-hotr.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-B7C5440B8FC3187B",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/t70xwing/poedameron-swx57__pilot-6f908e59d57f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/t70xwing/poedameron-swx57__pilot-6f908e59d57f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

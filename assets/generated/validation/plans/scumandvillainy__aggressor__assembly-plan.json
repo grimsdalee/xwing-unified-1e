@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:16.5907778+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "aggressor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/aggressor/ig88a",
+      "shipId": "aggressor",
+      "shipName": "Aggressor",
+      "pilotId": "ig88a",
+      "pilotName": "IG-88A",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "bbl3",
+        "bs3",
+        "bbr3",
+        "rbl3s",
+        "rtr3t",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-312C95D86055232C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A806758CCBE6D251",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6A2ABE8C92D6C70F",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88a.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-25AD73F5B8B622E2",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88a__pilot-386ee2761a70.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88a__pilot-386ee2761a70.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "aggressor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/aggressor/ig88b",
+      "shipId": "aggressor",
+      "shipName": "Aggressor",
+      "pilotId": "ig88b",
+      "pilotName": "IG-88B",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "bbl3",
+        "bs3",
+        "bbr3",
+        "rbl3s",
+        "rtr3t",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-312C95D86055232C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A806758CCBE6D251",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-059F59D4617995D5",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88b.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88b.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-67BB613C73B6F09F",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88b__pilot-22931f77e0c5.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88b__pilot-22931f77e0c5.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "aggressor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/aggressor/ig88c",
+      "shipId": "aggressor",
+      "shipName": "Aggressor",
+      "pilotId": "ig88c",
+      "pilotName": "IG-88C",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "bbl3",
+        "bs3",
+        "bbr3",
+        "rbl3s",
+        "rtr3t",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-312C95D86055232C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A806758CCBE6D251",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-94487D442F77D73F",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88c.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-A1BFAB2D7FDAF3DF",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88c__pilot-f3936ab17701.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88c__pilot-f3936ab17701.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "aggressor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/aggressor/ig88d",
+      "shipId": "aggressor",
+      "shipName": "Aggressor",
+      "pilotId": "ig88d",
+      "pilotName": "IG-88D",
+      "faction": "scumandvillainy",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "bbl3",
+        "bs3",
+        "bbr3",
+        "rbl3s",
+        "rtr3t",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "B",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-312C95D86055232C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-A806758CCBE6D251",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-36C8BFABEC14E158",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Aggressor/ig-88d.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-6F6385A3025D5343",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88d__pilot-2e5d2cad25b4.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/aggressor/ig88d__pilot-2e5d2cad25b4.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

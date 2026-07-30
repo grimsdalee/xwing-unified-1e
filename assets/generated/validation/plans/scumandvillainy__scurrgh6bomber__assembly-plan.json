@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:18.6020304+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "scurrgh6bomber",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/scurrgh6bomber/karthakkpirate",
+      "shipId": "scurrgh6bomber",
+      "shipName": "Scurrg H-6 Bomber",
+      "pilotId": "karthakkpirate",
+      "pilotName": "Karthakk Pirate",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3t",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rbr3s",
+        "ws4",
+        "rs5"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CB1CB2E162869313",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-58D5E94CD38FA4E1",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-0775DFD3F5A818AD",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/karthakk-pirate.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/karthakk-pirate.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-22CCFE364952692B",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/karthakkpirate__pilot-fa5e5d36dbca.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/karthakkpirate__pilot-fa5e5d36dbca.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "scurrgh6bomber",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/scurrgh6bomber/lokrevenant",
+      "shipId": "scurrgh6bomber",
+      "shipName": "Scurrg H-6 Bomber",
+      "pilotId": "lokrevenant",
+      "pilotName": "Lok Revenant",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3t",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rbr3s",
+        "ws4",
+        "rs5"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CB1CB2E162869313",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-58D5E94CD38FA4E1",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-2024A252263334C6",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/lok-revenant.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/lok-revenant.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-457344B5DD62AC1F",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "scurrgh6bomber",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/scurrgh6bomber/solsixxa",
+      "shipId": "scurrgh6bomber",
+      "shipName": "Scurrg H-6 Bomber",
+      "pilotId": "solsixxa",
+      "pilotName": "Sol Sixxa",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3t",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rbr3s",
+        "ws4",
+        "rs5"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CB1CB2E162869313",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-58D5E94CD38FA4E1",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C45F70BEDE266119",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/sol-sixxa.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/sol-sixxa.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-D5371D3708AB7D11",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/solsixxa__pilot-39658d5b350b.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/solsixxa__pilot-39658d5b350b.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "scurrgh6bomber",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/scurrgh6bomber/captainnym",
+      "shipId": "scurrgh6bomber",
+      "shipName": "Scurrg H-6 Bomber",
+      "pilotId": "captainnym",
+      "pilotName": "Captain Nym",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3t",
+        "rtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rtr3",
+        "rbr3s",
+        "ws4",
+        "rs5"
+      ],
+      "actSet": [
+        "BR",
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-CB1CB2E162869313",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-58D5E94CD38FA4E1",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-F04D1865D150E0BB",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/captain-nym.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Scurrg H-6 Bomber/captain-nym.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-0D8B75CB192EE51A",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

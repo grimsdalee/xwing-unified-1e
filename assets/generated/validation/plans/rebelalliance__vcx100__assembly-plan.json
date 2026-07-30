@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:14.6585572+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "vcx100",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/vcx100/lothalrebel",
+      "shipId": "vcx100",
+      "shipName": "VCX-100",
+      "pilotId": "lothalrebel",
+      "pilotName": "Lothal Rebel",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "rtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "E",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F129EEB47D82CE08",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-35D56086ABC8BC10",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6E3EC79ED2BEDF98",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/lothal-rebel.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/lothal-rebel.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-121212B4DCDF8E50",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/vcx100/lothalrebel__pilot-ba7fb595439c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/vcx100/lothalrebel__pilot-ba7fb595439c.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "vcx100",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/vcx100/chopper",
+      "shipId": "vcx100",
+      "shipName": "VCX-100",
+      "pilotId": "chopper",
+      "pilotName": "\u0022Chopper\u0022",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "rtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "E",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F129EEB47D82CE08",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-35D56086ABC8BC10",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-67E943D8CF5AE6E0",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/chopper.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/chopper.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-2E8DBEF6DEF186C9",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "vcx100",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/vcx100/kananjarrus",
+      "shipId": "vcx100",
+      "shipName": "VCX-100",
+      "pilotId": "kananjarrus",
+      "pilotName": "Kanan Jarrus",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "rtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "E",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F129EEB47D82CE08",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-35D56086ABC8BC10",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-BF9E5B4A66133AA2",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/kanan-jarrus.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/kanan-jarrus.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4E7D1A18C59B83FF",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/vcx100/kananjarrus__pilot-3e85bcef81a8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/vcx100/kananjarrus__pilot-3e85bcef81a8.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "vcx100",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/vcx100/herasyndulla",
+      "shipId": "vcx100",
+      "shipName": "VCX-100",
+      "pilotId": "herasyndulla",
+      "pilotName": "Hera Syndulla",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "rtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "rtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "E",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F129EEB47D82CE08",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/vcx100.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-35D56086ABC8BC10",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vcx100lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-54965E4EFE2B9149",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/hera-syndulla.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/VCX-100/hera-syndulla.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4A086EE1EAE7614E",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/vcx100/herasyndulla__pilot-4b3605e8aae6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/vcx100/herasyndulla__pilot-4b3605e8aae6.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

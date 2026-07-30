@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-30T23:10:08.0568282+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "alphaclassstarwing",
+      "expectedFaction": "",
+      "packageId": "galacticempire/alphaclassstarwing/nusquadronpilot",
+      "shipId": "alphaclassstarwing",
+      "shipName": "Alpha-class Star Wing",
+      "pilotId": "nusquadronpilot",
+      "pilotName": "Nu Squadron Pilot",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [
+        "Reload",
+        "SLAM"
+      ],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": [],
+        "reloadControl": "FirstEditionReloadControl",
+        "slamControl": "FirstEditionSlamControl"
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-BCD4A6DFBD9A6437",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-553E4AEDD00554FF",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-5FC6A0A42232DA44",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "alphaclassstarwing",
+      "expectedFaction": "",
+      "packageId": "galacticempire/alphaclassstarwing/rhosquadronveteran",
+      "shipId": "alphaclassstarwing",
+      "shipName": "Alpha-class Star Wing",
+      "pilotId": "rhosquadronveteran",
+      "pilotName": "Rho Squadron Veteran",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [
+        "Reload",
+        "SLAM"
+      ],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": [],
+        "reloadControl": "FirstEditionReloadControl",
+        "slamControl": "FirstEditionSlamControl"
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-BCD4A6DFBD9A6437",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-2F66CE4C556D2176",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-BAE5B788B019D990",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "alphaclassstarwing",
+      "expectedFaction": "",
+      "packageId": "galacticempire/alphaclassstarwing/lieutenantkarsabi",
+      "shipId": "alphaclassstarwing",
+      "shipName": "Alpha-class Star Wing",
+      "pilotId": "lieutenantkarsabi",
+      "pilotName": "Lieutenant Karsabi",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [
+        "Reload",
+        "SLAM"
+      ],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": [],
+        "reloadControl": "FirstEditionReloadControl",
+        "slamControl": "FirstEditionSlamControl"
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-BCD4A6DFBD9A6437",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-0E4A689DBEBDFF31",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F634F169E504E246",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "alphaclassstarwing",
+      "expectedFaction": "",
+      "packageId": "galacticempire/alphaclassstarwing/majorvynder",
+      "shipId": "alphaclassstarwing",
+      "shipName": "Alpha-class Star Wing",
+      "pilotId": "majorvynder",
+      "pilotName": "Major Vynder",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [
+        "Reload",
+        "SLAM"
+      ],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": [],
+        "reloadControl": "FirstEditionReloadControl",
+        "slamControl": "FirstEditionSlamControl"
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-BCD4A6DFBD9A6437",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-7C72733C6E341A6A",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-291FF5833FC5BD4E",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

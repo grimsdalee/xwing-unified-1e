@@ -16914,238 +16914,76 @@
     "sizeBytes": 2659
   },
   {
-    "assetId": "AST-920950FA4BC46464",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/biggs.jpg",
-    "sha256": "920950fa4bc46464deeb7f589b4d2cd71818de15e685f909189889340ced70ce",
-    "sizeBytes": 229849
-  },
-  {
-    "assetId": "AST-E921CDF22B1D4D6B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/blue.jpg",
-    "sha256": "e921cdf22b1d4d6ba4f0af91824b80637f2f4a16b8bf18e8aaca51508f09958d",
-    "sizeBytes": 258547
-  },
-  {
-    "assetId": "AST-CD0C1CCAF02A3AF5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/cavernangels.jpg",
-    "sha256": "cd0c1ccaf02a3af5fe4740a25a1cceb610866afa414d7316c5560b18b6b8c27f",
-    "sizeBytes": 182075
-  },
-  {
-    "assetId": "AST-31B1FD3F4D7AB8A1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/garven.jpg",
-    "sha256": "31b1fd3f4d7ab8a1c3c088ca34f237bc4d4d913ab43848a67cbdea1bbe4f8422",
-    "sizeBytes": 256830
-  },
-  {
-    "assetId": "AST-2308AE952FB01C43",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/luke.jpg",
-    "sha256": "2308ae952fb01c43c8821b45cad2dda165a2b622acaa81984c83927344fb78f3",
-    "sizeBytes": 272520
-  },
-  {
-    "assetId": "AST-B345C9C0DE9F8A32",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/porkins.jpg",
-    "sha256": "b345c9c0de9f8a32740335bf908ffe130f1e23ee0b1cc35ce2d60e2a250b7bdf",
-    "sizeBytes": 233289
-  },
-  {
-    "assetId": "AST-52EEB61C3721DE9E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/red.jpg",
-    "sha256": "52eeb61c3721de9eef96786241e4fa91edd83e1e4e5c4d295a275f9b96e147b4",
-    "sizeBytes": 256368
-  },
-  {
-    "assetId": "AST-16146793F8BD92C9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/thane.jpg",
-    "sha256": "16146793f8bd92c9bfda26f7e0fc32f877b22c10e09d744cedc92c949abfb41c",
-    "sizeBytes": 256867
-  },
-  {
-    "assetId": "AST-8B995D081F02A6A5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/1/wedge.jpg",
-    "sha256": "8b995d081f02a6a5636f60bfad2373660ee91c8e3c3f12b66060a769a8cdd723",
-    "sizeBytes": 230311
-  },
-  {
     "assetId": "AST-1889AE3C081F0595",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/biggs.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/biggs.jpg",
     "sha256": "1889ae3c081f0595f36c3bae7a8f56ab32c5c28b3eded430cdf974ffd601bdff",
     "sizeBytes": 237646
   },
   {
     "assetId": "AST-F895844BD3FFAFA3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/blue.jpg",
     "sha256": "f895844bd3ffafa315f2e1fb27bcec64a354a3160660f9097b5feaf2a07f6367",
     "sizeBytes": 256972
   },
   {
     "assetId": "AST-C7EF305251BFDB78",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/cavernangels.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/cavernangels.jpg",
     "sha256": "c7ef305251bfdb78f6dc4525ad578f878397322d95b0ad24b7618e25491f7d0f",
     "sizeBytes": 238606
   },
   {
     "assetId": "AST-135214576FA3A814",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/garven.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/garven.jpg",
     "sha256": "135214576fa3a8146b1a8dadc19be55c1760b3b0f69216e55a77af89fc4375ec",
     "sizeBytes": 273944
   },
   {
     "assetId": "AST-FAD5F44B6C54CCC0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/luke.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/luke.jpg",
     "sha256": "fad5f44b6c54ccc0bd8017c8b2f59ccb5a8fc982831dbb9f1ac6ebf131d9ae19",
     "sizeBytes": 294391
   },
   {
     "assetId": "AST-ED60304582F3DD0A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/merrick.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/merrick.jpg",
     "sha256": "ed60304582f3dd0a5537214f5dfa325ee60d49fb00d7f81daa07e4f9e4563537",
     "sizeBytes": 371108
   },
   {
-    "assetId": "AST-66F8DA4A366211E1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/merrick.png",
-    "sha256": "66f8da4a366211e1d996519c5a00f79ceb2f0b80f59d819c2979650840c2e07d",
-    "sizeBytes": 1488484
-  },
-  {
     "assetId": "AST-2BBFC32086B12434",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/porkins.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/porkins.jpg",
     "sha256": "2bbfc32086b12434182f5150093ef648eee9e7655b03ad2fcb129fc07d318de6",
     "sizeBytes": 251861
   },
   {
-    "assetId": "AST-85420ED033B6AAFE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/red.jpg",
-    "sha256": "85420ed033b6aafeed4b2ad26e28c924ee6d89c0bac6b63411c5b11a36719f64",
-    "sizeBytes": 250638
-  },
-  {
     "assetId": "AST-438955C6A25344B3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/redder.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/redder.jpg",
     "sha256": "438955c6a25344b3248bd4c6cc4ba81623deec9e31463a3acd5cb9b2753e1859",
     "sizeBytes": 258541
   },
   {
+    "assetId": "AST-85420ED033B6AAFE",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/standard.jpg",
+    "sha256": "85420ed033b6aafeed4b2ad26e28c924ee6d89c0bac6b63411c5b11a36719f64",
+    "sizeBytes": 250638
+  },
+  {
     "assetId": "AST-74D5A00DC2EA5717",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/thane.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/thane.jpg",
     "sha256": "74d5a00dc2ea57176e868359514ae9130372e204363a2b249698c2c3f58a1e55",
     "sizeBytes": 250701
   },
   {
     "assetId": "AST-B999619FDDA8C4A0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/wedge.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wedge.jpg",
     "sha256": "b999619fdda8c4a09334df5290298227b011975df30dabfb4758f89737225960",
     "sizeBytes": 257114
   },
   {
     "assetId": "AST-7A29BD23E7D33F33",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/2/wes.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wes.jpg",
     "sha256": "7a29bd23e7d33f331e1d4a1b78d2df5655fc98810ca3b538f0bb9246de78006a",
     "sizeBytes": 262783
-  },
-  {
-    "assetId": "AST-920950FA4BC46464",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/biggs.jpg",
-    "sha256": "920950fa4bc46464deeb7f589b4d2cd71818de15e685f909189889340ced70ce",
-    "sizeBytes": 229849
-  },
-  {
-    "assetId": "AST-7C0F704AD5778F07",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/BiggsDarklighter.jpg",
-    "sha256": "7c0f704ad5778f079159628f9da172da47c44a2c8d74d8035ac4f8fc4d6b5c2a",
-    "sizeBytes": 148777
-  },
-  {
-    "assetId": "AST-E921CDF22B1D4D6B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/blue.jpg",
-    "sha256": "e921cdf22b1d4d6ba4f0af91824b80637f2f4a16b8bf18e8aaca51508f09958d",
-    "sizeBytes": 258547
-  },
-  {
-    "assetId": "AST-CD0C1CCAF02A3AF5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/cavernangels.jpg",
-    "sha256": "cd0c1ccaf02a3af5fe4740a25a1cceb610866afa414d7316c5560b18b6b8c27f",
-    "sizeBytes": 182075
-  },
-  {
-    "assetId": "AST-925A6BEDD982AA4B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/CavernAngelsZealot.jpg",
-    "sha256": "925a6bedd982aa4be6613ad2719069361686aa8a067b9247a589408741d595d2",
-    "sizeBytes": 116648
-  },
-  {
-    "assetId": "AST-31B1FD3F4D7AB8A1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/garven.jpg",
-    "sha256": "31b1fd3f4d7ab8a1c3c088ca34f237bc4d4d913ab43848a67cbdea1bbe4f8422",
-    "sizeBytes": 256830
-  },
-  {
-    "assetId": "AST-A24950EE405CD8A6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/GarvenDreis.jpg",
-    "sha256": "a24950ee405cd8a67c89f00f898fcebf36bf0662e8da44017699e321204d3f42",
-    "sizeBytes": 155998
-  },
-  {
-    "assetId": "AST-7D9DE33156DBD2AA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/JekPorkins.jpg",
-    "sha256": "7d9de33156dbd2aab79b16034c557adb4c869c035fdc8db862ae3ddfb9152f92",
-    "sizeBytes": 155128
-  },
-  {
-    "assetId": "AST-2308AE952FB01C43",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/luke.jpg",
-    "sha256": "2308ae952fb01c43c8821b45cad2dda165a2b622acaa81984c83927344fb78f3",
-    "sizeBytes": 272520
-  },
-  {
-    "assetId": "AST-CB870CCC3F628DD0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/LukeSkywalker.jpg",
-    "sha256": "cb870ccc3f628dd089e15ff8f9b7f9fb418fc7aa7d3fbb23576d3e4d6fd485c1",
-    "sizeBytes": 156513
-  },
-  {
-    "assetId": "AST-B345C9C0DE9F8A32",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/porkins.jpg",
-    "sha256": "b345c9c0de9f8a32740335bf908ffe130f1e23ee0b1cc35ce2d60e2a250b7bdf",
-    "sizeBytes": 233289
-  },
-  {
-    "assetId": "AST-52EEB61C3721DE9E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/red.jpg",
-    "sha256": "52eeb61c3721de9eef96786241e4fa91edd83e1e4e5c4d295a275f9b96e147b4",
-    "sizeBytes": 256368
-  },
-  {
-    "assetId": "AST-63BA5A05971D65D8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/standard.jpg",
-    "sha256": "63ba5a05971d65d82588675c3a082443361c360f18f476e74c5b4eaf6eef52c7",
-    "sizeBytes": 156335
-  },
-  {
-    "assetId": "AST-16146793F8BD92C9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/thane.jpg",
-    "sha256": "16146793f8bd92c9bfda26f7e0fc32f877b22c10e09d744cedc92c949abfb41c",
-    "sizeBytes": 256867
-  },
-  {
-    "assetId": "AST-736F728029C54D23",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/ThaneKyrell.jpg",
-    "sha256": "736f728029c54d2373da093f97d52f81513c6cbb031cec461a4b26dd2579b53d",
-    "sizeBytes": 155247
-  },
-  {
-    "assetId": "AST-8B995D081F02A6A5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/wedge.jpg",
-    "sha256": "8b995d081f02a6a5636f60bfad2373660ee91c8e3c3f12b66060a769a8cdd723",
-    "sizeBytes": 230311
-  },
-  {
-    "assetId": "AST-1DBD8E59B3718544",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/Textures/WedgeAntilles.jpg",
-    "sha256": "1dbd8e59b3718544c4c7525813827e2191b682d81ee2faade06d1a54af802b0b",
-    "sizeBytes": 151272
   },
   {
     "assetId": "AST-7CD2EE00223E78C2",

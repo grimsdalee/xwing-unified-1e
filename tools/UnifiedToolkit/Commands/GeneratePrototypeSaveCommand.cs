@@ -2531,6 +2531,37 @@ public static class GeneratePrototypeSaveCommand
             };
         }
 
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "xwing",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "t65xwing",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Cavern Angels Zealot" => "cavernangels.jpg",
+                "Rookie Pilot" => "redder.jpg",
+                "Tarn Mison" => "standard.jpg",
+                "Edrio Two Tubes" => "cavernangels.jpg",
+                "Red Squadron Pilot" => "biggs.jpg",
+                "\"Hobbie\" Klivian" => "biggs.jpg",
+                "Hobbie Klivian" => "biggs.jpg",
+                "Biggs Darklighter" => "biggs.jpg",
+                "Leevan Tenza" => "cavernangels.jpg",
+                "Garven Dreis" => "garven.jpg",
+                "Jek Porkins" => "porkins.jpg",
+                "Kullbee Sperado" => "cavernangels.jpg",
+                "Luke Skywalker" => "luke.jpg",
+                "Wes Janson" => "wes.jpg",
+                "Wedge Antilles" => "wedge.jpg",
+                _ => null
+            };
+        }
+
         if (fileName is null)
             return fallbackPath;
 
@@ -2647,6 +2678,11 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    // Authoritative T-65 X-wing multipart model set, confirmed against a
+    // spawned Unified 2.5 X-wing:
+    //   xwingbasev3.obj
+    //   xwingopenv3.obj
+    //   xwingclosedv3.obj
     private static PrototypeAssetInput CorrectXWingMultipartModel(
         string repositoryRoot,
         PrototypeAssemblyInput assembly,
