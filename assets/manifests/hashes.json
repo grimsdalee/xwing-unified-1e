@@ -15744,34 +15744,16 @@
     "sizeBytes": 141789
   },
   {
-    "assetId": "AST-42E08B55DC985627",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.png",
-    "sha256": "42e08b55dc9856272e9b1a23ea243a26ae22e3884ba3852a799c64edf223312d",
-    "sizeBytes": 311485
-  },
-  {
     "assetId": "AST-28BC4C2792FC7201",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
     "sha256": "28bc4c2792fc72017a60ff4f3c938e38c2824b1fc30dfb4e74946b40c0a2b499",
     "sizeBytes": 120448
   },
   {
-    "assetId": "AST-BD2BBC8D4173484B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.png",
-    "sha256": "bd2bbc8d4173484bbfdb631f2992b7dc829c22d15d527f69a775cb38cfa276cf",
-    "sizeBytes": 256364
-  },
-  {
     "assetId": "AST-667AF7907FA8D820",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/white.jpg",
     "sha256": "667af7907fa8d82039ca22d11749cf82a076f94d4cea59874c52d99b2f1ddb01",
     "sizeBytes": 113233
-  },
-  {
-    "assetId": "AST-23A4A323B7E0F403",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-    "sha256": "23a4a323b7e0f4032b1fd974106d97a7fb6a687e7fa7fc23cd8e6cb2f8f7117c",
-    "sizeBytes": 232898
   },
   {
     "assetId": "AST-96DF602B28B5B16A",
@@ -16608,10 +16590,10 @@
     "sizeBytes": 275161
   },
   {
-    "assetId": "AST-D9E230A8C75054BD",
+    "assetId": "AST-34123FC19C4B275A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/standard.jpg",
-    "sha256": "d9e230a8c75054bdd91ffc2125725c29bed467bdf25634142a89b83c761e3bb8",
-    "sizeBytes": 316304
+    "sha256": "34123fc19c4b275a759581e63734a734d5d2f40e85804712df771fc3edd2d814",
+    "sizeBytes": 304781
   },
   {
     "assetId": "AST-425F16FF6E412328",

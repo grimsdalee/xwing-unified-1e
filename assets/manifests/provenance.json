@@ -20992,31 +20992,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-42E08B55DC985627",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-28BC4C2792FC7201",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-BD2BBC8D4173484B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-667AF7907FA8D820",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
     "origin": "unified25",
     "isGenerated": false,
@@ -21024,8 +21000,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-23A4A323B7E0F403",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
+    "assetId": "AST-667AF7907FA8D820",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/white.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22144,7 +22120,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-D9E230A8C75054BD",
+    "assetId": "AST-34123FC19C4B275A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/standard.jpg",
     "origin": "unified25",
     "isGenerated": false,

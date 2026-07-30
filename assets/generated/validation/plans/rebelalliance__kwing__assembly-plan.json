@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T18:32:04.9447402+00:00",
+  "generatedUtc": "2026-07-30T19:27:50.1330528+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -69,9 +69,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-23A4A323B7E0F403",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
+          "assetId": "AST-58A18CDFD30DAFD6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -161,9 +161,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-23A4A323B7E0F403",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
+          "assetId": "AST-58A18CDFD30DAFD6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -253,9 +253,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-23A4A323B7E0F403",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
+          "assetId": "AST-58A18CDFD30DAFD6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -345,9 +345,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-23A4A323B7E0F403",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
+          "assetId": "AST-58A18CDFD30DAFD6",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

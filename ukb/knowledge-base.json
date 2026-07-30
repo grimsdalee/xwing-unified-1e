@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T18:24:42.5218799+00:00",
+  "generatedUtc": "2026-07-30T19:27:22.5299267+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -54582,33 +54582,10 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-42E08B55DC985627",
-        "sha256": "42e08b55dc9856272e9b1a23ea243a26ae22e3884ba3852a799c64edf223312d",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.png",
-        "fileName": "EsegeTuketu.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 311485,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/medium/btls8kwing/Textures/EsegeTuketu.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-28BC4C2792FC7201",
         "sha256": "28bc4c2792fc72017a60ff4f3c938e38c2824b1fc30dfb4e74946b40c0a2b499",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.jpg",
-        "fileName": "MirandaDoni.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
+        "fileName": "standard.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
@@ -54620,33 +54597,10 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-BD2BBC8D4173484B",
-        "sha256": "bd2bbc8d4173484bbfdb631f2992b7dc829c22d15d527f69a775cb38cfa276cf",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.png",
-        "fileName": "MirandaDoni.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 256364,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/medium/btls8kwing/Textures/MirandaDoni.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-667AF7907FA8D820",
         "sha256": "667af7907fa8d82039ca22d11749cf82a076f94d4cea59874c52d99b2f1ddb01",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.jpg",
-        "fileName": "standard.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/white.jpg",
+        "fileName": "white.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
@@ -54655,29 +54609,6 @@
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-23A4A323B7E0F403",
-        "sha256": "23a4a323b7e0f4032b1fd974106d97a7fb6a687e7fa7fc23cd8e6cb2f8f7117c",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-        "fileName": "standard.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 232898,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/medium/btls8kwing/Textures/standard.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
         "referencedBy": []
       },
       {
@@ -57422,15 +57353,15 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-D9E230A8C75054BD",
-        "sha256": "d9e230a8c75054bdd91ffc2125725c29bed467bdf25634142a89b83c761e3bb8",
+        "assetId": "AST-34123FC19C4B275A",
+        "sha256": "34123fc19c4b275a759581e63734a734d5d2f40e85804712df771fc3edd2d814",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/Textures/standard.jpg",
         "fileName": "standard.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
         "isGenerated": false,
-        "sizeBytes": 316304,
+        "sizeBytes": 304781,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -127872,9 +127803,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5310,
-    "uniqueAssetCount": 5044,
-    "totalBytes": 2015501178,
+    "fileCount": 5307,
+    "uniqueAssetCount": 5041,
+    "totalBytes": 2014688908,
     "duplicateFileCount": 266,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -127885,11 +127816,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3140,
+      "unified25": 3137,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4275,
+      "image": 4272,
       "model": 753,
       "lua": 229,
       "xml": 15,
