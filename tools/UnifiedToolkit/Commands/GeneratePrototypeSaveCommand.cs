@@ -589,6 +589,11 @@ public static class GeneratePrototypeSaveCommand
             {
                 ["currentTexture"] = textureUrl,
                 ["shipGuid"] = shipGuid,
+                ["textureModelGuids"] = BuildTextureModelGuidArray(
+                    assembly,
+                    shipGuid,
+                    openConfigGuid,
+                    closedConfigGuid),
                 ["shipLocalPosition"] = new JsonObject
                 {
                     ["x"] = -1.18049023e-07,
@@ -1050,6 +1055,37 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
+    private static JsonArray BuildTextureModelGuidArray(
+        PrototypeAssemblyInput assembly,
+        string shipGuid,
+        string openConfigGuid,
+        string closedConfigGuid)
+    {
+        var guids = new JsonArray
+        {
+            shipGuid
+        };
+
+        if (assembly.ShipId.Equals(
+                "t70xwing",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "xwing",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "t65xwing",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.PegTemplateKey.Equals(
+                "FirstEditionBwingShipPeg",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            guids.Add(openConfigGuid);
+            guids.Add(closedConfigGuid);
+        }
+
+        return guids;
+    }
+
     private static string BuildTextureReviewLua() =>
         """
         local textureReview = {}
@@ -1067,22 +1103,6 @@ public static class GeneratePrototypeSaveCommand
                 textureReview.textures = {}
             end
 
-            if textureReview.shipLocalPosition == nil then
-                textureReview.shipLocalPosition = {
-                    x = -0.000000118049023,
-                    y = 3.49761486,
-                    z = 0.0000000000000062130125
-                }
-            end
-
-            if textureReview.shipLocalRotation == nil then
-                textureReview.shipLocalRotation = {
-                    x = 0,
-                    y = 0,
-                    z = 0
-                }
-            end
-
             self.clearContextMenu()
 
             if #textureReview.textures > 1 then
@@ -1090,94 +1110,96 @@ public static class GeneratePrototypeSaveCommand
             end
         end
 
-        local function findShipAttachment()
+        local function textureSensitiveAttachments()
+            local result = {}
             local shipGuid = textureReview.shipGuid or ""
 
             for _, attachment in ipairs(self.getAttachments()) do
-                if attachment.guid == shipGuid then
-                    return attachment
+                if attachment.guid == shipGuid
+                    or attachment.name == "Ship"
+                    or attachment.name == "Config" then
+                    table.insert(result, attachment)
                 end
             end
 
-            return nil
+            return result
         end
 
-        local function exactShipWorldPosition()
-            return self.positionToWorld(textureReview.shipLocalPosition)
-        end
+        local function updateAttachmentTexture(
+            attachment,
+            nextTexture)
+            local model = self.removeAttachment(attachment.index)
 
-        local function exactShipWorldRotation()
-            local baseRotation = self.getRotation()
-            local localRotation = textureReview.shipLocalRotation
+            if model == nil then
+                print(
+                    "Could not detach "
+                    .. tostring(attachment.name)
+                    .. " attachment "
+                    .. tostring(attachment.guid)
+                    .. " for "
+                    .. self.getName())
 
-            return {
-                x = baseRotation.x + localRotation.x,
-                y = baseRotation.y + localRotation.y,
-                z = baseRotation.z + localRotation.z
-            }
-        end
-
-        local function restoreShipTransform(ship)
-            ship.setLock(true)
-            ship.setVelocity({ 0, 0, 0 })
-            ship.setAngularVelocity({ 0, 0, 0 })
-            ship.setPosition(exactShipWorldPosition())
-            ship.setRotation(exactShipWorldRotation())
-        end
-
-        local function reattachShip(ship)
-            if ship == nil then
-                textureChangeInProgress = false
-                print("Could not restore the ship model attachment for " .. self.getName())
-                return
+                return false
             end
 
-            restoreShipTransform(ship)
+            local custom = model.getCustomObject() or {}
+            custom.diffuse = nextTexture
+            model.setCustomObject(custom)
 
-            Wait.frames(
-                function()
-                    restoreShipTransform(ship)
-                    self.addAttachment(ship)
-                    textureChangeInProgress = false
-                end,
-                1)
-        end
+            local reloaded = model.reload()
 
-        local function applyTextureAfterDetach(nextTexture)
-            local shipGuid = textureReview.shipGuid or ""
-            local ship = getObjectFromGUID(shipGuid)
+            if reloaded == nil then
+                print(
+                    "Could not reload "
+                    .. tostring(attachment.name)
+                    .. " attachment "
+                    .. tostring(attachment.guid)
+                    .. " for "
+                    .. self.getName())
 
-            if ship == nil then
-                textureChangeInProgress = false
-                print("Could not find the detached ship model for " .. self.getName())
-                return
+                return false
             end
 
-            restoreShipTransform(ship)
-            ship.setCustomObject({ diffuse = nextTexture })
+            self.addAttachment(reloaded)
+            return true
+        end
 
-            Wait.frames(
-                function()
-                    reattachShip(ship)
-                end,
-                2)
+        local function applyTextureToAllAttachments(
+            nextTexture)
+            local attachments = textureSensitiveAttachments()
+
+            if #attachments == 0 then
+                print(
+                    "Could not find Ship or Config attachments for "
+                    .. self.getName())
+
+                return false
+            end
+
+            for index = #attachments, 1, -1 do
+                if not updateAttachmentTexture(
+                        attachments[index],
+                        nextTexture) then
+                    return false
+                end
+            end
+
+            return true
         end
 
         function NextTexture()
             if textureChangeInProgress then
-                print("Texture change already in progress for " .. self.getName())
+                print(
+                    "Texture change already in progress for "
+                    .. self.getName())
                 return
             end
 
             local textures = textureReview.textures or {}
             if #textures <= 1 then
-                print("No alternative ship textures are registered for " .. self.getName())
-                return
-            end
-
-            local attachment = findShipAttachment()
-            if attachment == nil then
-                print("Could not find the attached ship model for " .. self.getName())
+                print(
+                    "No alternative ship textures are registered for "
+                    .. self.getName())
                 return
             end
 
@@ -1194,26 +1216,23 @@ public static class GeneratePrototypeSaveCommand
             local nextIndex = (currentIndex % #textures) + 1
             local nextTexture = textures[nextIndex]
 
-            textureReview.currentTexture = nextTexture
-            self.script_state = JSON.encode(textureReview)
             textureChangeInProgress = true
 
-            self.removeAttachment(attachment.index)
+            if applyTextureToAllAttachments(nextTexture) then
+                textureReview.currentTexture = nextTexture
+                self.script_state = JSON.encode(textureReview)
 
-            Wait.frames(
-                function()
-                    applyTextureAfterDetach(nextTexture)
-                end,
-                1)
+                print(
+                    self.getName()
+                    .. " texture "
+                    .. tostring(nextIndex)
+                    .. "/"
+                    .. tostring(#textures)
+                    .. ": "
+                    .. nextTexture)
+            end
 
-            print(
-                self.getName()
-                .. " texture "
-                .. tostring(nextIndex)
-                .. "/"
-                .. tostring(#textures)
-                .. ": "
-                .. nextTexture)
+            textureChangeInProgress = false
         end
         """;
 
@@ -1998,6 +2017,14 @@ public static class GeneratePrototypeSaveCommand
                 "tieadvancedv1/tieadvv1v2.obj";
         }
         else if (assembly.ShipId.Equals(
+                "hwk290",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "hwk290lightfreighter/hwkv2.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tiefofighter",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -2425,6 +2452,25 @@ public static class GeneratePrototypeSaveCommand
                 "Arvel Crynyd" => "standard.jpg",
                 "Jake Farrell" => "blue.jpg",
                 "Tycho Celchu" => "standard.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "bwing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Blue Squadron Pilot" => "standard.jpg",
+                "Dagger Squadron Pilot" => "blade.jpg",
+                "Nera Dantels" => "nera.jpg",
+                "Ibtisam" => "braylen.jpg",
+                "Keyan Farlander" => "standard.jpg",
+                "Ten Numb" => "tennumb.jpg",
                 _ => null
             };
         }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T16:37:22.1285118+00:00",
+  "generatedUtc": "2026-07-30T18:31:59.2331528+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -74,9 +74,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-07FCEDB807FDC8A6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -171,9 +171,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-07FCEDB807FDC8A6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -268,9 +268,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-07FCEDB807FDC8A6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"
@@ -365,9 +365,9 @@
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-07FCEDB807FDC8A6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.png",
+          "assetId": "AST-79AE1A92096231C7",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Validation ships-v2 repository preference"

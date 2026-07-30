@@ -427,15 +427,6 @@
     ]
   },
   {
-    "sha256": "293a90675023005a3f0a21adefa21052bab6382a63dcdd5f7b696fa4693d3758",
-    "assetId": "AST-293A90675023005A",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/netrem.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/NetremPollard.png"
-    ]
-  },
-  {
     "sha256": "2a2c4e5eaf5f7d1b808c1d12177e1535b9a0d9a0ac83e2daabf0fafe210278c6",
     "assetId": "AST-2A2C4E5EAF5F7D1B",
     "fileCount": 2,
@@ -1534,15 +1525,6 @@
     ]
   },
   {
-    "sha256": "a8ed51193a8ba2468040054a6bb09126f9036fe35c7c2a0a1cdcd0b55e7b28c6",
-    "assetId": "AST-A8ED51193A8BA246",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/blade.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/BladeSquadronVeteran.png"
-    ]
-  },
-  {
     "sha256": "a97e2c5c8d54ce359c298a5969f00614eb8677f26e472681babe1fa33d7f6233",
     "assetId": "AST-A97E2C5C8D54CE35",
     "fileCount": 2,
@@ -1714,15 +1696,6 @@
     ]
   },
   {
-    "sha256": "bdb6d9b010a7e3a2f98f1acd868a56d1b07b2b275cd0414e886e2dca3b96055d",
-    "assetId": "AST-BDB6D9B010A7E3A2",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/plain.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/PrimedBwing.png"
-    ]
-  },
-  {
     "sha256": "bf27bde91906aae737a80c55caa13af29f65227d7ac2ab2a4d05450330d78702",
     "assetId": "AST-BF27BDE91906AAE7",
     "fileCount": 2,
@@ -1747,15 +1720,6 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__6465c81d6d3d3750.png",
       "assets/source/unified25/assets/textures/Mats/standard-19-blue-starfield-planets.png"
-    ]
-  },
-  {
-    "sha256": "c19e9913622084df82a8b21db8a63007930329889dd0a67e621f325bd3af3470",
-    "assetId": "AST-C19E9913622084DF",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/hera.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/HeraSyndulla.png"
     ]
   },
   {
@@ -1840,15 +1804,6 @@
     ]
   },
   {
-    "sha256": "d2ad050cc3c520b4a56baa67ddffec017b985ee1346568d6780db96e70d0c510",
-    "assetId": "AST-D2AD050CC3C520B4",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/gina.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/GinaMoonsong.png"
-    ]
-  },
-  {
     "sha256": "d2e094dd56a25dc6748af6e001e2f9468b43a4901b46eb5cf8c57bdde32b4af3",
     "assetId": "AST-D2E094DD56A25DC6",
     "fileCount": 2,
@@ -1930,15 +1885,6 @@
     ]
   },
   {
-    "sha256": "db31ed4eeb43631006cf4a8db81d7150ebb2a7dd69c4234fbc5686e3282173b0",
-    "assetId": "AST-DB31ED4EEB436310",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/braylen.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/BraylenStramm.png"
-    ]
-  },
-  {
     "sha256": "db3b3d857d9bbff236f1a0ff531e4dab7996d5ace699bef6d469010663dddff9",
     "assetId": "AST-DB3B3D857D9BBFF2",
     "fileCount": 2,
@@ -1981,15 +1927,6 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
       "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg"
-    ]
-  },
-  {
-    "sha256": "e49e5187828874466466f45ec0682ad11c2b28c5b9475c927b849d9087d16e16",
-    "assetId": "AST-E49E518782887446",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/asf01bwing/Textures/tennumb.png",
-      "assets/source/unified25/assets/ships/Small/REB_bwing/TenNumb.png"
     ]
   },
   {
