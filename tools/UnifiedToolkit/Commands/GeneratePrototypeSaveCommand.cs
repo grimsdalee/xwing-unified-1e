@@ -2058,6 +2058,23 @@ public static class GeneratePrototypeSaveCommand
                 "sheathipedeclassshuttle/sheathipede2.obj";
         }
         else if (assembly.ShipId.Equals(
+                     "ywing",
+                     StringComparison.OrdinalIgnoreCase)
+                 && (assembly.Faction.Equals(
+                         "rebelalliance",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.Faction.Equals(
+                         "scumandvillainy",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "btla4ywing/btla4_ywingv2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "btla4ywing/btla4_ywing.obj";
+        }
+        else if (assembly.ShipId.Equals(
                      "yt1300",
                      StringComparison.OrdinalIgnoreCase)
                  && assembly.Faction.Equals(

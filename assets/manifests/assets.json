@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-30T23:46:17.641457+00:00",
+  "generatedUtc": "2026-07-31T00:06:29.3040963+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5260,
-  "uniqueAssets": 5003,
+  "totalFiles": 5248,
+  "uniqueAssets": 4991,
   "duplicateFiles": 257,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-30T23:10:08.0254771Z"
+      "lastWriteTimeUtc": "2026-07-30T23:47:30.4504075Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-30T23:10:12.1957961Z"
+      "lastWriteTimeUtc": "2026-07-30T23:47:34.6695869Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-30T23:10:15.9153887Z"
+      "lastWriteTimeUtc": "2026-07-30T23:47:38.4468962Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-30T23:10:16.5635355Z"
+      "lastWriteTimeUtc": "2026-07-30T23:47:39.2114631Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-30T23:10:19.4803482Z"
+      "lastWriteTimeUtc": "2026-07-30T23:47:42.4470356Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -32492,18 +32492,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:02.8708411Z"
     },
     {
-      "assetId": "AST-FD5F26E0E2B1F28E",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/amaxine.png",
-      "fileName": "amaxine.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 336113,
-      "sha256": "fd5f26e0e2b1f28e22cc9960d6cee70ff6cb84ca97cb5788669757b1ebbb0607",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2496631Z"
-    },
-    {
       "assetId": "AST-783F1B1F623245F9",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/blank.jpg",
       "fileName": "blank.jpg",
@@ -32514,18 +32502,6 @@
       "sizeBytes": 135924,
       "sha256": "783f1b1f623245f92a5aa539ba5d234a0d33afc5d36a440331186c3353e67dd8",
       "lastWriteTimeUtc": "2026-07-29T15:24:03.0790685Z"
-    },
-    {
-      "assetId": "AST-F8755E59369A4FFD",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/blank.png",
-      "fileName": "blank.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 489923,
-      "sha256": "f8755e59369a4ffdde03840240e1a435382edeafeb66e84a9872f166f082c41d",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2536739Z"
     },
     {
       "assetId": "AST-3E0A1667249592AF",
@@ -32540,18 +32516,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:03.3129433Z"
     },
     {
-      "assetId": "AST-7BC53141B8E2A551",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/crymorah.png",
-      "fileName": "crymorah.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 638555,
-      "sha256": "7bc53141b8e2a551c6bed67d003df0155e23f1cc96f3a063ca39e5533200f957",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.259689Z"
-    },
-    {
       "assetId": "AST-8C11F1F145578E98",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/drearenthal.jpg",
       "fileName": "drearenthal.jpg",
@@ -32562,30 +32526,6 @@
       "sizeBytes": 141041,
       "sha256": "8c11f1f145578e984d3798b6758159af1ad6b937f83202c7b4ba60d318407e94",
       "lastWriteTimeUtc": "2026-07-29T15:24:03.5642587Z"
-    },
-    {
-      "assetId": "AST-7DA37204D6E336C1",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/drearenthal.png",
-      "fileName": "drearenthal.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 669316,
-      "sha256": "7da37204d6e336c1ddc459c21cc7406446cfb45a9ce077b6f4aaf7169cd8f3c1",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2636996Z"
-    },
-    {
-      "assetId": "AST-04A9E325FAF588E6",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/gold.png",
-      "fileName": "gold.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 412175,
-      "sha256": "04a9e325faf588e638073a0e22bfe620b2399ee5ac7f49a256cca7294f791e74",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2678162Z"
     },
     {
       "assetId": "AST-5277061D5B8DB9EE",
@@ -32600,18 +32540,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:03.6547582Z"
     },
     {
-      "assetId": "AST-BC10FEB5500DEF0E",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/grey.png",
-      "fileName": "grey.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 407172,
-      "sha256": "bc10feb5500def0e7abd17de28e4a9851d2a9661f45cd8b511e858e4e732d36a",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2718381Z"
-    },
-    {
       "assetId": "AST-8C8C5BCA5D238958",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hiredgun.jpg",
       "fileName": "hiredgun.jpg",
@@ -32622,18 +32550,6 @@
       "sizeBytes": 137336,
       "sha256": "8c8c5bca5d238958c8174bbad17785404d66b37f5773dc43583af9d51185bedb",
       "lastWriteTimeUtc": "2026-07-29T15:24:03.863143Z"
-    },
-    {
-      "assetId": "AST-A65E65E0ECB3E630",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hiredgun.png",
-      "fileName": "hiredgun.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 637221,
-      "sha256": "a65e65e0ecb3e63072ba419fbb935f71875e37b8f9233bde7ce61067db88672b",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.281176Z"
     },
     {
       "assetId": "AST-AA24D80B23EF6C60",
@@ -32648,18 +32564,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:03.9014384Z"
     },
     {
-      "assetId": "AST-15C4A1A0949A3B48",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hortonsalm.png",
-      "fileName": "hortonsalm.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 408464,
-      "sha256": "15c4a1a0949a3b4855c01d2118e28119347a6a9c02aecd43b58bef3d386a0b1a",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2851754Z"
-    },
-    {
       "assetId": "AST-71441981B0AA842C",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.jpg",
       "fileName": "JinataSecurityOfficer.jpg",
@@ -32670,18 +32574,6 @@
       "sizeBytes": 185608,
       "sha256": "71441981b0aa842cb79ece85fcbabb02c3a1b80303b5fe9508614444c634ca79",
       "lastWriteTimeUtc": "2026-07-29T15:24:03.9462035Z"
-    },
-    {
-      "assetId": "AST-855B7E2A229E5207",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.png",
-      "fileName": "JinataSecurityOfficer.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 379021,
-      "sha256": "855b7e2a229e52077279e5b9d94523bfce1741bf37ba7f55aa4b6d0001a2cbd8",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2459063Z"
     },
     {
       "assetId": "AST-C9DDAA05D77F8F50",
@@ -32696,18 +32588,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:04.1579923Z"
     },
     {
-      "assetId": "AST-566E0E9466DDDEE3",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/kavil.png",
-      "fileName": "kavil.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 516474,
-      "sha256": "566e0e9466dddee37c754554f1f38f45c9a6f8bfe6b0d40a249578488f7cc418",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2901779Z"
-    },
-    {
       "assetId": "AST-7AA0DB2ED83A2EAC",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/norrawexley.jpg",
       "fileName": "norrawexley.jpg",
@@ -32720,18 +32600,6 @@
       "lastWriteTimeUtc": "2026-07-29T15:24:04.1948822Z"
     },
     {
-      "assetId": "AST-3060DABD45C4931C",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/norrawexley.png",
-      "fileName": "norrawexley.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 411195,
-      "sha256": "3060dabd45c4931c2c601b071f1f2129b756f1a02f1cd6cd3d3fe6981b2c4fe9",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.2951822Z"
-    },
-    {
       "assetId": "AST-D70C5417EAE3D0B2",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.jpg",
       "fileName": "padric.jpg",
@@ -32742,18 +32610,6 @@
       "sizeBytes": 130968,
       "sha256": "d70c5417eae3d0b27910959f357c9bcc283fbcf9ac31989ab1b7f1c0c50cbbe7",
       "lastWriteTimeUtc": "2026-07-29T15:24:04.2345965Z"
-    },
-    {
-      "assetId": "AST-A5A912AA2CB26CDD",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.png",
-      "fileName": "padric.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 576549,
-      "sha256": "a5a912aa2cb26cdde122b60d6191153152993757acdd5ab9cd34216d0bbd7bb7",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.3021749Z"
     },
     {
       "assetId": "AST-5527C80D77004748",

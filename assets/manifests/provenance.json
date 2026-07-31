@@ -21656,24 +21656,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-FD5F26E0E2B1F28E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/amaxine.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-783F1B1F623245F9",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/blank.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-F8755E59369A4FFD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/blank.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21688,32 +21672,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7BC53141B8E2A551",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/crymorah.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-8C11F1F145578E98",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/drearenthal.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7DA37204D6E336C1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/drearenthal.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-04A9E325FAF588E6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/gold.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21728,24 +21688,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-BC10FEB5500DEF0E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/grey.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-8C8C5BCA5D238958",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hiredgun.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A65E65E0ECB3E630",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hiredgun.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21760,24 +21704,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-15C4A1A0949A3B48",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/hortonsalm.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-71441981B0AA842C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-855B7E2A229E5207",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/JinataSecurityOfficer.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21792,14 +21720,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-566E0E9466DDDEE3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/kavil.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-7AA0DB2ED83A2EAC",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/norrawexley.jpg",
     "origin": "unified25",
@@ -21808,24 +21728,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-3060DABD45C4931C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/norrawexley.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-D70C5417EAE3D0B2",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A5A912AA2CB26CDD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/Textures/padric.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
