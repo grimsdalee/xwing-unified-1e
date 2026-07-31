@@ -23345,7 +23345,7 @@
   },
   {
     "assetId": "AST-692A69263AB6852A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/bandit.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/bandit.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23353,7 +23353,7 @@
   },
   {
     "assetId": "AST-826F74DD39C1B8A5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/binayre.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/binayre.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23361,7 +23361,7 @@
   },
   {
     "assetId": "AST-5FEA7E634A330036",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/blacksun.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/blacksun.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23369,7 +23369,7 @@
   },
   {
     "assetId": "AST-AB27501B8484D0D7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/blue.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23377,7 +23377,7 @@
   },
   {
     "assetId": "AST-D2EBAB4890324513",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/bossk.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/bossk.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23385,7 +23385,7 @@
   },
   {
     "assetId": "AST-7A3279B72F36DAB8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/nashtah.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/nashtah.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23393,7 +23393,7 @@
   },
   {
     "assetId": "AST-855C905D8D49A29E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/ndru.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/ndru.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23401,7 +23401,7 @@
   },
   {
     "assetId": "AST-FBC1DA1803833588",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/orange.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/orange.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23409,7 +23409,7 @@
   },
   {
     "assetId": "AST-BDB7EA9C537A394D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/plain.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/plain.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23417,7 +23417,7 @@
   },
   {
     "assetId": "AST-952B49A4374B2BA3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/red.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/red.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23425,159 +23425,7 @@
   },
   {
     "assetId": "AST-F0652AACD3A4B763",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/tala.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E254EA944DA8E2E3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E7E9D3A4F9BFF07A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-15F213E274C9C9F4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-74AF4F947D97F49F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-8A835DC15B112654",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-3213C819E0D5B54B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-3F73143BF785C6DA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-C9C1F3700C8521D4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-3D2BE0555EAD8EF7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-6D181BEC0084F5FA",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-62F280A5322A0904",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-26F46A561C74B896",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DB2F8012B432725E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-5E92E4CB84184A1B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-1E52CC00C8D75731",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2B643D137F638EBE",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E254EA944DA8E2E3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-05C68AA437148F1D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-B747845761623C6A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.png",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/tala.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

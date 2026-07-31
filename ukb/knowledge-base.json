@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T00:06:29.710518+00:00",
+  "generatedUtc": "2026-07-31T17:08:31.0873809+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -60314,7 +60314,7 @@
       {
         "assetId": "AST-692A69263AB6852A",
         "sha256": "692a69263ab6852ad4c6b0d135d45bc8b99db287c4532fd191c4600b58911e00",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/bandit.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/bandit.jpg",
         "fileName": "bandit.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60323,21 +60323,13 @@
         "sizeBytes": 238029,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/bandit.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-826F74DD39C1B8A5",
         "sha256": "826f74dd39c1b8a507f7ca36b16db02fa5ddf7d9f2f6765409c4bba94da16cc8",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/binayre.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/binayre.jpg",
         "fileName": "binayre.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60346,21 +60338,13 @@
         "sizeBytes": 242282,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/binayre.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-5FEA7E634A330036",
         "sha256": "5fea7e634a330036be0ff7182120a4376ed957323195b5588d095b3edcaa32d6",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/blacksun.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/blacksun.jpg",
         "fileName": "blacksun.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60369,21 +60353,13 @@
         "sizeBytes": 251157,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/blacksun.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-AB27501B8484D0D7",
         "sha256": "ab27501b8484d0d7a9f0f2e757c618783426ad295981c36d1a587fae9c270624",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/blue.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/blue.jpg",
         "fileName": "blue.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60392,21 +60368,13 @@
         "sizeBytes": 191720,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/blue.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-D2EBAB4890324513",
         "sha256": "d2ebab4890324513da071a8ddedc1f1b2d64dbcecad782773c5e85ab78d979d8",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/bossk.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/bossk.jpg",
         "fileName": "bossk.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60415,21 +60383,13 @@
         "sizeBytes": 226903,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/bossk.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-7A3279B72F36DAB8",
         "sha256": "7a3279b72f36dab8da0832342a3bf5e009d9531263426c40ca890c2c09bc8a26",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/nashtah.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/nashtah.jpg",
         "fileName": "nashtah.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60438,21 +60398,13 @@
         "sizeBytes": 197362,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/nashtah.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-855C905D8D49A29E",
         "sha256": "855c905d8d49a29ebed0fd47efd4ae08d62970f665ca42c16e7226b6413ff4bb",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/ndru.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/ndru.jpg",
         "fileName": "ndru.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60461,21 +60413,13 @@
         "sizeBytes": 144525,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/ndru.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-FBC1DA1803833588",
         "sha256": "fbc1da1803833588ec17712a394d3d0f200f511bbf5a6bbb550418ac5a6c9d3f",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/orange.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/orange.jpg",
         "fileName": "orange.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60484,21 +60428,13 @@
         "sizeBytes": 169898,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/orange.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-BDB7EA9C537A394D",
         "sha256": "bdb7ea9c537a394d61c56ed2969a66c93d1d1e6793714db3281d28c489950ac8",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/plain.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/plain.jpg",
         "fileName": "plain.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60507,21 +60443,13 @@
         "sizeBytes": 233502,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/plain.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-952B49A4374B2BA3",
         "sha256": "952b49a4374b2ba3967c5314640c6696a459c3732af9438c606a68c084ebcbb8",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/red.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/red.jpg",
         "fileName": "red.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60530,21 +60458,13 @@
         "sizeBytes": 192479,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/red.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {
         "assetId": "AST-F0652AACD3A4B763",
         "sha256": "f0652aacd3a4b763d374cc32d7f7772b4bbe2d8802dfbaf5543ddbd146c2ccea",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/1/tala.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/tala.jpg",
         "fileName": "tala.jpg",
         "extension": ".jpg",
         "assetType": "image",
@@ -60553,372 +60473,7 @@
         "sizeBytes": 237133,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/1/tala.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-E254EA944DA8E2E3",
-        "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
-        "fileName": "AirenCracken.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 170864,
-        "availability": "available",
-        "releaseRequired": null,
         "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-E7E9D3A4F9BFF07A",
-        "sha256": "e7e9d3a4f9bff07a243856e3cb5c57a2d38a95246e557ff7e4ef2f27957d2052",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.png",
-        "fileName": "AirenCracken.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 729116,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-15F213E274C9C9F4",
-        "sha256": "15f213e274c9c9f441432ec888407e8e6422d9988bdbd805e4b3665ba8ed4b5c",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.jpg",
-        "fileName": "BanditSquadronPilot.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 168028,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-74AF4F947D97F49F",
-        "sha256": "74af4f947d97f49f648cc14d2fbb9573037bf2d1d7204b3dd277d59b5ef43093",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.png",
-        "fileName": "BanditSquadronPilot.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 696004,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/BanditSquadronPilot.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-8A835DC15B112654",
-        "sha256": "8a835dc15b112654d649eab706d9dd17d39d56d94a6e9f4a1060032d1e5c8211",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.jpg",
-        "fileName": "BinayrePirate.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 166913,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-3213C819E0D5B54B",
-        "sha256": "3213c819e0d5b54bcb29a65874ee0df3a1203650deef4d4d88ece511df481a8f",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.png",
-        "fileName": "BinayrePirate.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 566880,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/BinayrePirate.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-3F73143BF785C6DA",
-        "sha256": "3f73143bf785c6da2cdceeb38616602ac8c7052647bb197b14d6c7f234e740f6",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.jpg",
-        "fileName": "BlackSunSoldier.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 144726,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-C9C1F3700C8521D4",
-        "sha256": "c9c1f3700c8521d462e99fc8776f51314707663b8476d51eadb72cff614ed863",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.png",
-        "fileName": "BlackSunSoldier.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 349186,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/BlackSunSoldier.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-3D2BE0555EAD8EF7",
-        "sha256": "3d2be0555ead8ef79526391ffa0e6f7f647e821c0eb002f40cf0c366031906f0",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.jpg",
-        "fileName": "Bossk.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 202466,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-6D181BEC0084F5FA",
-        "sha256": "6d181bec0084f5fa0476404fb8829edce3b942964fe25eac4b69c073c0d5b20e",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/Bossk.png",
-        "fileName": "Bossk.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 718645,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/Bossk.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-62F280A5322A0904",
-        "sha256": "62f280a5322a0904b7e1fe27f2c3e61e9d9f2e70725d605f9193c81a05816cd0",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.jpg",
-        "fileName": "LieutenantBlount.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 172249,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-26F46A561C74B896",
-        "sha256": "26f46a561c74b896d404feaecb11b80a19144c6b8e9a748578eec5e4eb060943",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.png",
-        "fileName": "LieutenantBlount.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 739133,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/LieutenantBlount.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-DB2F8012B432725E",
-        "sha256": "db2f8012b432725e1b5ece348ee05e1ba127e2af5a50b960d43800540de3b873",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.jpg",
-        "fileName": "NashtahPup.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 180263,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-5E92E4CB84184A1B",
-        "sha256": "5e92e4cb84184a1be7357ac154cc77a304a27837e2f8c46c07348ac350e64a7e",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.png",
-        "fileName": "NashtahPup.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 672064,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/NashtahPup.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-1E52CC00C8D75731",
-        "sha256": "1e52cc00c8d75731e1b9e69777dc7056eb614659ff02b5edf87bf278c7f968d5",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.jpg",
-        "fileName": "NdruSuhlak.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 170108,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-2B643D137F638EBE",
-        "sha256": "2b643d137f638ebe20633152aee70b42b4e6eee9d7bdcdf04ecde5a5cd81b3b5",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.png",
-        "fileName": "NdruSuhlak.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 568089,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/NdruSuhlak.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-E254EA944DA8E2E3",
-        "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg",
-        "fileName": "standard.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 170864,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-05C68AA437148F1D",
-        "sha256": "05c68aa437148f1dba2646d66b932e62848a9a6d25fc396d491ffe9593ac78a2",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.jpg",
-        "fileName": "TalaSquadronPilot.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 172303,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-B747845761623C6A",
-        "sha256": "b747845761623c6aff5732dd7161fac73945b2e6f51487a90d0b3ddbdee2d495",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.png",
-        "fileName": "TalaSquadronPilot.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 737700,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/z95af4headhunter/Textures/TalaSquadronPilot.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
         "referencedBy": []
       },
       {
@@ -126035,14 +125590,6 @@
         ]
       },
       {
-        "assetId": "AST-E254EA944DA8E2E3",
-        "sha256": "e254ea944da8e2e3375495cee3d48b67432cf14efbb8aba8b742792545a1c5cf",
-        "repositoryPaths": [
-          "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/AirenCracken.jpg",
-          "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/standard.jpg"
-        ]
-      },
-      {
         "assetId": "AST-E4CA8F00DD13A7EC",
         "sha256": "e4ca8f00dd13a7ec9fe40e4a6f394cac6c0cdc3f4ada198f5be037b9df8d5ef3",
         "repositoryPaths": [
@@ -126294,10 +125841,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5248,
-    "uniqueAssetCount": 4991,
-    "totalBytes": 1983378280,
-    "duplicateFileCount": 257,
+    "fileCount": 5229,
+    "uniqueAssetCount": 4973,
+    "totalBytes": 1975882679,
+    "duplicateFileCount": 256,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 410,
@@ -126307,11 +125854,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3078,
+      "unified25": 3059,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4213,
+      "image": 4194,
       "model": 753,
       "lua": 229,
       "xml": 15,
