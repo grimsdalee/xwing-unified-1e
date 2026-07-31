@@ -2001,6 +2001,9 @@ public static class GeneratePrototypeSaveCommand
             relative =
                 "assets/source/unified25/assets/ships-v2/large/" +
                 "jumpmaster5000/jm2k.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "jumpmaster5000/jumpmaster.obj";
         }
         else if (assembly.ShipId.Equals(
                 "tieadvanced",
@@ -2435,7 +2438,23 @@ public static class GeneratePrototypeSaveCommand
                 "Mandalorian Mercenary" => "standard.jpg",
                 "Emon Azzameen" => "emon.jpg",
                 "Kath Scarlet" => "kath.jpg",
-                "Boba Fett" => "bobafett.jpg",
+                "Boba Fett" => "boba.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "jumpmaster5000",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Contracted Scout" => "scout.jpg",
+                "Manaroo" => "standard.jpg",
+                "Tel Trevura" => "teltrevura.jpg",
+                "Dengar" => "standard.jpg",
                 _ => null
             };
         }

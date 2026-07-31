@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T17:37:14.0225289+00:00",
+  "generatedUtc": "2026-07-31T18:25:31.1305597+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -52576,44 +52576,6 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-5ABA7B2FB1121445",
-        "sha256": "5aba7b2fb11214459818e002a5ad5ff0198a4a3f6a52fb1c52fd49017fe8c9b9",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb.png",
-        "fileName": "NomLumb.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 842351,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/large/jumpmaster5000/Textures/NomLumb.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-DB412707490A6191",
-        "sha256": "db412707490a61917519683157322ebc239d0a17bdfe3c0131325875847fe71e",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb2.jpg",
-        "fileName": "NomLumb2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 213503,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-7184DE9ECA067A49",
         "sha256": "7184de9eca067a49e2a5c1883edd490180de4aae20934be8528862e4f0834894",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/plain.jpg",
@@ -52680,44 +52642,6 @@
             "jsonPaths": []
           }
         ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-2FC059AD52EC792B",
-        "sha256": "2fc059ad52ec792baf5940182d54392a52fa4662838940655ae3024f1a7d5075",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
-        "fileName": "standard.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 826924,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-100420CD453C0C4B",
-        "sha256": "100420cd453c0c4b30654123d2c5233b527c884a23469df2e793a11fc70e13c5",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard2.jpg",
-        "fileName": "standard2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 204557,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
         "referencedBy": []
       },
       {
@@ -54804,29 +54728,6 @@
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-DDEEA01BF8225080",
-        "sha256": "ddeea01bf82250809e6c2a769f6731ed6ce340b2d0c5555c075b758e503f01f0",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
-        "fileName": "standard.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 783531,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
         "referencedBy": []
       },
       {
@@ -125633,9 +125534,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5221,
-    "uniqueAssetCount": 4965,
-    "totalBytes": 1973850864,
+    "fileCount": 5216,
+    "uniqueAssetCount": 4960,
+    "totalBytes": 1970979998,
     "duplicateFileCount": 256,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -125646,11 +125547,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3051,
+      "unified25": 3046,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4186,
+      "image": 4181,
       "model": 753,
       "lua": 229,
       "xml": 15,

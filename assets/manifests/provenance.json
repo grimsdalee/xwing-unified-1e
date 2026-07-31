@@ -20272,22 +20272,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5ABA7B2FB1121445",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DB412707490A6191",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-7184DE9ECA067A49",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/plain.jpg",
     "origin": "unified25",
@@ -20306,22 +20290,6 @@
   {
     "assetId": "AST-AADF6ECE3A671EDF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2FC059AD52EC792B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-100420CD453C0C4B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard2.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21170,14 +21138,6 @@
   {
     "assetId": "AST-4221DFE8D261EE69",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DDEEA01BF8225080",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

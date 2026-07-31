@@ -15204,18 +15204,6 @@
     "sizeBytes": 348912
   },
   {
-    "assetId": "AST-5ABA7B2FB1121445",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb.png",
-    "sha256": "5aba7b2fb11214459818e002a5ad5ff0198a4a3f6a52fb1c52fd49017fe8c9b9",
-    "sizeBytes": 842351
-  },
-  {
-    "assetId": "AST-DB412707490A6191",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb2.jpg",
-    "sha256": "db412707490a61917519683157322ebc239d0a17bdfe3c0131325875847fe71e",
-    "sizeBytes": 213503
-  },
-  {
     "assetId": "AST-7184DE9ECA067A49",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/plain.jpg",
     "sha256": "7184de9eca067a49e2a5c1883edd490180de4aae20934be8528862e4f0834894",
@@ -15232,18 +15220,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
     "sha256": "aadf6ece3a671edf8cae9f002e4f012bb990bd15e927974934504f424d1a8f48",
     "sizeBytes": 320401
-  },
-  {
-    "assetId": "AST-2FC059AD52EC792B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
-    "sha256": "2fc059ad52ec792baf5940182d54392a52fa4662838940655ae3024f1a7d5075",
-    "sizeBytes": 826924
-  },
-  {
-    "assetId": "AST-100420CD453C0C4B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard2.jpg",
-    "sha256": "100420cd453c0c4b30654123d2c5233b527c884a23469df2e793a11fc70e13c5",
-    "sizeBytes": 204557
   },
   {
     "assetId": "AST-A6AD14EE9F737AAE",
@@ -15880,12 +15856,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.jpg",
     "sha256": "4221dfe8d261ee698ab92ad3fed25fdbd8c19f2db64753727df225473bf47657",
     "sizeBytes": 190253
-  },
-  {
-    "assetId": "AST-DDEEA01BF8225080",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
-    "sha256": "ddeea01bf82250809e6c2a769f6731ed6ce340b2d0c5555c075b758e503f01f0",
-    "sizeBytes": 783531
   },
   {
     "assetId": "AST-605330AA97631C0B",

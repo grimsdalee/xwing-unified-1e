@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T17:37:13.5679448+00:00",
+  "generatedUtc": "2026-07-31T18:25:30.6902521+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5221,
-  "uniqueAssets": 4965,
+  "totalFiles": 5216,
+  "uniqueAssets": 4960,
   "duplicateFiles": 256,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-31T17:21:27.2169009Z"
+      "lastWriteTimeUtc": "2026-07-31T17:43:13.1087476Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-31T17:21:31.3855138Z"
+      "lastWriteTimeUtc": "2026-07-31T17:43:17.6227432Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-31T17:21:35.9515998Z"
+      "lastWriteTimeUtc": "2026-07-31T17:43:21.9760889Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-31T17:21:36.9345288Z"
+      "lastWriteTimeUtc": "2026-07-31T17:43:23.2329189Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-31T17:21:40.7666283Z"
+      "lastWriteTimeUtc": "2026-07-31T17:43:27.0100965Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -30416,30 +30416,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:18.7814582Z"
     },
     {
-      "assetId": "AST-5ABA7B2FB1121445",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb.png",
-      "fileName": "NomLumb.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 842351,
-      "sha256": "5aba7b2fb11214459818e002a5ad5ff0198a4a3f6a52fb1c52fd49017fe8c9b9",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.7783406Z"
-    },
-    {
-      "assetId": "AST-DB412707490A6191",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/NomLumb2.jpg",
-      "fileName": "NomLumb2.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 213503,
-      "sha256": "db412707490a61917519683157322ebc239d0a17bdfe3c0131325875847fe71e",
-      "lastWriteTimeUtc": "2026-07-29T15:23:56.2002428Z"
-    },
-    {
       "assetId": "AST-7184DE9ECA067A49",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/plain.jpg",
       "fileName": "plain.jpg",
@@ -30474,30 +30450,6 @@
       "sizeBytes": 320401,
       "sha256": "aadf6ece3a671edf8cae9f002e4f012bb990bd15e927974934504f424d1a8f48",
       "lastWriteTimeUtc": "2026-07-08T23:59:18.7921499Z"
-    },
-    {
-      "assetId": "AST-2FC059AD52EC792B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.png",
-      "fileName": "standard.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 826924,
-      "sha256": "2fc059ad52ec792baf5940182d54392a52fa4662838940655ae3024f1a7d5075",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.7961499Z"
-    },
-    {
-      "assetId": "AST-100420CD453C0C4B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard2.jpg",
-      "fileName": "standard2.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 204557,
-      "sha256": "100420cd453c0c4b30654123d2c5233b527c884a23469df2e793a11fc70e13c5",
-      "lastWriteTimeUtc": "2026-07-29T15:23:56.306406Z"
     },
     {
       "assetId": "AST-A6AD14EE9F737AAE",
@@ -31770,18 +31722,6 @@
       "sizeBytes": 190253,
       "sha256": "4221dfe8d261ee698ab92ad3fed25fdbd8c19f2db64753727df225473bf47657",
       "lastWriteTimeUtc": "2026-07-29T15:23:58.4076074Z"
-    },
-    {
-      "assetId": "AST-DDEEA01BF8225080",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/g1astarfighter/Textures/standard.png",
-      "fileName": "standard.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 783531,
-      "sha256": "ddeea01bf82250809e6c2a769f6731ed6ce340b2d0c5555c075b758e503f01f0",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.4992157Z"
     },
     {
       "assetId": "AST-605330AA97631C0B",
