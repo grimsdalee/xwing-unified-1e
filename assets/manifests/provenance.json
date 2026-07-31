@@ -21160,24 +21160,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-4546F43D04173361",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/CartelExecutioner.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-D56136977293E8A6",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0E1823AE8DF54AED",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21194,14 +21178,6 @@
   {
     "assetId": "AST-84376C0AFF5B124F",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/ToraniKulda.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-3B9F5809D18ED688",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/ToraniKulda.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21226,6 +21202,14 @@
   {
     "assetId": "AST-C6662985DEC61275",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/orange.jpg",
+    "origin": "unified25",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CAAABD3136C17A72",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/pirate.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21994,46 +21978,6 @@
   {
     "assetId": "AST-6D330C84D7548093",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-F9684341795C2BD8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/CartelSpacer2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-40AA3A40B6200EF5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/G4rG0r2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-BEAD622F85808CA4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/GenesisRed2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-AE745E4CA70337B1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/SunnyBounder2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-01FC8294C9C452AF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/TansariiPointVeteran2.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T21:03:43.8753658+00:00",
+  "generatedUtc": "2026-07-31T23:54:11.4843956+00:00",
   "assets": [
     {
       "assetId": "AST-B0ABB46A052335ED",
@@ -54775,29 +54775,6 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-4546F43D04173361",
-      "sha256": "4546f43d04173361a1474c2adedec127fb3c8f6d489a8a0370c90fb6f21bf5be",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/CartelExecutioner.png",
-      "fileName": "CartelExecutioner.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1753848,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/m12lkimogilafighter/Textures/CartelExecutioner.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
       "assetId": "AST-D56136977293E8A6",
       "sha256": "d56136977293e8a609718835ed4e897ac42ce6e3e9e0f755a43c5382af97f3f4",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.jpg",
@@ -54810,29 +54787,6 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-0E1823AE8DF54AED",
-      "sha256": "0e1823ae8df54aed08a4757b009c192b4155da646eb4e28a0afa2b765c49cd04",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.png",
-      "fileName": "DalanOberos.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 2768128,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/m12lkimogilafighter/Textures/DalanOberos.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
       "referencedBy": []
     },
     {
@@ -54863,29 +54817,6 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-3B9F5809D18ED688",
-      "sha256": "3b9f5809d18ed6888a4828ba812964238b2d70d58546dcf1f8ff7ead847ad64c",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Textures/ToraniKulda.png",
-      "fileName": "ToraniKulda.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 2672660,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/medium/m12lkimogilafighter/Textures/ToraniKulda.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
       "referencedBy": []
     },
     {
@@ -54944,6 +54875,21 @@
       "warehouse": "unified25",
       "isGenerated": false,
       "sizeBytes": 172182,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-CAAABD3136C17A72",
+      "sha256": "caaabd3136c17a72b18d5ab97d31bf58fea4912a1760ef8a18d1383066990c72",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Textures/pirate.jpg",
+      "fileName": "pirate.jpg",
+      "extension": ".jpg",
+      "assetType": "image",
+      "warehouse": "unified25",
+      "isGenerated": false,
+      "sizeBytes": 182858,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -56851,81 +56797,6 @@
           "jsonPaths": []
         }
       ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-F9684341795C2BD8",
-      "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/CartelSpacer2.jpg",
-      "fileName": "CartelSpacer2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 236841,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-40AA3A40B6200EF5",
-      "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/G4rG0r2.jpg",
-      "fileName": "G4rG0r2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 237438,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-BEAD622F85808CA4",
-      "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/GenesisRed2.jpg",
-      "fileName": "GenesisRed2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 196856,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-AE745E4CA70337B1",
-      "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/SunnyBounder2.jpg",
-      "fileName": "SunnyBounder2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 236032,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-01FC8294C9C452AF",
-      "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/TansariiPointVeteran2.jpg",
-      "fileName": "TansariiPointVeteran2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 273413,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
       "referencedBy": []
     },
     {

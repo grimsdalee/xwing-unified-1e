@@ -2006,6 +2006,14 @@ public static class GeneratePrototypeSaveCommand
                 "jumpmaster5000/jumpmaster.obj";
         }
         else if (assembly.ShipId.Equals(
+                "protectoratestarfighter",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "fangfighter/ship-base.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tieadvanced",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -2493,6 +2501,40 @@ public static class GeneratePrototypeSaveCommand
                 "Quinn Jast" => "standard.jpg",
                 "Genesis Red" => "GenesisRed.jpg",
                 "Serissu" => "standard.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "m12lkimogilafighter",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Cartel Brute" => "ToraniKulda.jpg",
+                "Cartel Executioner" => "standard.jpg",
+                "Dalan Oberos" => "DalanOberos.jpg",
+                "Torani Kulda" => "ToraniKulda.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "protectoratestarfighter",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Zealous Recruit" => "New.jpg",
+                "Concord Dawn Veteran" => "New.jpg",
+                "Concord Dawn Ace" => "standard.jpg",
+                "Kad Solus" => "New.jpg",
+                "Old Teroch" => "New.jpg",
+                "Fenn Rau" => "Rebel-Fenn.jpg",
                 _ => null
             };
         }
