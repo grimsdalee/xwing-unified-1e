@@ -1995,6 +1995,14 @@ public static class GeneratePrototypeSaveCommand
                 "firesprayclasspatrolcraft/firesprayV2.obj";
         }
         else if (assembly.ShipId.Equals(
+                "jumpmaster5000",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "jumpmaster5000/jm2k.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tieadvanced",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -2416,6 +2424,22 @@ public static class GeneratePrototypeSaveCommand
         string? fileName = null;
 
         if (assembly.Faction.Equals(
+                "scumandvillainy",
+                StringComparison.OrdinalIgnoreCase)
+            && assembly.ShipId.Equals(
+                "firespray31",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Mandalorian Mercenary" => "standard.jpg",
+                "Emon Azzameen" => "emon.jpg",
+                "Kath Scarlet" => "kath.jpg",
+                "Boba Fett" => "bobafett.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
                 "galacticempire",
                 StringComparison.OrdinalIgnoreCase)
             && assembly.ShipId.Equals(
@@ -2658,6 +2682,43 @@ public static class GeneratePrototypeSaveCommand
                 "Magva Yarro" => "renegade.jpg",
                 "Cassian Andor" => "captain.jpg",
                 "Saw Gerrera" => "renegade.jpg",
+                _ => null
+            };
+        }
+
+
+
+        else if (assembly.Faction.Equals(
+                     "resistance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "t70xwing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            var isHeroesOfTheResistancePoe = assembly.Assets.Any(asset =>
+                asset.Role.Equals(
+                    "PilotCard",
+                    StringComparison.OrdinalIgnoreCase)
+                && asset.RepositoryPath.Contains(
+                    "poe-dameron-hotr",
+                    StringComparison.OrdinalIgnoreCase));
+
+            fileName = assembly.PilotName switch
+            {
+                "Blue Squadron Novice" => "blue.jpg",
+                "Jess Pava" => "blue.jpg",
+                "Red Squadron Veteran" => "blue.jpg",
+                "\"Blue Ace\"" => "blue.jpg",
+                "Blue Ace" => "blue.jpg",
+                "\"Red Ace\"" => "blue.jpg",
+                "Red Ace" => "blue.jpg",
+                "\"Snap\" Wexley" => "snap.jpg",
+                "Snap Wexley" => "snap.jpg",
+                "Ello Asty" => "plain.jpg",
+                "Nien Nunb" => "blue.jpg",
+                "Poe Dameron" => isHeroesOfTheResistancePoe
+                    ? "poe.jpg"
+                    : "blue.jpg",
                 _ => null
             };
         }
