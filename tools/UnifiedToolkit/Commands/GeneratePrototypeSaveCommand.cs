@@ -2477,6 +2477,26 @@ public static class GeneratePrototypeSaveCommand
             };
         }
         else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "m3ainterceptor",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Sunny Bounder" => "SunnyBounder.jpg",
+                "Cartel Spacer" => "CartelSpacer.jpg",
+                "Inaldra" => "standard.jpg",
+                "Tansarii Point Veteran" => "standard.jpg",
+                "Laetin A'shera" => "G4rG0r.jpg",
+                "Quinn Jast" => "standard.jpg",
+                "Genesis Red" => "GenesisRed.jpg",
+                "Serissu" => "standard.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
                 "galacticempire",
                 StringComparison.OrdinalIgnoreCase)
             && assembly.ShipId.Equals(

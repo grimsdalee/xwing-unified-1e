@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T20:56:20.3429434+00:00",
+  "generatedUtc": "2026-07-31T21:03:43.8753658+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -56856,6 +56856,81 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-F9684341795C2BD8",
+        "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/CartelSpacer2.jpg",
+        "fileName": "CartelSpacer2.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 236841,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-40AA3A40B6200EF5",
+        "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/G4rG0r2.jpg",
+        "fileName": "G4rG0r2.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 237438,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-BEAD622F85808CA4",
+        "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/GenesisRed2.jpg",
+        "fileName": "GenesisRed2.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 196856,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-AE745E4CA70337B1",
+        "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/SunnyBounder2.jpg",
+        "fileName": "SunnyBounder2.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 236032,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-01FC8294C9C452AF",
+        "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/TansariiPointVeteran2.jpg",
+        "fileName": "TansariiPointVeteran2.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 273413,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-04C3EE4BECF03161",
         "sha256": "04c3ee4becf031617ffdc703a50094399dc1b16873414d36396b880895f4aa6c",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.jpg",
@@ -56876,44 +56951,6 @@
             "jsonPaths": []
           }
         ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-71AE91371C945BBC",
-        "sha256": "71ae91371c945bbccb96d1ce28d559b996053bbedf8712835424d0e3a26664bf",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.png",
-        "fileName": "CartelSpacer.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 948893,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-F9684341795C2BD8",
-        "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer2.jpg",
-        "fileName": "CartelSpacer2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 236841,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
         "referencedBy": []
       },
       {
@@ -56940,44 +56977,6 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-A179C7CE45DC4F39",
-        "sha256": "a179c7ce45dc4f397f34f8291133b1cacba0ea5c20dd305323980dcc4e11dc71",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r.png",
-        "fileName": "G4rG0r.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 931643,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-40AA3A40B6200EF5",
-        "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r2.jpg",
-        "fileName": "G4rG0r2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 237438,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-D5ADE14AFD30BCF0",
         "sha256": "d5ade14afd30bcf0302cbdd0145d517e64a33dda9261feac957f1e9abfd7ae01",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.jpg",
@@ -56998,44 +56997,6 @@
             "jsonPaths": []
           }
         ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-CBC4098E61191B37",
-        "sha256": "cbc4098e61191b37e7b694a34a7b9504464f314e88faa8cb173d57b3ef6bed93",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.png",
-        "fileName": "GenesisRed.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 580819,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-BEAD622F85808CA4",
-        "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed2.jpg",
-        "fileName": "GenesisRed2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 196856,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
         "referencedBy": []
       },
       {
@@ -57074,82 +57035,6 @@
             "jsonPaths": []
           }
         ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-083C6C1F2BAD1105",
-        "sha256": "083c6c1f2bad1105cda285036d034a067fb0751b9af42276bfc2897ba97e8bf8",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.png",
-        "fileName": "SunnyBounder.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 1136947,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-AE745E4CA70337B1",
-        "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder2.jpg",
-        "fileName": "SunnyBounder2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 236032,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-965BBF4B0C830D34",
-        "sha256": "965bbf4b0c830d344ab283fde9ac612e4d41addb57a026dea176cd719943fdb4",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran.png",
-        "fileName": "TansariiPointVeteran.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 1175398,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-01FC8294C9C452AF",
-        "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran2.jpg",
-        "fileName": "TansariiPointVeteran2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 273413,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
         "referencedBy": []
       },
       {
@@ -125473,9 +125358,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5213,
-    "uniqueAssetCount": 4957,
-    "totalBytes": 1967544795,
+    "fileCount": 5208,
+    "uniqueAssetCount": 4952,
+    "totalBytes": 1962771095,
     "duplicateFileCount": 256,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -125486,11 +125371,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3043,
+      "unified25": 3038,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4178,
+      "image": 4173,
       "model": 753,
       "lua": 229,
       "xml": 15,

@@ -16500,22 +16500,40 @@
     "sizeBytes": 190884
   },
   {
+    "assetId": "AST-F9684341795C2BD8",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/CartelSpacer2.jpg",
+    "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
+    "sizeBytes": 236841
+  },
+  {
+    "assetId": "AST-40AA3A40B6200EF5",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/G4rG0r2.jpg",
+    "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
+    "sizeBytes": 237438
+  },
+  {
+    "assetId": "AST-BEAD622F85808CA4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/GenesisRed2.jpg",
+    "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
+    "sizeBytes": 196856
+  },
+  {
+    "assetId": "AST-AE745E4CA70337B1",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/SunnyBounder2.jpg",
+    "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
+    "sizeBytes": 236032
+  },
+  {
+    "assetId": "AST-01FC8294C9C452AF",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/New folder/TansariiPointVeteran2.jpg",
+    "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
+    "sizeBytes": 273413
+  },
+  {
     "assetId": "AST-04C3EE4BECF03161",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.jpg",
     "sha256": "04c3ee4becf031617ffdc703a50094399dc1b16873414d36396b880895f4aa6c",
     "sizeBytes": 358102
-  },
-  {
-    "assetId": "AST-71AE91371C945BBC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.png",
-    "sha256": "71ae91371c945bbccb96d1ce28d559b996053bbedf8712835424d0e3a26664bf",
-    "sizeBytes": 948893
-  },
-  {
-    "assetId": "AST-F9684341795C2BD8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer2.jpg",
-    "sha256": "f9684341795c2bd8bcc42beab096dd9e4dc3e5253f6103980122b887a14dd9fc",
-    "sizeBytes": 236841
   },
   {
     "assetId": "AST-FBB53AA0825F5BD8",
@@ -16524,34 +16542,10 @@
     "sizeBytes": 357311
   },
   {
-    "assetId": "AST-A179C7CE45DC4F39",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r.png",
-    "sha256": "a179c7ce45dc4f397f34f8291133b1cacba0ea5c20dd305323980dcc4e11dc71",
-    "sizeBytes": 931643
-  },
-  {
-    "assetId": "AST-40AA3A40B6200EF5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/G4rG0r2.jpg",
-    "sha256": "40aa3a40b6200ef5763de1f9d7a5321fcdbc53514135ddb6b23b7834d15f69bb",
-    "sizeBytes": 237438
-  },
-  {
     "assetId": "AST-D5ADE14AFD30BCF0",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.jpg",
     "sha256": "d5ade14afd30bcf0302cbdd0145d517e64a33dda9261feac957f1e9abfd7ae01",
     "sizeBytes": 243038
-  },
-  {
-    "assetId": "AST-CBC4098E61191B37",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.png",
-    "sha256": "cbc4098e61191b37e7b694a34a7b9504464f314e88faa8cb173d57b3ef6bed93",
-    "sizeBytes": 580819
-  },
-  {
-    "assetId": "AST-BEAD622F85808CA4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed2.jpg",
-    "sha256": "bead622f85808ca4627caf31bf5d1cf9a79b01111fe08314f3590197a3bc3c20",
-    "sizeBytes": 196856
   },
   {
     "assetId": "AST-1F6FEA4849F602F2",
@@ -16564,30 +16558,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.jpg",
     "sha256": "ee2bbba7ff0ad012c09a6855f3d95675627dffe0de3a723107aad36e00cc1c98",
     "sizeBytes": 351992
-  },
-  {
-    "assetId": "AST-083C6C1F2BAD1105",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.png",
-    "sha256": "083c6c1f2bad1105cda285036d034a067fb0751b9af42276bfc2897ba97e8bf8",
-    "sizeBytes": 1136947
-  },
-  {
-    "assetId": "AST-AE745E4CA70337B1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder2.jpg",
-    "sha256": "ae745e4ca70337b1d743a3b620c0e4e3ae567061acaf21eb32f95870db0c6802",
-    "sizeBytes": 236032
-  },
-  {
-    "assetId": "AST-965BBF4B0C830D34",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran.png",
-    "sha256": "965bbf4b0c830d344ab283fde9ac612e4d41addb57a026dea176cd719943fdb4",
-    "sizeBytes": 1175398
-  },
-  {
-    "assetId": "AST-01FC8294C9C452AF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/TansariiPointVeteran2.jpg",
-    "sha256": "01fc8294c9c452af42f705ec2850df34e53a325e21a17ac5eb22d12d111a636a",
-    "sizeBytes": 273413
   },
   {
     "assetId": "AST-B818005FB94E6CCB",
