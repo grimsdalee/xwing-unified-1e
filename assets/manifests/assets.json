@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T18:25:30.6902521+00:00",
+  "generatedUtc": "2026-07-31T20:56:19.9084922+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5216,
-  "uniqueAssets": 4960,
+  "totalFiles": 5213,
+  "uniqueAssets": 4957,
   "duplicateFiles": 256,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-31T17:43:13.1087476Z"
+      "lastWriteTimeUtc": "2026-07-31T18:33:08.0744491Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-31T17:43:17.6227432Z"
+      "lastWriteTimeUtc": "2026-07-31T18:33:13.0664919Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-31T17:43:21.9760889Z"
+      "lastWriteTimeUtc": "2026-07-31T18:33:17.5063439Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-31T17:43:23.2329189Z"
+      "lastWriteTimeUtc": "2026-07-31T18:33:18.9380022Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-31T17:43:27.0100965Z"
+      "lastWriteTimeUtc": "2026-07-31T18:33:23.577802Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -32924,30 +32924,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:20.8698662Z"
     },
     {
-      "assetId": "AST-A469C9978DA3F6AD",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun.png",
-      "fileName": "blacksun.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1877413,
-      "sha256": "a469c9978da3f6ad2c180c14fbef877d8da6bdca0a023149c44991a7ad55f14b",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.8876344Z"
-    },
-    {
-      "assetId": "AST-B34915F4C0A9F2F1",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun2.jpg",
-      "fileName": "blacksun2.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 703443,
-      "sha256": "b34915f4c0a9f2f16ab96bd7c76ad2b427f1c9d1bb23b124c8cdaa1ba7dea19c",
-      "lastWriteTimeUtc": "2026-07-29T15:24:04.6105965Z"
-    },
-    {
       "assetId": "AST-028DB3BF3FD6A947",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/green.jpg",
       "fileName": "green.jpg",
@@ -33006,18 +32982,6 @@
       "sizeBytes": 384423,
       "sha256": "13938320d53e7c9435017c966d65801c202fb711a7f6133ec200cb8e9dc7690a",
       "lastWriteTimeUtc": "2026-07-29T15:24:04.8386317Z"
-    },
-    {
-      "assetId": "AST-4A7F17BA29464A43",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.png",
-      "fileName": "vaksai.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 854347,
-      "sha256": "4a7f17ba29464a43d008a5f0330f6fb89fa78b91963ada383f8d37073709a2f8",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.9073404Z"
     },
     {
       "assetId": "AST-1DD47A4BC70D25FD",

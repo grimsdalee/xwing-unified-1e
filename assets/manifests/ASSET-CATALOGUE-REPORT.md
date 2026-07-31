@@ -1,9 +1,9 @@
 # Asset Catalogue Report
 
-Generated: 2026-07-31T18:25:30.6902521+00:00
+Generated: 2026-07-31T20:56:19.9084922+00:00
 
-- Total files: 5216
-- Unique assets: 4960
+- Total files: 5213
+- Unique assets: 4957
 - Duplicate files: 256
 - Duplicate hash groups: 234
 
@@ -16,12 +16,12 @@ Generated: 2026-07-31T18:25:30.6902521+00:00
 - generated-pilot-tokens: 8
 - legacy1e: 379
 - legacy1e-non-pilot: 418
-- unified25: 3046
+- unified25: 3043
 - xwing-data: 880
 
 ## By file kind
 
-- image: 4181
+- image: 4178
 - model: 753
 - lua: 229
 - other: 27

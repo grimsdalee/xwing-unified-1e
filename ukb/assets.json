@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T18:25:31.1305597+00:00",
+  "generatedUtc": "2026-07-31T20:56:20.3429434+00:00",
   "assets": [
     {
       "assetId": "AST-B0ABB46A052335ED",
@@ -56701,44 +56701,6 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-A469C9978DA3F6AD",
-      "sha256": "a469c9978da3f6ad2c180c14fbef877d8da6bdca0a023149c44991a7ad55f14b",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun.png",
-      "fileName": "blacksun.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1877413,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/small/kihraxzfighter/Textures/blacksun.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-B34915F4C0A9F2F1",
-      "sha256": "b34915f4c0a9f2f16ab96bd7c76ad2b427f1c9d1bb23b124c8cdaa1ba7dea19c",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun2.jpg",
-      "fileName": "blacksun2.jpg",
-      "extension": ".jpg",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 703443,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
       "assetId": "AST-028DB3BF3FD6A947",
       "sha256": "028db3bf3fd6a9474367f69aaf106f19f7446c6a0847cc92b89cac53f28d4330",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/green.jpg",
@@ -56843,29 +56805,6 @@
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
-      "referencedBy": []
-    },
-    {
-      "assetId": "AST-4A7F17BA29464A43",
-      "sha256": "4a7f17ba29464a43d008a5f0330f6fb89fa78b91963ada383f8d37073709a2f8",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.png",
-      "fileName": "vaksai.png",
-      "extension": ".png",
-      "assetType": "image",
-      "warehouse": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 854347,
-      "availability": "available",
-      "releaseRequired": null,
-      "sourceReferences": [
-        {
-          "sourceSystem": "unified25",
-          "sourceLocation": "assets/ships-v2/small/kihraxzfighter/Textures/vaksai.png",
-          "importStatus": "copied",
-          "importedUtc": null,
-          "jsonPaths": []
-        }
-      ],
       "referencedBy": []
     },
     {

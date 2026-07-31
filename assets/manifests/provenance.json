@@ -21944,22 +21944,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-A469C9978DA3F6AD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-B34915F4C0A9F2F1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-028DB3BF3FD6A947",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/green.jpg",
     "origin": "unified25",
@@ -21994,14 +21978,6 @@
   {
     "assetId": "AST-13938320D53E7C94",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-4A7F17BA29464A43",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.png",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

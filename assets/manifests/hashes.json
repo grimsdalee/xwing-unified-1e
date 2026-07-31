@@ -16458,18 +16458,6 @@
     "sizeBytes": 434772
   },
   {
-    "assetId": "AST-A469C9978DA3F6AD",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun.png",
-    "sha256": "a469c9978da3f6ad2c180c14fbef877d8da6bdca0a023149c44991a7ad55f14b",
-    "sizeBytes": 1877413
-  },
-  {
-    "assetId": "AST-B34915F4C0A9F2F1",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/blacksun2.jpg",
-    "sha256": "b34915f4c0a9f2f16ab96bd7c76ad2b427f1c9d1bb23b124c8cdaa1ba7dea19c",
-    "sizeBytes": 703443
-  },
-  {
     "assetId": "AST-028DB3BF3FD6A947",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/green.jpg",
     "sha256": "028db3bf3fd6a9474367f69aaf106f19f7446c6a0847cc92b89cac53f28d4330",
@@ -16498,12 +16486,6 @@
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.jpg",
     "sha256": "13938320d53e7c9435017c966d65801c202fb711a7f6133ec200cb8e9dc7690a",
     "sizeBytes": 384423
-  },
-  {
-    "assetId": "AST-4A7F17BA29464A43",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/kihraxzfighter/Textures/vaksai.png",
-    "sha256": "4a7f17ba29464a43d008a5f0330f6fb89fa78b91963ada383f8d37073709a2f8",
-    "sizeBytes": 854347
   },
   {
     "assetId": "AST-1DD47A4BC70D25FD",

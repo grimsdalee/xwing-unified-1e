@@ -2459,6 +2459,24 @@ public static class GeneratePrototypeSaveCommand
             };
         }
         else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "kihraxzfighter",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Cartel Marauder" => "standard.jpg",
+                "Captain Jostero" => "orange.jpg",
+                "Black Sun Ace" => "blacksun.jpg",
+                "Graz the Hunter" => "vaksai.jpg",
+                "Viktor Hel" => "green.jpg",
+                "Talonbane Cobra" => "talonbane.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
                 "galacticempire",
                 StringComparison.OrdinalIgnoreCase)
             && assembly.ShipId.Equals(
