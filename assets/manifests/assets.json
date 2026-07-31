@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T17:21:03.4218118+00:00",
+  "generatedUtc": "2026-07-31T17:37:13.5679448+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5229,
-  "uniqueAssets": 4973,
+  "totalFiles": 5221,
+  "uniqueAssets": 4965,
   "duplicateFiles": 256,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-31T17:08:53.0273584Z"
+      "lastWriteTimeUtc": "2026-07-31T17:21:27.2169009Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-31T17:08:57.2171294Z"
+      "lastWriteTimeUtc": "2026-07-31T17:21:31.3855138Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-31T17:09:01.5023424Z"
+      "lastWriteTimeUtc": "2026-07-31T17:21:35.9515998Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-31T17:09:02.3107206Z"
+      "lastWriteTimeUtc": "2026-07-31T17:21:36.9345288Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-31T17:09:05.9555094Z"
+      "lastWriteTimeUtc": "2026-07-31T17:21:40.7666283Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -34053,7 +34053,7 @@
     },
     {
       "assetId": "AST-39016FF762D6E2C4",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/blue.jpg",
       "fileName": "blue.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -34065,7 +34065,7 @@
     },
     {
       "assetId": "AST-6C6182896CA6D78A",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/plain.jpg",
       "fileName": "plain.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -34077,7 +34077,7 @@
     },
     {
       "assetId": "AST-615DBAD82A3F0F18",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poe.jpg",
       "fileName": "poe.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -34089,7 +34089,7 @@
     },
     {
       "assetId": "AST-B2D28FEED24ABBD6",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poeHoH.jpg",
       "fileName": "poeHoH.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -34101,7 +34101,7 @@
     },
     {
       "assetId": "AST-CF233286574FF32E",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/snap.jpg",
       "fileName": "snap.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -34110,102 +34110,6 @@
       "sizeBytes": 288691,
       "sha256": "cf233286574ff32e0d20f464ffaa11a4e8861a0096ac287067a2f98c06febf4d",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7027022Z"
-    },
-    {
-      "assetId": "AST-F90A9F80B0EEE3F5",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.jpg",
-      "fileName": "PoeDameron.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 120878,
-      "sha256": "f90a9f80b0eee3f58f10566aa7ac007ac2fffe36028891b48810b4c09cd91572",
-      "lastWriteTimeUtc": "2026-07-29T15:24:07.2597679Z"
-    },
-    {
-      "assetId": "AST-2F9155B15189AC5B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
-      "fileName": "PoeDameron.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 338700,
-      "sha256": "2f9155b15189ac5bc8d98c058a29d6cfaa5d8153e9249464df3213bf8b31d660",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7057221Z"
-    },
-    {
-      "assetId": "AST-1445AF05354E7CA2",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.jpg",
-      "fileName": "PoeHoH.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 154240,
-      "sha256": "1445af05354e7ca27c34d6ff743f29580193f68f957b2d737ef67c2ee98c0e30",
-      "lastWriteTimeUtc": "2026-07-29T15:24:07.2942778Z"
-    },
-    {
-      "assetId": "AST-0598CC8910090D98",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png",
-      "fileName": "PoeHoH.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 371256,
-      "sha256": "0598cc8910090d98272e688dfd021276d6a5f2e9db997baac7ba2d0516b0f860",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7097042Z"
-    },
-    {
-      "assetId": "AST-22D63E9A72FD2B9E",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png",
-      "fileName": "RedSquadronExpert.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 413281,
-      "sha256": "22d63e9a72fd2b9e63c3652a22555508a1bec5473ac516be98d9085b962bc2bd",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7137034Z"
-    },
-    {
-      "assetId": "AST-89E8D51DA3DC9928",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.jpg",
-      "fileName": "SnapHoH.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 141371,
-      "sha256": "89e8d51da3dc992876fb33738968836617e1af4f13be3333120be4068aacd28f",
-      "lastWriteTimeUtc": "2026-07-29T15:24:07.3689083Z"
-    },
-    {
-      "assetId": "AST-DB25D0FAABAFB2ED",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png",
-      "fileName": "SnapHoH.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 345551,
-      "sha256": "db25d0faabafb2edf0d40aee7cd639c0e7e400b88f335e9fcb299c28d8cbd905",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7167279Z"
-    },
-    {
-      "assetId": "AST-7E89580EA437A003",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/standard.jpg",
-      "fileName": "standard.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 146538,
-      "sha256": "7e89580ea437a003bad877dd349ad98ee46542ecbd03c111861ab9b5e898167e",
-      "lastWriteTimeUtc": "2026-07-29T15:24:07.3324647Z"
     },
     {
       "assetId": "AST-D031855F52EB1D42",

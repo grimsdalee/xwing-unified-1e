@@ -17023,81 +17023,33 @@
   },
   {
     "assetId": "AST-39016FF762D6E2C4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/blue.jpg",
     "sha256": "39016ff762d6e2c42e7a97640e3263e5d4c61fd924ad237f00cd75f084e4e0b6",
     "sizeBytes": 305309
   },
   {
     "assetId": "AST-6C6182896CA6D78A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/plain.jpg",
     "sha256": "6c6182896ca6d78a52f593847224907d6bb85aedc427ae3b6b87d36b23c6a52e",
     "sizeBytes": 317239
   },
   {
     "assetId": "AST-615DBAD82A3F0F18",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poe.jpg",
     "sha256": "615dbad82a3f0f18e9b8bd3eb1319f7fb0a76a93bc8f81425e0aa4eb4beef043",
     "sizeBytes": 275259
   },
   {
     "assetId": "AST-B2D28FEED24ABBD6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poeHoH.jpg",
     "sha256": "b2d28feed24abbd6fe35923814ff311ae07c171c631f7bf51613e9501111f169",
     "sizeBytes": 350220
   },
   {
     "assetId": "AST-CF233286574FF32E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/snap.jpg",
     "sha256": "cf233286574ff32e0d20f464ffaa11a4e8861a0096ac287067a2f98c06febf4d",
     "sizeBytes": 288691
-  },
-  {
-    "assetId": "AST-F90A9F80B0EEE3F5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.jpg",
-    "sha256": "f90a9f80b0eee3f58f10566aa7ac007ac2fffe36028891b48810b4c09cd91572",
-    "sizeBytes": 120878
-  },
-  {
-    "assetId": "AST-2F9155B15189AC5B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
-    "sha256": "2f9155b15189ac5bc8d98c058a29d6cfaa5d8153e9249464df3213bf8b31d660",
-    "sizeBytes": 338700
-  },
-  {
-    "assetId": "AST-1445AF05354E7CA2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.jpg",
-    "sha256": "1445af05354e7ca27c34d6ff743f29580193f68f957b2d737ef67c2ee98c0e30",
-    "sizeBytes": 154240
-  },
-  {
-    "assetId": "AST-0598CC8910090D98",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png",
-    "sha256": "0598cc8910090d98272e688dfd021276d6a5f2e9db997baac7ba2d0516b0f860",
-    "sizeBytes": 371256
-  },
-  {
-    "assetId": "AST-22D63E9A72FD2B9E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png",
-    "sha256": "22d63e9a72fd2b9e63c3652a22555508a1bec5473ac516be98d9085b962bc2bd",
-    "sizeBytes": 413281
-  },
-  {
-    "assetId": "AST-89E8D51DA3DC9928",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.jpg",
-    "sha256": "89e8d51da3dc992876fb33738968836617e1af4f13be3333120be4068aacd28f",
-    "sizeBytes": 141371
-  },
-  {
-    "assetId": "AST-DB25D0FAABAFB2ED",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png",
-    "sha256": "db25d0faabafb2edf0d40aee7cd639c0e7e400b88f335e9fcb299c28d8cbd905",
-    "sizeBytes": 345551
-  },
-  {
-    "assetId": "AST-7E89580EA437A003",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/standard.jpg",
-    "sha256": "7e89580ea437a003bad877dd349ad98ee46542ecbd03c111861ab9b5e898167e",
-    "sizeBytes": 146538
   },
   {
     "assetId": "AST-D031855F52EB1D42",

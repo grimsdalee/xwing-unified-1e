@@ -1960,6 +1960,7 @@ public static class GeneratePrototypeSaveCommand
     {
         string? relative = null;
         string? obsoleteRelative = null;
+        IReadOnlyList<string>? additionalObsoleteRelatives = null;
 
         if (assembly.ShipId.Equals(
                 "arc170",
@@ -2042,7 +2043,14 @@ public static class GeneratePrototypeSaveCommand
                 "t70xwing/t70_basev2.obj";
             obsoleteRelative =
                 "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/t70xwing.obj";
+                "t70xwing/t70_base.obj";
+            additionalObsoleteRelatives = new[]
+            {
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "t70xwing/t70_open.obj",
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "t70xwing/t70_closed.obj"
+            };
         }
         else if (assembly.ShipId.Equals(
                 "kwing",
@@ -2162,6 +2170,30 @@ public static class GeneratePrototypeSaveCommand
                 "Unified 2.5 masterShipDB confirms the selected production OBJ; " +
                 "the alternate OBJ in the same ship folder is unused and retained only for later cleanup review.",
                 "Obsolete");
+        }
+
+        if (additionalObsoleteRelatives is not null)
+        {
+            foreach (var additionalObsoleteRelative in additionalObsoleteRelatives)
+            {
+                var obsoleteFullPath = Path.Combine(
+                    repositoryRoot,
+                    additionalObsoleteRelative.Replace(
+                        '/',
+                        Path.DirectorySeparatorChar));
+                ValidateFile(
+                    obsoleteFullPath,
+                    $"{assembly.ShipName} obsolete alternate model");
+
+                RecordShipModelSelectionAudit(
+                    repositoryRoot,
+                    assembly,
+                    additionalObsoleteRelative,
+                    relative,
+                    "Unified 2.5 spawned-ship save confirms the selected v2 multipart production OBJ set; " +
+                    "the matching v1 multipart OBJ is unused and retained only for later cleanup review.",
+                    "Obsolete");
+            }
         }
 
         if (!model.RepositoryPath.Equals(

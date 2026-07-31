@@ -1,0 +1,391 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-07-31T17:43:21.6980698+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/z95headhunter/banditsquadronpilot",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "banditsquadronpilot",
+      "pilotName": "Bandit Squadron Pilot",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-1691F481B60B3185",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7F53D86DF8B363DA",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-FB4D7C1EDA01A074",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-44DD681DD83D483A",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/z95headhunter/talasquadronpilot",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "talasquadronpilot",
+      "pilotName": "Tala Squadron Pilot",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-1691F481B60B3185",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7F53D86DF8B363DA",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-5E30FC0BF7E79520",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F61B349A84402588",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/z95headhunter/lieutenantblount",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "lieutenantblount",
+      "pilotName": "Lieutenant Blount",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-1691F481B60B3185",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7F53D86DF8B363DA",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-2B2B0C0DA98D31F8",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-2F88CACC9205E018",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "z95headhunter",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/z95headhunter/airencracken",
+      "shipId": "z95headhunter",
+      "shipName": "Z-95 Headhunter",
+      "pilotId": "airencracken",
+      "pilotName": "Airen Cracken",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "rk3",
+        "ws4"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-1691F481B60B3185",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-7F53D86DF8B363DA",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-9C86B445F150D1DB",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-8B802818FCE69FCE",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

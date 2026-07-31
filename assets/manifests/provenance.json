@@ -22697,7 +22697,7 @@
   },
   {
     "assetId": "AST-39016FF762D6E2C4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/blue.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/blue.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22705,7 +22705,7 @@
   },
   {
     "assetId": "AST-6C6182896CA6D78A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/plain.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/plain.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22713,7 +22713,7 @@
   },
   {
     "assetId": "AST-615DBAD82A3F0F18",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poe.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poe.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22721,7 +22721,7 @@
   },
   {
     "assetId": "AST-B2D28FEED24ABBD6",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/poeHoH.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/poeHoH.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22729,71 +22729,7 @@
   },
   {
     "assetId": "AST-CF233286574FF32E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/1/snap.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-F90A9F80B0EEE3F5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2F9155B15189AC5B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeDameron.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-1445AF05354E7CA2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0598CC8910090D98",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/PoeHoH.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-22D63E9A72FD2B9E",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/RedSquadronExpert.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-89E8D51DA3DC9928",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DB25D0FAABAFB2ED",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/SnapHoH.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7E89580EA437A003",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/Textures/snap.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
