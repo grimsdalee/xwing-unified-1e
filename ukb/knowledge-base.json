@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T17:08:31.0873809+00:00",
+  "generatedUtc": "2026-07-31T17:21:03.8188361+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -52943,6 +52943,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-42579D068E0419F4",
+        "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/blue.jpg",
+        "fileName": "blue.jpg",
+        "extension": ".jpg",
+        "assetType": "image",
+        "warehouse": "unified25",
+        "isGenerated": false,
+        "sizeBytes": 237061,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-F69F101E39B1AE3B",
         "sha256": "f69f101e39b1ae3b1aa3933b6ec57c25e2c88e34a58db63ae6cab1096e42a2a7",
         "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/PaigeTico.jpg",
@@ -52966,33 +52981,10 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-42579D068E0419F4",
-        "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/standard.jpg",
-        "fileName": "standard.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 237061,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/large/mg100starfortress/Textures/Standard.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-0553EE7CA458EB50",
         "sha256": "0553ee7ca458eb5024d42262341f89f210016a09d7b287cc8e71c106063b6af5",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/Vennie.jpg",
-        "fileName": "Vennie.jpg",
+        "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/red.jpg",
+        "fileName": "red.jpg",
         "extension": ".jpg",
         "assetType": "image",
         "warehouse": "unified25",
@@ -53000,15 +52992,7 @@
         "sizeBytes": 240526,
         "availability": "available",
         "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/large/mg100starfortress/Textures/Vennie.jpg",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
+        "sourceReferences": [],
         "referencedBy": []
       },
       {

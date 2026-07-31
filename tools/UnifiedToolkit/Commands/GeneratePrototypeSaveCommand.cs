@@ -2040,6 +2040,9 @@ public static class GeneratePrototypeSaveCommand
             relative =
                 "assets/source/unified25/assets/ships-v2/small/" +
                 "t70xwing/t70_basev2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "t70xwing/t70xwing.obj";
         }
         else if (assembly.ShipId.Equals(
                 "kwing",
@@ -2623,6 +2626,29 @@ public static class GeneratePrototypeSaveCommand
                 "Magva Yarro" => "renegade.jpg",
                 "Cassian Andor" => "captain.jpg",
                 "Saw Gerrera" => "renegade.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "resistance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "bsf17bomber",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "mg100starfortress",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Crimson Squadron Pilot" => "red.jpg",
+                "\"Crimson Specialist\"" => "red.jpg",
+                "Crimson Specialist" => "red.jpg",
+                "\"Cobalt Leader\"" => "blue.jpg",
+                "Cobalt Leader" => "blue.jpg",
+                "\"Crimson Leader\"" => "red.jpg",
+                "Crimson Leader" => "red.jpg",
                 _ => null
             };
         }

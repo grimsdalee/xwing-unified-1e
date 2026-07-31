@@ -20408,6 +20408,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-42579D068E0419F4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/blue.jpg",
+    "origin": "unified25",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-F69F101E39B1AE3B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/PaigeTico.jpg",
     "origin": "unified25",
@@ -20416,16 +20424,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-42579D068E0419F4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-0553EE7CA458EB50",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/Vennie.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/red.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

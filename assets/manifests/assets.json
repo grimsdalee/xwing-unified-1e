@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T17:08:30.6276696+00:00",
+  "generatedUtc": "2026-07-31T17:21:03.4218118+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
   "totalFiles": 5229,
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-31T00:06:52.8135187Z"
+      "lastWriteTimeUtc": "2026-07-31T17:08:53.0273584Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-31T00:06:56.9007714Z"
+      "lastWriteTimeUtc": "2026-07-31T17:08:57.2171294Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-31T00:07:01.0076841Z"
+      "lastWriteTimeUtc": "2026-07-31T17:09:01.5023424Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-31T00:07:01.8566289Z"
+      "lastWriteTimeUtc": "2026-07-31T17:09:02.3107206Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-31T00:07:05.0422984Z"
+      "lastWriteTimeUtc": "2026-07-31T17:09:05.9555094Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -30620,6 +30620,18 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:18.8757577Z"
     },
     {
+      "assetId": "AST-42579D068E0419F4",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/blue.jpg",
+      "fileName": "blue.jpg",
+      "extension": ".jpg",
+      "kind": "image",
+      "origin": "unified25",
+      "isGenerated": false,
+      "sizeBytes": 237061,
+      "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
+      "lastWriteTimeUtc": "2026-07-08T23:59:18.8589747Z"
+    },
+    {
       "assetId": "AST-F69F101E39B1AE3B",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/PaigeTico.jpg",
       "fileName": "PaigeTico.jpg",
@@ -30632,21 +30644,9 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:18.8546099Z"
     },
     {
-      "assetId": "AST-42579D068E0419F4",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/standard.jpg",
-      "fileName": "standard.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 237061,
-      "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.8589747Z"
-    },
-    {
       "assetId": "AST-0553EE7CA458EB50",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/Vennie.jpg",
-      "fileName": "Vennie.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/red.jpg",
+      "fileName": "red.jpg",
       "extension": ".jpg",
       "kind": "image",
       "origin": "unified25",

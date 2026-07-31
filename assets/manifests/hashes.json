@@ -15306,20 +15306,20 @@
     "sizeBytes": 2013099
   },
   {
+    "assetId": "AST-42579D068E0419F4",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/blue.jpg",
+    "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
+    "sizeBytes": 237061
+  },
+  {
     "assetId": "AST-F69F101E39B1AE3B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/PaigeTico.jpg",
     "sha256": "f69f101e39b1ae3b1aa3933b6ec57c25e2c88e34a58db63ae6cab1096e42a2a7",
     "sizeBytes": 244972
   },
   {
-    "assetId": "AST-42579D068E0419F4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/standard.jpg",
-    "sha256": "42579d068e0419f4ec613cbf7c06b090b01ce8d262565a5438ffd7111d1419d0",
-    "sizeBytes": 237061
-  },
-  {
     "assetId": "AST-0553EE7CA458EB50",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/Vennie.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/Textures/red.jpg",
     "sha256": "0553ee7ca458eb5024d42262341f89f210016a09d7b287cc8e71c106063b6af5",
     "sizeBytes": 240526
   },
