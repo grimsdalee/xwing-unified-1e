@@ -2075,6 +2075,37 @@ public static class GeneratePrototypeSaveCommand
                 "btla4ywing/btla4_ywing.obj";
         }
         else if (assembly.ShipId.Equals(
+                     "z95headhunter",
+                     StringComparison.OrdinalIgnoreCase)
+                 || assembly.ShipId.Equals(
+                     "z95af4headhunter",
+                     StringComparison.OrdinalIgnoreCase)
+                 || assembly.ShipId.Equals(
+                     "z95",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "z95af4headhunter/Z95v3.obj";
+
+            RecordShipModelSelectionAudit(
+                repositoryRoot,
+                assembly,
+                "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95.obj",
+                relative,
+                "Unified 2.5 spawned validation save confirms Z95v3.obj is the production mesh.",
+                "Obsolete");
+
+            RecordShipModelSelectionAudit(
+                repositoryRoot,
+                assembly,
+                "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v2.obj",
+                relative,
+                "Unified 2.5 spawned validation save confirms Z95v3.obj is the production mesh.",
+                "Obsolete");
+        }
+
+        else if (assembly.ShipId.Equals(
                      "yt1300",
                      StringComparison.OrdinalIgnoreCase)
                  && assembly.Faction.Equals(
@@ -2592,6 +2623,24 @@ public static class GeneratePrototypeSaveCommand
                 "Magva Yarro" => "renegade.jpg",
                 "Cassian Andor" => "captain.jpg",
                 "Saw Gerrera" => "renegade.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "ywing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Gold Squadron Pilot" => "standard.jpg",
+                "Gray Squadron Pilot" => "grey.jpg",
+                "\"Dutch\" Vander" => "norrawexley.jpg",
+                "Dutch Vander" => "norrawexley.jpg",
+                "Horton Salm" => "hortonsalm.jpg",
                 _ => null
             };
         }
