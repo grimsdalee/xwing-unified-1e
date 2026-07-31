@@ -2630,6 +2630,29 @@ public static class GeneratePrototypeSaveCommand
         else if (assembly.Faction.Equals(
                      "rebelalliance",
                      StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "z95",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "z95headhunter",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "z95af4headhunter",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Bandit Squadron Pilot" => "bandit.jpg",
+                "Tala Squadron Pilot" => "tala.jpg",
+                "Lieutenant Blount" => "red.jpg",
+                "Airen Cracken" => "blue.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
                  && assembly.ShipId.Equals(
                      "ywing",
                      StringComparison.OrdinalIgnoreCase))
