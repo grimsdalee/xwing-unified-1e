@@ -20753,7 +20753,7 @@
   },
   {
     "assetId": "AST-0AFBDAFCC3AC291C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/aphra.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/aphra.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20761,7 +20761,7 @@
   },
   {
     "assetId": "AST-58440FD60628F421",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/blacksun.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/blacksun.jpg",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20769,38 +20769,6 @@
   },
   {
     "assetId": "AST-83147569595C82B2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/grey.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-708D033325446A68",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/moralo.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-5455A8079DCFC0A9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/mytho.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-1227FCBE2683ACBC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7EF58F94C12C6154",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/grey.jpg",
     "origin": "unified25",
     "isGenerated": false,
@@ -20808,7 +20776,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-90DF95D2D5C5C087",
+    "assetId": "AST-708D033325446A68",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/moralo.jpg",
     "origin": "unified25",
     "isGenerated": false,
@@ -20816,7 +20784,15 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-62DF60DCF315F6C0",
+    "assetId": "AST-5455A8079DCFC0A9",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/mytho.jpg",
+    "origin": "unified25",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1227FCBE2683ACBC",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
     "origin": "unified25",
     "isGenerated": false,

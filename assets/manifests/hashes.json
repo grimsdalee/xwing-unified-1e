@@ -15565,57 +15565,39 @@
   },
   {
     "assetId": "AST-0AFBDAFCC3AC291C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/aphra.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/aphra.jpg",
     "sha256": "0afbdafcc3ac291cf7c9688daa408c5d55ff399bceb81d7006363ff3e7b2ddce",
     "sizeBytes": 334991
   },
   {
     "assetId": "AST-58440FD60628F421",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/blacksun.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/blacksun.jpg",
     "sha256": "58440fd60628f421a569760fec2df5754d04a6483b45694d35f84bb2e55bc941",
     "sizeBytes": 324664
   },
   {
     "assetId": "AST-83147569595C82B2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/grey.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/grey.jpg",
     "sha256": "83147569595c82b2dbbff74432f385930fdd788bf6ee10e5095a1f4ed75073f3",
     "sizeBytes": 220718
   },
   {
     "assetId": "AST-708D033325446A68",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/moralo.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/moralo.jpg",
     "sha256": "708d033325446a68604e5dfb25dfbd62999deec63bb4f0198803642cb0cc1573",
     "sizeBytes": 283337
   },
   {
     "assetId": "AST-5455A8079DCFC0A9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/mytho.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/mytho.jpg",
     "sha256": "5455a8079dcfc0a9295c892239c0e501626231dc1c49d9391b0d015c54cbbafe",
     "sizeBytes": 295932
   },
   {
     "assetId": "AST-1227FCBE2683ACBC",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/standard.jpg",
+    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
     "sha256": "1227fcbe2683acbc00fba88bcf49bdcb08b42d4b22e4e9cfb9fd2dce71a28379",
     "sizeBytes": 332547
-  },
-  {
-    "assetId": "AST-7EF58F94C12C6154",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/grey.jpg",
-    "sha256": "7ef58f94c12c6154c430aa26abbbecbc06cd5b02f154a2f104861584442da04c",
-    "sizeBytes": 190927
-  },
-  {
-    "assetId": "AST-90DF95D2D5C5C087",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/moralo.jpg",
-    "sha256": "90df95d2d5c5c0872ec656e4c3daf16ae552b81bc522de66471ae3adfacae805",
-    "sizeBytes": 264557
-  },
-  {
-    "assetId": "AST-62DF60DCF315F6C0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-    "sha256": "62df60dcf315f6c0aee37acf85bdf8970a96aae4954b38e2010e86a183411ef5",
-    "sizeBytes": 278812
   },
   {
     "assetId": "AST-0CBB1033F6B14CC5",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-01T00:10:47.7661785+00:00",
+  "generatedUtc": "2026-08-01T15:57:37.9685301+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5197,
-  "uniqueAssets": 4941,
+  "totalFiles": 5194,
+  "uniqueAssets": 4938,
   "duplicateFiles": 256,
   "assets": [
     {
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-07-31T23:54:39.8032957Z"
+      "lastWriteTimeUtc": "2026-08-01T00:11:16.5525582Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-07-31T23:54:43.8388328Z"
+      "lastWriteTimeUtc": "2026-08-01T00:11:21.2590265Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-07-31T23:54:47.9208167Z"
+      "lastWriteTimeUtc": "2026-08-01T00:11:25.384369Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-07-31T23:54:49.1404802Z"
+      "lastWriteTimeUtc": "2026-08-01T00:11:26.666775Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-07-31T23:54:52.6118095Z"
+      "lastWriteTimeUtc": "2026-08-01T00:11:30.278715Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -31137,7 +31137,7 @@
     },
     {
       "assetId": "AST-0AFBDAFCC3AC291C",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/aphra.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/aphra.jpg",
       "fileName": "aphra.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31149,7 +31149,7 @@
     },
     {
       "assetId": "AST-58440FD60628F421",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/blacksun.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/blacksun.jpg",
       "fileName": "blacksun.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31161,7 +31161,7 @@
     },
     {
       "assetId": "AST-83147569595C82B2",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/grey.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/grey.jpg",
       "fileName": "grey.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31173,7 +31173,7 @@
     },
     {
       "assetId": "AST-708D033325446A68",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/moralo.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/moralo.jpg",
       "fileName": "moralo.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31185,7 +31185,7 @@
     },
     {
       "assetId": "AST-5455A8079DCFC0A9",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/mytho.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/mytho.jpg",
       "fileName": "mytho.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31197,7 +31197,7 @@
     },
     {
       "assetId": "AST-1227FCBE2683ACBC",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/1/standard.jpg",
+      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
       "fileName": "standard.jpg",
       "extension": ".jpg",
       "kind": "image",
@@ -31206,42 +31206,6 @@
       "sizeBytes": 332547,
       "sha256": "1227fcbe2683acbc00fba88bcf49bdcb08b42d4b22e4e9cfb9fd2dce71a28379",
       "lastWriteTimeUtc": "2026-07-08T23:59:19.1367911Z"
-    },
-    {
-      "assetId": "AST-7EF58F94C12C6154",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/grey.jpg",
-      "fileName": "grey.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 190927,
-      "sha256": "7ef58f94c12c6154c430aa26abbbecbc06cd5b02f154a2f104861584442da04c",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1387976Z"
-    },
-    {
-      "assetId": "AST-90DF95D2D5C5C087",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/moralo.jpg",
-      "fileName": "moralo.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 264557,
-      "sha256": "90df95d2d5c5c0872ec656e4c3daf16ae552b81bc522de66471ae3adfacae805",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1431715Z"
-    },
-    {
-      "assetId": "AST-62DF60DCF315F6C0",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-      "fileName": "standard.jpg",
-      "extension": ".jpg",
-      "kind": "image",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 278812,
-      "sha256": "62df60dcf315f6c0aee37acf85bdf8970a96aae4954b38e2010e86a183411ef5",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.1465621Z"
     },
     {
       "assetId": "AST-0CBB1033F6B14CC5",

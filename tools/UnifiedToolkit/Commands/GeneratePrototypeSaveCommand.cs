@@ -2202,13 +2202,9 @@ public static class GeneratePrototypeSaveCommand
 
         if (!string.IsNullOrWhiteSpace(obsoleteRelative))
         {
-            var obsoleteFullPath = Path.Combine(
-                repositoryRoot,
-                obsoleteRelative.Replace('/', Path.DirectorySeparatorChar));
-            ValidateFile(
-                obsoleteFullPath,
-                $"{assembly.ShipName} obsolete alternate model");
-
+            // Obsolete models may have been moved into the repository quarantine
+            // by the maintenance workflow. Their absence must not prevent future
+            // validation-save generation.
             RecordShipModelSelectionAudit(
                 repositoryRoot,
                 assembly,
@@ -2223,15 +2219,7 @@ public static class GeneratePrototypeSaveCommand
         {
             foreach (var additionalObsoleteRelative in additionalObsoleteRelatives)
             {
-                var obsoleteFullPath = Path.Combine(
-                    repositoryRoot,
-                    additionalObsoleteRelative.Replace(
-                        '/',
-                        Path.DirectorySeparatorChar));
-                ValidateFile(
-                    obsoleteFullPath,
-                    $"{assembly.ShipName} obsolete alternate model");
-
+                // Obsolete multipart models may already be quarantined.
                 RecordShipModelSelectionAudit(
                     repositoryRoot,
                     assembly,
@@ -2589,6 +2577,25 @@ public static class GeneratePrototypeSaveCommand
         else if (assembly.Faction.Equals(
                      "scumandvillainy",
                      StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "yv666",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "yv666lightfreighter",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Trandoshan Slaver" => "standard.jpg",
+                "Latts Razzi" => "standard.jpg",
+                "Moralo Eval" => "moralo.jpg",
+                "Bossk" => "grey.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
                  && assembly.ShipId.Equals(
                      "protectoratestarfighter",
                      StringComparison.OrdinalIgnoreCase))
@@ -2912,6 +2919,32 @@ public static class GeneratePrototypeSaveCommand
         }
 
         else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "z95",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "z95headhunter",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "z95af4headhunter",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Binayre Pirate" => "binayre.jpg",
+                "Black Sun Soldier" => "blacksun.jpg",
+                "N'Dru Suhlak" => "ndru.jpg",
+                "N'dru Suhlak" => "ndru.jpg",
+                "N’Dru Suhlak" => "ndru.jpg",
+                "Kaa'to Leeachos" => "bossk.jpg",
+                "Nashtah Pup Pilot" => "nashtah.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
                      "rebelalliance",
                      StringComparison.OrdinalIgnoreCase)
                  && (assembly.ShipId.Equals(
@@ -2930,6 +2963,40 @@ public static class GeneratePrototypeSaveCommand
                 "Tala Squadron Pilot" => "tala.jpg",
                 "Lieutenant Blount" => "red.jpg",
                 "Airen Cracken" => "blue.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "ywing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Syndicate Thug" => "crymorah.jpg",
+                "Hired Gun" => "amaxine.jpg",
+                "Drea Renthal" => "drearenthal.jpg",
+                "Kavil" => "kavil.jpg",
+                _ => null
+            };
+        }
+
+        else if (assembly.Faction.Equals(
+                     "rebelalliance",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
+                     "auzituckgunship",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Kashyyyk Defender" => "standard.jpg",
+                "Wookiee Liberator" => "standard.jpg",
+                "Lowhhrick" => "orange.jpg",
+                "Wullffwarro" => "standard.jpg",
                 _ => null
             };
         }

@@ -1,4 +1,5 @@
 using UnifiedToolkit.Commands;
+using UnifiedToolkit.Commands.RepositoryMaintenance;
 
 if (args.Length == 0)
 {
@@ -108,6 +109,10 @@ return command switch
     "extract-runtime-templates" => ExtractRuntimeTemplatesCommand.Run(commandArgs),
     "generate-prototype-save" => GeneratePrototypeSaveCommand.Run(commandArgs),
     "generate-ship-validation-saves" => GenerateShipValidationSavesCommand.Run(commandArgs),
+    "verify-obsolete-models" => VerifyObsoleteModelsCommand.Run(commandArgs),
+    "quarantine-obsolete-models" => QuarantineObsoleteModelsCommand.Run(commandArgs),
+    "restore-quarantined-models" => RestoreQuarantinedModelsCommand.Run(commandArgs),
+    "purge-quarantined-models" => PurgeQuarantinedModelsCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -210,6 +215,10 @@ static void ShowHelp()
     Console.WriteLine("  extract-runtime-templates <first-edition-repo-folder> <tts-save.json> [--peg-catalogue <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  generate-prototype-save <first-edition-repo-folder> <reference-save.json> [--assembly-plan <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <file>]");
     Console.WriteLine("  generate-ship-validation-saves <first-edition-repo-folder> <reference-save.json> [--package-plan <file>] [--runtime-payloads <file>] [--runtime-templates <file>] [--asset-base-url <url>] [--output <folder>]");
+    Console.WriteLine("  verify-obsolete-models <first-edition-repo-folder> [--audit <file>]");
+    Console.WriteLine("  quarantine-obsolete-models <first-edition-repo-folder> [--audit <file>]");
+    Console.WriteLine("  restore-quarantined-models <first-edition-repo-folder> [--audit <file>]");
+    Console.WriteLine("  purge-quarantined-models <first-edition-repo-folder> [--audit <file>] --confirm-purge");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
