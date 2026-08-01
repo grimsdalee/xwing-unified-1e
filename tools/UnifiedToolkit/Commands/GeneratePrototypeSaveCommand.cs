@@ -2014,6 +2014,20 @@ public static class GeneratePrototypeSaveCommand
                 "fangfighter/ship-base.obj";
         }
         else if (assembly.ShipId.Equals(
+                "starviper",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "starviperclassattackplatform",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "starviperclassattackplatform/starviper2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "starviperclassattackplatform/starviper.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tieadvanced",
                 StringComparison.OrdinalIgnoreCase))
         {
@@ -2533,6 +2547,28 @@ public static class GeneratePrototypeSaveCommand
                 "Lok Revenant" => "standard.jpg",
                 "Sol Sixxa" => "standard.jpg",
                 "Captain Nym" => "orange.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && (assembly.ShipId.Equals(
+                         "starviper",
+                         StringComparison.OrdinalIgnoreCase)
+                     || assembly.ShipId.Equals(
+                         "starviperclassattackplatform",
+                         StringComparison.OrdinalIgnoreCase)))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Black Sun Enforcer" => "standard.jpg",
+                "Black Sun Vigo" => "standard.jpg",
+                "Thweek" => "blacksunassassin.jpg",
+                "Black Sun Assassin" => "blacksunassassin.jpg",
+                "Guri" => "standard.jpg",
+                "Dalan Oberos" => "blacksunassassin.jpg",
+                "Prince Xizor" => "standard.jpg",
                 _ => null
             };
         }

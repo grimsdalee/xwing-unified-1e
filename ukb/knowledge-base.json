@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-07-31T23:54:11.4843956+00:00",
+  "generatedUtc": "2026-08-01T00:10:48.1970164+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -57496,82 +57496,6 @@
             "jsonPaths": []
           }
         ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-135CE6AFDBA7B716",
-        "sha256": "135ce6afdba7b716c108d196ca3b1be31122661a99ecf8355f9504e785e46b49",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin.png",
-        "fileName": "blacksunassassin.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 195020,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-123D03A22EC79739",
-        "sha256": "123d03a22ec797390c42f7fed633897067230741c593f9a959b082394d13d1b7",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin2.jpg",
-        "fileName": "blacksunassassin2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 69631,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-ACF4F4759EBB0646",
-        "sha256": "acf4f4759ebb06462e24bd90d1114f511fc82b33405440dcc499ad5281eab5e7",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.png",
-        "fileName": "blacksunenforcer.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 277103,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [
-          {
-            "sourceSystem": "unified25",
-            "sourceLocation": "assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.png",
-            "importStatus": "copied",
-            "importedUtc": null,
-            "jsonPaths": []
-          }
-        ],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-EA3057F57A94F09B",
-        "sha256": "ea3057f57a94f09b36f8929355af20837748378325081de969be83f16c4547e6",
-        "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer2.jpg",
-        "fileName": "blacksunenforcer2.jpg",
-        "extension": ".jpg",
-        "assetType": "image",
-        "warehouse": "unified25",
-        "isGenerated": false,
-        "sizeBytes": 82280,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
         "referencedBy": []
       },
       {
@@ -125229,9 +125153,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5201,
-    "uniqueAssetCount": 4945,
-    "totalBytes": 1954578737,
+    "fileCount": 5197,
+    "uniqueAssetCount": 4941,
+    "totalBytes": 1953954703,
     "duplicateFileCount": 256,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -125242,11 +125166,11 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified25": 3031,
+      "unified25": 3027,
       "xwing-data": 880
     },
     "byAssetType": {
-      "image": 4166,
+      "image": 4162,
       "model": 753,
       "lua": 229,
       "xml": 15,

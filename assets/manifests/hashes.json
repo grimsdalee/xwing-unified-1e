@@ -16674,30 +16674,6 @@
     "sizeBytes": 307294
   },
   {
-    "assetId": "AST-135CE6AFDBA7B716",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin.png",
-    "sha256": "135ce6afdba7b716c108d196ca3b1be31122661a99ecf8355f9504e785e46b49",
-    "sizeBytes": 195020
-  },
-  {
-    "assetId": "AST-123D03A22EC79739",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin2.jpg",
-    "sha256": "123d03a22ec797390c42f7fed633897067230741c593f9a959b082394d13d1b7",
-    "sizeBytes": 69631
-  },
-  {
-    "assetId": "AST-ACF4F4759EBB0646",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.png",
-    "sha256": "acf4f4759ebb06462e24bd90d1114f511fc82b33405440dcc499ad5281eab5e7",
-    "sizeBytes": 277103
-  },
-  {
-    "assetId": "AST-EA3057F57A94F09B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer2.jpg",
-    "sha256": "ea3057f57a94f09b36f8929355af20837748378325081de969be83f16c4547e6",
-    "sizeBytes": 82280
-  },
-  {
     "assetId": "AST-6AB5F2089FF50000",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
     "sha256": "6ab5f2089ff500005c3e605592df3d52b8c4329912a3f6546e2d5686c86ddd73",

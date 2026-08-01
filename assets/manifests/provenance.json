@@ -22232,38 +22232,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-135CE6AFDBA7B716",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-123D03A22EC79739",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunassassin2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-ACF4F4759EBB0646",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-EA3057F57A94F09B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/blacksunenforcer2.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-6AB5F2089FF50000",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Textures/standard.jpg",
     "origin": "unified25",
