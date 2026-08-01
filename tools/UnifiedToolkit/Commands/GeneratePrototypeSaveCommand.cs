@@ -2028,6 +2028,20 @@ public static class GeneratePrototypeSaveCommand
                 "starviperclassattackplatform/starviper.obj";
         }
         else if (assembly.ShipId.Equals(
+                "yv666",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "yv666lightfreighter",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "yv666lightfreighter/yv666v2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/large/" +
+                "yv666lightfreighter/yv666.obj";
+        }
+        else if (assembly.ShipId.Equals(
                 "tieadvanced",
                 StringComparison.OrdinalIgnoreCase))
         {
