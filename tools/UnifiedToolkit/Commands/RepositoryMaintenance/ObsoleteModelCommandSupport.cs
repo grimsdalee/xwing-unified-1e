@@ -39,6 +39,7 @@ internal static class ObsoleteModelCommandSupport
         Console.WriteLine($"Entries scanned:       {manifest.EntriesScanned}");
         Console.WriteLine($"Verified unused:       {manifest.VerifiedUnused}");
         Console.WriteLine($"Blocked:               {manifest.Blocked}");
+        Console.WriteLine($"Shared selected asset: {manifest.SharedSelectedAsset}");
         Console.WriteLine($"Missing original:      {manifest.MissingOriginal}");
         Console.WriteLine($"Missing replacement:   {manifest.MissingReplacement}");
         Console.WriteLine($"Quarantined:           {manifest.Quarantined}");

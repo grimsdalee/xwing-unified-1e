@@ -1,0 +1,403 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-01T17:41:59.4968932+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "yt2400",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/yt2400/wildspacefringer",
+      "shipId": "yt2400",
+      "shipName": "YT-2400",
+      "pilotId": "wildspacefringer",
+      "pilotName": "Wild Space Fringer",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-AAF667E515B56F78",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-75F1EC8E66EAE67E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-ABC39B0FB2F4811C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/wild-space-fringer.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/wild-space-fringer.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-A3D0FA8F9084737D",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt2400/wildspacefringer__pilot-782c47437218.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt2400/wildspacefringer__pilot-782c47437218.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "yt2400",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/yt2400/eadenvrill",
+      "shipId": "yt2400",
+      "shipName": "YT-2400",
+      "pilotId": "eadenvrill",
+      "pilotName": "Eaden Vrill",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-AAF667E515B56F78",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-75F1EC8E66EAE67E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6C1A2CD391ACE1A3",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/eaden-vrill.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/eaden-vrill.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-3073D22ED8117065",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt2400/eadenvrill__pilot-e27fb236c4f3.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt2400/eadenvrill__pilot-e27fb236c4f3.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "yt2400",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/yt2400/leebo",
+      "shipId": "yt2400",
+      "shipName": "YT-2400",
+      "pilotId": "leebo",
+      "pilotName": "\u0022Leebo\u0022",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-AAF667E515B56F78",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-75F1EC8E66EAE67E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-CB9C242DAC6617D3",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/leebo.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/leebo.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-154CFF68303F3544",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt2400/leebo__pilot-5274e11eaa41.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt2400/leebo__pilot-5274e11eaa41.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "yt2400",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/yt2400/dashrendar",
+      "shipId": "yt2400",
+      "shipName": "YT-2400",
+      "pilotId": "dashrendar",
+      "pilotName": "Dash Rendar",
+      "faction": "rebelalliance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wtl3",
+        "wbl3",
+        "ws3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-AAF667E515B56F78",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/yt2400.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-75F1EC8E66EAE67E",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yt2400lightfreighter/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-BBC29CCC5F049DCF",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/dash-rendar.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-2400/dash-rendar.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-3CB3122FF92B23C8",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt2400/dashrendar__pilot-eb50363aacfe.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt2400/dashrendar__pilot-eb50363aacfe.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

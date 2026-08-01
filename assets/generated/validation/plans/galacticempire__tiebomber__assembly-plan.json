@@ -1,0 +1,677 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-01T17:41:53.8494067+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 7,
+  "readyPrototypeCount": 7,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/scimitarsquadronpilot",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "scimitarsquadronpilot",
+      "pilotName": "Scimitar Squadron Pilot",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-D383E606F75454DC",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/scimitar-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/scimitar-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-A2F924C51BE10F67",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/scimitarsquadronpilot__pilot-6bca69aa2e6f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/scimitarsquadronpilot__pilot-6bca69aa2e6f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/deathfire",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "deathfire",
+      "pilotName": "\u0022Deathfire\u0022",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-3A544075F7603882",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/deathfire.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/deathfire.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-02B3AFB01C02B8B4",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/deathfire__pilot-1b8c5d844954.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/deathfire__pilot-1b8c5d844954.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/gammasquadronpilot",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "gammasquadronpilot",
+      "pilotName": "Gamma Squadron Pilot",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-8995170471CD0901",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-C43F2C889533E113",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/gammasquadronveteran",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "gammasquadronveteran",
+      "pilotName": "Gamma Squadron Veteran",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-07DBE4F3115CABE3",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/gamma-squadron-veteran.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-35A3EB3CBB66F7D5",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronveteran__pilot-c1b278be03e2.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronveteran__pilot-c1b278be03e2.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/captainjonus",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "captainjonus",
+      "pilotName": "Captain Jonus",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C8597DEFE0AE224D",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/captain-jonus.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/captain-jonus.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-EEB9EEBE6FCD379C",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/captainjonus__pilot-bdaa55ad958f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/captainjonus__pilot-bdaa55ad958f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/majorrhymer",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "majorrhymer",
+      "pilotName": "Major Rhymer",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-2B46330D94070B9C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/major-rhymer.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/major-rhymer.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-DFB22E30F77DE508",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/majorrhymer__pilot-2699bb62e4da.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/majorrhymer__pilot-2699bb62e4da.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiebomber",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiebomber/tomaxbren",
+      "shipId": "tiebomber",
+      "shipName": "TIE Bomber",
+      "pilotId": "tomaxbren",
+      "pilotName": "Tomax Bren",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wbl1",
+        "bs1",
+        "wbr1",
+        "rtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "rtr2",
+        "wtl3",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "wtr3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-F92EB13A99D5AD31",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tiesabomber/tiebomber.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-893996346E366A4C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-7296373B8F3B85A5",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/tomax-bren.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Bomber/tomax-bren.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-1D6C62DFDB0672DF",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiebomber/tomaxbren__pilot-78154c684a5d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiebomber/tomaxbren__pilot-78154c684a5d.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

@@ -19,20 +19,17 @@ public sealed class RepositoryReferenceScanner
         "_unifiedtoolkit_quarantine"
     };
 
-    public IReadOnlyList<string> FindReferences(
+    public IReadOnlyList<RepositoryReference> FindReferences(
         string repositoryRoot,
         string repositoryRelativePath)
     {
         var normalisedPath = Normalise(repositoryRelativePath);
         var fileName = Path.GetFileName(repositoryRelativePath);
-        var results = new List<string>();
+        var results = new List<RepositoryReference>();
 
         foreach (var file in EnumerateCandidateFiles(repositoryRoot))
         {
             var relative = Normalise(Path.GetRelativePath(repositoryRoot, file));
-
-            if (IsIgnoredMetadataFile(relative))
-                continue;
 
             string content;
             try
@@ -45,19 +42,125 @@ public sealed class RepositoryReferenceScanner
             }
 
             var normalisedContent = content.Replace('\\', '/');
-            if (normalisedContent.Contains(normalisedPath, StringComparison.OrdinalIgnoreCase)
-                || (!string.IsNullOrWhiteSpace(fileName)
-                    && normalisedContent.Contains(fileName, StringComparison.OrdinalIgnoreCase)))
+            if (!normalisedContent.Contains(
+                    normalisedPath,
+                    StringComparison.OrdinalIgnoreCase)
+                && (string.IsNullOrWhiteSpace(fileName)
+                    || !normalisedContent.Contains(
+                        fileName,
+                        StringComparison.OrdinalIgnoreCase)))
             {
-                results.Add(relative);
+                continue;
             }
+
+            results.Add(Classify(relative));
         }
 
         return results
-            .Distinct(StringComparer.OrdinalIgnoreCase)
-            .OrderBy(item => item, StringComparer.OrdinalIgnoreCase)
+            .GroupBy(item => item.Path, StringComparer.OrdinalIgnoreCase)
+            .Select(group => group.First())
+            .OrderBy(item => item.Path, StringComparer.OrdinalIgnoreCase)
             .ToList();
     }
+
+    private static RepositoryReference Classify(string relativePath)
+    {
+        if (relativePath.StartsWith(
+                "_unifiedtoolkit_reports/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "Report", blocksCleanup: false);
+        }
+
+        if (relativePath.StartsWith(
+                "assets/manifests/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "Manifest", blocksCleanup: false);
+        }
+
+        if (relativePath.StartsWith(
+                "ukb/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "KnowledgeBase", blocksCleanup: false);
+        }
+
+        if (relativePath.StartsWith(
+                "assets/generated/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "Generated", blocksCleanup: false);
+        }
+
+        // These locations are retained Unified 2.5 conversion inputs and
+        // extracted source snapshots. References here document the upstream
+        // source state; they are not active Unified First Edition runtime
+        // dependencies and must not block cleanup of imported model copies.
+        if (relativePath.StartsWith(
+                "assets/source/unified25/TTS_xwing/",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.StartsWith(
+                "output/unified-2.5/",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.StartsWith(
+                "source/unified-2.5/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "HistoricalUnified25Source", blocksCleanup: false);
+        }
+
+        // This command deliberately contains historical rejected paths so it
+        // can generate the model-selection audit. Those strings are evidence,
+        // not live runtime dependencies.
+        if (relativePath.Equals(
+                "tools/UnifiedToolkit/Commands/GeneratePrototypeSaveCommand.cs",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.Equals(
+                "Commands/GeneratePrototypeSaveCommand.cs",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "ModelSelectionAuditSource", blocksCleanup: false);
+        }
+
+        if (relativePath.StartsWith(
+                "assets/source/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "SourceAsset", blocksCleanup: true);
+        }
+
+        if (relativePath.StartsWith(
+                "tools/",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.StartsWith(
+                "Commands/",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.EndsWith(
+                ".cs",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.EndsWith(
+                ".lua",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "Runtime", blocksCleanup: true);
+        }
+
+        // Unknown locations remain blocking. The verifier should fail safe
+        // rather than silently treating an unclassified reference as history.
+        return New(relativePath, "Other", blocksCleanup: true);
+    }
+
+    private static RepositoryReference New(
+        string path,
+        string category,
+        bool blocksCleanup) =>
+        new()
+        {
+            Path = path,
+            Category = category,
+            BlocksCleanup = blocksCleanup
+        };
 
     private static IEnumerable<string> EnumerateCandidateFiles(string root)
     {
@@ -103,28 +206,6 @@ public sealed class RepositoryReferenceScanner
                     yield return file;
             }
         }
-    }
-
-    private static bool IsIgnoredMetadataFile(string relativePath)
-    {
-        if (relativePath.StartsWith(
-                "_unifiedtoolkit_reports/model-selection/",
-                StringComparison.OrdinalIgnoreCase)
-            || relativePath.StartsWith(
-                "_unifiedtoolkit_reports/model-cleanup/",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return true;
-        }
-
-        // This command intentionally contains historical rejected paths solely
-        // to generate the model-selection audit. They are not runtime references.
-        return relativePath.Equals(
-            "tools/UnifiedToolkit/Commands/GeneratePrototypeSaveCommand.cs",
-            StringComparison.OrdinalIgnoreCase)
-            || relativePath.Equals(
-                "Commands/GeneratePrototypeSaveCommand.cs",
-                StringComparison.OrdinalIgnoreCase);
     }
 
     private static string Normalise(string value) =>

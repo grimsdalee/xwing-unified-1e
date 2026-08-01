@@ -53,19 +53,37 @@ public sealed class ObsoleteModelMaintenanceService
             var replacementFullPath = Resolve(repositoryRoot, replacementPath);
             var originalExists = File.Exists(originalFullPath);
             var replacementExists = File.Exists(replacementFullPath);
-            var references = originalExists
+            var selectedByOtherShips = auditEntries
+                .Where(other =>
+                    Normalise(other.SelectedModelPath).Equals(
+                        originalPath,
+                        StringComparison.OrdinalIgnoreCase)
+                    && !Normalise(other.RejectedModelPath).Equals(
+                        originalPath,
+                        StringComparison.OrdinalIgnoreCase))
+                .Select(other => $"{other.Faction}/{other.ShipId} ({other.ShipName})")
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .OrderBy(value => value, StringComparer.OrdinalIgnoreCase)
+                .ToList();
+            var classifiedReferences = originalExists
                 ? scanner.FindReferences(repositoryRoot, originalPath).ToList()
-                : new List<string>();
+                : new List<RepositoryReference>();
+            var blockingReferences = classifiedReferences
+                .Where(reference => reference.BlocksCleanup)
+                .Select(reference => reference.Path)
+                .ToList();
 
             var status = !replacementExists
                 ? "MissingReplacement"
-                : !originalExists
-                    ? IsQuarantined(repositoryRoot, originalPath)
-                        ? "Quarantined"
-                        : "MissingOriginal"
-                    : references.Count > 0
-                        ? "Blocked"
-                        : "VerifiedUnused";
+                : selectedByOtherShips.Count > 0
+                    ? "SharedSelectedAsset"
+                    : !originalExists
+                        ? IsQuarantined(repositoryRoot, originalPath)
+                            ? "Quarantined"
+                            : "MissingOriginal"
+                        : blockingReferences.Count > 0
+                            ? "Blocked"
+                            : "VerifiedUnused";
 
             var entry = new ObsoleteModelVerificationEntry
             {
@@ -78,7 +96,30 @@ public sealed class ObsoleteModelMaintenanceService
                 ReplacementExists = replacementExists,
                 OriginalSizeBytes = originalExists ? new FileInfo(originalFullPath).Length : 0,
                 OriginalSha256 = originalExists ? Sha256(originalFullPath) : string.Empty,
-                References = references,
+                References = classifiedReferences
+                    .Select(reference => reference.Path)
+                    .ToList(),
+                ClassifiedReferences = classifiedReferences,
+                BlockingReferences = blockingReferences,
+                ManifestReferences = PathsFor(classifiedReferences, "Manifest"),
+                KnowledgeBaseReferences = PathsFor(classifiedReferences, "KnowledgeBase"),
+                ReportReferences = PathsFor(classifiedReferences, "Report"),
+                GeneratedReferences = PathsFor(classifiedReferences, "Generated"),
+                HistoricalUnified25References = PathsFor(
+                    classifiedReferences,
+                    "HistoricalUnified25Source"),
+                SelectedByOtherShips = selectedByOtherShips,
+                NonBlockingOtherReferences = classifiedReferences
+                    .Where(reference => !reference.BlocksCleanup
+                        && !reference.Category.Equals("Manifest", StringComparison.OrdinalIgnoreCase)
+                        && !reference.Category.Equals("KnowledgeBase", StringComparison.OrdinalIgnoreCase)
+                        && !reference.Category.Equals("Report", StringComparison.OrdinalIgnoreCase)
+                        && !reference.Category.Equals("Generated", StringComparison.OrdinalIgnoreCase)
+                        && !reference.Category.Equals(
+                            "HistoricalUnified25Source",
+                            StringComparison.OrdinalIgnoreCase))
+                    .Select(reference => reference.Path)
+                    .ToList(),
                 VerificationStatus = status,
                 VerifiedUtc = DateTimeOffset.UtcNow
             };
@@ -161,6 +202,15 @@ public sealed class ObsoleteModelMaintenanceService
             if (!File.Exists(quarantine))
                 continue;
 
+            if (entry.SelectedByOtherShips.Count > 0)
+            {
+                entry.Action = "PurgeProtectedSharedSelectedAsset";
+                entry.VerificationStatus = "SharedSelectedAsset";
+                entry.QuarantinePath = Normalise(
+                    Path.GetRelativePath(repositoryRoot, quarantine));
+                continue;
+            }
+
             entry.OriginalSizeBytes = new FileInfo(quarantine).Length;
             entry.OriginalSha256 = Sha256(quarantine);
             File.Delete(quarantine);
@@ -197,7 +247,10 @@ public sealed class ObsoleteModelMaintenanceService
             writer.WriteLine(
                 "Faction,ShipId,ShipName,OriginalPath,ReplacementPath," +
                 "OriginalExists,ReplacementExists,OriginalSizeBytes,Sha256," +
-                "VerificationStatus,Action,QuarantinePath,References");
+                "VerificationStatus,Action,QuarantinePath,BlockingReferences," +
+                "ManifestReferences,KnowledgeBaseReferences,ReportReferences," +
+                "GeneratedReferences,HistoricalUnified25References," +
+                "SelectedByOtherShips,OtherNonBlockingReferences,AllReferences");
 
             foreach (var entry in manifest.Entries)
             {
@@ -214,6 +267,14 @@ public sealed class ObsoleteModelMaintenanceService
                     Csv(entry.VerificationStatus),
                     Csv(entry.Action),
                     Csv(entry.QuarantinePath),
+                    Csv(string.Join(" | ", entry.BlockingReferences)),
+                    Csv(string.Join(" | ", entry.ManifestReferences)),
+                    Csv(string.Join(" | ", entry.KnowledgeBaseReferences)),
+                    Csv(string.Join(" | ", entry.ReportReferences)),
+                    Csv(string.Join(" | ", entry.GeneratedReferences)),
+                    Csv(string.Join(" | ", entry.HistoricalUnified25References)),
+                    Csv(string.Join(" | ", entry.SelectedByOtherShips)),
+                    Csv(string.Join(" | ", entry.NonBlockingOtherReferences)),
                     Csv(string.Join(" | ", entry.References))));
             }
         }
@@ -229,27 +290,49 @@ public sealed class ObsoleteModelMaintenanceService
         markdown.WriteLine($"- Entries scanned: {manifest.EntriesScanned}");
         markdown.WriteLine($"- Verified unused: {manifest.VerifiedUnused}");
         markdown.WriteLine($"- Blocked: {manifest.Blocked}");
+        markdown.WriteLine($"- Shared selected assets: {manifest.SharedSelectedAsset}");
         markdown.WriteLine($"- Missing original: {manifest.MissingOriginal}");
         markdown.WriteLine($"- Missing replacement: {manifest.MissingReplacement}");
         markdown.WriteLine($"- Quarantined: {manifest.Quarantined}");
         markdown.WriteLine($"- Restored: {manifest.Restored}");
         markdown.WriteLine($"- Purged: {manifest.Purged}");
         markdown.WriteLine();
-        markdown.WriteLine("| Ship | Original OBJ | Replacement OBJ | Status | Action | References |");
-        markdown.WriteLine("|---|---|---|---|---|---|");
+        markdown.WriteLine("Only active runtime, active source-asset or unknown/other references block cleanup.");
+        markdown.WriteLine("Retained Unified 2.5 source snapshots, manifests, knowledge-base records, reports and generated references remain visible but do not block quarantine.");
+        markdown.WriteLine("Any rejected OBJ that is also the confirmed selected OBJ for another ship is protected as SharedSelectedAsset.");
+        markdown.WriteLine();
+        markdown.WriteLine("| Ship | Original OBJ | Replacement OBJ | Status | Selected by | Blocking | Historical 2.5 | Manifest | KB | Reports | Generated |");
+        markdown.WriteLine("|---|---|---|---|---|---:|---:|---:|---:|---:|---:|");
         foreach (var entry in manifest.Entries)
         {
             markdown.WriteLine(
                 $"| {Escape(entry.ShipName)} | `{entry.OriginalPath}` | " +
                 $"`{entry.ReplacementPath}` | {entry.VerificationStatus} | " +
-                $"{entry.Action} | {entry.References.Count} |");
+                $"{Escape(string.Join("; ", entry.SelectedByOtherShips))} | " +
+                $"{entry.BlockingReferences.Count} | " +
+                $"{entry.HistoricalUnified25References.Count} | " +
+                $"{entry.ManifestReferences.Count} | " +
+                $"{entry.KnowledgeBaseReferences.Count} | {entry.ReportReferences.Count} | " +
+                $"{entry.GeneratedReferences.Count} |");
         }
     }
+
+
+    private static List<string> PathsFor(
+        IEnumerable<RepositoryReference> references,
+        string category) =>
+        references
+            .Where(reference => reference.Category.Equals(
+                category,
+                StringComparison.OrdinalIgnoreCase))
+            .Select(reference => reference.Path)
+            .ToList();
 
     private static void RefreshCounts(ObsoleteModelVerificationManifest manifest)
     {
         manifest.VerifiedUnused = Count(manifest, "VerifiedUnused");
         manifest.Blocked = Count(manifest, "Blocked");
+        manifest.SharedSelectedAsset = Count(manifest, "SharedSelectedAsset");
         manifest.MissingOriginal = Count(manifest, "MissingOriginal");
         manifest.MissingReplacement = Count(manifest, "MissingReplacement");
         manifest.Quarantined = Count(manifest, "Quarantined");

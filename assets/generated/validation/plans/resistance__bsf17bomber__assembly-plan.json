@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-01T17:41:59.908654+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 4,
+  "readyPrototypeCount": 4,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "bsf17bomber",
+      "expectedFaction": "",
+      "packageId": "resistance/bsf17bomber/crimsonsquadronpilot",
+      "shipId": "bsf17bomber",
+      "shipName": "B/SF-17 Bomber",
+      "pilotId": "crimsonsquadronpilot",
+      "pilotName": "Crimson Squadron Pilot",
+      "faction": "resistance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rs0",
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-9E77DE4D73186B4B",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-3D45D66C3F010B1A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C76D27E4F3B0668F",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-7088E0A9FDDBC6C4",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bsf17bomber",
+      "expectedFaction": "",
+      "packageId": "resistance/bsf17bomber/crimsonspecialist",
+      "shipId": "bsf17bomber",
+      "shipName": "B/SF-17 Bomber",
+      "pilotId": "crimsonspecialist",
+      "pilotName": "\u0022Crimson Specialist\u0022",
+      "faction": "resistance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": -4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rs0",
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-9E77DE4D73186B4B",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-3D45D66C3F010B1A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C8B526BEDEBE3B81",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-specialist.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-specialist.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-C968A07B2816450E",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bsf17bomber",
+      "expectedFaction": "",
+      "packageId": "resistance/bsf17bomber/cobaltleader",
+      "shipId": "bsf17bomber",
+      "shipName": "B/SF-17 Bomber",
+      "pilotId": "cobaltleader",
+      "pilotName": "\u0022Cobalt Leader\u0022",
+      "faction": "resistance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 4,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rs0",
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-9E77DE4D73186B4B",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-3D45D66C3F010B1A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-433BD4AC700B0056",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/cobalt-leader.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/cobalt-leader.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-CDB0DD46D1379B5E",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bsf17bomber",
+      "expectedFaction": "",
+      "packageId": "resistance/bsf17bomber/crimsonleader",
+      "shipId": "bsf17bomber",
+      "shipName": "B/SF-17 Bomber",
+      "pilotId": "crimsonleader",
+      "pilotName": "\u0022Crimson Leader\u0022",
+      "faction": "resistance",
+      "baseSize": "large",
+      "baseTemplateKey": "FirstEditionLargeShipBase",
+      "pegTemplateKey": "FirstEditionLargeShipPeg",
+      "positionX": 12,
+      "positionZ": 0,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rs0",
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "wbl3",
+        "ws3",
+        "wbr3"
+      ],
+      "actSet": [
+        "F",
+        "TL"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-9E77DE4D73186B4B",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-3D45D66C3F010B1A",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-F5B2F3E561B9FAE7",
+          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-6A2D3A9EC1D017F9",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-leader.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-leader.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-174D9A2F0D6875B9",
+          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}
