@@ -2524,6 +2524,22 @@ public static class GeneratePrototypeSaveCommand
                      "scumandvillainy",
                      StringComparison.OrdinalIgnoreCase)
                  && assembly.ShipId.Equals(
+                     "scurrgh6bomber",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            fileName = assembly.PilotName switch
+            {
+                "Karthakk Pirate" => "pirate.jpg",
+                "Lok Revenant" => "standard.jpg",
+                "Sol Sixxa" => "standard.jpg",
+                "Captain Nym" => "orange.jpg",
+                _ => null
+            };
+        }
+        else if (assembly.Faction.Equals(
+                     "scumandvillainy",
+                     StringComparison.OrdinalIgnoreCase)
+                 && assembly.ShipId.Equals(
                      "protectoratestarfighter",
                      StringComparison.OrdinalIgnoreCase))
         {
