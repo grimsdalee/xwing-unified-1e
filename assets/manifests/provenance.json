@@ -3280,6 +3280,886 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-A6BF82B87D976A70",
+    "repositoryPath": "assets/generated/validation/plans/firstorder__tiefofighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7E6A2BA142EE5C96",
+    "repositoryPath": "assets/generated/validation/plans/firstorder__tiesffighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5DDA14AC92AA95E0",
+    "repositoryPath": "assets/generated/validation/plans/firstorder__tiesilencer__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1445E5D88F3AA675",
+    "repositoryPath": "assets/generated/validation/plans/firstorder__upsilonclassshuttle__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F8BA9E8A020CDDDA",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__alphaclassstarwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-69884FDB341E5C81",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__firespray31__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1C46054AFC04E65C",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__lambdaclassshuttle__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-28E9FFC9577A072D",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvanced__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-04ECDBD5421E7B52",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvprototype__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-56352D91B7502DB8",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tieaggressor__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-205D6B05CF8DD266",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiebomber__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-34A903BC4157DB91",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiedefender__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CC86D0E060C9E05C",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiefighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-99BD9AFE7057B03F",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tieinterceptor__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-595ABA974E73EB6B",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiephantom__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-60572771DA3261D0",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiepunisher__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5621DFCEAF897D70",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiereaper__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-508F2C609B400550",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__tiestriker__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D1315FED8FCE9A0C",
+    "repositoryPath": "assets/generated/validation/plans/galacticempire__vt49decimator__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C37E0F6FB9DC2409",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__arc170__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4CEA9B9070E77F13",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__attackshuttle__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DC04116B6E3E9072",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__auzituckgunship__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF2BB0C6E9D2DDCB",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__awing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5A0D6474156B379D",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__bwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1B1E8F2855D04C62",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__ewing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-84EFA18705C93C84",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__hwk290__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-129BEA5FA777022B",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__kwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0F64F9B474DA33B4",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__scurrgh6bomber__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4FE499747296BB2",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__sheathipedeclassshuttle__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BD8549137C43A833",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__tiefighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D79F00FE2E2BF65D",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__uwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E3AC7470E34871DA",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__vcx100__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-96EC25021A1E0443",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__xwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1E647B7401F8D891",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt1300__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1CA08F453A44A5E0",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt2400__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CC9DAC73F3A09C48",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__ywing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D4C9F74A59B79C7A",
+    "repositoryPath": "assets/generated/validation/plans/rebelalliance__z95headhunter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8E6957A36DE5C518",
+    "repositoryPath": "assets/generated/validation/plans/resistance__bsf17bomber__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7199643FF939E7A5",
+    "repositoryPath": "assets/generated/validation/plans/resistance__t70xwing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A58969330FE387AA",
+    "repositoryPath": "assets/generated/validation/plans/resistance__yt1300__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FAB53C28B6665837",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__aggressor__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-711F40F595153B8E",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__firespray31__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D0522EE9D458D5AB",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__g1astarfighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EA0E266C44BA18E9",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__hwk290__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A0F9D80A70321607",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__jumpmaster5000__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5043E66D824BABC",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__kihraxzfighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D2362BDE20280324",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__lancerclasspursuitcraft__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-39609DE5D090C47D",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m12lkimogilafighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A586C5B6598476F2",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m3ainterceptor__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6110AB34EEE477ED",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__protectoratestarfighter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E8318FDD1682D2A4",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__quadjumper__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13F72D26A3C314F8",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__scurrgh6bomber__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-62FB80814F54CBD5",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__starviper__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ED2DE2EACF733C69",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__yv666__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9A3D25621E593E15",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__ywing__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB81C8F27510AA88",
+    "repositoryPath": "assets/generated/validation/plans/scumandvillainy__z95headhunter__assembly-plan.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AF5610AD8CE846CD",
+    "repositoryPath": "assets/generated/validation/saves/firstorder__tiefofighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6A5F780E06C328C9",
+    "repositoryPath": "assets/generated/validation/saves/firstorder__tiesffighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-611B967C290F01C2",
+    "repositoryPath": "assets/generated/validation/saves/firstorder__tiesilencer__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB0E8AE1E6F7F184",
+    "repositoryPath": "assets/generated/validation/saves/firstorder__upsilonclassshuttle__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5489369210BD7B3B",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__alphaclassstarwing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7F7054E45818ABBF",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__firespray31__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-485575D6F9DAF2B2",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__lambdaclassshuttle__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5B6805764DAFBC7C",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvanced__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-34D3BE46E176FE86",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvprototype__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4AB913E3D218F7BB",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieaggressor__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-59E494517FC337E2",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiebomber__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E01C43EB31F1E5F0",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiedefender__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C6443D509F812A74",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiefighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CD35F33DDFBF2EA3",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tieinterceptor__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-953D37507EDC39FA",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiephantom__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2D54AF8BA69C3560",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiepunisher__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30A83444B735775E",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiereaper__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-16FFCAB0535C88B9",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__tiestriker__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-568821997D8CF1D0",
+    "repositoryPath": "assets/generated/validation/saves/galacticempire__vt49decimator__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-633CABCF462FB77D",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__arc170__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-414FBD98512382E0",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__attackshuttle__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-52D7CFBAB3694FDC",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__auzituckgunship__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CB41AE7EC238C526",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__awing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-67336DF14A175AA0",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__ewing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ACB454968558E21F",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__hwk290__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-28E2FCA85743B4BA",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__kwing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A0250B9C3C187BB5",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__scurrgh6bomber__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AE306653A2B31E31",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__sheathipedeclassshuttle__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B76641BD58D9EA33",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__tiefighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6C3D45D247795CE7",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__vcx100__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7D68146BDB92CEDC",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt1300__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0F36362BD5DCA5F8",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt2400__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A8DD47C8D12CCB18",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__ywing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-29CCBB60AAED7FE0",
+    "repositoryPath": "assets/generated/validation/saves/rebelalliance__z95headhunter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0D26E728830DA905",
+    "repositoryPath": "assets/generated/validation/saves/resistance__bsf17bomber__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-68BE1E69D72E5648",
+    "repositoryPath": "assets/generated/validation/saves/resistance__yt1300__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C606375486D569C6",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__aggressor__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-88C39278140AEB7E",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__firespray31__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-05185387F732575B",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__g1astarfighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5EBABB5DA7B482ED",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__hwk290__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5FA5F26BAA063711",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__jumpmaster5000__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6BA386D452220092",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__kihraxzfighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6A14A7A153DC7019",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__lancerclasspursuitcraft__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-482D0E61883575C4",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m12lkimogilafighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-28F6A62FEBC61083",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m3ainterceptor__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F6DF3E28BA0DB6DC",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__protectoratestarfighter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7E800B0605C35AAD",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__quadjumper__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-382D64527A01B8B1",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__scurrgh6bomber__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3B7C8D9A90E4F275",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__starviper__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-60459E71E0F3E470",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__yv666__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4E5E83DEC6D463FE",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__ywing__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0E63A918383151F0",
+    "repositoryPath": "assets/generated/validation/saves/scumandvillainy__z95headhunter__all-pilots.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F3355ACDF1B12BB4",
+    "repositoryPath": "assets/generated/validation/ship-validation-saves.csv",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5927CE0A92A16428",
+    "repositoryPath": "assets/generated/validation/ship-validation-saves.json",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-03F286F537575D8E",
     "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
     "origin": "first-edition-dial-textures",
@@ -20256,14 +21136,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-1BC4B9C061606360",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jumpmaster.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-317D03B134787F7C",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/nomlumb.jpg",
     "origin": "unified25",
@@ -20314,14 +21186,6 @@
   {
     "assetId": "AST-1EFD2F981810CBA8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DEDF8529DDD72271",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambdaclass.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20402,14 +21266,6 @@
   {
     "assetId": "AST-76C208C126EB7CE8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-715D650221B102C3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/rebel_falcon.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20506,14 +21362,6 @@
   {
     "assetId": "AST-95DECB9121D6C2C7",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/icon.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-13D81C04174340C9",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/scavengedyt1300.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20800,14 +21648,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-0CBB1033F6B14CC5",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-4CEE008D656461E4",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
     "origin": "unified25",
@@ -20842,14 +21682,6 @@
   {
     "assetId": "AST-FD504231CBB3C56A",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-22723AB2C5C4389B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc170.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -20944,32 +21776,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-069F572272E201A4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firespray.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-9949BCE9B9663CB1",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E5F5F60981402D16",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7D53C07E6953009F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21336,30 +22144,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5C3D9C51D7EE76BF",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UWing_Close.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-13483E67486DCE49",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UWing_Open.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-BCD4A6DFBD9A6437",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-AD2A9D995698693D",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
     "origin": "unified25",
@@ -21538,14 +22322,6 @@
   {
     "assetId": "AST-2446ADA3375A9C46",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/tarfful.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-C62ADA0278FBDB37",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/btla4_ywing.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -21792,14 +22568,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-2259871A23C1D545",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-BDC9C7741CA9D909",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwkv2.obj",
     "origin": "unified25",
@@ -22032,14 +22800,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-03A1CCD02A1E4AA3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/awing.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-66B96C3F42625E61",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/icon.png",
     "origin": "unified25",
@@ -22144,14 +22904,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-201937CD12639DC3",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-0CD46B078D0D048E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede.png",
     "origin": "unified25",
@@ -22178,14 +22930,6 @@
   {
     "assetId": "AST-410FCA103F1A3F2E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/Icon.png",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-531821FC6A1C4714",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22320,48 +23064,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7CD2EE00223E78C2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7CD2EE00223E78C2",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-60916EAAA3CBDBE4",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev2.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-E1E30FE033DD6ADF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev3.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-4C2B0E53FFF50F7B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosed.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-4C2B0E53FFF50F7B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosedv1.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22376,48 +23080,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-D8A53391706E9E36",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopen.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-D8A53391706E9E36",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv1.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-E259E3CF86EEE2AF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv3.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-349B9D20240B0393",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_base.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2861C0BF41CB144A",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_closed.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-D9F170473324D11F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_open.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22432,14 +23096,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-CC2716B2D1B764A0",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-10DB768997C8D905",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_basev2.obj",
     "origin": "unified25",
@@ -22448,24 +23104,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-8C163297E48342B7",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closed.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-D4F97BA3ED4B722E",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closedv2.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0E99391B973AB58F",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_open.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22544,14 +23184,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-43E5A4473CB2B511",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/tieadvv1.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-498BA545C1345166",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/tieadvv1v2.obj",
     "origin": "unified25",
@@ -22584,14 +23216,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-C37DF3A744FD3500",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/tieadvancedx1.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-84C6B8D1C01F79CF",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/tieadvancedx1v2.obj",
     "origin": "unified25",
@@ -22618,14 +23242,6 @@
   {
     "assetId": "AST-F5CFE5650F917DC4",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-D721EC1C4A47B044",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Tie Aggressor.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22720,32 +23336,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-A0A1F3B640AFB436",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFO.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-6F36328171A49E16",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv1.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-621B9BD8113D6C13",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv2.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-88EFF650AB19F51B",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -22969,23 +23561,7 @@
   },
   {
     "assetId": "AST-77854E25A8B0DAB8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-77854E25A8B0DAB8",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-0AB7AD87E87F160D",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Tie_SF.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23032,16 +23608,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-2B8C0E60A5431861",
+    "assetId": "AST-77F32B507A56A59B",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Textures/standard.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-C2602B1E36AE402C",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,
@@ -23146,22 +23714,6 @@
   {
     "assetId": "AST-F0652AACD3A4B763",
     "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Textures/tala.jpg",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-1691F481B60B3185",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
-    "origin": "unified25",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-31EBEA498F8072A8",
-    "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v2.obj",
     "origin": "unified25",
     "isGenerated": false,
     "originalSource": null,

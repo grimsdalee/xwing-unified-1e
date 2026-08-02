@@ -733,15 +733,6 @@
     ]
   },
   {
-    "sha256": "4c2b0e53fff50f7bd51006336f31344e21ddc035ea6dc04c7f98849aae44e8eb",
-    "assetId": "AST-4C2B0E53FFF50F7B",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosed.obj",
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosedv1.obj"
-    ]
-  },
-  {
     "sha256": "4ccb1e227fc07001107b5736c65ca45e0e52b10a7fbe2f6805928b11aebf9cf1",
     "assetId": "AST-4CCB1E227FC07001",
     "fileCount": 2,
@@ -1075,15 +1066,6 @@
     ]
   },
   {
-    "sha256": "77854e25a8b0dab8d3358df5c15d0e6edd3978431482f2ab0a590302d4622bb1",
-    "assetId": "AST-77854E25A8B0DAB8",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
-      "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj"
-    ]
-  },
-  {
     "sha256": "78bcf4d9fdac3852201f63994b0c393e2208abda4cbb30f287c8419e18cc359c",
     "assetId": "AST-78BCF4D9FDAC3852",
     "fileCount": 2,
@@ -1135,15 +1117,6 @@
     "repositoryPaths": [
       "assets/generated/FirstEditionManeuverIcon/red/segnors-loop-left.png",
       "assets/source/unified25/assets/dial/maneuvers/s-looper.png"
-    ]
-  },
-  {
-    "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
-    "assetId": "AST-7CD2EE00223E78C2",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj"
     ]
   },
   {
@@ -1783,24 +1756,6 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/galacticempire/tieaggressor.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__d041f7fd9b05afc5.jpg"
-    ]
-  },
-  {
-    "sha256": "d721ec1c4a47b044fec47a1d18f2e61ae7a2cfc36ba1f3d98d90a9b2326462e2",
-    "assetId": "AST-D721EC1C4A47B044",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Tie Aggressor.obj",
-      "assets/source/unified25/assets/ships-v2/small/tieagaggressor/tieagaggressor.obj"
-    ]
-  },
-  {
-    "sha256": "d8a53391706e9e369687c85f136f81182bffb3007cb1a78354f83f7c81a5b249",
-    "assetId": "AST-D8A53391706E9E36",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopen.obj",
-      "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv1.obj"
     ]
   },
   {

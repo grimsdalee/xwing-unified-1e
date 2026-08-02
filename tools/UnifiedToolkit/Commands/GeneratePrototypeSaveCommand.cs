@@ -274,6 +274,9 @@ public static class GeneratePrototypeSaveCommand
         var tokenGuid = NextGuid(
             assembly.PackageId + ":pilot-token",
             usedGuids);
+        var configurationTokenGuid = NextGuid(
+            assembly.PackageId + ":configuration-token",
+            usedGuids);
         var openConfigGuid = NextGuid(
             assembly.PackageId + ":config-open",
             usedGuids);
@@ -407,12 +410,22 @@ public static class GeneratePrototypeSaveCommand
             ChildHierarchy = DescribeChildHierarchy(baseTemplate)
         });
 
-        return new List<JsonObject>
+        var results = new List<JsonObject>
         {
             baseTemplate,
             dialTemplate,
             cardObject
         };
+
+        if (IsUwing(assembly))
+        {
+            results.Add(BuildUwingConfigurationToken(
+                configurationTokenGuid,
+                baseGuid,
+                assembly));
+        }
+
+        return results;
     }
 
     private static string customBaseTextureUrl(JsonObject baseObject)
@@ -513,14 +526,18 @@ public static class GeneratePrototypeSaveCommand
             BuildPegChild(
                 pegGuid,
                 pegUrl,
-                assembly.BaseSize),
-            BuildShipChild(
+                assembly.BaseSize)
+        };
+
+        if (!IsUwing(assembly))
+        {
+            childObjects.Add(BuildShipChild(
                 shipGuid,
                 modelUrl,
                 textureUrl,
                 textureReviewUrls,
-                assembly)
-        };
+                assembly));
+        }
 
         AddMultipartModelStates(
             childObjects,
@@ -582,10 +599,12 @@ public static class GeneratePrototypeSaveCommand
         // in a later revision.
         baseObject["GMNotes"] = state.ToJsonString();
 
-        if (textureReviewUrls.Count > 1)
+        if (textureReviewUrls.Count > 1
+            || IsConfigurableShip(assembly))
         {
             baseObject["LuaScript"] = BuildTextureReviewLua();
-            baseObject["LuaScriptState"] = new JsonObject
+
+            var reviewState = new JsonObject
             {
                 ["currentTexture"] = textureUrl,
                 ["shipGuid"] = shipGuid,
@@ -610,7 +629,16 @@ public static class GeneratePrototypeSaveCommand
                     textureReviewUrls
                         .Select(url => JsonValue.Create(url))
                         .ToArray())
-            }.ToJsonString();
+            };
+
+            if (IsConfigurableShip(assembly))
+            {
+                reviewState["currentConfiguration"] =
+                    IsUwing(assembly) ? 2 : 1;
+            }
+
+            baseObject["LuaScriptState"] =
+                reviewState.ToJsonString();
         }
         else
         {
@@ -744,24 +772,29 @@ public static class GeneratePrototypeSaveCommand
         if (openPath is null || closedPath is null)
             return;
 
+        var isUwing = IsUwing(assembly);
+
         childObjects.Add(BuildConfigChild(
             openGuid,
             AssetUrl(assetBaseUrl, openPath),
             textureUrl,
-            visible: true));
+            visible: !isUwing,
+            configurationState: 1));
 
         childObjects.Add(BuildConfigChild(
             closedGuid,
             AssetUrl(assetBaseUrl, closedPath),
             textureUrl,
-            visible: false));
+            visible: isUwing,
+            configurationState: 2));
     }
 
     private static JsonObject BuildConfigChild(
         string guid,
         string modelUrl,
         string textureUrl,
-        bool visible)
+        bool visible,
+        int configurationState)
     {
         var scale = visible ? 1.0 : 0.000158982511;
 
@@ -782,7 +815,9 @@ public static class GeneratePrototypeSaveCommand
                 ["scaleZ"] = scale
             },
             ["Nickname"] = "Config",
-            ["Description"] = string.Empty,
+            ["Description"] = configurationState > 0
+                ? configurationState.ToString()
+                : string.Empty,
             ["ColorDiffuse"] = OpaqueWhite(),
             ["Locked"] = false,
             ["Grid"] = true,
@@ -809,6 +844,139 @@ public static class GeneratePrototypeSaveCommand
                 ["CastShadows"] = true
             },
             ["LuaScript"] = string.Empty,
+            ["LuaScriptState"] = string.Empty,
+            ["XmlUI"] = string.Empty
+        };
+    }
+
+    private static bool IsUwing(
+        PrototypeAssemblyInput assembly) =>
+        assembly.ShipId.Equals(
+            "uwing",
+            StringComparison.OrdinalIgnoreCase)
+        || assembly.ShipId.Equals(
+            "ut60duwing",
+            StringComparison.OrdinalIgnoreCase);
+
+    private static bool IsConfigurableShip(
+        PrototypeAssemblyInput assembly) =>
+        IsUwing(assembly)
+        || assembly.ShipId.Equals(
+            "t70xwing",
+            StringComparison.OrdinalIgnoreCase)
+        || assembly.ShipId.Equals(
+            "xwing",
+            StringComparison.OrdinalIgnoreCase)
+        || assembly.ShipId.Equals(
+            "t65xwing",
+            StringComparison.OrdinalIgnoreCase)
+        || assembly.PegTemplateKey.Equals(
+            "FirstEditionBwingShipPeg",
+            StringComparison.OrdinalIgnoreCase);
+
+    private static JsonObject BuildUwingConfigurationToken(
+        string guid,
+        string assignedShipGuid,
+        PrototypeAssemblyInput assembly)
+    {
+        var lua =
+            $$"""
+            __XW_Token = true
+            __XW_TokenIdle = true
+            __XW_TokenType = 'config'
+
+            self.addTag('Flippable')
+
+            local assignedShipGuid = '{{assignedShipGuid}}'
+
+            local flipChangePending = false
+
+            local function applyWingStateFromToken()
+                flipChangePending = false
+
+                local ship = getObjectFromGUID(assignedShipGuid)
+
+                if ship ~= nil then
+                    ship.call(
+                        "SetConfiguration",
+                        {
+                            ConfigId = self.is_face_down and 1 or 2
+                        })
+                else
+                    print(
+                        "Could not find assigned U-Wing "
+                        .. tostring(assignedShipGuid))
+                end
+            end
+
+            function onRotate(
+                spin,
+                flip,
+                playerColor,
+                oldSpin,
+                oldFlip)
+                if flip == oldFlip or flipChangePending then
+                    return
+                end
+
+                flipChangePending = true
+
+                -- The isolated prototype has no Unified Global runtime to
+                -- dispatch onFlip. onRotate is the native TTS object event.
+                -- Wait one frame so is_face_down reflects the completed flip.
+                Wait.frames(applyWingStateFromToken, 1)
+            end
+            """;
+
+        return new JsonObject
+        {
+            ["GUID"] = guid,
+            ["Name"] = "Custom_Model",
+            ["Transform"] = new JsonObject
+            {
+                ["posX"] = assembly.PositionX + 2.6,
+                ["posY"] = 1.0,
+                ["posZ"] = assembly.PositionZ + 3.2,
+                ["rotX"] = 0.0,
+                ["rotY"] = 270.0,
+                ["rotZ"] = 180.0,
+                ["scaleX"] = 0.38,
+                ["scaleY"] = 0.38,
+                ["scaleZ"] = 0.38
+            },
+            ["Nickname"] = string.Empty,
+            ["Description"] =
+                $"Assigned to • {assembly.PilotName}",
+            ["ColorDiffuse"] = OpaqueWhite(),
+            ["Tags"] = new JsonArray("Flippable"),
+            ["Locked"] = false,
+            ["Grid"] = true,
+            ["Snap"] = true,
+            ["IgnoreFoW"] = false,
+            ["MeasureMovement"] = false,
+            ["DragSelectable"] = true,
+            ["Autoraise"] = true,
+            ["Sticky"] = true,
+            ["Tooltip"] = true,
+            ["GridProjection"] = false,
+            ["HideWhenFaceDown"] = false,
+            ["Hands"] = false,
+            ["CustomMesh"] = new JsonObject
+            {
+                ["MeshURL"] =
+                    "https://raw.githubusercontent.com/JohnnyCheese/" +
+                    "TTS_X-Wing2.0/master/assets/Items/tokens/flip/" +
+                    "flipToken.obj",
+                ["DiffuseURL"] =
+                    "http://nnxwing.com/Content/TTS/Config/UWing.png",
+                ["NormalURL"] = string.Empty,
+                ["ColliderURL"] = string.Empty,
+                ["Convex"] = true,
+                ["MaterialIndex"] = 1,
+                ["TypeIndex"] = 5,
+                ["CastShadows"] = true
+            },
+            ["LuaScript"] = lua,
             ["LuaScriptState"] = string.Empty,
             ["XmlUI"] = string.Empty
         };
@@ -1073,10 +1241,10 @@ public static class GeneratePrototypeSaveCommand
         string openConfigGuid,
         string closedConfigGuid)
     {
-        var guids = new JsonArray
-        {
-            shipGuid
-        };
+        var guids = new JsonArray();
+
+        if (!IsUwing(assembly))
+            guids.Add(shipGuid);
 
         if (assembly.ShipId.Equals(
                 "t70xwing",
@@ -1125,6 +1293,96 @@ public static class GeneratePrototypeSaveCommand
 
             if #textureReview.textures > 1 then
                 self.addContextMenuItem("Next Texture", NextTexture, false)
+            end
+
+            if textureReview.currentConfiguration ~= nil then
+                self.addContextMenuItem(
+                    "Toggle Wing",
+                    function()
+                        SetConfiguration()
+                    end,
+                    false)
+            end
+        end
+
+        function SetConfiguration(args)
+            local requested = nil
+            if args ~= nil then
+                requested = tonumber(args.ConfigId)
+            end
+
+            local current = tonumber(
+                textureReview.currentConfiguration) or 2
+            local nextConfiguration = requested
+
+            if nextConfiguration == nil then
+                nextConfiguration = current == 1 and 2 or 1
+            end
+
+            if nextConfiguration ~= 1 and nextConfiguration ~= 2 then
+                print(
+                    "Unsupported U-Wing configuration "
+                    .. tostring(nextConfiguration)
+                    .. " for "
+                    .. self.getName())
+                return
+            end
+
+            local attachments = self.getAttachments()
+            local changed = false
+
+            for index = #attachments, 1, -1 do
+                local attachment = attachments[index]
+
+                if attachment.name == "Config" then
+                    local model = self.removeAttachment(attachment.index)
+
+                    if model ~= nil then
+                        local stateId = tonumber(
+                            model.getDescription()) or 0
+                        -- removeAttachment converts the Config object's
+                        -- local transform into a world transform. Before it is
+                        -- reattached, apply the desired local scale multiplied
+                        -- by the parent base scale. addAttachment will then
+                        -- convert it back to the intended local scale rather
+                        -- than inflating 1.0 to approximately 1 / 0.629.
+                        local parentScale = self.getScale()
+                        local localScale = Vector(
+                            0.0001589825,
+                            0.0001589825,
+                            0.0001589825)
+
+                        if stateId == nextConfiguration then
+                            localScale = Vector(1.0, 0.99999994, 1.0)
+                        end
+
+                        model.setScale(Vector(
+                            parentScale.x * localScale.x,
+                            parentScale.y * localScale.y,
+                            parentScale.z * localScale.z))
+
+                        self.addAttachment(model)
+                        changed = true
+                    end
+                end
+            end
+
+            if changed then
+                textureReview.currentConfiguration = nextConfiguration
+                self.script_state = JSON.encode(textureReview)
+
+                local stateName = nextConfiguration == 1
+                    and "open"
+                    or "closed"
+
+                print(
+                    self.getName()
+                    .. " wings "
+                    .. stateName)
+            else
+                print(
+                    "Could not find U-Wing Config attachments for "
+                    .. self.getName())
             end
         end
 

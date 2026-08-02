@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-01T15:57:37.9685301+00:00",
+  "generatedUtc": "2026-08-02T01:14:52.0239888+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5194,
-  "uniqueAssets": 4938,
-  "duplicateFiles": 256,
+  "totalFiles": 5263,
+  "uniqueAssets": 5012,
+  "duplicateFiles": 251,
   "assets": [
     {
       "assetId": "AST-B0ABB46A052335ED",
@@ -4793,7 +4793,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "a0c716f9cb4446cbb94519ac00468a19867e39bb60c0790d8b7693337620cb6d",
-      "lastWriteTimeUtc": "2026-08-01T00:11:16.5525582Z"
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.7385642Z"
     },
     {
       "assetId": "AST-2D3233CCD7A102AB",
@@ -4805,7 +4805,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "2d3233ccd7a102ab7c4ed050bd830650f0ba09e30608f899b3b663b7f60af2eb",
-      "lastWriteTimeUtc": "2026-08-01T00:11:21.2590265Z"
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.0313494Z"
     },
     {
       "assetId": "AST-891A0ACC3E7BD437",
@@ -4829,7 +4829,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "95e0356592fa2dd02d8da34628564dd26d2a552e8efe3b3eb7816b95d1c1aa55",
-      "lastWriteTimeUtc": "2026-08-01T00:11:25.384369Z"
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.9738019Z"
     },
     {
       "assetId": "AST-81F2EAA3AE928DCC",
@@ -4841,7 +4841,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "81f2eaa3ae928dccda2941d905dffa12c5ca10a191e2fc29c5f1ddcdfaf038f9",
-      "lastWriteTimeUtc": "2026-08-01T00:11:26.666775Z"
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.1350285Z"
     },
     {
       "assetId": "AST-87957C9CEF34C7E0",
@@ -4853,7 +4853,7 @@
       "isGenerated": true,
       "sizeBytes": 102,
       "sha256": "87957c9cef34c7e08c4202df924812124581f2cc4c4e89ba157ede7727a35512",
-      "lastWriteTimeUtc": "2026-08-01T00:11:30.278715Z"
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.6806722Z"
     },
     {
       "assetId": "AST-31212A4BAC00F725",
@@ -4926,6 +4926,1326 @@
       "sizeBytes": 113972,
       "sha256": "3aae003849d9d47ec6f38b3142e7bff536d54c510f55d1edc8e4f19476071af8",
       "lastWriteTimeUtc": "2026-07-26T02:40:37.6389431Z"
+    },
+    {
+      "assetId": "AST-A6BF82B87D976A70",
+      "repositoryPath": "assets/generated/validation/plans/firstorder__tiefofighter__assembly-plan.json",
+      "fileName": "firstorder__tiefofighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 36328,
+      "sha256": "a6bf82b87d976a706711f8e6424db6c9ca0f833b6610760c78f7efaddb3e1b8b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:25.6870536Z"
+    },
+    {
+      "assetId": "AST-7E6A2BA142EE5C96",
+      "repositoryPath": "assets/generated/validation/plans/firstorder__tiesffighter__assembly-plan.json",
+      "fileName": "firstorder__tiesffighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16587,
+      "sha256": "7e6a2ba142ee5c960421c436322f9b6cd123422c5f9501d15610664d21938c13",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.0577406Z"
+    },
+    {
+      "assetId": "AST-5DDA14AC92AA95E0",
+      "repositoryPath": "assets/generated/validation/plans/firstorder__tiesilencer__assembly-plan.json",
+      "fileName": "firstorder__tiesilencer__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16550,
+      "sha256": "5dda14ac92aa95e03277ccb01995d9ff166dcc202e804f285e5a807151ea3b96",
+      "lastWriteTimeUtc": "2026-08-02T01:04:24.9713432Z"
+    },
+    {
+      "assetId": "AST-1445E5D88F3AA675",
+      "repositoryPath": "assets/generated/validation/plans/firstorder__upsilonclassshuttle__assembly-plan.json",
+      "fileName": "firstorder__upsilonclassshuttle__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17225,
+      "sha256": "1445e5d88f3aa67576a622bf70cf105e0fd6c562bced9aa99ba73d537c79a813",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.445427Z"
+    },
+    {
+      "assetId": "AST-F8BA9E8A020CDDDA",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__alphaclassstarwing__assembly-plan.json",
+      "fileName": "galacticempire__alphaclassstarwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17314,
+      "sha256": "f8ba9e8a020cddda4ed72ca1579b43349d55b6d56492ffc64b49e044979089f6",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.773294Z"
+    },
+    {
+      "assetId": "AST-69884FDB341E5C81",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__firespray31__assembly-plan.json",
+      "fileName": "galacticempire__firespray31__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16732,
+      "sha256": "69884fdb341e5c81e269309ce9ae2870db01b32a4d881a57bae45d9ca559c8ed",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.0692602Z"
+    },
+    {
+      "assetId": "AST-1C46054AFC04E65C",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__lambdaclassshuttle__assembly-plan.json",
+      "fileName": "galacticempire__lambdaclassshuttle__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16504,
+      "sha256": "1c46054afc04e65c950f8c21a0ec1de07110ebf346a99558f600eace2eb45235",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.4122728Z"
+    },
+    {
+      "assetId": "AST-28E9FFC9577A072D",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvanced__assembly-plan.json",
+      "fileName": "galacticempire__tieadvanced__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 32437,
+      "sha256": "28e9ffc9577a072d14a4ed127e178edf28ddc84a3e1057afbf7298bc38cbf7ab",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.9853208Z"
+    },
+    {
+      "assetId": "AST-04ECDBD5421E7B52",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tieadvprototype__assembly-plan.json",
+      "fileName": "galacticempire__tieadvprototype__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16858,
+      "sha256": "04ecdbd5421e7b52b815d405c2f26b37ca6f74f48990588984dc317174707126",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.7246402Z"
+    },
+    {
+      "assetId": "AST-56352D91B7502DB8",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tieaggressor__assembly-plan.json",
+      "fileName": "galacticempire__tieaggressor__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16724,
+      "sha256": "56352d91b7502db8841b02a4ceed5eb2fcb3abd3513b46acc815818179b8bcfd",
+      "lastWriteTimeUtc": "2026-08-02T01:04:28.3476911Z"
+    },
+    {
+      "assetId": "AST-205D6B05CF8DD266",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiebomber__assembly-plan.json",
+      "fileName": "galacticempire__tiebomber__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 28286,
+      "sha256": "205d6b05cf8dd2664624523233d318124e63ca8f95a5a7e92c38ae67a5278efc",
+      "lastWriteTimeUtc": "2026-08-02T01:04:28.6604582Z"
+    },
+    {
+      "assetId": "AST-34A903BC4157DB91",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiedefender__assembly-plan.json",
+      "fileName": "galacticempire__tiedefender__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 28620,
+      "sha256": "34a903bc4157db91130320cbc3218fd3eb11ed5daeb41b41f1f2c75a5a3ec86c",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.0411347Z"
+    },
+    {
+      "assetId": "AST-CC86D0E060C9E05C",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiefighter__assembly-plan.json",
+      "fileName": "galacticempire__tiefighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 51765,
+      "sha256": "cc86d0e060c9e05c3196eb90859b9f0a5e2afa32db3c8e7eeda9168d689cb9e7",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.3097429Z"
+    },
+    {
+      "assetId": "AST-99BD9AFE7057B03F",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tieinterceptor__assembly-plan.json",
+      "fileName": "galacticempire__tieinterceptor__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 44510,
+      "sha256": "99bd9afe7057b03f8002f01d378c3afefc18fd1df79e383de6fcb9e43cd97b88",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.6904111Z"
+    },
+    {
+      "assetId": "AST-595ABA974E73EB6B",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiephantom__assembly-plan.json",
+      "fileName": "galacticempire__tiephantom__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16524,
+      "sha256": "595aba974e73eb6b3400f5dd97a0f71c9086928174f94464baab5eba64b71135",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.9980582Z"
+    },
+    {
+      "assetId": "AST-60572771DA3261D0",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiepunisher__assembly-plan.json",
+      "fileName": "galacticempire__tiepunisher__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16541,
+      "sha256": "60572771da3261d0ebcc64b4d3f7dea95aa98f0e8dfe1eb8fd6e9f3830f9b243",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.2343216Z"
+    },
+    {
+      "assetId": "AST-5621DFCEAF897D70",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiereaper__assembly-plan.json",
+      "fileName": "galacticempire__tiereaper__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16704,
+      "sha256": "5621dfceaf897d700188c42cdcfb5e5728550a41c04d6fe53ebd2d796823524b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.4122372Z"
+    },
+    {
+      "assetId": "AST-508F2C609B400550",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__tiestriker__assembly-plan.json",
+      "fileName": "galacticempire__tiestriker__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 24445,
+      "sha256": "508f2c609b400550c179506befbfc740066635c185fba1e4b6478a29abab3b3a",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.6224085Z"
+    },
+    {
+      "assetId": "AST-D1315FED8FCE9A0C",
+      "repositoryPath": "assets/generated/validation/plans/galacticempire__vt49decimator__assembly-plan.json",
+      "fileName": "galacticempire__vt49decimator__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16575,
+      "sha256": "d1315fed8fce9a0c5049967aa5e0b562dcef4d643fbe5719584a96273fbd4e62",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.8657864Z"
+    },
+    {
+      "assetId": "AST-C37E0F6FB9DC2409",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__arc170__assembly-plan.json",
+      "fileName": "rebelalliance__arc170__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16221,
+      "sha256": "c37e0f6fb9dc2409a1a38a2952bac00e7af9143d905cc69127510d0570686459",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.2890654Z"
+    },
+    {
+      "assetId": "AST-4CEA9B9070E77F13",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__attackshuttle__assembly-plan.json",
+      "fileName": "rebelalliance__attackshuttle__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16698,
+      "sha256": "4cea9b9070e77f13f5a6747259daeb04370ad6e7af584fc17436cb9e0ef35037",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.513774Z"
+    },
+    {
+      "assetId": "AST-DC04116B6E3E9072",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__auzituckgunship__assembly-plan.json",
+      "fileName": "rebelalliance__auzituckgunship__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16575,
+      "sha256": "dc04116b6e3e907245dd5f1562686613c484a678f2ae3b45dc0dae0ad58173b4",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.7260524Z"
+    },
+    {
+      "assetId": "AST-BF2BB0C6E9D2DDCB",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__awing__assembly-plan.json",
+      "fileName": "rebelalliance__awing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 24109,
+      "sha256": "bf2bb0c6e9d2ddcbf01177fecf6014c7796aeeae5ca67379a12d6e692b14839c",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.0681525Z"
+    },
+    {
+      "assetId": "AST-5A0D6474156B379D",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__bwing__assembly-plan.json",
+      "fileName": "rebelalliance__bwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 23649,
+      "sha256": "5a0d6474156b379d749b7c6f43c6f77a5baf0d32bbc3c2ac2f109d7d2ef12d86",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.9140541Z"
+    },
+    {
+      "assetId": "AST-1B1E8F2855D04C62",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__ewing__assembly-plan.json",
+      "fileName": "rebelalliance__ewing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16353,
+      "sha256": "1b1e8f2855d04c62cbd8bf4379445e0744d8eb8ba7ec1624d3bbd020ec767043",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.1735196Z"
+    },
+    {
+      "assetId": "AST-84EFA18705C93C84",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__hwk290__assembly-plan.json",
+      "fileName": "rebelalliance__hwk290__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 15972,
+      "sha256": "84efa18705c93c849e04588a787c834b5eeaffad6a2b70db72a5e8fd72016ad0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.344254Z"
+    },
+    {
+      "assetId": "AST-129BEA5FA777022B",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__kwing__assembly-plan.json",
+      "fileName": "rebelalliance__kwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16184,
+      "sha256": "129bea5fa777022b06794b62484cc81013d3d5e29adb420e16de3c64a216ad0e",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.5253413Z"
+    },
+    {
+      "assetId": "AST-0F64F9B474DA33B4",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__scurrgh6bomber__assembly-plan.json",
+      "fileName": "rebelalliance__scurrgh6bomber__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 4729,
+      "sha256": "0f64f9b474da33b41700597d6128bf8078a667d2fc3a821780a8d276ce351c13",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.7246962Z"
+    },
+    {
+      "assetId": "AST-E4FE499747296BB2",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__sheathipedeclassshuttle__assembly-plan.json",
+      "fileName": "rebelalliance__sheathipedeclassshuttle__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17278,
+      "sha256": "e4fe499747296bb220c4712a0fc72c093e32f72dc9e664ce951f6c51ea8e47e0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.8592831Z"
+    },
+    {
+      "assetId": "AST-BD8549137C43A833",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__tiefighter__assembly-plan.json",
+      "fileName": "rebelalliance__tiefighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16416,
+      "sha256": "bd8549137c43a8332c5b4c7f0cb1e601be4199a68d81f3d4725fa11eb706353b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.0359555Z"
+    },
+    {
+      "assetId": "AST-D79F00FE2E2BF65D",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__uwing__assembly-plan.json",
+      "fileName": "rebelalliance__uwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 31407,
+      "sha256": "d79f00fe2e2bf65dc1576674559792929d00bc0325f74f9c25644bfb66a5cc8b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.2876164Z"
+    },
+    {
+      "assetId": "AST-E3AC7470E34871DA",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__vcx100__assembly-plan.json",
+      "fileName": "rebelalliance__vcx100__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16506,
+      "sha256": "e3ac7470e34871da792f5ff3a9655829a27823205ee538bbe8e946d98239e89f",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.5727699Z"
+    },
+    {
+      "assetId": "AST-96EC25021A1E0443",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__xwing__assembly-plan.json",
+      "fileName": "rebelalliance__xwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 54239,
+      "sha256": "96ec25021a1e04436f3fd46a1052be685cd2cca03cb8e14d98fc466323e8d09a",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.8108784Z"
+    },
+    {
+      "assetId": "AST-1E647B7401F8D891",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt1300__assembly-plan.json",
+      "fileName": "rebelalliance__yt1300__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16499,
+      "sha256": "1e647b7401f8d89153d1ab85d871bc62c0a61d1d604dfbf259a9e183199bb178",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.3117236Z"
+    },
+    {
+      "assetId": "AST-1CA08F453A44A5E0",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__yt2400__assembly-plan.json",
+      "fileName": "rebelalliance__yt2400__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16492,
+      "sha256": "1ca08f453a44a5e0c0a977e3b5e09b1ef5aae8c9983bbaf7358692b8384930d2",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.5195466Z"
+    },
+    {
+      "assetId": "AST-CC9DAC73F3A09C48",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__ywing__assembly-plan.json",
+      "fileName": "rebelalliance__ywing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16139,
+      "sha256": "cc9dac73f3a09c48c96e95fb06196b2dd82ff2d9efe7d3abfa0e11d574c6af06",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.1043819Z"
+    },
+    {
+      "assetId": "AST-D4C9F74A59B79C7A",
+      "repositoryPath": "assets/generated/validation/plans/rebelalliance__z95headhunter__assembly-plan.json",
+      "fileName": "rebelalliance__z95headhunter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16532,
+      "sha256": "d4c9f74a59b79c7aec3bf37831637ff8b1ee1784f8b59e35f97aa289b8cfc513",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.7467806Z"
+    },
+    {
+      "assetId": "AST-8E6957A36DE5C518",
+      "repositoryPath": "assets/generated/validation/plans/resistance__bsf17bomber__assembly-plan.json",
+      "fileName": "resistance__bsf17bomber__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16403,
+      "sha256": "8e6957a36de5c5181d332baa82b4f5eaed24e8ff65ad1b26ccfa5657092bef63",
+      "lastWriteTimeUtc": "2026-08-02T01:04:35.0029714Z"
+    },
+    {
+      "assetId": "AST-7199643FF939E7A5",
+      "repositoryPath": "assets/generated/validation/plans/resistance__t70xwing__assembly-plan.json",
+      "fileName": "resistance__t70xwing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 39329,
+      "sha256": "7199643ff939e7a506d1c05f48d08357c414d8d22e3b444ddb271a77c98d6819",
+      "lastWriteTimeUtc": "2026-08-02T01:04:35.215839Z"
+    },
+    {
+      "assetId": "AST-A58969330FE387AA",
+      "repositoryPath": "assets/generated/validation/plans/resistance__yt1300__assembly-plan.json",
+      "fileName": "resistance__yt1300__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16278,
+      "sha256": "a58969330fe387aacadd9e1ed42337fe1b11084b304ee722da0e210a972014c9",
+      "lastWriteTimeUtc": "2026-08-02T01:04:35.89873Z"
+    },
+    {
+      "assetId": "AST-FAB53C28B6665837",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__aggressor__assembly-plan.json",
+      "fileName": "scumandvillainy__aggressor__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16594,
+      "sha256": "fab53c28b6665837fa8f05745220a4978e6a581c5352a926253c86c2670a4ca3",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.1662509Z"
+    },
+    {
+      "assetId": "AST-711F40F595153B8E",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__firespray31__assembly-plan.json",
+      "fileName": "scumandvillainy__firespray31__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16838,
+      "sha256": "711f40f595153b8e6dbc30d7ea3f54afc57ff437fa32a3fa3468633e46877f19",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.3842311Z"
+    },
+    {
+      "assetId": "AST-D0522EE9D458D5AB",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__g1astarfighter__assembly-plan.json",
+      "fileName": "scumandvillainy__g1astarfighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16661,
+      "sha256": "d0522ee9d458d5abbc8a58f77f2974c3b6e345ee3106144b8226db1f3aff9994",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.5621295Z"
+    },
+    {
+      "assetId": "AST-EA0E266C44BA18E9",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__hwk290__assembly-plan.json",
+      "fileName": "scumandvillainy__hwk290__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16079,
+      "sha256": "ea0e266c44ba18e94198e59a694328b3f56ee8a8d0c2a1c7c8a76546ddc688c3",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.748091Z"
+    },
+    {
+      "assetId": "AST-A0F9D80A70321607",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__jumpmaster5000__assembly-plan.json",
+      "fileName": "scumandvillainy__jumpmaster5000__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16698,
+      "sha256": "a0f9d80a70321607a1e07ed57a1b3ee137b07accbaf9beeb911bc39cb0906a97",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.951157Z"
+    },
+    {
+      "assetId": "AST-E5043E66D824BABC",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__kihraxzfighter__assembly-plan.json",
+      "fileName": "scumandvillainy__kihraxzfighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 24513,
+      "sha256": "e5043e66d824babcd1ae56d7e04d82b07f2e6c462759a8e2d44dbe119c6159de",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.150019Z"
+    },
+    {
+      "assetId": "AST-D2362BDE20280324",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__lancerclasspursuitcraft__assembly-plan.json",
+      "fileName": "scumandvillainy__lancerclasspursuitcraft__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17534,
+      "sha256": "d2362bde202803243f9bc5325631868664fe40f7c945ca3a582d1e68929a1884",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.339944Z"
+    },
+    {
+      "assetId": "AST-39609DE5D090C47D",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m12lkimogilafighter__assembly-plan.json",
+      "fileName": "scumandvillainy__m12lkimogilafighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 17227,
+      "sha256": "39609de5d090c47d646e5f01c1abfbde53d82ca35fb47962ff88f7d36d756cbd",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.5365303Z"
+    },
+    {
+      "assetId": "AST-A586C5B6598476F2",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__m3ainterceptor__assembly-plan.json",
+      "fileName": "scumandvillainy__m3ainterceptor__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 32444,
+      "sha256": "a586c5b6598476f2009b5313f9799219972ef9a5fe8318630b83e3e4eb1918c4",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.750306Z"
+    },
+    {
+      "assetId": "AST-6110AB34EEE477ED",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__protectoratestarfighter__assembly-plan.json",
+      "fileName": "scumandvillainy__protectoratestarfighter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 25327,
+      "sha256": "6110ab34eee477ed6af183baea03324cc52a53c45d3f947f74895584820122c2",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.9693812Z"
+    },
+    {
+      "assetId": "AST-E8318FDD1682D2A4",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__quadjumper__assembly-plan.json",
+      "fileName": "scumandvillainy__quadjumper__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16746,
+      "sha256": "e8318fdd1682d2a47cf0f80c8eb24a7ed9e0467b33d90a61991527eaee9f54e8",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.2238945Z"
+    },
+    {
+      "assetId": "AST-13F72D26A3C314F8",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__scurrgh6bomber__assembly-plan.json",
+      "fileName": "scumandvillainy__scurrgh6bomber__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16666,
+      "sha256": "13f72d26a3c314f8b2b87ba7a56c71301b2101ee04ea7ffb095c6b9f7dab0187",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.4334777Z"
+    },
+    {
+      "assetId": "AST-62FB80814F54CBD5",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__starviper__assembly-plan.json",
+      "fileName": "scumandvillainy__starviper__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 28837,
+      "sha256": "62fb80814f54cbd5250a73819e2bb8a97a34a49653a03335f5a660fe6ac2b82b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.6386603Z"
+    },
+    {
+      "assetId": "AST-ED2DE2EACF733C69",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__yv666__assembly-plan.json",
+      "fileName": "scumandvillainy__yv666__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16334,
+      "sha256": "ed2de2eacf733c694b141b8a170c2c7bcadb8038615edce3d72f5739fba54cd7",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.1543001Z"
+    },
+    {
+      "assetId": "AST-9A3D25621E593E15",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__ywing__assembly-plan.json",
+      "fileName": "scumandvillainy__ywing__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 16085,
+      "sha256": "9a3d25621e593e1521d944b55f740b9c77008e983f2615ca2eddf95c0bb280bf",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.9334342Z"
+    },
+    {
+      "assetId": "AST-EB81C8F27510AA88",
+      "repositoryPath": "assets/generated/validation/plans/scumandvillainy__z95headhunter__assembly-plan.json",
+      "fileName": "scumandvillainy__z95headhunter__assembly-plan.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 20449,
+      "sha256": "eb81c8f27510aa8889ee051b5546a246f022089eac5e2f3dc2c23c83fa16964b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.3871398Z"
+    },
+    {
+      "assetId": "AST-AF5610AD8CE846CD",
+      "repositoryPath": "assets/generated/validation/saves/firstorder__tiefofighter__all-pilots.json",
+      "fileName": "firstorder__tiefofighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 2171744,
+      "sha256": "af5610ad8ce846cd91bd7570ba80d6a8d3bfa1050e8281e878ae34ca2c33f016",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.0446836Z"
+    },
+    {
+      "assetId": "AST-6A5F780E06C328C9",
+      "repositoryPath": "assets/generated/validation/saves/firstorder__tiesffighter__all-pilots.json",
+      "fileName": "firstorder__tiesffighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978636,
+      "sha256": "6a5f780e06c328c9c1f5261c1924a9cb61f90759075d72d56317e2151ba9be75",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.4233091Z"
+    },
+    {
+      "assetId": "AST-611B967C290F01C2",
+      "repositoryPath": "assets/generated/validation/saves/firstorder__tiesilencer__all-pilots.json",
+      "fileName": "firstorder__tiesilencer__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948583,
+      "sha256": "611b967c290f01c252b689337831c3657718c2ee1f8a7db0221278ae2ac9eee0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:25.639228Z"
+    },
+    {
+      "assetId": "AST-EB0E8AE1E6F7F184",
+      "repositoryPath": "assets/generated/validation/saves/firstorder__upsilonclassshuttle__all-pilots.json",
+      "fileName": "firstorder__upsilonclassshuttle__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979977,
+      "sha256": "eb0e8ae1e6f7f1840e3b22cb0b0aca9717b570dc4c25c5ff21a8a282cd522c99",
+      "lastWriteTimeUtc": "2026-08-02T01:04:26.7626861Z"
+    },
+    {
+      "assetId": "AST-5489369210BD7B3B",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__alphaclassstarwing__all-pilots.json",
+      "fileName": "galacticempire__alphaclassstarwing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948870,
+      "sha256": "5489369210bd7b3be74f12a3456222ff5a031e8c50bbda8639fa9a4b79fb827b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.0510488Z"
+    },
+    {
+      "assetId": "AST-7F7054E45818ABBF",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__firespray31__all-pilots.json",
+      "fileName": "galacticempire__firespray31__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 987700,
+      "sha256": "7f7054e45818abbf4232da2814b44e697901679cf05c41e6e2d2f2565921fdbd",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.3991559Z"
+    },
+    {
+      "assetId": "AST-485575D6F9DAF2B2",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__lambdaclassshuttle__all-pilots.json",
+      "fileName": "galacticempire__lambdaclassshuttle__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 949238,
+      "sha256": "485575d6f9daf2b244560072c85570600f1910bda7d567201d42c961c1c0f930",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.7080312Z"
+    },
+    {
+      "assetId": "AST-5B6805764DAFBC7C",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvanced__all-pilots.json",
+      "fileName": "galacticempire__tieadvanced__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1932712,
+      "sha256": "5b6805764dafbc7c7032a44424cf49baf7a9b0396c89a120c420bf6d8a1e146c",
+      "lastWriteTimeUtc": "2026-08-02T01:04:28.3325895Z"
+    },
+    {
+      "assetId": "AST-34D3BE46E176FE86",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tieadvprototype__all-pilots.json",
+      "fileName": "galacticempire__tieadvprototype__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978850,
+      "sha256": "34d3be46e176fe86f08ab2ba308426d7ef67cfb5d2463623cba1fb883343c1b6",
+      "lastWriteTimeUtc": "2026-08-02T01:04:27.9558062Z"
+    },
+    {
+      "assetId": "AST-4AB913E3D218F7BB",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tieaggressor__all-pilots.json",
+      "fileName": "galacticempire__tieaggressor__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978644,
+      "sha256": "4ab913e3d218f7bb5b715aad053274428ad75bcd97a94e3605027174cf24bd9c",
+      "lastWriteTimeUtc": "2026-08-02T01:04:28.6176215Z"
+    },
+    {
+      "assetId": "AST-59E494517FC337E2",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiebomber__all-pilots.json",
+      "fileName": "galacticempire__tiebomber__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1693831,
+      "sha256": "59e494517fc337e267aa43201faa6f4443778123fce211a29ba3b99f104deac2",
+      "lastWriteTimeUtc": "2026-08-02T01:04:28.987803Z"
+    },
+    {
+      "assetId": "AST-E01C43EB31F1E5F0",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiedefender__all-pilots.json",
+      "fileName": "galacticempire__tiedefender__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1698641,
+      "sha256": "e01c43eb31f1e5f09fb922cba72c1c66398e1436cc1a6dd4f538d9fc5def6f15",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.2800339Z"
+    },
+    {
+      "assetId": "AST-C6443D509F812A74",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiefighter__all-pilots.json",
+      "fileName": "galacticempire__tiefighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 3129444,
+      "sha256": "c6443d509f812a746ed8ae66c4a1bedf9fe4741ccbadfbad3f20b5007114eae0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.6547213Z"
+    },
+    {
+      "assetId": "AST-CD35F33DDFBF2EA3",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tieinterceptor__all-pilots.json",
+      "fileName": "galacticempire__tieinterceptor__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 2654293,
+      "sha256": "cd35f33ddfbf2ea39395edf9765dfddfb640f7b61b11b95d4b6151d82e81b484",
+      "lastWriteTimeUtc": "2026-08-02T01:04:29.9828778Z"
+    },
+    {
+      "assetId": "AST-953D37507EDC39FA",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiephantom__all-pilots.json",
+      "fileName": "galacticempire__tiephantom__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979717,
+      "sha256": "953d37507edc39fa4d081c709d0385e802e623d7a2770dc1da05196b961406c0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.2207367Z"
+    },
+    {
+      "assetId": "AST-2D54AF8BA69C3560",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiepunisher__all-pilots.json",
+      "fileName": "galacticempire__tiepunisher__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978561,
+      "sha256": "2d54af8ba69c35600e7f29f7a18514510ca0680bd2c7e3824670e96778be36cf",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.4011832Z"
+    },
+    {
+      "assetId": "AST-30A83444B735775E",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiereaper__all-pilots.json",
+      "fileName": "galacticempire__tiereaper__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978359,
+      "sha256": "30a83444b735775e37870772f3286e3491a55057cf3a62839885289c544022df",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.589293Z"
+    },
+    {
+      "assetId": "AST-16FFCAB0535C88B9",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__tiestriker__all-pilots.json",
+      "fileName": "galacticempire__tiestriker__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1455619,
+      "sha256": "16ffcab0535c88b96a721f531611b887ec69ae14677b9f38c8d5ebe53eabc6a6",
+      "lastWriteTimeUtc": "2026-08-02T01:04:30.8527572Z"
+    },
+    {
+      "assetId": "AST-568821997D8CF1D0",
+      "repositoryPath": "assets/generated/validation/saves/galacticempire__vt49decimator__all-pilots.json",
+      "fileName": "galacticempire__vt49decimator__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979255,
+      "sha256": "568821997d8cf1d070ea733107489bc9fedbd08436d9e57a98ca06397ca07a96",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.0501183Z"
+    },
+    {
+      "assetId": "AST-633CABCF462FB77D",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__arc170__all-pilots.json",
+      "fileName": "rebelalliance__arc170__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979450,
+      "sha256": "633cabcf462fb77dea0ef7b36d4025c19854435bb3796d6572684636394fbec8",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.488125Z"
+    },
+    {
+      "assetId": "AST-414FBD98512382E0",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__attackshuttle__all-pilots.json",
+      "fileName": "rebelalliance__attackshuttle__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948525,
+      "sha256": "414fbd98512382e088b2202dba646c81c5f7a6c9f9bac0b1c30c5e86b373af09",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.7125079Z"
+    },
+    {
+      "assetId": "AST-52D7CFBAB3694FDC",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__auzituckgunship__all-pilots.json",
+      "fileName": "rebelalliance__auzituckgunship__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979155,
+      "sha256": "52d7cfbab3694fdc267df78d3e679845ed61c121506ef661261b309bdf49e588",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.8985186Z"
+    },
+    {
+      "assetId": "AST-CB41AE7EC238C526",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__awing__all-pilots.json",
+      "fileName": "rebelalliance__awing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1462257,
+      "sha256": "cb41ae7ec238c5269e376619a992edaf4cf5790f84a3ac4b6033f25fdb5f129d",
+      "lastWriteTimeUtc": "2026-08-02T01:04:31.2679151Z"
+    },
+    {
+      "assetId": "AST-67336DF14A175AA0",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__ewing__all-pilots.json",
+      "fileName": "rebelalliance__ewing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978827,
+      "sha256": "67336df14a175aa041795424f8a486aeb2931cda7bcaf7a567376c94a3821d17",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.3316948Z"
+    },
+    {
+      "assetId": "AST-ACB454968558E21F",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__hwk290__all-pilots.json",
+      "fileName": "rebelalliance__hwk290__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 981912,
+      "sha256": "acb454968558e21f36359cbf6a66044485afb091535c7bd21dcc67d6332608ed",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.5128996Z"
+    },
+    {
+      "assetId": "AST-28E2FCA85743B4BA",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__kwing__all-pilots.json",
+      "fileName": "rebelalliance__kwing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978512,
+      "sha256": "28e2fca85743b4ba57099995ac7d23a7a7e0e2c34f3557e9b826ff0cbd96282b",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.7136456Z"
+    },
+    {
+      "assetId": "AST-A0250B9C3C187BB5",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__scurrgh6bomber__all-pilots.json",
+      "fileName": "rebelalliance__scurrgh6bomber__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 263060,
+      "sha256": "a0250b9c3c187bb506b00e551e322a6339af858ace65b23cff78f23549efc7cb",
+      "lastWriteTimeUtc": "2026-08-02T01:04:32.8463966Z"
+    },
+    {
+      "assetId": "AST-AE306653A2B31E31",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__sheathipedeclassshuttle__all-pilots.json",
+      "fileName": "rebelalliance__sheathipedeclassshuttle__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948933,
+      "sha256": "ae306653a2b31e31871c6b47ab001dc967ef3be1f4d355d9413c3ff44807aa82",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.0249164Z"
+    },
+    {
+      "assetId": "AST-B76641BD58D9EA33",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__tiefighter__all-pilots.json",
+      "fileName": "rebelalliance__tiefighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979530,
+      "sha256": "b76641bd58d9ea3393058f3cf9b2afb41b9547f3762444eab9f973692f9d9149",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.248936Z"
+    },
+    {
+      "assetId": "AST-6C3D45D247795CE7",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__vcx100__all-pilots.json",
+      "fileName": "rebelalliance__vcx100__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948999,
+      "sha256": "6c3d45d247795ce70467093c0bdf49013ef10210c9e9b8e0099c0c535c7543d9",
+      "lastWriteTimeUtc": "2026-08-02T01:04:33.7666302Z"
+    },
+    {
+      "assetId": "AST-7D68146BDB92CEDC",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt1300__all-pilots.json",
+      "fileName": "rebelalliance__yt1300__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 984850,
+      "sha256": "7d68146bdb92cedc626d9e7477eb69dc2796d74ade0c91a87e258d0c6e9dcdec",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.5034457Z"
+    },
+    {
+      "assetId": "AST-0F36362BD5DCA5F8",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__yt2400__all-pilots.json",
+      "fileName": "rebelalliance__yt2400__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 949010,
+      "sha256": "0f36362bd5dca5f804373ce3f48118c404ca4076c45d4f61ab062dde636aa97f",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.7316219Z"
+    },
+    {
+      "assetId": "AST-A8DD47C8D12CCB18",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__ywing__all-pilots.json",
+      "fileName": "rebelalliance__ywing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 984469,
+      "sha256": "a8dd47c8d12ccb18644c58e4c443c326853fc65e43dced32b8671c55aea4ff8f",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.2920826Z"
+    },
+    {
+      "assetId": "AST-29CCBB60AAED7FE0",
+      "repositoryPath": "assets/generated/validation/saves/rebelalliance__z95headhunter__all-pilots.json",
+      "fileName": "rebelalliance__z95headhunter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 984348,
+      "sha256": "29ccbb60aaed7fe0ee4e0a9fbbc061a61cd23cc0db8a14cccfaa5654dde65238",
+      "lastWriteTimeUtc": "2026-08-02T01:04:34.9878978Z"
+    },
+    {
+      "assetId": "AST-0D26E728830DA905",
+      "repositoryPath": "assets/generated/validation/saves/resistance__bsf17bomber__all-pilots.json",
+      "fileName": "resistance__bsf17bomber__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 980029,
+      "sha256": "0d26e728830da905cf199983f1a201aa402bd0b292d07fafe6c76e320d3c50c9",
+      "lastWriteTimeUtc": "2026-08-02T01:04:35.1866271Z"
+    },
+    {
+      "assetId": "AST-68BE1E69D72E5648",
+      "repositoryPath": "assets/generated/validation/saves/resistance__yt1300__all-pilots.json",
+      "fileName": "resistance__yt1300__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 985493,
+      "sha256": "68be1e69d72e5648a8e25089962e8870df172f70eac945e5c99c81e44d42d52a",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.1501529Z"
+    },
+    {
+      "assetId": "AST-C606375486D569C6",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__aggressor__all-pilots.json",
+      "fileName": "scumandvillainy__aggressor__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948979,
+      "sha256": "c606375486d569c64f881d59f755210f4440731c946fe3da694c7e02e0428cf6",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.3681182Z"
+    },
+    {
+      "assetId": "AST-88C39278140AEB7E",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__firespray31__all-pilots.json",
+      "fileName": "scumandvillainy__firespray31__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 987774,
+      "sha256": "88c39278140aeb7efd71974dbe53f64b8ef612e8acc3e4d527cd80062c3fb229",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.5469281Z"
+    },
+    {
+      "assetId": "AST-05185387F732575B",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__g1astarfighter__all-pilots.json",
+      "fileName": "scumandvillainy__g1astarfighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 948413,
+      "sha256": "05185387f732575bf4f64d162493fcd06884e33e0a57aafc16b1691f246885da",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.7325032Z"
+    },
+    {
+      "assetId": "AST-5EBABB5DA7B482ED",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__hwk290__all-pilots.json",
+      "fileName": "scumandvillainy__hwk290__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 981974,
+      "sha256": "5ebabb5da7b482ed225149397d8baac91e0aa5bd4293f03556a2aeab8a16b001",
+      "lastWriteTimeUtc": "2026-08-02T01:04:36.9356001Z"
+    },
+    {
+      "assetId": "AST-5FA5F26BAA063711",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__jumpmaster5000__all-pilots.json",
+      "fileName": "scumandvillainy__jumpmaster5000__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 981224,
+      "sha256": "5fa5f26baa063711cde760d7cfd192376ca216d20891fb4878903086625feecf",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.1318312Z"
+    },
+    {
+      "assetId": "AST-6BA386D452220092",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__kihraxzfighter__all-pilots.json",
+      "fileName": "scumandvillainy__kihraxzfighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1459438,
+      "sha256": "6ba386d4522200923a887300110a710765507990ebd487b727530a2ab8f7fd95",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.3227694Z"
+    },
+    {
+      "assetId": "AST-6A14A7A153DC7019",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__lancerclasspursuitcraft__all-pilots.json",
+      "fileName": "scumandvillainy__lancerclasspursuitcraft__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 949907,
+      "sha256": "6a14a7a153dc70198604e4832a7a5b9c77e85fef88edd1e39d2776bcd51c1ac9",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.5179208Z"
+    },
+    {
+      "assetId": "AST-482D0E61883575C4",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m12lkimogilafighter__all-pilots.json",
+      "fileName": "scumandvillainy__m12lkimogilafighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979864,
+      "sha256": "482d0e61883575c4c72124bd3736b1761b8f3d68a6eadd3484e760000a10f518",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.7261668Z"
+    },
+    {
+      "assetId": "AST-28F6A62FEBC61083",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__m3ainterceptor__all-pilots.json",
+      "fileName": "scumandvillainy__m3ainterceptor__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1936810,
+      "sha256": "28f6a62febc61083f24714d3732226d72df00eabb1340ed1ebfb7c9ca1a8f0b2",
+      "lastWriteTimeUtc": "2026-08-02T01:04:37.9517421Z"
+    },
+    {
+      "assetId": "AST-F6DF3E28BA0DB6DC",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__protectoratestarfighter__all-pilots.json",
+      "fileName": "scumandvillainy__protectoratestarfighter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1462987,
+      "sha256": "f6df3e28ba0db6dc45ba4bfd1a84660ccc1e7d65c748375da8d3e64b58ae6651",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.2123384Z"
+    },
+    {
+      "assetId": "AST-7E800B0605C35AAD",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__quadjumper__all-pilots.json",
+      "fileName": "scumandvillainy__quadjumper__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 978679,
+      "sha256": "7e800b0605c35aad3a55ec2f4c94b9122e1a9a259dfe9a70581cfee249c702b0",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.4213965Z"
+    },
+    {
+      "assetId": "AST-382D64527A01B8B1",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__scurrgh6bomber__all-pilots.json",
+      "fileName": "scumandvillainy__scurrgh6bomber__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 979322,
+      "sha256": "382d64527a01b8b12bf5e23be40b34936906e25f1b878a31fc990abd1a5e3060",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.6170584Z"
+    },
+    {
+      "assetId": "AST-3B7C8D9A90E4F275",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__starviper__all-pilots.json",
+      "fileName": "scumandvillainy__starviper__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1694804,
+      "sha256": "3b7c8d9a90e4f27573f803ce15a10b5777c4763105a454f4a8921fe20e557da1",
+      "lastWriteTimeUtc": "2026-08-02T01:04:38.921865Z"
+    },
+    {
+      "assetId": "AST-60459E71E0F3E470",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__yv666__all-pilots.json",
+      "fileName": "scumandvillainy__yv666__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 981507,
+      "sha256": "60459e71e0f3e4704913c25e1194e4bad69a08219d96ac235c2989dd8dfef749",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.3700516Z"
+    },
+    {
+      "assetId": "AST-4E5E83DEC6D463FE",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__ywing__all-pilots.json",
+      "fileName": "scumandvillainy__ywing__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 984250,
+      "sha256": "4e5e83dec6d463fe9d52102eddb3774bfd981ec3f3c4289179f60d0cdaedb9d7",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.1361825Z"
+    },
+    {
+      "assetId": "AST-0E63A918383151F0",
+      "repositoryPath": "assets/generated/validation/saves/scumandvillainy__z95headhunter__all-pilots.json",
+      "fileName": "scumandvillainy__z95headhunter__all-pilots.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 1224381,
+      "sha256": "0e63a918383151f04450ecd7e1c03d460c7d90d7cd27247ec4db41a6fc205f39",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.6987809Z"
+    },
+    {
+      "assetId": "AST-F3355ACDF1B12BB4",
+      "repositoryPath": "assets/generated/validation/ship-validation-saves.csv",
+      "fileName": "ship-validation-saves.csv",
+      "extension": ".csv",
+      "kind": "other",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 18461,
+      "sha256": "f3355acdf1b12bb4a535906e0a0d43920d38226b1c97b40e5fe3b06832513456",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.7169014Z"
+    },
+    {
+      "assetId": "AST-5927CE0A92A16428",
+      "repositoryPath": "assets/generated/validation/ship-validation-saves.json",
+      "fileName": "ship-validation-saves.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "generated",
+      "isGenerated": true,
+      "sizeBytes": 32555,
+      "sha256": "5927ce0a92a16428f98f6896e8813670cf159105dab8bdccdcda351e0d24f238",
+      "lastWriteTimeUtc": "2026-08-02T01:04:39.713362Z"
     },
     {
       "assetId": "AST-03F286F537575D8E",
@@ -30392,18 +31712,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:18.8046744Z"
     },
     {
-      "assetId": "AST-1BC4B9C061606360",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jumpmaster.obj",
-      "fileName": "jumpmaster.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 172700,
-      "sha256": "1bc4b9c061606360b31e71b017b52cf3aebcd35b9d9a425873e2cc0c3906d8bc",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.8087235Z"
-    },
-    {
       "assetId": "AST-317D03B134787F7C",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/nomlumb.jpg",
       "fileName": "nomlumb.jpg",
@@ -30486,18 +31794,6 @@
       "sizeBytes": 1212979,
       "sha256": "1efd2f981810cba85aeea70c1df14bb78660f23ba1a37cf7c2290f806bde2074",
       "lastWriteTimeUtc": "2026-07-08T23:59:18.8171677Z"
-    },
-    {
-      "assetId": "AST-DEDF8529DDD72271",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambdaclass.obj",
-      "fileName": "lambdaclass.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1225898,
-      "sha256": "dedf8529ddd722711becea890e8c4b361ef480a7e7d986bbbac12d5387f68103",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.8253194Z"
     },
     {
       "assetId": "AST-CAD0ADDEDF50EF89",
@@ -30618,18 +31914,6 @@
       "sizeBytes": 2340,
       "sha256": "76c208c126eb7ce8b81a514184471bf42bd467e98c9c85bd091cf84d398c78b8",
       "lastWriteTimeUtc": "2026-07-08T23:59:18.9329886Z"
-    },
-    {
-      "assetId": "AST-715D650221B102C3",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/rebel_falcon.obj",
-      "fileName": "rebel_falcon.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 279623,
-      "sha256": "715d650221b102c3bbca474615b69186f66c8954b305359402db2438e564b401",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.9349976Z"
     },
     {
       "assetId": "AST-9B5825D8B419CC56",
@@ -30774,18 +32058,6 @@
       "sizeBytes": 2180,
       "sha256": "95decb9121d6c2c71ad1a5f084ed1d96f93980b0bbc05896b36236a390eded62",
       "lastWriteTimeUtc": "2026-07-08T23:59:18.9939349Z"
-    },
-    {
-      "assetId": "AST-13D81C04174340C9",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/scavengedyt1300lightfreighter/scavengedyt1300.obj",
-      "fileName": "scavengedyt1300.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 277056,
-      "sha256": "13d81c04174340c9ea7a2b06378b6f624ace305a74bcaf03cf18f4613d54af0e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:18.9969213Z"
     },
     {
       "assetId": "AST-01DA728FCF3EC18C",
@@ -31208,18 +32480,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:19.1367911Z"
     },
     {
-      "assetId": "AST-0CBB1033F6B14CC5",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666.obj",
-      "fileName": "yv666.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 586813,
-      "sha256": "0cbb1033f6b14cc58a55d30d907e5a0e5696d16a9cab6f8fb65f884c900d9bca",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.150898Z"
-    },
-    {
       "assetId": "AST-4CEE008D656461E4",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
       "fileName": "yv666v2.obj",
@@ -31278,18 +32538,6 @@
       "sizeBytes": 2434490,
       "sha256": "fd504231cbb3c56adec844f72baedef0ea85b837938bc8dc19a58aae81810fd2",
       "lastWriteTimeUtc": "2026-07-08T23:59:19.2131108Z"
-    },
-    {
-      "assetId": "AST-22723AB2C5C4389B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc170.obj",
-      "fileName": "arc170.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 2503929,
-      "sha256": "22723ab2c5c4389b3e7bf22ab0e75adddfabedeb21fa80f04d6b66518f477424",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.2293571Z"
     },
     {
       "assetId": "AST-7C9E80BE6B557BC0",
@@ -31424,18 +32672,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:19.4685134Z"
     },
     {
-      "assetId": "AST-069F572272E201A4",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firespray.obj",
-      "fileName": "firespray.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1217688,
-      "sha256": "069f572272e201a4ab20161120f2dceeff68e7441ba9c172dd5ff4d020705593",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.4765392Z"
-    },
-    {
       "assetId": "AST-9949BCE9B9663CB1",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
       "fileName": "firesprayV2.obj",
@@ -31446,30 +32682,6 @@
       "sizeBytes": 933842,
       "sha256": "9949bce9b9663cb125c983f729b51d86089a182588e2f80c00c4497803ab2ee7",
       "lastWriteTimeUtc": "2026-07-08T23:59:19.4845641Z"
-    },
-    {
-      "assetId": "AST-E5F5F60981402D16",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
-      "fileName": "firesprayV3-canopy.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 26385,
-      "sha256": "e5f5f60981402d1641794af7e68b32aafc293f4bc7504987bfd0b236ef80e127",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.4845641Z"
-    },
-    {
-      "assetId": "AST-7D53C07E6953009F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3.obj",
-      "fileName": "firesprayV3.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 925749,
-      "sha256": "7d53c07e6953009fcdb9fd697863558e4832ae6a9236ae92bd97a9fc9f0be5f3",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.4901982Z"
     },
     {
       "assetId": "AST-998B10157692094C",
@@ -32012,42 +33224,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:19.8633595Z"
     },
     {
-      "assetId": "AST-5C3D9C51D7EE76BF",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UWing_Close.obj",
-      "fileName": "UWing_Close.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 600168,
-      "sha256": "5c3d9c51d7ee76bfb0243dde0b7d6755fb129da5c45c07e1d2d6f9aa0e459e40",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.8498474Z"
-    },
-    {
-      "assetId": "AST-13483E67486DCE49",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UWing_Open.obj",
-      "fileName": "UWing_Open.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 594309,
-      "sha256": "13483e67486dce498e9b59f168bb4dfb9e58418d3c75e37f6b3061f03eac16a4",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.8538632Z"
-    },
-    {
-      "assetId": "AST-BCD4A6DFBD9A6437",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class.obj",
-      "fileName": "Alpha Class.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 410780,
-      "sha256": "bcd4a6dfbd9a643724258c17cd573b790cb0008e97f237049bdf9f9625da0203",
-      "lastWriteTimeUtc": "2026-07-08T23:59:19.8774761Z"
-    },
-    {
       "assetId": "AST-AD2A9D995698693D",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
       "fileName": "Alpha Class2.obj",
@@ -32322,18 +33498,6 @@
       "sizeBytes": 240852,
       "sha256": "2446ada3375a9c465bb1e852f379bced57d7fb52b4e3cdc4b7b881451ce1854d",
       "lastWriteTimeUtc": "2026-07-29T15:24:02.6661685Z"
-    },
-    {
-      "assetId": "AST-C62ADA0278FBDB37",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/btla4ywing/btla4_ywing.obj",
-      "fileName": "btla4_ywing.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 993791,
-      "sha256": "c62ada0278fbdb37b7602890792e9afa5de54c4039243b57b7f5a33bed0d1d25",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.3101754Z"
     },
     {
       "assetId": "AST-097768F6AD96C65E",
@@ -32696,18 +33860,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:20.668528Z"
     },
     {
-      "assetId": "AST-2259871A23C1D545",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwk.obj",
-      "fileName": "hwk.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 942423,
-      "sha256": "2259871a23c1d545a284638e96bb21662c80437c2ff36f957116677f395741e6",
-      "lastWriteTimeUtc": "2026-07-08T23:59:20.80319Z"
-    },
-    {
       "assetId": "AST-BDC9C7741CA9D909",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/hwk290lightfreighter/hwkv2.obj",
       "fileName": "hwkv2.obj",
@@ -33056,18 +34208,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.2643535Z"
     },
     {
-      "assetId": "AST-03A1CCD02A1E4AA3",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/awing.obj",
-      "fileName": "awing.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 114110,
-      "sha256": "03a1ccd02a1e4aa35085fc9fac616e897a6887cccbf466cc2453081858c45d4e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.4623903Z"
-    },
-    {
       "assetId": "AST-66B96C3F42625E61",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/rz1awing/icon.png",
       "fileName": "icon.png",
@@ -33224,18 +34364,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.4298848Z"
     },
     {
-      "assetId": "AST-201937CD12639DC3",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede.obj",
-      "fileName": "sheathipede.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 111643,
-      "sha256": "201937cd12639dc3585fc0c1b2ace2484bedace7025843df816d8a026bd84b3e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.5147461Z"
-    },
-    {
       "assetId": "AST-0CD46B078D0D048E",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Sheathipede.png",
       "fileName": "Sheathipede.png",
@@ -33282,18 +34410,6 @@
       "sizeBytes": 3013,
       "sha256": "410fca103f1a3f2e438cf168a96b264abda7793d26d55a96219282d2c41312b3",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.5147461Z"
-    },
-    {
-      "assetId": "AST-531821FC6A1C4714",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/starviperclassattackplatform/starviper.obj",
-      "fileName": "starviper.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 165326,
-      "sha256": "531821fc6a1c4714cfa37fa749b9bbfb4d4e776dc421936d8882289d17065e10",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.531842Z"
     },
     {
       "assetId": "AST-0A86896D413D3144",
@@ -33488,42 +34604,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.6019355Z"
     },
     {
-      "assetId": "AST-7CD2EE00223E78C2",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbase.obj",
-      "fileName": "xwingbase.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 70419,
-      "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6683123Z"
-    },
-    {
-      "assetId": "AST-7CD2EE00223E78C2",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev1.obj",
-      "fileName": "xwingbasev1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 70419,
-      "sha256": "7cd2ee00223e78c2653d6bb4164acc7d17634aa9e2460356ed947e0ab49467e7",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6703196Z"
-    },
-    {
-      "assetId": "AST-60916EAAA3CBDBE4",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev2.obj",
-      "fileName": "xwingbasev2.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 70376,
-      "sha256": "60916eaaa3cbdbe463360d3ba64ae34ba47e490be136b142199c4227c10580f6",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6703196Z"
-    },
-    {
       "assetId": "AST-E1E30FE033DD6ADF",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingbasev3.obj",
       "fileName": "xwingbasev3.obj",
@@ -33534,30 +34614,6 @@
       "sizeBytes": 71272,
       "sha256": "e1e30fe033dd6adfaa8e1c5602e6afba68f2c638625d57b5bdeab64f31fbc926",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.6723266Z"
-    },
-    {
-      "assetId": "AST-4C2B0E53FFF50F7B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosed.obj",
-      "fileName": "xwingclosed.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 213043,
-      "sha256": "4c2b0e53fff50f7bd51006336f31344e21ddc035ea6dc04c7f98849aae44e8eb",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6749375Z"
-    },
-    {
-      "assetId": "AST-4C2B0E53FFF50F7B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosedv1.obj",
-      "fileName": "xwingclosedv1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 213043,
-      "sha256": "4c2b0e53fff50f7bd51006336f31344e21ddc035ea6dc04c7f98849aae44e8eb",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.676699Z"
     },
     {
       "assetId": "AST-4F632237973511D0",
@@ -33572,30 +34628,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.676699Z"
     },
     {
-      "assetId": "AST-D8A53391706E9E36",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopen.obj",
-      "fileName": "xwingopen.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 208353,
-      "sha256": "d8a53391706e9e369687c85f136f81182bffb3007cb1a78354f83f7c81a5b249",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6812068Z"
-    },
-    {
-      "assetId": "AST-D8A53391706E9E36",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv1.obj",
-      "fileName": "xwingopenv1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 208353,
-      "sha256": "d8a53391706e9e369687c85f136f81182bffb3007cb1a78354f83f7c81a5b249",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6812068Z"
-    },
-    {
       "assetId": "AST-E259E3CF86EEE2AF",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv3.obj",
       "fileName": "xwingopenv3.obj",
@@ -33606,42 +34638,6 @@
       "sizeBytes": 208183,
       "sha256": "e259e3cf86eee2af214635f9a42de8c271277ee4e51f2fd36350544856e934a3",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.6852883Z"
-    },
-    {
-      "assetId": "AST-349B9D20240B0393",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_base.obj",
-      "fileName": "xwing_base.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 70582,
-      "sha256": "349b9d20240b0393786883ac93ca97feeb4025c544b8397fbfe3fed99dcd2b85",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6625493Z"
-    },
-    {
-      "assetId": "AST-2861C0BF41CB144A",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_closed.obj",
-      "fileName": "xwing_closed.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 218651,
-      "sha256": "2861c0bf41cb144ac3c3059f68462d9a97fb1ddb5a08c08ec719a8d871e46749",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6642978Z"
-    },
-    {
-      "assetId": "AST-D9F170473324D11F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t65xwing/xwing_open.obj",
-      "fileName": "xwing_open.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 208214,
-      "sha256": "d9f170473324d11ff6808fa93fc820054b5bbf2819a30a7a1dcf89c669276dc4",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.6663046Z"
     },
     {
       "assetId": "AST-840C03FE4F2C64EE",
@@ -33656,18 +34652,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7177279Z"
     },
     {
-      "assetId": "AST-CC2716B2D1B764A0",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_base.obj",
-      "fileName": "t70_base.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 49293,
-      "sha256": "cc2716b2d1b764a0909c201af8f2a87720f0515a9c8cccc7d5cc932924c284f4",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.718875Z"
-    },
-    {
       "assetId": "AST-10DB768997C8D905",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_basev2.obj",
       "fileName": "t70_basev2.obj",
@@ -33680,18 +34664,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7198559Z"
     },
     {
-      "assetId": "AST-8C163297E48342B7",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closed.obj",
-      "fileName": "t70_closed.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 181369,
-      "sha256": "8c163297e48342b7c56d3c1f68110bcfd0b0643429ac2d777a19c23e9a333523",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7218375Z"
-    },
-    {
       "assetId": "AST-D4F97BA3ED4B722E",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closedv2.obj",
       "fileName": "t70_closedv2.obj",
@@ -33702,18 +34674,6 @@
       "sizeBytes": 182399,
       "sha256": "d4f97ba3ed4b722ee646f101fc97f8b60ec92fe6b59b5b476defcd6de7713aba",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7238381Z"
-    },
-    {
-      "assetId": "AST-0E99391B973AB58F",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_open.obj",
-      "fileName": "t70_open.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 179388,
-      "sha256": "0e99391b973ab58fa1e6e74b64710bcd66a1301557378f5e91621becf707315e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7258571Z"
     },
     {
       "assetId": "AST-EDB27F75D734B29E",
@@ -33824,18 +34784,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7334019Z"
     },
     {
-      "assetId": "AST-43E5A4473CB2B511",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/tieadvv1.obj",
-      "fileName": "tieadvv1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 561964,
-      "sha256": "43e5a4473cb2b51133b8dfce7a7f8306193d111a771d45cb2e9951e23dced172",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.745572Z"
-    },
-    {
       "assetId": "AST-498BA545C1345166",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedv1/tieadvv1v2.obj",
       "fileName": "tieadvv1v2.obj",
@@ -33884,18 +34832,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7576309Z"
     },
     {
-      "assetId": "AST-C37DF3A744FD3500",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/tieadvancedx1.obj",
-      "fileName": "tieadvancedx1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 143462,
-      "sha256": "c37df3a744fd35001ac669e3c832f9cb74675ec77bd5904f25e5f82f2a96b45c",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7616773Z"
-    },
-    {
       "assetId": "AST-84C6B8D1C01F79CF",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieadvancedx1/tieadvancedx1v2.obj",
       "fileName": "tieadvancedx1v2.obj",
@@ -33942,18 +34878,6 @@
       "sizeBytes": 280205,
       "sha256": "f5cfe5650f917dc40457ee317f79d891d9a9f674822804cf9f85e3b6b937e4eb",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.7780283Z"
-    },
-    {
-      "assetId": "AST-D721EC1C4A47B044",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Tie Aggressor.obj",
-      "fileName": "Tie Aggressor.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 255406,
-      "sha256": "d721ec1c4a47b044fec47a1d18f2e61ae7a2cfc36ba1f3d98d90a9b2326462e2",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.7657009Z"
     },
     {
       "assetId": "AST-D721EC1C4A47B044",
@@ -34088,30 +35012,6 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:21.9056391Z"
     },
     {
-      "assetId": "AST-A0A1F3B640AFB436",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFO.obj",
-      "fileName": "TieFO.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 394368,
-      "sha256": "a0a1f3b640afb4360d86f9e45aa1597ac3c4c0506163e00bdbaaa28ada312344",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.9124677Z"
-    },
-    {
-      "assetId": "AST-6F36328171A49E16",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv1.obj",
-      "fileName": "TieFOv1.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 192319,
-      "sha256": "6f36328171a49e1645b48afd648645629eee2722a17de3da84834a39a86d2d33",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.9162853Z"
-    },
-    {
       "assetId": "AST-621B9BD8113D6C13",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv2.obj",
       "fileName": "TieFOv2.obj",
@@ -34122,18 +35022,6 @@
       "sizeBytes": 192320,
       "sha256": "621b9bd8113d6c136c92a29da2716201cb5ca027bb8e94d780426434e89d72c1",
       "lastWriteTimeUtc": "2026-07-08T23:59:21.9189481Z"
-    },
-    {
-      "assetId": "AST-88EFF650AB19F51B",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.obj",
-      "fileName": "Tie_FO.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 192053,
-      "sha256": "88eff650ab19f51b86f02252ddf187cafd9da9cffe0bb6fe3ac1a7210601321d",
-      "lastWriteTimeUtc": "2026-07-08T23:59:21.9206971Z"
     },
     {
       "assetId": "AST-80BD74356ECC9539",
@@ -34461,18 +35349,6 @@
     },
     {
       "assetId": "AST-77854E25A8B0DAB8",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
-      "fileName": "TieSF.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 161559,
-      "sha256": "77854e25a8b0dab8d3358df5c15d0e6edd3978431482f2ab0a590302d4622bb1",
-      "lastWriteTimeUtc": "2026-07-08T23:59:22.0412715Z"
-    },
-    {
-      "assetId": "AST-77854E25A8B0DAB8",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj",
       "fileName": "TieSFv2.obj",
       "extension": ".obj",
@@ -34482,18 +35358,6 @@
       "sizeBytes": 161559,
       "sha256": "77854e25a8b0dab8d3358df5c15d0e6edd3978431482f2ab0a590302d4622bb1",
       "lastWriteTimeUtc": "2026-07-08T23:59:22.0432724Z"
-    },
-    {
-      "assetId": "AST-0AB7AD87E87F160D",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/Tie_SF.obj",
-      "fileName": "Tie_SF.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 164666,
-      "sha256": "0ab7ad87e87f160d03bc8c7ef19d479c8ef0d341abaa33fe9db139cdaeac956a",
-      "lastWriteTimeUtc": "2026-07-08T23:59:22.0452516Z"
     },
     {
       "assetId": "AST-B0471215DFB06DE5",
@@ -34556,28 +35420,16 @@
       "lastWriteTimeUtc": "2026-07-08T23:59:22.0562571Z"
     },
     {
-      "assetId": "AST-2B8C0E60A5431861",
+      "assetId": "AST-77F32B507A56A59B",
       "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Textures/standard.jpg",
       "fileName": "standard.jpg",
       "extension": ".jpg",
       "kind": "image",
       "origin": "unified25",
       "isGenerated": false,
-      "sizeBytes": 109622,
-      "sha256": "2b8c0e60a5431861419efbd6e7c14f9e82a7b13104349c3012922b3919acf1e8",
-      "lastWriteTimeUtc": "2026-07-29T15:24:09.1172603Z"
-    },
-    {
-      "assetId": "AST-C2602B1E36AE402C",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN.obj",
-      "fileName": "Tie_VN.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 184077,
-      "sha256": "c2602b1e36ae402cc64b5406745ebac8bd3aa722ecc67123f9cfd1661cfdbd39",
-      "lastWriteTimeUtc": "2026-07-08T23:59:22.0653866Z"
+      "sizeBytes": 237446,
+      "sha256": "77f32b507a56a59b64d0fbcb615f584032d6ef78d3874c2cb131e8524a70a459",
+      "lastWriteTimeUtc": "2026-08-02T00:22:17.0999432Z"
     },
     {
       "assetId": "AST-6BD919EF2C74CC85",
@@ -34734,30 +35586,6 @@
       "sizeBytes": 237133,
       "sha256": "f0652aacd3a4b763d374cc32d7f7772b4bbe2d8802dfbaf5543ddbd146c2ccea",
       "lastWriteTimeUtc": "2026-07-08T23:59:22.2079929Z"
-    },
-    {
-      "assetId": "AST-1691F481B60B3185",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/z95.obj",
-      "fileName": "z95.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 1081401,
-      "sha256": "1691f481b60b31859aa8da6692346fc69ce5e2a93b28343ddd55f82c779e643e",
-      "lastWriteTimeUtc": "2026-07-08T23:59:22.2709008Z"
-    },
-    {
-      "assetId": "AST-31EBEA498F8072A8",
-      "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v2.obj",
-      "fileName": "Z95v2.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified25",
-      "isGenerated": false,
-      "sizeBytes": 998265,
-      "sha256": "31ebea498f8072a8ce42ee0ca80ab3d9366a6bb5dc0e115839127201f99b1cc3",
-      "lastWriteTimeUtc": "2026-07-08T23:59:22.2582434Z"
     },
     {
       "assetId": "AST-3E83009BA5B69BE7",

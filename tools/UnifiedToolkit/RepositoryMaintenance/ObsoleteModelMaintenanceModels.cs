@@ -55,7 +55,7 @@ public sealed class ObsoleteModelVerificationEntry
 
 public sealed class ObsoleteModelVerificationManifest
 {
-    public string SchemaVersion { get; set; } = "1.2.0";
+    public string SchemaVersion { get; set; } = "1.3.0";
     public DateTimeOffset GeneratedUtc { get; set; }
     public string RepositoryRoot { get; set; } = string.Empty;
     public string AuditPath { get; set; } = string.Empty;
@@ -71,3 +71,26 @@ public sealed class ObsoleteModelVerificationManifest
     public int Purged { get; set; }
     public List<ObsoleteModelVerificationEntry> Entries { get; set; } = new();
 }
+
+public sealed class PurgedModelRecord
+{
+    public string Faction { get; set; } = string.Empty;
+    public string ShipId { get; set; } = string.Empty;
+    public string ShipName { get; set; } = string.Empty;
+    public string OriginalPath { get; set; } = string.Empty;
+    public string ReplacementPath { get; set; } = string.Empty;
+    public long OriginalSizeBytes { get; set; }
+    public string OriginalSha256 { get; set; } = string.Empty;
+    public string CleanupBatchId { get; set; } = string.Empty;
+    public DateTimeOffset PurgedUtc { get; set; }
+    public string Reason { get; set; } = string.Empty;
+}
+
+public sealed class PurgedModelManifest
+{
+    public string SchemaVersion { get; set; } = "1.0.0";
+    public DateTimeOffset UpdatedUtc { get; set; }
+    public string RepositoryRoot { get; set; } = string.Empty;
+    public List<PurgedModelRecord> Entries { get; set; } = new();
+}
+

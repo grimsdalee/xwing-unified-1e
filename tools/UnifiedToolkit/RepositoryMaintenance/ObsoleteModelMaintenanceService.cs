@@ -53,6 +53,15 @@ public sealed class ObsoleteModelMaintenanceService
             EntriesScanned = eligible.Count
         };
 
+        var purgeManifest = LoadPurgeManifest(repositoryRoot);
+        BackfillLegacyPurgeHistory(
+            repositoryRoot,
+            eligible,
+            purgeManifest);
+        var purgedPaths = purgeManifest.Entries
+            .Select(entry => Normalise(entry.OriginalPath))
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
         foreach (var audit in eligible)
         {
             var originalPath = Normalise(audit.RejectedModelPath);
@@ -93,7 +102,9 @@ public sealed class ObsoleteModelMaintenanceService
                     : !originalExists
                         ? IsQuarantined(repositoryRoot, originalPath)
                             ? "Quarantined"
-                            : "MissingOriginal"
+                            : purgedPaths.Contains(originalPath)
+                                ? "Purged"
+                                : "MissingOriginal"
                         : blockingReferences.Count > 0
                             ? "Blocked"
                             : "VerifiedUnused";
@@ -208,6 +219,9 @@ public sealed class ObsoleteModelMaintenanceService
         string auditPath)
     {
         var manifest = Verify(repositoryRoot, auditPath, "Purge");
+        var purgeManifest = LoadPurgeManifest(repositoryRoot);
+        var batchId = "model-purge-" +
+            DateTime.UtcNow.ToString("yyyyMMdd-HHmmss");
 
         foreach (var entry in manifest.Entries)
         {
@@ -230,8 +244,25 @@ public sealed class ObsoleteModelMaintenanceService
             entry.Action = "Purged";
             entry.VerificationStatus = "Purged";
             entry.QuarantinePath = Normalise(Path.GetRelativePath(repositoryRoot, quarantine));
+
+            UpsertPurgeRecord(
+                purgeManifest,
+                new PurgedModelRecord
+                {
+                    Faction = entry.Faction,
+                    ShipId = entry.ShipId,
+                    ShipName = entry.ShipName,
+                    OriginalPath = entry.OriginalPath,
+                    ReplacementPath = entry.ReplacementPath,
+                    OriginalSizeBytes = entry.OriginalSizeBytes,
+                    OriginalSha256 = entry.OriginalSha256,
+                    CleanupBatchId = batchId,
+                    PurgedUtc = DateTimeOffset.UtcNow,
+                    Reason = "VerifiedUnused"
+                });
         }
 
+        SavePurgeManifest(repositoryRoot, purgeManifest);
         manifest.GeneratedUtc = DateTimeOffset.UtcNow;
         RefreshCounts(manifest);
         return manifest;
@@ -313,6 +344,7 @@ public sealed class ObsoleteModelMaintenanceService
         markdown.WriteLine("Only active runtime, active source-asset or unknown/other references block cleanup.");
         markdown.WriteLine("Retained Unified 2.5 source snapshots, manifests, knowledge-base records, reports and generated references remain visible but do not block quarantine.");
         markdown.WriteLine("Any rejected OBJ that is also the confirmed selected OBJ for another ship is protected as SharedSelectedAsset.");
+        markdown.WriteLine("Intentionally deleted OBJ files recorded in purged-models.json are reported as Purged, not MissingOriginal.");
         markdown.WriteLine();
         markdown.WriteLine("| Ship | Original OBJ | Replacement OBJ | Status | Selected by | Blocking | Historical 2.5 | Manifest | KB | Reports | Generated |");
         markdown.WriteLine("|---|---|---|---|---|---:|---:|---:|---:|---:|---:|");
@@ -330,6 +362,175 @@ public sealed class ObsoleteModelMaintenanceService
         }
     }
 
+
+    private static PurgedModelManifest LoadPurgeManifest(
+        string repositoryRoot)
+    {
+        var path = PurgeManifestPath(repositoryRoot);
+        if (!File.Exists(path))
+        {
+            return new PurgedModelManifest
+            {
+                RepositoryRoot = Normalise(repositoryRoot),
+                UpdatedUtc = DateTimeOffset.UtcNow
+            };
+        }
+
+        return JsonSerializer.Deserialize<PurgedModelManifest>(
+                   File.ReadAllText(path),
+                   JsonOptions)
+               ?? new PurgedModelManifest
+               {
+                   RepositoryRoot = Normalise(repositoryRoot),
+                   UpdatedUtc = DateTimeOffset.UtcNow
+               };
+    }
+
+    private static void BackfillLegacyPurgeHistory(
+        string repositoryRoot,
+        IReadOnlyList<ShipModelSelectionAuditEntry> eligible,
+        PurgedModelManifest purgeManifest)
+    {
+        if (purgeManifest.Entries.Count > 0)
+            return;
+
+        var cleanupPath = Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "model-cleanup",
+            "obsolete-model-cleanup.json");
+
+        if (!File.Exists(cleanupPath))
+            return;
+
+        ObsoleteModelVerificationManifest? previous;
+        try
+        {
+            previous = JsonSerializer.Deserialize<ObsoleteModelVerificationManifest>(
+                File.ReadAllText(cleanupPath),
+                JsonOptions);
+        }
+        catch
+        {
+            return;
+        }
+
+        if (previous is null
+            || previous.MissingOriginal == 0
+            || previous.Blocked != 0
+            || previous.MissingReplacement != 0)
+        {
+            return;
+        }
+
+        var byPath = eligible.ToDictionary(
+            entry => Normalise(entry.RejectedModelPath),
+            entry => entry,
+            StringComparer.OrdinalIgnoreCase);
+
+        foreach (var previousEntry in previous.Entries.Where(entry =>
+                     entry.VerificationStatus.Equals(
+                         "MissingOriginal",
+                         StringComparison.OrdinalIgnoreCase)
+                     && entry.ReplacementExists))
+        {
+            var originalPath = Normalise(previousEntry.OriginalPath);
+            if (!byPath.TryGetValue(originalPath, out var audit))
+                continue;
+
+            if (File.Exists(Resolve(repositoryRoot, originalPath))
+                || IsQuarantined(repositoryRoot, originalPath))
+            {
+                continue;
+            }
+
+            UpsertPurgeRecord(
+                purgeManifest,
+                new PurgedModelRecord
+                {
+                    Faction = audit.Faction,
+                    ShipId = audit.ShipId,
+                    ShipName = audit.ShipName,
+                    OriginalPath = originalPath,
+                    ReplacementPath = Normalise(audit.SelectedModelPath),
+                    OriginalSizeBytes = previousEntry.OriginalSizeBytes,
+                    OriginalSha256 = previousEntry.OriginalSha256,
+                    CleanupBatchId = "legacy-cleanup-backfill",
+                    PurgedUtc = previous.GeneratedUtc,
+                    Reason = "Legacy cleanup history backfilled from confirmed missing-original report"
+                });
+        }
+
+        if (purgeManifest.Entries.Count > 0)
+            SavePurgeManifest(repositoryRoot, purgeManifest);
+    }
+
+    private static void UpsertPurgeRecord(
+        PurgedModelManifest manifest,
+        PurgedModelRecord record)
+    {
+        var index = manifest.Entries.FindIndex(existing =>
+            Normalise(existing.OriginalPath).Equals(
+                Normalise(record.OriginalPath),
+                StringComparison.OrdinalIgnoreCase));
+
+        if (index >= 0)
+            manifest.Entries[index] = record;
+        else
+            manifest.Entries.Add(record);
+    }
+
+    private static void SavePurgeManifest(
+        string repositoryRoot,
+        PurgedModelManifest manifest)
+    {
+        manifest.RepositoryRoot = Normalise(repositoryRoot);
+        manifest.UpdatedUtc = DateTimeOffset.UtcNow;
+        manifest.Entries = manifest.Entries
+            .OrderBy(entry => entry.OriginalPath, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        var folder = Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "model-cleanup");
+        Directory.CreateDirectory(folder);
+
+        File.WriteAllText(
+            PurgeManifestPath(repositoryRoot),
+            JsonSerializer.Serialize(manifest, JsonOptions),
+            new UTF8Encoding(false));
+
+        using var writer = new StreamWriter(
+            Path.Combine(folder, "purged-models.csv"),
+            false,
+            new UTF8Encoding(false));
+        writer.WriteLine(
+            "Faction,ShipId,ShipName,OriginalPath,ReplacementPath," +
+            "OriginalSizeBytes,Sha256,CleanupBatchId,PurgedUtc,Reason");
+
+        foreach (var entry in manifest.Entries)
+        {
+            writer.WriteLine(string.Join(",",
+                Csv(entry.Faction),
+                Csv(entry.ShipId),
+                Csv(entry.ShipName),
+                Csv(entry.OriginalPath),
+                Csv(entry.ReplacementPath),
+                Csv(entry.OriginalSizeBytes.ToString()),
+                Csv(entry.OriginalSha256),
+                Csv(entry.CleanupBatchId),
+                Csv(entry.PurgedUtc.ToString("O")),
+                Csv(entry.Reason)));
+        }
+    }
+
+    private static string PurgeManifestPath(string repositoryRoot) =>
+        Path.Combine(
+            repositoryRoot,
+            "_unifiedtoolkit_reports",
+            "model-cleanup",
+            "purged-models.json");
 
     private static List<string> PathsFor(
         IEnumerable<RepositoryReference> references,

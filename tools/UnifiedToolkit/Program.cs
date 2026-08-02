@@ -116,6 +116,7 @@ return command switch
     "audit-ship-model-inventory" => AuditShipModelInventoryCommand.Run(commandArgs),
     "promote-ship-model-review-candidates" => PromoteShipModelReviewCandidatesCommand.Run(commandArgs),
     "migrate-ship-model-pipeline-references" => MigrateShipModelPipelineReferencesCommand.Run(commandArgs),
+    "plan-unified1e-asset-migration" => PlanUnified1eAssetMigrationCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -225,6 +226,7 @@ static void ShowHelp()
     Console.WriteLine("  audit-ship-model-inventory <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  promote-ship-model-review-candidates <first-edition-repo-folder> [--inventory <file>] [--audit <file>]");
     Console.WriteLine("  migrate-ship-model-pipeline-references <first-edition-repo-folder> [--apply]");
+    Console.WriteLine("  plan-unified1e-asset-migration <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
