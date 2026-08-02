@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:30.2333213+00:00",
+  "generatedUtc": "2026-08-02T23:42:12.3934818+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,26 +62,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A6DDE4C5E92CDEA1",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-893996346E366A4C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -89,17 +89,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-2DE810380BABB149",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/cutlass-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/cutlass-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/cutlass-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/cutlass-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-08CA815F7A5A36D1",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/cutlasssquadronpilot__pilot-d1da1e944aa9.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiepunisher/cutlasssquadronpilot__pilot-d1da1e944aa9.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/cutlasssquadronpilot__pilot-d1da1e944aa9.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/cutlasssquadronpilot__pilot-d1da1e944aa9.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -155,26 +155,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A6DDE4C5E92CDEA1",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-893996346E366A4C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -182,17 +182,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-67720F0DAF897E42",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/black-eight-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/black-eight-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/black-eight-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/black-eight-squadron-pilot.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F531592DC42F8881",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/blackeightsqpilot__pilot-93bea03f4cbe.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiepunisher/blackeightsqpilot__pilot-93bea03f4cbe.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/blackeightsqpilot__pilot-93bea03f4cbe.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/blackeightsqpilot__pilot-93bea03f4cbe.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -248,26 +248,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A6DDE4C5E92CDEA1",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-893996346E366A4C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -275,17 +275,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-39A562D000652265",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/deathrain.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/deathrain.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/deathrain.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/deathrain.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-AA2F9A6778AF88E7",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/deathrain__pilot-9380ae7d1934.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiepunisher/deathrain__pilot-9380ae7d1934.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/deathrain__pilot-9380ae7d1934.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/deathrain__pilot-9380ae7d1934.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -341,26 +341,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A6DDE4C5E92CDEA1",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/TiePunisher.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiepunisher/TiePunisher.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-893996346E366A4C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tiecapunisher/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiebomber/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -368,17 +368,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-DA18C3CABC99B162",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/redline.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Punisher/redline.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/redline.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Punisher/redline.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6F6798DE87307799",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiepunisher/redline__pilot-f578a712fb2f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiepunisher/redline__pilot-f578a712fb2f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/redline__pilot-f578a712fb2f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiepunisher/redline__pilot-f578a712fb2f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

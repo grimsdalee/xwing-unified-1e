@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:32.7239253+00:00",
+  "generatedUtc": "2026-08-02T23:42:14.6876327+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,26 +65,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-CB1CB2E162869313",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/scurrg.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/scurrgh6bomber/scurrg.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/scurrgh6bomber/scurrg.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-58D5E94CD38FA4E1",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/scurrgh6bomber/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/scurrgh6bomber/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/scurrgh6bomber/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -92,17 +92,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-4A724A2F1A549C80",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Scurrg H-6 Bomber/captain-nym.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Scurrg H-6 Bomber/captain-nym.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Scurrg H-6 Bomber/captain-nym.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Scurrg H-6 Bomber/captain-nym.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-0D8B75CB192EE51A",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/scurrgh6bomber/captainnym__pilot-443467780783.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"

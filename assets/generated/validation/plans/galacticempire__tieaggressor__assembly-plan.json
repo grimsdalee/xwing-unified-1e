@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:28.3467628+00:00",
+  "generatedUtc": "2026-08-02T23:42:10.8506713+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,27 +62,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-312C95D86055232C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "assetId": "AST-D721EC1C4A47B044",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F5CFE5650F917DC4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -90,17 +90,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-8C08907511981B8C",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/sienar-specialist.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/sienar-specialist.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/sienar-specialist.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/sienar-specialist.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F8E8E8E16F49ECD5",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/sienarspecialist__pilot-7274e5f48e24.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieaggressor/sienarspecialist__pilot-7274e5f48e24.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/sienarspecialist__pilot-7274e5f48e24.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/sienarspecialist__pilot-7274e5f48e24.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -156,27 +156,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-312C95D86055232C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "assetId": "AST-D721EC1C4A47B044",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F5CFE5650F917DC4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -184,17 +184,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-63ECF4C53B5C1DBE",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/double-edge.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/double-edge.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/double-edge.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/double-edge.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-10E4EB65141106E1",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/doubleedge__pilot-29c434698216.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieaggressor/doubleedge__pilot-29c434698216.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/doubleedge__pilot-29c434698216.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/doubleedge__pilot-29c434698216.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -250,27 +250,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-312C95D86055232C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "assetId": "AST-D721EC1C4A47B044",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F5CFE5650F917DC4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -278,17 +278,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-874FDF719EEFFB8D",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/onyx-squadron-escort.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/onyx-squadron-escort.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/onyx-squadron-escort.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/onyx-squadron-escort.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-94B88BFE36E73FD9",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/onyxsquadronescort__pilot-11ec1b262bd8.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieaggressor/onyxsquadronescort__pilot-11ec1b262bd8.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/onyxsquadronescort__pilot-11ec1b262bd8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/onyxsquadronescort__pilot-11ec1b262bd8.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -344,27 +344,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-312C95D86055232C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/aggressorassaultfighter/aggressor.obj",
+          "assetId": "AST-D721EC1C4A47B044",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/tieagaggressor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F5CFE5650F917DC4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieagaggressor/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieaggressor/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -372,17 +372,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-29B7A4DD43370444",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/lieutenant-kestal.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Aggressor/lieutenant-kestal.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/lieutenant-kestal.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Aggressor/lieutenant-kestal.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-A5F155CD0D1655DE",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieaggressor/lieutenantkestal__pilot-0ccb6dea3e06.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieaggressor/lieutenantkestal__pilot-0ccb6dea3e06.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/lieutenantkestal__pilot-0ccb6dea3e06.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieaggressor/lieutenantkestal__pilot-0ccb6dea3e06.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

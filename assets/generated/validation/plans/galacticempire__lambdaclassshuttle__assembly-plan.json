@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:27.4111647+00:00",
+  "generatedUtc": "2026-08-02T23:42:09.9461903+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -59,26 +59,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-1EFD2F981810CBA8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-99B93B258D471246",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -86,17 +86,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-73531D4FA689ED62",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/omicron-group-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/omicron-group-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/omicron-group-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/omicron-group-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-E3B7D1AD0DC11D4F",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/omicrongrouppilot__pilot-4405e8f8586f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/omicrongrouppilot__pilot-4405e8f8586f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/omicrongrouppilot__pilot-4405e8f8586f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/omicrongrouppilot__pilot-4405e8f8586f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -149,26 +149,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-1EFD2F981810CBA8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-99B93B258D471246",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -176,17 +176,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-DE987F0B71C9EFC3",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/captain-yorr.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/captain-yorr.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/captain-yorr.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/captain-yorr.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-67C175D31223DF74",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainyorr__pilot-43e9bd60c76a.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainyorr__pilot-43e9bd60c76a.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainyorr__pilot-43e9bd60c76a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainyorr__pilot-43e9bd60c76a.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -239,26 +239,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-1EFD2F981810CBA8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-99B93B258D471246",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -266,17 +266,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-1FE2D19DD16E3AB4",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/colonel-jendon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/colonel-jendon.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/colonel-jendon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/colonel-jendon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F7CB98E5EBC27DA4",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/coloneljendon__pilot-a4df0b594be3.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/coloneljendon__pilot-a4df0b594be3.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/coloneljendon__pilot-a4df0b594be3.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/coloneljendon__pilot-a4df0b594be3.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -329,26 +329,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-1EFD2F981810CBA8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/lambda.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/lambda.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-99B93B258D471246",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/lambdaclasst4ashuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/lambdashuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/lambdashuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -356,17 +356,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-91046FE6CF199DDB",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/captain-kagi.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Lambda-class Shuttle/captain-kagi.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/captain-kagi.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Lambda-class Shuttle/captain-kagi.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-52EEAC38438115B7",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

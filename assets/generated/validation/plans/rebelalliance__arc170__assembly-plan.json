@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:31.2886223+00:00",
+  "generatedUtc": "2026-08-02T23:42:13.346046+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,26 +62,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/arc.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/arc.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -89,17 +89,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-85F8290CE080F1FC",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/braylen-stramm.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/braylen-stramm.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/braylen-stramm.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/braylen-stramm.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-55010F029A228B7B",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/braylenstramm__pilot-559672c5acf1.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/arc170/braylenstramm__pilot-559672c5acf1.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/arc170/braylenstramm__pilot-559672c5acf1.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/arc170/braylenstramm__pilot-559672c5acf1.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -155,26 +155,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/arc.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/arc.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -182,17 +182,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-FF51F9030F5E529D",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/thane-kyrell.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/thane-kyrell.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/thane-kyrell.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/thane-kyrell.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-12F76F5BF281C89B",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/thanekyrell__pilot-f24f4c0fdc1d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/arc170/thanekyrell__pilot-f24f4c0fdc1d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/arc170/thanekyrell__pilot-f24f4c0fdc1d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/arc170/thanekyrell__pilot-f24f4c0fdc1d.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -248,26 +248,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/arc.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/arc.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -275,17 +275,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-BE930C35EBDF0B20",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/shara-bey.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/shara-bey.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/shara-bey.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/shara-bey.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-7CF5787887BE4033",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/sharabey__pilot-1c20acae73ab.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/arc170/sharabey__pilot-1c20acae73ab.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/arc170/sharabey__pilot-1c20acae73ab.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/arc170/sharabey__pilot-1c20acae73ab.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -341,26 +341,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/arc.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/arc.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -368,17 +368,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-4E9E44870B058F70",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/norra-wexley.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/ARC-170/norra-wexley.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/norra-wexley.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/ARC-170/norra-wexley.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-9D7F8E6A7C0521FE",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/arc170/norrawexley__pilot-65f6f265f16d.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

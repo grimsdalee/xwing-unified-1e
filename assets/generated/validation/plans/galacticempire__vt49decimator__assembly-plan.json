@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:30.8656382+00:00",
+  "generatedUtc": "2026-08-02T23:42:12.9707277+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -61,26 +61,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-EEE4D890214BAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-0C87FBAEBFBDD607",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -88,17 +88,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-CD99210C3846D461",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/patrol-leader.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/patrol-leader.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/patrol-leader.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/patrol-leader.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-4EC5EA97BE62945A",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/patrolleader__pilot-f288e7d5e0d6.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/vt49decimator/patrolleader__pilot-f288e7d5e0d6.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/patrolleader__pilot-f288e7d5e0d6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/patrolleader__pilot-f288e7d5e0d6.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -153,26 +153,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-EEE4D890214BAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-0C87FBAEBFBDD607",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -180,17 +180,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-25DEB8EF6531BC88",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/captain-oicunn.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/captain-oicunn.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/captain-oicunn.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/captain-oicunn.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B23BE3D0F4B06FA9",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/captainoicunn__pilot-20d8bf313d24.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/vt49decimator/captainoicunn__pilot-20d8bf313d24.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/captainoicunn__pilot-20d8bf313d24.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/captainoicunn__pilot-20d8bf313d24.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -245,26 +245,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-EEE4D890214BAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-0C87FBAEBFBDD607",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -272,17 +272,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-AFD76E6185DF8FC0",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/commander-kenkirk.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/commander-kenkirk.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/commander-kenkirk.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/commander-kenkirk.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B2FF2F29D18CB61B",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/commanderkenkirk__pilot-a2eb04a922ed.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/vt49decimator/commanderkenkirk__pilot-a2eb04a922ed.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/commanderkenkirk__pilot-a2eb04a922ed.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/commanderkenkirk__pilot-a2eb04a922ed.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -337,26 +337,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-EEE4D890214BAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/vt49decimator.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/vt49decimator.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-0C87FBAEBFBDD607",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/vt49decimator/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/vt49decimator/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -364,17 +364,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-187C743821E0C5AB",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/rear-admiral-chiraneau.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/VT-49 Decimator/rear-admiral-chiraneau.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/rear-admiral-chiraneau.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/VT-49 Decimator/rear-admiral-chiraneau.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-290553B8E86D3CED",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/vt49decimator/rearadmiralchiraneau__pilot-333658d8223f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/vt49decimator/rearadmiralchiraneau__pilot-333658d8223f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/rearadmiralchiraneau__pilot-333658d8223f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/vt49decimator/rearadmiralchiraneau__pilot-333658d8223f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

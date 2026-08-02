@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:24.9360327+00:00",
+  "generatedUtc": "2026-08-02T23:42:07.8988583+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,27 +65,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-C2602B1E36AE402C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
+          "assetId": "AST-6BD919EF2C74CC85",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-629CAF4C7D07E796",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
+          "assetId": "AST-77F32B507A56A59B",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -93,17 +93,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-8EA8E8F82CFC548E",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/sienar-jaemus-analyst.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE Silencer/sienar-jaemus-analyst.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/TIE Silencer/sienar-jaemus-analyst.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/TIE Silencer/sienar-jaemus-analyst.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-C067613BFFBC2126",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/sienarjaemusanalyst__pilot-730027847efe.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesilencer/sienarjaemusanalyst__pilot-730027847efe.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/sienarjaemusanalyst__pilot-730027847efe.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/sienarjaemusanalyst__pilot-730027847efe.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -162,27 +162,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-C2602B1E36AE402C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
+          "assetId": "AST-6BD919EF2C74CC85",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-629CAF4C7D07E796",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
+          "assetId": "AST-77F32B507A56A59B",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -190,17 +190,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-2814AAF1A73953CE",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/first-order-test-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE Silencer/first-order-test-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/TIE Silencer/first-order-test-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/TIE Silencer/first-order-test-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-C2EF614EBF13B03C",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/firstordertestpilot__pilot-13ec6ba835cc.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -259,27 +259,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-C2602B1E36AE402C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
+          "assetId": "AST-6BD919EF2C74CC85",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-629CAF4C7D07E796",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
+          "assetId": "AST-77F32B507A56A59B",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -287,17 +287,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-92473046B9486DB5",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/test-pilot-blackout.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE Silencer/test-pilot-blackout.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/TIE Silencer/test-pilot-blackout.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/TIE Silencer/test-pilot-blackout.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-1FBBE8EF39F257C7",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/testpilotblackout__pilot-43533a4d2203.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesilencer/testpilotblackout__pilot-43533a4d2203.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/testpilotblackout__pilot-43533a4d2203.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/testpilotblackout__pilot-43533a4d2203.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -356,27 +356,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-C2602B1E36AE402C",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
+          "assetId": "AST-6BD919EF2C74CC85",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Tie_VN2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-629CAF4C7D07E796",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tievnsilencer/Icon.png",
+          "assetId": "AST-77F32B507A56A59B",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiesilencer/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -384,17 +384,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-199C6E27B13AAE27",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/TIE Silencer/kylo-ren.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/TIE Silencer/kylo-ren.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/TIE Silencer/kylo-ren.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/TIE Silencer/kylo-ren.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-57CD6A92ED0F4EEF",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

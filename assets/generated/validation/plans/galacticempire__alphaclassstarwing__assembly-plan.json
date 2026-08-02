@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:26.7728708+00:00",
+  "generatedUtc": "2026-08-02T23:42:09.4188999+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -66,26 +66,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-AD2A9D995698693D",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-79AE1A92096231C7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -93,17 +93,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-553E4AEDD00554FF",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-5FC6A0A42232DA44",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -163,26 +163,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-AD2A9D995698693D",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-79AE1A92096231C7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -190,17 +190,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-2F66CE4C556D2176",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-BAE5B788B019D990",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -260,26 +260,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-AD2A9D995698693D",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-79AE1A92096231C7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -287,17 +287,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-0E4A689DBEBDFF31",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F634F169E504E246",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -357,26 +357,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-AD2A9D995698693D",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-79AE1A92096231C7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -384,17 +384,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-7C72733C6E341A6A",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-291FF5833FC5BD4E",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:37.9693554+00:00",
+  "generatedUtc": "2026-08-02T23:42:18.5910489+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,27 +65,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -93,17 +93,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-93FB313834908E1D",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/zealous-recruit.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/zealous-recruit.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/zealous-recruit.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/zealous-recruit.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-EE877A782E774E24",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/zealousrecruit__pilot-c52e6eab9ed5.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/zealousrecruit__pilot-c52e6eab9ed5.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/zealousrecruit__pilot-c52e6eab9ed5.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/zealousrecruit__pilot-c52e6eab9ed5.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -162,27 +162,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -190,17 +190,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-2353C57CFF9A6281",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-veteran.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-veteran.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/concord-dawn-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/concord-dawn-veteran.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-E9BFF1EC5B566DD4",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnveteran__pilot-f98f18cc6d4d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnveteran__pilot-f98f18cc6d4d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/concorddawnveteran__pilot-f98f18cc6d4d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/concorddawnveteran__pilot-f98f18cc6d4d.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -259,27 +259,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -287,17 +287,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-1D03289891BCD0A5",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-ace.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/concord-dawn-ace.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/concord-dawn-ace.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/concord-dawn-ace.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-BE667A63CAECCBCC",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnace__pilot-f20e3c22e49d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/concorddawnace__pilot-f20e3c22e49d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/concorddawnace__pilot-f20e3c22e49d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/concorddawnace__pilot-f20e3c22e49d.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -356,27 +356,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -384,17 +384,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D464E0FA2FF4C438",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/kad-solus.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/kad-solus.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/kad-solus.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/kad-solus.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-4B37FDD608BA493C",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/kadsolus__pilot-6be5fcd8cd1a.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/kadsolus__pilot-6be5fcd8cd1a.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/kadsolus__pilot-6be5fcd8cd1a.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/kadsolus__pilot-6be5fcd8cd1a.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -453,27 +453,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -481,17 +481,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-8F20EFD44EDDF99E",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/old-teroch.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/old-teroch.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/old-teroch.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/old-teroch.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B98E8E89A4B07E93",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/oldteroch__pilot-68d5625bbe63.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/oldteroch__pilot-68d5625bbe63.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/oldteroch__pilot-68d5625bbe63.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/oldteroch__pilot-68d5625bbe63.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -550,27 +550,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-FD504231CBB3C56A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/arc.obj",
+          "assetId": "AST-DB8BEC636D402293",
+          "repositoryPath": "assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/protectoratestarfighter/ship-base.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-478474BB3B5771A4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/arc170starfighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/arc170/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -578,17 +578,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-69AB00A5D024AEB3",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/fenn-rau.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Protectorate Starfighter/fenn-rau.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/fenn-rau.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Protectorate Starfighter/fenn-rau.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6610A146A99123A9",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/protectoratestarfighter/fennrau__pilot-23c52d18fcc8.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

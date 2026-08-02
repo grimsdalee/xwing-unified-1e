@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:29.690573+00:00",
+  "generatedUtc": "2026-08-02T23:42:11.9394443+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,26 +65,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -92,17 +92,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-F77F096759707F7A",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/alpha-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/alpha-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/alpha-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/alpha-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-7415A41848E9B8DE",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/alphasquadronpilot__pilot-8b20dcc32738.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -161,26 +161,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -188,17 +188,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-F3C1EABDBD6E2605",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/avenger-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/avenger-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/avenger-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/avenger-squadron-pilot.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-FF44A73A31EFF5D0",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/avengersquadronpilot__pilot-a62d21a2101d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/avengersquadronpilot__pilot-a62d21a2101d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/avengersquadronpilot__pilot-a62d21a2101d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/avengersquadronpilot__pilot-a62d21a2101d.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -257,26 +257,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -284,17 +284,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-5454E1B017CC463F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/saber-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/saber-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/saber-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/saber-squadron-pilot.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-083DEF13CCC0BBE9",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/sabersquadronpilot__pilot-2141928f7263.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/sabersquadronpilot__pilot-2141928f7263.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/sabersquadronpilot__pilot-2141928f7263.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/sabersquadronpilot__pilot-2141928f7263.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -353,26 +353,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -380,17 +380,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-CDFB8533264AE361",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/fel-s-wrath.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/fel-s-wrath.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/fel-s-wrath.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/fel-s-wrath.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-839EC67AC83DFD65",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/felswrath__pilot-3cbe4e95e295.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/felswrath__pilot-3cbe4e95e295.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/felswrath__pilot-3cbe4e95e295.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/felswrath__pilot-3cbe4e95e295.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -449,26 +449,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -476,17 +476,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-25CE92426A010D8F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/lieutenant-lorrir.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/lieutenant-lorrir.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/lieutenant-lorrir.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/lieutenant-lorrir.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-8D5FE868DEAF6D64",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/lieutenantlorrir__pilot-f6adbd0d6a79.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/lieutenantlorrir__pilot-f6adbd0d6a79.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/lieutenantlorrir__pilot-f6adbd0d6a79.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/lieutenantlorrir__pilot-f6adbd0d6a79.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -545,26 +545,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -572,17 +572,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-434D12CECBB45739",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/kir-kanos.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/kir-kanos.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/kir-kanos.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/kir-kanos.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B98399A4AA7504F5",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/kirkanos__pilot-d869dca4c483.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/kirkanos__pilot-d869dca4c483.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/kirkanos__pilot-d869dca4c483.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/kirkanos__pilot-d869dca4c483.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -641,26 +641,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -668,17 +668,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-0B437430B7FC8EBE",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/royal-guard-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/royal-guard-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/royal-guard-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/royal-guard-pilot.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-268EC4A567F92083",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/royalguardpilot__pilot-3187e5d8cd00.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/royalguardpilot__pilot-3187e5d8cd00.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/royalguardpilot__pilot-3187e5d8cd00.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/royalguardpilot__pilot-3187e5d8cd00.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -737,26 +737,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -764,17 +764,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-E95B85A70093BABA",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/tetran-cowall.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/tetran-cowall.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/tetran-cowall.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/tetran-cowall.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-4A7C5AEF16478841",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/tetrancowall__pilot-9bcb31488c19.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/tetrancowall__pilot-9bcb31488c19.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/tetrancowall__pilot-9bcb31488c19.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/tetrancowall__pilot-9bcb31488c19.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -833,26 +833,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -860,17 +860,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-67B1B3468BAE916B",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/turr-phennir.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/turr-phennir.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/turr-phennir.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/turr-phennir.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-D966139A27AB1E0E",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -929,26 +929,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -956,17 +956,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-990499A01B9AA2AB",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/carnor-jax.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/carnor-jax.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/carnor-jax.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/carnor-jax.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-0A4215C1068A2FCD",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -1025,26 +1025,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A1A83EBD8CA54AC2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieininterceptor/tieinterceptor.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tieinterceptor/tieinterceptor.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1DD47A4BC70D25FD",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m3ainterceptor/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -1052,17 +1052,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-5193B5A93488A898",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/soontir-fel.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Interceptor/soontir-fel.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/soontir-fel.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Interceptor/soontir-fel.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-026D51CFDCD25E12",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/soontirfel__pilot-bf77493c3681.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tieinterceptor/soontirfel__pilot-bf77493c3681.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/soontirfel__pilot-bf77493c3681.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/soontirfel__pilot-bf77493c3681.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

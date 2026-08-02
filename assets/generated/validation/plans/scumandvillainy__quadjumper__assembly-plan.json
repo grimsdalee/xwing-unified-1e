@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:38.2229065+00:00",
+  "generatedUtc": "2026-08-02T23:42:18.7713062+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -63,26 +63,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-B818005FB94E6CCB",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-EC12B3254B16D8E2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -90,17 +90,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-C009C940899B7150",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/jakku-gunrunner.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/jakku-gunrunner.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/jakku-gunrunner.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/jakku-gunrunner.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-434088C9421ACF1D",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/jakkugunrunner__pilot-a3c94dea1fdd.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/quadjumper/jakkugunrunner__pilot-a3c94dea1fdd.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/jakkugunrunner__pilot-a3c94dea1fdd.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/jakkugunrunner__pilot-a3c94dea1fdd.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -157,26 +157,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-B818005FB94E6CCB",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-EC12B3254B16D8E2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -184,17 +184,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-9BF7A80E12D0F9FD",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/unkar-plutt.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/unkar-plutt.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/unkar-plutt.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/unkar-plutt.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-2DA0B6548D1A8131",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -251,26 +251,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-B818005FB94E6CCB",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-EC12B3254B16D8E2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -278,17 +278,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-3767631074B8DF49",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/sarco-plank.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/sarco-plank.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/sarco-plank.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/sarco-plank.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-4D8D3EEAA78C43A1",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/sarcoplank__pilot-ad0af9f4fada.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/quadjumper/sarcoplank__pilot-ad0af9f4fada.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/sarcoplank__pilot-ad0af9f4fada.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/sarcoplank__pilot-ad0af9f4fada.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -345,26 +345,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-B818005FB94E6CCB",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/quadjumper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/quadjumper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-EC12B3254B16D8E2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/quadrijettransferspacetug/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/quadjumper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -372,17 +372,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-42BD5E67F37A1815",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/constable-zuvio.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/Quadjumper/constable-zuvio.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/constable-zuvio.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/Quadjumper/constable-zuvio.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-AC042E8F24DCDD7D",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

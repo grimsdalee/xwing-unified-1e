@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:32.524439+00:00",
+  "generatedUtc": "2026-08-02T23:42:14.5225018+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -61,26 +61,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-ACA05A0DA470B6F4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/kwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/kwing.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-58A18CDFD30DAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -88,17 +88,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-10670AA13C21F04C",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/warden-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/warden-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/warden-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/warden-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B9739EB22620F78F",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/kwing/wardensquadronpilot__pilot-7d6b4693d0cc.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/kwing/wardensquadronpilot__pilot-7d6b4693d0cc.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/kwing/wardensquadronpilot__pilot-7d6b4693d0cc.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/kwing/wardensquadronpilot__pilot-7d6b4693d0cc.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -153,26 +153,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-ACA05A0DA470B6F4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/kwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/kwing.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-58A18CDFD30DAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -180,17 +180,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-EE60008E61FD55E1",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/guardian-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/guardian-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/guardian-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/guardian-squadron-pilot.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-9EB5BC779CA69515",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/kwing/guardiansquadronpilot__pilot-3b0d4b6109e8.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/kwing/guardiansquadronpilot__pilot-3b0d4b6109e8.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/kwing/guardiansquadronpilot__pilot-3b0d4b6109e8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/kwing/guardiansquadronpilot__pilot-3b0d4b6109e8.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -245,26 +245,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-ACA05A0DA470B6F4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/kwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/kwing.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-58A18CDFD30DAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -272,17 +272,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-E9BD3C06B2D61856",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/esege-tuketu.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/esege-tuketu.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/esege-tuketu.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/esege-tuketu.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-0C37CC7C8D78076C",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/kwing/esegetuketu__pilot-a2e41ccfab5f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/kwing/esegetuketu__pilot-a2e41ccfab5f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/kwing/esegetuketu__pilot-a2e41ccfab5f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/kwing/esegetuketu__pilot-a2e41ccfab5f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -337,26 +337,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-ACA05A0DA470B6F4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/kwing.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/kwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/kwing.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-58A18CDFD30DAFD6",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/btls8kwing/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/kwing/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/kwing/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -364,17 +364,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-4897FABDD075CC73",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/miranda-doni.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/K-wing/miranda-doni.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/miranda-doni.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/K-wing/miranda-doni.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-DC7025F96CCE65E7",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/kwing/mirandadoni__pilot-0e181989c08c.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/kwing/mirandadoni__pilot-0e181989c08c.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/kwing/mirandadoni__pilot-0e181989c08c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/kwing/mirandadoni__pilot-0e181989c08c.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

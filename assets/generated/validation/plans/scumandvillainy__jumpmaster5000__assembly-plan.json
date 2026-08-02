@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:36.9507373+00:00",
+  "generatedUtc": "2026-08-02T23:42:17.6682177+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,26 +65,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4E1DCEF99057B37E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-AADF6ECE3A671EDF",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -92,17 +92,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-898A72F8940DF87C",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/contracted-scout.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-C772A2B282C45E0B",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/contractedscout__pilot-d7e3af0c1a39.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -161,26 +161,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4E1DCEF99057B37E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-AADF6ECE3A671EDF",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -188,17 +188,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-9C29E2F7DE0CF9C2",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/manaroo.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/manaroo.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/manaroo.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/manaroo.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-5A8D29FDFD4D300B",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -257,26 +257,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4E1DCEF99057B37E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-AADF6ECE3A671EDF",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -284,17 +284,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-EDBE82D338896B36",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/tel-trevura.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-0E0A089873E01183",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/teltrevura__pilot-fbbd2835af68.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -353,26 +353,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4E1DCEF99057B37E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/jm2k.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/jm2k.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-AADF6ECE3A671EDF",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/jumpmaster5000/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/jumpmaster5000/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -380,17 +380,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D544DDDD2400CEE7",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/dengar.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/JumpMaster 5000/dengar.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/dengar.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/JumpMaster 5000/dengar.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6E32883C3BFB878B",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/dengar__pilot-e19eaee63e13.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:39.1535003+00:00",
+  "generatedUtc": "2026-08-02T23:42:19.4389233+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,26 +62,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEE008D656461E4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/yv666v2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/yv666v2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1227FCBE2683ACBC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -89,17 +89,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-94A8F51628347537",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/trandoshan-slaver.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/trandoshan-slaver.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/trandoshan-slaver.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/trandoshan-slaver.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-71918E85810254D9",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/yv666/trandoshanslaver__pilot-b618b90b5e10.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/yv666/trandoshanslaver__pilot-b618b90b5e10.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/trandoshanslaver__pilot-b618b90b5e10.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/trandoshanslaver__pilot-b618b90b5e10.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -155,26 +155,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEE008D656461E4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/yv666v2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/yv666v2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1227FCBE2683ACBC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -182,17 +182,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-40AAA04602B2369F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/latts-razzi.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/latts-razzi.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/latts-razzi.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/latts-razzi.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-E94ED3B785638350",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/yv666/lattsrazzi__pilot-d128bd38a4eb.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/yv666/lattsrazzi__pilot-d128bd38a4eb.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/lattsrazzi__pilot-d128bd38a4eb.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/lattsrazzi__pilot-d128bd38a4eb.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -248,26 +248,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEE008D656461E4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/yv666v2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/yv666v2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1227FCBE2683ACBC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -275,17 +275,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D1EEB38622D78B22",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/moralo-eval.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/moralo-eval.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/moralo-eval.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/moralo-eval.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6CE31B70DFCEBB6E",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/yv666/moraloeval__pilot-04881cc2d835.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/yv666/moraloeval__pilot-04881cc2d835.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/moraloeval__pilot-04881cc2d835.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/moraloeval__pilot-04881cc2d835.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -341,26 +341,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEE008D656461E4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/yv666v2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/yv666v2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/yv666v2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-1227FCBE2683ACBC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/yv666lightfreighter/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yv666/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -368,17 +368,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D79E7FBBE17268DC",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/bossk.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/YV-666/bossk.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/bossk.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/YV-666/bossk.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-152CB3E6FE067EBE",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/yv666/bossk__pilot-818969b87243.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/yv666/bossk__pilot-818969b87243.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/bossk__pilot-818969b87243.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/yv666/bossk__pilot-818969b87243.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

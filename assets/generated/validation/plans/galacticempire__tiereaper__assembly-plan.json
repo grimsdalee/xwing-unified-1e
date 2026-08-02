@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:30.4113884+00:00",
+  "generatedUtc": "2026-08-02T23:42:12.5658484+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -66,26 +66,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A3CE1FA0B7F76C4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F3D5FD2E841351DC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -93,17 +93,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-BFC3C306D428FB2E",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/scarif-base-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/scarif-base-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/scarif-base-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/scarif-base-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6AC83F8A39208E5F",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/scarifbasepilot__pilot-c4c1818cafa8.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -163,26 +163,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A3CE1FA0B7F76C4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F3D5FD2E841351DC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -190,17 +190,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-00F647B8802EB0B4",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/vizier.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/vizier.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/vizier.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/vizier.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-D5796C03EA55A888",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/vizier__pilot-f55d2fcd7f5d.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -260,26 +260,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A3CE1FA0B7F76C4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F3D5FD2E841351DC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -287,17 +287,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-36ACB70A810E6D80",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/captain-feroph.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/captain-feroph.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/captain-feroph.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/captain-feroph.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-41D5909C9DE84F3F",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -357,26 +357,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-A3CE1FA0B7F76C4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/tiereaper.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/tiereaper.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-F3D5FD2E841351DC",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/tierereaper/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/tiereaper/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -384,17 +384,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-59E092777FCE5F83",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/major-vermeil.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Reaper/major-vermeil.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/major-vermeil.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/TIE Reaper/major-vermeil.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6658064D6363B8C3",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/majorvermeil__pilot-e7c1ecfe70bc.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:35.0026389+00:00",
+  "generatedUtc": "2026-08-02T23:42:16.4509659+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -61,26 +61,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-9E77DE4D73186B4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-3D45D66C3F010B1A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-F5B2F3E561B9FAE7",
-          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/resistance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -88,17 +88,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-C76D27E4F3B0668F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-7088E0A9FDDBC6C4",
-          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonsquadronpilot__pilot-4c96b892b2d4.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -153,26 +153,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-9E77DE4D73186B4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-3D45D66C3F010B1A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-F5B2F3E561B9FAE7",
-          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/resistance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -180,17 +180,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-C8B526BEDEBE3B81",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-specialist.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-specialist.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-specialist.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-specialist.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-C968A07B2816450E",
-          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonspecialist__pilot-10b061cebaf0.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -245,26 +245,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-9E77DE4D73186B4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-3D45D66C3F010B1A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-F5B2F3E561B9FAE7",
-          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/resistance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -272,17 +272,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-433BD4AC700B0056",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/cobalt-leader.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/cobalt-leader.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/cobalt-leader.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/cobalt-leader.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-CDB0DD46D1379B5E",
-          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/cobaltleader__pilot-c7808aa70880.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -337,26 +337,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-9E77DE4D73186B4B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/starfortress.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/starfortress.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-3D45D66C3F010B1A",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/mg100starfortress/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/bsf17bomber/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/bsf17bomber/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-F5B2F3E561B9FAE7",
-          "repositoryPath": "assets/source/first-edition-dial-textures/resistance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/resistance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/resistance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/resistance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -364,17 +364,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-6A2D3A9EC1D017F9",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-leader.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Resistance/B-SF-17 Bomber/crimson-leader.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-leader.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Resistance/B-SF-17 Bomber/crimson-leader.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-174D9A2F0D6875B9",
-          "repositoryPath": "assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/resistance/bsf17bomber/crimsonleader__pilot-3da13f089413.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

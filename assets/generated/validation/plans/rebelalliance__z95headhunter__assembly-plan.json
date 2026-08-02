@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:34.7459126+00:00",
+  "generatedUtc": "2026-08-02T23:42:16.3042859+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,26 +62,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-3E83009BA5B69BE7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7F53D86DF8B363DA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -89,17 +89,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-FB4D7C1EDA01A074",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/bandit-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-44DD681DD83D483A",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/banditsquadronpilot__pilot-0eb1111c98fa.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -155,26 +155,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-3E83009BA5B69BE7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7F53D86DF8B363DA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -182,17 +182,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-5E30FC0BF7E79520",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/tala-squadron-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F61B349A84402588",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -248,26 +248,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-3E83009BA5B69BE7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7F53D86DF8B363DA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -275,17 +275,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-2B2B0C0DA98D31F8",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/lieutenant-blount.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-2F88CACC9205E018",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/lieutenantblount__pilot-94a1e988d420.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -341,26 +341,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-3E83009BA5B69BE7",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v3.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Z95v3.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7F53D86DF8B363DA",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/z95headhunter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/z95headhunter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -368,17 +368,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-9C86B445F150D1DB",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Z-95 Headhunter/airen-cracken.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-8B802818FCE69FCE",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/airencracken__pilot-5a913de74c65.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

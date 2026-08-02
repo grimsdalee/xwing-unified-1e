@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:26.4444919+00:00",
+  "generatedUtc": "2026-08-02T23:42:09.1483896+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -66,26 +66,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-66F3B9086B6E3AA4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-D6CE03E2E5A73995",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -93,17 +93,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-834D7468D74D9D5C",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/starkiller-base-pilot.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/starkiller-base-pilot.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/starkiller-base-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/starkiller-base-pilot.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-147B144555567A3D",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/starkillerbasepilot__pilot-2303ff614caf.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -163,26 +163,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-66F3B9086B6E3AA4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-D6CE03E2E5A73995",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -190,17 +190,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D010785CEF9DAE18",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/lieutenant-dormitz.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/lieutenant-dormitz.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/lieutenant-dormitz.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/lieutenant-dormitz.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-1D42DE676CAB3B07",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/lieutenantdormitz__pilot-ce8814af4a55.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -260,26 +260,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-66F3B9086B6E3AA4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-D6CE03E2E5A73995",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -287,17 +287,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-D11170895D6711DA",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/major-stridan.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/major-stridan.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/major-stridan.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/major-stridan.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-1DC72C16899532DD",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -357,26 +357,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-66F3B9086B6E3AA4",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/Upsilon_Shuttle.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/Upsilon_Shuttle.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-D6CE03E2E5A73995",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/upsilonclasscommandshuttle/icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/upsilonclassshuttle/icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-03F286F537575D8E",
-          "repositoryPath": "assets/source/first-edition-dial-textures/firstorder_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/firstorder_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/firstorder_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -384,17 +384,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-C50C5D60775E6356",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/kylo-ren.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/First Order/Upsilon-class Shuttle/kylo-ren.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/kylo-ren.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/First Order/Upsilon-class Shuttle/kylo-ren.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-E56255881A7082F1",
-          "repositoryPath": "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/kyloren__pilot-d10c643b9d5f.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"

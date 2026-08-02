@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:34.3105902+00:00",
+  "generatedUtc": "2026-08-02T23:42:15.971255+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -63,26 +63,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-DD59E7DA916E2691",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-76C208C126EB7CE8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
+          "assetId": "AST-82BF33838ECBAA3D",
+          "repositoryPath": "assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -90,17 +90,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-A80C89D061C06A67",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/outer-rim-smuggler.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/outer-rim-smuggler.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/outer-rim-smuggler.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/outer-rim-smuggler.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-C9A5F10CA421F631",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt1300/outerrimsmuggler__pilot-b83a2c097842.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt1300/outerrimsmuggler__pilot-b83a2c097842.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/outerrimsmuggler__pilot-b83a2c097842.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/outerrimsmuggler__pilot-b83a2c097842.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -157,26 +157,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-DD59E7DA916E2691",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-76C208C126EB7CE8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
+          "assetId": "AST-82BF33838ECBAA3D",
+          "repositoryPath": "assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -184,17 +184,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-CBCF21D85F32366F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/chewbacca.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/chewbacca.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/chewbacca.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/chewbacca.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-EA6FF4F3B74DCB99",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/chewbacca__pilot-265eee6a9410.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -251,26 +251,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-DD59E7DA916E2691",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-76C208C126EB7CE8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
+          "assetId": "AST-82BF33838ECBAA3D",
+          "repositoryPath": "assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -278,17 +278,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-5790CF85796F36D7",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/lando-calrissian.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/lando-calrissian.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/lando-calrissian.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/lando-calrissian.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-8C95639A97477D7B",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt1300/landocalrissian__pilot-59737eaa2dab.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt1300/landocalrissian__pilot-59737eaa2dab.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/landocalrissian__pilot-59737eaa2dab.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/landocalrissian__pilot-59737eaa2dab.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -345,26 +345,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-DD59E7DA916E2691",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/yt1300modified.obj",
+          "repositoryPath": "assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
-          "assetId": "AST-76C208C126EB7CE8",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/large/modifiedyt1300lightfreighter/icon.png",
+          "assetId": "AST-82BF33838ECBAA3D",
+          "repositoryPath": "assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -372,17 +372,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-AABC4A72F337056E",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/han-solo.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/YT-1300/han-solo.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/han-solo.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/YT-1300/han-solo.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-B3229B17729026DD",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/yt1300/hansolo__pilot-93894eba60f9.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/yt1300/hansolo__pilot-93894eba60f9.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/hansolo__pilot-93894eba60f9.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/yt1300/hansolo__pilot-93894eba60f9.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

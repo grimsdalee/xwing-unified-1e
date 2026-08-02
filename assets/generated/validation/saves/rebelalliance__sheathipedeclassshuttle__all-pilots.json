@@ -515,7 +515,7 @@
       },
       "Nickname": "AP-5 \u2014 Sheathipede-class Shuttle",
       "Description": "Phase 12B structural prototype\nShip: Sheathipede-class Shuttle\nPilot: AP-5\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022AP-5\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022AP-5\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -600,8 +600,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -653,7 +653,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -698,10 +698,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -770,7 +770,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -1584,7 +1584,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__08124f6a69f3b2a3.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -1615,7 +1615,7 @@
       },
       "Nickname": "\u0022Zeb\u0022 Orrelios \u2014 Sheathipede-class Shuttle",
       "Description": "Phase 12B structural prototype\nShip: Sheathipede-class Shuttle\nPilot: \u0022Zeb\u0022 Orrelios\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022\\u0022Zeb\\u0022 Orrelios\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022\\u0022Zeb\\u0022 Orrelios\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -1700,8 +1700,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -1753,7 +1753,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1798,10 +1798,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1870,7 +1870,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -2684,7 +2684,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__08124f6a69f3b2a3.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -2715,7 +2715,7 @@
       },
       "Nickname": "Ezra Bridger \u2014 Sheathipede-class Shuttle",
       "Description": "Phase 12B structural prototype\nShip: Sheathipede-class Shuttle\nPilot: Ezra Bridger\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Ezra Bridger\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Ezra Bridger\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -2800,8 +2800,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -2853,7 +2853,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2898,10 +2898,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2970,7 +2970,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -3784,7 +3784,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__08124f6a69f3b2a3.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -3815,7 +3815,7 @@
       },
       "Nickname": "Fenn Rau \u2014 Sheathipede-class Shuttle",
       "Description": "Phase 12B structural prototype\nShip: Sheathipede-class Shuttle\nPilot: Fenn Rau\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Fenn Rau\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022rtl3\u0022,\u0022wbl3\u0022,\u0022bs3\u0022,\u0022wbr3\u0022,\u0022rtr3\u0022,\u0022rk3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Coordinate\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022sheathipedeclassshuttle\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Fenn Rau\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -3900,8 +3900,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -3953,7 +3953,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -3998,10 +3998,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -4070,7 +4070,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -4884,7 +4884,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__08124f6a69f3b2a3.png",
         "ImageScalar": 1,
         "WidthScale": 0,

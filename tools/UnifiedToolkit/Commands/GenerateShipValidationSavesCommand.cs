@@ -263,7 +263,7 @@ public static class GenerateShipValidationSavesCommand
                     Exists = File.Exists(fullPath),
                     ResolutionSource = requirement?.ResolutionSource ?? string.Empty,
                     ResolutionMethod = role is "ShipModel" or "ShipTexture"
-                        ? "Validation ships-v2 repository preference"
+                        ? "Validation curated Unified 1E ship repository preference"
                         : requirement?.ResolutionMethod ?? string.Empty
                 });
             }
@@ -327,7 +327,7 @@ public static class GenerateShipValidationSavesCommand
         if (role is "ShipModel" or "ShipTexture")
         {
             const string requiredRoot =
-                "assets/source/unified25/assets/ships-v2/";
+                "assets/source/unified1e/ships/";
 
             return candidates
                 .Where(asset => asset.RepositoryPath.Replace('\\', '/')

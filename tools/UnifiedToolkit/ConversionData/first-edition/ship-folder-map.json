@@ -1,55 +1,222 @@
 {
-  "aggressorassaultfighter": "aggressor",
-  "alphaclassstarwing": "alphaclassstarwing",
-  "arc170starfighter": "arc170",
-  "asf01bwing": "bwing",
-  "attackshuttle": "attackshuttle",
-  "auzituckgunship": "auzituckgunship",
-  "btla4ywing": "ywing",
-  "btls8kwing": "kwing",
-  "croccruiser": "croccruiser",
-  "ewing": "ewing",
-  "fangfighter": "protectoratestarfighter",
-  "firesprayclasspatrolcraft": "firespray31",
-  "g1astarfighter": "g1astarfighter",
-  "gozanticlasscruiser": "gozanticlasscruiser",
-  "gr75mediumtransport": "gr75mediumtransport",
-  "hwk290lightfreighter": "hwk290",
-  "jumpmaster5000": "jumpmaster5000",
-  "kihraxzfighter": "kihraxzfighter",
-  "lambdaclasst4ashuttle": "lambdashuttle",
-  "lancerclasspursuitcraft": "lancerclasspursuitcraft",
-  "m12lkimogilafighter": "m12lkimogilafighter",
-  "m3ainterceptor": "m3ainterceptor",
-  "mg100starfortress": "bsf17bomber",
-  "modifiedyt1300lightfreighter": "yt1300",
-  "quadrijettransferspacetug": "quadjumper",
-  "rz1awing": "awing",
-  "scavengedyt1300lightfreighter": "yt1300",
-  "scurrgh6bomber": "scurrgh6bomber",
-  "sheathipedeclassshuttle": "sheathipedeclassshuttle",
-  "starviperclassattackplatform": "starviper",
-  "t65xwing": "xwing",
-  "t70xwing": "t70xwing",
-  "tieadvancedv1": "tieadvprototype",
-  "tieadvancedx1": "tieadvanced",
-  "tieagaggressor": "tieaggressor",
-  "tiecapunisher": "tiepunisher",
-  "tiededefender": "tiedefender",
-  "tiefofighter": "tiefofighter",
-  "tieininterceptor": "tieinterceptor",
-  "tielnfighter": "tiefighter",
-  "tiephphantom": "tiephantom",
-  "tierereaper": "tiereaper",
-  "tiesabomber": "tiebomber",
-  "tiesffighter": "tiesffighter",
-  "tieskstriker": "tiestriker",
-  "tievnsilencer": "tiesilencer",
-  "upsilonclasscommandshuttle": "upsilonclassshuttle",
-  "ut60duwing": "uwing",
-  "vcx100lightfreighter": "vcx100",
-  "vt49decimator": "vt49decimator",
-  "yt2400lightfreighter": "yt2400",
-  "yv666lightfreighter": "yv666",
-  "z95af4headhunter": "z95headhunter"
+  "aggressorassaultfighter": {
+    "folder": "aggressor",
+    "baseSize": "large"
+  },
+  "alphaclassstarwing": {
+    "folder": "alphaclassstarwing",
+    "baseSize": "small"
+  },
+  "arc170starfighter": {
+    "folder": "arc170",
+    "baseSize": "small"
+  },
+  "asf01bwing": {
+    "folder": "bwing",
+    "baseSize": "small"
+  },
+  "attackshuttle": {
+    "folder": "attackshuttle",
+    "baseSize": "small"
+  },
+  "auzituckgunship": {
+    "folder": "auzituckgunship",
+    "baseSize": "small"
+  },
+  "btla4ywing": {
+    "folder": "ywing",
+    "baseSize": "small"
+  },
+  "btls8kwing": {
+    "folder": "kwing",
+    "baseSize": "small"
+  },
+  "croccruiser": {
+    "folder": "croccruiser",
+    "baseSize": "epic"
+  },
+  "ewing": {
+    "folder": "ewing",
+    "baseSize": "small"
+  },
+  "fangfighter": {
+    "folder": "protectoratestarfighter",
+    "baseSize": "small"
+  },
+  "firesprayclasspatrolcraft": {
+    "folder": "firespray31",
+    "baseSize": "large"
+  },
+  "g1astarfighter": {
+    "folder": "g1astarfighter",
+    "baseSize": "small"
+  },
+  "gozanticlasscruiser": {
+    "folder": "gozanticlasscruiser",
+    "baseSize": "epic"
+  },
+  "gr75mediumtransport": {
+    "folder": "gr75mediumtransport",
+    "baseSize": "epic"
+  },
+  "hwk290lightfreighter": {
+    "folder": "hwk290",
+    "baseSize": "small"
+  },
+  "jumpmaster5000": {
+    "folder": "jumpmaster5000",
+    "baseSize": "large"
+  },
+  "kihraxzfighter": {
+    "folder": "kihraxzfighter",
+    "baseSize": "small"
+  },
+  "lambdaclasst4ashuttle": {
+    "folder": "lambdashuttle",
+    "baseSize": "large"
+  },
+  "lancerclasspursuitcraft": {
+    "folder": "lancerclasspursuitcraft",
+    "baseSize": "large"
+  },
+  "m12lkimogilafighter": {
+    "folder": "m12lkimogilafighter",
+    "baseSize": "small"
+  },
+  "m3ainterceptor": {
+    "folder": "m3ainterceptor",
+    "baseSize": "small"
+  },
+  "mg100starfortress": {
+    "folder": "bsf17bomber",
+    "baseSize": "large"
+  },
+  "modifiedyt1300lightfreighter": {
+    "folder": "yt1300",
+    "baseSize": "large"
+  },
+  "quadrijettransferspacetug": {
+    "folder": "quadjumper",
+    "baseSize": "small"
+  },
+  "rz1awing": {
+    "folder": "awing",
+    "baseSize": "small"
+  },
+  "scavengedyt1300lightfreighter": {
+    "folder": "scavengedyt1300",
+    "baseSize": "large"
+  },
+  "scurrgh6bomber": {
+    "folder": "scurrgh6bomber",
+    "baseSize": "small"
+  },
+  "sheathipedeclassshuttle": {
+    "folder": "sheathipedeclassshuttle",
+    "baseSize": "small"
+  },
+  "starviperclassattackplatform": {
+    "folder": "starviper",
+    "baseSize": "small"
+  },
+  "t65xwing": {
+    "folder": "xwing",
+    "baseSize": "small"
+  },
+  "t70xwing": {
+    "folder": "t70xwing",
+    "baseSize": "small"
+  },
+  "tieadvancedv1": {
+    "folder": "tieadvprototype",
+    "baseSize": "small"
+  },
+  "tieadvancedx1": {
+    "folder": "tieadvanced",
+    "baseSize": "small"
+  },
+  "tieagaggressor": {
+    "folder": "tieaggressor",
+    "baseSize": "small"
+  },
+  "tiecapunisher": {
+    "folder": "tiepunisher",
+    "baseSize": "small"
+  },
+  "tiededefender": {
+    "folder": "tiedefender",
+    "baseSize": "small"
+  },
+  "tiefofighter": {
+    "folder": "tiefofighter",
+    "baseSize": "small"
+  },
+  "tieininterceptor": {
+    "folder": "tieinterceptor",
+    "baseSize": "small"
+  },
+  "tielnfighter": {
+    "folder": "tiefighter",
+    "baseSize": "small"
+  },
+  "tiephphantom": {
+    "folder": "tiephantom",
+    "baseSize": "small"
+  },
+  "tierereaper": {
+    "folder": "tiereaper",
+    "baseSize": "small"
+  },
+  "tiesabomber": {
+    "folder": "tiebomber",
+    "baseSize": "small"
+  },
+  "tiesffighter": {
+    "folder": "tiesffighter",
+    "baseSize": "small"
+  },
+  "tieskstriker": {
+    "folder": "tiestriker",
+    "baseSize": "small"
+  },
+  "tievnsilencer": {
+    "folder": "tiesilencer",
+    "baseSize": "small"
+  },
+  "upsilonclasscommandshuttle": {
+    "folder": "upsilonclassshuttle",
+    "baseSize": "large"
+  },
+  "ut60duwing": {
+    "folder": "uwing",
+    "baseSize": "large"
+  },
+  "vcx100lightfreighter": {
+    "folder": "vcx100",
+    "baseSize": "large"
+  },
+  "vt49decimator": {
+    "folder": "vt49decimator",
+    "baseSize": "large"
+  },
+  "yt2400lightfreighter": {
+    "folder": "yt2400",
+    "baseSize": "large"
+  },
+  "yv666lightfreighter": {
+    "folder": "yv666",
+    "baseSize": "large"
+  },
+  "z95af4headhunter": {
+    "folder": "z95headhunter",
+    "baseSize": "small"
+  },
+  "cr90corelliancorvette": {
+    "folder": "cr90corvette",
+    "baseSize": "epic"
+  },
+  "raiderclasscorvette": {
+    "folder": "raiderclasscorvette",
+    "baseSize": "epic"
+  }
 }

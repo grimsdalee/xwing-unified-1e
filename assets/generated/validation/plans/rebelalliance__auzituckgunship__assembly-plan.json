@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:31.7254867+00:00",
+  "generatedUtc": "2026-08-02T23:42:13.7561033+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -62,26 +62,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEB0F02011DC9F0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-A46ACA8256843797",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -89,17 +89,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-80F5F2FEBA7E07C0",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/kashyyyk-defender.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/kashyyyk-defender.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/kashyyyk-defender.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/kashyyyk-defender.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F2EFDCB9C3D21FCD",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/kashyyykdefender__pilot-7e5aeebc41d6.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -155,26 +155,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEB0F02011DC9F0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-A46ACA8256843797",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -182,17 +182,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-1A2535ECA73DB73F",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wookiee-liberator.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wookiee-liberator.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/wookiee-liberator.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/wookiee-liberator.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-DDC9DADBDD49DBE1",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wookieeliberator__pilot-8e4fdca88e8e.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -248,26 +248,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEB0F02011DC9F0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-A46ACA8256843797",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -275,17 +275,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-F3765277BD9A5AFD",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/lowhhrick.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/lowhhrick.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/lowhhrick.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/lowhhrick.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-EF641B83A2863A62",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -341,26 +341,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-4CEB0F02011DC9F0",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/auzituck.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/auzituck.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-A46ACA8256843797",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/auzituckgunship/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/auzituckgunship/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -368,17 +368,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-7D2663F791A48926",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wullffwarro.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Auzituck Gunship/wullffwarro.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/wullffwarro.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Auzituck Gunship/wullffwarro.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-F2B13532126B1B2E",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

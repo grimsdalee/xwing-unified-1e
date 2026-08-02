@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:32.8583242+00:00",
+  "generatedUtc": "2026-08-02T23:42:14.8206235+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -65,26 +65,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-0B8FAA8B6815F1FE",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-FBEF5DD1EB8E9098",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -92,17 +92,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-3A49CA82CEAB5DD5",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ap-5.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-8D0D2B668979F912",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -161,26 +161,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-0B8FAA8B6815F1FE",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-FBEF5DD1EB8E9098",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -188,17 +188,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-8E561CC0C1EFB831",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/zeb-orrelios.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-BD6AB90CCDF81045",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/zeborrelios__pilot-6252cb094efa.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -257,26 +257,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-0B8FAA8B6815F1FE",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-FBEF5DD1EB8E9098",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -284,17 +284,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-6874BD9F431B4AB7",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/ezra-bridger.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-1E89A5988C947E9C",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ezrabridger__pilot-a1fb4cd13d43.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -353,26 +353,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-0B8FAA8B6815F1FE",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/sheathipede2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-FBEF5DD1EB8E9098",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/sheathipedeclassshuttle/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-BEB675A04A9CC1BE",
-          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/rebelalliance_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -380,17 +380,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-67826AA953D5F1C8",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Rebel Alliance/Sheathipede-class Shuttle/fenn-rau.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-2F3684BFDC718BA5",
-          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/fennrau__pilot-6736e13c64b7.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

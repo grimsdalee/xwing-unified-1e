@@ -515,7 +515,7 @@
       },
       "Nickname": "Shadowport Hunter \u2014 Lancer-class Pursuit Craft",
       "Description": "Phase 12B structural prototype\nShip: Lancer-class Pursuit Craft\nPilot: Shadowport Hunter\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Shadowport Hunter\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Shadowport Hunter\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -603,8 +603,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/shadowporthunter__pilot-8a9e83fbee45.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/shadowporthunter__pilot-8a9e83fbee45.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/shadowporthunter__pilot-8a9e83fbee45.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/shadowporthunter__pilot-8a9e83fbee45.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -656,7 +656,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -701,10 +701,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -773,7 +773,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -1587,7 +1587,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Scum and Villainy/Lancer-class Pursuit Craft/shadowport-hunter.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Scum and Villainy/Lancer-class Pursuit Craft/shadowport-hunter.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__54724d9056f5f36a.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -1618,7 +1618,7 @@
       },
       "Nickname": "Sabine Wren \u2014 Lancer-class Pursuit Craft",
       "Description": "Phase 12B structural prototype\nShip: Lancer-class Pursuit Craft\nPilot: Sabine Wren\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Sabine Wren\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Sabine Wren\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -1706,8 +1706,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/sabinewren__pilot-cd598bb7c3bd.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/sabinewren__pilot-cd598bb7c3bd.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/sabinewren__pilot-cd598bb7c3bd.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/sabinewren__pilot-cd598bb7c3bd.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -1759,7 +1759,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1804,10 +1804,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1876,7 +1876,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -2690,7 +2690,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Scum and Villainy/Lancer-class Pursuit Craft/sabine-wren.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Scum and Villainy/Lancer-class Pursuit Craft/sabine-wren.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__54724d9056f5f36a.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -2721,7 +2721,7 @@
       },
       "Nickname": "Asajj Ventress \u2014 Lancer-class Pursuit Craft",
       "Description": "Phase 12B structural prototype\nShip: Lancer-class Pursuit Craft\nPilot: Asajj Ventress\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Asajj Ventress\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Asajj Ventress\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -2809,8 +2809,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/asajjventress__pilot-e73eef28dbc2.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/asajjventress__pilot-e73eef28dbc2.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/asajjventress__pilot-e73eef28dbc2.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/asajjventress__pilot-e73eef28dbc2.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -2862,7 +2862,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2907,10 +2907,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2979,7 +2979,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -3793,7 +3793,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Scum and Villainy/Lancer-class Pursuit Craft/asajj-ventress.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Scum and Villainy/Lancer-class Pursuit Craft/asajj-ventress.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__54724d9056f5f36a.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -3824,7 +3824,7 @@
       },
       "Nickname": "Ketsu Onyo \u2014 Lancer-class Pursuit Craft",
       "Description": "Phase 12B structural prototype\nShip: Lancer-class Pursuit Craft\nPilot: Ketsu Onyo\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Ketsu Onyo\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022E\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022ws1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022btl3\u0022,\u0022bbl3\u0022,\u0022bs3\u0022,\u0022bbr3\u0022,\u0022btr3\u0022,\u0022bs4\u0022,\u0022ws5\u0022,\u0022rk5\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Rotate Arc\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022lancerclasspursuitcraft\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Ketsu Onyo\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -3912,8 +3912,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -3965,7 +3965,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/large.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -4010,10 +4010,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/lancer.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/large/lancerclasspursuitcraft/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/lancer.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/lancerclasspursuitcraft/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -4082,7 +4082,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -4896,7 +4896,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Scum and Villainy/Lancer-class Pursuit Craft/ketsu-onyo.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Scum and Villainy/Lancer-class Pursuit Craft/ketsu-onyo.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__54724d9056f5f36a.png",
         "ImageScalar": 1,
         "WidthScale": 0,

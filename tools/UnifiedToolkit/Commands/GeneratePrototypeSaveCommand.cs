@@ -290,24 +290,6 @@ public static class GeneratePrototypeSaveCommand
         var pilotCard = RequireAsset(assembly, "PilotCard");
         var dialTexture = RequireAsset(assembly, "DialTexture");
 
-        model = CorrectKnownPrototypeShipModel(
-            repositoryRoot,
-            assembly,
-            model,
-            diagnostics);
-
-        model = CorrectXWingMultipartModel(
-            repositoryRoot,
-            assembly,
-            model,
-            diagnostics);
-
-        model = CorrectMisclassifiedBwingModel(
-            repositoryRoot,
-            assembly,
-            model,
-            diagnostics);
-
         if (!pegIndex.TryGetValue(
                 assembly.PegTemplateKey,
                 out var pegTemplate))
@@ -315,13 +297,6 @@ public static class GeneratePrototypeSaveCommand
             throw new InvalidDataException(
                 $"Peg template '{assembly.PegTemplateKey}' is missing.");
         }
-
-        texture = CorrectPrototypeShipTexture(
-            repositoryRoot,
-            assembly,
-            model,
-            texture,
-            diagnostics);
 
         ValidateShipAssetPolicy(assembly, model, "ShipModel");
         ValidateShipAssetPolicy(assembly, texture, "ShipTexture");
@@ -735,26 +710,26 @@ public static class GeneratePrototypeSaveCommand
         if (assembly.ShipId.Equals("t70xwing", StringComparison.OrdinalIgnoreCase))
         {
             openPath =
-                "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_openv2.obj";
+                "assets/source/unified1e/ships/small/t70xwing/t70_openv2.obj";
             closedPath =
-                "assets/source/unified25/assets/ships-v2/small/t70xwing/t70_closedv2.obj";
+                "assets/source/unified1e/ships/small/t70xwing/t70_closedv2.obj";
         }
         else if (assembly.ShipId.Equals("xwing", StringComparison.OrdinalIgnoreCase)
             || assembly.ShipId.Equals("t65xwing", StringComparison.OrdinalIgnoreCase))
         {
             openPath =
-                "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingopenv3.obj";
+                "assets/source/unified1e/ships/small/xwing/xwingopenv3.obj";
             closedPath =
-                "assets/source/unified25/assets/ships-v2/small/t65xwing/xwingclosedv3.obj";
+                "assets/source/unified1e/ships/small/xwing/xwingclosedv3.obj";
         }
         else if (assembly.PegTemplateKey.Equals(
                      "FirstEditionBwingShipPeg",
                      StringComparison.OrdinalIgnoreCase))
         {
             openPath =
-                "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-open.obj";
+                "assets/source/unified1e/ships/small/bwing/bwing-open.obj";
             closedPath =
-                "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-closed.obj";
+                "assets/source/unified1e/ships/small/bwing/bwing-closed.obj";
         }
         else if (assembly.ShipId.Equals(
                      "uwing",
@@ -764,9 +739,9 @@ public static class GeneratePrototypeSaveCommand
                      StringComparison.OrdinalIgnoreCase))
         {
             openPath =
-                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingOpen.obj";
+                "assets/source/unified1e/ships/large/uwing/UwingOpen.obj";
             closedPath =
-                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingClose.obj";
+                "assets/source/unified1e/ships/large/uwing/UwingClose.obj";
         }
 
         if (openPath is null || closedPath is null)
@@ -779,14 +754,16 @@ public static class GeneratePrototypeSaveCommand
             AssetUrl(assetBaseUrl, openPath),
             textureUrl,
             visible: !isUwing,
-            configurationState: 1));
+            configurationState: 1,
+            assetBaseUrl));
 
         childObjects.Add(BuildConfigChild(
             closedGuid,
             AssetUrl(assetBaseUrl, closedPath),
             textureUrl,
             visible: isUwing,
-            configurationState: 2));
+            configurationState: 2,
+            assetBaseUrl));
     }
 
     private static JsonObject BuildConfigChild(
@@ -794,7 +771,8 @@ public static class GeneratePrototypeSaveCommand
         string modelUrl,
         string textureUrl,
         bool visible,
-        int configurationState)
+        int configurationState,
+        string assetBaseUrl)
     {
         var scale = visible ? 1.0 : 0.000158982511;
 
@@ -837,7 +815,7 @@ public static class GeneratePrototypeSaveCommand
                 ["DiffuseURL"] = textureUrl,
                 ["NormalURL"] = string.Empty,
                 ["ColliderURL"] =
-                    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Small_base_Collider.obj",
+                    AssetUrl(assetBaseUrl, "assets/source/unified1e/runtime/colliders/Small_base_Collider.obj"),
                 ["Convex"] = true,
                 ["MaterialIndex"] = 1,
                 ["TypeIndex"] = 1,
@@ -964,9 +942,8 @@ public static class GeneratePrototypeSaveCommand
             ["CustomMesh"] = new JsonObject
             {
                 ["MeshURL"] =
-                    "https://raw.githubusercontent.com/JohnnyCheese/" +
-                    "TTS_X-Wing2.0/master/assets/Items/tokens/flip/" +
-                    "flipToken.obj",
+                    "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/" +
+                    "assets/source/unified1e/runtime/tokens/flipToken.obj",
                 ["DiffuseURL"] =
                     "http://nnxwing.com/Content/TTS/Config/UWing.png",
                 ["NormalURL"] = string.Empty,
@@ -1037,29 +1014,6 @@ public static class GeneratePrototypeSaveCommand
             ["LuaScriptState"] = string.Empty,
             ["XmlUI"] = string.Empty
         };
-    }
-
-    private static string ResolveNeutralBaseTexture(
-        PrototypeAssemblyInput assembly,
-        string assetBaseUrl)
-    {
-        var factionFile = assembly.Faction.ToLowerInvariant() switch
-        {
-            "galacticempire" => "empire.png",
-            "firstorder" => "firstorder.png",
-            "scumandvillainy" => "scum.png",
-            _ => "rebel.png"
-        };
-
-        var baseFolder = assembly.BaseSize.Equals(
-            "large",
-            StringComparison.OrdinalIgnoreCase)
-            ? "large"
-            : "small";
-
-        return
-            "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/" +
-            $"assets/ships-v2/bases/{baseFolder}/front/{factionFile}";
     }
 
     private static string ResolvePilotCardBackUrl(
@@ -1151,7 +1105,8 @@ public static class GeneratePrototypeSaveCommand
                 ["DiffuseURL"] = string.Empty,
                 ["NormalURL"] = string.Empty,
                 ["ColliderURL"] =
-                    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/minisculebox.obj",
+                    "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/" +
+                    "assets/source/unified1e/support/models/minisculebox.obj",
                 ["Convex"] = true,
                 ["MaterialIndex"] = 1,
                 ["TypeIndex"] = 1,
@@ -1211,7 +1166,8 @@ public static class GeneratePrototypeSaveCommand
                 ["DiffuseURL"] = textureUrl,
                 ["NormalURL"] = string.Empty,
                 ["ColliderURL"] =
-                    "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/models/minisculebox.obj",
+                    "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/" +
+                    "assets/source/unified1e/support/models/minisculebox.obj",
                 ["Convex"] = true,
                 ["MaterialIndex"] = 1,
                 ["TypeIndex"] = 1,
@@ -1547,8 +1503,8 @@ public static class GeneratePrototypeSaveCommand
                 RelativePath = NormalisePath(
                     Path.GetRelativePath(repositoryRoot, file.FullName))
             })
-            .Where(item => item.RelativePath.Contains(
-                "/assets/ships-v2/",
+            .Where(item => item.RelativePath.StartsWith(
+                "assets/source/unified1e/ships/",
                 StringComparison.OrdinalIgnoreCase))
             .OrderBy(item => item.RelativePath, StringComparer.OrdinalIgnoreCase)
             .Select(item => AssetUrl(assetBaseUrl, item.RelativePath))
@@ -2037,39 +1993,6 @@ public static class GeneratePrototypeSaveCommand
         };
     }
 
-    private static PrototypeAssetInput UseKnownTexture(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput current,
-        string relativePath,
-        string sourceDescription,
-        ICollection<string> diagnostics)
-    {
-        var fullPath = Path.Combine(
-            repositoryRoot,
-            relativePath.Replace('/', Path.DirectorySeparatorChar));
-        ValidateFile(fullPath, $"{assembly.ShipName} reference texture");
-
-        if (!current.RepositoryPath.Equals(
-                relativePath,
-                StringComparison.OrdinalIgnoreCase))
-        {
-            diagnostics.Add(
-                $"{assembly.ShipName} ShipTexture corrected using " +
-                $"{sourceDescription}: {current.RepositoryPath} -> " +
-                $"{relativePath}");
-        }
-
-        return new PrototypeAssetInput
-        {
-            Role = current.Role,
-            AssetId = current.AssetId,
-            RepositoryPath = relativePath,
-            FullPath = fullPath,
-            Exists = true
-        };
-    }
-
     private static string PublishFactionDialBack(
         string repositoryRoot,
         string assetBaseUrl,
@@ -2208,14 +2131,24 @@ public static class GeneratePrototypeSaveCommand
         string role)
     {
         const string requiredRoot =
-            "assets/source/unified25/assets/ships-v2/";
+            "assets/source/unified1e/ships/";
         var path = asset.RepositoryPath.Replace('\\', '/');
 
-        if (!path.StartsWith(requiredRoot, StringComparison.OrdinalIgnoreCase))
+        if (!path.StartsWith(
+                requiredRoot,
+                StringComparison.OrdinalIgnoreCase))
         {
             throw new InvalidDataException(
                 $"{assembly.PilotName} {role} must resolve under " +
                 $"'{requiredRoot}', but resolved to '{asset.RepositoryPath}'.");
+        }
+
+        if (!asset.Exists || !File.Exists(asset.FullPath))
+        {
+            throw new FileNotFoundException(
+                $"{assembly.PilotName} {role} does not exist at the " +
+                $"resolved curated path.",
+                asset.FullPath);
         }
 
         if (path.Contains(
@@ -2225,486 +2158,6 @@ public static class GeneratePrototypeSaveCommand
             throw new InvalidDataException(
                 $"{assembly.PilotName} {role} resolved to a prohibited " +
                 "generated PrototypeShipTexture asset.");
-        }
-    }
-
-    private static PrototypeAssetInput CorrectKnownPrototypeShipModel(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput model,
-        ICollection<string> diagnostics)
-    {
-        string? relative = null;
-        string? obsoleteRelative = null;
-        IReadOnlyList<string>? additionalObsoleteRelatives = null;
-
-        if (assembly.ShipId.Equals(
-                "arc170",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/medium/" +
-                "arc170starfighter/arc.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "awing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "rz1awing/rz1awing.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "alphaclassstarwing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "alphaclassstarwing/Alpha Class2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "firespray31",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/medium/" +
-                "firesprayclasspatrolcraft/firesprayV2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "jumpmaster5000",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "jumpmaster5000/jm2k.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "jumpmaster5000/jumpmaster.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "protectoratestarfighter",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "fangfighter/ship-base.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "starviper",
-                StringComparison.OrdinalIgnoreCase)
-            || assembly.ShipId.Equals(
-                "starviperclassattackplatform",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "starviperclassattackplatform/starviper2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "starviperclassattackplatform/starviper.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "yv666",
-                StringComparison.OrdinalIgnoreCase)
-            || assembly.ShipId.Equals(
-                "yv666lightfreighter",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "yv666lightfreighter/yv666v2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "yv666lightfreighter/yv666.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "tieadvanced",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tieadvancedx1/tieadvancedx1v2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "tieaggressor",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tieagaggressor/tieagaggressor.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "tieadvprototype",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tieadvancedv1/tieadvv1v2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "hwk290",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "hwk290lightfreighter/hwkv2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "tiefofighter",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tiefofighter/TieFOv2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "tiesffighter",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tiesffighter/TieSFv2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tiesffighter/TieSF.obj";
-            additionalObsoleteRelatives = new[]
-            {
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tiesffighter/Tie_SF.obj"
-            };
-        }
-        else if (assembly.ShipId.Equals(
-                "tiesilencer",
-                StringComparison.OrdinalIgnoreCase)
-            || assembly.ShipId.Equals(
-                "tievnsilencer",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tievnsilencer/Tie_VN2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "tievnsilencer/Tie_VN.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                "t70xwing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/t70_basev2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/t70_base.obj";
-            additionalObsoleteRelatives = new[]
-            {
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/t70_open.obj",
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "t70xwing/t70_closed.obj"
-            };
-        }
-        else if (assembly.ShipId.Equals(
-                "kwing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/medium/" +
-                "btls8kwing/kwing.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                     "sheathipedeclassshuttle",
-                     StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "sheathipedeclassshuttle/sheathipede2.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                     "ywing",
-                     StringComparison.OrdinalIgnoreCase)
-                 && (assembly.Faction.Equals(
-                         "rebelalliance",
-                         StringComparison.OrdinalIgnoreCase)
-                     || assembly.Faction.Equals(
-                         "scumandvillainy",
-                         StringComparison.OrdinalIgnoreCase)))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "btla4ywing/btla4_ywingv2.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "btla4ywing/btla4_ywing.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                     "z95headhunter",
-                     StringComparison.OrdinalIgnoreCase)
-                 || assembly.ShipId.Equals(
-                     "z95af4headhunter",
-                     StringComparison.OrdinalIgnoreCase)
-                 || assembly.ShipId.Equals(
-                     "z95",
-                     StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/small/" +
-                "z95af4headhunter/Z95v3.obj";
-
-            RecordShipModelSelectionAudit(
-                repositoryRoot,
-                assembly,
-                "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95.obj",
-                relative,
-                "Unified 2.5 spawned validation save confirms Z95v3.obj is the production mesh.",
-                "Obsolete");
-
-            RecordShipModelSelectionAudit(
-                repositoryRoot,
-                assembly,
-                "assets/source/unified25/assets/ships-v2/small/z95af4headhunter/Z95v2.obj",
-                relative,
-                "Unified 2.5 spawned validation save confirms Z95v3.obj is the production mesh.",
-                "Obsolete");
-        }
-
-        else if (assembly.ShipId.Equals(
-                     "yt1300",
-                     StringComparison.OrdinalIgnoreCase)
-                 && assembly.Faction.Equals(
-                     "rebelalliance",
-                     StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "modifiedyt1300lightfreighter/yt1300modified.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "modifiedyt1300lightfreighter/rebel_falcon.obj";
-        }
-        else if (assembly.ShipId.Equals(
-                     "yt1300",
-                     StringComparison.OrdinalIgnoreCase)
-                 && assembly.Faction.Equals(
-                     "resistance",
-                     StringComparison.OrdinalIgnoreCase))
-        {
-            relative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "scavengedyt1300lightfreighter/yt1300scavenged.obj";
-            obsoleteRelative =
-                "assets/source/unified25/assets/ships-v2/large/" +
-                "scavengedyt1300lightfreighter/scavengedyt1300.obj";
-        }
-
-        if (relative is null)
-            return model;
-
-        var fullPath = Path.Combine(
-            repositoryRoot,
-            relative.Replace('/', Path.DirectorySeparatorChar));
-        ValidateFile(fullPath, $"{assembly.ShipName} reference model");
-
-        if (!string.IsNullOrWhiteSpace(obsoleteRelative))
-        {
-            // Obsolete models may have been moved into the repository quarantine
-            // by the maintenance workflow. Their absence must not prevent future
-            // validation-save generation.
-            RecordShipModelSelectionAudit(
-                repositoryRoot,
-                assembly,
-                obsoleteRelative,
-                relative,
-                "Unified 2.5 masterShipDB confirms the selected production OBJ; " +
-                "the alternate OBJ in the same ship folder is unused and retained only for later cleanup review.",
-                "Obsolete");
-        }
-
-        if (additionalObsoleteRelatives is not null)
-        {
-            foreach (var additionalObsoleteRelative in additionalObsoleteRelatives)
-            {
-                // Obsolete multipart models may already be quarantined.
-                RecordShipModelSelectionAudit(
-                    repositoryRoot,
-                    assembly,
-                    additionalObsoleteRelative,
-                    relative,
-                    "Unified 2.5 spawned-ship save confirms the selected v2 multipart production OBJ set; " +
-                    "the matching v1 multipart OBJ is unused and retained only for later cleanup review.",
-                    "Obsolete");
-            }
-        }
-
-        if (!model.RepositoryPath.Equals(
-                relative,
-                StringComparison.OrdinalIgnoreCase))
-        {
-            diagnostics.Add(
-                $"{assembly.ShipName} ShipModel corrected from confirmed Unified 2.5 object: " +
-                $"{model.RepositoryPath} -> {relative}");
-
-            RecordShipModelSelectionAudit(
-                repositoryRoot,
-                assembly,
-                model.RepositoryPath,
-                relative,
-                "Confirmed by comparing the generated validation save with a working Unified 2.5 spawned-ship save.",
-                "CleanupCandidate");
-        }
-
-        return new PrototypeAssetInput
-        {
-            Role = model.Role,
-            AssetId = model.AssetId,
-            RepositoryPath = relative,
-            FullPath = fullPath,
-            Exists = true
-        };
-    }
-
-    private static void RecordShipModelSelectionAudit(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        string rejectedModelPath,
-        string selectedModelPath,
-        string evidence,
-        string cleanupStatus)
-    {
-        if (rejectedModelPath.Equals(
-                selectedModelPath,
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return;
-        }
-
-        var reportFolder = Path.Combine(
-            repositoryRoot,
-            "_unifiedtoolkit_reports",
-            "model-selection");
-        Directory.CreateDirectory(reportFolder);
-
-        var jsonPath = Path.Combine(
-            reportFolder,
-            "ship-model-selection-audit.json");
-        var csvPath = Path.Combine(
-            reportFolder,
-            "ship-model-selection-audit.csv");
-        var markdownPath = Path.Combine(
-            reportFolder,
-            "SHIP-MODEL-SELECTION-AUDIT.md");
-
-        var entries = File.Exists(jsonPath)
-            ? JsonSerializer.Deserialize<List<ShipModelSelectionAuditEntry>>(
-                  File.ReadAllText(jsonPath),
-                  JsonOptions)
-              ?? new List<ShipModelSelectionAuditEntry>()
-            : new List<ShipModelSelectionAuditEntry>();
-
-        var existingIndex = entries.FindIndex(entry =>
-            entry.Faction.Equals(
-                assembly.Faction,
-                StringComparison.OrdinalIgnoreCase)
-            && entry.ShipId.Equals(
-                assembly.ShipId,
-                StringComparison.OrdinalIgnoreCase)
-            && entry.RejectedModelPath.Equals(
-                rejectedModelPath,
-                StringComparison.OrdinalIgnoreCase)
-            && entry.SelectedModelPath.Equals(
-                selectedModelPath,
-                StringComparison.OrdinalIgnoreCase));
-
-        var entry = new ShipModelSelectionAuditEntry
-        {
-            Faction = assembly.Faction,
-            ShipId = assembly.ShipId,
-            ShipName = assembly.ShipName,
-            RejectedModelPath = NormalisePath(rejectedModelPath),
-            SelectedModelPath = NormalisePath(selectedModelPath),
-            Evidence = evidence,
-            CleanupStatus = cleanupStatus,
-            LastConfirmedUtc = DateTimeOffset.UtcNow
-        };
-
-        if (existingIndex >= 0)
-            entries[existingIndex] = entry;
-        else
-            entries.Add(entry);
-
-        entries = entries
-            .OrderBy(item => item.Faction, StringComparer.OrdinalIgnoreCase)
-            .ThenBy(item => item.ShipName, StringComparer.OrdinalIgnoreCase)
-            .ThenBy(item => item.RejectedModelPath, StringComparer.OrdinalIgnoreCase)
-            .ToList();
-
-        File.WriteAllText(
-            jsonPath,
-            JsonSerializer.Serialize(entries, JsonOptions),
-            new UTF8Encoding(false));
-
-        using (var writer = new StreamWriter(
-                   csvPath,
-                   append: false,
-                   new UTF8Encoding(false)))
-        {
-            writer.WriteLine(
-                "Faction,ShipId,ShipName,RejectedModelPath,SelectedModelPath," +
-                "Evidence,CleanupStatus,LastConfirmedUtc");
-
-            foreach (var item in entries)
-            {
-                writer.WriteLine(string.Join(
-                    ",",
-                    CsvValue(item.Faction),
-                    CsvValue(item.ShipId),
-                    CsvValue(item.ShipName),
-                    CsvValue(item.RejectedModelPath),
-                    CsvValue(item.SelectedModelPath),
-                    CsvValue(item.Evidence),
-                    CsvValue(item.CleanupStatus),
-                    CsvValue(item.LastConfirmedUtc.ToString("O"))));
-            }
-        }
-
-        using (var writer = new StreamWriter(
-                   markdownPath,
-                   append: false,
-                   new UTF8Encoding(false)))
-        {
-            writer.WriteLine("# Ship Model Selection Audit");
-            writer.WriteLine();
-            writer.WriteLine(
-                "This report records model links rejected during visual validation " +
-                "and the confirmed OBJ selected instead.");
-            writer.WriteLine();
-            writer.WriteLine(
-                "> Files are never deleted automatically. Review all references, " +
-                "states, variants and duplicate-content records before cleanup.");
-            writer.WriteLine();
-            writer.WriteLine("| Faction | Ship | Rejected OBJ | Confirmed OBJ | Status |");
-            writer.WriteLine("|---|---|---|---|---|");
-
-            foreach (var item in entries)
-            {
-                writer.WriteLine(
-                    $"| {MarkdownCell(item.Faction)} " +
-                    $"| {MarkdownCell(item.ShipName)} " +
-                    $"| `{MarkdownCell(item.RejectedModelPath)}` " +
-                    $"| `{MarkdownCell(item.SelectedModelPath)}` " +
-                    $"| {MarkdownCell(item.CleanupStatus)} |");
-            }
-
-            writer.WriteLine();
-            writer.WriteLine("## Evidence");
-            writer.WriteLine();
-
-            foreach (var item in entries)
-            {
-                writer.WriteLine(
-                    $"- **{item.Faction} / {item.ShipName}:** {item.Evidence}");
-            }
         }
     }
 
@@ -3375,260 +2828,11 @@ public static class GeneratePrototypeSaveCommand
         return selected;
     }
 
-    private static PrototypeAssetInput CorrectPrototypeShipTexture(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput model,
-        PrototypeAssetInput linkedTexture,
-        ICollection<string> diagnostics)
-    {
-        var modelPath = Path.GetFullPath(model.FullPath);
-        var shipFolder = Path.GetDirectoryName(modelPath)
-            ?? throw new InvalidDataException(
-                $"{assembly.ShipName} model has no parent folder: {modelPath}");
-
-        var texturesFolder = ResolveChildDirectoryCaseInsensitive(
-            shipFolder,
-            "Textures");
-
-        if (texturesFolder is null)
-        {
-            throw new InvalidDataException(
-                $"{assembly.ShipName} model folder has no sibling texture directory " +
-                $"named Textures or textures beneath: " +
-                NormalisePath(Path.GetRelativePath(repositoryRoot, shipFolder)));
-        }
-
-        var supportedExtensions = new HashSet<string>(
-            new[] { ".jpg", ".jpeg", ".png", ".webp" },
-            StringComparer.OrdinalIgnoreCase);
-
-        var rootTextures = Directory
-            .EnumerateFiles(texturesFolder, "*", SearchOption.TopDirectoryOnly)
-            .Where(path => supportedExtensions.Contains(Path.GetExtension(path)))
-            .OrderBy(path => Path.GetFileName(path), StringComparer.OrdinalIgnoreCase)
-            .ToList();
-
-        if (rootTextures.Count == 0)
-        {
-            throw new InvalidDataException(
-                $"{assembly.ShipName} has no root-level texture images in: " +
-                NormalisePath(Path.GetRelativePath(repositoryRoot, texturesFolder)));
-        }
-
-        var preferredStandardJpeg = rootTextures.FirstOrDefault(path =>
-            Path.GetFileName(path).Equals(
-                "standard.jpg",
-                StringComparison.OrdinalIgnoreCase));
-
-        var alternateStandard = rootTextures.FirstOrDefault(path =>
-            Path.GetFileNameWithoutExtension(path).Equals(
-                "standard",
-                StringComparison.OrdinalIgnoreCase));
-
-        var selectedPath =
-            preferredStandardJpeg
-            ?? alternateStandard
-            ?? rootTextures[0];
-
-        selectedPath = ResolvePilotSpecificShipTexture(
-            assembly,
-            texturesFolder,
-            rootTextures,
-            selectedPath);
-
-        var selectedRelative = NormalisePath(
-            Path.GetRelativePath(repositoryRoot, selectedPath));
-
-        if (preferredStandardJpeg is null)
-        {
-            var reason = alternateStandard is not null
-                ? $"standard.jpg is missing; temporarily using {Path.GetFileName(alternateStandard)}"
-                : $"standard.jpg is missing; temporarily using the first root-level texture {Path.GetFileName(selectedPath)}";
-
-            diagnostics.Add(
-                $"{assembly.ShipName} ShipTexture fallback: {reason}. " +
-                $"Create {NormalisePath(Path.Combine(
-                    Path.GetRelativePath(repositoryRoot, texturesFolder),
-                    "standard.jpg"))} to remove this fallback.");
-        }
-
-        if (!linkedTexture.RepositoryPath.Equals(
-                selectedRelative,
-                StringComparison.OrdinalIgnoreCase))
-        {
-            diagnostics.Add(
-                $"{assembly.ShipName} ShipTexture resolved from corrected model folder: " +
-                $"{linkedTexture.RepositoryPath} -> {selectedRelative}");
-        }
-
-        return new PrototypeAssetInput
-        {
-            Role = linkedTexture.Role,
-            AssetId = linkedTexture.AssetId,
-            RepositoryPath = selectedRelative,
-            FullPath = selectedPath,
-            Exists = true
-        };
-    }
-
     // Authoritative T-65 X-wing multipart model set, confirmed against a
     // spawned Unified 2.5 X-wing:
     //   xwingbasev3.obj
     //   xwingopenv3.obj
     //   xwingclosedv3.obj
-    private static PrototypeAssetInput CorrectXWingMultipartModel(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput model,
-        ICollection<string> diagnostics)
-    {
-        if (!assembly.ShipId.Equals(
-                "xwing",
-                StringComparison.OrdinalIgnoreCase)
-            && !assembly.ShipId.Equals(
-                "t65xwing",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return model;
-        }
-
-        var shipFolder = Path.Combine(
-            repositoryRoot,
-            "assets",
-            "source",
-            "unified25",
-            "assets",
-            "ships-v2",
-            "small",
-            "t65xwing");
-
-        var baseModelPath = Path.Combine(
-            shipFolder,
-            "xwingbasev3.obj");
-        var openModelPath = Path.Combine(
-            shipFolder,
-            "xwingopenv3.obj");
-        var closedModelPath = Path.Combine(
-            shipFolder,
-            "xwingclosedv3.obj");
-
-        ValidateFile(baseModelPath, "X-Wing base model");
-        ValidateFile(openModelPath, "X-Wing open-wing state model");
-        ValidateFile(closedModelPath, "X-Wing closed-wing state model");
-
-        var relative = NormalisePath(
-            Path.GetRelativePath(repositoryRoot, baseModelPath));
-
-        if (!model.RepositoryPath.Equals(
-                relative,
-                StringComparison.OrdinalIgnoreCase))
-        {
-            diagnostics.Add(
-                $"X-Wing ShipModel corrected for visual prototype generation: " +
-                $"{model.RepositoryPath} -> {relative}. Open/closed V3 state " +
-                "models were also verified.");
-
-            RecordShipModelSelectionAudit(
-                repositoryRoot,
-                assembly,
-                model.RepositoryPath,
-                relative,
-                "Confirmed multipart X-Wing base model; open and closed V3 state models were also verified.",
-                "CleanupCandidate");
-        }
-
-        return new PrototypeAssetInput
-        {
-            Role = model.Role,
-            AssetId = model.AssetId,
-            RepositoryPath = relative,
-            FullPath = baseModelPath,
-            Exists = true
-        };
-    }
-
-    private static PrototypeAssetInput CorrectMisclassifiedBwingModel(
-        string repositoryRoot,
-        PrototypeAssemblyInput assembly,
-        PrototypeAssetInput model,
-        ICollection<string> diagnostics)
-    {
-        if (!assembly.PegTemplateKey.Equals(
-                "FirstEditionBwingShipPeg",
-                StringComparison.OrdinalIgnoreCase)
-            || !model.RepositoryPath.Contains(
-                "/bases/pegs/",
-                StringComparison.OrdinalIgnoreCase))
-        {
-            return model;
-        }
-
-        var shipFolder = Path.Combine(
-            repositoryRoot,
-            "assets",
-            "source",
-            "unified25",
-            "assets",
-            "ships-v2",
-            "small",
-            "asf01bwing");
-
-        if (!Directory.Exists(shipFolder))
-        {
-            throw new DirectoryNotFoundException(
-                $"The B-Wing model folder was not found: {shipFolder}");
-        }
-
-        var baseModelPath = Path.Combine(
-            shipFolder,
-            "bwing-base.obj");
-        var closedModelPath = Path.Combine(
-            shipFolder,
-            "bwing-closed.obj");
-        var openModelPath = Path.Combine(
-            shipFolder,
-            "bwing-open.obj");
-
-        ValidateFile(
-            baseModelPath,
-            "B-Wing base model");
-        ValidateFile(
-            closedModelPath,
-            "B-Wing closed-wing state model");
-        ValidateFile(
-            openModelPath,
-            "B-Wing open-wing state model");
-
-        var relative = NormalisePath(
-            Path.GetRelativePath(
-                repositoryRoot,
-                baseModelPath));
-
-        diagnostics.Add(
-            $"B-Wing ShipModel corrected for structural prototype generation: " +
-            $"{model.RepositoryPath} -> {relative}. " +
-            "The open and closed wing-state models were also verified and will " +
-            "be integrated when the B-Wing state-change runtime is implemented.");
-
-        RecordShipModelSelectionAudit(
-            repositoryRoot,
-            assembly,
-            model.RepositoryPath,
-            relative,
-            "The linked ShipModel was not the confirmed B-Wing base model; the base/open/closed model set was verified.",
-            "ReviewLinkAndCleanup");
-
-        return new PrototypeAssetInput
-        {
-            Role = model.Role,
-            AssetId = model.AssetId,
-            RepositoryPath = relative,
-            FullPath = baseModelPath,
-            Exists = true
-        };
-    }
-
     private static IReadOnlyDictionary<string, JsonObject>
         LoadRequiredSnapshots(
             PrototypeRuntimeTemplateManifestInput manifest,

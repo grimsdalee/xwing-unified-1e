@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:37.5354225+00:00",
+  "generatedUtc": "2026-08-02T23:42:18.176035+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -67,26 +67,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-261E45837DD6C65E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-605330AA97631C0B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -94,17 +94,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-29EEB8ACAAFA8D95",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/cartel-brute.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/cartel-brute.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/cartel-brute.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/cartel-brute.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-327FDF9FB822B84B",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelbrute__pilot-8e3388a632f5.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelbrute__pilot-8e3388a632f5.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/cartelbrute__pilot-8e3388a632f5.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/cartelbrute__pilot-8e3388a632f5.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -165,26 +165,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-261E45837DD6C65E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-605330AA97631C0B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -192,17 +192,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-B8EE7EE9ECCC4A41",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/cartel-executioner.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/cartel-executioner.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/cartel-executioner.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/cartel-executioner.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-861F64E4F28B94A8",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelexecutioner__pilot-4e5b3c6c644f.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/cartelexecutioner__pilot-4e5b3c6c644f.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/cartelexecutioner__pilot-4e5b3c6c644f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/cartelexecutioner__pilot-4e5b3c6c644f.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -263,26 +263,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-261E45837DD6C65E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-605330AA97631C0B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -290,17 +290,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-0FC724E1C1784417",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/dalan-oberos.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/dalan-oberos.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/dalan-oberos.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/dalan-oberos.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-BA353BA3B62CAD46",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/dalanoberos__pilot-54cd395be440.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/dalanoberos__pilot-54cd395be440.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/dalanoberos__pilot-54cd395be440.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/dalanoberos__pilot-54cd395be440.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -361,26 +361,26 @@
         {
           "role": "ShipModel",
           "assetId": "AST-261E45837DD6C65E",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/kimogila.obj",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/kimogila.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-605330AA97631C0B",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/m12lkimogilafighter/Icon.png",
+          "repositoryPath": "assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/small/m12lkimogilafighter/Icon.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-EB42BE2323CEC608",
-          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/scumandvillainy_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -388,17 +388,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-360B0450C38EAEA5",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/torani-kulda.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M12-L Kimogila Fighter/torani-kulda.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/torani-kulda.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Scum and Villainy/M12-L Kimogila Fighter/torani-kulda.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-0B91D366E443B320",
-          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/toranikulda__pilot-3d71d27165ea.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m12lkimogilafighter/toranikulda__pilot-3d71d27165ea.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/toranikulda__pilot-3d71d27165ea.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/scumandvillainy/m12lkimogilafighter/toranikulda__pilot-3d71d27165ea.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"

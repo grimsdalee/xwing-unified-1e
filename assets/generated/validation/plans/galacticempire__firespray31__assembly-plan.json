@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-02T01:04:27.0673881+00:00",
+  "generatedUtc": "2026-08-02T23:42:09.6746236+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
   "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
@@ -63,27 +63,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-E5F5F60981402D16",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
+          "assetId": "AST-9949BCE9B9663CB1",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7D6D5F36103B58B2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -91,17 +91,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-9889F5E6989C8A26",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/bounty-hunter.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/bounty-hunter.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/bounty-hunter.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/bounty-hunter.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-16AE8ADC91AAB711",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/firespray31/bountyhunter__pilot-d7f4d8ffef99.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -158,27 +158,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-E5F5F60981402D16",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
+          "assetId": "AST-9949BCE9B9663CB1",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7D6D5F36103B58B2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -186,17 +186,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-4BACDACB46AC6F05",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/krassis-trelix.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/krassis-trelix.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/krassis-trelix.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/krassis-trelix.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+          "resolutionMethod": "Curated Unified 1E pilot-card path and exact normalised pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-6487537A9864AB4C",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
           "resolutionMethod": "Deterministic role-aware resolver score"
@@ -253,27 +253,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-E5F5F60981402D16",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
+          "assetId": "AST-9949BCE9B9663CB1",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7D6D5F36103B58B2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -281,17 +281,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-6E59D535E0E79C93",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/kath-scarlet.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/kath-scarlet.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/kath-scarlet.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/kath-scarlet.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-1F7DFFF8171FD7E6",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/kathscarlet__pilot-00da478ba942.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/firespray31/kathscarlet__pilot-00da478ba942.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/firespray31/kathscarlet__pilot-00da478ba942.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/firespray31/kathscarlet__pilot-00da478ba942.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"
@@ -348,27 +348,27 @@
       "assets": [
         {
           "role": "ShipModel",
-          "assetId": "AST-E5F5F60981402D16",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
+          "assetId": "AST-9949BCE9B9663CB1",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/firesprayV2.obj",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "ShipTexture",
           "assetId": "AST-7D6D5F36103B58B2",
-          "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/Textures/standard.jpg",
+          "repositoryPath": "assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/ships/large/firespray31/Textures/standard.jpg",
           "exists": true,
           "resolutionSource": "UKB deterministic role resolver",
-          "resolutionMethod": "Validation ships-v2 repository preference"
+          "resolutionMethod": "Validation curated Unified 1E ship repository preference"
         },
         {
           "role": "DialTexture",
           "assetId": "AST-B6F45CF2DE39F708",
-          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "repositoryPath": "assets/source/unified1e/dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/dial-textures/galacticempire_texture.png",
           "exists": true,
           "resolutionSource": "Authoritative First Edition faction dial texture",
           "resolutionMethod": "Exact faction-to-master-texture mapping"
@@ -376,17 +376,17 @@
         {
           "role": "PilotCard",
           "assetId": "AST-0C202D74F3F023EF",
-          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/boba-fett.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/Firespray-31/boba-fett.png",
+          "repositoryPath": "assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/boba-fett.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-cards/Galactic Empire/Firespray-31/boba-fett.png",
           "exists": true,
-          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionSource": "UKB curated Unified 1E pilot-card fallback",
           "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
         },
         {
           "role": "PilotBaseToken",
           "assetId": "AST-45D2F597EF9AD8BA",
-          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/firespray31/bobafett__pilot-ad1363e77593.png",
-          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/firespray31/bobafett__pilot-ad1363e77593.png",
+          "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/firespray31/bobafett__pilot-ad1363e77593.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified1e/pilot-tokens/galacticempire/firespray31/bobafett__pilot-ad1363e77593.png",
           "exists": true,
           "resolutionSource": "UKB generated-token fallback",
           "resolutionMethod": "Normalised canonical pilot identity"

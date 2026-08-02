@@ -117,6 +117,9 @@ return command switch
     "promote-ship-model-review-candidates" => PromoteShipModelReviewCandidatesCommand.Run(commandArgs),
     "migrate-ship-model-pipeline-references" => MigrateShipModelPipelineReferencesCommand.Run(commandArgs),
     "plan-unified1e-asset-migration" => PlanUnified1eAssetMigrationCommand.Run(commandArgs),
+    "copy-unified1e-assets" => CopyUnified1eAssetsCommand.Run(commandArgs),
+    "rewire-unified1e-asset-references" => RewireUnified1eAssetReferencesCommand.Run(commandArgs),
+    "audit-prototype-asset-dependencies" => AuditPrototypeAssetDependenciesCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -227,6 +230,9 @@ static void ShowHelp()
     Console.WriteLine("  promote-ship-model-review-candidates <first-edition-repo-folder> [--inventory <file>] [--audit <file>]");
     Console.WriteLine("  migrate-ship-model-pipeline-references <first-edition-repo-folder> [--apply]");
     Console.WriteLine("  plan-unified1e-asset-migration <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  copy-unified1e-assets <first-edition-repo-folder> [--plan <file>] [--apply]");
+    Console.WriteLine("  rewire-unified1e-asset-references <first-edition-repo-folder> [--plan <file>] [--apply]");
+    Console.WriteLine("  audit-prototype-asset-dependencies <first-edition-repo-folder> [--reference-save <file>] [--output <folder>]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");

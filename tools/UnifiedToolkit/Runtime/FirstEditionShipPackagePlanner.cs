@@ -31,8 +31,18 @@ public static class FirstEditionShipPackagePlanner
         var shipLinks = LoadLinks<ShipLinkDocument>(Path.Combine(repositoryRoot, "ukb", "ship-links.json"));
         var pilotLinks = LoadLinks<PilotLinkDocument>(Path.Combine(repositoryRoot, "ukb", "pilot-links.json"));
         var assetsById = knowledgeBase.Domains.Assets
-            .GroupBy(x => x.AssetId, StringComparer.OrdinalIgnoreCase)
-            .ToDictionary(x => x.Key, x => x.First(), StringComparer.OrdinalIgnoreCase);
+            .GroupBy(
+                asset => asset.AssetId,
+                StringComparer.OrdinalIgnoreCase)
+            .ToDictionary(
+                group => group.Key,
+                group => group
+                    .OrderBy(AssetWarehouseRank)
+                    .ThenBy(
+                        asset => asset.RepositoryPath,
+                        StringComparer.OrdinalIgnoreCase)
+                    .First(),
+                StringComparer.OrdinalIgnoreCase);
 
         var document = new FirstEditionShipPackagePlanDocument
         {
@@ -120,7 +130,7 @@ public static class FirstEditionShipPackagePlanner
             return requirement;
         }
 
-        var repositoryPath = $"assets/source/first-edition-dial-textures/{fileName}";
+        var repositoryPath = $"assets/source/unified1e/dial-textures/{fileName}";
         var fullPath = Path.Combine(
             repositoryRoot,
             repositoryPath.Replace('/', Path.DirectorySeparatorChar));
@@ -206,10 +216,10 @@ public static class FirstEditionShipPackagePlanner
         var shipName = Normalize(ship?.Name ?? string.Empty);
 
         var candidates = knowledgeBase.Domains.Assets
-            .Where(asset => asset.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
+            .Where(asset => asset.Warehouse.Equals("unified1e", StringComparison.OrdinalIgnoreCase))
             .Where(asset => asset.AssetType.Equals("image", StringComparison.OrdinalIgnoreCase))
             .Where(asset => asset.RepositoryPath.Replace('\\', '/')
-                .Contains("/images/pilots/", StringComparison.OrdinalIgnoreCase))
+                .Contains("/pilot-cards/", StringComparison.OrdinalIgnoreCase))
             .Where(asset =>
             {
                 var repositoryPath = Normalize(asset.RepositoryPath);
@@ -231,32 +241,32 @@ public static class FirstEditionShipPackagePlanner
                 asset,
                 1000,
                 "authoritative",
-                "exact xwing-data faction, ship, and pilot-card identity"))
+                "exact curated Unified 1E faction, ship, and pilot-card identity"))
             .ToList();
 
         if (candidates.Count == 1)
         {
             linked.ResolutionStatus = "Resolved";
-            linked.ResolutionSource = "UKB xwing-data pilot-card fallback";
+            linked.ResolutionSource = "UKB curated Unified 1E pilot-card fallback";
             linked.ResolutionMethod = "Exact normalised faction, ship, and official pilot identity";
             linked.SelectedAsset = candidates[0];
             linked.Candidates = candidates;
             linked.Note =
-                "Resolved from the authoritative xwing-data pilot-card image by exact faction, ship, and pilot identity because pilot-links predates the Phase 13 pilot import.";
+                "Resolved from the curated Unified 1E pilot-card image by exact faction, ship, and pilot identity.";
         }
         else if (candidates.Count > 1)
         {
             linked.ResolutionStatus = "Ambiguous";
-            linked.ResolutionSource = "UKB xwing-data pilot-card fallback";
+            linked.ResolutionSource = "UKB curated Unified 1E pilot-card fallback";
             linked.ResolutionMethod = "Exact normalised faction, ship, and official pilot identity";
             linked.Candidates = candidates;
             linked.Note =
-                "Multiple authoritative xwing-data pilot-card images matched the exact faction, ship, and pilot identity.";
+                "Multiple curated Unified 1E pilot-card images matched the exact faction, ship, and pilot identity.";
         }
         else
         {
             linked.Note =
-                "No linked candidate or exact authoritative xwing-data faction/ship pilot-card image is available.";
+                "No linked candidate or exact curated Unified 1E faction/ship pilot-card image is available.";
         }
 
         return linked;
@@ -275,9 +285,9 @@ public static class FirstEditionShipPackagePlanner
         var ship = Normalize(pilot.ShipId);
         var pilotId = Normalize(pilot.Id);
         var pilotName = Normalize(pilot.Name);
-        var expectedFolder = $"assets/generated/PilotBaseToken/{faction}/{ship}/";
+        var expectedFolder = $"assets/source/unified1e/pilot-tokens/{faction}/{ship}/";
         var generated = knowledgeBase.Domains.Assets
-            .Where(x => x.Warehouse.Equals("generated", StringComparison.OrdinalIgnoreCase))
+            .Where(x => x.Warehouse.Equals("unified1e", StringComparison.OrdinalIgnoreCase))
             .Where(x => IsGeneratedPilotTokenMatch(
                 x.RepositoryPath,
                 expectedFolder,
@@ -407,8 +417,8 @@ public static class FirstEditionShipPackagePlanner
 
         var pilotId = Normalize(pilot.Id);
         var official = candidates
-            .Where(x => x.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
-            .Where(x => x.RepositoryPath.Replace('\\', '/').Contains("/images/pilots/", StringComparison.OrdinalIgnoreCase))
+            .Where(x => x.Warehouse.Equals("unified1e", StringComparison.OrdinalIgnoreCase))
+            .Where(x => x.RepositoryPath.Replace('\\', '/').Contains("/pilot-cards/", StringComparison.OrdinalIgnoreCase))
             .Where(x => Normalize(Path.GetFileNameWithoutExtension(x.RepositoryPath)).Equals(pilotId, StringComparison.OrdinalIgnoreCase))
             .ToList();
 
@@ -433,8 +443,8 @@ public static class FirstEditionShipPackagePlanner
 
         if (role.Equals(ShipPackageRoles.PilotCard, StringComparison.OrdinalIgnoreCase))
         {
-            if (candidate.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase) &&
-                path.Contains("/images/pilots/", StringComparison.OrdinalIgnoreCase)) score += 20000;
+            if (candidate.Warehouse.Equals("unified1e", StringComparison.OrdinalIgnoreCase) &&
+                path.Contains("/pilot-cards/", StringComparison.OrdinalIgnoreCase)) score += 20000;
             if (Normalize(Path.GetFileNameWithoutExtension(path)).Equals(pilotId, StringComparison.OrdinalIgnoreCase)) score += 15000;
         }
         else if (role.Equals(ShipPackageRoles.DialTexture, StringComparison.OrdinalIgnoreCase))
@@ -464,6 +474,7 @@ public static class FirstEditionShipPackagePlanner
         if (role.Equals(ShipPackageRoles.PilotCard, StringComparison.OrdinalIgnoreCase))
             return warehouse.ToLowerInvariant() switch
             {
+                "unified1e" => 20000,
                 "xwing-data" => 8000,
                 "generated" => 7000,
                 "legacy1e" => 6000,
@@ -475,6 +486,7 @@ public static class FirstEditionShipPackagePlanner
         if (role.Equals(ShipPackageRoles.DialTexture, StringComparison.OrdinalIgnoreCase))
             return warehouse.ToLowerInvariant() switch
             {
+                "unified1e" => 20000,
                 "generated" => 8000,
                 "legacy1e-non-pilot" => 7500,
                 "legacy1e" => 7000,
@@ -485,6 +497,7 @@ public static class FirstEditionShipPackagePlanner
 
         return warehouse.ToLowerInvariant() switch
         {
+            "unified1e" => 20000,
             "generated" => 8000,
             "generated-pilot-tokens" => 7900,
             "legacy1e" => 7000,
@@ -514,8 +527,8 @@ public static class FirstEditionShipPackagePlanner
 
     private static string ResolutionMethod(string role, FirstEditionShipPackageAsset selected, int alternateCount)
     {
-        if (role.Equals(ShipPackageRoles.PilotCard, StringComparison.OrdinalIgnoreCase) && selected.Warehouse.Equals("xwing-data", StringComparison.OrdinalIgnoreCase))
-            return "Authoritative xwing-data pilot-card path and exact normalised pilot identity";
+        if (role.Equals(ShipPackageRoles.PilotCard, StringComparison.OrdinalIgnoreCase) && selected.Warehouse.Equals("unified1e", StringComparison.OrdinalIgnoreCase))
+            return "Curated Unified 1E pilot-card path and exact normalised pilot identity";
         if (role.Equals(ShipPackageRoles.DialTexture, StringComparison.OrdinalIgnoreCase))
             return "First Edition dial source preference, link evidence, content deduplication and stable path ordering";
         if (role.Equals(ShipPackageRoles.ShipModel, StringComparison.OrdinalIgnoreCase))
@@ -591,6 +604,30 @@ public static class FirstEditionShipPackagePlanner
         Confidence = confidence,
         Reasons = reasons.ToList()
     };
+
+    private static int AssetWarehouseRank(KnowledgeBaseAsset asset)
+    {
+        var path = asset.RepositoryPath.Replace('\\', '/');
+
+        if (path.StartsWith(
+                "assets/source/unified1e/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return 0;
+        }
+
+        return asset.Warehouse.ToLowerInvariant() switch
+        {
+            "unified1e" => 0,
+            "generated" => 10,
+            "generated-pilot-tokens" => 11,
+            "xwing-data" => 20,
+            "legacy1e" => 30,
+            "legacy1e-non-pilot" => 31,
+            "unified25" => 40,
+            _ => 100
+        };
+    }
 
     private static string Normalize(string value) => new(value.ToLowerInvariant().Where(char.IsLetterOrDigit).ToArray());
     private static string Title(string? value) => string.IsNullOrWhiteSpace(value) ? "unknown" : char.ToUpperInvariant(value[0]) + value[1..].ToLowerInvariant();

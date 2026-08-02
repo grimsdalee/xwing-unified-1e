@@ -515,7 +515,7 @@
       },
       "Nickname": "Nu Squadron Pilot \u2014 Alpha-class Star Wing",
       "Description": "Phase 12B structural prototype\nShip: Alpha-class Star Wing\nPilot: Nu Squadron Pilot\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Nu Squadron Pilot\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Nu Squadron Pilot\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -600,8 +600,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/nusquadronpilot__pilot-3c9e6338ebc2.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -653,7 +653,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -698,10 +698,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -770,7 +770,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/galacticempire_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -1584,7 +1584,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/nu-squadron-pilot.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -1615,7 +1615,7 @@
       },
       "Nickname": "Rho Squadron Veteran \u2014 Alpha-class Star Wing",
       "Description": "Phase 12B structural prototype\nShip: Alpha-class Star Wing\nPilot: Rho Squadron Veteran\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Rho Squadron Veteran\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Rho Squadron Veteran\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -1700,8 +1700,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/rhosquadronveteran__pilot-dfb086f68e10.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -1753,7 +1753,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1798,10 +1798,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -1870,7 +1870,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/galacticempire_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -2684,7 +2684,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/rho-squadron-veteran.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -2715,7 +2715,7 @@
       },
       "Nickname": "Lieutenant Karsabi \u2014 Alpha-class Star Wing",
       "Description": "Phase 12B structural prototype\nShip: Alpha-class Star Wing\nPilot: Lieutenant Karsabi\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Lieutenant Karsabi\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Lieutenant Karsabi\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -2800,8 +2800,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/lieutenantkarsabi__pilot-a0f3db878b53.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -2853,7 +2853,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2898,10 +2898,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -2970,7 +2970,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/galacticempire_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -3784,7 +3784,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/lieutenant-karsabi.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
         "ImageScalar": 1,
         "WidthScale": 0,
@@ -3815,7 +3815,7 @@
       },
       "Nickname": "Major Vynder \u2014 Alpha-class Star Wing",
       "Description": "Phase 12B structural prototype\nShip: Alpha-class Star Wing\nPilot: Major Vynder\nBase: FirstEditionSmallShipBase\nPeg: FirstEditionSmallShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Major Vynder\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wbl1\u0022,\u0022bs1\u0022,\u0022wbr1\u0022,\u0022wtl2\u0022,\u0022bbl2\u0022,\u0022bs2\u0022,\u0022bbr2\u0022,\u0022wtr2\u0022,\u0022wtl3\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022wtr3\u0022,\u0022rs4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022alphaclassstarwing\u0022,\u0022Size\u0022:\u0022small\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png\u0022},\u0022firstEditionActions\u0022:[\u0022Reload\u0022,\u0022SLAM\u0022]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022alphaclassstarwing\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Major Vynder\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -3900,8 +3900,8 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
-            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/PilotBaseToken/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+            "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
+            "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-tokens/galacticempire/alphaclassstarwing/majorvynder__pilot-e36b6ada5cd4.png",
             "ImageScalar": 1,
             "WidthScale": 0,
             "CustomTile": {
@@ -3953,7 +3953,7 @@
             "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/bases/pegs/small.obj",
             "DiffuseURL": "",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -3998,10 +3998,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Alpha Class2.obj",
-            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/ships-v2/small/alphaclassstarwing/Textures/standard.jpg",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/Alpha Class2.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/small/alphaclassstarwing/icon.png",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/models/minisculebox.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -4070,7 +4070,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/FirstEditionDialModel/first-edition-dial-model-r-plus-1_9-u-plus-0_005-v-plus-0_02.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/dial-textures/galacticempire_texture.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified25/assets/dial/dialcollider.obj",
         "Convex": true,
@@ -4884,7 +4884,7 @@
       "HideWhenFaceDown": false,
       "Hands": true,
       "CustomImage": {
-        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/xwing-data/images/pilots/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
+        "ImageURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/pilot-cards/Galactic Empire/Alpha-class Star Wing/major-vynder.png",
         "ImageSecondaryURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
         "ImageScalar": 1,
         "WidthScale": 0,
