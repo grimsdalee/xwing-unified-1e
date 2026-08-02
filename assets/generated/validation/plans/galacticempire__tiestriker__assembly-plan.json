@@ -1,0 +1,589 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-02T00:07:47.1124588+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 6,
+  "readyPrototypeCount": 6,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/imperialtrainee",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "imperialtrainee",
+      "pilotName": "Imperial Trainee",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-74F2151A472188D7",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/imperial-trainee.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/imperial-trainee.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-8B24FB4243144EC2",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/imperialtrainee__pilot-a31f78d56718.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/imperialtrainee__pilot-a31f78d56718.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/scarifdefender",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "scarifdefender",
+      "pilotName": "Scarif Defender",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-8F7EE9ADA4E66410",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/scarif-defender.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/scarif-defender.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4A0BB4646162AECB",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/scarifdefender__pilot-2f134b09193e.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/scarifdefender__pilot-2f134b09193e.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/blacksquadronscout",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "blacksquadronscout",
+      "pilotName": "Black Squadron Scout",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-07B3A5D1054B7380",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/black-squadron-scout.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/black-squadron-scout.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-6E5D43B019C1BAE9",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/blacksquadronscout__pilot-6382835ea36b.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/blacksquadronscout__pilot-6382835ea36b.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/countdown",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "countdown",
+      "pilotName": "\u0022Countdown\u0022",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-7D4136D916987683",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/countdown.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/countdown.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-65275BC765289023",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/countdown__pilot-7be38960675c.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/countdown__pilot-7be38960675c.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/puresabacc",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "puresabacc",
+      "pilotName": "\u0022Pure Sabacc\u0022",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-653687808050389C",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/pure-sabacc.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/pure-sabacc.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4C7277F6DA00FCDA",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/puresabacc__pilot-2b9e8d56012f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/puresabacc__pilot-2b9e8d56012f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "tiestriker",
+      "expectedFaction": "",
+      "packageId": "galacticempire/tiestriker/duchess",
+      "shipId": "tiestriker",
+      "shipName": "TIE Striker",
+      "pilotId": "duchess",
+      "pilotName": "\u0022Duchess\u0022",
+      "faction": "galacticempire",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rbl2s",
+        "rk2",
+        "rtr2t",
+        "wbl3",
+        "bs3",
+        "wbr3"
+      ],
+      "actSet": [
+        "BR",
+        "E",
+        "F"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-0C62E6E7A739FD03",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/tiestriker.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-F1C633969F159019",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/tieskstriker/Textures/standard.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-B6F45CF2DE39F708",
+          "repositoryPath": "assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/galacticempire_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-DAECC2712B37FE36",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/duchess.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Galactic Empire/TIE Striker/duchess.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-7FF0AFBDF1B864E5",
+          "repositoryPath": "assets/generated/PilotBaseToken/galacticempire/tiestriker/duchess__pilot-5bcfc38b51fb.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/galacticempire/tiestriker/duchess__pilot-5bcfc38b51fb.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

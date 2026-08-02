@@ -4577,7 +4577,7 @@
             },
             {
               "assetId": "AST-E5F5F60981402D16",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
               "warehouse": "unified25",
               "score": 100,
               "confidence": "high",
@@ -4935,7 +4935,7 @@
             },
             {
               "assetId": "AST-E5F5F60981402D16",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
               "warehouse": "unified25",
               "score": 78,
               "confidence": "medium",
@@ -8517,7 +8517,7 @@
             },
             {
               "assetId": "AST-E5F5F60981402D16",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
               "warehouse": "unified25",
               "score": 68,
               "confidence": "medium",
@@ -8902,7 +8902,7 @@
             },
             {
               "assetId": "AST-E5F5F60981402D16",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV3-canopy.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/medium/firesprayclasspatrolcraft/firesprayV2.obj",
               "warehouse": "unified25",
               "score": 43,
               "confidence": "low",
@@ -16672,7 +16672,7 @@
           "candidates": [
             {
               "assetId": "AST-C2602B1E36AE402C",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
               "warehouse": "unified25",
               "score": 100,
               "confidence": "high",
@@ -16983,7 +16983,7 @@
           "candidates": [
             {
               "assetId": "AST-C2602B1E36AE402C",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tievnsilencer/Tie_VN2.obj",
               "warehouse": "unified25",
               "score": 78,
               "confidence": "medium",
@@ -17460,7 +17460,7 @@
             },
             {
               "assetId": "AST-88EFF650AB19F51B",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv2.obj",
               "warehouse": "unified25",
               "score": 100,
               "confidence": "high",
@@ -17804,7 +17804,7 @@
             },
             {
               "assetId": "AST-88EFF650AB19F51B",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/Tie_FO.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiefofighter/TieFOv2.obj",
               "warehouse": "unified25",
               "score": 78,
               "confidence": "medium",
@@ -17840,7 +17840,7 @@
           "candidates": [
             {
               "assetId": "AST-77854E25A8B0DAB8",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj",
               "warehouse": "unified25",
               "score": 100,
               "confidence": "high",
@@ -18167,7 +18167,7 @@
           "candidates": [
             {
               "assetId": "AST-77854E25A8B0DAB8",
-              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSF.obj",
+              "repositoryPath": "assets/source/unified25/assets/ships-v2/small/tiesffighter/TieSFv2.obj",
               "warehouse": "unified25",
               "score": 78,
               "confidence": "medium",

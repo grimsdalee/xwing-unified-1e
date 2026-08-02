@@ -16,7 +16,8 @@ public sealed class RepositoryReferenceScanner
     private static readonly string[] IgnoredDirectoryNames =
     {
         ".git", ".vs", "bin", "obj", "node_modules",
-        "_unifiedtoolkit_quarantine"
+        "_unifiedtoolkit_quarantine",
+        "_unifiedtoolkit_backups"
     };
 
     public IReadOnlyList<RepositoryReference> FindReferences(
@@ -65,6 +66,16 @@ public sealed class RepositoryReferenceScanner
 
     private static RepositoryReference Classify(string relativePath)
     {
+        // Backups are retained rollback material, never active dependencies.
+        // Keep this classification as a defensive second layer even though
+        // backup directories are excluded during enumeration.
+        if (relativePath.StartsWith(
+                "_unifiedtoolkit_backups/",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            return New(relativePath, "Backup", blocksCleanup: false);
+        }
+
         if (relativePath.StartsWith(
                 "_unifiedtoolkit_reports/",
                 StringComparison.OrdinalIgnoreCase))
@@ -118,6 +129,14 @@ public sealed class RepositoryReferenceScanner
                 StringComparison.OrdinalIgnoreCase)
             || relativePath.Equals(
                 "Commands/GeneratePrototypeSaveCommand.cs",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.Equals(
+                "tools/UnifiedToolkit/Commands/RepositoryMaintenance/" +
+                "MigrateShipModelPipelineReferencesCommand.cs",
+                StringComparison.OrdinalIgnoreCase)
+            || relativePath.Equals(
+                "Commands/RepositoryMaintenance/" +
+                "MigrateShipModelPipelineReferencesCommand.cs",
                 StringComparison.OrdinalIgnoreCase))
         {
             return New(relativePath, "ModelSelectionAuditSource", blocksCleanup: false);

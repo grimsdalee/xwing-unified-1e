@@ -6,6 +6,14 @@ namespace UnifiedToolkit.RepositoryMaintenance;
 
 public sealed class ObsoleteModelMaintenanceService
 {
+    private static readonly HashSet<string> ProtectedProductionModels =
+    [
+        "assets/source/unified25/assets/ships-v2/small/" +
+        "tieagaggressor/tieagaggressor.obj",
+        "assets/source/unified25/assets/ships-v2/medium/" +
+        "aggressorassaultfighter/aggressor.obj"
+    ];
+
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         WriteIndented = true,
@@ -65,6 +73,11 @@ public sealed class ObsoleteModelMaintenanceService
                 .Distinct(StringComparer.OrdinalIgnoreCase)
                 .OrderBy(value => value, StringComparer.OrdinalIgnoreCase)
                 .ToList();
+            if (ProtectedProductionModels.Contains(originalPath))
+            {
+                selectedByOtherShips.Add(
+                    "Repository maintenance protected production model");
+            }
             var classifiedReferences = originalExists
                 ? scanner.FindReferences(repositoryRoot, originalPath).ToList()
                 : new List<RepositoryReference>();

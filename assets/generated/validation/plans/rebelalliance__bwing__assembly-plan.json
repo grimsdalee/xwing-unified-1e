@@ -1,0 +1,583 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-02T00:07:48.3035816+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 6,
+  "readyPrototypeCount": 6,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/bluesquadronpilot",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "bluesquadronpilot",
+      "pilotName": "Blue Squadron Pilot",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-F4DFAAFC28344FC1",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/blue-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/blue-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-623D6B467144B53F",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/bluesquadronpilot__pilot-6796d62e5dc1.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/daggersquadronpilot",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "daggersquadronpilot",
+      "pilotName": "Dagger Squadron Pilot",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-4D4A0CEF1ED771DE",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/dagger-squadron-pilot.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/dagger-squadron-pilot.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-AA94D7AE0CBB8968",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/daggersquadronpilot__pilot-dfb38e9164ae.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/daggersquadronpilot__pilot-dfb38e9164ae.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/neradantels",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "neradantels",
+      "pilotName": "Nera Dantels",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-48625F275BD299AD",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/nera-dantels.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/nera-dantels.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-4F3B07E0AF15016F",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/neradantels__pilot-309bf4fb47a8.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/neradantels__pilot-309bf4fb47a8.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/ibtisam",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "ibtisam",
+      "pilotName": "Ibtisam",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-59DDF7F71A9AFD11",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/ibtisam.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/ibtisam.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F3A41B2760CEA445",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/ibtisam__pilot-ca978e1a2c04.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/ibtisam__pilot-ca978e1a2c04.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/keyanfarlander",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "keyanfarlander",
+      "pilotName": "Keyan Farlander",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-EE69F578A4FE9F55",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/keyan-farlander.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/keyan-farlander.png",
+          "exists": true,
+          "resolutionSource": "UKB xwing-data pilot-card fallback",
+          "resolutionMethod": "Exact normalised faction, ship, and official pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-8A29E7F25F27779A",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/keyanfarlander__pilot-ac94de716fe6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/keyanfarlander__pilot-ac94de716fe6.png",
+          "exists": true,
+          "resolutionSource": "UKB generated-token fallback",
+          "resolutionMethod": "Normalised canonical pilot identity"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "bwing",
+      "expectedFaction": "",
+      "packageId": "rebelalliance/bwing/tennumb",
+      "shipId": "bwing",
+      "shipName": "B-wing",
+      "pilotId": "tennumb",
+      "pilotName": "Ten Numb",
+      "faction": "rebelalliance",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionBwingShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "rtl1",
+        "bbl1",
+        "bs1",
+        "bbr1",
+        "rtr1",
+        "wtl2",
+        "wbl2",
+        "bs2",
+        "wbr2",
+        "wtr2",
+        "rk2",
+        "rbl3",
+        "ws3",
+        "rbr3",
+        "rs4"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-FA3BAF69B0E87A6F",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/bases/pegs/bwing.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-E2BBA7B8CA67016C",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/asf01bwing/icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-BEB675A04A9CC1BE",
+          "repositoryPath": "assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/rebelalliance_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-67A44883A17622F6",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/ten-numb.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Rebel Alliance/B-wing/ten-numb.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-7B82D1B0D910A629",
+          "repositoryPath": "assets/generated/PilotBaseToken/rebelalliance/bwing/tennumb__pilot-cf7db3c80a89.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/rebelalliance/bwing/tennumb__pilot-cf7db3c80a89.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}

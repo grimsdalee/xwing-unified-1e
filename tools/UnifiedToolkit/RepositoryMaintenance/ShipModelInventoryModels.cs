@@ -2,7 +2,7 @@ namespace UnifiedToolkit.RepositoryMaintenance;
 
 public sealed class ShipModelInventoryManifest
 {
-    public string SchemaVersion { get; set; } = "1.1.0";
+    public string SchemaVersion { get; set; } = "1.3.0";
     public DateTimeOffset GeneratedUtc { get; set; }
     public string RepositoryRoot { get; set; } = string.Empty;
     public List<string> IncludedFolders { get; set; } = new();
@@ -11,6 +11,7 @@ public sealed class ShipModelInventoryManifest
     public int UsedPrimary { get; set; }
     public int UsedMultipart { get; set; }
     public int UsedConfigured { get; set; }
+    public int UsedPipelineInput { get; set; }
     public int ReviewCandidates { get; set; }
     public int DuplicateHashGroups { get; set; }
     public List<string> MissingConfiguredModels { get; set; } = new();

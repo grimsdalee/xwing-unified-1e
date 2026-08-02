@@ -728,6 +728,18 @@ public static class GeneratePrototypeSaveCommand
             closedPath =
                 "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-closed.obj";
         }
+        else if (assembly.ShipId.Equals(
+                     "uwing",
+                     StringComparison.OrdinalIgnoreCase)
+                 || assembly.ShipId.Equals(
+                     "ut60duwing",
+                     StringComparison.OrdinalIgnoreCase))
+        {
+            openPath =
+                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingOpen.obj";
+            closedPath =
+                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingClose.obj";
+        }
 
         if (openPath is null || closedPath is null)
             return;
@@ -1077,6 +1089,12 @@ public static class GeneratePrototypeSaveCommand
                 StringComparison.OrdinalIgnoreCase)
             || assembly.PegTemplateKey.Equals(
                 "FirstEditionBwingShipPeg",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "uwing",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "ut60duwing",
                 StringComparison.OrdinalIgnoreCase))
         {
             guids.Add(openConfigGuid);
@@ -2080,6 +2098,36 @@ public static class GeneratePrototypeSaveCommand
             relative =
                 "assets/source/unified25/assets/ships-v2/small/" +
                 "tiefofighter/TieFOv2.obj";
+        }
+        else if (assembly.ShipId.Equals(
+                "tiesffighter",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tiesffighter/TieSFv2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tiesffighter/TieSF.obj";
+            additionalObsoleteRelatives = new[]
+            {
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tiesffighter/Tie_SF.obj"
+            };
+        }
+        else if (assembly.ShipId.Equals(
+                "tiesilencer",
+                StringComparison.OrdinalIgnoreCase)
+            || assembly.ShipId.Equals(
+                "tievnsilencer",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            relative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tievnsilencer/Tie_VN2.obj";
+            obsoleteRelative =
+                "assets/source/unified25/assets/ships-v2/small/" +
+                "tievnsilencer/Tie_VN.obj";
         }
         else if (assembly.ShipId.Equals(
                 "t70xwing",

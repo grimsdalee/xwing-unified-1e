@@ -113,6 +113,9 @@ return command switch
     "quarantine-obsolete-models" => QuarantineObsoleteModelsCommand.Run(commandArgs),
     "restore-quarantined-models" => RestoreQuarantinedModelsCommand.Run(commandArgs),
     "purge-quarantined-models" => PurgeQuarantinedModelsCommand.Run(commandArgs),
+    "audit-ship-model-inventory" => AuditShipModelInventoryCommand.Run(commandArgs),
+    "promote-ship-model-review-candidates" => PromoteShipModelReviewCandidatesCommand.Run(commandArgs),
+    "migrate-ship-model-pipeline-references" => MigrateShipModelPipelineReferencesCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -219,6 +222,9 @@ static void ShowHelp()
     Console.WriteLine("  quarantine-obsolete-models <first-edition-repo-folder> [--audit <file>]");
     Console.WriteLine("  restore-quarantined-models <first-edition-repo-folder> [--audit <file>]");
     Console.WriteLine("  purge-quarantined-models <first-edition-repo-folder> [--audit <file>] --confirm-purge");
+    Console.WriteLine("  audit-ship-model-inventory <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  promote-ship-model-review-candidates <first-edition-repo-folder> [--inventory <file>] [--audit <file>]");
+    Console.WriteLine("  migrate-ship-model-pipeline-references <first-edition-repo-folder> [--apply]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");

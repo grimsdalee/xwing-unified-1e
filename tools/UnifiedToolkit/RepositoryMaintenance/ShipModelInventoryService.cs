@@ -17,6 +17,14 @@ public sealed class ShipModelInventoryService
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase
     };
 
+    private static readonly HashSet<string> ProtectedProductionModels =
+    [
+        "assets/source/unified25/assets/ships-v2/small/" +
+        "tieagaggressor/tieagaggressor.obj",
+        "assets/source/unified25/assets/ships-v2/medium/" +
+        "aggressorassaultfighter/aggressor.obj"
+    ];
+
     private static readonly IReadOnlyDictionary<string, string[]> MultipartSets =
         new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase)
         {
@@ -37,6 +45,11 @@ public sealed class ShipModelInventoryService
                 "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-base.obj",
                 "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-open.obj",
                 "assets/source/unified25/assets/ships-v2/small/asf01bwing/bwing-closed.obj"
+            ],
+            ["UT-60D U-Wing"] =
+            [
+                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingOpen.obj",
+                "assets/source/unified25/assets/ships-v2/medium/ut60duwing/UwingClose.obj"
             ]
         };
 
@@ -57,13 +70,17 @@ public sealed class ShipModelInventoryService
         var usages = new Dictionary<string, ShipModelUsage>(
             StringComparer.OrdinalIgnoreCase);
         var missingConfigured = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        var historicalObsolete = LoadHistoricalObsoleteModelPaths(repositoryRoot);
 
         CollectConfiguredModelUsages(
             repositoryRoot,
             usages,
-            missingConfigured);
+            missingConfigured,
+            historicalObsolete);
         CollectGeneratedSaveUsages(repositoryRoot, usages);
+        CollectPipelineInputUsages(repositoryRoot, usages);
         ProtectMultipartSets(usages);
+        ProtectProductionModels(usages);
 
         var files = included
             .Select(folder => Path.Combine(modelRoot, folder))
@@ -94,12 +111,15 @@ public sealed class ShipModelInventoryService
             [
                 $"{ModelRootRelative}/huge " +
                 "(Unified 2.5 Huge ships map to First Edition Epic; " +
-                "Epic ships are not yet implemented)"
+                "Epic ships are not yet implemented)",
+                $"{ModelRootRelative}/bases (base infrastructure, not ship models)",
+                $"{ModelRootRelative}/holo.obj (display infrastructure, not a ship model)"
             ],
             ObjFilesScanned = entries.Count,
             UsedPrimary = entries.Count(entry => entry.UsageStatus == "UsedPrimary"),
             UsedMultipart = entries.Count(entry => entry.UsageStatus == "UsedMultipart"),
             UsedConfigured = entries.Count(entry => entry.UsageStatus == "UsedConfigured"),
+            UsedPipelineInput = entries.Count(entry => entry.UsageStatus == "UsedPipelineInput"),
             ReviewCandidates = entries.Count(entry => entry.UsageStatus == "ReviewCandidate"),
             DuplicateHashGroups = entries
                 .Where(entry => entry.DuplicatePaths.Count > 0)
@@ -139,7 +159,8 @@ public sealed class ShipModelInventoryService
     private static void CollectConfiguredModelUsages(
         string repositoryRoot,
         IDictionary<string, ShipModelUsage> usages,
-        ISet<string> missingConfigured)
+        ISet<string> missingConfigured,
+        IReadOnlySet<string> historicalObsolete)
     {
         var candidates = new[]
         {
@@ -165,6 +186,9 @@ public sealed class ShipModelInventoryService
         {
             var normalised = NormaliseModelPath(path);
             if (normalised is null)
+                continue;
+
+            if (historicalObsolete.Contains(normalised))
                 continue;
 
             var usage = GetUsage(usages, normalised);
@@ -215,15 +239,12 @@ public sealed class ShipModelInventoryService
         if (!Directory.Exists(savesFolder))
             return;
 
-        foreach (var savePath in Directory.EnumerateFiles(
-                     savesFolder,
-                     "*.json",
-                     SearchOption.TopDirectoryOnly))
+        foreach (var savePath in EnumerateValidationSavePaths(repositoryRoot, savesFolder))
         {
-            JsonNode? root;
+            string source;
             try
             {
-                root = JsonNode.Parse(File.ReadAllText(savePath));
+                source = File.ReadAllText(savePath);
             }
             catch
             {
@@ -231,15 +252,229 @@ public sealed class ShipModelInventoryService
             }
 
             var shipGroup = Path.GetFileNameWithoutExtension(savePath)
-                .Replace("__all-pilots", string.Empty, StringComparison.OrdinalIgnoreCase);
-            CollectFromNode(
-                root,
-                repositoryRoot,
-                savePath,
-                shipGroup,
-                inheritedBaseSize: null,
-                usages);
+                .Replace(
+                    "__all-pilots",
+                    string.Empty,
+                    StringComparison.OrdinalIgnoreCase);
+
+            // The generated saves can contain very large embedded Lua and JSON
+            // strings. Scanning the source text for repository OBJ paths is more
+            // robust than relying solely on recursive JsonNode traversal.
+            foreach (var modelPath in ExtractObjPathsFromText(source))
+            {
+                if (!modelPath.StartsWith(
+                        ModelRootRelative + "/",
+                        StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                if (modelPath.Contains(
+                        "/ships-v2/bases/",
+                        StringComparison.OrdinalIgnoreCase)
+                    || modelPath.EndsWith(
+                        "/ships-v2/holo.obj",
+                        StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                var usage = GetUsage(usages, modelPath);
+                usage.UsageTypes.Add(
+                    IsMultipartPath(modelPath)
+                        ? "MultipartGeneratedSave"
+                        : "PrimaryGeneratedSave");
+                usage.UsageSources.Add(Normalise(
+                    Path.GetRelativePath(repositoryRoot, savePath)));
+                usage.ShipGroups.Add(shipGroup);
+            }
+
+            // Retain structured traversal to collect First Edition base-size
+            // metadata when the save can be parsed successfully.
+            try
+            {
+                var root = JsonNode.Parse(source);
+                CollectFromNode(
+                    root,
+                    repositoryRoot,
+                    savePath,
+                    shipGroup,
+                    inheritedBaseSize: null,
+                    usages);
+            }
+            catch
+            {
+                // The text scan above remains authoritative for model usage.
+            }
         }
+    }
+
+    private static IEnumerable<string> ExtractObjPathsFromText(string source)
+    {
+        const string objPattern =
+            @"(?i)(?:https?://[^\s\""']+)?"
+            + @"assets/(?:source/unified25/assets/)?ships-v2/"
+            + @"[^\s\""']+?\.obj";
+
+        var paths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (Match match in Regex.Matches(
+                     source,
+                     objPattern,
+                     RegexOptions.CultureInvariant))
+        {
+            var normalised = NormaliseModelPath(match.Value);
+            if (normalised is not null)
+                paths.Add(normalised);
+        }
+
+        return paths;
+    }
+
+    private static IEnumerable<string> EnumerateValidationSavePaths(
+        string repositoryRoot,
+        string savesFolder)
+    {
+        var paths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        foreach (var path in Directory.EnumerateFiles(
+                     savesFolder,
+                     "*.json",
+                     SearchOption.AllDirectories))
+        {
+            var fileName = Path.GetFileName(path);
+            if (fileName.Equals(
+                    "ship-validation-saves.json",
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            paths.Add(Path.GetFullPath(path));
+        }
+
+        var manifestPath = Path.Combine(
+            repositoryRoot,
+            "assets", "generated", "validation", "ship-validation-saves.json");
+        if (File.Exists(manifestPath))
+        {
+            try
+            {
+                var manifest = JsonNode.Parse(File.ReadAllText(manifestPath));
+                CollectJsonFilePaths(manifest, repositoryRoot, paths);
+            }
+            catch
+            {
+                // Direct save enumeration remains authoritative if the manifest is stale.
+            }
+        }
+
+        return paths
+            .Where(File.Exists)
+            .OrderBy(path => path, StringComparer.OrdinalIgnoreCase);
+    }
+
+    private static void CollectJsonFilePaths(
+        JsonNode? node,
+        string repositoryRoot,
+        ISet<string> paths)
+    {
+        if (node is JsonValue value
+            && value.TryGetValue<string>(out var text)
+            && text.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
+        {
+            var candidate = text.Replace('\\', Path.DirectorySeparatorChar)
+                .Replace('/', Path.DirectorySeparatorChar);
+            if (!Path.IsPathRooted(candidate))
+                candidate = Path.Combine(repositoryRoot, candidate);
+
+            candidate = Path.GetFullPath(candidate);
+            if (File.Exists(candidate)
+                && candidate.Contains(
+                    $"{Path.DirectorySeparatorChar}validation{Path.DirectorySeparatorChar}saves{Path.DirectorySeparatorChar}",
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                paths.Add(candidate);
+            }
+
+            return;
+        }
+
+        if (node is JsonArray array)
+        {
+            foreach (var child in array)
+                CollectJsonFilePaths(child, repositoryRoot, paths);
+            return;
+        }
+
+        if (node is JsonObject obj)
+        {
+            foreach (var property in obj)
+                CollectJsonFilePaths(property.Value, repositoryRoot, paths);
+        }
+    }
+
+    private static HashSet<string> LoadHistoricalObsoleteModelPaths(
+        string repositoryRoot)
+    {
+        var paths = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        var reportPaths = new[]
+        {
+            Path.Combine(
+                repositoryRoot,
+                "_unifiedtoolkit_reports", "model-selection",
+                "ship-model-selection-audit.json"),
+            Path.Combine(
+                repositoryRoot,
+                "_unifiedtoolkit_reports", "model-cleanup",
+                "obsolete-model-cleanup.json")
+        };
+
+        foreach (var reportPath in reportPaths.Where(File.Exists))
+        {
+            try
+            {
+                var root = JsonNode.Parse(File.ReadAllText(reportPath));
+                CollectHistoricalModelPaths(root, paths);
+            }
+            catch
+            {
+                // A malformed historical report must not prevent inventory generation.
+            }
+        }
+
+        return paths;
+    }
+
+    private static void CollectHistoricalModelPaths(
+        JsonNode? node,
+        ISet<string> paths)
+    {
+        if (node is JsonArray array)
+        {
+            foreach (var child in array)
+                CollectHistoricalModelPaths(child, paths);
+            return;
+        }
+
+        if (node is not JsonObject obj)
+            return;
+
+        foreach (var propertyName in new[]
+                 {
+                     "rejectedModelPath",
+                     "originalPath",
+                     "originalRepositoryPath"
+                 })
+        {
+            var value = obj[propertyName]?.GetValue<string>();
+            var normalised = value is null ? null : NormaliseModelPath(value);
+            if (normalised is not null)
+                paths.Add(normalised);
+        }
+
+        foreach (var property in obj)
+            CollectHistoricalModelPaths(property.Value, paths);
     }
 
     private static void CollectFromNode(
@@ -325,6 +560,104 @@ public sealed class ShipModelInventoryService
         }
     }
 
+    private static void CollectPipelineInputUsages(
+        string repositoryRoot,
+        IDictionary<string, ShipModelUsage> usages)
+    {
+        // assets/manifests/assets.json is a catalogue of imported files,
+        // not an active model selection source. Counting every catalogue entry
+        // as a pipeline dependency prevents legitimate obsolete-model review.
+        var explicitFiles = new[]
+        {
+            Path.Combine(
+                repositoryRoot,
+                "ukb", "ship-links.json")
+        };
+
+        foreach (var path in explicitFiles.Where(File.Exists))
+            CollectPipelineInputFile(repositoryRoot, path, usages);
+
+        var recursiveFolders = new[]
+        {
+            Path.Combine(
+                repositoryRoot,
+                "assets", "generated", "validation", "plans"),
+            Path.Combine(
+                repositoryRoot,
+                "_unifiedtoolkit_reports", "phase11",
+                "ship-package-planning"),
+            Path.Combine(
+                repositoryRoot,
+                "_unifiedtoolkit_reports", "phase12b")
+        };
+
+        foreach (var folder in recursiveFolders.Where(Directory.Exists))
+        {
+            foreach (var path in Directory.EnumerateFiles(
+                         folder,
+                         "*.json",
+                         SearchOption.AllDirectories))
+            {
+                CollectPipelineInputFile(repositoryRoot, path, usages);
+            }
+        }
+    }
+
+    private static void CollectPipelineInputFile(
+        string repositoryRoot,
+        string sourcePath,
+        IDictionary<string, ShipModelUsage> usages)
+    {
+        string source;
+        try
+        {
+            source = File.ReadAllText(sourcePath);
+        }
+        catch
+        {
+            return;
+        }
+
+        foreach (var modelPath in ExtractObjPathsFromText(source))
+        {
+            if (!modelPath.StartsWith(
+                    ModelRootRelative + "/",
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            if (modelPath.Contains(
+                    "/ships-v2/bases/",
+                    StringComparison.OrdinalIgnoreCase)
+                || modelPath.EndsWith(
+                    "/ships-v2/holo.obj",
+                    StringComparison.OrdinalIgnoreCase)
+                || modelPath.Contains(
+                    "/ships-v2/huge/",
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                continue;
+            }
+
+            var usage = GetUsage(usages, modelPath);
+            usage.UsageTypes.Add("PipelineInput");
+            usage.UsageSources.Add(Normalise(
+                Path.GetRelativePath(repositoryRoot, sourcePath)));
+        }
+    }
+
+    private static void ProtectProductionModels(
+        IDictionary<string, ShipModelUsage> usages)
+    {
+        foreach (var path in ProtectedProductionModels)
+        {
+            var usage = GetUsage(usages, path);
+            usage.UsageTypes.Add("ProtectedProductionModel");
+            usage.UsageSources.Add("Built-in production-model safety contract");
+        }
+    }
+
     private static void ProtectMultipartSets(
         IDictionary<string, ShipModelUsage> usages)
     {
@@ -405,6 +738,9 @@ public sealed class ShipModelInventoryService
 
         if (usage.UsageTypes.Contains("PrimaryGeneratedSave"))
             return "UsedPrimary";
+
+        if (usage.UsageTypes.Contains("PipelineInput"))
+            return "UsedPipelineInput";
 
         if (usage.UsageTypes.Count > 0)
             return "UsedConfigured";
@@ -489,7 +825,7 @@ public sealed class ShipModelInventoryService
         if (string.IsNullOrWhiteSpace(value))
             return null;
 
-        var normalised = value.Replace('\\', '/');
+        var normalised = Uri.UnescapeDataString(value).Replace('\\', '/');
         var markerIndex = normalised.IndexOf(
             ModelRootRelative + "/",
             StringComparison.OrdinalIgnoreCase);
@@ -623,6 +959,7 @@ public sealed class ShipModelInventoryService
         writer.WriteLine($"- Used primary: {manifest.UsedPrimary}");
         writer.WriteLine($"- Used multipart: {manifest.UsedMultipart}");
         writer.WriteLine($"- Used configured: {manifest.UsedConfigured}");
+        writer.WriteLine($"- Used pipeline input: {manifest.UsedPipelineInput}");
         writer.WriteLine($"- Review candidates: {manifest.ReviewCandidates}");
         writer.WriteLine($"- Duplicate hash groups: {manifest.DuplicateHashGroups}");
         writer.WriteLine();

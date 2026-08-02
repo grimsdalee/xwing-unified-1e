@@ -27,12 +27,13 @@ public static class AuditShipModelInventoryCommand
             Console.WriteLine("=========================================");
             Console.WriteLine($"Repository:             {repositoryRoot}");
             Console.WriteLine("Included folders:       small, medium, large");
-            Console.WriteLine("Excluded folders:       huge (2.5 Huge = 1E Epic)");
+            Console.WriteLine("Excluded:              huge, bases, holo.obj");
             Console.WriteLine();
             Console.WriteLine($"OBJ files scanned:      {manifest.ObjFilesScanned}");
             Console.WriteLine($"Used primary:           {manifest.UsedPrimary}");
             Console.WriteLine($"Used multipart:         {manifest.UsedMultipart}");
             Console.WriteLine($"Used configured:        {manifest.UsedConfigured}");
+            Console.WriteLine($"Used pipeline input:    {manifest.UsedPipelineInput}");
             Console.WriteLine($"Review candidates:      {manifest.ReviewCandidates}");
             Console.WriteLine($"Duplicate hash groups:  {manifest.DuplicateHashGroups}");
             Console.WriteLine($"Missing configured OBJ: {manifest.MissingConfiguredModels.Count}");

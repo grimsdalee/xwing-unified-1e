@@ -1,0 +1,779 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-02T00:07:55.4447281+00:00",
+  "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
+  "packagePlanPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11/ship-package-planning/ship-package-plans.json",
+  "runtimePayloadPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/_unifiedtoolkit_reports/phase11f/standard-runtime-payloads/standard-first-edition-runtime-payloads.json",
+  "dialRuntimePath": "",
+  "requestedPrototypeCount": 8,
+  "readyPrototypeCount": 8,
+  "invalidPrototypeCount": 0,
+  "dialRuntimeValidated": true,
+  "requiredFactions": [],
+  "coveredFactions": [],
+  "missingFactions": [],
+  "validationErrors": [],
+  "validationWarnings": [],
+  "assemblies": [
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/sunnybounder",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "sunnybounder",
+      "pilotName": "Sunny Bounder",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-EE2BBBA7FF0AD012",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/SunnyBounder.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-780E070FCE94E914",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/sunny-bounder.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/sunny-bounder.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-DF32BFB9D8AA9D68",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/sunnybounder__pilot-e142b034674e.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/sunnybounder__pilot-e142b034674e.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/cartelspacer",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "cartelspacer",
+      "pilotName": "Cartel Spacer",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-04C3EE4BECF03161",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/CartelSpacer.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-C9F69EE5D30C302A",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/cartel-spacer.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/cartel-spacer.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-F9991D450D1FA27D",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/inaldra",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "inaldra",
+      "pilotName": "Inaldra",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-1DD47A4BC70D25FD",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-7104E83401F88CFC",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/inaldra.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/inaldra.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-D7A7208E17B2C0F9",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/inaldra__pilot-d23bf9016c0d.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/inaldra__pilot-d23bf9016c0d.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/tansariipointveteran",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "tansariipointveteran",
+      "pilotName": "Tansarii Point Veteran",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 8,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-1DD47A4BC70D25FD",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-D7B351FBD76E1790",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/tansarii-point-veteran.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/tansarii-point-veteran.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-889A484B6707D161",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/tansariipointveteran__pilot-1f99131ce3e0.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/tansariipointveteran__pilot-1f99131ce3e0.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/laetinashera",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "laetinashera",
+      "pilotName": "Laetin A\u0027shera",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 16,
+      "positionZ": -6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-1DD47A4BC70D25FD",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-5ED90328901C79EF",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/laetin-a-shera.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/laetin-a-shera.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-284350B184D891B5",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/laetinashera__pilot-6842aeddcc32.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/laetinashera__pilot-6842aeddcc32.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/quinnjast",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "quinnjast",
+      "pilotName": "Quinn Jast",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -16,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-1DD47A4BC70D25FD",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-FB611DA52E19C4BC",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/quinn-jast.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/quinn-jast.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-54C99C3E69B2C66C",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/quinnjast__pilot-fead77745b91.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/quinnjast__pilot-fead77745b91.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/genesisred",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "genesisred",
+      "pilotName": "Genesis Red",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": -8,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-D5ADE14AFD30BCF0",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.jpg",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Textures/GenesisRed.jpg",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-44667C7A22A0C196",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/genesis-red.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/genesis-red.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-DEAFA7A033B67991",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    },
+    {
+      "requestedShipId": "m3ainterceptor",
+      "expectedFaction": "",
+      "packageId": "scumandvillainy/m3ainterceptor/serissu",
+      "shipId": "m3ainterceptor",
+      "shipName": "M3-A Interceptor",
+      "pilotId": "serissu",
+      "pilotName": "Serissu",
+      "faction": "scumandvillainy",
+      "baseSize": "small",
+      "baseTemplateKey": "FirstEditionSmallShipBase",
+      "pegTemplateKey": "FirstEditionSmallShipPeg",
+      "positionX": 0,
+      "positionZ": 6.5,
+      "packageStatus": "Ready",
+      "runtimeType": "Standard",
+      "status": "Ready",
+      "dialRuntimeRoot": "",
+      "moveSet": [
+        "wtl1",
+        "bbl1",
+        "bbr1",
+        "wtr1",
+        "wtl2",
+        "bbl2",
+        "bs2",
+        "bbr2",
+        "wtr2",
+        "wbl3",
+        "bs3",
+        "wbr3",
+        "rk3",
+        "ws4",
+        "rk5"
+      ],
+      "actSet": [
+        "F",
+        "TL",
+        "BR",
+        "E"
+      ],
+      "firstEditionActions": [],
+      "runtimeControls": {
+        "rotateArcAdditionalModes": []
+      },
+      "assets": [
+        {
+          "role": "ShipModel",
+          "assetId": "AST-6D330C84D7548093",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/m3a.obj",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "ShipTexture",
+          "assetId": "AST-1DD47A4BC70D25FD",
+          "repositoryPath": "assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/unified25/assets/ships-v2/small/m3ainterceptor/Icon.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Validation ships-v2 repository preference"
+        },
+        {
+          "role": "DialTexture",
+          "assetId": "AST-EB42BE2323CEC608",
+          "repositoryPath": "assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/first-edition-dial-textures/scumandvillainy_texture.png",
+          "exists": true,
+          "resolutionSource": "Authoritative First Edition faction dial texture",
+          "resolutionMethod": "Exact faction-to-master-texture mapping"
+        },
+        {
+          "role": "PilotCard",
+          "assetId": "AST-248A8F40F03454A7",
+          "repositoryPath": "assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/serissu.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/xwing-data/images/pilots/Scum and Villainy/M3-A Interceptor/serissu.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Authoritative xwing-data pilot-card path and exact normalised pilot identity"
+        },
+        {
+          "role": "PilotBaseToken",
+          "assetId": "AST-7761EF60359424B2",
+          "repositoryPath": "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/serissu__pilot-989dffe571d6.png",
+          "fullPath": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/serissu__pilot-989dffe571d6.png",
+          "exists": true,
+          "resolutionSource": "UKB deterministic role resolver",
+          "resolutionMethod": "Deterministic role-aware resolver score"
+        }
+      ],
+      "validationErrors": [],
+      "validationWarnings": []
+    }
+  ]
+}
