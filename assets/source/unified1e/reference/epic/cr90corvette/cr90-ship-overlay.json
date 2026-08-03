@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "implementationVersion": "15A-R4",
+  "generatedUtc": "2026-08-03T16:11:08.9168011+00:00",
+  "shipId": "cr90corvette",
+  "shipName": "CR90 Corvette",
+  "baseTemplatePath": "assets/source/unified1e/reference/epic/epic-base-template.json",
+  "sources": {
+    "shipIcon": "assets/source/unified1e/ships/epic/cr90corvette/icon.png",
+    "actionFont": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
+    "shipFont": "assets/source/unified1e/reference/fonts/xwing-miniatures-ships.ttf"
+  },
+  "fonts": [
+    {
+      "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
+      "familyName": "x-wing-symbols",
+      "sha256": "A820E361D5351C41F5B60AC8D2E7E6AC0E13A08C7DEA31420FC7FC3C075D88B5",
+      "loadedSuccessfully": true
+    },
+    {
+      "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures-ships.ttf",
+      "familyName": "x-wing-ships",
+      "sha256": "F616CAB1B4F37388A1A809D06BE0AF6CED9800642FA79F9BC45E0CD1F67F50A4",
+      "loadedSuccessfully": true
+    }
+  ],
+  "photographs": [
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/aft.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/aft_close.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/fore.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/fore_close.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/full.jpg"
+  ],
+  "shipRegions": [
+    {
+      "id": "fore-ship-icon",
+      "section": "Fore",
+      "purpose": "Ship-specific icon",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "aft-ship-icon",
+      "section": "Aft",
+      "purpose": "Ship-specific icon",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "ship-title",
+      "section": "Both",
+      "purpose": "Ship-specific title treatment",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "fore-stat-panel",
+      "section": "Fore",
+      "purpose": "Fore section statistics",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "aft-stat-panel",
+      "section": "Aft",
+      "purpose": "Aft section statistics",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "fore-action-area",
+      "section": "Fore",
+      "purpose": "Fore action symbols",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    {
+      "id": "aft-action-area",
+      "section": "Aft",
+      "purpose": "Aft action symbols",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    }
+  ],
+  "validationWarnings": [],
+  "notes": [
+    "This overlay contains only ship-specific semantic content.",
+    "It depends on the common Epic base template.",
+    "It does not duplicate common background, firing-arc, divider or mount-marker definitions.",
+    "All coordinates remain PendingUvCalibration until measured.",
+    "No final artwork or texture was generated."
+  ]
+}

@@ -1,3 +1,4 @@
+using UnifiedToolkit.Commands.AssetRestoration;
 using UnifiedToolkit.Commands;
 using UnifiedToolkit.Commands.RepositoryMaintenance;
 
@@ -123,6 +124,11 @@ return command switch
     "audit-unified1e-source-duplicates" => AuditUnified1eSourceDuplicatesCommand.Run(commandArgs),
     "quarantine-unified1e-source-duplicates" => QuarantineUnified1eSourceDuplicatesCommand.Run(commandArgs),
     "purge-unified1e-source-duplicates" => PurgeUnified1eSourceDuplicatesCommand.Run(commandArgs),
+    "build-epic-base-template" => BuildEpicBaseTemplateCommand.Run(commandArgs),
+    "build-epic-ship-overlay" => BuildEpicShipOverlayCommand.Run(commandArgs),
+    "generate-epic-base-calibration-texture" => GenerateEpicBaseCalibrationTextureCommand.Run(commandArgs),
+    "generate-epic-base-validation-save" => GenerateEpicBaseValidationSaveCommand.Run(commandArgs),
+    "build-epic-token-blueprint" => BuildEpicTokenBlueprintCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -239,6 +245,11 @@ static void ShowHelp()
     Console.WriteLine("  audit-unified1e-source-duplicates <first-edition-repo-folder>");
     Console.WriteLine("  quarantine-unified1e-source-duplicates <first-edition-repo-folder>");
     Console.WriteLine("  purge-unified1e-source-duplicates <first-edition-repo-folder> --confirm-purge");
+    Console.WriteLine("  build-epic-base-template <first-edition-repo-folder> [--output <file>]");
+    Console.WriteLine("  build-epic-ship-overlay <first-edition-repo-folder> --ship <ship-id> [--output <file>]");
+    Console.WriteLine("  generate-epic-base-calibration-texture <first-edition-repo-folder> [--template <file>] [--output <file>]");
+    Console.WriteLine("  generate-epic-base-validation-save <first-edition-repo-folder> <reference-save.json> [--template <file>] [--texture <file>] [--output <file>] [--asset-base-url <url>]");
+    Console.WriteLine("  build-epic-token-blueprint <first-edition-repo-folder> --ship <ship-id> [--output <folder>]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");

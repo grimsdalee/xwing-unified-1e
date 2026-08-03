@@ -1,0 +1,1542 @@
+{
+  "schemaVersion": "3.0.0",
+  "implementationVersion": "15A-R3",
+  "generatedUtc": "2026-08-03T15:51:34.6665541+00:00",
+  "shipId": "cr90corvette",
+  "shipName": "CR90 Corvette",
+  "canvas": {
+    "width": 2048,
+    "height": 2048,
+    "shape": "Rectangle",
+    "textureMode": "MeshOverlay"
+  },
+  "sources": {
+    "mesh": "assets/source/unified1e/bases/epic/base.obj",
+    "templateTexture": "assets/source/unified1e/bases/epic/front/rebel.png",
+    "shipIcon": "assets/source/unified1e/ships/epic/cr90corvette/icon.png",
+    "actionFont": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
+    "shipFont": "assets/source/unified1e/reference/fonts/xwing-miniatures-ships.ttf"
+  },
+  "mesh": {
+    "vertexCount": 88,
+    "textureCoordinateCount": 88,
+    "normalCount": 14,
+    "faceCount": 60,
+    "facesWithTextureCoordinates": 60,
+    "uvBounds": {
+      "minU": 0.013862,
+      "minV": 0.000233,
+      "maxU": 0.920475,
+      "maxV": 0.999766
+    },
+    "uvSegments": [
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.389627,
+          "v": 0.006997
+        },
+        "end": {
+          "u": 0.746173,
+          "v": 0.993003
+        }
+      },
+      {
+        "start": {
+          "u": 0.746173,
+          "v": 0.993003
+        },
+        "end": {
+          "u": 0.389628,
+          "v": 0.993003
+        }
+      },
+      {
+        "start": {
+          "u": 0.389628,
+          "v": 0.993003
+        },
+        "end": {
+          "u": 0.389627,
+          "v": 0.006997
+        }
+      },
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.701534
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.701534
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.701534
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.701534
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.701534
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.701534
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.389627,
+          "v": 0.006997
+        },
+        "end": {
+          "u": 0.746173,
+          "v": 0.006997
+        }
+      },
+      {
+        "start": {
+          "u": 0.746173,
+          "v": 0.006997
+        },
+        "end": {
+          "u": 0.746173,
+          "v": 0.993003
+        }
+      },
+      {
+        "start": {
+          "u": 0.9067,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.914457,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.914457,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.9067,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.9067,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.9067,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.881949,
+          "v": 0.745616
+        },
+        "end": {
+          "u": 0.889695,
+          "v": 0.384179
+        }
+      },
+      {
+        "start": {
+          "u": 0.889695,
+          "v": 0.384179
+        },
+        "end": {
+          "u": 0.889705,
+          "v": 0.745616
+        }
+      },
+      {
+        "start": {
+          "u": 0.889705,
+          "v": 0.745616
+        },
+        "end": {
+          "u": 0.881949,
+          "v": 0.745616
+        }
+      },
+      {
+        "start": {
+          "u": 0.889705,
+          "v": 0.362141
+        },
+        "end": {
+          "u": 0.881938,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.881938,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.881949,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.881949,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.889705,
+          "v": 0.362141
+        }
+      },
+      {
+        "start": {
+          "u": 0.914457,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.9067,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.914457,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.914457,
+          "v": 0.745612
+        }
+      },
+      {
+        "start": {
+          "u": 0.898476,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.906193,
+          "v": 0.38419
+        }
+      },
+      {
+        "start": {
+          "u": 0.906193,
+          "v": 0.38419
+        },
+        "end": {
+          "u": 0.906233,
+          "v": 0.745611
+        }
+      },
+      {
+        "start": {
+          "u": 0.906233,
+          "v": 0.745611
+        },
+        "end": {
+          "u": 0.898476,
+          "v": 0.745612
+        }
+      },
+      {
+        "start": {
+          "u": 0.890213,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.897929,
+          "v": 0.723559
+        }
+      },
+      {
+        "start": {
+          "u": 0.897929,
+          "v": 0.723559
+        },
+        "end": {
+          "u": 0.890172,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.890172,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.890213,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.898436,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.906233,
+          "v": 0.362151
+        }
+      },
+      {
+        "start": {
+          "u": 0.906233,
+          "v": 0.362151
+        },
+        "end": {
+          "u": 0.906193,
+          "v": 0.38419
+        }
+      },
+      {
+        "start": {
+          "u": 0.906193,
+          "v": 0.38419
+        },
+        "end": {
+          "u": 0.898436,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.890213,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.897929,
+          "v": 0.723559
+        }
+      },
+      {
+        "start": {
+          "u": 0.897929,
+          "v": 0.723559
+        },
+        "end": {
+          "u": 0.897969,
+          "v": 0.745598
+        }
+      },
+      {
+        "start": {
+          "u": 0.897969,
+          "v": 0.745598
+        },
+        "end": {
+          "u": 0.890213,
+          "v": 0.745612
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.640182
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.875463,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.853425,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.853425,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.875463,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.853425,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.723573
+        },
+        "end": {
+          "u": 0.853425,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.875931,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.897969,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.897969,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.87593,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.87593,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.875931,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.898436,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.920475,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.920475,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.898436,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.898436,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.898436,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.022272
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.000233
+        }
+      },
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.000233
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.022272
+        }
+      },
+      {
+        "start": {
+          "u": 0.768906,
+          "v": 0.63833
+        },
+        "end": {
+          "u": 0.768906,
+          "v": 0.361656
+        }
+      },
+      {
+        "start": {
+          "u": 0.768906,
+          "v": 0.361656
+        },
+        "end": {
+          "u": 0.791441,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.791441,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.768906,
+          "v": 0.63833
+        }
+      },
+      {
+        "start": {
+          "u": 0.822199,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.638331
+        }
+      },
+      {
+        "start": {
+          "u": 0.799665,
+          "v": 0.638331
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.799665,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.822199,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.9067,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.914457,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.914457,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.914457,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.881949,
+          "v": 0.745616
+        },
+        "end": {
+          "u": 0.881938,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.881938,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.889695,
+          "v": 0.384179
+        }
+      },
+      {
+        "start": {
+          "u": 0.889705,
+          "v": 0.362141
+        },
+        "end": {
+          "u": 0.889695,
+          "v": 0.384179
+        }
+      },
+      {
+        "start": {
+          "u": 0.914457,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.9067,
+          "v": 0.745612
+        }
+      },
+      {
+        "start": {
+          "u": 0.9067,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.9067,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.898476,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.898436,
+          "v": 0.384176
+        }
+      },
+      {
+        "start": {
+          "u": 0.890213,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.897969,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.897969,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.897929,
+          "v": 0.723559
+        }
+      },
+      {
+        "start": {
+          "u": 0.898436,
+          "v": 0.384176
+        },
+        "end": {
+          "u": 0.898476,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.898476,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.906233,
+          "v": 0.362151
+        }
+      },
+      {
+        "start": {
+          "u": 0.890213,
+          "v": 0.745612
+        },
+        "end": {
+          "u": 0.890172,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.364991,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.364991,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.640178
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.640178
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.364991,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.364991,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.364991,
+          "v": 0.640182
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.640178
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.640178
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.991312
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.991312
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.991312
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.991312
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.640178
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.020282
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.020282
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.020282
+        },
+        "end": {
+          "u": 0.343581,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.020282
+        }
+      },
+      {
+        "start": {
+          "u": 0.013862,
+          "v": 0.640182
+        },
+        "end": {
+          "u": 0.013862,
+          "v": 0.371412
+        }
+      },
+      {
+        "start": {
+          "u": 0.013862,
+          "v": 0.371412
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.640182
+        },
+        "end": {
+          "u": 0.013862,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.013862,
+          "v": 0.371412
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.371397
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.371397
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.020282
+        }
+      },
+      {
+        "start": {
+          "u": 0.343581,
+          "v": 0.640178
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.035272,
+          "v": 0.991312
+        },
+        "end": {
+          "u": 0.035272,
+          "v": 0.640182
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.875463,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.853425,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.362137
+        }
+      },
+      {
+        "start": {
+          "u": 0.875463,
+          "v": 0.362137
+        },
+        "end": {
+          "u": 0.875463,
+          "v": 0.723573
+        }
+      },
+      {
+        "start": {
+          "u": 0.875931,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.897969,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.897969,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.897969,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.898436,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.920475,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.920475,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.920475,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.339631
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.339631
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.339631
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.339631
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.022272
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.022272
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.022272
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.000233
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.000233
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.022272
+        }
+      },
+      {
+        "start": {
+          "u": 0.852958,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.822667,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.339631
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.822667,
+          "v": 0.000233
+        },
+        "end": {
+          "u": 0.852958,
+          "v": 0.000233
+        }
+      },
+      {
+        "start": {
+          "u": 0.830423,
+          "v": 0.339631
+        },
+        "end": {
+          "u": 0.830423,
+          "v": 0.022272
+        }
+      },
+      {
+        "start": {
+          "u": 0.76115,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.76115,
+          "v": 0.63833
+        }
+      },
+      {
+        "start": {
+          "u": 0.76115,
+          "v": 0.63833
+        },
+        "end": {
+          "u": 0.768906,
+          "v": 0.63833
+        }
+      },
+      {
+        "start": {
+          "u": 0.768906,
+          "v": 0.63833
+        },
+        "end": {
+          "u": 0.76115,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.768906,
+          "v": 0.361656
+        },
+        "end": {
+          "u": 0.76115,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.76115,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.761149,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.761149,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.768906,
+          "v": 0.361656
+        }
+      },
+      {
+        "start": {
+          "u": 0.791441,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.76115,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.768906,
+          "v": 0.63833
+        },
+        "end": {
+          "u": 0.791441,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.761149,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.791441,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.791441,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.791441,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.791908,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.799665,
+          "v": 0.36167
+        },
+        "end": {
+          "u": 0.791908,
+          "v": 0.36167
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.822199,
+          "v": 0.000234
+        }
+      },
+      {
+        "start": {
+          "u": 0.822199,
+          "v": 0.000234
+        },
+        "end": {
+          "u": 0.822199,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.822199,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.638331
+        }
+      },
+      {
+        "start": {
+          "u": 0.822199,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.791908,
+          "v": 0.999766
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.638331
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.999766
+        },
+        "end": {
+          "u": 0.791908,
+          "v": 0.638331
+        }
+      },
+      {
+        "start": {
+          "u": 0.791908,
+          "v": 0.638331
+        },
+        "end": {
+          "u": 0.799665,
+          "v": 0.638331
+        }
+      }
+    ],
+    "sha256": "D51E565EC6815C50BF5E8D1B02D80A3FDCA020BBC0291DD7E8881CDD0EBF73AC"
+  },
+  "template": {
+    "repositoryPath": "assets/source/unified1e/bases/epic/front/rebel.png",
+    "width": 2048,
+    "height": 2048,
+    "sha256": "8581082008D12F18AF35854637B06BFC7B8F53EC9C0BDB09FF38EAF024BE50E1"
+  },
+  "shipIcon": {
+    "repositoryPath": "assets/source/unified1e/ships/epic/cr90corvette/icon.png",
+    "width": 94,
+    "height": 94,
+    "sha256": "561143C732D795F350501E767A9FFC06F717AB4CD1EFAA4369B01D105D9B76C0"
+  },
+  "fonts": [
+    {
+      "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
+      "familyName": "x-wing-symbols",
+      "sha256": "A820E361D5351C41F5B60AC8D2E7E6AC0E13A08C7DEA31420FC7FC3C075D88B5",
+      "loadedSuccessfully": true
+    },
+    {
+      "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures-ships.ttf",
+      "familyName": "x-wing-ships",
+      "sha256": "F616CAB1B4F37388A1A809D06BE0AF6CED9800642FA79F9BC45E0CD1F67F50A4",
+      "loadedSuccessfully": true
+    }
+  ],
+  "photographs": [
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/aft.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/aft_close.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/fore.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/fore_close.jpg",
+    "assets/source/unified1e/reference/epic/cr90corvette/photos/full.jpg"
+  ],
+  "validationWarnings": [],
+  "layout": {
+    "status": "RectangularUvTextureFoundation",
+    "coordinateSpace": "NormalisedCanvasUv",
+    "orientation": "ForeAtTopAftAtBottom",
+    "usesPhysicalTokenOutline": false,
+    "usesPhysicalBaseGuideExtensions": false,
+    "requiresTransparentCutouts": false,
+    "meshUvBounds": {
+      "minU": 0.013862,
+      "minV": 0.000233,
+      "maxU": 0.920475,
+      "maxV": 0.999766
+    },
+    "foreSection": {
+      "id": "fore",
+      "name": "Fore",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    "aftSection": {
+      "id": "aft",
+      "name": "Aft",
+      "calibrationStatus": "PendingUvCalibration",
+      "bounds": null
+    },
+    "sectionDivider": {
+      "id": "fore-aft-divider",
+      "purpose": "Printed visual divider between Fore and Aft artwork",
+      "calibrationStatus": "PendingUvCalibration",
+      "start": null,
+      "end": null
+    },
+    "shipMountMarkers": [
+      {
+        "id": "fore-mount-marker",
+        "section": "Fore",
+        "purpose": "Printed ship-mount alignment guide; not a physical hole or cut-out",
+        "calibrationStatus": "PendingUvCalibration",
+        "centre": null,
+        "guideCircleRadius": null
+      },
+      {
+        "id": "aft-mount-marker",
+        "section": "Aft",
+        "purpose": "Printed ship-mount alignment guide; not a physical hole or cut-out",
+        "calibrationStatus": "PendingUvCalibration",
+        "centre": null,
+        "guideCircleRadius": null
+      }
+    ],
+    "artworkRegions": [
+      {
+        "id": "background",
+        "section": "Both",
+        "purpose": "Starfield and common background",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "fore-firing-arcs",
+        "section": "Fore",
+        "purpose": "Fore firing-arc artwork",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "aft-firing-arcs",
+        "section": "Aft",
+        "purpose": "Aft firing-arc artwork",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "fore-ship-icon",
+        "section": "Fore",
+        "purpose": "CR90 ship icon",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "aft-ship-icon",
+        "section": "Aft",
+        "purpose": "CR90 ship icon",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "ship-title",
+        "section": "Both",
+        "purpose": "CR90 Corvette title treatment",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "fore-stat-panel",
+        "section": "Fore",
+        "purpose": "Fore section statistics",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "aft-stat-panel",
+        "section": "Aft",
+        "purpose": "Aft section statistics",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "fore-action-area",
+        "section": "Fore",
+        "purpose": "Fore action symbols",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      },
+      {
+        "id": "aft-action-area",
+        "section": "Aft",
+        "purpose": "Aft action symbols",
+        "calibrationStatus": "PendingUvCalibration",
+        "bounds": null
+      }
+    ],
+    "notes": [
+      "The generated texture is a normal rectangular 2048 x 2048 image.",
+      "The Epic base OBJ and its UV mapping provide the rendered base shape.",
+      "The extended centre sections on the physical cardboard token are guides for two physical large bases and are not reproduced.",
+      "Ship mount markers are printed guide circles only; they are not holes, cut-outs or transparent regions.",
+      "Reference photographs are used only to calibrate artwork, colours, typography and spacing.",
+      "No semantic region coordinates are guessed in R3. All positions remain PendingUvCalibration until measured against the authoritative template and photographs.",
+      "No final token artwork or diagnostic images are generated by R3."
+    ]
+  }
+}
