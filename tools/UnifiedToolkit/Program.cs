@@ -120,6 +120,8 @@ return command switch
     "copy-unified1e-assets" => CopyUnified1eAssetsCommand.Run(commandArgs),
     "rewire-unified1e-asset-references" => RewireUnified1eAssetReferencesCommand.Run(commandArgs),
     "audit-prototype-asset-dependencies" => AuditPrototypeAssetDependenciesCommand.Run(commandArgs),
+    "audit-unified1e-source-duplicates" => AuditUnified1eSourceDuplicatesCommand.Run(commandArgs),
+    "quarantine-unified1e-source-duplicates" => QuarantineUnified1eSourceDuplicatesCommand.Run(commandArgs),
     "audit-prototype-artwork-candidates" => AuditPrototypeArtworkCandidatesCommand.Run(commandArgs),
     "generate-first-edition-dial-backs" => GenerateFirstEditionDialBacksCommand.Run(commandArgs),
     _ => UnknownCommand(command)
@@ -233,6 +235,8 @@ static void ShowHelp()
     Console.WriteLine("  copy-unified1e-assets <first-edition-repo-folder> [--plan <file>] [--apply]");
     Console.WriteLine("  rewire-unified1e-asset-references <first-edition-repo-folder> [--plan <file>] [--apply]");
     Console.WriteLine("  audit-prototype-asset-dependencies <first-edition-repo-folder> [--reference-save <file>] [--output <folder>]");
+    Console.WriteLine("  audit-unified1e-source-duplicates <first-edition-repo-folder>");
+    Console.WriteLine("  quarantine-unified1e-source-duplicates <first-edition-repo-folder>");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
     Console.WriteLine("  import-missing-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
