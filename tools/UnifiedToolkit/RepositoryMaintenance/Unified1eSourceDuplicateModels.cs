@@ -38,3 +38,34 @@ public static class Unified1eSourceDuplicateStatuses
     public const string AlreadyMissing = "AlreadyMissing";
     public const string Quarantined = "Quarantined";
 }
+
+
+public sealed class Unified1eSourceDuplicatePurgeLedger
+{
+    public string SchemaVersion { get; set; } = "1.0.0";
+    public DateTimeOffset UpdatedUtc { get; set; }
+    public List<Unified1eSourceDuplicatePurgeBatch> Batches { get; set; } = new();
+    public List<Unified1eSourceDuplicatePurgeEntry> Entries { get; set; } = new();
+}
+
+public sealed class Unified1eSourceDuplicatePurgeBatch
+{
+    public string BatchId { get; set; } = string.Empty;
+    public DateTimeOffset PurgedUtc { get; set; }
+    public string QuarantineRoot { get; set; } = string.Empty;
+    public int EntryCount { get; set; }
+    public long BytesPurged { get; set; }
+    public string ValidationNote { get; set; } = string.Empty;
+}
+
+public sealed class Unified1eSourceDuplicatePurgeEntry
+{
+    public string BatchId { get; set; } = string.Empty;
+    public DateTimeOffset PurgedUtc { get; set; }
+    public string OriginalPath { get; set; } = string.Empty;
+    public string QuarantinePath { get; set; } = string.Empty;
+    public string Unified1ePath { get; set; } = string.Empty;
+    public string Sha256 { get; set; } = string.Empty;
+    public long SizeBytes { get; set; }
+    public string Status { get; set; } = "Purged";
+}
