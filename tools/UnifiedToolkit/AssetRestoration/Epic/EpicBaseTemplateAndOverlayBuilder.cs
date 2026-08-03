@@ -121,12 +121,23 @@ public static class EpicBaseTemplateBuilder
             SurfaceMaxU,
             dividerV);
 
+        var mountDatabase =
+            EpicBaseMountPointBuilder.TryLoad(repositoryRoot)
+            ?? throw new InvalidDataException(
+                "The Epic base mount-point database is missing. " +
+                "Run build-epic-base-mount-points first.");
+
+        var foreMount = mountDatabase.MountPoints.Single(
+            point => point.Id == "fore");
+        var aftMount = mountDatabase.MountPoints.Single(
+            point => point.Id == "aft");
+
         var foreCentre = Point(
-            MapPhotoXToSurfaceU(ForeMountPhotoX),
-            MapPhotoYToSurfaceV(ForeMountPhotoY));
+            foreMount.TextureUv.U,
+            foreMount.TextureUv.V);
         var aftCentre = Point(
-            MapPhotoXToSurfaceU(AftMountPhotoX),
-            MapPhotoYToSurfaceV(AftMountPhotoY));
+            aftMount.TextureUv.U,
+            aftMount.TextureUv.V);
         var guideRadius =
             (SurfaceMaxU - SurfaceMinU)
             * MountGuideRadiusSurfaceWidth;
@@ -164,9 +175,9 @@ public static class EpicBaseTemplateBuilder
                 Notes = new List<string>
                 {
                     "The OBJ UV island defines the rectangular rendered top surface.",
-                    "The divider and two mount centres are normalized from full.jpg, then mapped into that UV island.",
+                    "The divider remains photograph-calibrated; both mount centres come from the spawned runtime mounting-point database.",
                     "The photograph is calibration provenance only and is not embedded in the template artwork.",
-                    "The guide-circle radius is a review value derived as 11% of the rendered surface width.",
+                    "The guide-circle radius is a review value; marker centres are mechanically derived from production peg locations.",
                     "R5 values remain reviewable until confirmed in the diagnostic overlay and Tabletop Simulator."
                 }
             },

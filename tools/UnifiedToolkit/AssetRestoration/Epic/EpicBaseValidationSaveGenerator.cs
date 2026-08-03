@@ -102,7 +102,13 @@ public static class EpicBaseValidationSaveGenerator
         {
             BuildEpicBaseObject(
                 AssetUrl(assetBaseUrl, meshRelative),
-                AssetUrl(assetBaseUrl, textureRelative)),
+                AssetUrl(assetBaseUrl, textureRelative),
+                AssetUrl(
+                    assetBaseUrl,
+                    "assets/source/unified1e/bases/pegs/epic.obj"),
+                AssetUrl(
+                    assetBaseUrl,
+                    "assets/source/unified1e/bases/epic/front/rebel.png")),
             BuildMarkerCube(
                 "f0a001",
                 "FORE / +Z",
@@ -174,6 +180,10 @@ public static class EpicBaseValidationSaveGenerator
             BaseTemplate = Relative(repositoryRoot, templatePath),
             CalibrationTexture = textureRelative,
             BaseMesh = meshRelative,
+            PegMesh = "assets/source/unified1e/bases/pegs/epic.obj",
+            MountPointDatabase =
+                "assets/source/unified1e/reference/epic/" +
+                "epic-base-mount-points.json",
             AssetBaseUrl = assetBaseUrl,
             SavePath = Relative(repositoryRoot, outputPath),
             ObjectCount = objects.Count
@@ -197,7 +207,9 @@ public static class EpicBaseValidationSaveGenerator
 
     private static JsonObject BuildEpicBaseObject(
         string meshUrl,
-        string textureUrl) =>
+        string textureUrl,
+        string pegMeshUrl,
+        string pegTextureUrl) =>
         new()
         {
             ["GUID"] = "e91cba",
@@ -240,6 +252,56 @@ public static class EpicBaseValidationSaveGenerator
                 ["MaterialIndex"] = 1,
                 ["TypeIndex"] = 1,
                 ["CastShadows"] = true
+            },
+            ["ChildObjects"] = new JsonArray
+            {
+                new JsonObject
+                {
+                    ["GUID"] = "e9peg1",
+                    ["Name"] = "Custom_Model",
+                    ["Transform"] = new JsonObject
+                    {
+                        ["posX"] = 0.0,
+                        ["posY"] = 0.0,
+                        ["posZ"] = 0.0,
+                        ["rotX"] = 0.0,
+                        ["rotY"] = 0.0,
+                        ["rotZ"] = 0.0,
+                        ["scaleX"] = 1.0,
+                        ["scaleY"] = 1.0,
+                        ["scaleZ"] = 1.0
+                    },
+                    ["Nickname"] = "Epic Pegs",
+                    ["Description"] =
+                        "Authoritative combined Fore/Aft Epic peg mesh.",
+                    ["ColorDiffuse"] = Colour(1, 1, 1),
+                    ["Locked"] = true,
+                    ["Grid"] = true,
+                    ["Snap"] = true,
+                    ["IgnoreFoW"] = false,
+                    ["MeasureMovement"] = false,
+                    ["DragSelectable"] = true,
+                    ["Autoraise"] = true,
+                    ["Sticky"] = true,
+                    ["Tooltip"] = true,
+                    ["GridProjection"] = false,
+                    ["HideWhenFaceDown"] = false,
+                    ["Hands"] = false,
+                    ["CustomMesh"] = new JsonObject
+                    {
+                        ["MeshURL"] = pegMeshUrl,
+                        ["DiffuseURL"] = pegTextureUrl,
+                        ["NormalURL"] = string.Empty,
+                        ["ColliderURL"] = pegMeshUrl,
+                        ["Convex"] = true,
+                        ["MaterialIndex"] = 1,
+                        ["TypeIndex"] = 1,
+                        ["CastShadows"] = true
+                    },
+                    ["LuaScript"] = string.Empty,
+                    ["LuaScriptState"] = string.Empty,
+                    ["XmlUI"] = string.Empty
+                }
             },
             ["LuaScript"] = string.Empty,
             ["LuaScriptState"] = string.Empty,
@@ -348,6 +410,8 @@ public static class EpicBaseValidationSaveGenerator
             "",
             $"Save: `{manifest.SavePath}`",
             $"Mesh: `{manifest.BaseMesh}`",
+            $"Peg mesh: `{manifest.PegMesh}`",
+            $"Mount points: `{manifest.MountPointDatabase}`",
             $"Texture: `{manifest.CalibrationTexture}`",
             $"Objects: {manifest.ObjectCount}"
         };

@@ -18,6 +18,8 @@ public sealed class EpicBaseValidationSaveManifest
     public string BaseTemplate { get; set; } = string.Empty;
     public string CalibrationTexture { get; set; } = string.Empty;
     public string BaseMesh { get; set; } = string.Empty;
+    public string PegMesh { get; set; } = string.Empty;
+    public string MountPointDatabase { get; set; } = string.Empty;
     public string AssetBaseUrl { get; set; } = string.Empty;
     public string SavePath { get; set; } = string.Empty;
     public int ObjectCount { get; set; }

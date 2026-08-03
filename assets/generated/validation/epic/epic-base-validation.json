@@ -1,7 +1,7 @@
 {
   "SaveName": "Unified 1E - Epic Base Calibration",
-  "EpochTime": 1785776304,
-  "Date": "8/3/2026 5:58:24 PM",
+  "EpochTime": 1785780890,
+  "Date": "8/3/2026 7:14:50 PM",
   "VersionNumber": "v14.2.1",
   "GameMode": "X-Wing First Edition",
   "GameType": "Game",
@@ -543,6 +543,56 @@
         "TypeIndex": 1,
         "CastShadows": true
       },
+      "ChildObjects": [
+        {
+          "GUID": "e9peg1",
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 0,
+            "posY": 0,
+            "posZ": 0,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Epic Pegs",
+          "Description": "Authoritative combined Fore/Aft Epic peg mesh.",
+          "ColorDiffuse": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "Locked": true,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/bases/pegs/epic.obj",
+            "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/bases/epic/front/rebel.png",
+            "NormalURL": "",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/bases/pegs/epic.obj",
+            "Convex": true,
+            "MaterialIndex": 1,
+            "TypeIndex": 1,
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        }
+      ],
       "LuaScript": "",
       "LuaScriptState": "",
       "XmlUI": ""

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "implementationVersion": "15A-R5",
-  "generatedUtc": "2026-08-03T16:24:30.5412277+00:00",
+  "generatedUtc": "2026-08-03T18:14:43.7551971+00:00",
   "canvas": {
     "width": 2048,
     "height": 2048,
@@ -1402,9 +1402,9 @@
       },
       "notes": [
         "The OBJ UV island defines the rectangular rendered top surface.",
-        "The divider and two mount centres are normalized from full.jpg, then mapped into that UV island.",
+        "The divider remains photograph-calibrated; both mount centres come from the spawned runtime mounting-point database.",
         "The photograph is calibration provenance only and is not embedded in the template artwork.",
-        "The guide-circle radius is a review value derived as 11% of the rendered surface width.",
+        "The guide-circle radius is a review value; marker centres are mechanically derived from production peg locations.",
         "R5 values remain reviewable until confirmed in the diagnostic overlay and Tabletop Simulator."
       ]
     },
@@ -1452,8 +1452,8 @@
         "purpose": "Printed ship-mount alignment guide; not a physical hole or cut-out",
         "calibrationStatus": "ReferenceCalibrated",
         "centre": {
-          "u": 0.18418524700000002,
-          "v": 0.83886029
+          "u": 0.1894265,
+          "v": 0.8207117060577422
         },
         "guideCircleRadius": 0.033913990000000005
       },
@@ -1463,8 +1463,8 @@
         "purpose": "Printed ship-mount alignment guide; not a physical hole or cut-out",
         "calibrationStatus": "ReferenceCalibrated",
         "centre": {
-          "u": 0.19559268000000002,
-          "v": 0.21060387999999997
+          "u": 0.18942650000000003,
+          "v": 0.19144220358074004
         },
         "guideCircleRadius": 0.033913990000000005
       }
