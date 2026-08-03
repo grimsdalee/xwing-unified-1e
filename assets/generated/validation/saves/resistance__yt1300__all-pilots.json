@@ -1,7 +1,7 @@
 {
   "SaveName": "X-Wing Unified 1E - Phase 12E R1 Runtime Faction Dial Prototype",
   "EpochTime": 1780236076,
-  "Date": "2026-08-02",
+  "Date": "2026-08-03",
   "VersionNumber": "v14.2.1",
   "GameMode": "X-Wing",
   "GameType": "Game",
@@ -515,7 +515,7 @@
       },
       "Nickname": "Resistance Sympathizer \u2014 YT-1300",
       "Description": "Phase 12B structural prototype\nShip: YT-1300\nPilot: Resistance Sympathizer\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Resistance Sympathizer\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Resistance Sympathizer\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -701,7 +701,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj",
             "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
             "NormalURL": "",
             "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
@@ -1618,7 +1618,7 @@
       },
       "Nickname": "Chewbacca \u2014 YT-1300",
       "Description": "Phase 12B structural prototype\nShip: YT-1300\nPilot: Chewbacca\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Chewbacca\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Chewbacca\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -1804,7 +1804,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj",
             "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
             "NormalURL": "",
             "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
@@ -2721,7 +2721,7 @@
       },
       "Nickname": "Rey \u2014 YT-1300",
       "Description": "Phase 12B structural prototype\nShip: YT-1300\nPilot: Rey\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Rey\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Rey\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -2907,7 +2907,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj",
             "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
             "NormalURL": "",
             "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
@@ -3824,7 +3824,7 @@
       },
       "Nickname": "Han Solo \u2014 YT-1300",
       "Description": "Phase 12B structural prototype\nShip: YT-1300\nPilot: Han Solo\nBase: FirstEditionLargeShipBase\nPeg: FirstEditionLargeShipPeg",
-      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Han Solo\u0022}}",
+      "GMNotes": "{\u0022arcIndicators\u0022:[],\u0022finishedSetup\u0022:true,\u0022interactable\u0022:true,\u0022owningPlayer\u0022:\u0022Black\u0022,\u0022shipData\u0022:{\u0022actSet\u0022:[\u0022F\u0022,\u0022TL\u0022],\u0022executeOptions\u0022:[],\u0022initiative\u0022:0,\u0022mesh\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj\u0022,\u0022mountingPoints\u0022:{\u0022main\u0022:[0,0]},\u0022moveSet\u0022:[\u0022wtl1\u0022,\u0022bbl1\u0022,\u0022bs1\u0022,\u0022bbr1\u0022,\u0022wtr1\u0022,\u0022wtl2\u0022,\u0022wbl2\u0022,\u0022bs2\u0022,\u0022wbr2\u0022,\u0022wtr2\u0022,\u0022wbl3\u0022,\u0022ws3\u0022,\u0022wbr3\u0022,\u0022rk3\u0022,\u0022ws4\u0022,\u0022rk4\u0022],\u0022movethrough\u0022:false,\u0022ProximityHider\u0022:false,\u0022shipId\u0022:\u0022yt1300\u0022,\u0022Size\u0022:\u0022large\u0022,\u0022texture\u0022:\u0022standard\u0022,\u0022textures\u0022:{\u0022standard\u0022:\u0022https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg\u0022},\u0022firstEditionActions\u0022:[]},\u0022tokenData\u0022:{\u0022tokens\u0022:[]},\u0022uiData\u0022:{\u0022icon\u0022:\u0022yt1300\u0022,\u0022init\u0022:\u0022init0\u0022,\u0022name\u0022:\u0022Han Solo\u0022}}",
       "AltLookAngle": {
         "x": 0.0,
         "y": 0.0,
@@ -4010,7 +4010,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/yt1300/yt1300modified.obj",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/yt1300scavenged.obj",
             "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
             "NormalURL": "",
             "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/support/models/minisculebox.obj",
