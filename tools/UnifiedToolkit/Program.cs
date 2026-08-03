@@ -127,6 +127,7 @@ return command switch
     "build-epic-base-template" => BuildEpicBaseTemplateCommand.Run(commandArgs),
     "build-epic-ship-overlay" => BuildEpicShipOverlayCommand.Run(commandArgs),
     "build-epic-base-mount-points" => BuildEpicBaseMountPointsCommand.Run(commandArgs),
+    "build-epic-faction-themes" => BuildEpicFactionThemesCommand.Run(commandArgs),
     "generate-epic-common-artwork-texture" => GenerateEpicCommonArtworkTextureCommand.Run(commandArgs),
     "generate-epic-base-calibration-texture" => GenerateEpicBaseCalibrationTextureCommand.Run(commandArgs),
     "generate-epic-base-validation-save" => GenerateEpicBaseValidationSaveCommand.Run(commandArgs),
@@ -250,6 +251,7 @@ static void ShowHelp()
     Console.WriteLine("  build-epic-base-template <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  build-epic-ship-overlay <first-edition-repo-folder> --ship <ship-id> [--output <file>]");
     Console.WriteLine("  build-epic-base-mount-points <first-edition-repo-folder> <spawned-epic-save.json> [--output <file>]");
+    Console.WriteLine("  build-epic-faction-themes <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  generate-epic-common-artwork-texture <first-edition-repo-folder> [--template <file>] [--mount-points <file>] [--output <file>]");
     Console.WriteLine("  generate-epic-base-calibration-texture <first-edition-repo-folder> [--template <file>] [--output <file>]");
     Console.WriteLine("  generate-epic-base-validation-save <first-edition-repo-folder> <reference-save.json> [--template <file>] [--texture <file>] [--output <file>] [--asset-base-url <url>]");

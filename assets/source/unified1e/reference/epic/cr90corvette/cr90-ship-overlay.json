@@ -1,14 +1,39 @@
 {
-  "schemaVersion": "1.0.0",
-  "implementationVersion": "15A-R4",
-  "generatedUtc": "2026-08-03T16:11:08.9168011+00:00",
+  "schemaVersion": "1.1.0",
+  "implementationVersion": "15C-R2",
+  "generatedUtc": "2026-08-03T22:35:01.1420385+00:00",
   "shipId": "cr90corvette",
   "shipName": "CR90 Corvette",
+  "factionId": "rebelalliance",
+  "factionThemeId": "rebelalliance",
   "baseTemplatePath": "assets/source/unified1e/reference/epic/epic-base-template.json",
   "sources": {
     "shipIcon": "assets/source/unified1e/ships/epic/cr90corvette/icon.png",
     "actionFont": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
     "shipFont": "assets/source/unified1e/reference/fonts/xwing-miniatures-ships.ttf"
+  },
+  "weapons": {
+    "hasPrimaryWeapon": true,
+    "firingArcs": [
+      {
+        "id": "fore-primary-arc",
+        "section": "Fore",
+        "arcType": "Primary",
+        "direction": "Forward",
+        "calibrationStatus": "PendingShipSpecificCalibration",
+        "origin": null,
+        "boundaryPoints": []
+      },
+      {
+        "id": "aft-primary-arc",
+        "section": "Aft",
+        "arcType": "Primary",
+        "direction": "Rear",
+        "calibrationStatus": "PendingShipSpecificCalibration",
+        "origin": null,
+        "boundaryPoints": []
+      }
+    ]
   },
   "fonts": [
     {
@@ -86,7 +111,7 @@
   "notes": [
     "This overlay contains only ship-specific semantic content.",
     "It depends on the common Epic base template.",
-    "It does not duplicate common background, firing-arc, divider or mount-marker definitions.",
+    "It does not duplicate common background, divider or mount-marker definitions.",
     "All coordinates remain PendingUvCalibration until measured.",
     "No final artwork or texture was generated."
   ]

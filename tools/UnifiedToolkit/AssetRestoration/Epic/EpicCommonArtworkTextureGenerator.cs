@@ -70,7 +70,7 @@ public static class EpicCommonArtworkTextureGenerator
             "generated",
             "epic",
             "common",
-            "epic-common-artwork-r1.png");
+            "epic-common-artwork-r2.png");
         outputPath = Path.GetFullPath(outputPath);
 
         Directory.CreateDirectory(
@@ -99,7 +99,6 @@ public static class EpicCommonArtworkTextureGenerator
         DrawBackground(canvas, surfaceRect);
         DrawStars(canvas, surfaceRect);
         DrawSectionTint(canvas, template, bitmap.Width, bitmap.Height);
-        DrawFiringArcs(canvas, template, mountPoints, bitmap.Width, bitmap.Height);
         DrawDivider(canvas, template, bitmap.Width, bitmap.Height);
         DrawMountGuides(canvas, template, mountPoints, bitmap.Width, bitmap.Height);
 
@@ -121,7 +120,7 @@ public static class EpicCommonArtworkTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-artwork",
-            "EPIC-COMMON-ARTWORK-R1.md");
+            "EPIC-COMMON-ARTWORK-R2.md");
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
         var result = new EpicCommonArtworkTextureResult
@@ -224,43 +223,6 @@ public static class EpicCommonArtworkTextureGenerator
         canvas.DrawRect(
             ToRect(aft, width, height),
             aftPaint);
-    }
-
-    private static void DrawFiringArcs(
-        SKCanvas canvas,
-        EpicBaseTemplate template,
-        EpicBaseMountPointDatabase mountPoints,
-        int width,
-        int height)
-    {
-        var surface = template.Layout.Calibration.MainRenderedSurface;
-        var fore = RequiredMountPoint(mountPoints, "fore");
-        var aft = RequiredMountPoint(mountPoints, "aft");
-
-        using var arcPaint = new SKPaint
-        {
-            IsAntialias = true,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = 8,
-            StrokeCap = SKStrokeCap.Round,
-            Color = new SKColor(205, 12, 42, 255)
-        };
-
-        var foreX = ToX(fore.TextureUv.U, width);
-        var foreY = ToY(fore.TextureUv.V, height);
-        var aftX = ToX(aft.TextureUv.U, width);
-        var aftY = ToY(aft.TextureUv.V, height);
-
-        var left = ToX(surface.MinU, width);
-        var right = ToX(surface.MaxU, width);
-        var top = ToY(surface.MaxV, height);
-        var bottom = ToY(surface.MinV, height);
-
-        canvas.DrawLine(left, top, foreX, foreY, arcPaint);
-        canvas.DrawLine(right, top, foreX, foreY, arcPaint);
-
-        canvas.DrawLine(left, bottom, aftX, aftY, arcPaint);
-        canvas.DrawLine(right, bottom, aftX, aftY, arcPaint);
     }
 
     private static void DrawDivider(
@@ -415,19 +377,19 @@ public static class EpicCommonArtworkTextureGenerator
     {
         var lines = new List<string>
         {
-            "# Epic Common Artwork — Phase 15C-R1",
+            "# Epic Common Artwork — Phase 15C-R2",
             "",
             "## Generated layers",
             "",
             "- Deterministic dark starfield",
             "- Shared Fore/Aft section tint",
-            "- Shared Fore and Aft firing-arc lines",
             "- Shared Fore/Aft divider",
             "- Printed mount-guide circles at validated peg centres",
             "",
             "## Deliberately not generated",
             "",
             "- Ship icon",
+            "- Ship-specific firing arcs",
             "- Ship title",
             "- Statistics",
             "- Action symbols",
@@ -440,7 +402,7 @@ public static class EpicCommonArtworkTextureGenerator
             $"Mount points: `{Relative(repositoryRoot, result.MountPointDatabasePath)}`",
             $"Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             "",
-            "This is a reusable common Epic artwork texture, not the final CR90 texture."
+            "This reusable common texture contains no firing arcs or ship-specific content."
         };
 
         File.WriteAllLines(

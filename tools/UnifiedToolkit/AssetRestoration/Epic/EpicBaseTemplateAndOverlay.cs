@@ -44,13 +44,16 @@ public sealed class EpicBaseTemplateCalibration
 
 public sealed class EpicShipOverlay
 {
-    public string SchemaVersion { get; set; } = "1.0.0";
-    public string ImplementationVersion { get; set; } = "15A-R4";
+    public string SchemaVersion { get; set; } = "1.1.0";
+    public string ImplementationVersion { get; set; } = "15C-R2";
     public DateTimeOffset GeneratedUtc { get; set; }
     public string ShipId { get; set; } = string.Empty;
     public string ShipName { get; set; } = string.Empty;
+    public string FactionId { get; set; } = string.Empty;
+    public string FactionThemeId { get; set; } = string.Empty;
     public string BaseTemplatePath { get; set; } = string.Empty;
     public EpicShipOverlaySources Sources { get; set; } = new();
+    public EpicShipWeaponLayout Weapons { get; set; } = new();
     public List<EpicTokenFontAnalysis> Fonts { get; set; } = new();
     public List<string> Photographs { get; set; } = new();
     public List<EpicTokenArtworkRegion> ShipRegions { get; set; } = new();
@@ -63,6 +66,24 @@ public sealed class EpicShipOverlaySources
     public string ShipIcon { get; set; } = string.Empty;
     public string ActionFont { get; set; } = string.Empty;
     public string ShipFont { get; set; } = string.Empty;
+}
+
+public sealed class EpicShipWeaponLayout
+{
+    public bool HasPrimaryWeapon { get; set; }
+    public List<EpicShipFiringArc> FiringArcs { get; set; } = new();
+}
+
+public sealed class EpicShipFiringArc
+{
+    public string Id { get; set; } = string.Empty;
+    public string Section { get; set; } = string.Empty;
+    public string ArcType { get; set; } = "Primary";
+    public string Direction { get; set; } = string.Empty;
+    public string CalibrationStatus { get; set; } =
+        "PendingShipSpecificCalibration";
+    public EpicTokenOptionalPoint? Origin { get; set; }
+    public List<EpicTokenOptionalPoint> BoundaryPoints { get; set; } = new();
 }
 
 public sealed class EpicBaseTemplateBuildResult

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "rebelalliance",
+    "displayName": "Rebel Alliance",
+    "primaryArcColour": {
+      "r": 221,
+      "g": 19,
+      "b": 48,
+      "a": 255
+    },
+    "arcFillColour": {
+      "r": 91,
+      "g": 8,
+      "b": 23,
+      "a": 78
+    },
+    "rearGuideColour": {
+      "r": 221,
+      "g": 19,
+      "b": 48,
+      "a": 255
+    },
+    "accentColour": {
+      "r": 188,
+      "g": 190,
+      "b": 196,
+      "a": 255
+    },
+    "dashboardAccentColour": {
+      "r": 142,
+      "g": 48,
+      "b": 52,
+      "a": 255
+    },
+    "calibrationStatus": "ReferenceCalibrated",
+    "referenceNotes": [
+      "Calibrated from the supplied Rebel small-base example.",
+      "Uses crimson arc lines and a dark burgundy firing sector."
+    ]
+  },
+  {
+    "id": "galacticempire",
+    "displayName": "Galactic Empire",
+    "primaryArcColour": {
+      "r": 139,
+      "g": 224,
+      "b": 10,
+      "a": 255
+    },
+    "arcFillColour": {
+      "r": 40,
+      "g": 90,
+      "b": 13,
+      "a": 78
+    },
+    "rearGuideColour": {
+      "r": 139,
+      "g": 224,
+      "b": 10,
+      "a": 255
+    },
+    "accentColour": {
+      "r": 188,
+      "g": 190,
+      "b": 196,
+      "a": 255
+    },
+    "dashboardAccentColour": {
+      "r": 77,
+      "g": 110,
+      "b": 56,
+      "a": 255
+    },
+    "calibrationStatus": "ReferenceCalibrated",
+    "referenceNotes": [
+      "Calibrated from the supplied Imperial small-base example.",
+      "Uses bright lime-green arc lines and a dark green firing sector."
+    ]
+  },
+  {
+    "id": "scumandvillainy",
+    "displayName": "Scum and Villainy",
+    "primaryArcColour": {
+      "r": 255,
+      "g": 224,
+      "b": 103,
+      "a": 255
+    },
+    "arcFillColour": {
+      "r": 101,
+      "g": 85,
+      "b": 22,
+      "a": 82
+    },
+    "rearGuideColour": {
+      "r": 255,
+      "g": 224,
+      "b": 103,
+      "a": 255
+    },
+    "accentColour": {
+      "r": 188,
+      "g": 190,
+      "b": 196,
+      "a": 255
+    },
+    "dashboardAccentColour": {
+      "r": 166,
+      "g": 126,
+      "b": 47,
+      "a": 255
+    },
+    "calibrationStatus": "ReferenceCalibrated",
+    "referenceNotes": [
+      "Calibrated from the supplied Scum small-base example.",
+      "Uses pale yellow arc lines and an olive/mustard firing sector."
+    ]
+  }
+]

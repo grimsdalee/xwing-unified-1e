@@ -232,17 +232,7 @@ public static class EpicBaseTemplateBuilder
                     "background",
                     "Both",
                     "Common background and starfield",
-                    surface),
-                Region(
-                    "fore-firing-arcs",
-                    "Fore",
-                    "Reference-calibrated envelope for Fore firing-arc artwork",
-                    foreBounds),
-                Region(
-                    "aft-firing-arcs",
-                    "Aft",
-                    "Reference-calibrated envelope for Aft firing-arc artwork",
-                    aftBounds)
+                    surface)
             },
             Notes = new List<string>
             {
@@ -553,6 +543,8 @@ public static class EpicShipOverlayBuilder
             GeneratedUtc = DateTimeOffset.UtcNow,
             ShipId = source.ShipId,
             ShipName = source.ShipName,
+            FactionId = ResolveFactionId(source.ShipId),
+            FactionThemeId = ResolveFactionId(source.ShipId),
             BaseTemplatePath =
                 "assets/source/unified1e/reference/epic/epic-base-template.json",
             Sources = new EpicShipOverlaySources
@@ -561,6 +553,7 @@ public static class EpicShipOverlayBuilder
                 ActionFont = source.Sources.ActionFont,
                 ShipFont = source.Sources.ShipFont
             },
+            Weapons = BuildWeaponLayout(source.ShipId),
             Fonts = source.Fonts,
             Photographs = source.Photographs,
             ValidationWarnings = source.ValidationWarnings.ToList(),
@@ -599,7 +592,7 @@ public static class EpicShipOverlayBuilder
             {
                 "This overlay contains only ship-specific semantic content.",
                 "It depends on the common Epic base template.",
-                "It does not duplicate common background, firing-arc, divider or mount-marker definitions.",
+                "It does not duplicate common background, divider or mount-marker definitions.",
                 "All coordinates remain PendingUvCalibration until measured.",
                 "No final artwork or texture was generated."
             }
@@ -649,6 +642,59 @@ public static class EpicShipOverlayBuilder
         };
     }
 
+    private static string ResolveFactionId(
+        string shipId) =>
+        shipId.ToLowerInvariant() switch
+        {
+            "cr90corvette" => "rebelalliance",
+            "gr75mediumtransport" => "rebelalliance",
+            "raiderclasscorvette" => "galacticempire",
+            "gozanticlasscruiser" => "galacticempire",
+            "croccruiser" => "scumandvillainy",
+            _ => throw new InvalidDataException(
+                $"No First Edition Epic faction mapping exists for '{shipId}'.")
+        };
+
+    private static EpicShipWeaponLayout BuildWeaponLayout(
+        string shipId) =>
+        shipId.ToLowerInvariant() switch
+        {
+            "gr75mediumtransport" => new EpicShipWeaponLayout
+            {
+                HasPrimaryWeapon = false
+            },
+            "croccruiser" => new EpicShipWeaponLayout
+            {
+                HasPrimaryWeapon = false
+            },
+            "cr90corvette" => ArmedForeAndAftLayout(),
+            "raiderclasscorvette" => ArmedForeAndAftLayout(),
+            "gozanticlasscruiser" => ArmedForeAndAftLayout(),
+            _ => throw new InvalidDataException(
+                $"No First Edition Epic weapon layout exists for '{shipId}'.")
+        };
+
+    private static EpicShipWeaponLayout ArmedForeAndAftLayout() =>
+        new()
+        {
+            HasPrimaryWeapon = true,
+            FiringArcs = new List<EpicShipFiringArc>
+            {
+                new()
+                {
+                    Id = "fore-primary-arc",
+                    Section = "Fore",
+                    Direction = "Forward"
+                },
+                new()
+                {
+                    Id = "aft-primary-arc",
+                    Section = "Aft",
+                    Direction = "Rear"
+                }
+            }
+        };
+
     private static EpicTokenArtworkRegion Region(
         string id,
         string section,
@@ -674,6 +720,10 @@ public static class EpicShipOverlayBuilder
             "",
             $"- Ship: {overlay.ShipName} ({overlay.ShipId})",
             $"- Base template: `{overlay.BaseTemplatePath}`",
+            $"- Faction: {overlay.FactionId}",
+            $"- Faction theme: {overlay.FactionThemeId}",
+            $"- Primary weapon: {overlay.Weapons.HasPrimaryWeapon}",
+            $"- Firing arcs: {overlay.Weapons.FiringArcs.Count}",
             $"- Ship-specific regions: {overlay.ShipRegions.Count}",
             $"- Reference photographs: {overlay.Photographs.Count}",
             $"- Fonts loaded: {overlay.Fonts.Count(font => font.LoadedSuccessfully)}/{overlay.Fonts.Count}",

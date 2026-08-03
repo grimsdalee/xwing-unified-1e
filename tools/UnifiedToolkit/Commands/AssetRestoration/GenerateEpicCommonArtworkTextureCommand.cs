@@ -22,7 +22,7 @@ public static class GenerateEpicCommonArtworkTextureCommand
                 ReadOption(args, "--output"));
 
             Console.WriteLine(
-                "UnifiedToolkit Phase 15C Epic Common Artwork");
+                "UnifiedToolkit Phase 15C Epic Common Artwork R2");
             Console.WriteLine(
                 "=============================================");
             Console.WriteLine($"Repository:             {repositoryRoot}");

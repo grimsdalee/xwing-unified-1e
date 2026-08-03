@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
   "implementationVersion": "15A-R5",
-  "generatedUtc": "2026-08-03T18:14:43.7551971+00:00",
+  "generatedUtc": "2026-08-03T22:34:58.0704423+00:00",
   "canvas": {
     "width": 2048,
     "height": 2048,
@@ -1480,30 +1480,6 @@
           "minV": 0.020282,
           "maxU": 0.343581,
           "maxV": 0.991312
-        }
-      },
-      {
-        "id": "fore-firing-arcs",
-        "section": "Fore",
-        "purpose": "Reference-calibrated envelope for Fore firing-arc artwork",
-        "calibrationStatus": "ReferenceCalibrated",
-        "bounds": {
-          "minU": 0.035272,
-          "minV": 0.5106521500000001,
-          "maxU": 0.343581,
-          "maxV": 0.991312
-        }
-      },
-      {
-        "id": "aft-firing-arcs",
-        "section": "Aft",
-        "purpose": "Reference-calibrated envelope for Aft firing-arc artwork",
-        "calibrationStatus": "ReferenceCalibrated",
-        "bounds": {
-          "minU": 0.035272,
-          "minV": 0.020282,
-          "maxU": 0.343581,
-          "maxV": 0.5106521500000001
         }
       }
     ],
