@@ -13,5 +13,5 @@ Save: `assets/generated/validation/epic/epic-base-validation.json`
 Mesh: `assets/source/unified1e/bases/epic/base.obj`
 Peg mesh: `assets/source/unified1e/bases/pegs/epic.obj`
 Mount points: `assets/source/unified1e/reference/epic/epic-base-mount-points.json`
-Texture: `assets/generated/epic/calibration/epic-base-calibration.png`
+Texture: `assets/generated/epic/common/epic-common-artwork-r1.png`
 Objects: 5

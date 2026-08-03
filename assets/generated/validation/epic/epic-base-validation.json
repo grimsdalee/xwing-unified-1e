@@ -1,7 +1,7 @@
 {
   "SaveName": "Unified 1E - Epic Base Calibration",
-  "EpochTime": 1785780890,
-  "Date": "8/3/2026 7:14:50 PM",
+  "EpochTime": 1785781725,
+  "Date": "8/3/2026 7:28:45 PM",
   "VersionNumber": "v14.2.1",
   "GameMode": "X-Wing First Edition",
   "GameType": "Game",
@@ -535,7 +535,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/bases/epic/base.obj",
-        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/epic/calibration/epic-base-calibration.png",
+        "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/generated/epic/common/epic-common-artwork-r1.png",
         "NormalURL": "",
         "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/bases/epic/base.obj",
         "Convex": true,

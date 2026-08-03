@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-03T18:14:50.2527304+00:00",
+  "generatedUtc": "2026-08-03T18:28:46.0151491+00:00",
   "repositoryRoot": ".",
   "referenceSave": "source/unified-2.5/2486128992.json",
   "baseTemplate": "assets/source/unified1e/reference/epic/epic-base-template.json",
-  "calibrationTexture": "assets/generated/epic/calibration/epic-base-calibration.png",
+  "calibrationTexture": "assets/generated/epic/common/epic-common-artwork-r1.png",
   "baseMesh": "assets/source/unified1e/bases/epic/base.obj",
   "pegMesh": "assets/source/unified1e/bases/pegs/epic.obj",
   "mountPointDatabase": "assets/source/unified1e/reference/epic/epic-base-mount-points.json",
