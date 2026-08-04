@@ -3,7 +3,7 @@ namespace UnifiedToolkit.AssetRestoration.Epic;
 public sealed class EpicShipTargetingLayoutCatalogue
 {
     public string SchemaVersion { get; set; } = "1.1.0";
-    public string ImplementationVersion { get; set; } = "15C-R4";
+    public string ImplementationVersion { get; set; } = "15C-R5";
     public DateTimeOffset GeneratedUtc { get; set; }
     public List<EpicShipTargetingLayout> Ships { get; set; } = new();
 }
@@ -51,7 +51,7 @@ public sealed class EpicTurretIndicator
 
 public sealed class EpicShipTargetingTextureResult
 {
-    public string ImplementationVersion { get; set; } = "15C-R4";
+    public string ImplementationVersion { get; set; } = "15C-R5";
     public string ShipId { get; set; } = string.Empty;
     public string ShipName { get; set; } = string.Empty;
     public string OutputPath { get; set; } = string.Empty;

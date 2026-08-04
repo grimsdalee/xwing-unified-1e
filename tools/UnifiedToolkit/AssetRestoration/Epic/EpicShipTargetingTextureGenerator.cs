@@ -75,7 +75,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r4.png");
+            $"{layout.ShipId}-targeting-r5.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -144,7 +144,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R4.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R5.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -294,7 +294,7 @@ public static class EpicShipTargetingTextureGenerator
         int height)
     {
         if (!indicator.Style.Equals(
-                "Cr90DualRotationArrows",
+                "Cr90ClockwiseAnnularArrow",
                 StringComparison.OrdinalIgnoreCase))
         {
             throw new InvalidDataException(
@@ -306,90 +306,97 @@ public static class EpicShipTargetingTextureGenerator
             width,
             height);
 
-        var colour = ToColour(theme.PrimaryArcColour);
-
-        DrawClockwiseRotationArrow(
+        DrawCr90ClockwiseAnnularArrow(
             canvas,
             centre,
-            width * 0.058f,
-            30,
-            282,
-            colour,
-            5.5f,
-            width * 0.019f);
-
-        DrawClockwiseRotationArrow(
-            canvas,
-            centre,
-            width * 0.043f,
-            205,
-            292,
-            colour,
-            5.0f,
-            width * 0.016f);
+            width,
+            ToColour(theme.PrimaryArcColour));
     }
 
-    private static void DrawClockwiseRotationArrow(
+    private static void DrawCr90ClockwiseAnnularArrow(
         SKCanvas canvas,
         SKPoint centre,
-        float radius,
-        float startDegrees,
-        float sweepDegrees,
-        SKColor colour,
-        float strokeWidth,
-        float arrowLength)
+        int textureWidth,
+        SKColor colour)
     {
-        using var stroke = new SKPaint
-        {
-            IsAntialias = true,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = strokeWidth,
-            StrokeCap = SKStrokeCap.Butt,
-            StrokeJoin = SKStrokeJoin.Miter,
-            Color = colour
-        };
+        var outerRadius = textureWidth * 0.061f;
+        var innerRadius = textureWidth * 0.050f;
 
-        var oval = new SKRect(
-            centre.X - radius,
-            centre.Y - radius,
-            centre.X + radius,
-            centre.Y + radius);
+        // The physical token has one broad clockwise arrow:
+        // a nearly complete annular band with a deliberate lower-right gap
+        // and a large arrowhead on the right-hand side.
+        const float startDegrees = 54.0f;
+        const float endDegrees = 337.0f;
+        var sweepDegrees = endDegrees - startDegrees;
 
-        canvas.DrawArc(
-            oval,
+        var outerRect = new SKRect(
+            centre.X - outerRadius,
+            centre.Y - outerRadius,
+            centre.X + outerRadius,
+            centre.Y + outerRadius);
+
+        var innerRect = new SKRect(
+            centre.X - innerRadius,
+            centre.Y - innerRadius,
+            centre.X + innerRadius,
+            centre.Y + innerRadius);
+
+        var outerStart = PointOnCircle(
+            centre,
+            outerRadius,
+            startDegrees);
+        var outerEnd = PointOnCircle(
+            centre,
+            outerRadius,
+            endDegrees);
+        var innerEnd = PointOnCircle(
+            centre,
+            innerRadius,
+            endDegrees);
+        var innerStart = PointOnCircle(
+            centre,
+            innerRadius,
+            startDegrees);
+
+        // Place the arrowhead on the right-hand side, pointing clockwise
+        // and downward into the deliberate lower-right gap.
+        var arrowTipAngle = 18.0f;
+        var arrowTipRadius = outerRadius + textureWidth * 0.021f;
+        var arrowTip = PointOnCircle(
+            centre,
+            arrowTipRadius,
+            arrowTipAngle);
+
+        var arrowOuterShoulder = PointOnCircle(
+            centre,
+            outerRadius + textureWidth * 0.006f,
+            355.0f);
+
+        var arrowInnerShoulder = PointOnCircle(
+            centre,
+            innerRadius - textureWidth * 0.003f,
+            350.0f);
+
+        using var path = new SKPath();
+        path.MoveTo(outerStart);
+        path.ArcTo(
+            outerRect,
             startDegrees,
             sweepDegrees,
-            false,
-            stroke);
+            false);
 
-        var endDegrees = startDegrees + sweepDegrees;
-        var angle = endDegrees * Math.PI / 180.0;
-        var tangent = (endDegrees + 90.0) * Math.PI / 180.0;
+        path.LineTo(arrowOuterShoulder);
+        path.LineTo(arrowTip);
+        path.LineTo(arrowInnerShoulder);
+        path.LineTo(innerEnd);
 
-        var tip = new SKPoint(
-            centre.X + radius * (float)Math.Cos(angle),
-            centre.Y + radius * (float)Math.Sin(angle));
+        path.ArcTo(
+            innerRect,
+            endDegrees,
+            -sweepDegrees,
+            false);
 
-        var back = new SKPoint(
-            tip.X - arrowLength * (float)Math.Cos(tangent),
-            tip.Y - arrowLength * (float)Math.Sin(tangent));
-
-        var halfWidth = arrowLength * 0.46f;
-        var normal = tangent + Math.PI / 2.0;
-
-        var left = new SKPoint(
-            back.X + halfWidth * (float)Math.Cos(normal),
-            back.Y + halfWidth * (float)Math.Sin(normal));
-
-        var right = new SKPoint(
-            back.X - halfWidth * (float)Math.Cos(normal),
-            back.Y - halfWidth * (float)Math.Sin(normal));
-
-        using var arrow = new SKPath();
-        arrow.MoveTo(tip);
-        arrow.LineTo(left);
-        arrow.LineTo(right);
-        arrow.Close();
+        path.Close();
 
         using var fill = new SKPaint
         {
@@ -398,7 +405,19 @@ public static class EpicShipTargetingTextureGenerator
             Color = colour
         };
 
-        canvas.DrawPath(arrow, fill);
+        canvas.DrawPath(path, fill);
+    }
+
+    private static SKPoint PointOnCircle(
+        SKPoint centre,
+        float radius,
+        float degrees)
+    {
+        var radians = degrees * Math.PI / 180.0;
+
+        return new SKPoint(
+            centre.X + radius * (float)Math.Cos(radians),
+            centre.Y + radius * (float)Math.Sin(radians));
     }
 
     private static EpicTokenOptionalPoint ResolveOrigin(
@@ -474,35 +493,92 @@ public static class EpicShipTargetingTextureGenerator
             },
 
             "ForePortSectionCorners" =>
-                new List<EpicTokenOptionalPoint>
-                {
-                    P(surface.MinU, surface.MaxV),
-                    P(surface.MinU, dividerV)
-                },
+                ResolveCr90SquareSideCorners(
+                    template,
+                    "fore",
+                    "port"),
 
             "ForeStarboardSectionCorners" =>
-                new List<EpicTokenOptionalPoint>
-                {
-                    P(surface.MaxU, surface.MaxV),
-                    P(surface.MaxU, dividerV)
-                },
+                ResolveCr90SquareSideCorners(
+                    template,
+                    "fore",
+                    "starboard"),
 
             "AftPortSectionCorners" =>
-                new List<EpicTokenOptionalPoint>
-                {
-                    P(surface.MinU, dividerV),
-                    P(surface.MinU, surface.MinV)
-                },
+                ResolveCr90SquareSideCorners(
+                    template,
+                    "aft",
+                    "port"),
 
             "AftStarboardSectionCorners" =>
-                new List<EpicTokenOptionalPoint>
-                {
-                    P(surface.MaxU, dividerV),
-                    P(surface.MaxU, surface.MinV)
-                },
+                ResolveCr90SquareSideCorners(
+                    template,
+                    "aft",
+                    "starboard"),
 
             _ => throw new InvalidDataException(
                 $"Unknown targeting destination '{name}'.")
+        };
+    }
+
+    private static List<EpicTokenOptionalPoint>
+        ResolveCr90SquareSideCorners(
+            EpicBaseTemplate template,
+            string sectionId,
+            string sideId)
+    {
+        var surface =
+            template.Layout.Calibration.MainRenderedSurface;
+
+        var markerId = sectionId.Equals(
+            "fore",
+            StringComparison.OrdinalIgnoreCase)
+            ? "fore-mount-marker"
+            : "aft-mount-marker";
+
+        var marker = template.Layout.ShipMountMarkers.Single(
+            item => item.Id.Equals(
+                markerId,
+                StringComparison.OrdinalIgnoreCase));
+
+        if (marker.Centre is null)
+        {
+            throw new InvalidDataException(
+                $"Mount marker '{markerId}' has no calibrated centre.");
+        }
+
+        // The textured width is the side length of each physical
+        // large-base square. Each mount is the square centre.
+        var squareSideUv =
+            surface.MaxU - surface.MinU;
+        var halfSquareUv =
+            squareSideUv / 2.0;
+
+        var squareMinV = Math.Max(
+            surface.MinV,
+            marker.Centre.V - halfSquareUv);
+        var squareMaxV = Math.Min(
+            surface.MaxV,
+            marker.Centre.V + halfSquareUv);
+
+        var sideU = sideId.Equals(
+            "port",
+            StringComparison.OrdinalIgnoreCase)
+            ? surface.MinU
+            : surface.MaxU;
+
+        return new List<EpicTokenOptionalPoint>
+        {
+            new()
+            {
+                U = sideU,
+                V = squareMaxV
+            },
+            new()
+            {
+                U = sideU,
+                V = squareMinV
+            }
         };
     }
 
@@ -571,7 +647,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R4",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R5",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -582,7 +658,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "No ship icon, title, statistics, actions or dashboard artwork was generated."
+            "R5 changes only the CR90 square-boundary geometry and Fore rotation arrow. No icon, title, statistics, actions or dashboard artwork was generated."
         };
 
         File.WriteAllLines(

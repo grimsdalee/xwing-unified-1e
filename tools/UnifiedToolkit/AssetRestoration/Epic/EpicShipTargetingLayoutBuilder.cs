@@ -123,7 +123,7 @@ public static class EpicShipTargetingLayoutBuilder
                 {
                     Id = "fore-dual-rotation-arrows",
                     Centre = "ForeMount",
-                    Style = "Cr90DualRotationArrows"
+                    Style = "Cr90ClockwiseAnnularArrow"
                 }
             },
             ReferenceImage =
@@ -134,7 +134,7 @@ public static class EpicShipTargetingLayoutBuilder
                 "Blue Fore/Aft divider.",
                 "Four independent red triangular targeting arcs: Fore port, Fore starboard, Aft port and Aft starboard.",
                 "Each triangle originates at the relevant mount marker and terminates at the two corners on one side of that large-base section.",
-                "The Fore mount carries a CR90-specific dual clockwise rotation-arrow graphic."
+                "The Fore mount carries one clockwise annular arrow with its arrowhead on the right-hand side."
             }
         };
 
