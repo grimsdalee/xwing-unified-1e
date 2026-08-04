@@ -70,7 +70,7 @@ public static class EpicCommonArtworkTextureGenerator
             "generated",
             "epic",
             "common",
-            "epic-common-artwork-r2.png");
+            "epic-common-artwork-r4.png");
         outputPath = Path.GetFullPath(outputPath);
 
         Directory.CreateDirectory(
@@ -98,9 +98,12 @@ public static class EpicCommonArtworkTextureGenerator
 
         DrawBackground(canvas, surfaceRect);
         DrawStars(canvas, surfaceRect);
-        DrawSectionTint(canvas, template, bitmap.Width, bitmap.Height);
-        DrawDivider(canvas, template, bitmap.Width, bitmap.Height);
-        DrawMountGuides(canvas, template, mountPoints, bitmap.Width, bitmap.Height);
+        DrawMountGuides(
+            canvas,
+            template,
+            mountPoints,
+            bitmap.Width,
+            bitmap.Height);
 
         canvas.Restore();
 
@@ -120,7 +123,7 @@ public static class EpicCommonArtworkTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-artwork",
-            "EPIC-COMMON-ARTWORK-R2.md");
+            "EPIC-COMMON-ARTWORK-R4.md");
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
         var result = new EpicCommonArtworkTextureResult
@@ -197,71 +200,6 @@ public static class EpicCommonArtworkTextureGenerator
         }
     }
 
-    private static void DrawSectionTint(
-        SKCanvas canvas,
-        EpicBaseTemplate template,
-        int width,
-        int height)
-    {
-        var fore = RequiredSection(template, "fore");
-        var aft = RequiredSection(template, "aft");
-
-        using var forePaint = new SKPaint
-        {
-            Style = SKPaintStyle.Fill,
-            Color = new SKColor(75, 0, 12, 32)
-        };
-        using var aftPaint = new SKPaint
-        {
-            Style = SKPaintStyle.Fill,
-            Color = new SKColor(75, 0, 12, 24)
-        };
-
-        canvas.DrawRect(
-            ToRect(fore, width, height),
-            forePaint);
-        canvas.DrawRect(
-            ToRect(aft, width, height),
-            aftPaint);
-    }
-
-    private static void DrawDivider(
-        SKCanvas canvas,
-        EpicBaseTemplate template,
-        int width,
-        int height)
-    {
-        var divider = template.Layout.SectionDivider;
-        if (divider.Start is null || divider.End is null)
-        {
-            throw new InvalidDataException(
-                "The Epic base divider is incomplete.");
-        }
-
-        using var outer = new SKPaint
-        {
-            IsAntialias = true,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = 11,
-            Color = new SKColor(12, 16, 22, 255)
-        };
-        using var inner = new SKPaint
-        {
-            IsAntialias = true,
-            Style = SKPaintStyle.Stroke,
-            StrokeWidth = 5,
-            Color = new SKColor(180, 185, 195, 255)
-        };
-
-        var startX = ToX(divider.Start.U, width);
-        var startY = ToY(divider.Start.V, height);
-        var endX = ToX(divider.End.U, width);
-        var endY = ToY(divider.End.V, height);
-
-        canvas.DrawLine(startX, startY, endX, endY, outer);
-        canvas.DrawLine(startX, startY, endX, endY, inner);
-    }
-
     private static void DrawMountGuides(
         SKCanvas canvas,
         EpicBaseTemplate template,
@@ -323,26 +261,6 @@ public static class EpicCommonArtworkTextureGenerator
         }
     }
 
-    private static EpicTokenOptionalBounds RequiredSection(
-        EpicBaseTemplate template,
-        string id) =>
-        template.Layout.Sections
-            .Single(section =>
-                section.Id.Equals(
-                    id,
-                    StringComparison.OrdinalIgnoreCase))
-            .Bounds
-        ?? throw new InvalidDataException(
-            $"The Epic template section '{id}' has no bounds.");
-
-    private static EpicBaseMountPoint RequiredMountPoint(
-        EpicBaseMountPointDatabase database,
-        string id) =>
-        database.MountPoints.Single(point =>
-            point.Id.Equals(
-                id,
-                StringComparison.OrdinalIgnoreCase));
-
     private static void ValidateInputs(
         EpicBaseTemplate template,
         EpicBaseMountPointDatabase mountPoints)
@@ -377,32 +295,31 @@ public static class EpicCommonArtworkTextureGenerator
     {
         var lines = new List<string>
         {
-            "# Epic Common Artwork — Phase 15C-R2",
+            "# Epic Common Artwork — Phase 15C-R4",
             "",
             "## Generated layers",
             "",
             "- Deterministic dark starfield",
-            "- Shared Fore/Aft section tint",
-            "- Shared Fore/Aft divider",
-            "- Printed mount-guide circles at validated peg centres",
+            "- Validated Fore and Aft printed mount-guide circles",
             "",
-            "## Deliberately not generated",
+            "## Deliberately excluded",
             "",
+            "- Fore/Aft divider",
+            "- Faction tint",
+            "- Targeting or firing arcs",
+            "- Turret indicators",
             "- Ship icon",
-            "- Ship-specific firing arcs",
             "- Ship title",
             "- Statistics",
             "- Action symbols",
-            "- Ship-specific decorative panels",
+            "- Dashboard artwork",
             "",
             $"Canvas: {result.Width} × {result.Height}",
             $"Stars: {result.StarCount}",
             $"SHA-256: `{result.Sha256}`",
             $"Template: `{Relative(repositoryRoot, result.TemplatePath)}`",
             $"Mount points: `{Relative(repositoryRoot, result.MountPointDatabasePath)}`",
-            $"Output: `{Relative(repositoryRoot, result.OutputPath)}`",
-            "",
-            "This reusable common texture contains no firing arcs or ship-specific content."
+            $"Output: `{Relative(repositoryRoot, result.OutputPath)}`"
         };
 
         File.WriteAllLines(
@@ -413,16 +330,6 @@ public static class EpicCommonArtworkTextureGenerator
 
     private static SKRect ToRect(
         EpicTokenUvBounds bounds,
-        int width,
-        int height) =>
-        new(
-            ToX(bounds.MinU, width),
-            ToY(bounds.MaxV, height),
-            ToX(bounds.MaxU, width),
-            ToY(bounds.MinV, height));
-
-    private static SKRect ToRect(
-        EpicTokenOptionalBounds bounds,
         int width,
         int height) =>
         new(

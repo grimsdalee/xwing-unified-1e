@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "commands": [
+    {
+      "id": "build-epic-layouts-example",
+      "name": "Build Epic targeting layouts",
+      "arguments": [
+        "build-epic-ship-targeting-layouts",
+        "{RepositoryRoot}"
+      ],
+      "timeoutMinutes": 10,
+      "createdUtc": "2026-08-04T00:00:00Z",
+      "completed": false,
+      "success": false
+    },
+    {
+      "id": "generate-cr90-example",
+      "name": "Generate CR90 targeting texture",
+      "arguments": [
+        "generate-epic-ship-targeting-texture",
+        "{RepositoryRoot}",
+        "--ship",
+        "cr90corvette"
+      ],
+      "timeoutMinutes": 10,
+      "createdUtc": "2026-08-04T00:00:01Z",
+      "completed": false,
+      "success": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "repositoryRoot": "C:\\Users\\Evan\\Documents\\GitHub\\xwing-unified-1e",
+  "toolkitProjectDirectory": "tools\\UnifiedToolkit",
+  "toolkitProjectFile": "UnifiedToolkit.csproj",
+  "dotNetExecutable": "dotnet",
+  "reportDirectory": "_unifiedtoolkit_reports\\build-agent",
+  "logDirectory": "_unifiedtoolkit_reports\\build-agent\\logs",
+  "queueFilePath": "_unifiedtoolkit_agent\\commands.json",
+  "singleInstanceMutexName": "Global\\UnifiedToolkitBuildAgent",
+  "buildOnStartup": true,
+  "runCleanBeforeBuild": false,
+  "treatWarningsAsErrors": false,
+  "debounceMilliseconds": 2500,
+  "queuePollSeconds": 5,
+  "defaultCommandTimeoutMinutes": 30,
+  "maximumRetainedLogs": 50,
+  "buildVerbosity": "minimal",
+  "watchDirectories": [
+    "."
+  ],
+  "watchedExtensions": [
+    ".cs",
+    ".csproj",
+    ".json",
+    ".props",
+    ".targets",
+    ".resx"
+  ],
+  "commandsAfterSuccessfulBuild": []
+}

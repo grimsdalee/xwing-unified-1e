@@ -127,6 +127,8 @@ return command switch
     "build-epic-base-template" => BuildEpicBaseTemplateCommand.Run(commandArgs),
     "build-epic-ship-overlay" => BuildEpicShipOverlayCommand.Run(commandArgs),
     "build-epic-base-mount-points" => BuildEpicBaseMountPointsCommand.Run(commandArgs),
+    "build-epic-ship-targeting-layouts" => BuildEpicShipTargetingLayoutsCommand.Run(commandArgs),
+    "generate-epic-ship-targeting-texture" => GenerateEpicShipTargetingTextureCommand.Run(commandArgs),
     "build-epic-faction-themes" => BuildEpicFactionThemesCommand.Run(commandArgs),
     "generate-epic-common-artwork-texture" => GenerateEpicCommonArtworkTextureCommand.Run(commandArgs),
     "generate-epic-base-calibration-texture" => GenerateEpicBaseCalibrationTextureCommand.Run(commandArgs),
@@ -251,6 +253,8 @@ static void ShowHelp()
     Console.WriteLine("  build-epic-base-template <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  build-epic-ship-overlay <first-edition-repo-folder> --ship <ship-id> [--output <file>]");
     Console.WriteLine("  build-epic-base-mount-points <first-edition-repo-folder> <spawned-epic-save.json> [--output <file>]");
+    Console.WriteLine("  build-epic-ship-targeting-layouts <first-edition-repo-folder> [--output <file>]");
+    Console.WriteLine("  generate-epic-ship-targeting-texture <first-edition-repo-folder> --ship <ship-id> [--catalogue <file>] [--template <file>] [--mount-points <file>] [--common-texture <file>] [--output <file>]");
     Console.WriteLine("  build-epic-faction-themes <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  generate-epic-common-artwork-texture <first-edition-repo-folder> [--template <file>] [--mount-points <file>] [--output <file>]");
     Console.WriteLine("  generate-epic-base-calibration-texture <first-edition-repo-folder> [--template <file>] [--output <file>]");
