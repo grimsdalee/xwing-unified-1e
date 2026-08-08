@@ -75,7 +75,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r11.png");
+            $"{layout.ShipId}-targeting-r12.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -83,7 +83,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R11 output already exists and will not be overwritten: {outputPath}");
+                $"The R12 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -150,7 +150,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R11.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R12.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -370,8 +370,17 @@ public static class EpicShipTargetingTextureGenerator
 
         var scale = targetOuterRadius / sourceOuterRadius;
 
+        // The correctly oriented 2026-08-08 flatbed scan of the physical FFG
+        // CR90 token places the turret-ring centre approximately 1.5 scan
+        // pixels left of the physical peg centre. Converted through the
+        // physical-token-to-UV-surface width ratio, this is approximately
+        // 1.44 px left on the 2048 x 2048 targeting texture. Express the
+        // adjustment relative to the calibrated outer radius so it remains
+        // proportional if texture resolution changes.
+        var horizontalOffset = -targetOuterRadius * 0.0115f;
+
         var destinationLeft =
-            centre.X - sourceCentreX * scale;
+            centre.X + horizontalOffset - sourceCentreX * scale;
         var destinationTop =
             centre.Y - sourceCentreY * scale;
 
@@ -653,7 +662,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R11",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R12",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -664,7 +673,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R11 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png directly over the calibrated Fore mount. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
+            "R12 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png over the calibrated Fore mount. The overlay keeps the R11 scale and vertical placement and applies only the scan-derived 1.44 px left adjustment. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
         };
 
         File.WriteAllLines(

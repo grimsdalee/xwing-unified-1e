@@ -21,7 +21,7 @@ public static class GenerateEpicShipTargetingTextureCommand
                 ReadOption(args, "--output"));
 
             Console.WriteLine(
-                "UnifiedToolkit Phase 15C-R11 Epic Ship Targeting Texture");
+                "UnifiedToolkit Phase 15C-R12 Epic Ship Targeting Texture");
             Console.WriteLine(
                 "====================================================");
             Console.WriteLine($"Repository:             {root}");

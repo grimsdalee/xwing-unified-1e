@@ -8,7 +8,7 @@
   "queueFilePath": "_unifiedtoolkit_agent\\commands.json",
   "singleInstanceMutexName": "Global\\UnifiedToolkitBuildAgent",
   "buildOnStartup": true,
-  "runCleanBeforeBuild": false,
+  "runCleanBeforeBuild": true,
   "treatWarningsAsErrors": false,
   "debounceMilliseconds": 2500,
   "queuePollSeconds": 5,
