@@ -124,6 +124,7 @@ return command switch
     "audit-unified1e-source-duplicates" => AuditUnified1eSourceDuplicatesCommand.Run(commandArgs),
     "quarantine-unified1e-source-duplicates" => QuarantineUnified1eSourceDuplicatesCommand.Run(commandArgs),
     "purge-unified1e-source-duplicates" => PurgeUnified1eSourceDuplicatesCommand.Run(commandArgs),
+    "extract-epic-reference-symbols" => ExtractEpicReferenceSymbolsCommand.Run(commandArgs),
     "build-epic-base-template" => BuildEpicBaseTemplateCommand.Run(commandArgs),
     "build-epic-ship-overlay" => BuildEpicShipOverlayCommand.Run(commandArgs),
     "build-epic-base-mount-points" => BuildEpicBaseMountPointsCommand.Run(commandArgs),
@@ -250,6 +251,7 @@ static void ShowHelp()
     Console.WriteLine("  audit-unified1e-source-duplicates <first-edition-repo-folder>");
     Console.WriteLine("  quarantine-unified1e-source-duplicates <first-edition-repo-folder>");
     Console.WriteLine("  purge-unified1e-source-duplicates <first-edition-repo-folder> --confirm-purge");
+    Console.WriteLine("  extract-epic-reference-symbols <repo-folder> --ship <ship-id> --reference-folder <folder> [--symbol fore-turret-arrow]");
     Console.WriteLine("  build-epic-base-template <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  build-epic-ship-overlay <first-edition-repo-folder> --ship <ship-id> [--output <file>]");
     Console.WriteLine("  build-epic-base-mount-points <first-edition-repo-folder> <spawned-epic-save.json> [--output <file>]");

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "implementationVersion": "15C-R5",
-  "generatedUtc": "2026-08-04T20:05:02.1352669+00:00",
+  "implementationVersion": "15C-R11",
+  "generatedUtc": "2026-08-05T00:24:44.7109701+00:00",
   "ships": [
     {
       "shipId": "cr90corvette",
@@ -65,7 +65,7 @@
         {
           "id": "fore-dual-rotation-arrows",
           "centre": "ForeMount",
-          "style": "Cr90ClockwiseAnnularArrow",
+          "style": "Cr90ClockwiseAnnularArrowOutline",
           "colourRole": "PrimaryArcColour",
           "calibrationStatus": "ReferenceDerived"
         }
@@ -75,7 +75,7 @@
         "Blue Fore/Aft divider.",
         "Four independent red triangular targeting arcs: Fore port, Fore starboard, Aft port and Aft starboard.",
         "Each triangle originates at the relevant mount marker and terminates at the two corners on one side of that large-base section.",
-        "The Fore mount carries one clockwise annular arrow with its arrowhead on the right-hand side."
+        "The Fore mount carries one clockwise annular-arrow outline with its arrowhead on the right-hand side."
       ]
     },
     {

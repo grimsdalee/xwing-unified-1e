@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "implementationVersion": "15C-R10",
+  "shipId": "cr90corvette",
+  "symbolId": "fore-turret-arrow",
+  "sourceImage": "C:\\Users\\Evan\\Documents\\GitHub\\Temp\\CR90\\CR90_fore_close.jpg",
+  "referenceMountCentre": {
+    "x": 889,
+    "y": 1075
+  },
+  "referenceOuterRadius": 482,
+  "sourceCrop": {
+    "x": 300,
+    "y": 520,
+    "width": 1120,
+    "height": 1040
+  },
+  "maskSize": {
+    "width": 1120,
+    "height": 1040
+  }
+}

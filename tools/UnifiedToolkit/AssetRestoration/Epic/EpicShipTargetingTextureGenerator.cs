@@ -75,10 +75,16 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r5.png");
+            $"{layout.ShipId}-targeting-r11.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
+
+        if (File.Exists(outputPath))
+        {
+            throw new IOException(
+                $"The R11 output already exists and will not be overwritten: {outputPath}");
+        }
 
         using var source = SKBitmap.Decode(commonTexturePath)
             ?? throw new InvalidDataException(
@@ -144,7 +150,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R5.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R11.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -294,7 +300,7 @@ public static class EpicShipTargetingTextureGenerator
         int height)
     {
         if (!indicator.Style.Equals(
-                "Cr90ClockwiseAnnularArrow",
+                "Cr90ClockwiseAnnularArrowOutline",
                 StringComparison.OrdinalIgnoreCase))
         {
             throw new InvalidDataException(
@@ -306,106 +312,106 @@ public static class EpicShipTargetingTextureGenerator
             width,
             height);
 
-        DrawCr90ClockwiseAnnularArrow(
+        DrawCr90ClockwiseAnnularArrowOutline(
             canvas,
             centre,
             width,
             ToColour(theme.PrimaryArcColour));
     }
 
-    private static void DrawCr90ClockwiseAnnularArrow(
+    private static void DrawCr90ClockwiseAnnularArrowOutline(
         SKCanvas canvas,
         SKPoint centre,
         int textureWidth,
         SKColor colour)
     {
-        var outerRadius = textureWidth * 0.061f;
-        var innerRadius = textureWidth * 0.050f;
-
-        // The physical token has one broad clockwise arrow:
-        // a nearly complete annular band with a deliberate lower-right gap
-        // and a large arrowhead on the right-hand side.
-        const float startDegrees = 54.0f;
-        const float endDegrees = 337.0f;
-        var sweepDegrees = endDegrees - startDegrees;
-
-        var outerRect = new SKRect(
-            centre.X - outerRadius,
-            centre.Y - outerRadius,
-            centre.X + outerRadius,
-            centre.Y + outerRadius);
-
-        var innerRect = new SKRect(
-            centre.X - innerRadius,
-            centre.Y - innerRadius,
-            centre.X + innerRadius,
-            centre.Y + innerRadius);
-
-        var outerStart = PointOnCircle(
+        DrawCr90TransparentTurretOverlay(
+            canvas,
             centre,
-            outerRadius,
-            startDegrees);
-        var outerEnd = PointOnCircle(
-            centre,
-            outerRadius,
-            endDegrees);
-        var innerEnd = PointOnCircle(
-            centre,
-            innerRadius,
-            endDegrees);
-        var innerStart = PointOnCircle(
-            centre,
-            innerRadius,
-            startDegrees);
+            textureWidth * 0.061f);
+    }
 
-        // Place the arrowhead on the right-hand side, pointing clockwise
-        // and downward into the deliberate lower-right gap.
-        var arrowTipAngle = 18.0f;
-        var arrowTipRadius = outerRadius + textureWidth * 0.021f;
-        var arrowTip = PointOnCircle(
-            centre,
-            arrowTipRadius,
-            arrowTipAngle);
+    private static void DrawCr90TransparentTurretOverlay(
+        SKCanvas canvas,
+        SKPoint centre,
+        float targetOuterRadius)
+    {
+        var repositoryRoot =
+            ResolveRepositoryRootForGeneratedAsset();
 
-        var arrowOuterShoulder = PointOnCircle(
-            centre,
-            outerRadius + textureWidth * 0.006f,
-            355.0f);
+        var overlayPath = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "source",
+            "unified1e",
+            "reference",
+            "epic",
+            "cr90corvette",
+            "turret_arrow.png");
 
-        var arrowInnerShoulder = PointOnCircle(
-            centre,
-            innerRadius - textureWidth * 0.003f,
-            350.0f);
-
-        using var path = new SKPath();
-        path.MoveTo(outerStart);
-        path.ArcTo(
-            outerRect,
-            startDegrees,
-            sweepDegrees,
-            false);
-
-        path.LineTo(arrowOuterShoulder);
-        path.LineTo(arrowTip);
-        path.LineTo(arrowInnerShoulder);
-        path.LineTo(innerEnd);
-
-        path.ArcTo(
-            innerRect,
-            endDegrees,
-            -sweepDegrees,
-            false);
-
-        path.Close();
-
-        using var fill = new SKPaint
+        if (!File.Exists(overlayPath))
         {
-            IsAntialias = true,
-            Style = SKPaintStyle.Fill,
-            Color = colour
-        };
+            throw new FileNotFoundException(
+                "The CR90 transparent turret overlay was not found.",
+                overlayPath);
+        }
 
-        canvas.DrawPath(path, fill);
+        using var overlay = SKBitmap.Decode(overlayPath)
+            ?? throw new InvalidDataException(
+                "Could not decode the CR90 transparent turret overlay.");
+
+        // Calibrated from the supplied 1800 x 1643 transparent PNG.
+        // These coordinates identify the centre and outer radius of the
+        // circular turret graphic inside the source canvas. The arrowhead
+        // extends farther to the right and is preserved by the same scale.
+        const float sourceCentreX = 824.0f;
+        const float sourceCentreY = 821.5f;
+        const float sourceOuterRadius = 731.5f;
+
+        var scale = targetOuterRadius / sourceOuterRadius;
+
+        var destinationLeft =
+            centre.X - sourceCentreX * scale;
+        var destinationTop =
+            centre.Y - sourceCentreY * scale;
+
+        var destination = new SKRect(
+            destinationLeft,
+            destinationTop,
+            destinationLeft + overlay.Width * scale,
+            destinationTop + overlay.Height * scale);
+
+        var sampling = new SKSamplingOptions(
+            SKCubicResampler.Mitchell);
+
+        using var overlayImage = SKImage.FromBitmap(overlay);
+
+        canvas.DrawImage(
+            overlayImage,
+            destination,
+            sampling);
+    }
+
+    private static string ResolveRepositoryRootForGeneratedAsset()
+    {
+        var current = new DirectoryInfo(
+            Directory.GetCurrentDirectory());
+
+        while (current is not null)
+        {
+            if (Directory.Exists(
+                    Path.Combine(current.FullName, "assets"))
+                && Directory.Exists(
+                    Path.Combine(current.FullName, "tools")))
+            {
+                return current.FullName;
+            }
+
+            current = current.Parent;
+        }
+
+        throw new DirectoryNotFoundException(
+            "Could not resolve the repository root from the current directory.");
     }
 
     private static SKPoint PointOnCircle(
@@ -647,7 +653,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R5",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R11",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -658,7 +664,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R5 changes only the CR90 square-boundary geometry and Fore rotation arrow. No icon, title, statistics, actions or dashboard artwork was generated."
+            "R11 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png directly over the calibrated Fore mount. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
         };
 
         File.WriteAllLines(
