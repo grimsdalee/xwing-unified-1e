@@ -75,7 +75,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r14.png");
+            $"{layout.ShipId}-targeting-r15.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -83,7 +83,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R14 output already exists and will not be overwritten: {outputPath}");
+                $"The R15 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -161,7 +161,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R14.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R15.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -452,39 +452,44 @@ public static class EpicShipTargetingTextureGenerator
                 "1912 x 5240 600-dpi source image.");
         }
 
-        using var scanImage = SKImage.FromBitmap(scan);
         var sampling = new SKSamplingOptions(
             SKCubicResampler.Mitchell);
 
-        // R14 keeps the generated starfield, targeting geometry and turret
-        // artwork from R13. Only the ship-specific printed dashboard regions
-        // are copied from the physical First Edition scan.
-        DrawCr90ScanCrop(
+        // R15 retains the locked R13 targeting geometry/turret placement and
+        // the R14 ship-silhouette placement. The physical First Edition scan
+        // remains the authority for dashboard height and artwork placement.
+        // Unlike R14, the dashboard sources span the complete physical token
+        // width. A light source-resolution de-screen pass suppresses the
+        // scanner/printed-cardboard dot pattern before final downsampling.
+        DrawCr90DescreenedScanCrop(
             canvas,
-            scanImage,
+            scan,
             template,
-            new SKRectI(280, 0, 1415, 390),
+            new SKRectI(74, 0, 1775, 390),
             foreSection: true,
             textureWidth,
             textureHeight,
             sampling);
 
-        DrawCr90ScanCrop(
+        DrawCr90DescreenedScanCrop(
             canvas,
-            scanImage,
+            scan,
             template,
-            new SKRectI(280, 4840, 1415, 5239),
+            new SKRectI(74, 4840, 1775, 5239),
             foreSection: false,
             textureWidth,
             textureHeight,
             sampling);
 
-        // Action artwork is extracted from the same physical scan by colour,
-        // so scanner background/starfield pixels are not composited. The
-        // small ActionIcons files are identification references only.
-        DrawCr90GreenScanArtwork(
+        // R14 colour-keyed the action artwork from the physical scan. That
+        // retained the cardboard halftone and scanner colour noise. R15 uses
+        // the existing First Edition ActionIcons strictly as silhouette masks,
+        // then applies one clean FFG-style action green. The physical scan is
+        // still authoritative for each symbol's size and position.
+        DrawCr90ActionIcon(
             canvas,
-            scan,
+            repositoryRoot,
+            "target_lock.png",
             template,
             new SKRectI(1535, 776, 1650, 876),
             foreSection: true,
@@ -492,9 +497,10 @@ public static class EpicShipTargetingTextureGenerator
             textureHeight,
             sampling);
 
-        DrawCr90GreenScanArtwork(
+        DrawCr90ActionIcon(
             canvas,
-            scan,
+            repositoryRoot,
+            "coordinate.png",
             template,
             new SKRectI(1535, 918, 1651, 1036),
             foreSection: true,
@@ -502,9 +508,10 @@ public static class EpicShipTargetingTextureGenerator
             textureHeight,
             sampling);
 
-        DrawCr90GreenScanArtwork(
+        DrawCr90ActionIcon(
             canvas,
-            scan,
+            repositoryRoot,
+            "reinforce.png",
             template,
             new SKRectI(1531, 4203, 1639, 4311),
             foreSection: false,
@@ -512,9 +519,10 @@ public static class EpicShipTargetingTextureGenerator
             textureHeight,
             sampling);
 
-        DrawCr90GreenScanArtwork(
+        DrawCr90ActionIcon(
             canvas,
-            scan,
+            repositoryRoot,
+            "recover.png",
             template,
             new SKRectI(1523, 4355, 1642, 4457),
             foreSection: false,
@@ -531,35 +539,7 @@ public static class EpicShipTargetingTextureGenerator
             sampling);
     }
 
-    private static void DrawCr90ScanCrop(
-        SKCanvas canvas,
-        SKImage scanImage,
-        EpicBaseTemplate template,
-        SKRectI source,
-        bool foreSection,
-        int textureWidth,
-        int textureHeight,
-        SKSamplingOptions sampling)
-    {
-        var destination = MapCr90ScanRect(
-            source,
-            foreSection,
-            template,
-            textureWidth,
-            textureHeight);
-
-        canvas.DrawImage(
-            scanImage,
-            new SKRect(
-                source.Left,
-                source.Top,
-                source.Right,
-                source.Bottom),
-            destination,
-            sampling);
-    }
-
-    private static void DrawCr90GreenScanArtwork(
+    private static void DrawCr90DescreenedScanCrop(
         SKCanvas canvas,
         SKBitmap scan,
         EpicBaseTemplate template,
@@ -569,39 +549,39 @@ public static class EpicShipTargetingTextureGenerator
         int textureHeight,
         SKSamplingOptions sampling)
     {
-        using var extracted = new SKBitmap(
+        using var cleaned = new SKBitmap(
             source.Width,
             source.Height,
             SKColorType.Rgba8888,
             SKAlphaType.Premul);
+        cleaned.Erase(SKColors.Transparent);
 
-        extracted.Erase(SKColors.Transparent);
-
-        for (var y = 0; y < source.Height; y++)
+        using var descreenFilter = SKImageFilter.CreateBlur(1.15f, 1.15f);
+        using (var cleanCanvas = new SKCanvas(cleaned))
+        using (var scanImage = SKImage.FromBitmap(scan))
+        using (var cleanPaint = new SKPaint
         {
-            for (var x = 0; x < source.Width; x++)
-            {
-                var colour = scan.GetPixel(
-                    source.Left + x,
-                    source.Top + y);
-                var greenDominance =
-                    colour.Green - (colour.Red + colour.Blue) / 2;
-
-                if (colour.Green >= 60 && greenDominance >= 12)
-                {
-                    extracted.SetPixel(
-                        x,
-                        y,
-                        new SKColor(
-                            colour.Red,
-                            colour.Green,
-                            colour.Blue,
-                            255));
-                }
-            }
+            IsAntialias = true,
+            ImageFilter = descreenFilter
+        })
+        {
+            cleanCanvas.DrawImage(
+                scanImage,
+                new SKRect(
+                    source.Left,
+                    source.Top,
+                    source.Right,
+                    source.Bottom),
+                new SKRect(
+                    0,
+                    0,
+                    source.Width,
+                    source.Height),
+                sampling,
+                cleanPaint);
         }
 
-        using var extractedImage = SKImage.FromBitmap(extracted);
+        using var cleanedImage = SKImage.FromBitmap(cleaned);
         var destination = MapCr90ScanRect(
             source,
             foreSection,
@@ -610,7 +590,76 @@ public static class EpicShipTargetingTextureGenerator
             textureHeight);
 
         canvas.DrawImage(
-            extractedImage,
+            cleanedImage,
+            destination,
+            sampling);
+    }
+
+    private static void DrawCr90ActionIcon(
+        SKCanvas canvas,
+        string repositoryRoot,
+        string iconFileName,
+        EpicBaseTemplate template,
+        SKRectI physicalVisibleBounds,
+        bool foreSection,
+        int textureWidth,
+        int textureHeight,
+        SKSamplingOptions sampling)
+    {
+        var iconPath = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "ActionIcons",
+            iconFileName);
+
+        if (!File.Exists(iconPath))
+        {
+            throw new FileNotFoundException(
+                $"The First Edition action-icon reference '{iconFileName}' was not found.",
+                iconPath);
+        }
+
+        using var sourceIcon = SKBitmap.Decode(iconPath)
+            ?? throw new InvalidDataException(
+                $"Could not decode action-icon reference '{iconFileName}'.");
+
+        using var cleanIcon = new SKBitmap(
+            sourceIcon.Width,
+            sourceIcon.Height,
+            SKColorType.Rgba8888,
+            SKAlphaType.Premul);
+        cleanIcon.Erase(SKColors.Transparent);
+
+        // Solid colour intentionally replaces the colour information in the
+        // small reference PNG. Only its alpha silhouette is retained.
+        var actionGreen = new SKColor(119, 160, 45, 255);
+
+        for (var y = 0; y < sourceIcon.Height; y++)
+        {
+            for (var x = 0; x < sourceIcon.Width; x++)
+            {
+                var alpha = sourceIcon.GetPixel(x, y).Alpha;
+                if (alpha == 0)
+                    continue;
+
+                cleanIcon.SetPixel(
+                    x,
+                    y,
+                    actionGreen.WithAlpha(alpha));
+            }
+        }
+
+        using var cleanImage = SKImage.FromBitmap(cleanIcon);
+        var destination = MapCr90ScanRect(
+            physicalVisibleBounds,
+            foreSection,
+            template,
+            textureWidth,
+            textureHeight);
+
+        canvas.DrawImage(
+            cleanImage,
             destination,
             sampling);
     }
@@ -992,7 +1041,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R14",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R15",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -1003,7 +1052,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R14 retains the locked R13 CR90 targeting geometry and turret calibration, then adds ship-specific First Edition printed artwork. Fore/Aft name plates, statistics and energy panels are composited from the untouched 1912 x 5240 Canon LiDE 400 600-dpi physical-token scan; the four green action symbols are colour-extracted from that same scan; and the existing unified1e transparent CR90 silhouette is positioned and scaled from scan measurements. Unified 2.5 CR90 artwork is not used."
+            "R15 retains the locked R13 CR90 targeting geometry/turret calibration and the approved R14 white CR90 silhouette. The Fore/Aft dashboard strips now span the complete calibrated physical-token width while retaining the R14 heights; they are source-resolution de-screened before downsampling to reduce physical print/scanner colour noise. The four green action symbols use the existing First Edition ActionIcons only as alpha silhouettes, rendered in one clean action green and positioned/scaled from the 600-dpi physical scan. The 1912 x 5240 Canon LiDE 400 scan remains the measurement authority. Unified 2.5 CR90 artwork is not used."
         };
 
         File.WriteAllLines(
