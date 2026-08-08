@@ -16,29 +16,47 @@ public static class GenerateEpicBaseValidationSaveCommand
         {
             var repositoryRoot = Path.GetFullPath(args[0]);
             var referenceSave = Path.GetFullPath(args[1]);
+            var compareSizes = HasFlag(args, "--compare-sizes");
             var manifest = EpicBaseValidationSaveGenerator.Generate(
                 repositoryRoot,
                 referenceSave,
                 ReadOption(args, "--template"),
                 ReadOption(args, "--texture"),
                 ReadOption(args, "--output"),
-                ReadOption(args, "--asset-base-url"));
+                ReadOption(args, "--asset-base-url"),
+                ReadOption(args, "--ship"),
+                compareSizes);
+
+            var ship = ReadOption(args, "--ship");
 
             Console.WriteLine(
-                "UnifiedToolkit Phase 15B Epic Base Validation Save");
+                compareSizes
+                    ? "UnifiedToolkit Phase 15C Epic Base Size Comparison Save"
+                    : ship is null
+                    ? "UnifiedToolkit Phase 15B Epic Base Validation Save"
+                    : "UnifiedToolkit Phase 15C Locked Epic Ship Base Validation Save");
             Console.WriteLine(
                 "==================================================");
             Console.WriteLine($"Repository:             {repositoryRoot}");
             Console.WriteLine($"Reference save:         {referenceSave}");
             Console.WriteLine($"Base mesh:              {manifest.BaseMesh}");
             Console.WriteLine(
-                $"Calibration texture:    {manifest.CalibrationTexture}");
+                ship is null
+                    ? $"Calibration texture:    {manifest.CalibrationTexture}"
+                    : $"Locked texture:         {manifest.CalibrationTexture}");
+            if (ship is not null)
+                Console.WriteLine($"Locked ship:            {ship}");
+            if (compareSizes)
+                Console.WriteLine("Base sizes:             Epic Long + Epic Short");
             Console.WriteLine($"Objects:                {manifest.ObjectCount}");
             Console.WriteLine($"Save:                   {manifest.SavePath}");
             Console.WriteLine();
             Console.WriteLine(
-                "Load the generated save in Tabletop Simulator and verify " +
-                "orientation, divider, mount markers and UV coverage.");
+                compareSizes
+                    ? "Load the generated save in Tabletop Simulator and compare the long and short First Edition Epic footprints and peg spacing."
+                    : ship is null
+                    ? "Load the generated save in Tabletop Simulator and verify orientation, divider, mount markers and UV coverage."
+                    : "Load the generated save in Tabletop Simulator and verify the locked ship-base artwork and UV coverage.");
             return 0;
         }
         catch (Exception ex)
@@ -48,6 +66,14 @@ public static class GenerateEpicBaseValidationSaveCommand
             return 1;
         }
     }
+
+    private static bool HasFlag(
+        string[] args,
+        string name) =>
+        args.Skip(2).Any(
+            value => value.Equals(
+                name,
+                StringComparison.OrdinalIgnoreCase));
 
     private static string? ReadOption(
         string[] args,
@@ -71,6 +97,7 @@ public static class GenerateEpicBaseValidationSaveCommand
         Console.WriteLine(
             "Usage: UnifiedToolkit generate-epic-base-validation-save " +
             "<first-edition-repo-folder> <reference-save.json> " +
+            "[--ship <ship-id>] [--compare-sizes] " +
             "[--template <file>] [--texture <file>] " +
             "[--output <file>] [--asset-base-url <url>]");
     }

@@ -260,7 +260,7 @@ static void ShowHelp()
     Console.WriteLine("  build-epic-faction-themes <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  generate-epic-common-artwork-texture <first-edition-repo-folder> [--template <file>] [--mount-points <file>] [--output <file>]");
     Console.WriteLine("  generate-epic-base-calibration-texture <first-edition-repo-folder> [--template <file>] [--output <file>]");
-    Console.WriteLine("  generate-epic-base-validation-save <first-edition-repo-folder> <reference-save.json> [--template <file>] [--texture <file>] [--output <file>] [--asset-base-url <url>]");
+    Console.WriteLine("  generate-epic-base-validation-save <first-edition-repo-folder> <reference-save.json> [--ship <ship-id>] [--compare-sizes] [--template <file>] [--texture <file>] [--output <file>] [--asset-base-url <url>]");
     Console.WriteLine("  build-epic-token-blueprint <first-edition-repo-folder> --ship <ship-id> [--output <folder>]");
     Console.WriteLine("  audit-prototype-artwork-candidates <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-missing-first-edition-pilots <repository> [--audit <file>] [--output <folder>]");
