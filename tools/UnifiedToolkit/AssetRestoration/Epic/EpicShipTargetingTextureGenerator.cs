@@ -75,7 +75,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r13.png");
+            $"{layout.ShipId}-targeting-r14.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -83,7 +83,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R13 output already exists and will not be overwritten: {outputPath}");
+                $"The R14 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -132,6 +132,17 @@ public static class EpicShipTargetingTextureGenerator
                 bitmap.Height);
         }
 
+        if (layout.ShipId.Equals(
+                "cr90corvette",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            DrawCr90PrintedArtwork(
+                canvas,
+                template,
+                bitmap.Width,
+                bitmap.Height);
+        }
+
         canvas.Restore();
 
         using var image = SKImage.FromBitmap(bitmap);
@@ -150,7 +161,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R13.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R14.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -401,6 +412,323 @@ public static class EpicShipTargetingTextureGenerator
             overlayImage,
             destination,
             sampling);
+    }
+
+    private static void DrawCr90PrintedArtwork(
+        SKCanvas canvas,
+        EpicBaseTemplate template,
+        int textureWidth,
+        int textureHeight)
+    {
+        var repositoryRoot =
+            ResolveRepositoryRootForGeneratedAsset();
+
+        var scanPath = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "source",
+            "unified1e",
+            "reference",
+            "epic",
+            "cr90corvette",
+            "scans",
+            "CR90-physical-token-600dpi-20260808.png");
+
+        if (!File.Exists(scanPath))
+        {
+            throw new FileNotFoundException(
+                "The CR90 600-dpi physical-token scan was not found.",
+                scanPath);
+        }
+
+        using var scan = SKBitmap.Decode(scanPath)
+            ?? throw new InvalidDataException(
+                "Could not decode the CR90 600-dpi physical-token scan.");
+
+        if (scan.Width != 1912 || scan.Height != 5240)
+        {
+            throw new InvalidDataException(
+                "The CR90 physical-token scan must be the calibrated " +
+                "1912 x 5240 600-dpi source image.");
+        }
+
+        using var scanImage = SKImage.FromBitmap(scan);
+        var sampling = new SKSamplingOptions(
+            SKCubicResampler.Mitchell);
+
+        // R14 keeps the generated starfield, targeting geometry and turret
+        // artwork from R13. Only the ship-specific printed dashboard regions
+        // are copied from the physical First Edition scan.
+        DrawCr90ScanCrop(
+            canvas,
+            scanImage,
+            template,
+            new SKRectI(280, 0, 1415, 390),
+            foreSection: true,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        DrawCr90ScanCrop(
+            canvas,
+            scanImage,
+            template,
+            new SKRectI(280, 4840, 1415, 5239),
+            foreSection: false,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        // Action artwork is extracted from the same physical scan by colour,
+        // so scanner background/starfield pixels are not composited. The
+        // small ActionIcons files are identification references only.
+        DrawCr90GreenScanArtwork(
+            canvas,
+            scan,
+            template,
+            new SKRectI(1535, 776, 1650, 876),
+            foreSection: true,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        DrawCr90GreenScanArtwork(
+            canvas,
+            scan,
+            template,
+            new SKRectI(1535, 918, 1651, 1036),
+            foreSection: true,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        DrawCr90GreenScanArtwork(
+            canvas,
+            scan,
+            template,
+            new SKRectI(1531, 4203, 1639, 4311),
+            foreSection: false,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        DrawCr90GreenScanArtwork(
+            canvas,
+            scan,
+            template,
+            new SKRectI(1523, 4355, 1642, 4457),
+            foreSection: false,
+            textureWidth,
+            textureHeight,
+            sampling);
+
+        DrawCr90ShipSilhouette(
+            canvas,
+            repositoryRoot,
+            template,
+            textureWidth,
+            textureHeight,
+            sampling);
+    }
+
+    private static void DrawCr90ScanCrop(
+        SKCanvas canvas,
+        SKImage scanImage,
+        EpicBaseTemplate template,
+        SKRectI source,
+        bool foreSection,
+        int textureWidth,
+        int textureHeight,
+        SKSamplingOptions sampling)
+    {
+        var destination = MapCr90ScanRect(
+            source,
+            foreSection,
+            template,
+            textureWidth,
+            textureHeight);
+
+        canvas.DrawImage(
+            scanImage,
+            new SKRect(
+                source.Left,
+                source.Top,
+                source.Right,
+                source.Bottom),
+            destination,
+            sampling);
+    }
+
+    private static void DrawCr90GreenScanArtwork(
+        SKCanvas canvas,
+        SKBitmap scan,
+        EpicBaseTemplate template,
+        SKRectI source,
+        bool foreSection,
+        int textureWidth,
+        int textureHeight,
+        SKSamplingOptions sampling)
+    {
+        using var extracted = new SKBitmap(
+            source.Width,
+            source.Height,
+            SKColorType.Rgba8888,
+            SKAlphaType.Premul);
+
+        extracted.Erase(SKColors.Transparent);
+
+        for (var y = 0; y < source.Height; y++)
+        {
+            for (var x = 0; x < source.Width; x++)
+            {
+                var colour = scan.GetPixel(
+                    source.Left + x,
+                    source.Top + y);
+                var greenDominance =
+                    colour.Green - (colour.Red + colour.Blue) / 2;
+
+                if (colour.Green >= 60 && greenDominance >= 12)
+                {
+                    extracted.SetPixel(
+                        x,
+                        y,
+                        new SKColor(
+                            colour.Red,
+                            colour.Green,
+                            colour.Blue,
+                            255));
+                }
+            }
+        }
+
+        using var extractedImage = SKImage.FromBitmap(extracted);
+        var destination = MapCr90ScanRect(
+            source,
+            foreSection,
+            template,
+            textureWidth,
+            textureHeight);
+
+        canvas.DrawImage(
+            extractedImage,
+            destination,
+            sampling);
+    }
+
+    private static void DrawCr90ShipSilhouette(
+        SKCanvas canvas,
+        string repositoryRoot,
+        EpicBaseTemplate template,
+        int textureWidth,
+        int textureHeight,
+        SKSamplingOptions sampling)
+    {
+        var iconPath = Path.Combine(
+            repositoryRoot,
+            "assets",
+            "source",
+            "unified1e",
+            "ships",
+            "epic",
+            "cr90corvette",
+            "icon.png");
+
+        if (!File.Exists(iconPath))
+        {
+            throw new FileNotFoundException(
+                "The CR90 transparent ship silhouette was not found.",
+                iconPath);
+        }
+
+        using var icon = SKBitmap.Decode(iconPath)
+            ?? throw new InvalidDataException(
+                "Could not decode the CR90 transparent ship silhouette.");
+
+        if (icon.Width != 94 || icon.Height != 94)
+        {
+            throw new InvalidDataException(
+                "The calibrated CR90 ship silhouette must be 94 x 94 pixels.");
+        }
+
+        // The non-transparent content of the existing 94 x 94 icon occupies
+        // x=4..91 and y=16..83. Its physical printed bounds were measured from
+        // the 600-dpi scan at x=115..578 and y=4121..4479.
+        var visibleDestination = MapCr90ScanRect(
+            new SKRectI(115, 4121, 579, 4480),
+            foreSection: false,
+            template,
+            textureWidth,
+            textureHeight);
+
+        var scaleX = visibleDestination.Width / 88.0f;
+        var scaleY = visibleDestination.Height / 68.0f;
+        var destination = new SKRect(
+            visibleDestination.Left - 4.0f * scaleX,
+            visibleDestination.Top - 16.0f * scaleY,
+            visibleDestination.Left - 4.0f * scaleX
+                + icon.Width * scaleX,
+            visibleDestination.Top - 16.0f * scaleY
+                + icon.Height * scaleY);
+
+        using var iconImage = SKImage.FromBitmap(icon);
+        canvas.DrawImage(
+            iconImage,
+            destination,
+            sampling);
+    }
+
+    private static SKRect MapCr90ScanRect(
+        SKRectI source,
+        bool foreSection,
+        EpicBaseTemplate template,
+        int textureWidth,
+        int textureHeight)
+    {
+        // Full-resolution Canon LiDE 400 scan calibration. The source token
+        // surface spans x=74..1775, the Fore/Aft divider is centred at y=2615,
+        // and the Aft physical edge is y=5239. X maps across the common UV
+        // surface; each physical section maps independently to its matching
+        // UV section so the printed Fore/Aft boundaries remain authoritative.
+        const float scanSurfaceLeft = 74.0f;
+        const float scanSurfaceRight = 1775.0f;
+        const float scanDividerY = 2615.0f;
+        const float scanBottomY = 5239.0f;
+
+        var surface = ToRect(
+            template.Layout.Calibration.MainRenderedSurface,
+            textureWidth,
+            textureHeight);
+        var dividerY = ToPoint(
+            template.Layout.SectionDivider.Start!,
+            textureWidth,
+            textureHeight).Y;
+
+        float MapX(float x) =>
+            surface.Left
+            + (x - scanSurfaceLeft)
+            / (scanSurfaceRight - scanSurfaceLeft)
+            * surface.Width;
+
+        float MapY(float y)
+        {
+            if (foreSection)
+            {
+                return surface.Top
+                    + y / scanDividerY
+                    * (dividerY - surface.Top);
+            }
+
+            return dividerY
+                + (y - scanDividerY)
+                / (scanBottomY - scanDividerY)
+                * (surface.Bottom - dividerY);
+        }
+
+        return new SKRect(
+            MapX(source.Left),
+            MapY(source.Top),
+            MapX(source.Right),
+            MapY(source.Bottom));
     }
 
     private static string ResolveRepositoryRootForGeneratedAsset()
@@ -664,7 +992,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R13",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R14",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -675,7 +1003,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R13 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png over the calibrated Fore mount. The overlay uses the correctly oriented 2026-08-08 physical FFG scan to increase the R12 outer radius from approximately 124.9 px to 162.5 px while retaining the scan-derived 1.44 px left centre offset and unchanged vertical placement. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
+            "R14 retains the locked R13 CR90 targeting geometry and turret calibration, then adds ship-specific First Edition printed artwork. Fore/Aft name plates, statistics and energy panels are composited from the untouched 1912 x 5240 Canon LiDE 400 600-dpi physical-token scan; the four green action symbols are colour-extracted from that same scan; and the existing unified1e transparent CR90 silhouette is positioned and scaled from scan measurements. Unified 2.5 CR90 artwork is not used."
         };
 
         File.WriteAllLines(
