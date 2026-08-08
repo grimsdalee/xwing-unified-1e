@@ -75,7 +75,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r12.png");
+            $"{layout.ShipId}-targeting-r13.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -83,7 +83,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R12 output already exists and will not be overwritten: {outputPath}");
+                $"The R13 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -150,7 +150,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R12.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R13.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -328,7 +328,7 @@ public static class EpicShipTargetingTextureGenerator
         DrawCr90TransparentTurretOverlay(
             canvas,
             centre,
-            textureWidth * 0.061f);
+            textureWidth * 0.07935f);
     }
 
     private static void DrawCr90TransparentTurretOverlay(
@@ -374,10 +374,12 @@ public static class EpicShipTargetingTextureGenerator
         // CR90 token places the turret-ring centre approximately 1.5 scan
         // pixels left of the physical peg centre. Converted through the
         // physical-token-to-UV-surface width ratio, this is approximately
-        // 1.44 px left on the 2048 x 2048 targeting texture. Express the
-        // adjustment relative to the calibrated outer radius so it remains
-        // proportional if texture resolution changes.
-        var horizontalOffset = -targetOuterRadius * 0.0115f;
+        // 1.44 px left on the 2048 x 2048 targeting texture. The R13 scan-
+        // derived outer radius is approximately 162.5 px at that resolution;
+        // this ratio preserves the approved centre offset independently of
+        // the R13 overlay-size increase and scales proportionally with texture
+        // resolution.
+        var horizontalOffset = -targetOuterRadius * 0.00886f;
 
         var destinationLeft =
             centre.X + horizontalOffset - sourceCentreX * scale;
@@ -662,7 +664,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R12",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R13",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -673,7 +675,7 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R12 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png over the calibrated Fore mount. The overlay keeps the R11 scale and vertical placement and applies only the scan-derived 1.44 px left adjustment. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
+            "R13 retains the approved CR90 firing arcs and composites the user-supplied transparent turret_arrow.png over the calibrated Fore mount. The overlay uses the correctly oriented 2026-08-08 physical FFG scan to increase the R12 outer radius from approximately 124.9 px to 162.5 px while retaining the scan-derived 1.44 px left centre offset and unchanged vertical placement. No photographic extraction or procedural turret construction is used. No icon, title, statistics, actions or dashboard artwork was generated."
         };
 
         File.WriteAllLines(
