@@ -886,6 +886,21 @@ public static class EpicShipTargetingTextureGenerator
                 P(surface.MaxU, surface.MaxV)
             },
 
+            "RaiderForeShoulderCorners" =>
+                ResolveRaiderForeShoulderCorners(template),
+
+            "RaiderAftPortCorners" => new List<EpicTokenOptionalPoint>
+            {
+                P(surface.MinU, dividerV),
+                P(surface.MinU, surface.MinV)
+            },
+
+            "RaiderAftStarboardCorners" => new List<EpicTokenOptionalPoint>
+            {
+                P(surface.MaxU, dividerV),
+                P(surface.MaxU, surface.MinV)
+            },
+
             "ForePortSectionCorners" =>
                 ResolveCr90SquareSideCorners(
                     template,
@@ -912,6 +927,34 @@ public static class EpicShipTargetingTextureGenerator
 
             _ => throw new InvalidDataException(
                 $"Unknown targeting destination '{name}'.")
+        };
+    }
+
+    private static List<EpicTokenOptionalPoint>
+        ResolveRaiderForeShoulderCorners(
+            EpicBaseTemplate template)
+    {
+        var surface =
+            template.Layout.Calibration.MainRenderedSurface;
+
+        // The 600 DPI First Edition Raider scan places the two Fore-sector
+        // endpoints exactly at the long Epic base's Fore/centre shoulder.
+        // In the authoritative base.obj top-surface UV island, the shoulder
+        // is the z=-1.783 transition and has V=0.640178.
+        const double foreShoulderV = 0.640178;
+
+        return new List<EpicTokenOptionalPoint>
+        {
+            new()
+            {
+                U = surface.MinU,
+                V = foreShoulderV
+            },
+            new()
+            {
+                U = surface.MaxU,
+                V = foreShoulderV
+            }
         };
     }
 

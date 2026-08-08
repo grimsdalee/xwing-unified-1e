@@ -154,27 +154,30 @@ public static class EpicShipTargetingLayoutBuilder
                     "fore-sector",
                     "Fore",
                     "BaseCentre",
-                    "ForeOuterCorners"),
+                    "RaiderForeShoulderCorners"),
                 Triangle(
                     "aft-port-sector",
                     "Aft",
                     "AftMount",
-                    "AftPortSectionCorners"),
+                    "RaiderAftPortCorners"),
                 Triangle(
                     "aft-starboard-sector",
                     "Aft",
                     "AftMount",
-                    "AftStarboardSectionCorners")
+                    "RaiderAftStarboardCorners")
             },
             ReferenceImage =
                 "assets/source/unified1e/reference/epic/" +
-                "raiderclasscorvette/raider_base.png",
+                "raiderclasscorvette/scans/" +
+                "Raider-physical-token-600dpi-20260808.png",
             Notes = new List<string>
             {
                 "Blue Fore/Aft divider.",
-                "Green Fore sector originates at exact full-base centre and reaches the two outer Fore corners.",
+                "Green Fore V has its apex at exact full-base centre on the divider and terminates at the two Fore/centre shoulder transitions.",
+                "The Fore shoulder position is the long-base mesh transition at z=-1.783 rather than the extreme Fore edge.",
                 "Two green Aft side triangles originate at the Aft mount marker.",
-                "The Aft triangles together create four boundary lines: two to the divider and two to the outer Aft corners."
+                "The Aft triangles together form an X through the Aft mount: two lines to the divider-side corners and two to the outer Aft corners.",
+                "Geometry is derived from the supplied 600 DPI First Edition Raider scan; CR90 targeting geometry is not reused."
             }
         };
 
