@@ -1,7 +1,7 @@
 {
   "SaveName": "Unified 1E - C-ROC Cruiser Base Validation",
-  "EpochTime": 1786312493,
-  "Date": "8/9/2026 10:54:53 PM",
+  "EpochTime": 1786313222,
+  "Date": "8/9/2026 11:07:02 PM",
   "VersionNumber": "v14.2.1",
   "GameMode": "X-Wing First Edition",
   "GameType": "Game",
@@ -607,7 +607,7 @@
             "scaleZ": 1
           },
           "Nickname": "C-ROC Cruiser",
-          "Description": "Diagnostic double-sided C-ROC Cruiser mesh at the authoritative reference Epic peg-top height.",
+          "Description": "Diagnostic C-ROC Cruiser mesh with a double-sided interior backstop shell at the authoritative reference Epic peg-top height.",
           "ColorDiffuse": {
             "r": 1,
             "g": 1,
@@ -627,10 +627,10 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomMesh": {
-            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/epic/croccruiser/croc-doublesided-test.obj",
+            "MeshURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/epic/croccruiser/croc-interior-shell-test.obj",
             "DiffuseURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/epic/croccruiser/Textures/standard.jpg",
             "NormalURL": "",
-            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/epic/croccruiser/croc-doublesided-test.obj",
+            "ColliderURL": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/assets/source/unified1e/ships/epic/croccruiser/croc-interior-shell-test.obj",
             "Convex": true,
             "MaterialIndex": 1,
             "TypeIndex": 1,
@@ -848,5 +848,5 @@
       "XmlUI": ""
     }
   ],
-  "Notes": "Phase 15C locked C-ROC production-artwork validation.\nThis save uses the manually restored First Edition C-ROC base texture directly.\nThe physical First Edition reference confirms that the C-ROC has no blue Fore/Aft divider.\nThis validation uses a diagnostic double-sided C-ROC mesh to test the inherited open/single-sided geometry defect.\nThe repository-owned C-ROC miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\nVerify stat bar, yellow Fore firing zone, action icons, ship silhouette, pilot card and UV coverage."
+  "Notes": "Phase 15C locked C-ROC production-artwork validation.\nThis save uses the manually restored First Edition C-ROC base texture directly.\nThe physical First Edition reference confirms that the C-ROC has no blue Fore/Aft divider.\nThis validation uses a diagnostic double-sided C-ROC mesh with a hidden interior backstop shell to cover inherited missing geometry.\nThe repository-owned C-ROC miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\nVerify stat bar, yellow Fore firing zone, action icons, ship silhouette, pilot card and UV coverage."
 }
