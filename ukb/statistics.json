@@ -1,29 +1,29 @@
 {
-  "fileCount": 5528,
-  "uniqueAssetCount": 4991,
-  "totalBytes": 2124930710,
+  "fileCount": 5469,
+  "uniqueAssetCount": 4932,
+  "totalBytes": 2214537725,
   "duplicateFileCount": 537,
   "unavailableSourceCount": 566,
   "byWarehouse": {
-    "generated": 524,
+    "generated": 562,
     "first-edition-dial-textures": 5,
     "first-edition-dials": 56,
     "first-edition-maneuver-icons": 14,
     "generated-pilot-tokens": 8,
     "legacy1e-non-pilot": 418,
     "legacy1e": 379,
-    "unified1e": 1158,
+    "unified1e": 1189,
     "unified25": 2381,
-    "xwing-data": 585
+    "xwing-data": 457
   },
   "byAssetType": {
-    "image": 4422,
-    "model": 711,
+    "image": 4342,
+    "model": 713,
     "lua": 229,
     "xml": 15,
-    "json": 116,
-    "other": 27,
-    "pdf": 3,
-    "text": 5
+    "json": 130,
+    "other": 29,
+    "text": 8,
+    "pdf": 3
   }
 }
