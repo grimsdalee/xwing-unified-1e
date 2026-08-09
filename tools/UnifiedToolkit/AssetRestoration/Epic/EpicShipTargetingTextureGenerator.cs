@@ -77,7 +77,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r17.png");
+            $"{layout.ShipId}-targeting-r18.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -85,7 +85,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R17 output already exists and will not be overwritten: {outputPath}");
+                $"The R18 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -163,7 +163,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R17.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R18.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -277,12 +277,18 @@ public static class EpicShipTargetingTextureGenerator
                     firstLineDestination.Y + DividerTouchOffsetPixels);
             }
 
+            var lineOrigin = IsDividerTouchingForeSector(geometry)
+                ? new SKPoint(
+                    origin.X,
+                    origin.Y - DividerTouchOffsetPixels)
+                : origin;
+
             canvas.DrawLine(
-                origin,
+                lineOrigin,
                 firstLineDestination,
                 linePaint);
             canvas.DrawLine(
-                origin,
+                lineOrigin,
                 destinations[1],
                 linePaint);
             return;
@@ -303,6 +309,12 @@ public static class EpicShipTargetingTextureGenerator
             StringComparison.OrdinalIgnoreCase)
         || geometry.Id.Equals(
             "aft-starboard-sector",
+            StringComparison.OrdinalIgnoreCase);
+
+    private static bool IsDividerTouchingForeSector(
+        EpicTargetingGeometry geometry) =>
+        geometry.Id.Equals(
+            "gozanti-fore-sector",
             StringComparison.OrdinalIgnoreCase);
 
     private static void DrawRaiderForeSector(
@@ -1021,6 +1033,9 @@ public static class EpicShipTargetingTextureGenerator
             "RaiderForeShoulderCorners" =>
                 ResolveRaiderForeShoulderCorners(template),
 
+            "GozantiForeShoulderCorners" =>
+                ResolveGozantiForeShoulderCorners(template),
+
             "RaiderAftPortCorners" => new List<EpicTokenOptionalPoint>
             {
                 P(surface.MinU, dividerV),
@@ -1073,6 +1088,34 @@ public static class EpicShipTargetingTextureGenerator
         // endpoints exactly at the long Epic base's Fore/centre shoulder.
         // In the authoritative base.obj top-surface UV island, the shoulder
         // is the z=-1.783 transition and has V=0.640178.
+        const double foreShoulderV = 0.640178;
+
+        return new List<EpicTokenOptionalPoint>
+        {
+            new()
+            {
+                U = surface.MinU,
+                V = foreShoulderV
+            },
+            new()
+            {
+                U = surface.MaxU,
+                V = foreShoulderV
+            }
+        };
+    }
+
+    private static List<EpicTokenOptionalPoint>
+        ResolveGozantiForeShoulderCorners(
+            EpicBaseTemplate template)
+    {
+        var surface =
+            template.Layout.Calibration.MainRenderedSurface;
+
+        // The supplied 1880 x 4544 600-dpi First Edition Gozanti scan places
+        // both green Fore-sector endpoints on the Fore/centre shoulder. The
+        // short Epic mesh removes centre length without changing this end-
+        // section UV landmark, so it retains V=0.640178.
         const double foreShoulderV = 0.640178;
 
         return new List<EpicTokenOptionalPoint>
@@ -1216,7 +1259,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R17",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R18",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
@@ -1227,8 +1270,23 @@ public static class EpicShipTargetingTextureGenerator
             $"- Output: `{Relative(repositoryRoot, result.OutputPath)}`",
             $"- SHA-256: `{result.Sha256}`",
             "",
-            "R15 retains the locked R13 CR90 targeting geometry/turret calibration and the approved R14 white CR90 silhouette. The Fore/Aft dashboard strips now span the complete calibrated physical-token width while retaining the R14 heights; they are source-resolution de-screened before downsampling to reduce physical print/scanner colour noise. The four green action symbols use the existing First Edition ActionIcons only as alpha silhouettes, rendered in one clean action green and positioned/scaled from the 600-dpi physical scan. The 1912 x 5240 Canon LiDE 400 scan remains the measurement authority. Unified 2.5 CR90 artwork is not used."
+            "## Layout notes",
+            ""
         };
+
+        lines.AddRange(layout.Notes.Select(note => $"- {note}"));
+
+        lines.Add("");
+        lines.Add(
+            layout.ShipId.Equals(
+                "gozanticlasscruiser",
+                StringComparison.OrdinalIgnoreCase)
+                ? "The supplied 1880 x 4544 Canon LiDE 400 600-dpi First Edition Gozanti scan is the geometry authority. The lower-resolution photograph is used only as a visual cross-check."
+                : layout.ShipId.Equals(
+                    "cr90corvette",
+                    StringComparison.OrdinalIgnoreCase)
+                ? "The 1912 x 5240 Canon LiDE 400 scan remains the CR90 measurement authority. Unified 2.5 CR90 artwork is not used."
+                : "The registered First Edition physical-token reference remains the geometry authority.");
 
         File.WriteAllLines(
             result.ReportPath,

@@ -195,18 +195,23 @@ public static class EpicShipTargetingLayoutBuilder
             TargetingGeometry = new List<EpicTargetingGeometry>
             {
                 Sector(
-                    "fore-sector",
+                    "gozanti-fore-sector",
                     "Fore",
-                    "BaseCentre",
-                    "ForeOuterCorners")
+                    "DividerCentre",
+                    "GozantiForeShoulderCorners",
+                    fillEnabled: false)
             },
             ReferenceImage =
                 "assets/source/unified1e/reference/epic/" +
-                "gozanticlasscruiser/gozanti_base.png",
+                "gozanticlasscruiser/scans/" +
+                "Gozanti-physical-token-600dpi-20260808.png",
             Notes = new List<string>
             {
                 "Blue Fore/Aft divider.",
-                "Green Fore sector originates at exact full-base centre and reaches the two outer Fore corners.",
+                "Green Fore V has its apex at the calibrated divider centre and terminates at the two Fore/centre shoulder transitions.",
+                "The green strokes touch but do not cover the blue divider.",
+                "The physical First Edition token has no green sector fill.",
+                "The short Epic mesh preserves the end-section shoulder UV while reducing the physical centre span.",
                 "No Aft targeting geometry."
             }
         };
@@ -279,7 +284,8 @@ public static class EpicShipTargetingLayoutBuilder
         string id,
         string section,
         string origin,
-        string destination) =>
+        string destination,
+        bool fillEnabled = true) =>
         new()
         {
             Id = id,
@@ -287,6 +293,6 @@ public static class EpicShipTargetingLayoutBuilder
             Section = section,
             Origin = origin,
             Destination = destination,
-            FillEnabled = true
+            FillEnabled = fillEnabled
         };
 }
