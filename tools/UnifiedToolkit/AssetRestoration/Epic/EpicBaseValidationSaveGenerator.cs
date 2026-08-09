@@ -111,15 +111,24 @@ public static class EpicBaseValidationSaveGenerator
                 texturePath);
         }
 
+        var baseMeshRepositoryPath =
+            productionProfile?.BaseMeshRepositoryPath
+            ?? "assets/source/unified1e/bases/epic/base.obj";
+        var pegMeshRepositoryPath =
+            productionProfile?.PegMeshRepositoryPath
+            ?? "assets/source/unified1e/bases/pegs/epic.obj";
         var baseMeshPath = Path.Combine(
             repositoryRoot,
-            "assets",
-            "source",
-            "unified1e",
-            "bases",
-            "epic",
-            "base.obj");
+            baseMeshRepositoryPath.Replace(
+                '/',
+                Path.DirectorySeparatorChar));
+        var pegMeshPath = Path.Combine(
+            repositoryRoot,
+            pegMeshRepositoryPath.Replace(
+                '/',
+                Path.DirectorySeparatorChar));
         ValidateFile(baseMeshPath, "Epic base mesh");
+        ValidateFile(pegMeshPath, "Epic peg mesh");
 
         var shortBaseMeshPath = Path.Combine(
             repositoryRoot,
@@ -204,9 +213,7 @@ public static class EpicBaseValidationSaveGenerator
                 BuildEpicBaseObject(
                     AssetUrl(assetBaseUrl, meshRelative),
                     AssetUrl(assetBaseUrl, textureRelative),
-                    AssetUrl(
-                        assetBaseUrl,
-                        "assets/source/unified1e/bases/pegs/epic.obj"),
+                    AssetUrl(assetBaseUrl, pegMeshRepositoryPath),
                     AssetUrl(
                         assetBaseUrl,
                         "assets/source/unified1e/bases/epic/front/rebel.png"),
@@ -248,9 +255,7 @@ public static class EpicBaseValidationSaveGenerator
                 BuildEpicBaseObject(
                     AssetUrl(assetBaseUrl, meshRelative),
                     AssetUrl(assetBaseUrl, textureRelative),
-                    AssetUrl(
-                        assetBaseUrl,
-                        "assets/source/unified1e/bases/pegs/epic.obj"),
+                    AssetUrl(assetBaseUrl, pegMeshRepositoryPath),
                     AssetUrl(
                         assetBaseUrl,
                         productionProfile?.PegTextureRepositoryPath
@@ -363,7 +368,7 @@ public static class EpicBaseValidationSaveGenerator
             BaseTemplate = Relative(repositoryRoot, templatePath),
             CalibrationTexture = textureRelative,
             BaseMesh = meshRelative,
-            PegMesh = "assets/source/unified1e/bases/pegs/epic.obj",
+            PegMesh = pegMeshRepositoryPath,
             MountPointDatabase =
                 "assets/source/unified1e/reference/epic/" +
                 "epic-base-mount-points.json",
@@ -779,7 +784,9 @@ public static class EpicBaseValidationSaveGenerator
                 lines.Add("- The repository-owned CR90 miniature is centred on both Epic pegs and sits at the peg-top height.");
                 lines.Add("- No texture artwork appears on unintended mesh faces.");
             }
-            else
+            else if (productionProfile.ShipId.Equals(
+                         "raiderclasscorvette",
+                         StringComparison.OrdinalIgnoreCase))
             {
                 lines.Add("- Raider FORE artwork is at the top and AFT artwork is at the bottom.");
                 lines.Add("- Both restored stat/name bars reach the intended base edges.");
@@ -787,6 +794,17 @@ public static class EpicBaseValidationSaveGenerator
                 lines.Add("- The blue divider crosses the intended Fore/Aft boundary without green line overlap.");
                 lines.Add("- The repository-owned Raider miniature is centred on both Epic pegs and sits at the reference peg-top height.");
                 lines.Add("- Both First Edition Raider section pilot cards are present beside the base.");
+                lines.Add("- No texture artwork appears on unintended mesh faces.");
+            }
+            else
+            {
+                lines.Add("- Gozanti artwork is correctly oriented with the dashboard at the Aft end.");
+                lines.Add("- The restored stat/name bar reaches the intended base edges.");
+                lines.Add("- The green Fore firing zone, action icons and white ship silhouette match the locked Gozanti artwork.");
+                lines.Add("- The blue divider crosses the intended Fore/Aft boundary without green line overlap.");
+                lines.Add("- The short First Edition Epic base and short peg mesh are used without scaling their end sections.");
+                lines.Add("- The repository-owned Gozanti miniature is centred on both shortened Epic pegs and sits at the reference peg-top height.");
+                lines.Add("- The First Edition Gozanti pilot card is present beside the base.");
                 lines.Add("- No texture artwork appears on unintended mesh faces.");
             }
         }
@@ -855,6 +873,8 @@ public static class EpicBaseValidationSaveGenerator
                     "validation",
                     "epic",
                     "cr90corvette-base-validation.json"),
+                "assets/source/unified1e/bases/epic/base.obj",
+                "assets/source/unified1e/bases/pegs/epic.obj",
                 "assets/source/unified1e/ships/epic/cr90corvette/cr90.obj",
                 Path.Combine(
                     repositoryRoot,
@@ -914,6 +934,8 @@ public static class EpicBaseValidationSaveGenerator
                     "validation",
                     "epic",
                     "raiderclasscorvette-base-validation.json"),
+                "assets/source/unified1e/bases/epic/base.obj",
+                "assets/source/unified1e/bases/pegs/epic.obj",
                 "assets/source/unified1e/ships/epic/raiderclasscorvette/raider.obj",
                 Path.Combine(
                     repositoryRoot,
@@ -966,6 +988,77 @@ public static class EpicBaseValidationSaveGenerator
                 });
         }
 
+        if (shipId.Equals(
+                "gozanticlasscruiser",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            const string textureRepositoryPath =
+                "assets/source/unified1e/pilot-tokens/" +
+                "galacticempire/gozanticlasscruiser/gozanticlasscruiser.png";
+
+            return new ProductionValidationProfile(
+                "gozanticlasscruiser",
+                "Gozanti-class Cruiser",
+                textureRepositoryPath,
+                "745C69899FD3699AC7EC3C2746B900401BB9F2CE04DA30CBE7CD2F58BD5C37E9",
+                Path.Combine(
+                    repositoryRoot,
+                    textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "generated",
+                    "validation",
+                    "epic",
+                    "gozanticlasscruiser-base-validation.json"),
+                "assets/source/unified1e/bases/epic/base-short.obj",
+                "assets/source/unified1e/bases/pegs/epic-short.obj",
+                "assets/source/unified1e/ships/epic/gozanticlasscruiser/gozanti.obj",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "gozanticlasscruiser",
+                    "gozanti.obj"),
+                "assets/source/unified1e/ships/epic/gozanticlasscruiser/Textures/standard.jpg",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "gozanticlasscruiser",
+                    "Textures",
+                    "standard.jpg"),
+                "assets/source/unified1e/bases/epic/front/empire.png",
+                3.49761486,
+                "gznshp",
+                "Repository-owned Gozanti-class Cruiser miniature at the authoritative reference Epic peg-top height.",
+                "Gozanti-class Cruiser — Locked First Edition Base",
+                "Locked First Edition Gozanti base-token artwork on the authoritative short Epic base mesh.",
+                "Phase 15C locked Gozanti production-artwork validation.\n" +
+                "This save uses the manually restored First Edition Gozanti base texture directly.\n" +
+                "The short First Edition Epic base and peg meshes preserve the original end sections while reducing the centre span.\n" +
+                "The repository-owned Gozanti miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\n" +
+                "Verify dashboard orientation, stat bar, green Fore firing zone, action icons, ship silhouette, pilot card and UV coverage.\n" +
+                "The generated targeting texture is deliberately not substituted for the locked production artwork.",
+                "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
+                new[]
+                {
+                    new ProductionPilotCard(
+                        "gzn001",
+                        "Ship",
+                        "Gozanti-class Cruiser",
+                        "assets/source/unified1e/pilot-cards/galacticempire/gozanticlasscruiser/gozanti-class-cruiser.png",
+                        7.5,
+                        0.0)
+                });
+        }
+
         throw new InvalidDataException(
             $"No locked Epic production texture is registered for '{shipId}'.");
     }
@@ -995,6 +1088,8 @@ public static class EpicBaseValidationSaveGenerator
         string ExpectedSha256,
         string TexturePath,
         string OutputPath,
+        string BaseMeshRepositoryPath,
+        string PegMeshRepositoryPath,
         string ShipModelRepositoryPath,
         string ShipModelPath,
         string ShipTextureRepositoryPath,

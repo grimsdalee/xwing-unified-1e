@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedUtc": "2026-08-09T17:15:01.1816999+00:00",
+  "repositoryRoot": ".",
+  "referenceSave": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_41.json",
+  "baseTemplate": "assets/source/unified1e/reference/epic/epic-base-template.json",
+  "calibrationTexture": "assets/source/unified1e/pilot-tokens/galacticempire/gozanticlasscruiser/gozanticlasscruiser.png",
+  "baseMesh": "assets/source/unified1e/bases/epic/base-short.obj",
+  "pegMesh": "assets/source/unified1e/bases/pegs/epic-short.obj",
+  "mountPointDatabase": "assets/source/unified1e/reference/epic/epic-base-mount-points.json",
+  "assetBaseUrl": "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/",
+  "savePath": "assets/generated/validation/epic/gozanticlasscruiser-base-validation.json",
+  "objectCount": 6
+}
