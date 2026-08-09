@@ -17,6 +17,7 @@ public static class GenerateEpicBaseValidationSaveCommand
             var repositoryRoot = Path.GetFullPath(args[0]);
             var referenceSave = Path.GetFullPath(args[1]);
             var compareSizes = HasFlag(args, "--compare-sizes");
+            var allShips = HasFlag(args, "--all-ships");
             var manifest = EpicBaseValidationSaveGenerator.Generate(
                 repositoryRoot,
                 referenceSave,
@@ -25,12 +26,15 @@ public static class GenerateEpicBaseValidationSaveCommand
                 ReadOption(args, "--output"),
                 ReadOption(args, "--asset-base-url"),
                 ReadOption(args, "--ship"),
-                compareSizes);
+                compareSizes,
+                allShips);
 
             var ship = ReadOption(args, "--ship");
 
             Console.WriteLine(
-                compareSizes
+                allShips
+                    ? "UnifiedToolkit Phase 15C All Epic Ships Comparison Save"
+                    : compareSizes
                     ? "UnifiedToolkit Phase 15C Epic Base Size Comparison Save"
                     : ship is null
                     ? "UnifiedToolkit Phase 15B Epic Base Validation Save"
@@ -41,18 +45,24 @@ public static class GenerateEpicBaseValidationSaveCommand
             Console.WriteLine($"Reference save:         {referenceSave}");
             Console.WriteLine($"Base mesh:              {manifest.BaseMesh}");
             Console.WriteLine(
-                ship is null
+                allShips
+                    ? $"Locked textures:        {manifest.CalibrationTexture}"
+                    : ship is null
                     ? $"Calibration texture:    {manifest.CalibrationTexture}"
                     : $"Locked texture:         {manifest.CalibrationTexture}");
             if (ship is not null)
                 Console.WriteLine($"Locked ship:            {ship}");
             if (compareSizes)
                 Console.WriteLine("Base sizes:             Epic Long + Epic Short");
+            if (allShips)
+                Console.WriteLine("Epic ships:             CR90, Raider, Gozanti, C-ROC, GR-75");
             Console.WriteLine($"Objects:                {manifest.ObjectCount}");
             Console.WriteLine($"Save:                   {manifest.SavePath}");
             Console.WriteLine();
             Console.WriteLine(
-                compareSizes
+                allShips
+                    ? "Load the generated save in Tabletop Simulator and compare all five locked First Edition Epic assemblies."
+                    : compareSizes
                     ? "Load the generated save in Tabletop Simulator and compare the long and short First Edition Epic footprints and peg spacing."
                     : ship is null
                     ? "Load the generated save in Tabletop Simulator and verify orientation, divider, mount markers and UV coverage."
@@ -97,7 +107,7 @@ public static class GenerateEpicBaseValidationSaveCommand
         Console.WriteLine(
             "Usage: UnifiedToolkit generate-epic-base-validation-save " +
             "<first-edition-repo-folder> <reference-save.json> " +
-            "[--ship <ship-id>] [--compare-sizes] " +
+            "[--ship <ship-id>] [--compare-sizes] [--all-ships] " +
             "[--template <file>] [--texture <file>] " +
             "[--output <file>] [--asset-base-url <url>]");
     }

@@ -21,11 +21,27 @@ public static class EpicBaseValidationSaveGenerator
         string? outputPath = null,
         string? assetBaseUrl = null,
         string? shipId = null,
-        bool compareSizes = false)
+        bool compareSizes = false,
+        bool allShips = false)
     {
         repositoryRoot = Path.GetFullPath(repositoryRoot);
         referenceSavePath = Path.GetFullPath(referenceSavePath);
         ValidateFile(referenceSavePath, "Reference TTS save");
+
+        if (allShips)
+        {
+            if (compareSizes || !string.IsNullOrWhiteSpace(shipId))
+            {
+                throw new InvalidDataException(
+                    "--all-ships cannot be combined with --ship or --compare-sizes.");
+            }
+
+            return GenerateAllShipsComparison(
+                repositoryRoot,
+                referenceSavePath,
+                outputPath,
+                assetBaseUrl);
+        }
 
         var productionProfile = ResolveProductionProfile(
             repositoryRoot,
@@ -405,6 +421,202 @@ public static class EpicBaseValidationSaveGenerator
         return manifest;
     }
 
+    private static EpicBaseValidationSaveManifest GenerateAllShipsComparison(
+        string repositoryRoot,
+        string referenceSavePath,
+        string? outputPath,
+        string? assetBaseUrl)
+    {
+        assetBaseUrl ??=
+            "https://raw.githubusercontent.com/grimsdalee/" +
+            "xwing-unified-1e/main/";
+
+        var profiles = new[]
+        {
+            ResolveProductionProfile(repositoryRoot, "cr90corvette")!,
+            ResolveProductionProfile(repositoryRoot, "raiderclasscorvette")!,
+            ResolveProductionProfile(repositoryRoot, "gozanticlasscruiser")!,
+            ResolveProductionProfile(repositoryRoot, "croccruiser")!,
+            ResolveProductionProfile(repositoryRoot, "gr75mediumtransport")!
+        };
+
+        foreach (var profile in profiles)
+        {
+            ValidateFile(
+                profile.TexturePath,
+                $"Locked {profile.ShipName} production texture");
+            ValidateLockedProductionTexture(profile.TexturePath, profile);
+            ValidateFile(profile.ShipModelPath, $"{profile.ShipName} model");
+            ValidateFile(
+                profile.ShipTexturePath,
+                $"{profile.ShipName} model texture");
+            ValidateRepositoryFile(
+                repositoryRoot,
+                profile.BaseMeshRepositoryPath,
+                $"{profile.ShipName} base mesh");
+            ValidateRepositoryFile(
+                repositoryRoot,
+                profile.PegMeshRepositoryPath,
+                $"{profile.ShipName} peg mesh");
+            ValidateRepositoryFile(
+                repositoryRoot,
+                profile.PegTextureRepositoryPath,
+                $"{profile.ShipName} peg texture");
+        }
+
+        outputPath ??= Path.Combine(
+            repositoryRoot,
+            "assets",
+            "generated",
+            "validation",
+            "epic",
+            "all-epic-ships-comparison.json");
+        outputPath = Path.GetFullPath(outputPath);
+        Directory.CreateDirectory(
+            Path.GetDirectoryName(outputPath)
+            ?? throw new InvalidDataException(
+                "All-Epic-ships output has no parent directory."));
+
+        var root = JsonNode.Parse(File.ReadAllText(referenceSavePath))
+            ?.AsObject()
+            ?? throw new InvalidDataException(
+                "Could not parse the reference TTS save.");
+
+        root["SaveName"] =
+            "Unified 1E - All Five Epic Ships Comparison";
+        root["GameMode"] = "X-Wing First Edition";
+        root["Date"] = DateTime.Now.ToString("M/d/yyyy h:mm:ss tt");
+        root["EpochTime"] = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+        root["Notes"] =
+            "Phase 15C locked First Edition Epic assembly comparison.\n" +
+            "TOP: CR90 Corvette and Raider-class Corvette on long Epic bases.\n" +
+            "BOTTOM: Gozanti, C-ROC and GR-75 on short Epic bases.\n" +
+            "All five use repository-owned models, locked base-token textures and reference peg-top heights.";
+
+        var placements = new[]
+        {
+            new EpicComparisonPlacement(profiles[0], -7.0, 7.5, "e5cr90", "p5cr90"),
+            new EpicComparisonPlacement(profiles[1], 7.0, 7.5, "e5raid", "p5raid"),
+            new EpicComparisonPlacement(profiles[2], -12.0, -8.0, "e5goza", "p5goza"),
+            new EpicComparisonPlacement(profiles[3], 0.0, -8.0, "e5croc", "p5croc"),
+            new EpicComparisonPlacement(profiles[4], 12.0, -8.0, "e5gr75", "p5gr75")
+        };
+
+        var objects = new JsonArray();
+        foreach (var placement in placements)
+        {
+            var profile = placement.Profile;
+            objects.Add(
+                BuildEpicBaseObject(
+                    AssetUrl(assetBaseUrl, profile.BaseMeshRepositoryPath),
+                    AssetUrl(assetBaseUrl, profile.TextureRepositoryPath),
+                    AssetUrl(assetBaseUrl, profile.PegMeshRepositoryPath),
+                    AssetUrl(assetBaseUrl, profile.PegTextureRepositoryPath),
+                    profile.ObjectNickname,
+                    profile.ObjectDescription,
+                    AssetUrl(assetBaseUrl, profile.ShipModelRepositoryPath),
+                    AssetUrl(assetBaseUrl, profile.ShipTextureRepositoryPath),
+                    profile.ShipHeight,
+                    profile,
+                    placement.BaseGuid,
+                    placement.PegGuid,
+                    placement.PositionX,
+                    placement.PositionZ));
+        }
+
+        root["ObjectStates"] = objects;
+        File.WriteAllText(
+            outputPath,
+            root.ToJsonString(
+                new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                }),
+            new UTF8Encoding(false));
+
+        var manifest = new EpicBaseValidationSaveManifest
+        {
+            GeneratedUtc = DateTimeOffset.UtcNow,
+            RepositoryRoot = RelativeOrAbsolute(repositoryRoot, repositoryRoot),
+            ReferenceSave = RelativeOrAbsolute(
+                repositoryRoot,
+                referenceSavePath),
+            BaseTemplate =
+                "assets/source/unified1e/reference/epic/epic-base-template.json",
+            CalibrationTexture = "Five locked production textures",
+            BaseMesh = "Long + short First Edition Epic meshes",
+            PegMesh = "Long + short First Edition Epic peg meshes",
+            MountPointDatabase =
+                "assets/source/unified1e/reference/epic/epic-base-mount-points.json",
+            AssetBaseUrl = assetBaseUrl,
+            SavePath = Relative(repositoryRoot, outputPath),
+            ObjectCount = objects.Count
+        };
+
+        var outputDirectory = Path.GetDirectoryName(outputPath)!;
+        File.WriteAllText(
+            Path.Combine(
+                outputDirectory,
+                "all-epic-ships-comparison-manifest.json"),
+            JsonSerializer.Serialize(manifest, JsonOptions),
+            new UTF8Encoding(false));
+
+        WriteAllShipsReport(
+            Path.Combine(
+                outputDirectory,
+                "ALL-EPIC-SHIPS-COMPARISON.md"),
+            manifest,
+            profiles);
+
+        return manifest;
+    }
+
+    private static void ValidateRepositoryFile(
+        string repositoryRoot,
+        string repositoryPath,
+        string description) =>
+        ValidateFile(
+            Path.Combine(
+                repositoryRoot,
+                repositoryPath.Replace(
+                    '/',
+                    Path.DirectorySeparatorChar)),
+            description);
+
+    private static void WriteAllShipsReport(
+        string path,
+        EpicBaseValidationSaveManifest manifest,
+        IReadOnlyList<ProductionValidationProfile> profiles)
+    {
+        var lines = new List<string>
+        {
+            "# All Five Epic Ships Comparison — Phase 15C",
+            "",
+            "## Assemblies",
+            ""
+        };
+
+        foreach (var profile in profiles)
+        {
+            lines.Add(
+                $"- {profile.ShipName}: `{profile.TextureRepositoryPath}` " +
+                $"(`{profile.ExpectedSha256}`)");
+        }
+
+        lines.Add("");
+        lines.Add("## Validate in Tabletop Simulator");
+        lines.Add("");
+        lines.Add("- CR90 and Raider use the long First Edition Epic base and peg spacing.");
+        lines.Add("- Gozanti, C-ROC and GR-75 use the short First Edition Epic base and peg spacing.");
+        lines.Add("- Compare model scale, height, orientation and overhang across all five assemblies.");
+        lines.Add("- Compare base-token dimensions, dashboard orientation, peg placement and texture UV coverage.");
+        lines.Add("");
+        lines.Add($"Save: `{manifest.SavePath}`");
+        lines.Add($"Objects: {manifest.ObjectCount}");
+
+        File.WriteAllLines(path, lines, new UTF8Encoding(false));
+    }
+
     private static JsonObject BuildEpicBaseObject(
         string meshUrl,
         string textureUrl,
@@ -418,7 +630,8 @@ public static class EpicBaseValidationSaveGenerator
         ProductionValidationProfile? productionProfile = null,
         string guid = "e91cba",
         string pegGuid = "e9peg1",
-        double posX = 0.0)
+        double posX = 0.0,
+        double posZ = 0.0)
     {
         var childObjects = new JsonArray
         {
@@ -447,7 +660,7 @@ public static class EpicBaseValidationSaveGenerator
             {
                 ["posX"] = posX,
                 ["posY"] = 1.0,
-                ["posZ"] = 0.0,
+                ["posZ"] = posZ,
                 ["rotX"] = 0.0,
                 ["rotY"] = 0.0,
                 ["rotZ"] = 0.0,
@@ -796,7 +1009,9 @@ public static class EpicBaseValidationSaveGenerator
                 lines.Add("- Both First Edition Raider section pilot cards are present beside the base.");
                 lines.Add("- No texture artwork appears on unintended mesh faces.");
             }
-            else
+            else if (productionProfile.ShipId.Equals(
+                         "gozanticlasscruiser",
+                         StringComparison.OrdinalIgnoreCase))
             {
                 lines.Add("- Gozanti artwork is correctly oriented with the dashboard at the Aft end.");
                 lines.Add("- The restored stat/name bar reaches the intended base edges.");
@@ -805,6 +1020,28 @@ public static class EpicBaseValidationSaveGenerator
                 lines.Add("- The short First Edition Epic base and short peg mesh are used without scaling their end sections.");
                 lines.Add("- The repository-owned Gozanti miniature is centred on both shortened Epic pegs and sits at the reference peg-top height.");
                 lines.Add("- The First Edition Gozanti pilot card is present beside the base.");
+                lines.Add("- No texture artwork appears on unintended mesh faces.");
+            }
+            else if (productionProfile.ShipId.Equals(
+                         "croccruiser",
+                         StringComparison.OrdinalIgnoreCase))
+            {
+                lines.Add("- C-ROC artwork is correctly oriented with the dashboard at the Aft end.");
+                lines.Add("- The yellow Fore firing zone, action icons and white ship silhouette match the locked C-ROC artwork.");
+                lines.Add("- No blue divider is present, matching the physical First Edition C-ROC token.");
+                lines.Add("- The short First Edition Epic base and short peg mesh are used without scaling their end sections.");
+                lines.Add("- The repository-owned C-ROC miniature is centred on both shortened Epic pegs and sits at the reference peg-top height.");
+                lines.Add("- The First Edition C-ROC pilot card is present beside the base.");
+                lines.Add("- No texture artwork appears on unintended mesh faces.");
+            }
+            else
+            {
+                lines.Add("- GR-75 artwork is correctly oriented with the dashboard at the Aft end.");
+                lines.Add("- The action icons and white ship silhouette match the locked GR-75 artwork.");
+                lines.Add("- The blue divider crosses the intended Fore/Aft boundary.");
+                lines.Add("- The short First Edition Epic base and short peg mesh are used without scaling their end sections.");
+                lines.Add("- The repository-owned GR-75 miniature is centred on both shortened Epic pegs and sits at the reference peg-top height.");
+                lines.Add("- The First Edition GR-75 pilot card is present beside the base.");
                 lines.Add("- No texture artwork appears on unintended mesh faces.");
             }
         }
@@ -1000,7 +1237,7 @@ public static class EpicBaseValidationSaveGenerator
                 "gozanticlasscruiser",
                 "Gozanti-class Cruiser",
                 textureRepositoryPath,
-                "745C69899FD3699AC7EC3C2746B900401BB9F2CE04DA30CBE7CD2F58BD5C37E9",
+                "7114D9173F0C4328D46CD77F5C26AC0E253EE785DF6A359CB733677673197E52",
                 Path.Combine(
                     repositoryRoot,
                     textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
@@ -1059,6 +1296,145 @@ public static class EpicBaseValidationSaveGenerator
                 });
         }
 
+        if (shipId.Equals(
+                "croccruiser",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            const string textureRepositoryPath =
+                "assets/source/unified1e/pilot-tokens/" +
+                "scumandvillainy/croccruiser/croccruiser.png";
+
+            return new ProductionValidationProfile(
+                "croccruiser",
+                "C-ROC Cruiser",
+                textureRepositoryPath,
+                "60BE5F35EC4F6C08118F793BC49646144717FAAA6C61F1538E2982CF93624FC2",
+                Path.Combine(
+                    repositoryRoot,
+                    textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "generated",
+                    "validation",
+                    "epic",
+                    "croccruiser-base-validation.json"),
+                "assets/source/unified1e/bases/epic/base-short.obj",
+                "assets/source/unified1e/bases/pegs/epic-short.obj",
+                "assets/source/unified1e/ships/epic/croccruiser/croc.obj",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "croccruiser",
+                    "croc.obj"),
+                "assets/source/unified1e/ships/epic/croccruiser/Textures/standard.jpg",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "croccruiser",
+                    "Textures",
+                    "standard.jpg"),
+                "assets/source/unified1e/bases/epic/front/scum.png",
+                3.497615,
+                "crcshp",
+                "Repository-owned C-ROC Cruiser miniature at the authoritative reference Epic peg-top height.",
+                "C-ROC Cruiser — Locked First Edition Base",
+                "Locked First Edition C-ROC base-token artwork on the authoritative short Epic base mesh.",
+                "Phase 15C locked C-ROC production-artwork validation.\n" +
+                "This save uses the manually restored First Edition C-ROC base texture directly.\n" +
+                "The physical First Edition reference confirms that the C-ROC has no blue Fore/Aft divider.\n" +
+                "The repository-owned C-ROC miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\n" +
+                "Verify stat bar, yellow Fore firing zone, action icons, ship silhouette, pilot card and UV coverage.",
+                "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
+                new[]
+                {
+                    new ProductionPilotCard(
+                        "crc001",
+                        "Ship",
+                        "C-ROC Cruiser",
+                        "assets/source/unified1e/pilot-cards/scumandvillainy/croccruiser/c-roc-cruiser.png",
+                        7.5,
+                        0.0)
+                });
+        }
+
+        if (shipId.Equals(
+                "gr75mediumtransport",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            const string textureRepositoryPath =
+                "assets/source/unified1e/pilot-tokens/" +
+                "rebelalliance/gr75mediumtransport/gr75mediumtransport.png";
+
+            return new ProductionValidationProfile(
+                "gr75mediumtransport",
+                "GR-75 Medium Transport",
+                textureRepositoryPath,
+                "E88268D8B3A1F6E9BD34FDD824616F0C2316E1D922E2108E4798A68CDF238AF1",
+                Path.Combine(
+                    repositoryRoot,
+                    textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "generated",
+                    "validation",
+                    "epic",
+                    "gr75mediumtransport-base-validation.json"),
+                "assets/source/unified1e/bases/epic/base-short.obj",
+                "assets/source/unified1e/bases/pegs/epic-short.obj",
+                "assets/source/unified1e/ships/epic/gr75mediumtransport/gr75.obj",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "gr75mediumtransport",
+                    "gr75.obj"),
+                "assets/source/unified1e/ships/epic/gr75mediumtransport/Textures/standard.jpg",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "gr75mediumtransport",
+                    "Textures",
+                    "standard.jpg"),
+                "assets/source/unified1e/bases/epic/front/rebel.png",
+                3.497615,
+                "g75shp",
+                "Repository-owned GR-75 Medium Transport miniature at the authoritative reference Epic peg-top height.",
+                "GR-75 Medium Transport — Locked First Edition Base",
+                "Locked First Edition GR-75 base-token artwork on the authoritative short Epic base mesh.",
+                "Phase 15C locked GR-75 production-artwork validation.\n" +
+                "This save uses the manually restored First Edition GR-75 base texture directly.\n" +
+                "The repository-owned GR-75 miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\n" +
+                "Verify dashboard orientation, stat bar, blue divider, action icons, ship silhouette, pilot card and UV coverage.",
+                "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
+                new[]
+                {
+                    new ProductionPilotCard(
+                        "g75001",
+                        "Ship",
+                        "GR-75 Medium Transport",
+                        "assets/source/unified1e/pilot-cards/rebelalliance/gr75mediumtransport/gr-75-medium-transport.png",
+                        7.5,
+                        0.0)
+                });
+        }
+
         throw new InvalidDataException(
             $"No locked Epic production texture is registered for '{shipId}'.");
     }
@@ -1111,4 +1487,11 @@ public static class EpicBaseValidationSaveGenerator
         string RepositoryPath,
         double PositionX,
         double PositionZ);
+
+    private sealed record EpicComparisonPlacement(
+        ProductionValidationProfile Profile,
+        double PositionX,
+        double PositionZ,
+        string BaseGuid,
+        string PegGuid);
 }
