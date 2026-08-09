@@ -77,7 +77,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r18.png");
+            $"{layout.ShipId}-targeting-r19.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -85,7 +85,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R18 output already exists and will not be overwritten: {outputPath}");
+                $"The R19 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -163,7 +163,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R18.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R19.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -214,11 +214,9 @@ public static class EpicShipTargetingTextureGenerator
         var lineColour = ToColour(theme.PrimaryArcColour);
         var fillColour = ToColour(theme.ArcFillColour);
 
-        if (geometry.Id.Equals(
-                "raider-fore-sector",
-                StringComparison.OrdinalIgnoreCase))
+        if (IsFullForeSector(geometry))
         {
-            DrawRaiderForeSector(
+            DrawFullForeSector(
                 canvas,
                 origin,
                 destinations,
@@ -317,7 +315,16 @@ public static class EpicShipTargetingTextureGenerator
             "gozanti-fore-sector",
             StringComparison.OrdinalIgnoreCase);
 
-    private static void DrawRaiderForeSector(
+    private static bool IsFullForeSector(
+        EpicTargetingGeometry geometry) =>
+        geometry.Id.Equals(
+            "raider-fore-sector",
+            StringComparison.OrdinalIgnoreCase)
+        || geometry.Id.Equals(
+            "gozanti-fore-sector",
+            StringComparison.OrdinalIgnoreCase);
+
+    private static void DrawFullForeSector(
         SKCanvas canvas,
         SKPoint origin,
         IReadOnlyList<SKPoint> destinations,
@@ -331,7 +338,7 @@ public static class EpicShipTargetingTextureGenerator
         if (destinations.Count != 2)
         {
             throw new InvalidDataException(
-                "Raider Fore targeting geometry requires exactly two shoulder destinations.");
+                "Fore targeting geometry requires exactly two shoulder destinations.");
         }
 
         var surface =
@@ -1259,7 +1266,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R18",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R19",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",

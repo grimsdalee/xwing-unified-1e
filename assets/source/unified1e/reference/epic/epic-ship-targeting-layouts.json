@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.1.0",
-  "implementationVersion": "15C-R15",
-  "generatedUtc": "2026-08-08T23:54:08.6545802+00:00",
+  "implementationVersion": "15C-R18",
+  "generatedUtc": "2026-08-09T15:23:35.3463016+00:00",
   "ships": [
     {
       "shipId": "cr90corvette",
@@ -146,23 +146,26 @@
       },
       "targetingGeometry": [
         {
-          "id": "fore-sector",
+          "id": "gozanti-fore-sector",
           "geometryType": "Sector",
           "section": "Fore",
-          "origin": "BaseCentre",
-          "destination": "ForeOuterCorners",
+          "origin": "DividerCentre",
+          "destination": "GozantiForeShoulderCorners",
           "colourRole": "PrimaryArcColour",
           "fillColourRole": "ArcFillColour",
-          "fillEnabled": true,
+          "fillEnabled": false,
           "dashed": false,
           "calibrationStatus": "ReferenceDerived"
         }
       ],
       "turretIndicators": [],
-      "referenceImage": "assets/source/unified1e/reference/epic/gozanticlasscruiser/gozanti_base.png",
+      "referenceImage": "assets/source/unified1e/reference/epic/gozanticlasscruiser/scans/Gozanti-physical-token-600dpi-20260808.png",
       "notes": [
         "Blue Fore/Aft divider.",
-        "Green Fore sector originates at exact full-base centre and reaches the two outer Fore corners.",
+        "Green Fore V has its apex at the calibrated divider centre and terminates at the two Fore/centre shoulder transitions.",
+        "The green strokes touch but do not cover the blue divider.",
+        "The physical First Edition token has no green sector fill.",
+        "The short Epic mesh preserves the end-section shoulder UV while reducing the physical centre span.",
         "No Aft targeting geometry."
       ]
     },

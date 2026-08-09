@@ -198,8 +198,7 @@ public static class EpicShipTargetingLayoutBuilder
                     "gozanti-fore-sector",
                     "Fore",
                     "DividerCentre",
-                    "GozantiForeShoulderCorners",
-                    fillEnabled: false)
+                    "GozantiForeShoulderCorners")
             },
             ReferenceImage =
                 "assets/source/unified1e/reference/epic/" +
@@ -210,7 +209,7 @@ public static class EpicShipTargetingLayoutBuilder
                 "Blue Fore/Aft divider.",
                 "Green Fore V has its apex at the calibrated divider centre and terminates at the two Fore/centre shoulder transitions.",
                 "The green strokes touch but do not cover the blue divider.",
-                "The physical First Edition token has no green sector fill.",
+                "The green Fore firing-zone fill continues from the V boundaries to the full Fore edge.",
                 "The short Epic mesh preserves the end-section shoulder UV while reducing the physical centre span.",
                 "No Aft targeting geometry."
             }
