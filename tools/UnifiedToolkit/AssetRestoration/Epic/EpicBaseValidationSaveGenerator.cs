@@ -76,6 +76,32 @@ public static class EpicBaseValidationSaveGenerator
             ValidateFile(
                 productionProfile.ShipTexturePath,
                 $"{productionProfile.ShipName} model texture");
+            ValidateFile(
+                Path.Combine(
+                    repositoryRoot,
+                    productionProfile.PegTextureRepositoryPath.Replace(
+                        '/', Path.DirectorySeparatorChar)),
+                $"{productionProfile.ShipName} Epic peg texture");
+
+            if (productionProfile.PilotCards.Count > 0)
+            {
+                ValidateFile(
+                    Path.Combine(
+                        repositoryRoot,
+                        productionProfile.PilotCardBackRepositoryPath.Replace(
+                            '/', Path.DirectorySeparatorChar)),
+                    $"{productionProfile.ShipName} First Edition pilot-card back");
+
+                foreach (var pilotCard in productionProfile.PilotCards)
+                {
+                    ValidateFile(
+                        Path.Combine(
+                            repositoryRoot,
+                            pilotCard.RepositoryPath.Replace(
+                                '/', Path.DirectorySeparatorChar)),
+                        $"{productionProfile.ShipName} {pilotCard.Section} pilot card");
+                }
+            }
         }
         else if (!File.Exists(texturePath))
         {
@@ -189,6 +215,7 @@ public static class EpicBaseValidationSaveGenerator
                     null,
                     null,
                     0.0,
+                    null,
                     "e9lng1",
                     "e9lp01",
                     -3.25),
@@ -208,6 +235,7 @@ public static class EpicBaseValidationSaveGenerator
                     null,
                     null,
                     0.0,
+                    null,
                     "e9sht1",
                     "e9sp01",
                     3.25)
@@ -225,7 +253,8 @@ public static class EpicBaseValidationSaveGenerator
                         "assets/source/unified1e/bases/pegs/epic.obj"),
                     AssetUrl(
                         assetBaseUrl,
-                        "assets/source/unified1e/bases/epic/front/rebel.png"),
+                        productionProfile?.PegTextureRepositoryPath
+                            ?? "assets/source/unified1e/bases/epic/front/rebel.png"),
                     productionProfile?.ObjectNickname ?? "Epic Base Calibration",
                     productionProfile?.ObjectDescription
                         ?? "Phase 15B calibration texture on the authoritative Epic base mesh.",
@@ -239,7 +268,8 @@ public static class EpicBaseValidationSaveGenerator
                         : AssetUrl(
                             assetBaseUrl,
                             productionProfile.ShipTextureRepositoryPath),
-                    productionProfile?.ShipHeight ?? 0.0),
+                    productionProfile?.ShipHeight ?? 0.0,
+                    productionProfile),
                 BuildMarkerCube(
                     "f0a001",
                     "FORE / +Z",
@@ -289,6 +319,27 @@ public static class EpicBaseValidationSaveGenerator
                     0.45,
                     0.1)
             };
+
+            if (productionProfile is not null
+                && productionProfile.PilotCards.Count > 0)
+            {
+                var cardBackUrl = AssetUrl(
+                    assetBaseUrl,
+                    productionProfile.PilotCardBackRepositoryPath);
+
+                foreach (var pilotCard in productionProfile.PilotCards)
+                {
+                    objects.Add(
+                        BuildPilotCardObject(
+                            pilotCard.Guid,
+                            pilotCard.Nickname,
+                            $"{productionProfile.ShipName} — {pilotCard.Section}",
+                            AssetUrl(assetBaseUrl, pilotCard.RepositoryPath),
+                            cardBackUrl,
+                            pilotCard.PositionX,
+                            pilotCard.PositionZ));
+                }
+            }
         }
 
         root["ObjectStates"] = objects;
@@ -359,6 +410,7 @@ public static class EpicBaseValidationSaveGenerator
         string? shipMeshUrl,
         string? shipTextureUrl,
         double shipHeight,
+        ProductionValidationProfile? productionProfile = null,
         string guid = "e91cba",
         string pegGuid = "e9peg1",
         double posX = 0.0)
@@ -378,7 +430,8 @@ public static class EpicBaseValidationSaveGenerator
                 BuildEpicShipObject(
                     shipMeshUrl,
                     shipTextureUrl,
-                    shipHeight));
+                    shipHeight,
+                    productionProfile));
         }
 
         return new JsonObject
@@ -485,10 +538,11 @@ public static class EpicBaseValidationSaveGenerator
     private static JsonObject BuildEpicShipObject(
         string shipMeshUrl,
         string shipTextureUrl,
-        double shipHeight) =>
+        double shipHeight,
+        ProductionValidationProfile? productionProfile) =>
         new()
         {
-            ["GUID"] = "c90shp",
+            ["GUID"] = productionProfile?.ShipObjectGuid ?? "e9shp1",
             ["Name"] = "Custom_Model",
             ["Transform"] = new JsonObject
             {
@@ -502,9 +556,9 @@ public static class EpicBaseValidationSaveGenerator
                 ["scaleY"] = 1.0,
                 ["scaleZ"] = 1.0
             },
-            ["Nickname"] = "CR90 Corvette",
-            ["Description"] =
-                "Repository-owned First Edition CR90 miniature at the authoritative Epic peg-top height.",
+            ["Nickname"] = productionProfile?.ShipName ?? "Epic Ship",
+            ["Description"] = productionProfile?.ShipObjectDescription
+                ?? "Repository-owned First Edition Epic miniature at the authoritative Epic peg-top height.",
             ["ColorDiffuse"] = Colour(1, 1, 1),
             ["Locked"] = true,
             ["Grid"] = false,
@@ -528,6 +582,64 @@ public static class EpicBaseValidationSaveGenerator
                 ["MaterialIndex"] = 1,
                 ["TypeIndex"] = 1,
                 ["CastShadows"] = true
+            },
+            ["LuaScript"] = string.Empty,
+            ["LuaScriptState"] = string.Empty,
+            ["XmlUI"] = string.Empty
+        };
+
+    private static JsonObject BuildPilotCardObject(
+        string guid,
+        string nickname,
+        string description,
+        string imageUrl,
+        string cardBackUrl,
+        double positionX,
+        double positionZ) =>
+        new()
+        {
+            ["GUID"] = guid,
+            ["Name"] = "Custom_Tile",
+            ["Transform"] = new JsonObject
+            {
+                ["posX"] = positionX,
+                ["posY"] = 1.0,
+                ["posZ"] = positionZ,
+                ["rotX"] = 0.0,
+                ["rotY"] = 180.0,
+                ["rotZ"] = 0.0,
+                ["scaleX"] = 1.0,
+                ["scaleY"] = 1.0,
+                ["scaleZ"] = 1.0
+            },
+            ["Nickname"] = nickname,
+            ["Description"] = description,
+            ["ColorDiffuse"] = Colour(1, 1, 1),
+            ["Locked"] = false,
+            ["Grid"] = true,
+            ["Snap"] = true,
+            ["IgnoreFoW"] = false,
+            ["MeasureMovement"] = false,
+            ["DragSelectable"] = true,
+            ["Autoraise"] = true,
+            ["Sticky"] = true,
+            ["Tooltip"] = true,
+            ["GridProjection"] = false,
+            ["HideWhenFaceDown"] = false,
+            ["Hands"] = true,
+            ["CustomImage"] = new JsonObject
+            {
+                ["ImageURL"] = imageUrl,
+                ["ImageSecondaryURL"] = cardBackUrl,
+                ["ImageScalar"] = 1.0,
+                ["WidthScale"] = 0.0,
+                ["CustomTile"] = new JsonObject
+                {
+                    ["Type"] = 0,
+                    ["Thickness"] = 0.02,
+                    ["Stackable"] = false,
+                    ["Stretch"] = true
+                }
             },
             ["LuaScript"] = string.Empty,
             ["LuaScriptState"] = string.Empty,
@@ -656,12 +768,27 @@ public static class EpicBaseValidationSaveGenerator
         }
         else
         {
-            lines.Add("- CR90 FORE artwork is at the top and AFT artwork is at the bottom.");
-            lines.Add("- Both restored stat/name bars reach the intended base edges.");
-            lines.Add("- Firing geometry, turret, action icons and white ship silhouette match the locked artwork.");
-            lines.Add("- The blue divider crosses the intended Fore/Aft boundary.");
-            lines.Add("- The repository-owned CR90 miniature is centred on both Epic pegs and sits at the peg-top height.");
-            lines.Add("- No texture artwork appears on unintended mesh faces.");
+            if (productionProfile.ShipId.Equals(
+                    "cr90corvette",
+                    StringComparison.OrdinalIgnoreCase))
+            {
+                lines.Add("- CR90 FORE artwork is at the top and AFT artwork is at the bottom.");
+                lines.Add("- Both restored stat/name bars reach the intended base edges.");
+                lines.Add("- Firing geometry, turret, action icons and white ship silhouette match the locked artwork.");
+                lines.Add("- The blue divider crosses the intended Fore/Aft boundary.");
+                lines.Add("- The repository-owned CR90 miniature is centred on both Epic pegs and sits at the peg-top height.");
+                lines.Add("- No texture artwork appears on unintended mesh faces.");
+            }
+            else
+            {
+                lines.Add("- Raider FORE artwork is at the top and AFT artwork is at the bottom.");
+                lines.Add("- Both restored stat/name bars reach the intended base edges.");
+                lines.Add("- Green firing geometry, action icons and white ship silhouette match the locked Raider artwork.");
+                lines.Add("- The blue divider crosses the intended Fore/Aft boundary without green line overlap.");
+                lines.Add("- The repository-owned Raider miniature is centred on both Epic pegs and sits at the reference peg-top height.");
+                lines.Add("- Both First Edition Raider section pilot cards are present beside the base.");
+                lines.Add("- No texture artwork appears on unintended mesh faces.");
+            }
         }
 
         lines.Add("");
@@ -705,62 +832,142 @@ public static class EpicBaseValidationSaveGenerator
         if (string.IsNullOrWhiteSpace(shipId))
             return null;
 
-        if (!shipId.Equals(
+        if (shipId.Equals(
                 "cr90corvette",
                 StringComparison.OrdinalIgnoreCase))
         {
-            throw new InvalidDataException(
-                $"No locked Epic production texture is registered for '{shipId}'.");
+            const string textureRepositoryPath =
+                "assets/source/unified1e/pilot-tokens/" +
+                "rebelalliance/cr90corvette/cr90corvette.png";
+
+            return new ProductionValidationProfile(
+                "cr90corvette",
+                "CR90 Corvette",
+                textureRepositoryPath,
+                "14FBBB5900D72FEE481BFCC59C0860596A25AB5B1A0784108C8C03BD982FE57F",
+                Path.Combine(
+                    repositoryRoot,
+                    textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "generated",
+                    "validation",
+                    "epic",
+                    "cr90corvette-base-validation.json"),
+                "assets/source/unified1e/ships/epic/cr90corvette/cr90.obj",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "cr90corvette",
+                    "cr90.obj"),
+                "assets/source/unified1e/ships/epic/cr90corvette/Textures/standard.jpg",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "cr90corvette",
+                    "Textures",
+                    "standard.jpg"),
+                "assets/source/unified1e/bases/epic/front/rebel.png",
+                4.509502,
+                "c90shp",
+                "Repository-owned First Edition CR90 miniature at the authoritative Epic peg-top height.",
+                "CR90 Corvette — Locked First Edition Base",
+                "Locked First Edition CR90 base-token artwork on the authoritative Epic base mesh.",
+                "Phase 15C locked CR90 production-artwork validation.\n" +
+                "This save uses the manually restored First Edition CR90 base texture directly.\n" +
+                "The repository-owned First Edition CR90 miniature is mounted at the measured Epic peg-top height.\n" +
+                "Verify Fore/Aft orientation, stat bars, firing geometry, turret, action icons, ship silhouette and UV coverage.\n" +
+                "The Phase 15C-R15 generated targeting texture is deliberately not used.",
+                string.Empty,
+                Array.Empty<ProductionPilotCard>());
         }
 
-        const string textureRepositoryPath =
-            "assets/source/unified1e/pilot-tokens/" +
-            "rebelalliance/cr90corvette/cr90corvette.png";
+        if (shipId.Equals(
+                "raiderclasscorvette",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            const string textureRepositoryPath =
+                "assets/source/unified1e/pilot-tokens/" +
+                "galacticempire/raiderclasscorvette/raiderclasscorvette.png";
 
-        return new ProductionValidationProfile(
-            "cr90corvette",
-            "CR90 Corvette",
-            textureRepositoryPath,
-            "14FBBB5900D72FEE481BFCC59C0860596A25AB5B1A0784108C8C03BD982FE57F",
-            Path.Combine(
-                repositoryRoot,
-                textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
-            Path.Combine(
-                repositoryRoot,
-                "assets",
-                "generated",
-                "validation",
-                "epic",
-                "cr90corvette-base-validation.json"),
-            "assets/source/unified1e/ships/epic/cr90corvette/cr90.obj",
-            Path.Combine(
-                repositoryRoot,
-                "assets",
-                "source",
-                "unified1e",
-                "ships",
-                "epic",
-                "cr90corvette",
-                "cr90.obj"),
-            "assets/source/unified1e/ships/epic/cr90corvette/Textures/standard.jpg",
-            Path.Combine(
-                repositoryRoot,
-                "assets",
-                "source",
-                "unified1e",
-                "ships",
-                "epic",
-                "cr90corvette",
-                "Textures",
-                "standard.jpg"),
-            4.509502,
-            "CR90 Corvette — Locked First Edition Base",
-            "Locked First Edition CR90 base-token artwork on the authoritative Epic base mesh.",
-            "Phase 15C locked CR90 production-artwork validation.\n" +
-            "This save uses the manually restored First Edition CR90 base texture directly.\n" +
-            "The repository-owned First Edition CR90 miniature is mounted at the measured Epic peg-top height.\n" +
-            "Verify Fore/Aft orientation, stat bars, firing geometry, turret, action icons, ship silhouette and UV coverage.\n" +
-            "The Phase 15C-R15 generated targeting texture is deliberately not used.");
+            return new ProductionValidationProfile(
+                "raiderclasscorvette",
+                "Raider-class Corvette",
+                textureRepositoryPath,
+                "AE7DA8CC2D3F70447059DF011C7B109CB3550621D12334BD2F6EFF76A44A08E8",
+                Path.Combine(
+                    repositoryRoot,
+                    textureRepositoryPath.Replace('/', Path.DirectorySeparatorChar)),
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "generated",
+                    "validation",
+                    "epic",
+                    "raiderclasscorvette-base-validation.json"),
+                "assets/source/unified1e/ships/epic/raiderclasscorvette/raider.obj",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "raiderclasscorvette",
+                    "raider.obj"),
+                "assets/source/unified1e/ships/epic/raiderclasscorvette/Textures/standard.jpg",
+                Path.Combine(
+                    repositoryRoot,
+                    "assets",
+                    "source",
+                    "unified1e",
+                    "ships",
+                    "epic",
+                    "raiderclasscorvette",
+                    "Textures",
+                    "standard.jpg"),
+                "assets/source/unified1e/bases/epic/front/empire.png",
+                3.49761486,
+                "rdrshp",
+                "Repository-owned Raider-class Corvette miniature at the authoritative reference Epic peg-top height.",
+                "Raider-class Corvette — Locked First Edition Base",
+                "Locked First Edition Raider base-token artwork on the authoritative long Epic base mesh.",
+                "Phase 15C locked Raider production-artwork validation.\n" +
+                "This save uses the manually restored First Edition Raider base texture directly.\n" +
+                "The repository-owned Raider miniature uses the scale, orientation and peg-top height measured from the five-Huge-ship TTS reference save.\n" +
+                "Verify Fore/Aft orientation, stat bars, green firing geometry, action icons, ship silhouette, pilot cards and UV coverage.\n" +
+                "The Phase 15C-R17 generated targeting texture is deliberately not substituted for the locked production artwork.",
+                "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
+                new[]
+                {
+                    new ProductionPilotCard(
+                        "rdf001",
+                        "Fore",
+                        "Raider-class Corv. (Fore)",
+                        "assets/source/unified1e/pilot-cards/galacticempire/raiderclasscorvette/raider-class-corv-fore.png",
+                        7.5,
+                        2.2),
+                    new ProductionPilotCard(
+                        "rda002",
+                        "Aft",
+                        "Raider-class Corv. (Aft)",
+                        "assets/source/unified1e/pilot-cards/galacticempire/raiderclasscorvette/raider-class-corv-aft.png",
+                        7.5,
+                        -2.2)
+                });
+        }
+
+        throw new InvalidDataException(
+            $"No locked Epic production texture is registered for '{shipId}'.");
     }
 
     private static void ValidateLockedProductionTexture(
@@ -792,8 +999,21 @@ public static class EpicBaseValidationSaveGenerator
         string ShipModelPath,
         string ShipTextureRepositoryPath,
         string ShipTexturePath,
+        string PegTextureRepositoryPath,
         double ShipHeight,
+        string ShipObjectGuid,
+        string ShipObjectDescription,
         string ObjectNickname,
         string ObjectDescription,
-        string Notes);
+        string Notes,
+        string PilotCardBackRepositoryPath,
+        IReadOnlyList<ProductionPilotCard> PilotCards);
+
+    private sealed record ProductionPilotCard(
+        string Guid,
+        string Section,
+        string Nickname,
+        string RepositoryPath,
+        double PositionX,
+        double PositionZ);
 }
