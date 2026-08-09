@@ -1321,7 +1321,7 @@ public static class EpicBaseValidationSaveGenerator
                     "croccruiser-base-validation.json"),
                 "assets/source/unified1e/bases/epic/base-short.obj",
                 "assets/source/unified1e/bases/pegs/epic-short.obj",
-                "assets/source/unified1e/ships/epic/croccruiser/croc-donor-ventral-test.obj",
+                "assets/source/unified1e/ships/epic/croccruiser/croc.obj",
                 Path.Combine(
                     repositoryRoot,
                     "assets",
@@ -1330,7 +1330,7 @@ public static class EpicBaseValidationSaveGenerator
                     "ships",
                     "epic",
                     "croccruiser",
-                    "croc-donor-ventral-test.obj"),
+                    "croc.obj"),
                 "assets/source/unified1e/ships/epic/croccruiser/Textures/standard.jpg",
                 Path.Combine(
                     repositoryRoot,
@@ -1345,13 +1345,13 @@ public static class EpicBaseValidationSaveGenerator
                 "assets/source/unified1e/bases/epic/front/scum.png",
                 3.497615,
                 "crcshp",
-                "Diagnostic C-ROC Cruiser mesh with donor-assisted ventral bow and aft geometry at the authoritative reference Epic peg-top height.",
+                "Repository-owned C-ROC Cruiser miniature at the authoritative reference Epic peg-top height.",
                 "C-ROC Cruiser — Locked First Edition Base",
                 "Locked First Edition C-ROC base-token artwork on the authoritative short Epic base mesh.",
                 "Phase 15C locked C-ROC production-artwork validation.\n" +
                 "This save uses the manually restored First Edition C-ROC base texture directly.\n" +
                 "The physical First Edition reference confirms that the C-ROC has no blue Fore/Aft divider.\n" +
-                "This validation uses a diagnostic C-ROC mesh with aligned ventral bow and aft geometry to repair inherited missing surfaces while preserving intentional openings.\n" +
+                "This validation uses the original repository-owned C-ROC mesh; the inherited model gaps remain unchanged.\n" +
                 "The repository-owned C-ROC miniature uses the orientation and peg-top height measured from the five-Huge-ship TTS reference save.\n" +
                 "Verify stat bar, yellow Fore firing zone, action icons, ship silhouette, pilot card and UV coverage.",
                 "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__1ca546de0b098648.png",
