@@ -151,9 +151,9 @@ public static class EpicShipTargetingLayoutBuilder
             TargetingGeometry = new List<EpicTargetingGeometry>
             {
                 Sector(
-                    "fore-sector",
+                    "raider-fore-sector",
                     "Fore",
-                    "BaseCentre",
+                    "DividerCentre",
                     "RaiderForeShoulderCorners"),
                 Triangle(
                     "aft-port-sector",
@@ -173,7 +173,8 @@ public static class EpicShipTargetingLayoutBuilder
             Notes = new List<string>
             {
                 "Blue Fore/Aft divider.",
-                "Green Fore V has its apex at exact full-base centre on the divider and terminates at the two Fore/centre shoulder transitions.",
+                "Green Fore V has its apex at the exact calibrated divider centre and terminates at the two Fore/centre shoulder transitions.",
+                "The green Fore firing-zone fill continues from the V boundaries to the full Fore edge rather than closing across the two shoulder endpoints.",
                 "The Fore shoulder position is the long-base mesh transition at z=-1.783 rather than the extreme Fore edge.",
                 "Two green Aft side triangles originate at the Aft mount marker.",
                 "The Aft triangles together form an X through the Aft mount: two lines to the divider-side corners and two to the outer Aft corners.",

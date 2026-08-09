@@ -7,6 +7,8 @@ namespace UnifiedToolkit.AssetRestoration.Epic;
 
 public static class EpicShipTargetingTextureGenerator
 {
+    private const float DividerTouchOffsetPixels = 6.0f;
+
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true
@@ -75,7 +77,7 @@ public static class EpicShipTargetingTextureGenerator
             "generated",
             "epic",
             "targeting",
-            $"{layout.ShipId}-targeting-r15.png");
+            $"{layout.ShipId}-targeting-r17.png");
 
         outputPath = Path.GetFullPath(outputPath);
         Directory.CreateDirectory(Path.GetDirectoryName(outputPath)!);
@@ -83,7 +85,7 @@ public static class EpicShipTargetingTextureGenerator
         if (File.Exists(outputPath))
         {
             throw new IOException(
-                $"The R15 output already exists and will not be overwritten: {outputPath}");
+                $"The R17 output already exists and will not be overwritten: {outputPath}");
         }
 
         using var source = SKBitmap.Decode(commonTexturePath)
@@ -161,7 +163,7 @@ public static class EpicShipTargetingTextureGenerator
             "_unifiedtoolkit_reports",
             "phase15",
             "epic-targeting",
-            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R15.md");
+            $"{layout.ShipId.ToUpperInvariant()}-TARGETING-R17.md");
 
         Directory.CreateDirectory(Path.GetDirectoryName(reportPath)!);
 
@@ -212,6 +214,23 @@ public static class EpicShipTargetingTextureGenerator
         var lineColour = ToColour(theme.PrimaryArcColour);
         var fillColour = ToColour(theme.ArcFillColour);
 
+        if (geometry.Id.Equals(
+                "raider-fore-sector",
+                StringComparison.OrdinalIgnoreCase))
+        {
+            DrawRaiderForeSector(
+                canvas,
+                origin,
+                destinations,
+                geometry,
+                template,
+                lineColour,
+                fillColour,
+                width,
+                height);
+            return;
+        }
+
         if (geometry.GeometryType.Equals(
                 "Sector",
                 StringComparison.OrdinalIgnoreCase)
@@ -246,9 +265,21 @@ public static class EpicShipTargetingTextureGenerator
                 lineColour,
                 geometry.Dashed);
 
+            var firstLineDestination = destinations[0];
+            if (IsRaiderAftSector(geometry))
+            {
+                // The fill remains calibrated to the divider centreline.
+                // Only the visible green stroke is shortened so its
+                // antialiased edge touches, but does not cover, the blue
+                // divider stroke below the line.
+                firstLineDestination = new SKPoint(
+                    firstLineDestination.X,
+                    firstLineDestination.Y + DividerTouchOffsetPixels);
+            }
+
             canvas.DrawLine(
                 origin,
-                destinations[0],
+                firstLineDestination,
                 linePaint);
             canvas.DrawLine(
                 origin,
@@ -263,6 +294,88 @@ public static class EpicShipTargetingTextureGenerator
 
         foreach (var destination in destinations)
             canvas.DrawLine(origin, destination, paint);
+    }
+
+    private static bool IsRaiderAftSector(
+        EpicTargetingGeometry geometry) =>
+        geometry.Id.Equals(
+            "aft-port-sector",
+            StringComparison.OrdinalIgnoreCase)
+        || geometry.Id.Equals(
+            "aft-starboard-sector",
+            StringComparison.OrdinalIgnoreCase);
+
+    private static void DrawRaiderForeSector(
+        SKCanvas canvas,
+        SKPoint origin,
+        IReadOnlyList<SKPoint> destinations,
+        EpicTargetingGeometry geometry,
+        EpicBaseTemplate template,
+        SKColor lineColour,
+        SKColor fillColour,
+        int width,
+        int height)
+    {
+        if (destinations.Count != 2)
+        {
+            throw new InvalidDataException(
+                "Raider Fore targeting geometry requires exactly two shoulder destinations.");
+        }
+
+        var surface =
+            template.Layout.Calibration.MainRenderedSurface;
+        var forePortCorner = ToPoint(
+            new EpicTokenOptionalPoint
+            {
+                U = surface.MinU,
+                V = surface.MaxV
+            },
+            width,
+            height);
+        var foreStarboardCorner = ToPoint(
+            new EpicTokenOptionalPoint
+            {
+                U = surface.MaxU,
+                V = surface.MaxV
+            },
+            width,
+            height);
+
+        if (geometry.FillEnabled)
+        {
+            using var fillPath = new SKPath();
+            fillPath.MoveTo(origin);
+            fillPath.LineTo(destinations[0]);
+            fillPath.LineTo(forePortCorner);
+            fillPath.LineTo(foreStarboardCorner);
+            fillPath.LineTo(destinations[1]);
+            fillPath.Close();
+
+            using var fill = new SKPaint
+            {
+                IsAntialias = true,
+                Style = SKPaintStyle.Fill,
+                Color = fillColour
+            };
+            canvas.DrawPath(fillPath, fill);
+        }
+
+        using var linePaint = ArcPaint(
+            lineColour,
+            geometry.Dashed);
+
+        var lineOrigin = new SKPoint(
+            origin.X,
+            origin.Y - DividerTouchOffsetPixels);
+
+        canvas.DrawLine(
+            lineOrigin,
+            destinations[0],
+            linePaint);
+        canvas.DrawLine(
+            lineOrigin,
+            destinations[1],
+            linePaint);
     }
 
     private static void DrawDivider(
@@ -823,9 +936,28 @@ public static class EpicShipTargetingTextureGenerator
             "ForeMount" => ResolveMount(name, mounts),
             "AftMount" => ResolveMount(name, mounts),
             "BaseCentre" => BaseCentre(template),
+            "DividerCentre" => DividerCentre(template),
             _ => throw new InvalidDataException(
                 $"Unknown targeting origin '{name}'.")
         };
+
+    private static EpicTokenOptionalPoint DividerCentre(
+        EpicBaseTemplate template)
+    {
+        var divider = template.Layout.SectionDivider;
+
+        if (divider.Start is null || divider.End is null)
+        {
+            throw new InvalidDataException(
+                "Divider geometry is incomplete.");
+        }
+
+        return new EpicTokenOptionalPoint
+        {
+            U = (divider.Start.U + divider.End.U) / 2.0,
+            V = (divider.Start.V + divider.End.V) / 2.0
+        };
+    }
 
     private static EpicTokenOptionalPoint BaseCentre(
         EpicBaseTemplate template)
@@ -1084,7 +1216,7 @@ public static class EpicShipTargetingTextureGenerator
     {
         var lines = new List<string>
         {
-            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R15",
+            $"# {layout.ShipName} Targeting Diagnostic — Phase 15C-R17",
             "",
             $"- Ship: {layout.ShipId}",
             $"- Faction: {layout.FactionId}",
