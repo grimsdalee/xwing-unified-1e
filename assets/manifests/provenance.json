@@ -48,7 +48,7 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6C3D30A532C557AF",
+    "assetId": "AST-96D33813328C9E43",
     "repositoryPath": "assets/generated/ActionIcons/jam.png",
     "origin": "generated",
     "isGenerated": true,
@@ -178,6 +178,14 @@
   {
     "assetId": "AST-7DCE4DE9E8DB88EF",
     "repositoryPath": "assets/generated/epic/targeting/croccruiser-targeting-r4.png",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-93CEB88488545BB0",
+    "repositoryPath": "assets/generated/epic/targeting/gozanticlasscruiser-targeting-r18.png",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -3506,78 +3514,6 @@
   {
     "assetId": "AST-3AAE003849D9D47E",
     "repositoryPath": "assets/generated/PrototypeDialTexture/scumandvillainy/lancerclasspursuitcraft/dial-transparent.png",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-45DAC10C40E7E7F6",
-    "repositoryPath": "assets/generated/validation/epic/cr90corvette-base-validation-manifest.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-52A0991A644B52AF",
-    "repositoryPath": "assets/generated/validation/epic/cr90corvette-base-validation.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-C82932C73F2B1139",
-    "repositoryPath": "assets/generated/validation/epic/CR90CORVETTE-BASE-VALIDATION.md",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A54B2D6EADF8C250",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-size-comparison-manifest.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-5AFFC6973F6FBA01",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-size-comparison.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2194F6F74C9E3CDF",
-    "repositoryPath": "assets/generated/validation/epic/EPIC-BASE-SIZE-COMPARISON.md",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-39B4E53482935A58",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-validation-manifest.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-CF2562A633AC3A11",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-validation.json",
-    "origin": "generated",
-    "isGenerated": true,
-    "originalSource": null,
-    "notes": "Generated asset. Source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-9C3BB76C9E197E83",
-    "repositoryPath": "assets/generated/validation/epic/EPIC-BASE-VALIDATION.md",
     "origin": "generated",
     "isGenerated": true,
     "originalSource": null,
@@ -14672,6 +14608,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-7114D9173F0C4328",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/gozanticlasscruiser/gozanticlasscruiser.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-52EEAC38438115B7",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
     "origin": "unified1e",
@@ -15552,6 +15496,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-E88268D8B3A1F6E9",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/gr75mediumtransport/gr75mediumtransport.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-1A4152584FED7D4A",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/hwk290/janors__pilot-f4184700d1da.png",
     "origin": "unified1e",
@@ -16194,6 +16146,14 @@
   {
     "assetId": "AST-6F6385A3025D5343",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/aggressor/ig88d__pilot-2e5d2cad25b4.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-60BE5F35EC4F6C08",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/croccruiser/croccruiser.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -16936,24 +16896,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5D8081DD744A943C",
+    "assetId": "AST-68D012025888CE7D",
     "repositoryPath": "assets/source/unified1e/reference/epic/epic-ship-targeting-layouts.json",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-37660DB52124A3C5",
-    "repositoryPath": "assets/source/unified1e/reference/epic/raiderclasscorvette/photos/full.png",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A5AE49CB5B415576",
-    "repositoryPath": "assets/source/unified1e/reference/epic/raiderclasscorvette/scans/Raider-physical-token-600dpi-20260808.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

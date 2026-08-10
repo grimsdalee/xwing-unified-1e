@@ -36,10 +36,10 @@
     "sizeBytes": 3412
   },
   {
-    "assetId": "AST-6C3D30A532C557AF",
+    "assetId": "AST-96D33813328C9E43",
     "repositoryPath": "assets/generated/ActionIcons/jam.png",
-    "sha256": "6c3d30a532c557af1cc2b9040fd470cdac5fcf0c96a838214168f2970f11d8cc",
-    "sizeBytes": 2618
+    "sha256": "96d33813328c9e43e0c2cba5307ebd4063a1f43fe3c113f18c509ed05d30496c",
+    "sizeBytes": 2081
   },
   {
     "assetId": "AST-4559C469E1B296BB",
@@ -136,6 +136,12 @@
     "repositoryPath": "assets/generated/epic/targeting/croccruiser-targeting-r4.png",
     "sha256": "7dce4de9e8db88ef2d719bff0be967731bd8585f1d428c22c87e7bb1337d9a0a",
     "sizeBytes": 106787
+  },
+  {
+    "assetId": "AST-93CEB88488545BB0",
+    "repositoryPath": "assets/generated/epic/targeting/gozanticlasscruiser-targeting-r18.png",
+    "sha256": "93ceb88488545bb072340ee30e4012942d1ae6a9aa6657a339c38c4cbb7b3890",
+    "sizeBytes": 93626
   },
   {
     "assetId": "AST-00B56C099DB4C9D8",
@@ -2632,60 +2638,6 @@
     "repositoryPath": "assets/generated/PrototypeDialTexture/scumandvillainy/lancerclasspursuitcraft/dial-transparent.png",
     "sha256": "3aae003849d9d47ec6f38b3142e7bff536d54c510f55d1edc8e4f19476071af8",
     "sizeBytes": 113972
-  },
-  {
-    "assetId": "AST-45DAC10C40E7E7F6",
-    "repositoryPath": "assets/generated/validation/epic/cr90corvette-base-validation-manifest.json",
-    "sha256": "45dac10c40e7e7f62f879cac46d974007cbc151999f38a21d2d5f5cdeb5bc2fd",
-    "sizeBytes": 780
-  },
-  {
-    "assetId": "AST-52A0991A644B52AF",
-    "repositoryPath": "assets/generated/validation/epic/cr90corvette-base-validation.json",
-    "sha256": "52a0991a644b52af6e68f48083713876dd3107e87a6b36186ad1651be618fd9b",
-    "sizeBytes": 1110302
-  },
-  {
-    "assetId": "AST-C82932C73F2B1139",
-    "repositoryPath": "assets/generated/validation/epic/CR90CORVETTE-BASE-VALIDATION.md",
-    "sha256": "c82932c73f2b1139931f93d3f45d3d19021cf20f74fae5ea1284bc984498b0b2",
-    "sizeBytes": 1203
-  },
-  {
-    "assetId": "AST-A54B2D6EADF8C250",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-size-comparison-manifest.json",
-    "sha256": "a54b2d6eadf8c2507246c6110ed1a3821bcb8c2fa588edc1bfcf9548c2a8a1a8",
-    "sizeBytes": 756
-  },
-  {
-    "assetId": "AST-5AFFC6973F6FBA01",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-size-comparison.json",
-    "sha256": "5affc6973f6fba012d79c02bf42876cc00b65e07710c7d7018253bbb45c81b7f",
-    "sizeBytes": 1108220
-  },
-  {
-    "assetId": "AST-2194F6F74C9E3CDF",
-    "repositoryPath": "assets/generated/validation/epic/EPIC-BASE-SIZE-COMPARISON.md",
-    "sha256": "2194f6f74c9e3cdfa989bda7d09779b296d671b6e2311565d3c50bb26d25a799",
-    "sizeBytes": 949
-  },
-  {
-    "assetId": "AST-39B4E53482935A58",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-validation-manifest.json",
-    "sha256": "39b4e53482935a58b194a2ae72cb2150894b05b38f43cc59c48516d80200730d",
-    "sizeBytes": 747
-  },
-  {
-    "assetId": "AST-CF2562A633AC3A11",
-    "repositoryPath": "assets/generated/validation/epic/epic-base-validation.json",
-    "sha256": "cf2562a633ac3a1122fa16a9a3d3ce535165dd2d187755e6d54aa795830974eb",
-    "sizeBytes": 1108249
-  },
-  {
-    "assetId": "AST-9C3BB76C9E197E83",
-    "repositoryPath": "assets/generated/validation/epic/EPIC-BASE-VALIDATION.md",
-    "sha256": "9c3bb76c9e197e83f676c75a6839bd90ae513de55e48f896f3319246db969924",
-    "sizeBytes": 749
   },
   {
     "assetId": "AST-DBDA337B8412ACF5",
@@ -11004,6 +10956,12 @@
     "sizeBytes": 891256
   },
   {
+    "assetId": "AST-7114D9173F0C4328",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/gozanticlasscruiser/gozanticlasscruiser.png",
+    "sha256": "7114d9173f0c4328d46cd77f5c26ac0e253ee785df6a359cb733677673197e52",
+    "sizeBytes": 259000
+  },
+  {
     "assetId": "AST-52EEAC38438115B7",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
     "sha256": "52eeac38438115b7d95b536da466a3d2b42739e95dbd6795ef2e756138d73c07",
@@ -11664,6 +11622,12 @@
     "sizeBytes": 289090
   },
   {
+    "assetId": "AST-E88268D8B3A1F6E9",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/gr75mediumtransport/gr75mediumtransport.png",
+    "sha256": "e88268d8b3a1f6e9bd34fdd824616f0c2316e1d922e2108e4798a68cdf238af1",
+    "sizeBytes": 237084
+  },
+  {
     "assetId": "AST-1A4152584FED7D4A",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/rebelalliance/hwk290/janors__pilot-f4184700d1da.png",
     "sha256": "1a4152584fed7d4a3e3d2a969e25e9cc82b87aef73ee6eb367dcbb516cd456d0",
@@ -12148,6 +12112,12 @@
     "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/aggressor/ig88d__pilot-2e5d2cad25b4.png",
     "sha256": "6f6385a3025d53438e48fcc6ab6205cc4475d1e377f25a8507b734fabb81693f",
     "sizeBytes": 896266
+  },
+  {
+    "assetId": "AST-60BE5F35EC4F6C08",
+    "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/croccruiser/croccruiser.png",
+    "sha256": "60be5f35ec4f6c08118f793bc49646144717faaa6c61f1538e2982cf93624fc2",
+    "sizeBytes": 285575
   },
   {
     "assetId": "AST-14DA1D8F1F5B4E7B",
@@ -12702,22 +12672,10 @@
     "sizeBytes": 2392
   },
   {
-    "assetId": "AST-5D8081DD744A943C",
+    "assetId": "AST-68D012025888CE7D",
     "repositoryPath": "assets/source/unified1e/reference/epic/epic-ship-targeting-layouts.json",
-    "sha256": "5d8081dd744a943cc6a128250b53c0f10f9b3420faffec0c8a80c4a928a4eab9",
-    "sizeBytes": 7893
-  },
-  {
-    "assetId": "AST-37660DB52124A3C5",
-    "repositoryPath": "assets/source/unified1e/reference/epic/raiderclasscorvette/photos/full.png",
-    "sha256": "37660db52124a3c50fe5284576621b5a2a8879745172d396abb101ba1c3abf44",
-    "sizeBytes": 301959
-  },
-  {
-    "assetId": "AST-A5AE49CB5B415576",
-    "repositoryPath": "assets/source/unified1e/reference/epic/raiderclasscorvette/scans/Raider-physical-token-600dpi-20260808.png",
-    "sha256": "a5ae49cb5b415576d3d39dc83753113d58d4f81a8e5faf16405deca1f704af2f",
-    "sizeBytes": 27624831
+    "sha256": "68d012025888ce7d571b8606a8b64b306a547c7569ada699bc07d6246f556599",
+    "sizeBytes": 8224
   },
   {
     "assetId": "AST-F616CAB1B4F37388",
