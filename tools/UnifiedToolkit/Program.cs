@@ -91,6 +91,7 @@ return command switch
     "import-official-first-edition-pilots" => ImportOfficialFirstEditionPilotsCommand.Run(commandArgs),
     "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
     "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
+    "audit-first-edition-card-token-assets" => AuditFirstEditionCardAndTokenAssetsCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -268,6 +269,7 @@ static void ShowHelp()
     Console.WriteLine("  prepare-missing-pilot-package-assets <repository> [--package-plan <file>] [--output <folder>]");
     Console.WriteLine("  import-deferred-epic-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  audit-first-edition-card-token-assets <first-edition-repo-folder> [--output <folder>]");
 }
 
 static int UnknownCommand(string command)
