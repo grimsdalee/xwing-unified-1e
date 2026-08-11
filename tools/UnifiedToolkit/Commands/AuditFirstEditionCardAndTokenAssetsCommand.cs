@@ -47,9 +47,14 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
 
             foreach (var condition in conditions)
             {
+                condition.TokenExpected = condition.Xws is not ("mimicked" or "shadowed");
+                var canonicalTokenPath = Path.Combine(repository, "assets", "source", "unified1e",
+                    "condition-tokens", $"{condition.Xws}.png");
+                condition.TokenRepositoryPath = Relative(repository, canonicalTokenPath);
+                condition.TokenArtworkAvailable = File.Exists(canonicalTokenPath);
                 condition.LegacyTokenCandidates = candidates
                     .Where(candidate => candidate.Category == "condition-token"
-                        && Normalise(candidate.ObjectName).Contains(Normalise(condition.Name), StringComparison.Ordinal)
+                        && ConditionTokenNameMatches(candidate.ObjectName, condition)
                         && candidate.PropertyName.Equals("DiffuseURL", StringComparison.OrdinalIgnoreCase))
                     .Select(candidate => candidate.RepositoryPath)
                     .Distinct(StringComparer.OrdinalIgnoreCase)
@@ -101,6 +106,8 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Condition cards:                  {conditions.Count}");
             Console.WriteLine($"Condition artwork available:      {conditions.Count(row => row.ArtworkAvailable)}");
             Console.WriteLine($"Conditions with token candidates: {conditions.Count(row => row.LegacyTokenCandidates.Count > 0)}");
+            Console.WriteLine($"Conditions requiring tokens:      {conditions.Count(row => row.TokenExpected)}");
+            Console.WriteLine($"Condition tokens available:       {conditions.Count(row => row.TokenArtworkAvailable)}");
             Console.WriteLine($"Upgrade cards:                    {upgrades.Count}");
             Console.WriteLine($"Upgrade artwork available:        {upgrades.Count(row => row.ArtworkAvailable)}");
             Console.WriteLine($"Upgrade-card back types expected: {upgradeCardBacks.Count}");
@@ -146,6 +153,14 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
                 ArtworkAvailable = File.Exists(fullPath)
             };
         }).OrderBy(row => row.Name, StringComparer.OrdinalIgnoreCase).ToList();
+    }
+
+    private static bool ConditionTokenNameMatches(string objectName, CardAssetAuditRow condition)
+    {
+        var objectKey = Normalise(objectName);
+        if (objectKey.Contains(Normalise(condition.Name), StringComparison.Ordinal)) return true;
+        return condition.Xws == "suppressivefire"
+            && objectKey.Contains("suppresivefire", StringComparison.Ordinal);
     }
 
     private static DamageDeckAuditRow Deck(
@@ -402,7 +417,10 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             lines.Add("");
         }
         lines.AddRange(new[] { "", "## Condition token evidence", "" });
-        lines.AddRange(audit.Conditions.Select(row => $"- {row.Name}: {(row.LegacyTokenCandidates.Count == 0 ? "none identified" : string.Join(", ", row.LegacyTokenCandidates))}"));
+        lines.AddRange(audit.Conditions.Select(row =>
+            $"- {row.Name}: expected={row.TokenExpected}, imported={row.TokenArtworkAvailable}" +
+            (row.TokenExpected ? $", canonical=`{row.TokenRepositoryPath}`" : ", no separate physical token") +
+            $", legacy evidence={(row.LegacyTokenCandidates.Count == 0 ? "none identified" : string.Join(", ", row.LegacyTokenCandidates))}"));
         lines.AddRange(new[] { "", "Candidates require visual and runtime validation before canonical import." });
         File.WriteAllLines(path, lines, new UTF8Encoding(false));
     }
@@ -510,6 +528,9 @@ public sealed class CardAssetAuditRow
     public string Image { get; init; } = "";
     public string RepositoryPath { get; init; } = "";
     public bool ArtworkAvailable { get; init; }
+    public bool TokenExpected { get; set; }
+    public bool TokenArtworkAvailable { get; set; }
+    public string TokenRepositoryPath { get; set; } = "";
     public List<string> LegacyTokenCandidates { get; set; } = new();
 }
 

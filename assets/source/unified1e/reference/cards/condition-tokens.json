@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-08-11T18:54:14.128116+00:00",
+  "sourceFolder": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images",
+  "destinationFolder": "assets/source/unified1e/condition-tokens",
+  "conditionsWithoutTokens": [
+    "mimicked",
+    "shadowed"
+  ],
+  "conditionTokens": [
+    {
+      "conditionXws": "adebttopay",
+      "conditionName": "A Debt to Pay",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c9e9b25fc855a14f.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/adebttopay.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "45A8FBF5AC1006AA49E5C91A7EA988AC9B072575F592695C9F2DB64C7E982F53",
+      "notes": ""
+    },
+    {
+      "conditionXws": "fanaticaldevotion",
+      "conditionName": "Fanatical Devotion",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0ef5a15271cc4f21.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/fanaticaldevotion.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "2166F3C913000C3226478C7BA6080813121E2D061AEBF35FEE45F2DCFFACB0F3",
+      "notes": ""
+    },
+    {
+      "conditionXws": "harpooned",
+      "conditionName": "Harpooned!",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__399275f5fcdcebeb.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "ADD6D99B26964A266F9BF10B509DD0F3FEAF4C75B2B0F637087044BAD644EB05",
+      "notes": ""
+    },
+    {
+      "conditionXws": "illshowyouthedarkside",
+      "conditionName": "I\u0027ll Show You the Dark Side",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__36420c92f33a82c0.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "A4F01DC8E009E1B45283E7F38030438A03879D720AA17E17753E2BB7347C83D0",
+      "notes": ""
+    },
+    {
+      "conditionXws": "optimizedprototype",
+      "conditionName": "Optimized Prototype",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__9b7f22b50c31355a.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/optimizedprototype.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "FC696D49EBB264F1AA0FB586543D848F85D2DCF02BDBB4013D0147CFC80A37CC",
+      "notes": ""
+    },
+    {
+      "conditionXws": "rattled",
+      "conditionName": "Rattled",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__b250524ab77cdaf4.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/rattled.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "51ABB5D27A6FCFA7810817884B9CBA4198D59E266D7F2D43E125FD649F25E1DD",
+      "notes": ""
+    },
+    {
+      "conditionXws": "scrambled",
+      "conditionName": "Scrambled",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__d0868e4f0015a93a.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/scrambled.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "11764419708BEAA12A9F73091D7CB7F5959C3F3E5C6D08EB7BE209686D99ED27",
+      "notes": ""
+    },
+    {
+      "conditionXws": "suppressivefire",
+      "conditionName": "Suppressive Fire",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__834657a2f3841e6b.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/suppressivefire.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "62BDB44775B7044D66A2869281EF663A988D4EE0FDDB25FFD2C998565F3CDF75",
+      "notes": "Legacy runtime object is misspelled \u0027Suppresive Fire\u0027; canonical spelling retained here."
+    }
+  ]
+}
