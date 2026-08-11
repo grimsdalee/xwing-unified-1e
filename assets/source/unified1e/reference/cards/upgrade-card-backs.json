@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-08-11T17:40:08.0103994+00:00",
+  "sourceFolder": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs",
+  "destinationFolder": "assets/source/unified1e/upgrade-card-backs",
+  "upgradeCardBacks": [
+    {
+      "upgradeType": "Astromech",
+      "fileName": "astromech.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/astromech.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/astromech.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "73F6FC1556EC66AAA49A44CEA198F032B1FBA298D5765D5B94037A93B965E548"
+    },
+    {
+      "upgradeType": "Bomb",
+      "fileName": "bomb.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/bomb.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/bomb.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "CF6CC6D8108796BE40296B3B5D12411BF42DB94507C89CAC9B4C3CBFB04B7F89"
+    },
+    {
+      "upgradeType": "Cannon",
+      "fileName": "cannon.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/cannon.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/cannon.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "89E02F67E178D280D0F49DED7D6E30EA86B578982985CD44708566CD6587E832"
+    },
+    {
+      "upgradeType": "Cargo",
+      "fileName": "cargo.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/cargo.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/cargo.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "1F58628AF14FE35A5E2910AFA2C2A17C3963DC3E0B240D98A72F0062D84FCE1D"
+    },
+    {
+      "upgradeType": "Crew",
+      "fileName": "crew.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/crew.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/crew.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "324472446B5A3ACA3AA172EBA68CC14029975CE11BA5A6A8318F52FC04DF8AE3"
+    },
+    {
+      "upgradeType": "Elite",
+      "fileName": "elite.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/elite.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/elite.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "5FD2C4B7A5BC6D43D844853BF502D6F8557C56A8DA1BDEAF7BA2740E33D6BFB2"
+    },
+    {
+      "upgradeType": "Hardpoint",
+      "fileName": "hardpoint.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/hardpoint.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/hardpoint.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "C9F190B6A489551FD065C7B950694A2A9FBFEAF3A1837C8333FDF9F39FFA8612"
+    },
+    {
+      "upgradeType": "Illicit",
+      "fileName": "illicit.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/illicit.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/illicit.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "8D10EAE7DB012D358386F62B698E2BA53F875375EAAF6F664E1121D0BDA6E408"
+    },
+    {
+      "upgradeType": "Missile",
+      "fileName": "missile.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/missile.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/missile.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "CE1FAB16DA3049E50923B684877E7E60E22C4783934DB915DAF8F19CF2D87121"
+    },
+    {
+      "upgradeType": "Modification",
+      "fileName": "modification.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/modification.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/modification.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "EA9301EF6E5F3AD308C4D37C5F91C9D9905989E57D3F7137C7FAF7985A365443"
+    },
+    {
+      "upgradeType": "Salvaged Astromech",
+      "fileName": "salvaged_astromech.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/salvaged_astromech.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/salvaged_astromech.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "0B10922634D12650B1091FA0DAB77457BA98EF45FEC9983233F24F77656498C3"
+    },
+    {
+      "upgradeType": "System",
+      "fileName": "system.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/system.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/system.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "33CF67D72154ECD8057C11248EF870A222DAA6F4248EBD2A2769F78C97324E08"
+    },
+    {
+      "upgradeType": "Team",
+      "fileName": "team.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/team.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/team.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "32035441F1B511B1EB39958B077CFF8064ADBE29AD87C85355288347E8A82ADD"
+    },
+    {
+      "upgradeType": "Tech",
+      "fileName": "tech.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/tech.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/tech.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "8DEDBB62B0E692F782B890CA0B8A03CA93D4FFBC65A7DF76E6FF616E05831BFE"
+    },
+    {
+      "upgradeType": "Title",
+      "fileName": "title.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/title.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/title.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "E9BB704EFD4B001BDCC91AFE7A8786124899EF3C82D4C841846C5680F5238641"
+    },
+    {
+      "upgradeType": "Torpedo",
+      "fileName": "torpedo.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/torpedo.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/torpedo.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "892A3F1D8F7F39520D0B4E8E93CAABEE82BC51E958E3F082A0E40E24C17E1273"
+    },
+    {
+      "upgradeType": "Turret",
+      "fileName": "turret.png",
+      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/upgrade_cards_backs/turret.png",
+      "repositoryPath": "assets/source/unified1e/upgrade-card-backs/turret.png",
+      "width": 484,
+      "height": 744,
+      "sha256": "97B79339A7E459540D8BDC8F9AE1DD9B5745D24BAF2D7253A4C82D6ABE14EE37"
+    }
+  ]
+}

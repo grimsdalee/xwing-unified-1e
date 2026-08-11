@@ -92,6 +92,7 @@ return command switch
     "audit-official-first-edition-content" => AuditOfficialFirstEditionContentCommand.Run(commandArgs),
     "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
     "audit-first-edition-card-token-assets" => AuditFirstEditionCardAndTokenAssetsCommand.Run(commandArgs),
+    "import-first-edition-upgrade-card-backs" => ImportFirstEditionUpgradeCardBacksCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -270,6 +271,7 @@ static void ShowHelp()
     Console.WriteLine("  import-deferred-epic-first-edition-pilots <repository> [--proposals <file>] [--mapping-folder <folder>] [--version <version>] [--apply]");
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-first-edition-card-token-assets <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  import-first-edition-upgrade-card-backs <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
 }
 
 static int UnknownCommand(string command)

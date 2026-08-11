@@ -42,6 +42,7 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
 
             var conditions = LoadCards(Path.Combine(dataRoot, "data", "conditions.js"), artworkRoot, repository);
             var upgrades = LoadCards(Path.Combine(dataRoot, "data", "upgrades.js"), artworkRoot, repository);
+            var upgradeCardBacks = AuditUpgradeCardBacks(repository, upgrades);
             var candidates = LoadLegacyCandidates(repository, contextsPath, importPath);
 
             foreach (var condition in conditions)
@@ -70,6 +71,7 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 Conditions = conditions,
                 Upgrades = upgrades,
+                UpgradeCardBacks = upgradeCardBacks,
                 DamageDecks = decks.ToList(),
                 EpicDamageDecks = epicDecks,
                 MissingEpicDamageDeckArtwork = epicDecks
@@ -84,10 +86,12 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             var jsonPath = Path.Combine(output, "first-edition-card-token-assets.json");
             var csvPath = Path.Combine(output, "legacy-accessory-asset-candidates.csv");
             var scanCsvPath = Path.Combine(output, "epic-damage-deck-scan-checklist.csv");
+            var upgradeBackCsvPath = Path.Combine(output, "upgrade-card-backs.csv");
             var reportPath = Path.Combine(output, "FIRST-EDITION-CARD-TOKEN-ASSET-AUDIT.md");
             File.WriteAllText(jsonPath, JsonSerializer.Serialize(manifest, JsonOptions), new UTF8Encoding(false));
             WriteCsv(csvPath, candidates);
             WriteEpicDamageDeckScanChecklist(scanCsvPath, epicDecks);
+            WriteUpgradeCardBacks(upgradeBackCsvPath, upgradeCardBacks);
             WriteReport(reportPath, manifest);
 
             Console.WriteLine("UnifiedToolkit Phase 16 First Edition Card and Token Asset Audit");
@@ -99,6 +103,8 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Conditions with token candidates: {conditions.Count(row => row.LegacyTokenCandidates.Count > 0)}");
             Console.WriteLine($"Upgrade cards:                    {upgrades.Count}");
             Console.WriteLine($"Upgrade artwork available:        {upgrades.Count(row => row.ArtworkAvailable)}");
+            Console.WriteLine($"Upgrade-card back types expected: {upgradeCardBacks.Count}");
+            Console.WriteLine($"Upgrade-card backs available:     {upgradeCardBacks.Count(row => row.ArtworkAvailable)}");
             Console.WriteLine($"Damage-deck sets present:          {decks.Length}");
             Console.WriteLine($"Epic ship damage sets expected:   {epicDecks.Select(deck => deck.ShipId).Distinct().Count()}");
             Console.WriteLine($"Epic section decks expected:      {epicDecks.Count}");
@@ -109,6 +115,7 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Manifest:                         {jsonPath}");
             Console.WriteLine($"Candidates:                       {csvPath}");
             Console.WriteLine($"Epic scan checklist:              {scanCsvPath}");
+            Console.WriteLine($"Upgrade-card backs:               {upgradeBackCsvPath}");
             Console.WriteLine($"Report:                           {reportPath}");
             Console.WriteLine();
             Console.WriteLine("Audit completed. No source assets or mappings were modified.");
@@ -153,6 +160,28 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             DataRecords = cards.Count,
             ArtworkFiles = Directory.Exists(folder) ? Directory.EnumerateFiles(folder).Count() : 0
         };
+    }
+
+    private static List<UpgradeCardBackAuditRow> AuditUpgradeCardBacks(
+        string repository, IEnumerable<CardAssetAuditRow> upgrades)
+    {
+        var folder = Path.Combine(repository, "assets", "source", "unified1e", "upgrade-card-backs");
+        return upgrades.Select(upgrade => upgrade.Slot)
+            .Where(slot => !string.IsNullOrWhiteSpace(slot))
+            .Distinct(StringComparer.OrdinalIgnoreCase)
+            .OrderBy(slot => slot, StringComparer.OrdinalIgnoreCase)
+            .Select(slot =>
+            {
+                var fileName = $"{slot.ToLowerInvariant().Replace(' ', '_')}.png";
+                var path = Path.Combine(folder, fileName);
+                return new UpgradeCardBackAuditRow
+                {
+                    UpgradeType = slot,
+                    ExpectedFileName = fileName,
+                    RepositoryPath = Relative(repository, path),
+                    ArtworkAvailable = File.Exists(path)
+                };
+            }).ToList();
     }
 
     private static List<EpicDamageDeckSectionAuditRow> ExpectedEpicDamageDecks(string repository)
@@ -327,6 +356,20 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
         File.WriteAllLines(path, lines, new UTF8Encoding(false));
     }
 
+    private static void WriteUpgradeCardBacks(string path, IEnumerable<UpgradeCardBackAuditRow> rows)
+    {
+        var lines = new List<string>
+        {
+            "UpgradeType,ExpectedFileName,ArtworkAvailable,RepositoryPath"
+        };
+        lines.AddRange(rows.Select(row => string.Join(',', new[]
+        {
+            Quote(row.UpgradeType), Quote(row.ExpectedFileName),
+            row.ArtworkAvailable.ToString(), Quote(row.RepositoryPath)
+        })));
+        File.WriteAllLines(path, lines, new UTF8Encoding(false));
+    }
+
     private static void WriteReport(string path, CardTokenAssetAudit audit)
     {
         var lines = new List<string>
@@ -334,11 +377,15 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             "# Phase 16 First Edition Card and Token Asset Audit", "",
             $"- Condition cards: **{audit.Conditions.Count}**",
             $"- Upgrade cards: **{audit.Upgrades.Count}**",
+            $"- Upgrade-card backs: **{audit.UpgradeCardBacks.Count(row => row.ArtworkAvailable)}/{audit.UpgradeCardBacks.Count} available**",
             $"- Damage-deck sets present: **{audit.DamageDecks.Count}**",
             $"- Legacy accessory candidates: **{audit.LegacyCandidates.Count}**", "",
             "## Damage decks present", ""
         };
         lines.AddRange(audit.DamageDecks.Select(deck => $"- {deck.Name}: {deck.DataRecords} records, {deck.ArtworkFiles} artwork files"));
+        lines.AddRange(new[] { "", "## Upgrade-card backs", "" });
+        lines.AddRange(audit.UpgradeCardBacks.Select(back =>
+            $"- {back.UpgradeType}: {(back.ArtworkAvailable ? $"available (`{back.RepositoryPath}`)" : $"missing (`{back.ExpectedFileName}`)")}"));
         lines.AddRange(new[] { "", "## Epic damage-deck scan checklist", "" });
         foreach (var section in audit.EpicDamageDecks)
         {
@@ -420,10 +467,19 @@ public sealed class CardTokenAssetAudit
     public DateTimeOffset GeneratedUtc { get; init; }
     public List<CardAssetAuditRow> Conditions { get; init; } = new();
     public List<CardAssetAuditRow> Upgrades { get; init; } = new();
+    public List<UpgradeCardBackAuditRow> UpgradeCardBacks { get; init; } = new();
     public List<DamageDeckAuditRow> DamageDecks { get; init; } = new();
     public List<EpicDamageDeckSectionAuditRow> EpicDamageDecks { get; init; } = new();
     public List<string> MissingEpicDamageDeckArtwork { get; init; } = new();
     public List<LegacyAccessoryCandidate> LegacyCandidates { get; init; } = new();
+}
+
+public sealed class UpgradeCardBackAuditRow
+{
+    public string UpgradeType { get; init; } = "";
+    public string ExpectedFileName { get; init; } = "";
+    public string RepositoryPath { get; init; } = "";
+    public bool ArtworkAvailable { get; init; }
 }
 
 public sealed class EpicDamageDeckSectionAuditRow
