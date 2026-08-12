@@ -12744,6 +12744,12 @@
     "sizeBytes": 7476
   },
   {
+    "assetId": "AST-DA01F2B8A815A039",
+    "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-cards.json",
+    "sha256": "da01f2b8a815a039ab0bee1cb2ff5517e649ea2f892037981b31d9e875376dde",
+    "sizeBytes": 391862
+  },
+  {
     "assetId": "AST-358C2855BFABC44F",
     "repositoryPath": "assets/source/unified1e/reference/epic/cr90corvette/cr90-base-token-blueprint-overlay.png",
     "sha256": "358c2855bfabc44f54a65d311a484001f8fe4485f7b8d4df381cde2074635b36",
@@ -16036,6 +16042,2208 @@
     "repositoryPath": "assets/source/unified1e/upgrade-card-backs/turret.png",
     "sha256": "97b79339a7e459540d8bdc8f9ae1dd9b5745d24baf2d7253a4c82d6abe14ee37",
     "sizeBytes": 795708
+  },
+  {
+    "assetId": "AST-76C4D51FE3DF28A4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/bb8.png",
+    "sha256": "76c4d51fe3df28a463dd32628b21abe29fbe09a7b3251aee43850399b92a12cf",
+    "sizeBytes": 30376
+  },
+  {
+    "assetId": "AST-2C0A3C44017CF752",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/chopper-swx72.png",
+    "sha256": "2c0a3c44017cf7529d4295af82110e708f213bdedec01a019437077010280aee",
+    "sizeBytes": 31305
+  },
+  {
+    "assetId": "AST-2E54D248A63B8DE7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/flightassistastromech.png",
+    "sha256": "2e54d248a63b8de7357723d12efc39ac35449286d868af782874852bffac6b9f",
+    "sizeBytes": 34913
+  },
+  {
+    "assetId": "AST-6DE6F490CA749449",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/m9g8.png",
+    "sha256": "6de6f490ca7494494d181dbbf8e68c03d09a01f709cfa053a461d943bb4e639e",
+    "sizeBytes": 34017
+  },
+  {
+    "assetId": "AST-A9395F41294C18BB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2astromech.png",
+    "sha256": "a9395f41294c18bb16bdedd7f1d12294be75c804cbf4dce28c77dd9b4ea6fd8c",
+    "sizeBytes": 34363
+  },
+  {
+    "assetId": "AST-AC0E5EE6CDB5F33B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2d2.png",
+    "sha256": "ac0e5ee6cdb5f33b1651cc083e8debcec7ea0726f0524de5afa4bdf966f794cc",
+    "sizeBytes": 29899
+  },
+  {
+    "assetId": "AST-E81A681B6CE4300B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2d6.png",
+    "sha256": "e81a681b6ce4300bd04f82609cce28909c221657cbd1198e82758c33aa1974b2",
+    "sizeBytes": 31817
+  },
+  {
+    "assetId": "AST-B333669D3839E99A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2f2.png",
+    "sha256": "b333669d3839e99ae55d95e51628df9a61b636a6c1dfe672d54e4bb148237acd",
+    "sizeBytes": 32803
+  },
+  {
+    "assetId": "AST-CF402F5F5F76B2D1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r3a2.png",
+    "sha256": "cf402f5f5f76b2d1e01499a3905237a2aa579c8d294d1410c2942e94c30e5baf",
+    "sizeBytes": 31077
+  },
+  {
+    "assetId": "AST-F4154F9D90356541",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r3astromech.png",
+    "sha256": "f4154f9d90356541ee74169c418b2f3eeb676a89048b43e98cfdfd230537d375",
+    "sizeBytes": 36876
+  },
+  {
+    "assetId": "AST-B677182C4F97A902",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r4d6.png",
+    "sha256": "b677182c4f97a902cd235405514b5d052b70a827089bd983a699f89c8fba0c8d",
+    "sizeBytes": 41945
+  },
+  {
+    "assetId": "AST-573E3ED5BA36370F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5astromech.png",
+    "sha256": "573e3ed5ba36370f415d6c4636876a0485c7892740b02e16598a0617cd54e6d9",
+    "sizeBytes": 38286
+  },
+  {
+    "assetId": "AST-6611F84072FDC8AD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5d8.png",
+    "sha256": "6611f84072fdc8addc275137ebcbb8a5ba6e0ba33898a4370216a27de1a1a87d",
+    "sizeBytes": 35516
+  },
+  {
+    "assetId": "AST-18DB015F67810421",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5k6.png",
+    "sha256": "18db015f67810421d3205679955a808dbb113ed06d97fb68240940b5afa4a633",
+    "sizeBytes": 33676
+  },
+  {
+    "assetId": "AST-01473264CBCADD61",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5p9.png",
+    "sha256": "01473264cbcadd61c3c9bbd45f3b1178a60ff4ff7bf2d1df5b813ef687a4d97e",
+    "sizeBytes": 39551
+  },
+  {
+    "assetId": "AST-B8C75A63624ADFAE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5x3.png",
+    "sha256": "b8c75a63624adfae508d89122ec22ba642b399e6fe1d7d265fbdc76733369b4d",
+    "sizeBytes": 31819
+  },
+  {
+    "assetId": "AST-96BAFEB0D61280A5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r7astromech.png",
+    "sha256": "96bafeb0d61280a56d927a068209dff605af07c16e806c8f0d3694ae874f3ca6",
+    "sizeBytes": 31028
+  },
+  {
+    "assetId": "AST-20A810912A9B45E7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r7t1.png",
+    "sha256": "20a810912a9b45e7f880af475c5869224fde199863f0fdc657527e758ab11015",
+    "sizeBytes": 33795
+  },
+  {
+    "assetId": "AST-7748AAB8819AD76F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/targetingastromech.png",
+    "sha256": "7748aab8819ad76ff6bbd72ae2969ea269f37df3a03219b2cc0fd2827c1ad7bf",
+    "sizeBytes": 33862
+  },
+  {
+    "assetId": "AST-8B09B54DAA7243DD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/bombletgenerator.png",
+    "sha256": "8b09b54daa7243dd4072b47ae63bf4e88ab1311070b1300ae6cad31a171d05e4",
+    "sizeBytes": 31737
+  },
+  {
+    "assetId": "AST-AFC92691073B648D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/clustermines.png",
+    "sha256": "afc92691073b648d4666d2f041174b1b8a16a066d259f5f5e262b9ce4b5c0c26",
+    "sizeBytes": 32549
+  },
+  {
+    "assetId": "AST-54B5E9C09041BDE7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/connernet.png",
+    "sha256": "54b5e9c09041bde72be0d0593ebc62155294c4e553c34735b7207f8343fb0c18",
+    "sizeBytes": 34343
+  },
+  {
+    "assetId": "AST-B0D1FEB9784E8A00",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/ionbombs.png",
+    "sha256": "b0d1feb9784e8a00427244fedaeeb2220bf3b10e8634439bf2c26efb0624d22e",
+    "sizeBytes": 33562
+  },
+  {
+    "assetId": "AST-87364888CA248217",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/ordnancesilos.png",
+    "sha256": "87364888ca2482177bce7466fad727bae65bbee5c516cb110f77e9b2a6eaa670",
+    "sizeBytes": 35153
+  },
+  {
+    "assetId": "AST-6BE39B869C744A39",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/protonbombs.png",
+    "sha256": "6be39b869c744a394688fa7dc56a7c2f792347eb88f96f4da0f02914df273b92",
+    "sizeBytes": 29628
+  },
+  {
+    "assetId": "AST-FF8B9E89B03D0FCB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/proximitymines.png",
+    "sha256": "ff8b9e89b03d0fcbc78092bf2ed95efd93594f623ac3c9cc8648c3d7c42116e6",
+    "sizeBytes": 32466
+  },
+  {
+    "assetId": "AST-66D64D567BA67A42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/seismiccharges.png",
+    "sha256": "66d64d567ba67a4286b46920366b713624992cebf21ccb024790296380e12287",
+    "sizeBytes": 34259
+  },
+  {
+    "assetId": "AST-45025E6795CE0343",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/thermaldetonators.png",
+    "sha256": "45025e6795ce0343e90e1315aee40c217ae716745fc6aa1dca22649665de7702",
+    "sizeBytes": 36789
+  },
+  {
+    "assetId": "AST-A6EF6D5CC1C38BFA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/arc-caster-recharging.png",
+    "sha256": "a6ef6d5cc1c38bfa40796248b95e6f49288a2ec66ed004c49b7d69a80b5756c3",
+    "sizeBytes": 34729
+  },
+  {
+    "assetId": "AST-9F675AF0428DF537",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/arc-caster.png",
+    "sha256": "9f675af0428df537dbb7844b3e8503712672e1d6fd9bc88a28fac3b5f017d9ee",
+    "sizeBytes": 35129
+  },
+  {
+    "assetId": "AST-B1AC008315717668",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/autoblaster.png",
+    "sha256": "b1ac0083157176689c2adcf30f3dad3ce359fc01f3f3e4d54e070964be282655",
+    "sizeBytes": 32987
+  },
+  {
+    "assetId": "AST-997537AACC3957A5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/flechettecannon.png",
+    "sha256": "997537aacc3957a519b8752468225fd282605af8e9f245144c502cde4cac9e40",
+    "sizeBytes": 34609
+  },
+  {
+    "assetId": "AST-349568A736038606",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/heavylasercannon.png",
+    "sha256": "349568a73603860639ba48b647b5f25837da0f8b4200506e5a676edd42d3581b",
+    "sizeBytes": 32954
+  },
+  {
+    "assetId": "AST-3450742775A256D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/ioncannon.png",
+    "sha256": "3450742775a256d7263b2fc120e58558d778a92d79f3ed2352f600c7515094bf",
+    "sizeBytes": 29612
+  },
+  {
+    "assetId": "AST-47CCF04D9B2EB3EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/jammingbeam.png",
+    "sha256": "47ccf04d9b2eb3eb0c908bd9f152f59d7259e38c807150ced3477af48e4ea588",
+    "sizeBytes": 31107
+  },
+  {
+    "assetId": "AST-A00D8F29D3778609",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/linkedbattery.png",
+    "sha256": "a00d8f29d3778609593707ffeb508fb6cdc56337f9f9c3d9e1e022f55c446522",
+    "sizeBytes": 29048
+  },
+  {
+    "assetId": "AST-E7918A38ABA44B42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/manglercannon.png",
+    "sha256": "e7918a38aba44b42114bc4c5bfedb4db564a98dde19deb2129334f0bb4bf84a0",
+    "sizeBytes": 29495
+  },
+  {
+    "assetId": "AST-9C9465E6E05CAEF5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/tractorbeam.png",
+    "sha256": "9c9465e6e05caef5306db960e1813700cee663ad4d59f904c10bb2c7128befff",
+    "sizeBytes": 32786
+  },
+  {
+    "assetId": "AST-E2CDDF18955A9436",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/backupshieldgenerator.png",
+    "sha256": "e2cddf18955a943615e258c71bd5a2a5fc8258e50377026302c12c486ee77155",
+    "sizeBytes": 37231
+  },
+  {
+    "assetId": "AST-D66B0E169B5E9705",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/broadcastarray.png",
+    "sha256": "d66b0e169b5e9705136dac59eb0f2bc7ca0c187fc789e4f82f6daebe646e9899",
+    "sizeBytes": 35291
+  },
+  {
+    "assetId": "AST-043983D1DC4EBD80",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/clusterbombs.png",
+    "sha256": "043983d1dc4ebd80603e3a0ea019e9f1ec5c5265ba9cd38e7e6c3cf0f1a81309",
+    "sizeBytes": 45361
+  },
+  {
+    "assetId": "AST-1DA1B88E0CD45955",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/commsbooster.png",
+    "sha256": "1da1b88e0cd45955414e4c6f2eaeab47456b238744d3fc780ae86533d24850c0",
+    "sizeBytes": 27928
+  },
+  {
+    "assetId": "AST-52B8C00D6B2D5909",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/dockingclamps.png",
+    "sha256": "52b8c00d6b2d59095bbeeefdb200095ad285ccc53286f01254b3fd241c295898",
+    "sizeBytes": 36763
+  },
+  {
+    "assetId": "AST-342C504EE4826922",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/ememitter.png",
+    "sha256": "342c504ee482692222f5e2550fd298484b8bbf6f47daa02b9856a8e635eca36b",
+    "sizeBytes": 35007
+  },
+  {
+    "assetId": "AST-62CDA697A8D7A35B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/enginebooster.png",
+    "sha256": "62cda697a8d7a35b390b2b93ea3fae0b73a1b38831224ad526a2ef0540c86b19",
+    "sizeBytes": 33714
+  },
+  {
+    "assetId": "AST-84D57CC0ECFD080B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/expandedcargohold.png",
+    "sha256": "84d57cc0ecfd080b7ce6150ba16dd11d284546c9710a1a4a3bd44421f6e19976",
+    "sizeBytes": 37731
+  },
+  {
+    "assetId": "AST-6353D7FB757834FB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/frequencyjammer.png",
+    "sha256": "6353d7fb757834fb40fcfd8f598623ce4327c366540abafc307ae89aacdb0305",
+    "sizeBytes": 36859
+  },
+  {
+    "assetId": "AST-C09C4BD04F7C9FAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/ionizationreactor.png",
+    "sha256": "c09c4bd04f7c9fad5c97cdc18ddc4de48b9768dcc3bfa6da48ec91a444fc148b",
+    "sizeBytes": 30857
+  },
+  {
+    "assetId": "AST-9DFF04AF9AA05079",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/quickreleasecargolocks.png",
+    "sha256": "9dff04af9aa050797d62456aeab3e2fe5f92939d537baeedad5e24e3704ad2ef",
+    "sizeBytes": 33470
+  },
+  {
+    "assetId": "AST-56A4E816C45B358D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/shieldprojector.png",
+    "sha256": "56a4e816c45b358d97b0acf92829dad2b02bed2e1fe7dafa2761f518be5dfe49",
+    "sizeBytes": 35656
+  },
+  {
+    "assetId": "AST-FBCB40F70C2CE07B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/slicertools.png",
+    "sha256": "fbcb40f70c2ce07b08d5506f37302cf758fd8908f1b9b2b27aead91e702cef36",
+    "sizeBytes": 31432
+  },
+  {
+    "assetId": "AST-49F066BF56C6680E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/superchargedpowercells.png",
+    "sha256": "49f066bf56c6680e513a517e424d537e68c214bb1932c5744d2d201ff1c1dc6a",
+    "sizeBytes": 31758
+  },
+  {
+    "assetId": "AST-D3C54E1AE110D5C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/tibannagassupplies.png",
+    "sha256": "d3c54e1ae110d5c10bdccfcf01b4abb3fb77e9ce01f2acdb2569ea56f6d2543f",
+    "sizeBytes": 29713
+  },
+  {
+    "assetId": "AST-BA82B50A7B6B5F3D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/4lom.png",
+    "sha256": "ba82b50a7b6b5f3d466b7dc1c3835e927ca0dd70f9ea66d88d446ac82c9d85e1",
+    "sizeBytes": 38273
+  },
+  {
+    "assetId": "AST-D891F9E3190963B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/admiralozzel.png",
+    "sha256": "d891f9e3190963b228eb3091dec82947d0fac6758f54fc463da4bf6aed2fa70b",
+    "sizeBytes": 28564
+  },
+  {
+    "assetId": "AST-2707E44B6D644313",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/agentkallus.png",
+    "sha256": "2707e44b6d6443130866908d196fe20f83e1ef977bd4b53b1bb94808916e3f7f",
+    "sizeBytes": 33289
+  },
+  {
+    "assetId": "AST-0C3FA889E03ECBAC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/azmorigan.png",
+    "sha256": "0c3fa889e03ecbac835b9399ad47a15657f5c5c756417b87b3290bb73dfb5f3d",
+    "sizeBytes": 32188
+  },
+  {
+    "assetId": "AST-D5075CB2E1195808",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bazemalbus.png",
+    "sha256": "d5075cb2e119580856e6fac258bb5c6eeaf9527079e5ed931437c523c73e3fbe",
+    "sizeBytes": 35139
+  },
+  {
+    "assetId": "AST-E4AACFB733902FA1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bistan.png",
+    "sha256": "e4aacfb733902fa18f8676d41aa88c91b85aa924f2937d125fc9d9c03a8bb44a",
+    "sizeBytes": 155625
+  },
+  {
+    "assetId": "AST-0932AC2631E219B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bobafett.png",
+    "sha256": "0932ac2631e219b3190ae7038c83034cd04e9f159c8ee6b62f23a4676f08c969",
+    "sizeBytes": 37649
+  },
+  {
+    "assetId": "AST-8C1AF07BD5835D93",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bodhirook.png",
+    "sha256": "8c1af07bd5835d933d510ebf85c21a6ba8b50e6cc76d472c1f18b41a2011411e",
+    "sizeBytes": 32739
+  },
+  {
+    "assetId": "AST-D5145B0EA0079AE8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bombardier.png",
+    "sha256": "d5145b0ea0079ae841ce68c281a4bf208bb16c683ab7dbeb5a0c34b5a145a0b9",
+    "sizeBytes": 31649
+  },
+  {
+    "assetId": "AST-E9E1EFA66D135C3F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/boshek.png",
+    "sha256": "e9e1efa66d135c3ff4bc7c5438a03968b730ffdc2874b7fe0bfd482bb61113cd",
+    "sizeBytes": 34474
+  },
+  {
+    "assetId": "AST-A2553E0B35DD1D9F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bossk.png",
+    "sha256": "a2553e0b35dd1d9f58fbaf1f2a4f0ffdc1015ad234deffd84e93d38f74d20125",
+    "sizeBytes": 34525
+  },
+  {
+    "assetId": "AST-3B6CBFF3F07ABF1C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/breachspecialist.png",
+    "sha256": "3b6cbff3f07abf1c56b57069edca243430fd45c4fd31b8240284b136419198cf",
+    "sizeBytes": 35799
+  },
+  {
+    "assetId": "AST-985FE9B0CE07F581",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/c3po.png",
+    "sha256": "985fe9b0ce07f581f53e8fe27cbdec5533c793b3273b7474a92799ff76316dee",
+    "sizeBytes": 34424
+  },
+  {
+    "assetId": "AST-65159E7AB29C08AF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cadbane.png",
+    "sha256": "65159e7ab29c08af8d7f7cd6292a16ea3a027e2b4850d8c25f6cc6f7a2c6ec00",
+    "sizeBytes": 35596
+  },
+  {
+    "assetId": "AST-77673680EC688887",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/captainneeda.png",
+    "sha256": "77673680ec688887480065d5f91e711a1849399b72e09ccbbf2ae68ccd8d81de",
+    "sizeBytes": 33217
+  },
+  {
+    "assetId": "AST-71817B51025557A1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/captainrex.png",
+    "sha256": "71817b51025557a147914f2ed96cb087130f72a6f1c86f522c0c8ad28d4e6b86",
+    "sizeBytes": 31954
+  },
+  {
+    "assetId": "AST-30D3EB408FB07601",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/carlistrieekan.png",
+    "sha256": "30d3eb408fb07601c91a2cbf71e05e5113548a4e78912394cfc1d6569f5fc0f3",
+    "sizeBytes": 35618
+  },
+  {
+    "assetId": "AST-6C24962A2A878B19",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cassianandor.png",
+    "sha256": "6c24962a2a878b19248c2a1b34224a323c10e1853adbcf893473fbe2d628ef54",
+    "sizeBytes": 32815
+  },
+  {
+    "assetId": "AST-D1B214AB8E8EB451",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/chewbacca.png",
+    "sha256": "d1b214ab8e8eb4510e94d72a980c1cf0eb5fc8de4d5e61bcb7baec81f37f265f",
+    "sizeBytes": 31435
+  },
+  {
+    "assetId": "AST-F7B196789909EB37",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/chopper.png",
+    "sha256": "f7b196789909eb37e08d994316c03fffc30c5f0aeecfc6b22391e837f0a42d9d",
+    "sizeBytes": 35007
+  },
+  {
+    "assetId": "AST-59404DDC8C9D3159",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cikatrovizago.png",
+    "sha256": "59404ddc8c9d3159e357d3a938a2fb3e368899727ad97d546f673ba93347c66e",
+    "sizeBytes": 34300
+  },
+  {
+    "assetId": "AST-C7310D80F535EA6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/constructiondroid.png",
+    "sha256": "c7310d80f535ea6cf3082eb258d2faf693b5b82e7814a1e5975c2a41e7dd452d",
+    "sizeBytes": 37293
+  },
+  {
+    "assetId": "AST-4C917868ADF7DD00",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/courierdroid.png",
+    "sha256": "4c917868adf7dd00b1adbc179658985733cf2263fd50930914490d7436536511",
+    "sizeBytes": 31152
+  },
+  {
+    "assetId": "AST-853B67EFF1AE30CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/darthvader.png",
+    "sha256": "853b67eff1ae30ce60817f16279e82e97fdd42ec242bbbc0c4a5c6d80b22bd87",
+    "sizeBytes": 30778
+  },
+  {
+    "assetId": "AST-F7F7B6442B270C4B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/dashrendar.png",
+    "sha256": "f7f7b6442b270c4b91abcbd37699ba2bcd80c36a41e9588daec94e69d63e9312",
+    "sizeBytes": 32023
+  },
+  {
+    "assetId": "AST-385710A30502805C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/deathtroopers.png",
+    "sha256": "385710a30502805c473599f065d69e8425885898cc86c1a866bcf0524dffcb98",
+    "sizeBytes": 36762
+  },
+  {
+    "assetId": "AST-C308E100A21FFBFC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/dengar.png",
+    "sha256": "c308e100a21ffbfcf69fed85f3489435cca7f77d6192b0a973e7080a77d097e6",
+    "sizeBytes": 33955
+  },
+  {
+    "assetId": "AST-6BD58901310220C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/directorkrennic.png",
+    "sha256": "6bd58901310220c1c3df8ee395c4cf36c670a44efd5e0324afb7b90d79ae4003",
+    "sizeBytes": 54695
+  },
+  {
+    "assetId": "AST-01B46EF2E3C42FF8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/emperorpalpatine.png",
+    "sha256": "01b46ef2e3c42ff856e9bd2e79c86f93ca74483cb71ede074b0e95390006203f",
+    "sizeBytes": 34040
+  },
+  {
+    "assetId": "AST-F52535510A40681D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ezrabridger.png",
+    "sha256": "f52535510a40681dc12e9b39435be7869319f38ba44367c2f30949c87c9661c2",
+    "sizeBytes": 31785
+  },
+  {
+    "assetId": "AST-361C6984FDBC42E8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/finn.png",
+    "sha256": "361c6984fdbc42e872cc1bf8b444683b482d9daa12eee35d9e5656e559d2abb4",
+    "sizeBytes": 32847
+  },
+  {
+    "assetId": "AST-C796531E9E8399CC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/fleetofficer.png",
+    "sha256": "c796531e9e8399cc179026b037601751848273c2045f42f4b5fcdd83924a6fe7",
+    "sizeBytes": 34782
+  },
+  {
+    "assetId": "AST-08494A02479DAAAA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/flightinstructor.png",
+    "sha256": "08494a02479daaaaf478d4f37cb7c96780886108e7270b8e06cebcbe0570d712",
+    "sizeBytes": 31594
+  },
+  {
+    "assetId": "AST-A6F9DBFFAE8B5559",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/generalhux.png",
+    "sha256": "a6f9dbffae8b5559a1dc2a1b54ff0c8bcc71b45823757a9a3808030ab6d6823d",
+    "sizeBytes": 32899
+  },
+  {
+    "assetId": "AST-80F0690CC4D624B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/gonk.png",
+    "sha256": "80f0690cc4d624b35e926694a3bc0228a4eadc838ddd66f40445dcdc18fd2b5a",
+    "sizeBytes": 34975
+  },
+  {
+    "assetId": "AST-0D2CC93E543E44BE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/grandmofftarkin.png",
+    "sha256": "0d2cc93e543e44be5715117cd725efe11b76313cfd40d4a0a3ed733aafc2c142",
+    "sizeBytes": 32315
+  },
+  {
+    "assetId": "AST-3EA61B97625871BE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/greedo.png",
+    "sha256": "3ea61b97625871be99c3861cf28752469c1f5a74434532ae2706ef2bccb0f3db",
+    "sizeBytes": 33261
+  },
+  {
+    "assetId": "AST-4831E64688207086",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/gunner.png",
+    "sha256": "4831e6468820708615d43491a56055231d76343fcc83c1ede3f60ae3178883b3",
+    "sizeBytes": 36020
+  },
+  {
+    "assetId": "AST-138D291DFC0CCB41",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/hansolo.png",
+    "sha256": "138d291dfc0ccb41fd71b57c72fbd53693802322226be0a15568549dcdf7a157",
+    "sizeBytes": 39001
+  },
+  {
+    "assetId": "AST-4C4F47C64CBC695F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/herasyndulla.png",
+    "sha256": "4c4f47c64cbc695fb2f2570ce11b739b28e354744baac684b092ebf2877e8b29",
+    "sizeBytes": 32756
+  },
+  {
+    "assetId": "AST-F54EE55AD692D6D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/hotshotcopilot.png",
+    "sha256": "f54ee55ad692d6d3484f5caba6ffe3c5d65cc5c5aa97794f5be01cde4e00dcc3",
+    "sizeBytes": 37193
+  },
+  {
+    "assetId": "AST-09193903C37AF025",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ig88d.png",
+    "sha256": "09193903c37af02561779dcfa65502910946e18ad923423b84290ba529f371e2",
+    "sizeBytes": 32183
+  },
+  {
+    "assetId": "AST-CA00223114637543",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/inspiringrecruit.png",
+    "sha256": "ca00223114637543a49ad73fe56fa72764d7bb739db966f5faf0b5b52345a51e",
+    "sizeBytes": 35816
+  },
+  {
+    "assetId": "AST-4D3CEC434B4C812A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/intelligenceagent.png",
+    "sha256": "4d3cec434b4c812a2db60d5eae6ba75f9ef4f81d7e22db1d20c3ae0500692846",
+    "sizeBytes": 30583
+  },
+  {
+    "assetId": "AST-A5DF3E28BD8F4EA2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/isbslicer.png",
+    "sha256": "a5df3e28bd8f4ea2c49e33f70c8fb8935cc905eebe584cdf880852527773f120",
+    "sizeBytes": 55572
+  },
+  {
+    "assetId": "AST-F4AB7AE1E2BD3989",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jabbathehutt.png",
+    "sha256": "f4ab7ae1e2bd3989baf0cad14b237fd6de4d50cb145c556578aab6d1e256253b",
+    "sizeBytes": 34595
+  },
+  {
+    "assetId": "AST-6673149B96979518",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jandodonna.png",
+    "sha256": "6673149b9697951870ebc6690c0499a51044860869ce642e98b480627ef8051b",
+    "sizeBytes": 36970
+  },
+  {
+    "assetId": "AST-0E6E827F20A7006F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/janors.png",
+    "sha256": "0e6e827f20a7006f88d01242c0bd91e42ded05bfcefcf8ef653bb98e76d94141",
+    "sizeBytes": 34321
+  },
+  {
+    "assetId": "AST-9F65F44F3DD796C5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jynerso.png",
+    "sha256": "9f65f44f3dd796c51d13682f3bbf42d8aaae1f6df4efaf09f78e5fdc2668801c",
+    "sizeBytes": 35094
+  },
+  {
+    "assetId": "AST-8896905601D7BB2B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/k4securitydroid.png",
+    "sha256": "8896905601d7bb2bed4fc492c959771ba25826b55614166b3423b14d8cf96c40",
+    "sizeBytes": 30971
+  },
+  {
+    "assetId": "AST-13A736B3A5765778",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kananjarrus.png",
+    "sha256": "13a736b3a57657781b8e0860f80fe8233ff034120f059589732d6991a8fce8ed",
+    "sizeBytes": 34534
+  },
+  {
+    "assetId": "AST-AAF3CA75B4EFFAB0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ketsuonyo.png",
+    "sha256": "aaf3ca75b4effab093b8c91e04876d31fac538cd13f2bde8ab84f582038cf712",
+    "sizeBytes": 35715
+  },
+  {
+    "assetId": "AST-B11A6645B5021F40",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kylekatarn.png",
+    "sha256": "b11a6645b5021f40f588020cccf4760a5dc2f13e027699003d423888d5f22012",
+    "sizeBytes": 33170
+  },
+  {
+    "assetId": "AST-F1D3AD895D0DFF58",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kyloren.png",
+    "sha256": "f1d3ad895d0dff58d87426431c3500eec696a03d4fa323ce7adc4a79902b3c90",
+    "sizeBytes": 32451
+  },
+  {
+    "assetId": "AST-E47C752571D32BA4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/landocalrissian.png",
+    "sha256": "e47c752571d32ba42bc42a97f724a644334e0b7a99182b5803512952077bf867",
+    "sizeBytes": 32681
+  },
+  {
+    "assetId": "AST-C572B317B43DFA79",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/lattsrazzi.png",
+    "sha256": "c572b317b43dfa79724125f258845b95f29d9b6aee8360cfec378ad6f776ea9d",
+    "sizeBytes": 31570
+  },
+  {
+    "assetId": "AST-2F609F919FEC9BFA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/leebo.png",
+    "sha256": "2f609f919fec9bfabf9679ad609fd97fef8d9d0b2d0e5a91cb342466583581af",
+    "sizeBytes": 31047
+  },
+  {
+    "assetId": "AST-443C6E067980782C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/leiaorgana.png",
+    "sha256": "443c6e067980782c6f977c26e674c8801a2530d462e6a019cb1654ea35acfd68",
+    "sizeBytes": 31993
+  },
+  {
+    "assetId": "AST-65775B5EB722FEB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/lukeskywalker.png",
+    "sha256": "65775b5eb722feb4693d44d6eebf9b6fd63fa4b46960dd253b5c321ad9d3de56",
+    "sizeBytes": 35624
+  },
+  {
+    "assetId": "AST-9CB2D0B5CA0947B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/magvayarro.png",
+    "sha256": "9cb2d0b5ca0947b292a1749f1c4609401ca368d5a516d6df254ed1d20e4ccee0",
+    "sizeBytes": 55498
+  },
+  {
+    "assetId": "AST-752B48E4D7E306AB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/marajade.png",
+    "sha256": "752b48e4d7e306ab1b08a6c1cc912794c8db247ffefa638345fb9e33536a212e",
+    "sizeBytes": 34354
+  },
+  {
+    "assetId": "AST-CA2EF2C2B3812C1D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/maul.png",
+    "sha256": "ca2ef2c2b3812c1da3dedf8db9d034003cc9597e86513567e836a0a954590a97",
+    "sizeBytes": 32986
+  },
+  {
+    "assetId": "AST-D8BD1DD6A9E4A7B7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/mercenarycopilot.png",
+    "sha256": "d8bd1dd6a9e4a7b7e9229983594684852857b9db3b10a65093b75733be977c77",
+    "sizeBytes": 30290
+  },
+  {
+    "assetId": "AST-2DB1AF9395FB03C2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/moffjerjerrod.png",
+    "sha256": "2db1af9395fb03c2dcb5f9fc32e739159b0686f7d1a5000a72c8d945cca77e32",
+    "sizeBytes": 31844
+  },
+  {
+    "assetId": "AST-8374F5ED8C4BB431",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/navigator.png",
+    "sha256": "8374f5ed8c4bb43166d59cf0c22852b1126cdfc6e4323878c056503367c9e0f5",
+    "sizeBytes": 32786
+  },
+  {
+    "assetId": "AST-3520ABBA410914FC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/niennunb.png",
+    "sha256": "3520abba410914fca74fea8a2434f53485f9adfd97a1d1584cbffa06c6a1c34b",
+    "sizeBytes": 28412
+  },
+  {
+    "assetId": "AST-DC16427CCBB78F25",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/operationsspecialist.png",
+    "sha256": "dc16427ccbb78f25cefd08fd107e5537fa7a8d6c2e9171b857913ba700896ea8",
+    "sizeBytes": 32693
+  },
+  {
+    "assetId": "AST-7D67D50C286A6B2C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/outlawtech.png",
+    "sha256": "7d67d50c286a6b2c8d8de9bd5a4e9e0ef1a5ddc97841aef25fd5a799c69ef8f3",
+    "sizeBytes": 32333
+  },
+  {
+    "assetId": "AST-544F1FD16461A72A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/r2d2-swx22.png",
+    "sha256": "544f1fd16461a72a2e520dda1f0386bb41748689695d9356916666136fb6d8f9",
+    "sizeBytes": 31813
+  },
+  {
+    "assetId": "AST-C708079432C59E0F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/raymusantilles.png",
+    "sha256": "c708079432c59e0fa0dacafa6527d58e088eb939bba7caf01ace223725bcea3d",
+    "sizeBytes": 38939
+  },
+  {
+    "assetId": "AST-50D5C5B3C7948E4F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rearadmiralchiraneau.png",
+    "sha256": "50d5c5b3c7948e4f869c808276bb8cd807a1d5b799e7ae5d5357f21d85bd2bfb",
+    "sizeBytes": 32043
+  },
+  {
+    "assetId": "AST-E3BD3DB9FD69B84B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rebelcaptive.png",
+    "sha256": "e3bd3db9fd69b84bb2685f9123716b8cdea4edfca79067bb72458e6c6eeaf0b1",
+    "sizeBytes": 34402
+  },
+  {
+    "assetId": "AST-576252B934DBDFE9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/reconspecialist.png",
+    "sha256": "576252b934dbdfe998cc2715ee71124334c544dbff0afb082c7381fff9686c0d",
+    "sizeBytes": 30972
+  },
+  {
+    "assetId": "AST-1D78A8245A76C706",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rey.png",
+    "sha256": "1d78a8245a76c706ae07e6eb281c47bb9faefc69fc3ed6bb4f748695a6608b72",
+    "sizeBytes": 34325
+  },
+  {
+    "assetId": "AST-1B3428A23A560CE2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/sabinewren.png",
+    "sha256": "1b3428a23a560ce279ff34dc9e4dfafdd79a1e3112a817774e338c47347ba756",
+    "sizeBytes": 36977
+  },
+  {
+    "assetId": "AST-B4EB7BCCA785913C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/saboteur.png",
+    "sha256": "b4eb7bcca785913c8be81b36f7223e18cc2303c83820bbca202b1b4bf56a6506",
+    "sizeBytes": 31660
+  },
+  {
+    "assetId": "AST-4E7C13CA15CFC734",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/sawgerrera.png",
+    "sha256": "4e7c13ca15cfc73435e63112c1388e0632e45ec171d9828d2f52ba00d2df54bd",
+    "sizeBytes": 52674
+  },
+  {
+    "assetId": "AST-4A1FCD90735AEB2E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/shieldtechnician.png",
+    "sha256": "4a1fcd90735aeb2ed3ebc61e5962cf88db0e6a42310dcfa87989dff36c5e3600",
+    "sizeBytes": 28541
+  },
+  {
+    "assetId": "AST-DC83973A878BAF69",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/systemsofficer.png",
+    "sha256": "dc83973a878baf69ed6539e73300f4ebccc466f89707948db078bee972618f16",
+    "sizeBytes": 40362
+  },
+  {
+    "assetId": "AST-E73750397EF8379A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tacticalofficer.png",
+    "sha256": "e73750397ef8379ad4c49f01e9e3ec3bc331b307a643b72770908eaa62f825e0",
+    "sizeBytes": 52015
+  },
+  {
+    "assetId": "AST-20F77035827A28AF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tactician.png",
+    "sha256": "20f77035827a28af98720887ac5d3d10211b4062c15e85afdffb286d4d2bd9ec",
+    "sizeBytes": 33556
+  },
+  {
+    "assetId": "AST-1D906A0161ED134B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tailgunner.png",
+    "sha256": "1d906a0161ed134b0e6376953816cc53e0b9b68b90f049c2620b6d5060a99834",
+    "sizeBytes": 35141
+  },
+  {
+    "assetId": "AST-0D32A01A781DC638",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/targetingcoordinator.png",
+    "sha256": "0d32a01a781dc638bc1af4046a89a3ab25826072ef9e9f50ed6ce7511cb31b54",
+    "sizeBytes": 38404
+  },
+  {
+    "assetId": "AST-E5424B7FD41262B9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/torynfarr.png",
+    "sha256": "e5424b7fd41262b95baa7c1f2b31a5812d0211bc9734a9ca4852a3ead05c0a20",
+    "sizeBytes": 34026
+  },
+  {
+    "assetId": "AST-AB31E461E9767C8E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/unkarplutt.png",
+    "sha256": "ab31e461e9767c8e685110e0ce16b5f659f9a3c5d408f10cd6326fa669201f73",
+    "sizeBytes": 32719
+  },
+  {
+    "assetId": "AST-B7E2DCE4BE10624B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/weaponsengineer.png",
+    "sha256": "b7e2dce4be10624b82831a22647151dbe5dcf8ab3e9b1a2543725fef2a40af6e",
+    "sizeBytes": 31230
+  },
+  {
+    "assetId": "AST-D1A350FD97EE9DB7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/wed15repairdroid.png",
+    "sha256": "d1a350fd97ee9db724eced40a2357293851aca8e446aa6f89d9b2b33de2598fd",
+    "sizeBytes": 36740
+  },
+  {
+    "assetId": "AST-F0F2737E12774928",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/wookieecommandos.png",
+    "sha256": "f0f2737e1277492898d7339ff1b312abe7136f03c686321725df64147b554c1f",
+    "sizeBytes": 33686
+  },
+  {
+    "assetId": "AST-EDA6E2D5D4FF067C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ysanneisard.png",
+    "sha256": "eda6e2d5d4ff067c04bb9777dfe7adbf4faa77e8fbc856906bba40d388782ec3",
+    "sizeBytes": 32629
+  },
+  {
+    "assetId": "AST-BCCB0955555FF008",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/zeborrelios.png",
+    "sha256": "bccb0955555ff0085187eacbd1abf3f583611b5f309fcec84a1c0f9a53c65f6c",
+    "sizeBytes": 36573
+  },
+  {
+    "assetId": "AST-AD1A259D5131365D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/zuckuss.png",
+    "sha256": "ad1a259d5131365ddab5a9876340e2125981eea6190579739d04b609b10994d8",
+    "sizeBytes": 36482
+  },
+  {
+    "assetId": "AST-32C1AC9E32AB8DB1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adaptability-decrease.png",
+    "sha256": "32c1ac9e32ab8db186a4b3bb3a5ac654ef278b1391ed3667b297f52a70587c7b",
+    "sizeBytes": 31680
+  },
+  {
+    "assetId": "AST-07E9CD5C18FF403E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adaptability-increase.png",
+    "sha256": "07e9cd5c18ff403ee8933ceceb4a8e89f860983d4b605a4026b73bc6de875aac",
+    "sizeBytes": 29432
+  },
+  {
+    "assetId": "AST-0B548110E0FB41D4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adrenalinerush.png",
+    "sha256": "0b548110e0fb41d4e2bd1240242608af05a80f498754b3b8fd232bbb8c18c845",
+    "sizeBytes": 34004
+  },
+  {
+    "assetId": "AST-92E30A870812E8B0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/ascoretosettle.png",
+    "sha256": "92e30a870812e8b033086c752105ea53e88a650458fcf13f273dbe2f90ad9525",
+    "sizeBytes": 40643
+  },
+  {
+    "assetId": "AST-1D93F218BF6DC7C9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/attannimindlink.png",
+    "sha256": "1d93f218bf6dc7c9148ff9c15229c8ed981f3bc5cc001fde3b100d26f36e4fa2",
+    "sizeBytes": 35571
+  },
+  {
+    "assetId": "AST-DBD1770981B3FAFC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/bodyguard.png",
+    "sha256": "dbd1770981b3fafc6cc686cff8109016751cfc0724644e357a675bfd2420f8ae",
+    "sizeBytes": 33541
+  },
+  {
+    "assetId": "AST-CD030FD464481429",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/calculation.png",
+    "sha256": "cd030fd46448142966dfec0a827299bbf89619214ec3203fc9ae848d7c962e89",
+    "sizeBytes": 30686
+  },
+  {
+    "assetId": "AST-E1D81FEA8A234994",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/coolhand.png",
+    "sha256": "e1d81fea8a234994113353e639a5124056f786b393409f7f12d8c1434d2a5325",
+    "sizeBytes": 35295
+  },
+  {
+    "assetId": "AST-44F049DC3911DAB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/crackshot.png",
+    "sha256": "44f049dc3911dab4f4933ebc10f60bc73a6169b6cf9eaa31050c797956cd9237",
+    "sizeBytes": 39013
+  },
+  {
+    "assetId": "AST-494E46F4B9423234",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/daredevil.png",
+    "sha256": "494e46f4b9423234664857db14431e7588f6eb67b6a5043ab89aab25c134818c",
+    "sizeBytes": 31741
+  },
+  {
+    "assetId": "AST-3A234967A557624F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/deadeye.png",
+    "sha256": "3a234967a557624ff30acfdf9c2ba14e2ec1fcf9a0ba5ee2fc47ab9559609ba0",
+    "sizeBytes": 33962
+  },
+  {
+    "assetId": "AST-53507654A9CD44A4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/debrisgambit.png",
+    "sha256": "53507654a9cd44a46bc105d37e261e0337a4b92035c03259df064bb4cccf7fb8",
+    "sizeBytes": 32861
+  },
+  {
+    "assetId": "AST-3E35E22073E6028C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/decoy.png",
+    "sha256": "3e35e22073e6028c95f98232a281b915f76418c143a79cb0c3ec72f8788ebd2d",
+    "sizeBytes": 41339
+  },
+  {
+    "assetId": "AST-18A7F3D5F8D7FA6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/determination.png",
+    "sha256": "18a7f3d5f8d7fa6ca85c62c8c66f089fa43f044c9bbb33895021f49e704d184e",
+    "sizeBytes": 32010
+  },
+  {
+    "assetId": "AST-C00A850AA853F0C4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/drawtheirfire.png",
+    "sha256": "c00a850aa853f0c4f9560be635f04b210a72dca28d284b44ce1e69f2be9927f6",
+    "sizeBytes": 34428
+  },
+  {
+    "assetId": "AST-CFF4BC998A07A72C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/elusiveness.png",
+    "sha256": "cff4bc998a07a72cfe65e7fbed735638b3c5e6ec39b62a0c92b4bfda08c933e5",
+    "sizeBytes": 36930
+  },
+  {
+    "assetId": "AST-512C484B28192C56",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/experthandling.png",
+    "sha256": "512c484b28192c56e64733ea7c4d0ad632469dd6b4869ae9136380d9fc7a3275",
+    "sizeBytes": 32200
+  },
+  {
+    "assetId": "AST-DBD98792077AC2D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/expertise.png",
+    "sha256": "dbd98792077ac2d716b92fa9bb6a4b1ff983a1078364b01b18c525766c2409aa",
+    "sizeBytes": 31189
+  },
+  {
+    "assetId": "AST-EB78992FF843135E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/expose.png",
+    "sha256": "eb78992ff843135e3a3f792d2ab379104109d386f9c13ee3125009e884aac50f",
+    "sizeBytes": 36627
+  },
+  {
+    "assetId": "AST-70096EBB31F09020",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/fearlessness.png",
+    "sha256": "70096ebb31f09020319a1d230c1d39aaa87790332bb8736b55a877b1fa095506",
+    "sizeBytes": 38029
+  },
+  {
+    "assetId": "AST-6B80A509C5FECC16",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intensity-exhausted.png",
+    "sha256": "6b80a509c5fecc16190506b023972e8e0f93f01f171335ae9d4347895ca77310",
+    "sizeBytes": 34338
+  },
+  {
+    "assetId": "AST-CA5DE87EAA82C0E4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intensity.png",
+    "sha256": "ca5de87eaa82c0e4b4aa5480143a95a10e2ea0184088696e2a4a9a4b881c7a87",
+    "sizeBytes": 35697
+  },
+  {
+    "assetId": "AST-4C6A946FD46A9A14",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intimidation.png",
+    "sha256": "4c6a946fd46a9a141ecb9b4efd0e65da1f4b7287fbceca89e34e7148aa37f808",
+    "sizeBytes": 31918
+  },
+  {
+    "assetId": "AST-4292CA6F044046F3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/juke.png",
+    "sha256": "4292ca6f044046f3286cfee0cb38494fa2eba14c25a1f0149848f9f0b451d4da",
+    "sizeBytes": 29582
+  },
+  {
+    "assetId": "AST-8D742462DF2F8512",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/lightningreflexes.png",
+    "sha256": "8d742462df2f8512ad88fa808f55cdd834f2e81628be455d9f3b5c5de68e7ce6",
+    "sizeBytes": 34190
+  },
+  {
+    "assetId": "AST-84F1E315957BB5DB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/lonewolf.png",
+    "sha256": "84f1e315957bb5db425c2b3f01510c9b9c3e1b17c716874b33a15b9b99aa5646",
+    "sizeBytes": 35884
+  },
+  {
+    "assetId": "AST-C66DA497EE6C40DF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/marksmanship.png",
+    "sha256": "c66da497ee6c40df71d018f49defa5698305f0689869a08a869417e20369992c",
+    "sizeBytes": 34578
+  },
+  {
+    "assetId": "AST-484C3787B151B37A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/opportunist.png",
+    "sha256": "484c3787b151b37a144e4f6d4ccef5c628e23e339afd5594c01eff87572229ef",
+    "sizeBytes": 34109
+  },
+  {
+    "assetId": "AST-B0FDB488E359803C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/outmaneuver.png",
+    "sha256": "b0fdb488e359803c1ef289e29d4a65f1a9f2e420e0d3f371bf8a6a1961b7ed52",
+    "sizeBytes": 32080
+  },
+  {
+    "assetId": "AST-7D399237842F7EBB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/predator.png",
+    "sha256": "7d399237842f7ebbe7cd6084920677c3469db483952fdc4d650c2563ac9b8632",
+    "sizeBytes": 34732
+  },
+  {
+    "assetId": "AST-E0F5821029B9431B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/pushthelimit.png",
+    "sha256": "e0f5821029b9431b24494ad31505e01acce6588a2301e4019fd2b526e9c01c76",
+    "sizeBytes": 31072
+  },
+  {
+    "assetId": "AST-A7A5B7E7FA70D4B9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/rage.png",
+    "sha256": "a7a5b7e7fa70d4b9c0e524b66b507e86b4af19e31aa807659891d10847b6e53f",
+    "sizeBytes": 32745
+  },
+  {
+    "assetId": "AST-3BFCA8B94DB675CD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/ruthlessness.png",
+    "sha256": "3bfca8b94db675cd4736a2d56b6387f0ad1c90d68c49ea12c835005ad5aab8c2",
+    "sizeBytes": 34534
+  },
+  {
+    "assetId": "AST-42AD5A57B0D72A21",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/saturationsalvo.png",
+    "sha256": "42ad5a57b0d72a21bda51e81f33f6491ce5feb564b1516f2fc8fc43696861421",
+    "sizeBytes": 37517
+  },
+  {
+    "assetId": "AST-248741E66070B9EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/selflessness.png",
+    "sha256": "248741e66070b9eb6e8ac261a8e38848468b89eee5f27e512499efb6cd96c523",
+    "sizeBytes": 34168
+  },
+  {
+    "assetId": "AST-A65F51D811B95383",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/snapshot.png",
+    "sha256": "a65f51d811b953832f2cb7baf9102e8967cbede59f0f327c5894a9e558db49b3",
+    "sizeBytes": 32258
+  },
+  {
+    "assetId": "AST-130EAECC2D5DE09A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/squadleader.png",
+    "sha256": "130eaecc2d5de09a5e142e74ad48c6b7adeaa16e5d960e513916c090c84315f2",
+    "sizeBytes": 30576
+  },
+  {
+    "assetId": "AST-767C1FE7E9235622",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/stayontarget.png",
+    "sha256": "767c1fe7e9235622045c55e2e162c571c97a287bfd8befecb005c03675297a1b",
+    "sizeBytes": 30199
+  },
+  {
+    "assetId": "AST-0327E1DDD13EAC52",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/swarmleader.png",
+    "sha256": "0327e1ddd13eac521659568639999ba89bbbce6760fa30d73a746ef2a8760dd2",
+    "sizeBytes": 34626
+  },
+  {
+    "assetId": "AST-1FFAD51C42F07E20",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/swarmtactics.png",
+    "sha256": "1ffad51c42f07e203435c3ce423681bed9498cb657cd9e616cd006074ce122ef",
+    "sizeBytes": 36630
+  },
+  {
+    "assetId": "AST-C21379FD38A418FC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/trickshot.png",
+    "sha256": "c21379fd38a418fc1a851a65ec3379687562622524ed220de906734f172eed47",
+    "sizeBytes": 79520
+  },
+  {
+    "assetId": "AST-357A49E7933B2CEA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/veteraninstincts.png",
+    "sha256": "357a49e7933b2cea7de6bbd4ce71c05ce66c12a8ec6303f78d59b379aca48fb6",
+    "sizeBytes": 33683
+  },
+  {
+    "assetId": "AST-9CB568C9891C0812",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/wingman.png",
+    "sha256": "9cb568c9891c08123788235ee3e8031d6a50e40623c432e48f35c7fb254faa6c",
+    "sizeBytes": 26864
+  },
+  {
+    "assetId": "AST-2B63AE26B841B0D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/wired.png",
+    "sha256": "2b63ae26b841b0d787cab56f306502847a30a71f4de455c9e6cf13960e68a328",
+    "sizeBytes": 31760
+  },
+  {
+    "assetId": "AST-D2C1C43950D2F880",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/duallaserturret.png",
+    "sha256": "d2c1c43950d2f88066e1f627f8dce0fc836334f35ccb05f31f51290008637582",
+    "sizeBytes": 36577
+  },
+  {
+    "assetId": "AST-A40ADBCC676F6B9F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/heavylaserturret.png",
+    "sha256": "a40adbcc676f6b9f26a599292a9e2062a0112171f381f09fcad9d9ffae183b45",
+    "sizeBytes": 33903
+  },
+  {
+    "assetId": "AST-EF27869DFD772BF1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/ioncannonbattery.png",
+    "sha256": "ef27869dfd772bf1a5087e8f4d1aed1a1e00acddbf5a5be6512af8d903c89bcb",
+    "sizeBytes": 34282
+  },
+  {
+    "assetId": "AST-0CC436DF0C2F25F7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/quadlasercannons.png",
+    "sha256": "0cc436df0c2f25f7b630465a7a7f5d296fa5c021c05a6e7078e95e0ab1024b4b",
+    "sizeBytes": 31354
+  },
+  {
+    "assetId": "AST-EB2F038A5EDCD422",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/singleturbolasers.png",
+    "sha256": "eb2f038a5edcd4226c8feca373e85c0a1752f38aabdc6e2931fc372add366470",
+    "sizeBytes": 37425
+  },
+  {
+    "assetId": "AST-D36EE764B3A57831",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/blackmarketslicertools.png",
+    "sha256": "d36ee764b3a578315c419842da83e5af85acf1ab301c0e4adfa94640d65c1bb5",
+    "sizeBytes": 45864
+  },
+  {
+    "assetId": "AST-C25447E7C2CC1C92",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/burnoutslam.png",
+    "sha256": "c25447e7c2cc1c92f32139ac703d2c884f816ed773fc5dcdafaf23fac7110a50",
+    "sizeBytes": 29670
+  },
+  {
+    "assetId": "AST-AB7F794FFBE4BB11",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/cloakingdevice.png",
+    "sha256": "ab7f794ffbe4bb1184cc614ebf54d643ba3eb337a3e1166e66f8ee2703087cfe",
+    "sizeBytes": 31686
+  },
+  {
+    "assetId": "AST-50D76BC360419620",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/contrabandcybernetics.png",
+    "sha256": "50d76bc360419620f6e5a2ef9dd83b2495b18d4dad427f721de8dd292942cf31",
+    "sizeBytes": 39625
+  },
+  {
+    "assetId": "AST-D5D565D7487A129F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/deadmansswitch.png",
+    "sha256": "d5d565d7487a129fdac9d5a551a77fa011ba95348f724ad15ab307e60ae2c696",
+    "sizeBytes": 34841
+  },
+  {
+    "assetId": "AST-E7D30B73FA239EBD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/empdevice.png",
+    "sha256": "e7d30b73fa239ebda1e437f69b612d1ff6ae82e5078ff707a9db1ab40fb7afd0",
+    "sizeBytes": 34370
+  },
+  {
+    "assetId": "AST-323CDCBAE23399F6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/feedbackarray.png",
+    "sha256": "323cdcbae23399f619991afed894983413f5b59a013b07422188092f7927c24f",
+    "sizeBytes": 33885
+  },
+  {
+    "assetId": "AST-BAC3C8B27B8D5CE4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/glitterstim.png",
+    "sha256": "bac3c8b27b8d5ce4c0b57ae0f7271f782a0492869e8d60f6706f1c4baecad80b",
+    "sizeBytes": 32000
+  },
+  {
+    "assetId": "AST-A54F0B585D574570",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/hotshotblaster.png",
+    "sha256": "a54f0b585d5745704c08feb7ba6a9f5ecd046eddee5c37fe87bae1f735a307dd",
+    "sizeBytes": 30465
+  },
+  {
+    "assetId": "AST-5A898177F6ACCD0D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/inertialdampeners.png",
+    "sha256": "5a898177f6accd0d9e39ac1d1faaccd4e34527763dcc510475476e43b58477cd",
+    "sizeBytes": 31087
+  },
+  {
+    "assetId": "AST-28727CC8048B626E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/iondischargers.png",
+    "sha256": "28727cc8048b626ecd3687b83c3599aac212bb85af95bebeb94689b7329d855b",
+    "sizeBytes": 32993
+  },
+  {
+    "assetId": "AST-C8C950F374D973F5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/riggedcargochute.png",
+    "sha256": "c8c950f374d973f502dd3277462b4986261ce374ad078b08f685d048e48c7bb9",
+    "sizeBytes": 30825
+  },
+  {
+    "assetId": "AST-C102B83BB68B2CB6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/scavengercrane.png",
+    "sha256": "c102b83bb68b2cb6e56442f3ab54e7e6abb3a1132a1ec7c8808c700edecf9b1d",
+    "sizeBytes": 39893
+  },
+  {
+    "assetId": "AST-F98C7E22722992E6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/advhomingmissiles.png",
+    "sha256": "f98c7e22722992e60c2fe3726a62852ea666cb83e813c2233875e24a40152851",
+    "sizeBytes": 38454
+  },
+  {
+    "assetId": "AST-F6434289A42921B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/assaultmissiles.png",
+    "sha256": "f6434289a42921b3ebcb3771c1f47867d2f73be9a35c454cf7c2f5292c610394",
+    "sizeBytes": 34938
+  },
+  {
+    "assetId": "AST-1C20E267E0700660",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/chardaanrefit.png",
+    "sha256": "1c20e267e07006601c071f09fb99d0adfe6dfdf173899dd2953cc8505d1b0e75",
+    "sizeBytes": 28952
+  },
+  {
+    "assetId": "AST-BC64846FB4997AAA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/clustermissiles.png",
+    "sha256": "bc64846fb4997aaae15db5fbba4cd811d1a591bb19071e495ed0ac7b520c47ed",
+    "sizeBytes": 31182
+  },
+  {
+    "assetId": "AST-7C62D676DFFE64CF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/concussionmissiles.png",
+    "sha256": "7c62d676dffe64cf9efc33e5c4359ff465f0366b71c610ecf223c7b97a20faf9",
+    "sizeBytes": 32658
+  },
+  {
+    "assetId": "AST-44F01CE03FBDD768",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/cruisemissiles.png",
+    "sha256": "44f01ce03fbdd7681646dfc18282c9ae831bc9cb0283f909113bc5fb3461273f",
+    "sizeBytes": 39146
+  },
+  {
+    "assetId": "AST-76263B02D58F8628",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/harpoonmissiles.png",
+    "sha256": "76263b02d58f8628b8d0222e77a7cff11194442dc09946713aab493e1b8bc7b5",
+    "sizeBytes": 35886
+  },
+  {
+    "assetId": "AST-5E83E05E1E77049E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/homingmissiles.png",
+    "sha256": "5e83e05e1e77049e7d3ae5df464661db3b09412c4c03118d33154542954d5164",
+    "sizeBytes": 30212
+  },
+  {
+    "assetId": "AST-7FAB8E1947FB665B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/ionpulsemissiles.png",
+    "sha256": "7fab8e1947fb665b02e5b89580251dbd24555cd75389444ca810709958e9ab69",
+    "sizeBytes": 28875
+  },
+  {
+    "assetId": "AST-2B444454F8EFFFB5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/protonrockets.png",
+    "sha256": "2b444454f8efffb5a3658f1e1a8ea423838eb4793103fb3dd6219a362efd20fb",
+    "sizeBytes": 29991
+  },
+  {
+    "assetId": "AST-DA6EEC7DE07E109C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/scramblermissiles.png",
+    "sha256": "da6eec7de07e109c94d97f89909832d283269ac0fdff0e5aa14614c9a5b293d6",
+    "sizeBytes": 43169
+  },
+  {
+    "assetId": "AST-A83AA74239301997",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/unguidedrockets.png",
+    "sha256": "a83aa74239301997fdf11d5a086cc673ea4f210998d4dd9df64d1a912c645645",
+    "sizeBytes": 34403
+  },
+  {
+    "assetId": "AST-9398058D4D7EAEAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/xx23sthreadtracers.png",
+    "sha256": "9398058d4d7eaeada1cacad7c320d5112a410c0d3edd4071d69606ade3e90dcc",
+    "sizeBytes": 36640
+  },
+  {
+    "assetId": "AST-F08C2C3338CFB336",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/advancedcloakingdevice.png",
+    "sha256": "f08c2c3338cfb3367447db2fc81e9c2293a023f8279d8e0fcca89d33d74bf6b9",
+    "sizeBytes": 27843
+  },
+  {
+    "assetId": "AST-609101C6E53F85CF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/advancedslam.png",
+    "sha256": "609101c6e53f85cf0ab56bddad8e21afbe25edb08c03e36b2cbd33dad8fa689d",
+    "sizeBytes": 32231
+  },
+  {
+    "assetId": "AST-DE8C938F027C3B42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/antipursuitlasers.png",
+    "sha256": "de8c938f027c3b42534baec15771284fcf75a826587c47a5ea4c9760294c0519",
+    "sizeBytes": 30390
+  },
+  {
+    "assetId": "AST-B9F979D417FB8411",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/automatedprotocols.png",
+    "sha256": "b9f979d417fb8411e30141c279ed93325bc8a3ba9a96de0ce40ae74d51491cad",
+    "sizeBytes": 38914
+  },
+  {
+    "assetId": "AST-12D769CA952D71A0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/autothrusters.png",
+    "sha256": "12d769ca952d71a0a5216184493ada48d04c2eb0e36854bcd913543fb906b8fe",
+    "sizeBytes": 31374
+  },
+  {
+    "assetId": "AST-30A88C14819E28CD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/bwinge2.png",
+    "sha256": "30a88c14819e28cd3556e98da1dc526e2c1de16e1d9a926da61126fdb619f51a",
+    "sizeBytes": 33459
+  },
+  {
+    "assetId": "AST-8F8FE1A712CAC486",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/capturedtie.png",
+    "sha256": "8f8fe1a712cac486d8e24d213cc266d76541015828bcb4c8a4f02bf9305eed76",
+    "sizeBytes": 36684
+  },
+  {
+    "assetId": "AST-1380EC64C69A7F9E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/combatretrofit.png",
+    "sha256": "1380ec64c69a7f9eabde1302f6ff93afa9072b2853b837a155c3a01de408013c",
+    "sizeBytes": 36464
+  },
+  {
+    "assetId": "AST-8182668B0DAD20DE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/countermeasures.png",
+    "sha256": "8182668b0dad20de8d03568fde4ba2b27c5e3c1753c191496cb934746679f567",
+    "sizeBytes": 36157
+  },
+  {
+    "assetId": "AST-97CA93FD5BD35DE2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/deflectiveplating.png",
+    "sha256": "97ca93fd5bd35de2611294ce46fa974a0dca160f26346608f6be534f3916e7ab",
+    "sizeBytes": 35440
+  },
+  {
+    "assetId": "AST-8DCB53500991DC82",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/engineupgrade.png",
+    "sha256": "8dcb53500991dc820603b2bc3640b479c57dcdb609498d6144d26ed867237181",
+    "sizeBytes": 25893
+  },
+  {
+    "assetId": "AST-1FCDA2ED471997C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/experimentalinterface.png",
+    "sha256": "1fcda2ed471997c151eba83a33b4759fc766f0aa9ebedd755e50f210880c120c",
+    "sizeBytes": 34184
+  },
+  {
+    "assetId": "AST-889C3B628CA3BB6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/guidancechips.png",
+    "sha256": "889c3b628ca3bb6c3785b3bcdeee57b05d1fd0e39f90f492965fde122e5f30c9",
+    "sizeBytes": 35781
+  },
+  {
+    "assetId": "AST-8203A57D978D2DB1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/gyroscopictargeting.png",
+    "sha256": "8203a57d978d2db13948ff27e029d0ab5b69906ee387b3bd7eebe0eb7690b9ff",
+    "sizeBytes": 40334
+  },
+  {
+    "assetId": "AST-76B242CD870ACA66",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/hullupgrade.png",
+    "sha256": "76b242cd870aca662ccee632dc7fdb5e0e1b6915661fbe08226613ad43922cfc",
+    "sizeBytes": 26572
+  },
+  {
+    "assetId": "AST-F33D13E0538B1CA5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/integratedastromech.png",
+    "sha256": "f33d13e0538b1ca5bf851fda315b44c74a710880d7ed9c28823ec6edbb594568",
+    "sizeBytes": 36497
+  },
+  {
+    "assetId": "AST-18B5EA6AF0FBBC69",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/ionprojector.png",
+    "sha256": "18b5ea6af0fbbc695be67dd70150032617f9bd660d55bbc707ab51e67870e2e0",
+    "sizeBytes": 38981
+  },
+  {
+    "assetId": "AST-31BB722B29EADB8D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/lightweightframe.png",
+    "sha256": "31bb722b29eadb8d2946e8b73cae1c941314a5f3e90a119dfaaec9a8ea3dc704",
+    "sizeBytes": 34226
+  },
+  {
+    "assetId": "AST-CBF472F6874BEA5E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/longrangescanners.png",
+    "sha256": "cbf472f6874bea5ec1c401e8838a786dd86791d8aead5387769435f11ddee6f9",
+    "sizeBytes": 37315
+  },
+  {
+    "assetId": "AST-0B06F1050DF5E20A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/maneuveringfins.png",
+    "sha256": "0b06f1050df5e20a5408f0482d7058fbfef3d62b9851c61f0fa36d3f42a9a909",
+    "sizeBytes": 39640
+  },
+  {
+    "assetId": "AST-D86339E16267FBC6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/multispectralcamouflage.png",
+    "sha256": "d86339e16267fbc6c939c558a2e8ce92894de1c235e931ed144a41a8096df15d",
+    "sizeBytes": 57360
+  },
+  {
+    "assetId": "AST-AC907CB3BB3F83EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/munitionsfailsafe.png",
+    "sha256": "ac907cb3bb3f83eb53800699ddd9b2cc3dcff2db68fe31940299341dc9e19602",
+    "sizeBytes": 33756
+  },
+  {
+    "assetId": "AST-1BC3202CBF22AF10",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/optimizedgenerators.png",
+    "sha256": "1bc3202cbf22af105ec72803764212969efe3d40eb6d131a8c68d3d4b20a6c8f",
+    "sizeBytes": 35408
+  },
+  {
+    "assetId": "AST-3B17DC1962607913",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/ordnancetubes.png",
+    "sha256": "3b17dc19626079139f853f7074908c19e16e6df0bc4a0faecadad13d24014893",
+    "sizeBytes": 35690
+  },
+  {
+    "assetId": "AST-13944CFB03DFBCB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/pulsedrayshield.png",
+    "sha256": "13944cfb03dfbcb4e5d5a20494de0f3cd2b3779e3ad5bbe06bd3fd4f4caaf02c",
+    "sizeBytes": 35451
+  },
+  {
+    "assetId": "AST-32A44534B5CD4536",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/servomotor-s-foils-attack.png",
+    "sha256": "32a44534b5cd4536a54930927d83be835944ff2d0e6bf4cee888ad088f9d7eef",
+    "sizeBytes": 57994
+  },
+  {
+    "assetId": "AST-8ADE01B1A667D669",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/servomotor-s-foils-closed.png",
+    "sha256": "8ade01b1a667d66971b8705dc5854a1f95a708713a47c52f686030231e76418d",
+    "sizeBytes": 55015
+  },
+  {
+    "assetId": "AST-2781AB2160B8CE46",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/shieldupgrade.png",
+    "sha256": "2781ab2160b8ce46b69171b1bb58bb8eb10579ca71fe00eb5da0547db6a101d6",
+    "sizeBytes": 30591
+  },
+  {
+    "assetId": "AST-2C4761E89838CC54",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/smugglingcompartment.png",
+    "sha256": "2c4761e89838cc5489516d51b114bf4e353f84fefe79d35c86470c2e554ee9db",
+    "sizeBytes": 34652
+  },
+  {
+    "assetId": "AST-468542AEC41030D1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/spacetugtractorarray.png",
+    "sha256": "468542aec41030d1664fc191ed395238ebf5fd66c63bdb84f7d408347f1933bc",
+    "sizeBytes": 38181
+  },
+  {
+    "assetId": "AST-FC4AF345078F1516",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/stealthdevice.png",
+    "sha256": "fc4af345078f15166dd967fe9bd4d8ca6e387f2bcee526067a63dd72ed753923",
+    "sizeBytes": 30142
+  },
+  {
+    "assetId": "AST-1885FE1F8826A2CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/stygiumparticleaccelerator.png",
+    "sha256": "1885fe1f8826a2ce6b10cfe9a02aa0dc32636787f0e115d34044cec29e153a3f",
+    "sizeBytes": 31966
+  },
+  {
+    "assetId": "AST-BFE0F2864B4E86CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/tacticaljammer.png",
+    "sha256": "bfe0f2864b4e86ce5c4847f52c92a9c17deb2d57cf4de38c878e33db12fad5ad",
+    "sizeBytes": 31691
+  },
+  {
+    "assetId": "AST-9485DC12557C8E81",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/targetingcomputer.png",
+    "sha256": "9485dc12557c8e81d3b6d9cecf8bd8f776eeac249a3ac1d274b61637f565006c",
+    "sizeBytes": 29476
+  },
+  {
+    "assetId": "AST-D3BA3BC69D19AFDA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/twinionenginemkii.png",
+    "sha256": "d3ba3bc69d19afdac7a8a71105e3f892447fa57d1bd4fd5b585819b1bcf16203",
+    "sizeBytes": 31757
+  },
+  {
+    "assetId": "AST-7383F830B86180E0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/vectoredthrusters.png",
+    "sha256": "7383f830b86180e06da5159f806bdee7a119fc3f2957dba2600d2ad8acf11503",
+    "sizeBytes": 30353
+  },
+  {
+    "assetId": "AST-6FAD3DE580796AAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/genius.png",
+    "sha256": "6fad3de580796aad28ac381392cac60945441cd097e5138fd8d48396e1a14b09",
+    "sizeBytes": 131880
+  },
+  {
+    "assetId": "AST-5103337107FB4BB7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/overclockedr4.png",
+    "sha256": "5103337107fb4bb7c15fbd09bde61600c5f996214c6358b00d8395fd19d69e4d",
+    "sizeBytes": 37110
+  },
+  {
+    "assetId": "AST-74FDBE46AD2C0D7F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4agromech.png",
+    "sha256": "74fdbe46ad2c0d7fbba2a43f7b4eaaf67659699d4868df729b7e34d3e4521eab",
+    "sizeBytes": 31035
+  },
+  {
+    "assetId": "AST-0667EB0903B61C1A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4b11.png",
+    "sha256": "0667eb0903b61c1a91e3b37e68ee8de4591a8f8c7719ccedba79e06a7648996d",
+    "sizeBytes": 34985
+  },
+  {
+    "assetId": "AST-82585CF093CDB57C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4e1.png",
+    "sha256": "82585cf093cdb57c350dd091405f71f6e9e3db17f3f0db4fe73274460bb1affa",
+    "sizeBytes": 39638
+  },
+  {
+    "assetId": "AST-8DAFFA268FEA3281",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r5p8.png",
+    "sha256": "8daffa268fea3281d0933899758a4cf42283139183aa8cc824d6f8d3d283978d",
+    "sizeBytes": 33184
+  },
+  {
+    "assetId": "AST-E8E200B6962751A8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r5tk.png",
+    "sha256": "e8e200b6962751a89bfc976941a3053871cc6b7e5789d4a81787c9b4039b3173",
+    "sizeBytes": 40620
+  },
+  {
+    "assetId": "AST-FD14422200F97488",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/salvagedastromech.png",
+    "sha256": "fd14422200f97488fff4a0fa08a32687c51f5158f9e58bf42bea5b9a7176476c",
+    "sizeBytes": 35829
+  },
+  {
+    "assetId": "AST-6A055B8774436496",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/unhingedastromech.png",
+    "sha256": "6a055b87744364962060409bcc70fe414db398c99588fb57f947ba87abcd62f5",
+    "sizeBytes": 32040
+  },
+  {
+    "assetId": "AST-9277A2EBB8184C64",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/accuracycorrector.png",
+    "sha256": "9277a2ebb8184c6492d1adcf26e5d976d9d3da27362f5714603e5a4f3702b83f",
+    "sizeBytes": 32120
+  },
+  {
+    "assetId": "AST-80D82A9913EFBC8B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/advancedsensors.png",
+    "sha256": "80d82a9913efbc8b30ac3edd4eda76cd0f7c97e62033b5dfbd2b938dd0b97895",
+    "sizeBytes": 34757
+  },
+  {
+    "assetId": "AST-22199D72F5578DE9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/advtargetingcomputer.png",
+    "sha256": "22199d72f5578de9db07c0e063e90dd08d629c35a0c48400d0c080dacc14c384",
+    "sizeBytes": 29600
+  },
+  {
+    "assetId": "AST-0BC8FC324CAAF0C8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/collisiondetector.png",
+    "sha256": "0bc8fc324caaf0c8fbb6a058ff1654753a31eb3e008877657f8164b17b60cf85",
+    "sizeBytes": 33831
+  },
+  {
+    "assetId": "AST-930BD3691C140F40",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/electronicbaffle.png",
+    "sha256": "930bd3691c140f402adfa943a7df8a8b5d3c732fe3a60115742ae641c5ce4f53",
+    "sizeBytes": 34672
+  },
+  {
+    "assetId": "AST-723724678F513391",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/enhancedscopes.png",
+    "sha256": "723724678f513391d9b627488c6ec9cf1b6bcb5501d0eb894ca11f6108d83a1d",
+    "sizeBytes": 26889
+  },
+  {
+    "assetId": "AST-FFD9995A2834B011",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/firecontrolsystem.png",
+    "sha256": "ffd9995a2834b01183abf2d4234f1a3a97d786ae81b673545889d414e02623b4",
+    "sizeBytes": 31005
+  },
+  {
+    "assetId": "AST-93EF2DAF288BDD13",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/minefieldmapper.png",
+    "sha256": "93ef2daf288bdd137651f4a5aefba86642a46e3e8eeb7f5162f6e7c59a91b86e",
+    "sizeBytes": 34732
+  },
+  {
+    "assetId": "AST-919BF03EDCCB939F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/reinforceddeflectors.png",
+    "sha256": "919bf03edccb939f8434ea61e4ff8d4377a326a6211181b7988069362382d59e",
+    "sizeBytes": 34999
+  },
+  {
+    "assetId": "AST-87CE17FA53898434",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/sensorjammer.png",
+    "sha256": "87ce17fa53898434381751f86415d364a819eafb0ef7d4ac9fba63609aec8637",
+    "sizeBytes": 31490
+  },
+  {
+    "assetId": "AST-C03557C2A71632D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/targetingscrambler.png",
+    "sha256": "c03557c2a71632d32b39dd46beb410b40c1eabac8c58501f8c428c19a08d6f8f",
+    "sizeBytes": 32021
+  },
+  {
+    "assetId": "AST-CD7E1BEB6553E573",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/thrustcorrector.png",
+    "sha256": "cd7e1beb6553e57325c008b7c555c61c157657d3c4ec80de2fb212cb9ed5765c",
+    "sizeBytes": 42539
+  },
+  {
+    "assetId": "AST-BE9CE784177A304D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/trajectorysimulator.png",
+    "sha256": "be9ce784177a304dbaff73845011ede2d8c29ea549d60b03432e1e6d6632797f",
+    "sizeBytes": 33873
+  },
+  {
+    "assetId": "AST-BF9ABDAA4C4A610B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/engineeringteam.png",
+    "sha256": "bf9abdaa4c4a610bef2ad8b77b01eacbd510d79a0ddc7f75087d5aed97c42cc1",
+    "sizeBytes": 36981
+  },
+  {
+    "assetId": "AST-30B7F62478D9FC5C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/gunneryteam.png",
+    "sha256": "30b7f62478d9fc5cb61222b86f8f12210d88a2144baa265fd4e38b2a60bd74e6",
+    "sizeBytes": 36124
+  },
+  {
+    "assetId": "AST-40D8421DEC5936DF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/igrmthugdroids.png",
+    "sha256": "40d8421dec5936df64f060f92c4c74a4d0a4bd411b0a439bbcbb0c82639e5629",
+    "sizeBytes": 36985
+  },
+  {
+    "assetId": "AST-2DAE8CF935C731A9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/ordnanceexperts.png",
+    "sha256": "2dae8cf935c731a99ab2f64dd6217ef2c5f2b9b7d332a841f5835f2e7508ced1",
+    "sizeBytes": 40383
+  },
+  {
+    "assetId": "AST-677F9214D6F94027",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/sensorteam.png",
+    "sha256": "677f9214d6f94027ce858fa9f861b53534d615efb5d2e960075b8436ce42445a",
+    "sizeBytes": 35878
+  },
+  {
+    "assetId": "AST-0F9F7FAF7EDE5590",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/advancedoptics.png",
+    "sha256": "0f9f7faf7ede559045842e15177d65d6ba410cebcfcaba823f2f4bbb56f51afa",
+    "sizeBytes": 33320
+  },
+  {
+    "assetId": "AST-EA7919A1F829060E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/commrelay.png",
+    "sha256": "ea7919a1f829060e371bd3c079d6918d38580907dca852ce09137a963763e261",
+    "sizeBytes": 33679
+  },
+  {
+    "assetId": "AST-AD56D89EBC97E04C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/hyperwavecommscanner.png",
+    "sha256": "ad56d89ebc97e04c23f351cc9581f3debe290a8200cd43a60c55a48808a7b8ce",
+    "sizeBytes": 32933
+  },
+  {
+    "assetId": "AST-74558295C3A99CA1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/patternanalyzer.png",
+    "sha256": "74558295c3a99ca1c6e8e937fe963e68f612aa84267458ff41544f7f7991651d",
+    "sizeBytes": 31518
+  },
+  {
+    "assetId": "AST-B1FB419E2F4ED417",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/primedthrusters.png",
+    "sha256": "b1fb419e2f4ed417863042332dd3ea6f4514646db17bccf8cc48cb51722bce87",
+    "sizeBytes": 32107
+  },
+  {
+    "assetId": "AST-588FB39C3E2084D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/sensorcluster.png",
+    "sha256": "588fb39c3e2084d374182de4bd2313222227c55f19c87f9e9d6f5a6eb7182e30",
+    "sizeBytes": 33574
+  },
+  {
+    "assetId": "AST-7241FB4C13880DD4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/targetingsynchronizer.png",
+    "sha256": "7241fb4c13880dd4fdd99266b3810aba13386da1f459be3a5496a39afe776de5",
+    "sizeBytes": 34371
+  },
+  {
+    "assetId": "AST-D4AC39E032E42B6D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/threattracker.png",
+    "sha256": "d4ac39e032e42b6da05fc8277fa26590bf85a3ef64fc523e76bf7ed3115229ae",
+    "sizeBytes": 35441
+  },
+  {
+    "assetId": "AST-409B977B8E463529",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/weaponsguidance.png",
+    "sha256": "409b977b8e46352957480934fb3d004a03cd2420e78b63586e8ac8aa454928c9",
+    "sizeBytes": 33586
+  },
+  {
+    "assetId": "AST-21F99E6CCD54AA6E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/adaptiveailerons.png",
+    "sha256": "21f99e6ccd54aa6eda61cd37833a852bd277484b917a0ff58dbb5c6ccb591ac4",
+    "sizeBytes": 34165
+  },
+  {
+    "assetId": "AST-422B712BD9819395",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/advancedailerons.png",
+    "sha256": "422b712bd9819395c60ac4752c8c05c584dab8f5708723ee898847e94216a84d",
+    "sizeBytes": 53986
+  },
+  {
+    "assetId": "AST-D97976EE2BD6B5BD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/allianceoverhaul.png",
+    "sha256": "d97976ee2bd6b5bd9124b10c840ebf6c4dd28911ac0d31b658b79c765dc2970d",
+    "sizeBytes": 38889
+  },
+  {
+    "assetId": "AST-E0535B90CC17FE7C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/andrasta.png",
+    "sha256": "e0535b90cc17fe7c95e6600d492708234188fc59521c2a200cc4e284d94d92ef",
+    "sizeBytes": 33668
+  },
+  {
+    "assetId": "AST-C35E2308AABBC23D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/assailer.png",
+    "sha256": "c35e2308aabbc23d3f7b44f7ba204b2b213fce37b21735f6a83f63c71b09253a",
+    "sizeBytes": 29550
+  },
+  {
+    "assetId": "AST-05A6E8FE9660E378",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/awingtestpilot.png",
+    "sha256": "05a6e8fe9660e378c9ee1b30f744d89d74da185335f658f8cc91ba2abe7c8571",
+    "sizeBytes": 36230
+  },
+  {
+    "assetId": "AST-E61B8D1E8C42CC0B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/blackone.png",
+    "sha256": "e61b8d1e8c42cc0b2065774d9e194576592c849b6d9b4ed02743a1a878a28546",
+    "sizeBytes": 30618
+  },
+  {
+    "assetId": "AST-7A8144F666066947",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/brighthope.png",
+    "sha256": "7a8144f6660669477dc1f1d0a6483f58c6e19ff154c8a736d0ebe9cc814bec5a",
+    "sizeBytes": 32534
+  },
+  {
+    "assetId": "AST-2DCB7ECD67B23C72",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/brokenhorn.png",
+    "sha256": "2dcb7ecd67b23c72f5e586b6fb078e5a8d7ad762b65ec97d2c2f4af13058ee69",
+    "sizeBytes": 33848
+  },
+  {
+    "assetId": "AST-4AB336C212EF7081",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/btla4ywing.png",
+    "sha256": "4ab336c212ef7081da5f79da125b487f562f242ef65fc97c7ae7a3c9f7b801eb",
+    "sizeBytes": 34685
+  },
+  {
+    "assetId": "AST-6BE2ECE9588850A3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/concorddawnprotector.png",
+    "sha256": "6be2ece9588850a307b78e4786d470f9b840648461997a59cef11b83ece5816f",
+    "sizeBytes": 31878
+  },
+  {
+    "assetId": "AST-F1F51F713A0D8E43",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/crossfireformation.png",
+    "sha256": "f1f51f713a0d8e4318f08d67052dc401b208d6d0a66c07ddd8ce4a0430a27067",
+    "sizeBytes": 36234
+  },
+  {
+    "assetId": "AST-81C1159BDB01C72C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dauntless.png",
+    "sha256": "81c1159bdb01c72cc98b6934c27db0692097f853dd14981b36e141597eaff8a4",
+    "sizeBytes": 32075
+  },
+  {
+    "assetId": "AST-FC91127697087648",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dodonnaspride.png",
+    "sha256": "fc91127697087648b2809728244c4ee470dafa3528bdfc56354a29a2eb218611",
+    "sizeBytes": 30876
+  },
+  {
+    "assetId": "AST-818D6002A211B1EE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dutyfree.png",
+    "sha256": "818d6002a211b1ee8500e2937da14afb5afa3579f37ef9ff89142d87f49236d9",
+    "sizeBytes": 35660
+  },
+  {
+    "assetId": "AST-55A6F0C1F6C4FB57",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/enforcer.png",
+    "sha256": "55a6f0c1f6c4fb576c03a6fcababec1fe88619cae3a9ab9e4d06fa29723118eb",
+    "sizeBytes": 34866
+  },
+  {
+    "assetId": "AST-42B9353B0C87B06E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/firstordervanguard.png",
+    "sha256": "42b9353b0c87b06e0f000e175267a8a17742aeddc313ed99f11c0da57e882604",
+    "sizeBytes": 34346
+  },
+  {
+    "assetId": "AST-7BA470A4A0D09807",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ghost-swx72.png",
+    "sha256": "7ba470a4a0d09807839114d928f4276b4d0dbf664eff4e506a5c2628a2c6346d",
+    "sizeBytes": 33657
+  },
+  {
+    "assetId": "AST-D4A31E8842144471",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ghost.png",
+    "sha256": "d4a31e8842144471abef8d7f4294f450c87ec7173c5b5ed4086cdb1c57929c1e",
+    "sizeBytes": 34001
+  },
+  {
+    "assetId": "AST-BC357950751F37F5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/havoc.png",
+    "sha256": "bc357950751f37f5030f84a196668b6581ea528d3ec3e9b916ea61b8ff9b44c6",
+    "sizeBytes": 31400
+  },
+  {
+    "assetId": "AST-6850274A4FF866C0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/heavyscykinterceptor.png",
+    "sha256": "6850274a4ff866c0bfe93c12f4eff5a6d4f59d119cd7886984d04fafb2f8505c",
+    "sizeBytes": 34327
+  },
+  {
+    "assetId": "AST-22A5FCE2BE439470",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/houndstooth.png",
+    "sha256": "22a5fce2be439470df19ccdf6efcdeb09086f4918c88fc3dffea52fed3d6f23d",
+    "sizeBytes": 27391
+  },
+  {
+    "assetId": "AST-012204538B6F15EA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ig2000.png",
+    "sha256": "012204538b6f15ea9e03b1243adbd25f9fdabe3e7b29940d8cf4f73b1cbeb452",
+    "sizeBytes": 32291
+  },
+  {
+    "assetId": "AST-F337E15DF4114E92",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/impetuous.png",
+    "sha256": "f337e15df4114e921877d883b2f354301d9ffa507ec397884bf078bf82e3d8a4",
+    "sizeBytes": 27495
+  },
+  {
+    "assetId": "AST-03F3AC614C355979",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/insatiableworrt.png",
+    "sha256": "03f3ac614c355979721174b064cbd15331cfee89734cb499c1f7d9eca8edf724",
+    "sizeBytes": 33507
+  },
+  {
+    "assetId": "AST-5E6FD7A968558BA8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/instigator.png",
+    "sha256": "5e6fd7a968558ba8b443015fff84155a2349bd54d8bd367b64177393c3282656",
+    "sizeBytes": 27904
+  },
+  {
+    "assetId": "AST-80849B6685D90AE3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/jainaslight.png",
+    "sha256": "80849b6685d90ae37cadf56abad7d99001433909ff5f0911afecf2f8ea9b9208",
+    "sizeBytes": 39218
+  },
+  {
+    "assetId": "AST-E03824B6FA4419C4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/kylorensshuttle.png",
+    "sha256": "e03824b6fa4419c474e7d95dca42f0802e622a3522db4cb0b1b582f1db0c23c8",
+    "sizeBytes": 34073
+  },
+  {
+    "assetId": "AST-5CC7DF53CAA815C5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/lightscykinterceptor.png",
+    "sha256": "5cc7df53caa815c52034f3b6c1b3465bb2189a20e70b40249e06b5fca9d2d19b",
+    "sizeBytes": 37504
+  },
+  {
+    "assetId": "AST-99783EDCBF89EEF9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/merchantone.png",
+    "sha256": "99783edcbf89eef98f76c7133faa485064defcebfd58f5182386c4ca4c5fa052",
+    "sizeBytes": 33066
+  },
+  {
+    "assetId": "AST-AB517FD4EB7D0D48",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/millenniumfalcon-swx57.png",
+    "sha256": "ab517fd4eb7d0d48557430d09a4500182d144f87e613ec20f2e27fa345871423",
+    "sizeBytes": 33826
+  },
+  {
+    "assetId": "AST-F6B3FB3EC51CC4E2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/millenniumfalcon.png",
+    "sha256": "f6b3fb3ec51cc4e2211a337a21a8ae0be938456fe2da4f9af35f67c1b14c33a0",
+    "sizeBytes": 29705
+  },
+  {
+    "assetId": "AST-822E07E36D68C42D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/misthunter.png",
+    "sha256": "822e07e36d68c42d0a6b021b31a1fc9cde50a3848e3ff4f7e19ed808d85d9699",
+    "sizeBytes": 36474
+  },
+  {
+    "assetId": "AST-87B5BC4A732635DB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/moldycrow.png",
+    "sha256": "87b5bc4a732635dbc47eafdcd4397c1db0175f05a915757e42d467fe9aea1147",
+    "sizeBytes": 30802
+  },
+  {
+    "assetId": "AST-E5FD188E250CAD36",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/os1arsenalloadout.png",
+    "sha256": "e5fd188e250cad36439a64be782c604c18dae857545a6f73da02136ff0cd4602",
+    "sizeBytes": 34070
+  },
+  {
+    "assetId": "AST-422C3E25D8C45719",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/outrider.png",
+    "sha256": "422c3e25d8c45719303544be5a6bb1bf559281bf438e8f8d22aaddeae537129f",
+    "sizeBytes": 34948
+  },
+  {
+    "assetId": "AST-FAF1416021912696",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/phantom.png",
+    "sha256": "faf14160219126969a68f31b931ac7d3bd6f3eba75e289927782c354410ef5ac",
+    "sizeBytes": 33004
+  },
+  {
+    "assetId": "AST-2A598499150F7653",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/phantomii.png",
+    "sha256": "2a598499150f765352bb50e6369d2133113710412cdfa58e1078582e8330366a",
+    "sizeBytes": 31712
+  },
+  {
+    "assetId": "AST-2F7F45083916512D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/pivot-wing-attack.png",
+    "sha256": "2f7f45083916512d4acc923ec37dc28b1b1362c1010cc0cf04dac7f8b64a7805",
+    "sizeBytes": 31633
+  },
+  {
+    "assetId": "AST-408BB2FDC7FDA41A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/pivot-wing-landing.png",
+    "sha256": "408bb2fdc7fda41ab9123e540a713e372e8cf6d212a11ed2cf7552d16089d8b4",
+    "sizeBytes": 32164
+  },
+  {
+    "assetId": "AST-D2E9A757F30B8615",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/punishingone.png",
+    "sha256": "d2e9a757f30b8615a44c8f84e7b609f0c0c8ce0f1d09201d274847dd339d64c1",
+    "sizeBytes": 30102
+  },
+  {
+    "assetId": "AST-8DAC4BCFB539094E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/quantumstorm.png",
+    "sha256": "8dac4bcfb539094eb775972c4f0ff09556147f74abc8ece2e5f17958e7761cce",
+    "sizeBytes": 32990
+  },
+  {
+    "assetId": "AST-9A6A47B862F1CEA2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/requiem.png",
+    "sha256": "9a6a47b862f1cea270acc63af0205d5ce5de4186b40be90ef17ce74cfb12dd67",
+    "sizeBytes": 32120
+  },
+  {
+    "assetId": "AST-612F817187550DD8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/royalguardtie.png",
+    "sha256": "612f817187550dd8144e10590678b42ab2431cc0aa51b63021ee0d87d746b4cd",
+    "sizeBytes": 32766
+  },
+  {
+    "assetId": "AST-61B6A8B44B862622",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/sabinesmasterpiece.png",
+    "sha256": "61b6a8b44b862622bcdb6362e6829107807121243b51cd5d42cd42bb735d6bbd",
+    "sizeBytes": 33900
+  },
+  {
+    "assetId": "AST-3E8953A32BF08CD3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/shadowcaster.png",
+    "sha256": "3e8953a32bf08cd3c889b4fb0ca04a58c09b205c5057913b91e09c8e89a9d30f",
+    "sizeBytes": 36119
+  },
+  {
+    "assetId": "AST-4203484D129E16C7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/slavei.png",
+    "sha256": "4203484d129e16c75797c21eda316a53e73f069eb9207fdb2af4ee19d6ed4921",
+    "sizeBytes": 28499
+  },
+  {
+    "assetId": "AST-DB9C6353BDD1E5C8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/specialopstraining.png",
+    "sha256": "db9c6353bdd1e5c8f27eaca5a51aec934df11fb113b106b3e0683e959d5ca1b3",
+    "sizeBytes": 36737
+  },
+  {
+    "assetId": "AST-EB0187ECB9181F99",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/st321.png",
+    "sha256": "eb0187ecb9181f99b0862d7e0be7d15bde5a1f6b7fc88b768090ef2c5271ccfd",
+    "sizeBytes": 34325
+  },
+  {
+    "assetId": "AST-6B2959F115DA1B1B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/starvipermkii.png",
+    "sha256": "6b2959f115da1b1bf1292f7f95d4265ed1ae88e6fe5e7631b004dec96c2e5353",
+    "sizeBytes": 35493
+  },
+  {
+    "assetId": "AST-13AB88B579748ABB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/suppressor.png",
+    "sha256": "13ab88b579748abbaeabf52ac18961fb9e576b3c29961a6b51294aba53a3fa35",
+    "sizeBytes": 34405
+  },
+  {
+    "assetId": "AST-B2A7349FF82936EC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tantiveiv.png",
+    "sha256": "b2a7349ff82936ecddda14f3a7230e46757a42a0ead20cbeb061980cd184d7e2",
+    "sizeBytes": 29989
+  },
+  {
+    "assetId": "AST-236EF35E01ABB691",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tied.png",
+    "sha256": "236ef35e01abb6911661652db58967cfd9f57e123e2a7670000d9689851d2202",
+    "sizeBytes": 37345
+  },
+  {
+    "assetId": "AST-5516AA9D95EA8F8D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tieshuttle.png",
+    "sha256": "5516aa9d95ea8f8d2f0d56b9a22c0ae1cd87533498709a3a6ce768acc744cf2a",
+    "sizeBytes": 36951
+  },
+  {
+    "assetId": "AST-50BFBD724070D02C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiev1.png",
+    "sha256": "50bfbd724070d02ca6b06ec34536cea566656801cd7bf6de973cebbaea548e76",
+    "sizeBytes": 32809
+  },
+  {
+    "assetId": "AST-FEB497758B444825",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiex1.png",
+    "sha256": "feb497758b444825d3b905a8fe2cdcb385a2f415edfca7c1dc072e7cf976a161",
+    "sizeBytes": 31377
+  },
+  {
+    "assetId": "AST-F170868169BD806D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiex7.png",
+    "sha256": "f170868169bd806dc013b267d88c15844728da30c0517b7466c47456eb514f0d",
+    "sizeBytes": 34266
+  },
+  {
+    "assetId": "AST-384851A506A86A6E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/vaksai.png",
+    "sha256": "384851a506a86a6ed5e04ee78d2896a772699115085bcad1ddf2284d77bafa00",
+    "sizeBytes": 35169
+  },
+  {
+    "assetId": "AST-3E3D68880FDFE265",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/vector.png",
+    "sha256": "3e3d68880fdfe265dec994e4b24f3c433a188afe9004433426e707277a116314",
+    "sizeBytes": 31296
+  },
+  {
+    "assetId": "AST-96ACC49DCF3C32B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/virago.png",
+    "sha256": "96acc49dcf3c32b271aa589cea82846ac095e5ae3d2112661585df396118cd96",
+    "sizeBytes": 29269
+  },
+  {
+    "assetId": "AST-97443823AB00CDF3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/xg1assaultconfiguration.png",
+    "sha256": "97443823ab00cdf35a988b02239abd326fb51e0004b43212f49267316e0ef28c",
+    "sizeBytes": 33814
+  },
+  {
+    "assetId": "AST-4BF76DD4978D48F1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/advprotontorpedoes.png",
+    "sha256": "4bf76dd4978d48f190285bb6926e5bdd60727b8ba7476f85cada29382ede28ec",
+    "sizeBytes": 30958
+  },
+  {
+    "assetId": "AST-DD30C2E7B9E149D4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/bombloadout.png",
+    "sha256": "dd30c2e7b9e149d41531d402726683a2da9008ecc501fe8632916ac0b6658cc3",
+    "sizeBytes": 32935
+  },
+  {
+    "assetId": "AST-7BC85DD55212153B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/extramunitions.png",
+    "sha256": "7bc85dd55212153b96f006f9d7715633a48b420bf2aa45ed64c6bf83d6d6f362",
+    "sizeBytes": 34789
+  },
+  {
+    "assetId": "AST-883E811236227807",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/flechettetorpedoes.png",
+    "sha256": "883e811236227807ae9b79ef54e1aa97606818a9bed8fd2b20bd1db2840c6664",
+    "sizeBytes": 34450
+  },
+  {
+    "assetId": "AST-49AE02365AF0DA9A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/iontorpedoes.png",
+    "sha256": "49ae02365af0da9ae4cfb79e10e00c876f4a862710ccf2822158d588fc0ab7ba",
+    "sizeBytes": 32445
+  },
+  {
+    "assetId": "AST-1F85E3EA437290E8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/plasmatorpedoes.png",
+    "sha256": "1f85e3ea437290e86147f35e2ac55fdce347a7257e7487551dfe570f676011f4",
+    "sizeBytes": 33874
+  },
+  {
+    "assetId": "AST-91DA87ADD27E31E2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/protontorpedoes.png",
+    "sha256": "91da87add27e31e2c7da89eefdf6fe1829a027ce053a380b210d28dee2e209a3",
+    "sizeBytes": 34836
+  },
+  {
+    "assetId": "AST-E36DD713097D4193",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/renegaderefit.png",
+    "sha256": "e36dd713097d41934e6a0b957149a4135fd65ff120494db4a440ed15a4ff54f8",
+    "sizeBytes": 61336
+  },
+  {
+    "assetId": "AST-6841407E41E8A59D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/seismictorpedo.png",
+    "sha256": "6841407e41e8a59ddfe28ae2da44fb9f067b31eeadfc3dfad93801a009f8d20a",
+    "sizeBytes": 33573
+  },
+  {
+    "assetId": "AST-5A539B3D4827F17E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/autoblasterturret.png",
+    "sha256": "5a539b3d4827f17ec432ddb0772a72f6b1388123ddbb8ab1e87d0e759ea86813",
+    "sizeBytes": 33792
+  },
+  {
+    "assetId": "AST-A75C10120FD75869",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/blasterturret.png",
+    "sha256": "a75c10120fd758697bb809be730f62043f0eb7ef2ac32cab87a753273cb8dfe3",
+    "sizeBytes": 33629
+  },
+  {
+    "assetId": "AST-7E6ABD2567153B81",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/dorsalturret.png",
+    "sha256": "7e6abd2567153b81c196c364db59b3aa5764ba9a47cd74bdcd0775a0c8cfac14",
+    "sizeBytes": 38024
+  },
+  {
+    "assetId": "AST-E9B1E76CFD606C4C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/ioncannonturret.png",
+    "sha256": "e9b1e76cfd606c4c309c00184589e24606e3c490d4fc26fd52cf9f453e06b894",
+    "sizeBytes": 35871
+  },
+  {
+    "assetId": "AST-94F8B5FDB7766F53",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/syncedturret.png",
+    "sha256": "94f8b5fdb7766f53f8cbd4aa9b52a650fc53c4b38a13aa8ff86ca13a9293d56f",
+    "sizeBytes": 33992
+  },
+  {
+    "assetId": "AST-56B2ED1300FC2022",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/twinlaserturret.png",
+    "sha256": "56b2ed1300fc2022a19be72c6e05d1853da03f7b862826b6ee933414c326c288",
+    "sizeBytes": 38964
   },
   {
     "assetId": "AST-DBED9BF44BA4E034",

@@ -16992,6 +16992,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-DA01F2B8A815A039",
+    "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-cards.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-358C2855BFABC44F",
     "repositoryPath": "assets/source/unified1e/reference/epic/cr90corvette/cr90-base-token-blueprint-overlay.png",
     "origin": "unified1e",
@@ -21378,6 +21386,2942 @@
   {
     "assetId": "AST-97B79339A7E45954",
     "repositoryPath": "assets/source/unified1e/upgrade-card-backs/turret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-76C4D51FE3DF28A4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/bb8.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2C0A3C44017CF752",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/chopper-swx72.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2E54D248A63B8DE7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/flightassistastromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6DE6F490CA749449",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/m9g8.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A9395F41294C18BB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2astromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AC0E5EE6CDB5F33B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2d2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E81A681B6CE4300B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2d6.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B333669D3839E99A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r2f2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CF402F5F5F76B2D1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r3a2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F4154F9D90356541",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r3astromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B677182C4F97A902",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r4d6.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-573E3ED5BA36370F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5astromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6611F84072FDC8AD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5d8.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-18DB015F67810421",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5k6.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-01473264CBCADD61",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5p9.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B8C75A63624ADFAE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r5x3.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-96BAFEB0D61280A5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r7astromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-20A810912A9B45E7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/r7t1.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7748AAB8819AD76F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/astromech/targetingastromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8B09B54DAA7243DD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/bombletgenerator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AFC92691073B648D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/clustermines.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-54B5E9C09041BDE7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/connernet.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B0D1FEB9784E8A00",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/ionbombs.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-87364888CA248217",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/ordnancesilos.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6BE39B869C744A39",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/protonbombs.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FF8B9E89B03D0FCB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/proximitymines.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-66D64D567BA67A42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/seismiccharges.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-45025E6795CE0343",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/bomb/thermaldetonators.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A6EF6D5CC1C38BFA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/arc-caster-recharging.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9F675AF0428DF537",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/arc-caster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B1AC008315717668",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/autoblaster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-997537AACC3957A5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/flechettecannon.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-349568A736038606",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/heavylasercannon.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3450742775A256D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/ioncannon.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-47CCF04D9B2EB3EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/jammingbeam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A00D8F29D3778609",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/linkedbattery.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E7918A38ABA44B42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/manglercannon.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9C9465E6E05CAEF5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cannon/tractorbeam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E2CDDF18955A9436",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/backupshieldgenerator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D66B0E169B5E9705",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/broadcastarray.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-043983D1DC4EBD80",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/clusterbombs.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1DA1B88E0CD45955",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/commsbooster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-52B8C00D6B2D5909",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/dockingclamps.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-342C504EE4826922",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/ememitter.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-62CDA697A8D7A35B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/enginebooster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-84D57CC0ECFD080B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/expandedcargohold.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6353D7FB757834FB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/frequencyjammer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C09C4BD04F7C9FAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/ionizationreactor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9DFF04AF9AA05079",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/quickreleasecargolocks.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-56A4E816C45B358D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/shieldprojector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FBCB40F70C2CE07B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/slicertools.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-49F066BF56C6680E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/superchargedpowercells.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D3C54E1AE110D5C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/cargo/tibannagassupplies.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BA82B50A7B6B5F3D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/4lom.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D891F9E3190963B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/admiralozzel.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2707E44B6D644313",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/agentkallus.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0C3FA889E03ECBAC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/azmorigan.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D5075CB2E1195808",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bazemalbus.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4AACFB733902FA1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bistan.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0932AC2631E219B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bobafett.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8C1AF07BD5835D93",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bodhirook.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D5145B0EA0079AE8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bombardier.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E9E1EFA66D135C3F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/boshek.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A2553E0B35DD1D9F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/bossk.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3B6CBFF3F07ABF1C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/breachspecialist.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-985FE9B0CE07F581",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/c3po.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-65159E7AB29C08AF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cadbane.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-77673680EC688887",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/captainneeda.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-71817B51025557A1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/captainrex.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30D3EB408FB07601",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/carlistrieekan.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6C24962A2A878B19",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cassianandor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D1B214AB8E8EB451",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/chewbacca.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F7B196789909EB37",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/chopper.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-59404DDC8C9D3159",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/cikatrovizago.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C7310D80F535EA6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/constructiondroid.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4C917868ADF7DD00",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/courierdroid.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-853B67EFF1AE30CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/darthvader.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F7F7B6442B270C4B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/dashrendar.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-385710A30502805C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/deathtroopers.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C308E100A21FFBFC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/dengar.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6BD58901310220C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/directorkrennic.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-01B46EF2E3C42FF8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/emperorpalpatine.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F52535510A40681D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ezrabridger.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-361C6984FDBC42E8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/finn.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C796531E9E8399CC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/fleetofficer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-08494A02479DAAAA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/flightinstructor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A6F9DBFFAE8B5559",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/generalhux.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-80F0690CC4D624B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/gonk.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0D2CC93E543E44BE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/grandmofftarkin.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3EA61B97625871BE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/greedo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4831E64688207086",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/gunner.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-138D291DFC0CCB41",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/hansolo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4C4F47C64CBC695F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/herasyndulla.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F54EE55AD692D6D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/hotshotcopilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-09193903C37AF025",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ig88d.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CA00223114637543",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/inspiringrecruit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4D3CEC434B4C812A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/intelligenceagent.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A5DF3E28BD8F4EA2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/isbslicer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F4AB7AE1E2BD3989",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jabbathehutt.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6673149B96979518",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jandodonna.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0E6E827F20A7006F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/janors.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9F65F44F3DD796C5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/jynerso.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8896905601D7BB2B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/k4securitydroid.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13A736B3A5765778",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kananjarrus.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AAF3CA75B4EFFAB0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ketsuonyo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B11A6645B5021F40",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kylekatarn.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F1D3AD895D0DFF58",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/kyloren.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E47C752571D32BA4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/landocalrissian.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C572B317B43DFA79",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/lattsrazzi.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2F609F919FEC9BFA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/leebo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-443C6E067980782C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/leiaorgana.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-65775B5EB722FEB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/lukeskywalker.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9CB2D0B5CA0947B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/magvayarro.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-752B48E4D7E306AB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/marajade.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CA2EF2C2B3812C1D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/maul.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D8BD1DD6A9E4A7B7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/mercenarycopilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2DB1AF9395FB03C2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/moffjerjerrod.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8374F5ED8C4BB431",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/navigator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3520ABBA410914FC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/niennunb.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DC16427CCBB78F25",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/operationsspecialist.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7D67D50C286A6B2C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/outlawtech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-544F1FD16461A72A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/r2d2-swx22.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C708079432C59E0F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/raymusantilles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-50D5C5B3C7948E4F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rearadmiralchiraneau.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E3BD3DB9FD69B84B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rebelcaptive.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-576252B934DBDFE9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/reconspecialist.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1D78A8245A76C706",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/rey.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1B3428A23A560CE2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/sabinewren.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B4EB7BCCA785913C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/saboteur.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4E7C13CA15CFC734",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/sawgerrera.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4A1FCD90735AEB2E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/shieldtechnician.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DC83973A878BAF69",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/systemsofficer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E73750397EF8379A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tacticalofficer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-20F77035827A28AF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tactician.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1D906A0161ED134B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/tailgunner.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0D32A01A781DC638",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/targetingcoordinator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5424B7FD41262B9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/torynfarr.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AB31E461E9767C8E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/unkarplutt.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B7E2DCE4BE10624B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/weaponsengineer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D1A350FD97EE9DB7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/wed15repairdroid.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F0F2737E12774928",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/wookieecommandos.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EDA6E2D5D4FF067C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/ysanneisard.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BCCB0955555FF008",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/zeborrelios.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AD1A259D5131365D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/crew/zuckuss.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-32C1AC9E32AB8DB1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adaptability-decrease.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-07E9CD5C18FF403E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adaptability-increase.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0B548110E0FB41D4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/adrenalinerush.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-92E30A870812E8B0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/ascoretosettle.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1D93F218BF6DC7C9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/attannimindlink.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DBD1770981B3FAFC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/bodyguard.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CD030FD464481429",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/calculation.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E1D81FEA8A234994",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/coolhand.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-44F049DC3911DAB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/crackshot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-494E46F4B9423234",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/daredevil.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3A234967A557624F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/deadeye.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-53507654A9CD44A4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/debrisgambit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3E35E22073E6028C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/decoy.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-18A7F3D5F8D7FA6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/determination.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C00A850AA853F0C4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/drawtheirfire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CFF4BC998A07A72C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/elusiveness.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-512C484B28192C56",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/experthandling.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DBD98792077AC2D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/expertise.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB78992FF843135E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/expose.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-70096EBB31F09020",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/fearlessness.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6B80A509C5FECC16",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intensity-exhausted.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CA5DE87EAA82C0E4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intensity.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4C6A946FD46A9A14",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/intimidation.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4292CA6F044046F3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/juke.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8D742462DF2F8512",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/lightningreflexes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-84F1E315957BB5DB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/lonewolf.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C66DA497EE6C40DF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/marksmanship.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-484C3787B151B37A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/opportunist.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B0FDB488E359803C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/outmaneuver.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7D399237842F7EBB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/predator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E0F5821029B9431B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/pushthelimit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A7A5B7E7FA70D4B9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/rage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3BFCA8B94DB675CD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/ruthlessness.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-42AD5A57B0D72A21",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/saturationsalvo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-248741E66070B9EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/selflessness.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A65F51D811B95383",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/snapshot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-130EAECC2D5DE09A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/squadleader.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-767C1FE7E9235622",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/stayontarget.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0327E1DDD13EAC52",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/swarmleader.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1FFAD51C42F07E20",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/swarmtactics.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C21379FD38A418FC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/trickshot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-357A49E7933B2CEA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/veteraninstincts.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9CB568C9891C0812",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/wingman.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2B63AE26B841B0D7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/elite/wired.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D2C1C43950D2F880",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/duallaserturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A40ADBCC676F6B9F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/heavylaserturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EF27869DFD772BF1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/ioncannonbattery.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0CC436DF0C2F25F7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/quadlasercannons.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB2F038A5EDCD422",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/hardpoint/singleturbolasers.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D36EE764B3A57831",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/blackmarketslicertools.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C25447E7C2CC1C92",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/burnoutslam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AB7F794FFBE4BB11",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/cloakingdevice.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-50D76BC360419620",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/contrabandcybernetics.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D5D565D7487A129F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/deadmansswitch.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E7D30B73FA239EBD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/empdevice.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-323CDCBAE23399F6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/feedbackarray.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BAC3C8B27B8D5CE4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/glitterstim.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A54F0B585D574570",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/hotshotblaster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5A898177F6ACCD0D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/inertialdampeners.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-28727CC8048B626E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/iondischargers.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C8C950F374D973F5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/riggedcargochute.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C102B83BB68B2CB6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/illicit/scavengercrane.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F98C7E22722992E6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/advhomingmissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F6434289A42921B3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/assaultmissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1C20E267E0700660",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/chardaanrefit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BC64846FB4997AAA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/clustermissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7C62D676DFFE64CF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/concussionmissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-44F01CE03FBDD768",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/cruisemissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-76263B02D58F8628",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/harpoonmissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5E83E05E1E77049E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/homingmissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7FAB8E1947FB665B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/ionpulsemissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2B444454F8EFFFB5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/protonrockets.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DA6EEC7DE07E109C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/scramblermissiles.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A83AA74239301997",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/unguidedrockets.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9398058D4D7EAEAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/missile/xx23sthreadtracers.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F08C2C3338CFB336",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/advancedcloakingdevice.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-609101C6E53F85CF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/advancedslam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DE8C938F027C3B42",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/antipursuitlasers.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B9F979D417FB8411",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/automatedprotocols.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-12D769CA952D71A0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/autothrusters.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30A88C14819E28CD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/bwinge2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8F8FE1A712CAC486",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/capturedtie.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1380EC64C69A7F9E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/combatretrofit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8182668B0DAD20DE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/countermeasures.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-97CA93FD5BD35DE2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/deflectiveplating.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8DCB53500991DC82",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/engineupgrade.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1FCDA2ED471997C1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/experimentalinterface.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-889C3B628CA3BB6C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/guidancechips.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8203A57D978D2DB1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/gyroscopictargeting.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-76B242CD870ACA66",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/hullupgrade.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F33D13E0538B1CA5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/integratedastromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-18B5EA6AF0FBBC69",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/ionprojector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-31BB722B29EADB8D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/lightweightframe.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CBF472F6874BEA5E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/longrangescanners.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0B06F1050DF5E20A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/maneuveringfins.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D86339E16267FBC6",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/multispectralcamouflage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AC907CB3BB3F83EB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/munitionsfailsafe.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1BC3202CBF22AF10",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/optimizedgenerators.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3B17DC1962607913",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/ordnancetubes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13944CFB03DFBCB4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/pulsedrayshield.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-32A44534B5CD4536",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/servomotor-s-foils-attack.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8ADE01B1A667D669",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/servomotor-s-foils-closed.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2781AB2160B8CE46",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/shieldupgrade.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2C4761E89838CC54",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/smugglingcompartment.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-468542AEC41030D1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/spacetugtractorarray.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FC4AF345078F1516",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/stealthdevice.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1885FE1F8826A2CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/stygiumparticleaccelerator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BFE0F2864B4E86CE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/tacticaljammer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9485DC12557C8E81",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/targetingcomputer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D3BA3BC69D19AFDA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/twinionenginemkii.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7383F830B86180E0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/modification/vectoredthrusters.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6FAD3DE580796AAD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/genius.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5103337107FB4BB7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/overclockedr4.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-74FDBE46AD2C0D7F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4agromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0667EB0903B61C1A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4b11.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-82585CF093CDB57C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r4e1.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8DAFFA268FEA3281",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r5p8.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E8E200B6962751A8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/r5tk.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FD14422200F97488",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/salvagedastromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6A055B8774436496",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/salvaged_astromech/unhingedastromech.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9277A2EBB8184C64",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/accuracycorrector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-80D82A9913EFBC8B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/advancedsensors.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-22199D72F5578DE9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/advtargetingcomputer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0BC8FC324CAAF0C8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/collisiondetector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-930BD3691C140F40",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/electronicbaffle.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-723724678F513391",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/enhancedscopes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FFD9995A2834B011",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/firecontrolsystem.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-93EF2DAF288BDD13",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/minefieldmapper.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-919BF03EDCCB939F",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/reinforceddeflectors.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-87CE17FA53898434",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/sensorjammer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C03557C2A71632D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/targetingscrambler.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CD7E1BEB6553E573",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/thrustcorrector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BE9CE784177A304D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/system/trajectorysimulator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF9ABDAA4C4A610B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/engineeringteam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30B7F62478D9FC5C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/gunneryteam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-40D8421DEC5936DF",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/igrmthugdroids.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2DAE8CF935C731A9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/ordnanceexperts.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-677F9214D6F94027",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/team/sensorteam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0F9F7FAF7EDE5590",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/advancedoptics.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EA7919A1F829060E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/commrelay.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AD56D89EBC97E04C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/hyperwavecommscanner.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-74558295C3A99CA1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/patternanalyzer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B1FB419E2F4ED417",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/primedthrusters.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-588FB39C3E2084D3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/sensorcluster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7241FB4C13880DD4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/targetingsynchronizer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D4AC39E032E42B6D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/threattracker.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-409B977B8E463529",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/tech/weaponsguidance.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-21F99E6CCD54AA6E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/adaptiveailerons.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-422B712BD9819395",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/advancedailerons.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D97976EE2BD6B5BD",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/allianceoverhaul.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E0535B90CC17FE7C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/andrasta.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C35E2308AABBC23D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/assailer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-05A6E8FE9660E378",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/awingtestpilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E61B8D1E8C42CC0B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/blackone.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7A8144F666066947",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/brighthope.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2DCB7ECD67B23C72",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/brokenhorn.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4AB336C212EF7081",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/btla4ywing.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6BE2ECE9588850A3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/concorddawnprotector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F1F51F713A0D8E43",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/crossfireformation.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-81C1159BDB01C72C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dauntless.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FC91127697087648",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dodonnaspride.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-818D6002A211B1EE",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/dutyfree.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-55A6F0C1F6C4FB57",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/enforcer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-42B9353B0C87B06E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/firstordervanguard.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7BA470A4A0D09807",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ghost-swx72.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D4A31E8842144471",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ghost.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BC357950751F37F5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/havoc.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6850274A4FF866C0",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/heavyscykinterceptor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-22A5FCE2BE439470",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/houndstooth.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-012204538B6F15EA",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/ig2000.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F337E15DF4114E92",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/impetuous.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-03F3AC614C355979",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/insatiableworrt.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5E6FD7A968558BA8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/instigator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-80849B6685D90AE3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/jainaslight.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E03824B6FA4419C4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/kylorensshuttle.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5CC7DF53CAA815C5",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/lightscykinterceptor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-99783EDCBF89EEF9",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/merchantone.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AB517FD4EB7D0D48",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/millenniumfalcon-swx57.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F6B3FB3EC51CC4E2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/millenniumfalcon.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-822E07E36D68C42D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/misthunter.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-87B5BC4A732635DB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/moldycrow.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5FD188E250CAD36",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/os1arsenalloadout.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-422C3E25D8C45719",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/outrider.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FAF1416021912696",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/phantom.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2A598499150F7653",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/phantomii.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2F7F45083916512D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/pivot-wing-attack.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-408BB2FDC7FDA41A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/pivot-wing-landing.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D2E9A757F30B8615",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/punishingone.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8DAC4BCFB539094E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/quantumstorm.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9A6A47B862F1CEA2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/requiem.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-612F817187550DD8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/royalguardtie.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-61B6A8B44B862622",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/sabinesmasterpiece.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3E8953A32BF08CD3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/shadowcaster.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4203484D129E16C7",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/slavei.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DB9C6353BDD1E5C8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/specialopstraining.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EB0187ECB9181F99",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/st321.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6B2959F115DA1B1B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/starvipermkii.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13AB88B579748ABB",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/suppressor.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B2A7349FF82936EC",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tantiveiv.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-236EF35E01ABB691",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tied.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5516AA9D95EA8F8D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tieshuttle.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-50BFBD724070D02C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiev1.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FEB497758B444825",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiex1.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F170868169BD806D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/tiex7.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-384851A506A86A6E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/vaksai.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3E3D68880FDFE265",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/vector.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-96ACC49DCF3C32B2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/virago.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-97443823AB00CDF3",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/title/xg1assaultconfiguration.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4BF76DD4978D48F1",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/advprotontorpedoes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DD30C2E7B9E149D4",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/bombloadout.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7BC85DD55212153B",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/extramunitions.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-883E811236227807",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/flechettetorpedoes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-49AE02365AF0DA9A",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/iontorpedoes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1F85E3EA437290E8",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/plasmatorpedoes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-91DA87ADD27E31E2",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/protontorpedoes.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E36DD713097D4193",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/renegaderefit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6841407E41E8A59D",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/torpedo/seismictorpedo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5A539B3D4827F17E",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/autoblasterturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A75C10120FD75869",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/blasterturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7E6ABD2567153B81",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/dorsalturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E9B1E76CFD606C4C",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/ioncannonturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-94F8B5FDB7766F53",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/syncedturret.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-56B2ED1300FC2022",
+    "repositoryPath": "assets/source/unified1e/upgrade-cards/turret/twinlaserturret.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
