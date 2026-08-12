@@ -12756,6 +12756,12 @@
     "sizeBytes": 391862
   },
   {
+    "assetId": "AST-76B02E07CD3F1E78",
+    "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-mechanics.json",
+    "sha256": "76b02e07cd3f1e7878ca3cb4e88422fc687a1a8bc8c921364db9a7653fc1c967",
+    "sizeBytes": 630982
+  },
+  {
     "assetId": "AST-358C2855BFABC44F",
     "repositoryPath": "assets/source/unified1e/reference/epic/cr90corvette/cr90-base-token-blueprint-overlay.png",
     "sha256": "358c2855bfabc44f54a65d311a484001f8fe4485f7b8d4df381cde2074635b36",

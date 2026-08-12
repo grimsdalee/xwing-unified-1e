@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-12T17:07:32.4812451+00:00",
+  "generatedUtc": "2026-08-12T17:41:55.667271+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -36562,6 +36562,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 391862,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-76B02E07CD3F1E78",
+        "sha256": "76b02e07cd3f1e7878ca3cb4e88422fc687a1a8bc8c921364db9a7653fc1c967",
+        "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-mechanics.json",
+        "fileName": "upgrade-mechanics.json",
+        "extension": ".json",
+        "assetType": "json",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 630982,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -136670,9 +136685,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5880,
-    "uniqueAssetCount": 4958,
-    "totalBytes": 2214064560,
+    "fileCount": 5881,
+    "uniqueAssetCount": 4959,
+    "totalBytes": 2214695542,
     "duplicateFileCount": 922,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -136683,7 +136698,7 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified1e": 1608,
+      "unified1e": 1609,
       "unified25": 2381,
       "xwing-data": 457
     },
@@ -136692,7 +136707,7 @@
       "model": 713,
       "lua": 229,
       "xml": 15,
-      "json": 129,
+      "json": 130,
       "other": 29,
       "pdf": 3,
       "text": 5

@@ -17008,6 +17008,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-76B02E07CD3F1E78",
+    "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-mechanics.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-358C2855BFABC44F",
     "repositoryPath": "assets/source/unified1e/reference/epic/cr90corvette/cr90-base-token-blueprint-overlay.png",
     "origin": "unified1e",

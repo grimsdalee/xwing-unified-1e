@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-12T17:07:32.0645604+00:00",
+  "generatedUtc": "2026-08-12T17:41:55.2289554+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5880,
-  "uniqueAssets": 4958,
+  "totalFiles": 5881,
+  "uniqueAssets": 4959,
   "duplicateFiles": 922,
   "assets": [
     {
@@ -25518,6 +25518,18 @@
       "sizeBytes": 391862,
       "sha256": "da01f2b8a815a039ab0bee1cb2ff5517e649ea2f892037981b31d9e875376dde",
       "lastWriteTimeUtc": "2026-08-12T01:48:01.6653048Z"
+    },
+    {
+      "assetId": "AST-76B02E07CD3F1E78",
+      "repositoryPath": "assets/source/unified1e/reference/cards/upgrade-mechanics.json",
+      "fileName": "upgrade-mechanics.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 630982,
+      "sha256": "76b02e07cd3f1e7878ca3cb4e88422fc687a1a8bc8c921364db9a7653fc1c967",
+      "lastWriteTimeUtc": "2026-08-12T17:41:35.5825615Z"
     },
     {
       "assetId": "AST-358C2855BFABC44F",

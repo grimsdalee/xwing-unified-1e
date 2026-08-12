@@ -95,6 +95,7 @@ return command switch
     "import-first-edition-upgrade-card-backs" => ImportFirstEditionUpgradeCardBacksCommand.Run(commandArgs),
     "import-first-edition-upgrade-cards" => ImportFirstEditionUpgradeCardsCommand.Run(commandArgs),
     "audit-first-edition-upgrade-mechanics" => AuditFirstEditionUpgradeMechanicsCommand.Run(commandArgs),
+    "build-first-edition-upgrade-mechanics-catalogue" => BuildFirstEditionUpgradeMechanicsCatalogueCommand.Run(commandArgs),
     "import-first-edition-condition-tokens" => ImportFirstEditionConditionTokensCommand.Run(commandArgs),
     "import-first-edition-condition-cards" => ImportFirstEditionConditionCardsCommand.Run(commandArgs),
     "build-first-edition-condition-sources" => BuildFirstEditionConditionSourcesCommand.Run(commandArgs),
@@ -279,6 +280,7 @@ static void ShowHelp()
     Console.WriteLine("  import-first-edition-upgrade-card-backs <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-upgrade-cards <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  audit-first-edition-upgrade-mechanics <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  build-first-edition-upgrade-mechanics-catalogue <first-edition-repo-folder> [--audit <file>] [--output <file>]");
     Console.WriteLine("  import-first-edition-condition-tokens <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-condition-cards <first-edition-repo-folder> [--faces <folder>] [--backs <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  build-first-edition-condition-sources <first-edition-repo-folder> [--output <file>]");

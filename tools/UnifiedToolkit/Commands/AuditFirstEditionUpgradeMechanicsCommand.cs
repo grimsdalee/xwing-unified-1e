@@ -17,25 +17,29 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
     private static readonly MechanicRule[] Rules =
     {
         RuleAll("condition-assignment", "Assigns a condition", "assign", "condition"),
-        Rule("adds-action", "Adds an action", "action bar gains", "action icon"),
+        Rule("adds-action", "Adds an action", "action bar gains"),
+        Rule("action-icon-check", "Checks whether an action icon exists", "have the [boost] action icon", "have the [barrel roll] action icon", "if you have the [boost] action icon"),
         Rule("free-or-extra-action", "Grants or changes actions", "free action", "perform an action", "perform 1 action", "additional action"),
-        Rule("maneuver-difficulty", "Changes maneuver difficulty or colour", "green maneuver", "red maneuver", "white maneuver", "treat all", "difficulty of"),
+        Rule("maneuver-difficulty-change", "Changes maneuver difficulty or colour", "as green maneuvers", "as a white maneuver", "as a red maneuver", "difficulty of"),
+        Rule("maneuver-colour-trigger", "Triggers from maneuver colour", "reveal a green maneuver", "execute a green maneuver", "executing a green maneuver", "executes a green maneuver", "execute a red maneuver", "executing a red maneuver", "reveal a red maneuver", "executes a white maneuver"),
         Rule("maneuver-execution", "Changes maneuver execution", "execute a maneuver", "reveal your maneuver", "maneuver template", "instead of executing"),
-        Rule("upgrade-slot-change", "Adds or removes upgrade slots", "upgrade bar gains", "upgrade icon", "cannot equip", "may equip"),
-        Rule("stat-change", "Changes ship statistics", "increase your attack", "decrease your attack", "increase your agility", "decrease your agility", "increase your hull", "increase your shield", "shield value", "agility value", "primary weapon value"),
-        Rule("arc-or-weapon-change", "Changes arcs or weapons", "firing arc", "auxiliary firing arc", "primary weapon", "secondary weapon"),
+        Rule("upgrade-slot-change", "Adds, removes or converts upgrade slots", "upgrade bar gains", "upgrade bar loses", "upgrade icons and gains", "upgrade icon as", "upgrade icons as"),
+        Rule("equip-restriction", "Changes what the ship may equip", "cannot equip", "may equip", "can equip", "equip up to", "you can equip"),
+        Rule("stat-change", "Changes ship statistics", "increase your attack", "decrease your attack", "increase your agility", "decrease your agility", "increase your hull", "increase your shield", "reduce your primary attack", "reduce its agility", "reduce that ship's agility", "doubles his agility"),
+        Rule("stat-value-dependent", "Effect depends on a current stat value", "up to your shield value", "equal to your agility value", "agility value lower than", "up to your primary weapon value", "primary weapon value is", "if your agility value is", "if your shield value is"),
+        Rule("arc-or-weapon-interaction", "Interacts with arcs or weapon types", "firing arc", "auxiliary firing arc", "primary weapon", "secondary weapon"),
         Rule("token-assignment", "Assigns or receives tokens", "assign 1", "receive 1", "receives 1", "token to"),
         Rule("token-spend-or-remove", "Spends, removes or transfers tokens", "spend", "remove 1", "discard a focus", "transfer"),
         Rule("target-lock", "Changes target-lock mechanics", "target lock", "acquire a target lock"),
         Rule("dice-modification", "Modifies dice or results", "reroll", "change 1", "change all", "add 1 die", "roll 1 additional", "dice results"),
-        Rule("attack-restriction", "Changes attack permissions or restrictions", "perform this attack", "cannot attack", "may perform an attack", "attack twice", "cannot perform attacks"),
-        Rule("range-change", "Changes range rules", "range 1-", "range 2-", "beyond range", "at range"),
+        Rule("attack-execution-or-restriction", "Executes or changes attack permissions", "perform this attack", "cannot attack", "may perform an attack", "attack twice", "cannot perform attacks"),
+        Rule("range-dependent-effect", "Effect depends on measured range", "range 1-", "range 2-", "at range", "within range", "beyond range"),
+        Rule("range-rule-change", "Extends, reduces or replaces normal range", "instead of at range", "range 3 and beyond", "range 1-5 (instead"),
         Rule("bomb-or-mine", "Drops or interacts with bombs/mines", "bomb", "mine", "detonator"),
         Rule("obstacle-or-overlap", "Interacts with obstacles or overlaps", "obstacle", "overlap", "overlapping", "touching another ship"),
         Rule("damage-interaction", "Deals, repairs or changes damage", "suffer 1 damage", "damage card", "critical damage", "repair", "discard 1 damage"),
-        Rule("discard-or-flip", "Discards or flips cards", "discard this card", "flip this card", "turn this card"),
+        Rule("card-state-change", "Discards or flips cards", "discard this card", "flip this card", "turn this card"),
         Rule("setup-or-deployment", "Changes setup or deployment", "during setup", "place forces", "deploy", "docked"),
-        Rule("ship-or-faction-restriction", "Has ship/faction/size restrictions", "only.", "small ship only", "large ship only", "huge ship only", "faction", "ship only"),
         Rule("initiative-or-pilot-skill", "Changes pilot skill", "pilot skill"),
         Rule("stress-interaction", "Assigns, removes or reacts to stress", "stress token", "stressed"),
         Rule("cloak-interaction", "Changes cloak mechanics", "cloak", "decloak"),
@@ -50,8 +54,9 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
         ,Rule("additional-recovery", "Increases recovery effects", "recover 1 additional", "additional shield")
         ,Rule("upgrade-token-or-persistence", "Adds persistence tokens to upgrades", "illicit token", "token on each", "token on that card instead")
         ,Rule("dial-change", "Changes the selected dial maneuver", "rotate your dial", "corresponding bank maneuver", "reveal a turn maneuver")
-        ,Rule("timing-order-change", "Changes timing or step order", "resolve the", "step after", "instead of before")
-        ,Rule("direct-maneuver-action", "Executes a maneuver as an action", "action: execute", "execute a white")
+        ,Rule("timing-order-change", "Changes timing or step order", "step after", "instead of before")
+        ,Rule("direct-maneuver-action", "Executes a maneuver as an action", "action: execute")
+        ,Rule("additional-maneuver", "Executes an additional or pre-reveal maneuver", "before you reveal your dial", "before you reveal your maneuver dial")
         ,Rule("reinforce-interaction", "Changes reinforce-token behaviour", "reinforce token")
     };
 
@@ -70,7 +75,7 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
             var rows = document.RootElement.EnumerateArray().Select(item =>
             {
                 var text = PlainText(Text(item, "text"));
-                var categories = Rules.Where(rule => rule.MatchAll
+                var proposedCategories = Rules.Where(rule => rule.MatchAll
                         ? rule.Terms.All(term => text.Contains(term, StringComparison.OrdinalIgnoreCase))
                         : rule.Terms.Any(term => text.Contains(term, StringComparison.OrdinalIgnoreCase)))
                     .Select(rule => new UpgradeMechanicCategory
@@ -79,11 +84,26 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
                         Name = rule.Name,
                         Evidence = rule.Terms.Where(term => text.Contains(term, StringComparison.OrdinalIgnoreCase)).ToList()
                     }).ToList();
+                var structured = StructuredMetadata(item);
+                var categories = proposedCategories.Concat(structured.Categories)
+                    .GroupBy(category => category.Id, StringComparer.OrdinalIgnoreCase)
+                    .Select(group => new UpgradeMechanicCategory
+                    {
+                        Id = group.Key,
+                        Name = group.First().Name,
+                        Evidence = group.SelectMany(category => category.Evidence).Distinct(StringComparer.OrdinalIgnoreCase).ToList()
+                    }).ToList();
                 var priority = RuntimePriority(categories.Select(category => category.Id));
                 return new UpgradeMechanicsAuditRow
                 {
                     Id = Int(item, "id"), Name = Text(item, "name"), Xws = Text(item, "xws"),
                     Slot = Text(item, "slot"), Text = text, Conditions = Strings(item, "conditions"),
+                    RestrictedShips = structured.Ships,
+                    RestrictedFactions = structured.Factions,
+                    RestrictedSizes = structured.Sizes,
+                    IsLimited = structured.IsLimited,
+                    IsSquadLimited = structured.IsSquadLimited,
+                    Grants = structured.Grants,
                     Categories = categories,
                     EffectTextSha256 = Sha256(text),
                     RuntimePriority = priority.Id,
@@ -96,7 +116,7 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
 
             var report = new UpgradeMechanicsAudit
             {
-                SchemaVersion = 1,
+                SchemaVersion = 2,
                 GeneratedUtc = DateTimeOffset.UtcNow,
                 ClassificationMethod = "Conservative text-pattern proposals with evidence and runtime-priority triage; every classification requires human review.",
                 UpgradeCount = rows.Count,
@@ -105,11 +125,13 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
                 HighPriorityUpgradeCount = rows.Count(row => row.RuntimePriority == "high"),
                 MediumPriorityUpgradeCount = rows.Count(row => row.RuntimePriority == "medium"),
                 LowPriorityUpgradeCount = rows.Count(row => row.RuntimePriority == "low"),
-                CategorySummary = Rules.Select(rule => new UpgradeMechanicCategorySummary
-                {
-                    Id = rule.Id, Name = rule.Name,
-                    UpgradeCount = rows.Count(row => row.Categories.Any(category => category.Id == rule.Id))
-                }).Where(row => row.UpgradeCount > 0).ToList(),
+                CategorySummary = rows.SelectMany(row => row.Categories)
+                    .GroupBy(category => category.Id, StringComparer.OrdinalIgnoreCase)
+                    .Select(group => new UpgradeMechanicCategorySummary
+                    {
+                        Id = group.Key, Name = group.First().Name,
+                        UpgradeCount = rows.Count(row => row.Categories.Any(category => category.Id.Equals(group.Key, StringComparison.OrdinalIgnoreCase)))
+                    }).OrderBy(summary => summary.Id, StringComparer.OrdinalIgnoreCase).ToList(),
                 Upgrades = rows
             };
 
@@ -153,16 +175,54 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
     private static MechanicRule Rule(string id, string name, params string[] terms) => new(id, name, false, terms);
     private static MechanicRule RuleAll(string id, string name, params string[] terms) => new(id, name, true, terms);
     private static string PlainText(string value) => Whitespace().Replace(Tag().Replace(value.Replace("<br />", " "), " "), " ").Trim();
+    private static StructuredUpgradeMetadata StructuredMetadata(JsonElement item)
+    {
+        var ships = Strings(item, "ship");
+        var factions = StringOrStrings(item, "faction");
+        var sizes = Strings(item, "size");
+        var isLimited = Boolean(item, "limited");
+        var isSquadLimited = Boolean(item, "squadLimited");
+        var grants = item.TryGetProperty("grants", out var value) && value.ValueKind == JsonValueKind.Array
+            ? value.EnumerateArray().Select(grant => new UpgradeMechanicGrant
+            {
+                Type = Text(grant, "type"),
+                Name = Text(grant, "name"),
+                Value = grant.TryGetProperty("value", out var amount) && amount.TryGetInt32(out var number) ? number : null
+            }).ToList()
+            : new List<UpgradeMechanicGrant>();
+        var categories = new List<UpgradeMechanicCategory>();
+        if (ships.Count + factions.Count + sizes.Count > 0)
+            categories.Add(StructuredCategory("equip-restriction", "Changes what the ship may equip", new[] {
+                ships.Count > 0 ? $"structured ship restriction: {string.Join('|', ships)}" : "",
+                factions.Count > 0 ? $"structured faction restriction: {string.Join('|', factions)}" : "",
+                sizes.Count > 0 ? $"structured size restriction: {string.Join('|', sizes)}" : ""
+            }));
+        if (isLimited || isSquadLimited)
+            categories.Add(StructuredCategory("limited-equip-count", "Limits how many copies may be equipped", new[] {
+                isLimited ? "structured limited=true" : "", isSquadLimited ? "structured squadLimited=true" : ""
+            }));
+        foreach (var grantType in grants.GroupBy(grant => grant.Type, StringComparer.OrdinalIgnoreCase))
+        {
+            var id = grantType.Key.ToLowerInvariant() switch { "action" => "adds-action", "slot" => "upgrade-slot-change", "stats" => "stat-change", _ => "structured-grant" };
+            var name = grantType.Key.ToLowerInvariant() switch { "action" => "Adds an action", "slot" => "Adds, removes or converts upgrade slots", "stats" => "Changes ship statistics", _ => "Provides a structured grant" };
+            categories.Add(StructuredCategory(id, name, grantType.Select(grant => $"structured grant: {grant.Type}/{grant.Name}/{grant.Value?.ToString() ?? "n/a"}")));
+        }
+        return new(ships, factions, sizes, isLimited, isSquadLimited, grants, categories);
+    }
+    private static UpgradeMechanicCategory StructuredCategory(string id, string name, IEnumerable<string> evidence) => new()
+    {
+        Id = id, Name = name, Evidence = evidence.Where(entry => entry.Length > 0).ToList()
+    };
     private static string Sha256(string value) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(value)));
     private static RuntimePriorityResult RuntimePriority(IEnumerable<string> categoryIds)
     {
         var ids = categoryIds.ToHashSet(StringComparer.OrdinalIgnoreCase);
-        var high = new[] { "condition-assignment", "adds-action", "free-or-extra-action", "maneuver-difficulty", "maneuver-execution",
-            "upgrade-slot-change", "stat-change", "token-assignment", "token-spend-or-remove", "target-lock", "bomb-or-mine",
+        var high = new[] { "condition-assignment", "adds-action", "free-or-extra-action", "maneuver-difficulty-change", "maneuver-execution", "additional-maneuver",
+            "upgrade-slot-change", "equip-restriction", "stat-change", "token-assignment", "token-spend-or-remove", "target-lock", "bomb-or-mine",
             "damage-interaction", "setup-or-deployment", "cloak-interaction", "energy-interaction", "regeneration",
             "upgrade-token-or-persistence", "dial-change", "direct-maneuver-action", "reinforce-interaction" };
-        var medium = new[] { "arc-or-weapon-change", "dice-modification", "attack-restriction", "range-change", "obstacle-or-overlap",
-            "discard-or-flip", "initiative-or-pilot-skill", "stress-interaction", "uncancellable-results", "obstruction",
+        var medium = new[] { "maneuver-colour-trigger", "arc-or-weapon-interaction", "dice-modification", "attack-execution-or-restriction",
+            "range-rule-change", "obstacle-or-overlap", "card-state-change", "initiative-or-pilot-skill", "stress-interaction", "uncancellable-results", "obstruction",
             "shares-pilot-ability", "additional-recovery" };
         var matchedHigh = high.Where(ids.Contains).ToList();
         if (matchedHigh.Count > 0) return new("high", $"State-changing mechanics: {string.Join(", ", matchedHigh)}");
@@ -174,10 +234,18 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
     private static int Int(JsonElement item, string name) => item.TryGetProperty(name, out var value) && value.TryGetInt32(out var number) ? number : 0;
     private static List<string> Strings(JsonElement item, string name) => item.TryGetProperty(name, out var value) && value.ValueKind == JsonValueKind.Array
         ? value.EnumerateArray().Select(entry => entry.GetString() ?? "").Where(entry => entry.Length > 0).ToList() : new();
+    private static List<string> StringOrStrings(JsonElement item, string name) => item.TryGetProperty(name, out var value)
+        ? value.ValueKind == JsonValueKind.String ? new List<string> { value.GetString() ?? "" }.Where(entry => entry.Length > 0).ToList()
+        : value.ValueKind == JsonValueKind.Array ? value.EnumerateArray().Select(entry => entry.GetString() ?? "").Where(entry => entry.Length > 0).ToList()
+        : new List<string>() : new List<string>();
+    private static bool Boolean(JsonElement item, string name) => item.TryGetProperty(name, out var value) && value.ValueKind is JsonValueKind.True;
     private static void WriteCsv(string path, IEnumerable<UpgradeMechanicsAuditRow> rows)
     {
-        var lines = new List<string> { "Id,Name,Xws,Slot,RuntimePriority,RuntimePriorityReason,EffectTextSha256,ProposedCategories,MatchingEvidence,Conditions,ApprovedCategories,RejectedCategories,ReviewStatus,ReviewerNotes,RuntimeStatus,Text" };
+        var lines = new List<string> { "Id,Name,Xws,Slot,RestrictedShips,RestrictedFactions,RestrictedSizes,Limited,SquadLimited,StructuredGrants,RuntimePriority,RuntimePriorityReason,EffectTextSha256,ProposedCategories,MatchingEvidence,Conditions,ApprovedCategories,RejectedCategories,ReviewStatus,ReviewerNotes,RuntimeStatus,Text" };
         lines.AddRange(rows.Select(row => string.Join(',', new[] { row.Id.ToString(), Quote(row.Name), Quote(row.Xws), Quote(row.Slot),
+            Quote(string.Join(';', row.RestrictedShips)), Quote(string.Join(';', row.RestrictedFactions)), Quote(string.Join(';', row.RestrictedSizes)),
+            row.IsLimited.ToString(), row.IsSquadLimited.ToString(),
+            Quote(string.Join(';', row.Grants.Select(grant => $"{grant.Type}/{grant.Name}/{grant.Value?.ToString() ?? "n/a"}"))),
             Quote(row.RuntimePriority), Quote(row.RuntimePriorityReason), Quote(row.EffectTextSha256),
             Quote(string.Join(';', row.Categories.Select(category => category.Id))),
             Quote(string.Join(';', row.Categories.Select(category => $"{category.Id}=[{string.Join('|', category.Evidence)}]"))),
@@ -187,9 +255,10 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
     }
     private static void WriteCategoryCsv(string path, IEnumerable<UpgradeMechanicsAuditRow> rows)
     {
-        var lines = new List<string> { "CategoryId,CategoryName,UpgradeId,UpgradeName,Xws,Slot,RuntimePriority,Evidence,ReviewDecision,ReviewerNotes,Text" };
+        var lines = new List<string> { "CategoryId,CategoryName,UpgradeId,UpgradeName,Xws,Slot,RestrictedShips,RestrictedFactions,RestrictedSizes,RuntimePriority,Evidence,ReviewDecision,ReviewerNotes,Text" };
         lines.AddRange(rows.SelectMany(row => row.Categories.Select(category => string.Join(',', new[] {
             Quote(category.Id), Quote(category.Name), row.Id.ToString(), Quote(row.Name), Quote(row.Xws), Quote(row.Slot),
+            Quote(string.Join(';', row.RestrictedShips)), Quote(string.Join(';', row.RestrictedFactions)), Quote(string.Join(';', row.RestrictedSizes)),
             Quote(row.RuntimePriority), Quote(string.Join(';', category.Evidence)), Quote(""), Quote(""), Quote(row.Text)
         }))));
         File.WriteAllLines(path, lines, new UTF8Encoding(false));
@@ -213,6 +282,8 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
     [GeneratedRegex("\\s+")] private static partial Regex Whitespace();
     private sealed record MechanicRule(string Id, string Name, bool MatchAll, string[] Terms);
     private sealed record RuntimePriorityResult(string Id, string Reason);
+    private sealed record StructuredUpgradeMetadata(List<string> Ships, List<string> Factions, List<string> Sizes,
+        bool IsLimited, bool IsSquadLimited, List<UpgradeMechanicGrant> Grants, List<UpgradeMechanicCategory> Categories);
 }
 
 public sealed class UpgradeMechanicsAudit
@@ -229,6 +300,9 @@ public sealed class UpgradeMechanicsAuditRow
 {
     public int Id { get; init; } public string Name { get; init; } = ""; public string Xws { get; init; } = "";
     public string Slot { get; init; } = ""; public string Text { get; init; } = ""; public List<string> Conditions { get; init; } = new();
+    public List<string> RestrictedShips { get; init; } = new(); public List<string> RestrictedFactions { get; init; } = new();
+    public List<string> RestrictedSizes { get; init; } = new(); public bool IsLimited { get; init; } public bool IsSquadLimited { get; init; }
+    public List<UpgradeMechanicGrant> Grants { get; init; } = new();
     public string EffectTextSha256 { get; init; } = ""; public string RuntimePriority { get; init; } = "";
     public string RuntimePriorityReason { get; init; } = "";
     public List<UpgradeMechanicCategory> Categories { get; init; } = new(); public bool RequiresRuntimeReview { get; init; }
@@ -241,4 +315,8 @@ public sealed class UpgradeMechanicCategory
 public sealed class UpgradeMechanicCategorySummary
 {
     public string Id { get; init; } = ""; public string Name { get; init; } = ""; public int UpgradeCount { get; init; }
+}
+public sealed class UpgradeMechanicGrant
+{
+    public string Type { get; init; } = ""; public string Name { get; init; } = ""; public int? Value { get; init; }
 }
