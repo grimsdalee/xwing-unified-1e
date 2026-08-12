@@ -51,6 +51,7 @@ public static partial class AuditFirstEditionUpgradeMechanicsCommand
         ,Rule("dial-change", "Changes the selected dial maneuver", "rotate your dial", "corresponding bank maneuver", "reveal a turn maneuver")
         ,Rule("timing-order-change", "Changes timing or step order", "resolve the", "step after", "instead of before")
         ,Rule("direct-maneuver-action", "Executes a maneuver as an action", "action: execute", "execute a white")
+        ,Rule("reinforce-interaction", "Changes reinforce-token behaviour", "reinforce token")
     };
 
     public static int Run(string[] args)
