@@ -47,6 +47,14 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
 
             foreach (var condition in conditions)
             {
+                var canonicalCardFolder = Path.Combine(repository, "assets", "source", "unified1e",
+                    "condition-cards", condition.Xws);
+                var canonicalFacePath = Path.Combine(canonicalCardFolder, "front.png");
+                var canonicalBackPath = Path.Combine(canonicalCardFolder, "back.png");
+                condition.CanonicalRepositoryPath = Relative(repository, canonicalFacePath);
+                condition.CanonicalArtworkAvailable = File.Exists(canonicalFacePath);
+                condition.BackRepositoryPath = Relative(repository, canonicalBackPath);
+                condition.BackArtworkAvailable = File.Exists(canonicalBackPath);
                 condition.TokenExpected = true;
                 var tokenFileName = condition.Xws is "mimicked" or "shadowed"
                     ? "mimicked-shadowed.png"
@@ -108,6 +116,9 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Repository:                       {repository}");
             Console.WriteLine($"Condition cards:                  {conditions.Count}");
             Console.WriteLine($"Condition artwork available:      {conditions.Count(row => row.ArtworkAvailable)}");
+            Console.WriteLine($"Canonical condition faces:        {conditions.Count(row => row.CanonicalArtworkAvailable)}");
+            Console.WriteLine($"Individual condition backs:       {conditions.Count(row => row.BackArtworkAvailable)}");
+            Console.WriteLine($"Complete condition card pairs:    {conditions.Count(row => row.CanonicalArtworkAvailable && row.BackArtworkAvailable)}");
             var physicalTokenPaths = conditions.Where(row => row.TokenExpected)
                 .Select(row => row.TokenRepositoryPath)
                 .Distinct(StringComparer.OrdinalIgnoreCase)
@@ -404,6 +415,8 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
         {
             "# Phase 16 First Edition Card and Token Asset Audit", "",
             $"- Condition cards: **{audit.Conditions.Count}**",
+            $"- Canonical condition faces: **{audit.Conditions.Count(row => row.CanonicalArtworkAvailable)}/{audit.Conditions.Count} available**",
+            $"- Individual condition backs: **{audit.Conditions.Count(row => row.BackArtworkAvailable)}/{audit.Conditions.Count} available**",
             $"- Upgrade cards: **{audit.Upgrades.Count}**",
             $"- Upgrade-card backs: **{audit.UpgradeCardBacks.Count(row => row.ArtworkAvailable)}/{audit.UpgradeCardBacks.Count} available**",
             $"- Damage-deck sets present: **{audit.DamageDecks.Count}**",
@@ -429,6 +442,11 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
                 (card.ArtworkAvailable ? "available" : $"missing (`{card.ExpectedFileName}`)")));
             lines.Add("");
         }
+        lines.AddRange(new[] { "", "## Condition cards", "" });
+        lines.AddRange(audit.Conditions.Select(row =>
+            $"- {row.Name}: face={(row.CanonicalArtworkAvailable ? "available" : "missing")}" +
+            $" (`{row.CanonicalRepositoryPath}`), back={(row.BackArtworkAvailable ? "available" : "missing")}" +
+            $" (`{row.BackRepositoryPath}`)"));
         lines.AddRange(new[] { "", "## Condition token evidence", "" });
         lines.AddRange(audit.Conditions.Select(row =>
             $"- {row.Name}: expected={row.TokenExpected}, imported={row.TokenArtworkAvailable}" +
@@ -541,6 +559,10 @@ public sealed class CardAssetAuditRow
     public string Image { get; init; } = "";
     public string RepositoryPath { get; init; } = "";
     public bool ArtworkAvailable { get; init; }
+    public string CanonicalRepositoryPath { get; set; } = "";
+    public bool CanonicalArtworkAvailable { get; set; }
+    public string BackRepositoryPath { get; set; } = "";
+    public bool BackArtworkAvailable { get; set; }
     public bool TokenExpected { get; set; }
     public bool TokenArtworkAvailable { get; set; }
     public string TokenRepositoryPath { get; set; } = "";

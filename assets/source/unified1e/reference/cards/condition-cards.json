@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-08-12T00:40:31.284547+00:00",
+  "faceSourceFolder": "assets/source/xwing-data/images/conditions",
+  "backSourceFolder": "assets/source/xwing-data/images/condition-backs",
+  "destinationFolder": "assets/source/unified1e/condition-cards",
+  "conditionCardCount": 10,
+  "conditionCards": [
+    {
+      "name": "A Debt to Pay",
+      "xws": "adebttopay",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/a-debt-to-pay.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/a-debt-to-pay-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/adebttopay/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/adebttopay/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "63661BC7638002DAA7E2267CF8B9CDA7289929CFA71B2D51853BC1A3150842A5"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "313629D78A056753439F575D94FD20C848BF9CE98C54EB1C1EBD6EF34907FB78"
+      }
+    },
+    {
+      "name": "Fanatical Devotion",
+      "xws": "fanaticaldevotion",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/fanatical-devotion.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/fanatical-devotion-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "70F1AEF7A909582772B8F24131D24EE990164F7FBEF56D67248C5A496D152968"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "B52BF37E435694B5218D3D0990EE63E9AC6CBE0BF5DF017ED450678B7AADC516"
+      }
+    },
+    {
+      "name": "Harpooned!",
+      "xws": "harpooned",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/harpooned.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/harpooned-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/harpooned/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/harpooned/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "135597276947DE1D0ED39DEFC3EC893F7317DE65339B93B559A939610A9F469B"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "8C3C400B2411DDA6875A2DB065774562539227E0BF63BEEE6936EC9AE8F860AD"
+      }
+    },
+    {
+      "name": "I\u0027ll Show You the Dark Side",
+      "xws": "illshowyouthedarkside",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/ill-show-you-the-dark-side.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/ill-show-you-the-dark-side-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "C4407366D99BE3E45A52A23C077D39D0F0A75FA19974D3F825CACEC1514C961C"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "67160EB5843CEB91E416424023E92CCE68551A0454AFCAEBC1685E14AED949DE"
+      }
+    },
+    {
+      "name": "Mimicked",
+      "xws": "mimicked",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/mimicked.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/mimicked-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/mimicked/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/mimicked/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "41606D58F2F3B0A09A16308F6FC416CFDE5A435875682F4A2399893011821BD9"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "1257833CDF844DD68A971CA6A958C0C83F8F46E7D15ED53899D8425E0C8C686C"
+      }
+    },
+    {
+      "name": "Optimized Prototype",
+      "xws": "optimizedprototype",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/optimized-prototype.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/optimizedprototype-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "5EA18AB1FA8530C787372D8585D42A2BE98D029DFB64CBBD0EFB4AB93F5AE543"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "ECD924EEAF57080DFB8F0FD4288838CDCD258B20E6C5D39D2D54D9350810698C"
+      }
+    },
+    {
+      "name": "Rattled",
+      "xws": "rattled",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/rattled.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/rattled-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/rattled/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/rattled/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "AC6861436B4378105ABB6D02CCBF1C06446780939C5470F5E3CAB678A7CD39CA"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "E84ACFDE1EE63040167ACF01AE431F8185332A45826506C0B326787E0B5FD0A7"
+      }
+    },
+    {
+      "name": "Scrambled",
+      "xws": "scrambled",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/scrambled.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/scrambled-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/scrambled/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/scrambled/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "5DFDB664F8F01BC1C07851AD73D63CFA5DDCBF0B5B69DE11ADDDD9BA093996E9"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "88E31819D05F342557650512DEC75E1B8B805A2B6C558320C10A2BFADCE800B1"
+      }
+    },
+    {
+      "name": "Shadowed",
+      "xws": "shadowed",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/shadowed.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/shadowed-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/shadowed/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/shadowed/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "74A22A448ECA6DA2CAEEF9A7082F2C5356E132CF0E6A06227D32209FB538EB32"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "1257833CDF844DD68A971CA6A958C0C83F8F46E7D15ED53899D8425E0C8C686C"
+      }
+    },
+    {
+      "name": "Suppressive Fire",
+      "xws": "suppressivefire",
+      "sourceFaceRepositoryPath": "assets/source/xwing-data/images/conditions/suppressive-fire.png",
+      "sourceBackRepositoryPath": "assets/source/xwing-data/images/condition-backs/suppressive-fire-back.png",
+      "faceRepositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+      "backRepositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/back.png",
+      "face": {
+        "width": 196,
+        "height": 300,
+        "sha256": "A27C3E346E426FFB32F6A21645B55D7E436662372423100748CC3D625BDB5DB9"
+      },
+      "back": {
+        "width": 196,
+        "height": 300,
+        "sha256": "BF21824B93FE97D9C68E0210FC058B0250075A7EB1C72DD597F973E8429335F6"
+      }
+    }
+  ]
+}
