@@ -1,16 +1,19 @@
 {
-  "schemaVersion": 1,
-  "generatedUtc": "2026-08-11T18:54:14.128116+00:00",
-  "sourceFolder": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images",
+  "schemaVersion": 2,
+  "generatedUtc": "2026-08-11T22:39:31.097042+00:00",
+  "legacySourceFolder": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images",
   "destinationFolder": "assets/source/unified1e/condition-tokens",
-  "conditionsWithoutTokens": [
-    "mimicked",
-    "shadowed"
-  ],
+  "physicalTokenDesignCount": 9,
+  "conditionAssignmentCount": 10,
   "conditionTokens": [
     {
-      "conditionXws": "adebttopay",
-      "conditionName": "A Debt to Pay",
+      "tokenId": "adebttopay",
+      "conditionXws": [
+        "adebttopay"
+      ],
+      "conditionNames": [
+        "A Debt to Pay"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c9e9b25fc855a14f.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/adebttopay.png",
       "width": 512,
@@ -19,8 +22,13 @@
       "notes": ""
     },
     {
-      "conditionXws": "fanaticaldevotion",
-      "conditionName": "Fanatical Devotion",
+      "tokenId": "fanaticaldevotion",
+      "conditionXws": [
+        "fanaticaldevotion"
+      ],
+      "conditionNames": [
+        "Fanatical Devotion"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0ef5a15271cc4f21.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/fanaticaldevotion.png",
       "width": 512,
@@ -29,18 +37,28 @@
       "notes": ""
     },
     {
-      "conditionXws": "harpooned",
-      "conditionName": "Harpooned!",
-      "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__399275f5fcdcebeb.png",
+      "tokenId": "harpooned",
+      "conditionXws": [
+        "harpooned"
+      ],
+      "conditionNames": [
+        "Harpooned!"
+      ],
+      "sourceRepositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
       "width": 512,
       "height": 512,
-      "sha256": "ADD6D99B26964A266F9BF10B509DD0F3FEAF4C75B2B0F637087044BAD644EB05",
-      "notes": ""
+      "sha256": "9411D9F3D279CBFF91BDC0C2510DF8131CCEC5C7F10F0471B79B96A027B56FE2",
+      "notes": "Curated from the improved First Edition VASSAL condition-token artwork; the malformed legacy texture must not overwrite it."
     },
     {
-      "conditionXws": "illshowyouthedarkside",
-      "conditionName": "I\u0027ll Show You the Dark Side",
+      "tokenId": "illshowyouthedarkside",
+      "conditionXws": [
+        "illshowyouthedarkside"
+      ],
+      "conditionNames": [
+        "I\u0027ll Show You the Dark Side"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__36420c92f33a82c0.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png",
       "width": 512,
@@ -49,8 +67,30 @@
       "notes": ""
     },
     {
-      "conditionXws": "optimizedprototype",
-      "conditionName": "Optimized Prototype",
+      "tokenId": "mimicked-shadowed",
+      "conditionXws": [
+        "mimicked",
+        "shadowed"
+      ],
+      "conditionNames": [
+        "Mimicked",
+        "Shadowed"
+      ],
+      "sourceRepositoryPath": "assets/source/unified1e/condition-tokens/mimicked-shadowed.png",
+      "repositoryPath": "assets/source/unified1e/condition-tokens/mimicked-shadowed.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "D4D4A052EDAECD9448D7EC66518938E8ECBA2D6EE1C5DA93F75F0261AC5A6214",
+      "notes": "One physical token design shared by the Mimicked and Shadowed conditions; recovered from the First Edition VASSAL module."
+    },
+    {
+      "tokenId": "optimizedprototype",
+      "conditionXws": [
+        "optimizedprototype"
+      ],
+      "conditionNames": [
+        "Optimized Prototype"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__9b7f22b50c31355a.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/optimizedprototype.png",
       "width": 512,
@@ -59,8 +99,13 @@
       "notes": ""
     },
     {
-      "conditionXws": "rattled",
-      "conditionName": "Rattled",
+      "tokenId": "rattled",
+      "conditionXws": [
+        "rattled"
+      ],
+      "conditionNames": [
+        "Rattled"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__b250524ab77cdaf4.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/rattled.png",
       "width": 512,
@@ -69,8 +114,13 @@
       "notes": ""
     },
     {
-      "conditionXws": "scrambled",
-      "conditionName": "Scrambled",
+      "tokenId": "scrambled",
+      "conditionXws": [
+        "scrambled"
+      ],
+      "conditionNames": [
+        "Scrambled"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__d0868e4f0015a93a.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/scrambled.png",
       "width": 512,
@@ -79,8 +129,13 @@
       "notes": ""
     },
     {
-      "conditionXws": "suppressivefire",
-      "conditionName": "Suppressive Fire",
+      "tokenId": "suppressivefire",
+      "conditionXws": [
+        "suppressivefire"
+      ],
+      "conditionNames": [
+        "Suppressive Fire"
+      ],
       "sourceRepositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__834657a2f3841e6b.png",
       "repositoryPath": "assets/source/unified1e/condition-tokens/suppressivefire.png",
       "width": 512,

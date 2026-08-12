@@ -47,9 +47,12 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
 
             foreach (var condition in conditions)
             {
-                condition.TokenExpected = condition.Xws is not ("mimicked" or "shadowed");
+                condition.TokenExpected = true;
+                var tokenFileName = condition.Xws is "mimicked" or "shadowed"
+                    ? "mimicked-shadowed.png"
+                    : $"{condition.Xws}.png";
                 var canonicalTokenPath = Path.Combine(repository, "assets", "source", "unified1e",
-                    "condition-tokens", $"{condition.Xws}.png");
+                    "condition-tokens", tokenFileName);
                 condition.TokenRepositoryPath = Relative(repository, canonicalTokenPath);
                 condition.TokenArtworkAvailable = File.Exists(canonicalTokenPath);
                 condition.LegacyTokenCandidates = candidates
@@ -105,9 +108,19 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Repository:                       {repository}");
             Console.WriteLine($"Condition cards:                  {conditions.Count}");
             Console.WriteLine($"Condition artwork available:      {conditions.Count(row => row.ArtworkAvailable)}");
-            Console.WriteLine($"Conditions with token candidates: {conditions.Count(row => row.LegacyTokenCandidates.Count > 0)}");
-            Console.WriteLine($"Conditions requiring tokens:      {conditions.Count(row => row.TokenExpected)}");
-            Console.WriteLine($"Condition tokens available:       {conditions.Count(row => row.TokenArtworkAvailable)}");
+            var physicalTokenPaths = conditions.Where(row => row.TokenExpected)
+                .Select(row => row.TokenRepositoryPath)
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .ToList();
+            var availablePhysicalTokenPaths = conditions.Where(row => row.TokenArtworkAvailable)
+                .Select(row => row.TokenRepositoryPath)
+                .Distinct(StringComparer.OrdinalIgnoreCase)
+                .ToList();
+            Console.WriteLine($"Conditions with legacy candidates: {conditions.Count(row => row.LegacyTokenCandidates.Count > 0)}");
+            Console.WriteLine($"Condition cards requiring tokens:  {conditions.Count(row => row.TokenExpected)}");
+            Console.WriteLine($"Condition assignments available:   {conditions.Count(row => row.TokenArtworkAvailable)}");
+            Console.WriteLine($"Physical token designs expected:   {physicalTokenPaths.Count}");
+            Console.WriteLine($"Physical token designs available:  {availablePhysicalTokenPaths.Count}");
             Console.WriteLine($"Upgrade cards:                    {upgrades.Count}");
             Console.WriteLine($"Upgrade artwork available:        {upgrades.Count(row => row.ArtworkAvailable)}");
             Console.WriteLine($"Upgrade-card back types expected: {upgradeCardBacks.Count}");
@@ -419,7 +432,7 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
         lines.AddRange(new[] { "", "## Condition token evidence", "" });
         lines.AddRange(audit.Conditions.Select(row =>
             $"- {row.Name}: expected={row.TokenExpected}, imported={row.TokenArtworkAvailable}" +
-            (row.TokenExpected ? $", canonical=`{row.TokenRepositoryPath}`" : ", no separate physical token") +
+            $", canonical=`{row.TokenRepositoryPath}`" +
             $", legacy evidence={(row.LegacyTokenCandidates.Count == 0 ? "none identified" : string.Join(", ", row.LegacyTokenCandidates))}"));
         lines.AddRange(new[] { "", "Candidates require visual and runtime validation before canonical import." });
         File.WriteAllLines(path, lines, new UTF8Encoding(false));

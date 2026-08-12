@@ -5,20 +5,29 @@ using System.Text.Json;
 
 namespace UnifiedToolkit.Commands;
 
-/// <summary>Imports the eight First Edition condition-token textures identified in the legacy runtime save.</summary>
+/// <summary>Imports and catalogues the nine physical First Edition condition-token designs.</summary>
 public static class ImportFirstEditionConditionTokensCommand
 {
-    private static readonly ConditionTokenSource[] TokenSources =
+    private static readonly LegacyConditionTokenSource[] LegacyTokenSources =
     {
-        Token("adebttopay", "A Debt to Pay", "asset__c9e9b25fc855a14f.png"),
-        Token("fanaticaldevotion", "Fanatical Devotion", "asset__0ef5a15271cc4f21.png"),
-        Token("harpooned", "Harpooned!", "asset__399275f5fcdcebeb.png"),
-        Token("illshowyouthedarkside", "I'll Show You the Dark Side", "asset__36420c92f33a82c0.png"),
-        Token("optimizedprototype", "Optimized Prototype", "asset__9b7f22b50c31355a.png"),
-        Token("rattled", "Rattled", "asset__b250524ab77cdaf4.png"),
-        Token("scrambled", "Scrambled", "asset__d0868e4f0015a93a.png"),
-        Token("suppressivefire", "Suppressive Fire", "asset__834657a2f3841e6b.png",
+        LegacyToken("adebttopay", "A Debt to Pay", "asset__c9e9b25fc855a14f.png"),
+        LegacyToken("fanaticaldevotion", "Fanatical Devotion", "asset__0ef5a15271cc4f21.png"),
+        LegacyToken("illshowyouthedarkside", "I'll Show You the Dark Side", "asset__36420c92f33a82c0.png"),
+        LegacyToken("optimizedprototype", "Optimized Prototype", "asset__9b7f22b50c31355a.png"),
+        LegacyToken("rattled", "Rattled", "asset__b250524ab77cdaf4.png"),
+        LegacyToken("scrambled", "Scrambled", "asset__d0868e4f0015a93a.png"),
+        LegacyToken("suppressivefire", "Suppressive Fire", "asset__834657a2f3841e6b.png",
             "Legacy runtime object is misspelled 'Suppresive Fire'; canonical spelling retained here.")
+    };
+
+    private static readonly CuratedConditionTokenSource[] CuratedTokenSources =
+    {
+        CuratedToken("harpooned", "harpooned.png",
+            new[] { "harpooned" }, new[] { "Harpooned!" },
+            "Curated from the improved First Edition VASSAL condition-token artwork; the malformed legacy texture must not overwrite it."),
+        CuratedToken("mimicked-shadowed", "mimicked-shadowed.png",
+            new[] { "mimicked", "shadowed" }, new[] { "Mimicked", "Shadowed" },
+            "One physical token design shared by the Mimicked and Shadowed conditions; recovered from the First Edition VASSAL module.")
     };
 
     private static readonly JsonSerializerOptions JsonOptions = new()
@@ -53,14 +62,15 @@ public static class ImportFirstEditionConditionTokensCommand
 
             var imported = 0;
             var unchanged = 0;
+            var curatedRetained = 0;
             var entries = new List<ConditionTokenManifestEntry>();
-            foreach (var token in TokenSources.OrderBy(item => item.ConditionName, StringComparer.OrdinalIgnoreCase))
+
+            foreach (var token in LegacyTokenSources.OrderBy(item => item.ConditionName, StringComparer.OrdinalIgnoreCase))
             {
                 var sourcePath = Path.Combine(source, token.SourceFileName);
                 RequireFile(sourcePath, $"{token.ConditionName} token texture");
                 var destinationPath = Path.Combine(destination, $"{token.ConditionXws}.png");
                 var bytes = File.ReadAllBytes(sourcePath);
-                var (width, height) = ReadPngDimensions(bytes, sourcePath);
                 var changed = !File.Exists(destinationPath)
                     || !bytes.AsSpan().SequenceEqual(File.ReadAllBytes(destinationPath));
 
@@ -74,27 +84,44 @@ public static class ImportFirstEditionConditionTokensCommand
                     unchanged++;
                 }
 
-                entries.Add(new ConditionTokenManifestEntry
-                {
-                    ConditionXws = token.ConditionXws,
-                    ConditionName = token.ConditionName,
-                    SourceRepositoryPath = Relative(repository, sourcePath),
-                    RepositoryPath = Relative(repository, destinationPath),
-                    Width = width,
-                    Height = height,
-                    Sha256 = Convert.ToHexString(SHA256.HashData(bytes)),
-                    Notes = token.Notes
-                });
+                entries.Add(ManifestEntry(
+                    token.ConditionXws,
+                    new[] { token.ConditionXws },
+                    new[] { token.ConditionName },
+                    sourcePath,
+                    destinationPath,
+                    bytes,
+                    repository,
+                    token.Notes));
             }
 
+            foreach (var token in CuratedTokenSources.OrderBy(item => item.TokenId, StringComparer.OrdinalIgnoreCase))
+            {
+                var path = Path.Combine(destination, token.FileName);
+                RequireFile(path, $"{string.Join("/", token.ConditionNames)} curated token texture");
+                var bytes = File.ReadAllBytes(path);
+                entries.Add(ManifestEntry(
+                    token.TokenId,
+                    token.ConditionXws,
+                    token.ConditionNames,
+                    path,
+                    path,
+                    bytes,
+                    repository,
+                    token.Notes));
+                curatedRetained++;
+            }
+
+            var conditionAssignments = entries.Sum(entry => entry.ConditionXws.Count);
             var manifest = new ConditionTokenManifest
             {
-                SchemaVersion = 1,
+                SchemaVersion = 2,
                 GeneratedUtc = DateTimeOffset.UtcNow,
-                SourceFolder = Relative(repository, source),
+                LegacySourceFolder = Relative(repository, source),
                 DestinationFolder = Relative(repository, destination),
-                ConditionsWithoutTokens = new List<string> { "mimicked", "shadowed" },
-                ConditionTokens = entries
+                PhysicalTokenDesignCount = entries.Count,
+                ConditionAssignmentCount = conditionAssignments,
+                ConditionTokens = entries.OrderBy(entry => entry.TokenId, StringComparer.OrdinalIgnoreCase).ToList()
             };
             Directory.CreateDirectory(Path.GetDirectoryName(manifestPath)!);
             File.WriteAllText(manifestPath, JsonSerializer.Serialize(manifest, JsonOptions), new UTF8Encoding(false));
@@ -102,16 +129,18 @@ public static class ImportFirstEditionConditionTokensCommand
             Console.WriteLine("UnifiedToolkit First Edition Condition-Token Import");
             Console.WriteLine("===================================================");
             Console.WriteLine();
-            Console.WriteLine($"Repository:                {repository}");
-            Console.WriteLine($"Source:                    {source}");
-            Console.WriteLine($"Destination:               {destination}");
-            Console.WriteLine($"Conditions requiring token: {entries.Count}");
-            Console.WriteLine($"Imported or updated:       {imported}");
-            Console.WriteLine($"Unchanged:                 {unchanged}");
-            Console.WriteLine($"Conditions without tokens: {string.Join(", ", manifest.ConditionsWithoutTokens)}");
-            Console.WriteLine($"Manifest:                  {manifestPath}");
+            Console.WriteLine($"Repository:                 {repository}");
+            Console.WriteLine($"Legacy source:              {source}");
+            Console.WriteLine($"Destination:                {destination}");
+            Console.WriteLine($"Condition cards assigned:   {conditionAssignments}");
+            Console.WriteLine($"Physical token designs:     {entries.Count}");
+            Console.WriteLine($"Imported or updated:        {imported}");
+            Console.WriteLine($"Unchanged legacy imports:   {unchanged}");
+            Console.WriteLine($"Curated textures preserved: {curatedRetained}");
+            Console.WriteLine($"Manifest:                   {manifestPath}");
             Console.WriteLine();
-            Console.WriteLine("Condition-token textures imported successfully. PNG files were copied byte-for-byte.");
+            Console.WriteLine("Condition-token artwork imported and catalogued successfully.");
+            Console.WriteLine("The curated Harpooned and Mimicked/Shadowed textures were validated but not overwritten.");
             Console.WriteLine("The unavailable shared legacy token mesh is intentionally not imported by this command.");
             return 0;
         }
@@ -122,9 +151,38 @@ public static class ImportFirstEditionConditionTokensCommand
         }
     }
 
-    private static ConditionTokenSource Token(
+    private static ConditionTokenManifestEntry ManifestEntry(
+        string tokenId,
+        IEnumerable<string> conditionXws,
+        IEnumerable<string> conditionNames,
+        string sourcePath,
+        string destinationPath,
+        byte[] bytes,
+        string repository,
+        string notes)
+    {
+        var (width, height) = ReadPngDimensions(bytes, destinationPath);
+        return new ConditionTokenManifestEntry
+        {
+            TokenId = tokenId,
+            ConditionXws = conditionXws.ToList(),
+            ConditionNames = conditionNames.ToList(),
+            SourceRepositoryPath = Relative(repository, sourcePath),
+            RepositoryPath = Relative(repository, destinationPath),
+            Width = width,
+            Height = height,
+            Sha256 = Convert.ToHexString(SHA256.HashData(bytes)),
+            Notes = notes
+        };
+    }
+
+    private static LegacyConditionTokenSource LegacyToken(
         string xws, string name, string sourceFileName, string notes = "") =>
         new(xws, name, sourceFileName, notes);
+
+    private static CuratedConditionTokenSource CuratedToken(
+        string tokenId, string fileName, string[] xws, string[] names, string notes) =>
+        new(tokenId, fileName, xws, names, notes);
 
     private static (int Width, int Height) ReadPngDimensions(byte[] bytes, string path)
     {
@@ -163,24 +221,29 @@ public static class ImportFirstEditionConditionTokensCommand
         "Usage: UnifiedToolkit import-first-edition-condition-tokens <repository> " +
         "[--source <folder>] [--destination <folder>] [--manifest <file>]");
 
-    private sealed record ConditionTokenSource(
+    private sealed record LegacyConditionTokenSource(
         string ConditionXws, string ConditionName, string SourceFileName, string Notes);
+
+    private sealed record CuratedConditionTokenSource(
+        string TokenId, string FileName, string[] ConditionXws, string[] ConditionNames, string Notes);
 }
 
 public sealed class ConditionTokenManifest
 {
     public int SchemaVersion { get; init; }
     public DateTimeOffset GeneratedUtc { get; init; }
-    public string SourceFolder { get; init; } = "";
+    public string LegacySourceFolder { get; init; } = "";
     public string DestinationFolder { get; init; } = "";
-    public List<string> ConditionsWithoutTokens { get; init; } = new();
+    public int PhysicalTokenDesignCount { get; init; }
+    public int ConditionAssignmentCount { get; init; }
     public List<ConditionTokenManifestEntry> ConditionTokens { get; init; } = new();
 }
 
 public sealed class ConditionTokenManifestEntry
 {
-    public string ConditionXws { get; init; } = "";
-    public string ConditionName { get; init; } = "";
+    public string TokenId { get; init; } = "";
+    public List<string> ConditionXws { get; init; } = new();
+    public List<string> ConditionNames { get; init; } = new();
     public string SourceRepositoryPath { get; init; } = "";
     public string RepositoryPath { get; init; } = "";
     public int Width { get; init; }
