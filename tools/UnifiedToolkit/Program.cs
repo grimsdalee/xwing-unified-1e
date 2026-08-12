@@ -93,6 +93,8 @@ return command switch
     "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
     "audit-first-edition-card-token-assets" => AuditFirstEditionCardAndTokenAssetsCommand.Run(commandArgs),
     "import-first-edition-upgrade-card-backs" => ImportFirstEditionUpgradeCardBacksCommand.Run(commandArgs),
+    "import-first-edition-upgrade-cards" => ImportFirstEditionUpgradeCardsCommand.Run(commandArgs),
+    "audit-first-edition-upgrade-mechanics" => AuditFirstEditionUpgradeMechanicsCommand.Run(commandArgs),
     "import-first-edition-condition-tokens" => ImportFirstEditionConditionTokensCommand.Run(commandArgs),
     "import-first-edition-condition-cards" => ImportFirstEditionConditionCardsCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
@@ -274,6 +276,8 @@ static void ShowHelp()
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-first-edition-card-token-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-first-edition-upgrade-card-backs <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
+    Console.WriteLine("  import-first-edition-upgrade-cards <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
+    Console.WriteLine("  audit-first-edition-upgrade-mechanics <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-first-edition-condition-tokens <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-condition-cards <first-edition-repo-folder> [--faces <folder>] [--backs <folder>] [--destination <folder>] [--manifest <file>]");
 }
