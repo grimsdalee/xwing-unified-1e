@@ -16976,6 +16976,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-D23506105CF7BF59",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-sources.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-7A0E0B5206D5F71F",
     "repositoryPath": "assets/source/unified1e/reference/cards/condition-tokens.json",
     "origin": "unified1e",

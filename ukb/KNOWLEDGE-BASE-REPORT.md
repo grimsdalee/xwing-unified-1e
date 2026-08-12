@@ -1,12 +1,12 @@
 # Unified Knowledge Base Report
 
-Generated: `2026-08-12T02:12:45.1439249+00:00`
+Generated: `2026-08-12T17:07:32.4812451+00:00`
 
 ## Assets domain
 
-- Files: **5879**
-- Unique content assets: **4957**
-- Total bytes: **2,214,054,929**
+- Files: **5880**
+- Unique content assets: **4958**
+- Total bytes: **2,214,064,560**
 - Duplicate files: **922**
 - Unavailable source references: **566**
 
@@ -19,7 +19,7 @@ Generated: `2026-08-12T02:12:45.1439249+00:00`
 - generated-pilot-tokens: 8
 - legacy1e: 379
 - legacy1e-non-pilot: 418
-- unified1e: 1607
+- unified1e: 1608
 - unified25: 2381
 - xwing-data: 457
 
@@ -28,7 +28,7 @@ Generated: `2026-08-12T02:12:45.1439249+00:00`
 - image: 4757
 - model: 713
 - lua: 229
-- json: 128
+- json: 129
 - other: 29
 - xml: 15
 - text: 5

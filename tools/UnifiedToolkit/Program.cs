@@ -97,6 +97,7 @@ return command switch
     "audit-first-edition-upgrade-mechanics" => AuditFirstEditionUpgradeMechanicsCommand.Run(commandArgs),
     "import-first-edition-condition-tokens" => ImportFirstEditionConditionTokensCommand.Run(commandArgs),
     "import-first-edition-condition-cards" => ImportFirstEditionConditionCardsCommand.Run(commandArgs),
+    "build-first-edition-condition-sources" => BuildFirstEditionConditionSourcesCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -280,6 +281,7 @@ static void ShowHelp()
     Console.WriteLine("  audit-first-edition-upgrade-mechanics <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  import-first-edition-condition-tokens <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-condition-cards <first-edition-repo-folder> [--faces <folder>] [--backs <folder>] [--destination <folder>] [--manifest <file>]");
+    Console.WriteLine("  build-first-edition-condition-sources <first-edition-repo-folder> [--output <file>]");
 }
 
 static int UnknownCommand(string command)

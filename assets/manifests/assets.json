@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-12T02:12:44.6782404+00:00",
+  "generatedUtc": "2026-08-12T17:07:32.0645604+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 5879,
-  "uniqueAssets": 4957,
+  "totalFiles": 5880,
+  "uniqueAssets": 4958,
   "duplicateFiles": 922,
   "assets": [
     {
@@ -25470,6 +25470,18 @@
       "sizeBytes": 8299,
       "sha256": "1bf09811a8fa9cfc1042b5cfeb6e10feaca6b13817729ed7188c413860eb547e",
       "lastWriteTimeUtc": "2026-08-12T00:40:31.3346124Z"
+    },
+    {
+      "assetId": "AST-D23506105CF7BF59",
+      "repositoryPath": "assets/source/unified1e/reference/cards/condition-sources.json",
+      "fileName": "condition-sources.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 9631,
+      "sha256": "d23506105cf7bf595bb2c98e0c872d46746607e255cb1b5def964a4b829b68ad",
+      "lastWriteTimeUtc": "2026-08-12T17:07:15.3048426Z"
     },
     {
       "assetId": "AST-7A0E0B5206D5F71F",

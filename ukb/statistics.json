@@ -1,7 +1,7 @@
 {
-  "fileCount": 5879,
-  "uniqueAssetCount": 4957,
-  "totalBytes": 2214054929,
+  "fileCount": 5880,
+  "uniqueAssetCount": 4958,
+  "totalBytes": 2214064560,
   "duplicateFileCount": 922,
   "unavailableSourceCount": 566,
   "byWarehouse": {
@@ -12,7 +12,7 @@
     "generated-pilot-tokens": 8,
     "legacy1e-non-pilot": 418,
     "legacy1e": 379,
-    "unified1e": 1607,
+    "unified1e": 1608,
     "unified25": 2381,
     "xwing-data": 457
   },
@@ -21,7 +21,7 @@
     "model": 713,
     "lua": 229,
     "xml": 15,
-    "json": 128,
+    "json": 129,
     "other": 29,
     "pdf": 3,
     "text": 5

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-12T02:12:45.1439249+00:00",
+  "generatedUtc": "2026-08-12T17:07:32.4812451+00:00",
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -36500,6 +36500,21 @@
       "warehouse": "unified1e",
       "isGenerated": false,
       "sizeBytes": 8299,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D23506105CF7BF59",
+      "sha256": "d23506105cf7bf595bb2c98e0c872d46746607e255cb1b5def964a4b829b68ad",
+      "repositoryPath": "assets/source/unified1e/reference/cards/condition-sources.json",
+      "fileName": "condition-sources.json",
+      "extension": ".json",
+      "assetType": "json",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 9631,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],

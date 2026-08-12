@@ -12732,6 +12732,12 @@
     "sizeBytes": 8299
   },
   {
+    "assetId": "AST-D23506105CF7BF59",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-sources.json",
+    "sha256": "d23506105cf7bf595bb2c98e0c872d46746607e255cb1b5def964a4b829b68ad",
+    "sizeBytes": 9631
+  },
+  {
     "assetId": "AST-7A0E0B5206D5F71F",
     "repositoryPath": "assets/source/unified1e/reference/cards/condition-tokens.json",
     "sha256": "7a0e0b5206d5f71ffeb74385ca35faf79eb40c041f77a8a47ea025dca0d8497d",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-12T02:12:45.1439249+00:00",
+  "generatedUtc": "2026-08-12T17:07:32.4812451+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -36502,6 +36502,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 8299,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-D23506105CF7BF59",
+        "sha256": "d23506105cf7bf595bb2c98e0c872d46746607e255cb1b5def964a4b829b68ad",
+        "repositoryPath": "assets/source/unified1e/reference/cards/condition-sources.json",
+        "fileName": "condition-sources.json",
+        "extension": ".json",
+        "assetType": "json",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 9631,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -136655,9 +136670,9 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5879,
-    "uniqueAssetCount": 4957,
-    "totalBytes": 2214054929,
+    "fileCount": 5880,
+    "uniqueAssetCount": 4958,
+    "totalBytes": 2214064560,
     "duplicateFileCount": 922,
     "unavailableSourceCount": 566,
     "byWarehouse": {
@@ -136668,7 +136683,7 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified1e": 1607,
+      "unified1e": 1608,
       "unified25": 2381,
       "xwing-data": 457
     },
@@ -136677,7 +136692,7 @@
       "model": 713,
       "lua": 229,
       "xml": 15,
-      "json": 128,
+      "json": 129,
       "other": 29,
       "pdf": 3,
       "text": 5
