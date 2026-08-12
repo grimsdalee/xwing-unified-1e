@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-11T17:52:12.7687851+00:00",
+  "generatedUtc": "2026-08-12T00:46:23.9133086+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -27073,6 +27073,441 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-313629D78A056753",
+        "sha256": "313629d78a056753439f575d94fd20c848bf9ce98c54eb1c1ebd6ef34907fb78",
+        "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 121482,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-63661BC7638002DA",
+        "sha256": "63661bc7638002daa7e2267cf8b9cda7289929cfa71b2d51853bc1a3150842a5",
+        "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 34887,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-95C500AEAB500159",
+        "sha256": "95c500aeab500159e6ab59e57be6f30c2048e5930ad94249b1d2e1b2df7cc036",
+        "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 130412,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-70F1AEF7A9095827",
+        "sha256": "70f1aef7a909582772b8f24131d24ee990164f7fbef56d67248c5a496d152968",
+        "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 38108,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-8C3C400B2411DDA6",
+        "sha256": "8c3c400b2411dda6875a2db065774562539227e0bf63beee6936ec9ae8f860ad",
+        "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 117694,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-135597276947DE1D",
+        "sha256": "135597276947de1d0ed39defc3ec893f7317de65339b93b559a939610a9f469b",
+        "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 37980,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-67160EB5843CEB91",
+        "sha256": "67160eb5843ceb91e416424023e92cce68551a0454afcaebc1685e14aed949de",
+        "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 116270,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-C4407366D99BE3E4",
+        "sha256": "c4407366d99be3e45a52a23c077d39d0f0a75fa19974d3f825cacec1514c961c",
+        "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 37497,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1257833CDF844DD6",
+        "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+        "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 121668,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-41606D58F2F3B0A0",
+        "sha256": "41606d58f2f3b0a09a16308f6fc416cfde5a435875682f4a2399893011821bd9",
+        "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 36957,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-ECD924EEAF57080D",
+        "sha256": "ecd924eeaf57080dfb8f0fd4288838cdcd258b20e6c5d39d2d54d9350810698c",
+        "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 118833,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-5EA18AB1FA8530C7",
+        "sha256": "5ea18ab1fa8530c787372d8585d42a2be98d029dfb64cbbd0efb4ab93f5ae543",
+        "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 114877,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-E84ACFDE1EE63040",
+        "sha256": "e84acfde1ee63040167acf01ae431f8185332a45826506c0b326787e0b5fd0a7",
+        "repositoryPath": "assets/source/unified1e/condition-cards/rattled/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 120385,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-AC6861436B437810",
+        "sha256": "ac6861436b4378105abb6d02ccbf1c06446780939c5470f5e3cab678a7cd39ca",
+        "repositoryPath": "assets/source/unified1e/condition-cards/rattled/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 116917,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-88E31819D05F3425",
+        "sha256": "88e31819d05f342557650512dec75e1b8b805a2b6c558320c10a2bfadce800b1",
+        "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 116625,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-5DFDB664F8F01BC1",
+        "sha256": "5dfdb664f8f01bc1c07851ad73d63cfa5ddcbf0b5b69de11adddd9ba093996e9",
+        "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 105821,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1257833CDF844DD6",
+        "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+        "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 121668,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-74A22A448ECA6DA2",
+        "sha256": "74a22a448eca6da2caeef9a7082f2c5356e132cf0e6a06227d32209fb538eb32",
+        "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 36601,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-BF21824B93FE97D9",
+        "sha256": "bf21824b93fe97d9c68e0210fc058b0250075a7eb1c72dd597f973e8429335f6",
+        "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/back.png",
+        "fileName": "back.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 120869,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-A27C3E346E426FFB",
+        "sha256": "a27c3e346e426ffb32f6a21645b55d7e436662372423100748cc3d625bdb5db9",
+        "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+        "fileName": "front.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 36209,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-45A8FBF5AC1006AA",
+        "sha256": "45a8fbf5ac1006aa49e5c91a7ea988ac9b072575f592695c9f2db64c7e982f53",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/adebttopay.png",
+        "fileName": "adebttopay.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 229303,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-2166F3C913000C32",
+        "sha256": "2166f3c913000c3226478c7ba6080813121e2d061aebf35fee45f2dcffacb0f3",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/fanaticaldevotion.png",
+        "fileName": "fanaticaldevotion.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 116417,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-04FFCDFC8276A4BE",
+        "sha256": "04ffcdfc8276a4bec4c08474e00c9d4e167b5466cf23154efd3233f6d4f118ac",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
+        "fileName": "harpooned.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 170699,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-A4F01DC8E009E1B4",
+        "sha256": "a4f01dc8e009e1b45283e7f38030438a03879d720aa17e17753e2bb7347c83d0",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png",
+        "fileName": "illshowyouthedarkside.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 160815,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-F06156761D8F295E",
+        "sha256": "f06156761d8f295eae8bcd04a7b600c464a9ab926a44972f604a23ef76c5b373",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/mimicked-shadowed.png",
+        "fileName": "mimicked-shadowed.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 218399,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-FC696D49EBB264F1",
+        "sha256": "fc696d49ebb264f1aa0fb586543d848f85d2dcf02bdbb4013d0147cfc80a37cc",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/optimizedprototype.png",
+        "fileName": "optimizedprototype.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 141823,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-51ABB5D27A6FCFA7",
+        "sha256": "51abb5d27a6fcfa7810817884b9cba4198d59e266d7f2d43e125fd649f25e1dd",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/rattled.png",
+        "fileName": "rattled.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 194724,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-11764419708BEAA1",
+        "sha256": "11764419708beaa12a9f73091d7cb7f5959c3f3e5c6d08eb7be209686d99ed27",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/scrambled.png",
+        "fileName": "scrambled.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 158847,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-62BDB44775B7044D",
+        "sha256": "62bdb44775b7044d66a2869281ef663a988d4ee0fddb25ffd2c998565f3cdf75",
+        "repositoryPath": "assets/source/unified1e/condition-tokens/suppressivefire.png",
+        "fileName": "suppressivefire.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 248153,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-03F286F537575D8E",
         "sha256": "03f286f537575d8e04cce03d2633782a70562c5a7d63a434f0ea188a589863ec",
         "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
@@ -36052,6 +36487,36 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 259735,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1BF09811A8FA9CFC",
+        "sha256": "1bf09811a8fa9cfc1042b5cfeb6e10feaca6b13817729ed7188c413860eb547e",
+        "repositoryPath": "assets/source/unified1e/reference/cards/condition-cards.json",
+        "fileName": "condition-cards.json",
+        "extension": ".json",
+        "assetType": "json",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 8299,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-7A0E0B5206D5F71F",
+        "sha256": "7a0e0b5206d5f71ffeb74385ca35faf79eb40c041f77a8a47ea025dca0d8497d",
+        "repositoryPath": "assets/source/unified1e/reference/cards/condition-tokens.json",
+        "fileName": "condition-tokens.json",
+        "extension": ".json",
+        "assetType": "json",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 5533,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -123931,6 +124396,14 @@
         ]
       },
       {
+        "assetId": "AST-11764419708BEAA1",
+        "sha256": "11764419708beaa12a9f73091d7cb7f5959c3f3e5c6d08eb7be209686d99ed27",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__d0868e4f0015a93a.png",
+          "assets/source/unified1e/condition-tokens/scrambled.png"
+        ]
+      },
+      {
         "assetId": "AST-121212B4DCDF8E50",
         "sha256": "121212b4dcdf8e50baaee841f3d64161e60035168dc3b7781ba20e9260abef87",
         "repositoryPaths": [
@@ -123944,6 +124417,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png",
           "assets/source/unified1e/pilot-tokens/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+        ]
+      },
+      {
+        "assetId": "AST-1257833CDF844DD6",
+        "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/mimicked/back.png",
+          "assets/source/unified1e/condition-cards/shadowed/back.png"
         ]
       },
       {
@@ -123968,6 +124449,14 @@
         "repositoryPaths": [
           "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
           "assets/source/unified25/TTS_xwing/src/Dial/Menu.lua"
+        ]
+      },
+      {
+        "assetId": "AST-135597276947DE1D",
+        "sha256": "135597276947de1d0ed39defc3ec893f7317de65339b93b559a939610a9f469b",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/harpooned/front.png",
+          "assets/source/xwing-data/images/conditions/harpooned.png"
         ]
       },
       {
@@ -124184,6 +124673,14 @@
         "repositoryPaths": [
           "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
           "assets/source/unified1e/support/dial/maneuvers/rsr.png"
+        ]
+      },
+      {
+        "assetId": "AST-2166F3C913000C32",
+        "sha256": "2166f3c913000c3226478c7ba6080813121e2d061aebf35fee45f2dcffacb0f3",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0ef5a15271cc4f21.png",
+          "assets/source/unified1e/condition-tokens/fanaticaldevotion.png"
         ]
       },
       {
@@ -124659,6 +125156,14 @@
         ]
       },
       {
+        "assetId": "AST-41606D58F2F3B0A0",
+        "sha256": "41606d58f2f3b0a09a16308f6fc416cfde5a435875682f4a2399893011821bd9",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/mimicked/front.png",
+          "assets/source/xwing-data/images/conditions/mimicked.png"
+        ]
+      },
+      {
         "assetId": "AST-420E494C43A1E519",
         "sha256": "420e494c43a1e5199f5a20d7bf0cd28f69b60ba919582c5ab7a7b593274518a6",
         "repositoryPaths": [
@@ -124712,6 +125217,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png",
           "assets/source/unified1e/pilot-tokens/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png"
+        ]
+      },
+      {
+        "assetId": "AST-45A8FBF5AC1006AA",
+        "sha256": "45a8fbf5ac1006aa49e5c91a7ea988ac9b072575f592695c9f2db64c7e982f53",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c9e9b25fc855a14f.png",
+          "assets/source/unified1e/condition-tokens/adebttopay.png"
         ]
       },
       {
@@ -124963,6 +125476,14 @@
         ]
       },
       {
+        "assetId": "AST-51ABB5D27A6FCFA7",
+        "sha256": "51abb5d27a6fcfa7810817884b9cba4198d59e266d7f2d43e125fd649f25e1dd",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__b250524ab77cdaf4.png",
+          "assets/source/unified1e/condition-tokens/rattled.png"
+        ]
+      },
+      {
         "assetId": "AST-525820B4CBC3E557",
         "sha256": "525820b4cbc3e55738389f1d4a3f18ac4486fba6cf9945668745825b03e1c0bf",
         "repositoryPaths": [
@@ -125147,6 +125668,22 @@
         ]
       },
       {
+        "assetId": "AST-5DFDB664F8F01BC1",
+        "sha256": "5dfdb664f8f01bc1c07851ad73d63cfa5ddcbf0b5b69de11adddd9ba093996e9",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/scrambled/front.png",
+          "assets/source/xwing-data/images/conditions/scrambled.png"
+        ]
+      },
+      {
+        "assetId": "AST-5EA18AB1FA8530C7",
+        "sha256": "5ea18ab1fa8530c787372d8585d42a2be98d029dfb64cbbd0efb4ab93f5ae543",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+          "assets/source/xwing-data/images/conditions/optimized-prototype.png"
+        ]
+      },
+      {
         "assetId": "AST-5EAB0926CE098624",
         "sha256": "5eab0926ce0986247b6307233959cbddf0a5e0785f59653124ae6fcfaea080a2",
         "repositoryPaths": [
@@ -125203,6 +125740,14 @@
         ]
       },
       {
+        "assetId": "AST-62BDB44775B7044D",
+        "sha256": "62bdb44775b7044d66a2869281ef663a988d4ee0fddb25ffd2c998565f3cdf75",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__834657a2f3841e6b.png",
+          "assets/source/unified1e/condition-tokens/suppressivefire.png"
+        ]
+      },
+      {
         "assetId": "AST-62E6D65B9768A119",
         "sha256": "62e6d65b9768a119c9b5c139ab826ddd34b67e729d08456837d7469b8fc8a353",
         "repositoryPaths": [
@@ -125216,6 +125761,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png",
           "assets/source/unified1e/pilot-tokens/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+        ]
+      },
+      {
+        "assetId": "AST-63661BC7638002DA",
+        "sha256": "63661bc7638002daa7e2267cf8b9cda7289929cfa71b2d51853bc1a3150842a5",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/adebttopay/front.png",
+          "assets/source/xwing-data/images/conditions/a-debt-to-pay.png"
         ]
       },
       {
@@ -125491,6 +126044,14 @@
         ]
       },
       {
+        "assetId": "AST-70F1AEF7A9095827",
+        "sha256": "70f1aef7a909582772b8f24131d24ee990164f7fbef56d67248c5a496d152968",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+          "assets/source/xwing-data/images/conditions/fanatical-devotion.png"
+        ]
+      },
+      {
         "assetId": "AST-71918E85810254D9",
         "sha256": "71918e85810254d918c9f05a7d0bf656a5aafcdbb1c7c43aeb1d79b02d936cc3",
         "repositoryPaths": [
@@ -125536,6 +126097,14 @@
         "repositoryPaths": [
           "assets/source/first-edition-dials/rebelalliance/auzituckgunship.jpg",
           "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__03579262c8771df9.jpg"
+        ]
+      },
+      {
+        "assetId": "AST-74A22A448ECA6DA2",
+        "sha256": "74a22a448eca6da2caeef9a7082f2c5356e132cf0e6a06227d32209fb538eb32",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/shadowed/front.png",
+          "assets/source/xwing-data/images/conditions/shadowed.png"
         ]
       },
       {
@@ -126131,6 +126700,14 @@
         ]
       },
       {
+        "assetId": "AST-A27C3E346E426FFB",
+        "sha256": "a27c3e346e426ffb32f6a21645b55d7e436662372423100748cc3d625bdb5db9",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+          "assets/source/xwing-data/images/conditions/suppressive-fire.png"
+        ]
+      },
+      {
         "assetId": "AST-A2F924C51BE10F67",
         "sha256": "a2f924c51be10f67691ed2bb4faddbde1b4e99b4f5edbcae6f03cde03790cb66",
         "repositoryPaths": [
@@ -126160,6 +126737,14 @@
         "repositoryPaths": [
           "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__7ef5d24af5405a4d.jpg",
           "assets/source/unified25/assets/Items/asteroids/Core1.jpg"
+        ]
+      },
+      {
+        "assetId": "AST-A4F01DC8E009E1B4",
+        "sha256": "a4f01dc8e009e1b45283e7f38030438a03879d720aa17e17753e2bb7347c83d0",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__36420c92f33a82c0.png",
+          "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png"
         ]
       },
       {
@@ -126336,6 +126921,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
           "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png"
+        ]
+      },
+      {
+        "assetId": "AST-AC6861436B437810",
+        "sha256": "ac6861436b4378105abb6d02ccbf1c06446780939c5470f5e3cab678a7cd39ca",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/rattled/front.png",
+          "assets/source/xwing-data/images/conditions/rattled.png"
         ]
       },
       {
@@ -126720,6 +127313,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png",
           "assets/source/unified1e/pilot-tokens/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png"
+        ]
+      },
+      {
+        "assetId": "AST-C4407366D99BE3E4",
+        "sha256": "c4407366d99be3e45a52a23c077d39d0f0a75fa19974d3f825cacec1514c961c",
+        "repositoryPaths": [
+          "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+          "assets/source/xwing-data/images/conditions/ill-show-you-the-dark-side.png"
         ]
       },
       {
@@ -127523,6 +128124,14 @@
         ]
       },
       {
+        "assetId": "AST-FC696D49EBB264F1",
+        "sha256": "fc696d49ebb264f1aa0fb586543d848f85d2dcf02bdbb4013d0147cfc80a37cc",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__9b7f22b50c31355a.png",
+          "assets/source/unified1e/condition-tokens/optimizedprototype.png"
+        ]
+      },
+      {
         "assetId": "AST-FD5BC62825CB51AB",
         "sha256": "fd5bc62825cb51abb31bcd7a1cf169e2356508e3780a5f33ebfc43ac0d57bbb4",
         "repositoryPaths": [
@@ -127590,10 +128199,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 5480,
-    "uniqueAssetCount": 4943,
-    "totalBytes": 2197308486,
-    "duplicateFileCount": 537,
+    "fileCount": 5511,
+    "uniqueAssetCount": 4956,
+    "totalBytes": 2200763258,
+    "duplicateFileCount": 555,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 554,
@@ -127603,16 +128212,16 @@
       "generated-pilot-tokens": 8,
       "legacy1e-non-pilot": 418,
       "legacy1e": 379,
-      "unified1e": 1208,
+      "unified1e": 1239,
       "unified25": 2381,
       "xwing-data": 457
     },
     "byAssetType": {
-      "image": 4361,
+      "image": 4390,
       "model": 713,
       "lua": 229,
       "xml": 15,
-      "json": 125,
+      "json": 127,
       "other": 29,
       "pdf": 3,
       "text": 5

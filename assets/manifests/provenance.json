@@ -11944,6 +11944,238 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-313629D78A056753",
+    "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-63661BC7638002DA",
+    "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-95C500AEAB500159",
+    "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-70F1AEF7A9095827",
+    "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8C3C400B2411DDA6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-135597276947DE1D",
+    "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-67160EB5843CEB91",
+    "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C4407366D99BE3E4",
+    "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1257833CDF844DD6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-41606D58F2F3B0A0",
+    "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ECD924EEAF57080D",
+    "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5EA18AB1FA8530C7",
+    "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E84ACFDE1EE63040",
+    "repositoryPath": "assets/source/unified1e/condition-cards/rattled/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AC6861436B437810",
+    "repositoryPath": "assets/source/unified1e/condition-cards/rattled/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-88E31819D05F3425",
+    "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5DFDB664F8F01BC1",
+    "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1257833CDF844DD6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-74A22A448ECA6DA2",
+    "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF21824B93FE97D9",
+    "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A27C3E346E426FFB",
+    "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-45A8FBF5AC1006AA",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/adebttopay.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2166F3C913000C32",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/fanaticaldevotion.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-04FFCDFC8276A4BE",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A4F01DC8E009E1B4",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F06156761D8F295E",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/mimicked-shadowed.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FC696D49EBB264F1",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/optimizedprototype.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-51ABB5D27A6FCFA7",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/rattled.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-11764419708BEAA1",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/scrambled.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-62BDB44775B7044D",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/suppressivefire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-03F286F537575D8E",
     "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
     "origin": "unified1e",
@@ -16730,6 +16962,22 @@
   {
     "assetId": "AST-E05FBA4AE2552AE8",
     "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/z95headhunter/ndrusuhlak__pilot-3cf4b6b87b64.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1BF09811A8FA9CFC",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-cards.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7A0E0B5206D5F71F",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

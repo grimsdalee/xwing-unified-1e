@@ -480,6 +480,15 @@
     ]
   },
   {
+    "sha256": "11764419708beaa12a9f73091d7cb7f5959c3f3e5c6d08eb7be209686d99ed27",
+    "assetId": "AST-11764419708BEAA1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__d0868e4f0015a93a.png",
+      "assets/source/unified1e/condition-tokens/scrambled.png"
+    ]
+  },
+  {
     "sha256": "121212b4dcdf8e50baaee841f3d64161e60035168dc3b7781ba20e9260abef87",
     "assetId": "AST-121212B4DCDF8E50",
     "fileCount": 2,
@@ -495,6 +504,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png",
       "assets/source/unified1e/pilot-tokens/firstorder/tiefofighter/zetasquadronpilot__pilot-01cf39abd27a.png"
+    ]
+  },
+  {
+    "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+    "assetId": "AST-1257833CDF844DD6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/mimicked/back.png",
+      "assets/source/unified1e/condition-cards/shadowed/back.png"
     ]
   },
   {
@@ -522,6 +540,15 @@
     "repositoryPaths": [
       "assets/generated/FirstEditionDialRuntime/Dial/Menu.lua",
       "assets/source/unified25/TTS_xwing/src/Dial/Menu.lua"
+    ]
+  },
+  {
+    "sha256": "135597276947de1d0ed39defc3ec893f7317de65339b93b559a939610a9f469b",
+    "assetId": "AST-135597276947DE1D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/harpooned/front.png",
+      "assets/source/xwing-data/images/conditions/harpooned.png"
     ]
   },
   {
@@ -765,6 +792,15 @@
     "repositoryPaths": [
       "assets/generated/FirstEditionManeuverIcon/red/reverse-straight.png",
       "assets/source/unified1e/support/dial/maneuvers/rsr.png"
+    ]
+  },
+  {
+    "sha256": "2166f3c913000c3226478c7ba6080813121e2d061aebf35fee45f2dcffacb0f3",
+    "assetId": "AST-2166F3C913000C32",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__0ef5a15271cc4f21.png",
+      "assets/source/unified1e/condition-tokens/fanaticaldevotion.png"
     ]
   },
   {
@@ -1299,6 +1335,15 @@
     ]
   },
   {
+    "sha256": "41606d58f2f3b0a09a16308f6fc416cfde5a435875682f4a2399893011821bd9",
+    "assetId": "AST-41606D58F2F3B0A0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/mimicked/front.png",
+      "assets/source/xwing-data/images/conditions/mimicked.png"
+    ]
+  },
+  {
     "sha256": "420e494c43a1e5199f5a20d7bf0cd28f69b60ba919582c5ab7a7b593274518a6",
     "assetId": "AST-420E494C43A1E519",
     "fileCount": 2,
@@ -1359,6 +1404,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/scurrgh6bomber/lokrevenant__pilot-43214c180796.png"
+    ]
+  },
+  {
+    "sha256": "45a8fbf5ac1006aa49e5c91a7ea988ac9b072575f592695c9f2db64c7e982f53",
+    "assetId": "AST-45A8FBF5AC1006AA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__c9e9b25fc855a14f.png",
+      "assets/source/unified1e/condition-tokens/adebttopay.png"
     ]
   },
   {
@@ -1641,6 +1695,15 @@
     ]
   },
   {
+    "sha256": "51abb5d27a6fcfa7810817884b9cba4198d59e266d7f2d43e125fd649f25e1dd",
+    "assetId": "AST-51ABB5D27A6FCFA7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__b250524ab77cdaf4.png",
+      "assets/source/unified1e/condition-tokens/rattled.png"
+    ]
+  },
+  {
     "sha256": "525820b4cbc3e55738389f1d4a3f18ac4486fba6cf9945668745825b03e1c0bf",
     "assetId": "AST-525820B4CBC3E557",
     "fileCount": 2,
@@ -1848,6 +1911,24 @@
     ]
   },
   {
+    "sha256": "5dfdb664f8f01bc1c07851ad73d63cfa5ddcbf0b5b69de11adddd9ba093996e9",
+    "assetId": "AST-5DFDB664F8F01BC1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/scrambled/front.png",
+      "assets/source/xwing-data/images/conditions/scrambled.png"
+    ]
+  },
+  {
+    "sha256": "5ea18ab1fa8530c787372d8585d42a2be98d029dfb64cbbd0efb4ab93f5ae543",
+    "assetId": "AST-5EA18AB1FA8530C7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+      "assets/source/xwing-data/images/conditions/optimized-prototype.png"
+    ]
+  },
+  {
     "sha256": "5eab0926ce0986247b6307233959cbddf0a5e0785f59653124ae6fcfaea080a2",
     "assetId": "AST-5EAB0926CE098624",
     "fileCount": 2,
@@ -1911,6 +1992,15 @@
     ]
   },
   {
+    "sha256": "62bdb44775b7044d66a2869281ef663a988d4ee0fddb25ffd2c998565f3cdf75",
+    "assetId": "AST-62BDB44775B7044D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__834657a2f3841e6b.png",
+      "assets/source/unified1e/condition-tokens/suppressivefire.png"
+    ]
+  },
+  {
     "sha256": "62e6d65b9768a119c9b5c139ab826ddd34b67e729d08456837d7469b8fc8a353",
     "assetId": "AST-62E6D65B9768A119",
     "fileCount": 2,
@@ -1926,6 +2016,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/xwing/biggsdarklighter__pilot-6e45dda6a55f.png"
+    ]
+  },
+  {
+    "sha256": "63661bc7638002daa7e2267cf8b9cda7289929cfa71b2d51853bc1a3150842a5",
+    "assetId": "AST-63661BC7638002DA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/adebttopay/front.png",
+      "assets/source/xwing-data/images/conditions/a-debt-to-pay.png"
     ]
   },
   {
@@ -2235,6 +2334,15 @@
     ]
   },
   {
+    "sha256": "70f1aef7a909582772b8f24131d24ee990164f7fbef56d67248c5a496d152968",
+    "assetId": "AST-70F1AEF7A9095827",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+      "assets/source/xwing-data/images/conditions/fanatical-devotion.png"
+    ]
+  },
+  {
     "sha256": "71918e85810254d918c9f05a7d0bf656a5aafcdbb1c7c43aeb1d79b02d936cc3",
     "assetId": "AST-71918E85810254D9",
     "fileCount": 2,
@@ -2286,6 +2394,15 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/rebelalliance/auzituckgunship.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__03579262c8771df9.jpg"
+    ]
+  },
+  {
+    "sha256": "74a22a448eca6da2caeef9a7082f2c5356e132cf0e6a06227d32209fb538eb32",
+    "assetId": "AST-74A22A448ECA6DA2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/shadowed/front.png",
+      "assets/source/xwing-data/images/conditions/shadowed.png"
     ]
   },
   {
@@ -2955,6 +3072,15 @@
     ]
   },
   {
+    "sha256": "a27c3e346e426ffb32f6a21645b55d7e436662372423100748cc3d625bdb5db9",
+    "assetId": "AST-A27C3E346E426FFB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+      "assets/source/xwing-data/images/conditions/suppressive-fire.png"
+    ]
+  },
+  {
     "sha256": "a2f924c51be10f67691ed2bb4faddbde1b4e99b4f5edbcae6f03cde03790cb66",
     "assetId": "AST-A2F924C51BE10F67",
     "fileCount": 2,
@@ -2988,6 +3114,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__7ef5d24af5405a4d.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core1.jpg"
+    ]
+  },
+  {
+    "sha256": "a4f01dc8e009e1b45283e7f38030438a03879d720aa17e17753e2bb7347c83d0",
+    "assetId": "AST-A4F01DC8E009E1B4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__36420c92f33a82c0.png",
+      "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png"
     ]
   },
   {
@@ -3186,6 +3321,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/constablezuvio__pilot-5c3e62a09db1.png"
+    ]
+  },
+  {
+    "sha256": "ac6861436b4378105abb6d02ccbf1c06446780939c5470f5e3cab678a7cd39ca",
+    "assetId": "AST-AC6861436B437810",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/rattled/front.png",
+      "assets/source/xwing-data/images/conditions/rattled.png"
     ]
   },
   {
@@ -3618,6 +3762,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tiebomber/gammasquadronpilot__pilot-b8141f8d7b11.png"
+    ]
+  },
+  {
+    "sha256": "c4407366d99be3e45a52a23c077d39d0f0a75fa19974d3f825cacec1514c961c",
+    "assetId": "AST-C4407366D99BE3E4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+      "assets/source/xwing-data/images/conditions/ill-show-you-the-dark-side.png"
     ]
   },
   {
@@ -4518,6 +4671,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/ywing/goldsquadronpilot__pilot-e24f1d2a662a.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/ywing/goldsquadronpilot__pilot-e24f1d2a662a.png"
+    ]
+  },
+  {
+    "sha256": "fc696d49ebb264f1aa0fb586543d848f85d2dcf02bdbb4013d0147cfc80a37cc",
+    "assetId": "AST-FC696D49EBB264F1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__9b7f22b50c31355a.png",
+      "assets/source/unified1e/condition-tokens/optimizedprototype.png"
     ]
   },
   {

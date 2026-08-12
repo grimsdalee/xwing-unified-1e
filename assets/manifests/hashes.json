@@ -8958,6 +8958,180 @@
     "sizeBytes": 150102
   },
   {
+    "assetId": "AST-313629D78A056753",
+    "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/back.png",
+    "sha256": "313629d78a056753439f575d94fd20c848bf9ce98c54eb1c1ebd6ef34907fb78",
+    "sizeBytes": 121482
+  },
+  {
+    "assetId": "AST-63661BC7638002DA",
+    "repositoryPath": "assets/source/unified1e/condition-cards/adebttopay/front.png",
+    "sha256": "63661bc7638002daa7e2267cf8b9cda7289929cfa71b2d51853bc1a3150842a5",
+    "sizeBytes": 34887
+  },
+  {
+    "assetId": "AST-95C500AEAB500159",
+    "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/back.png",
+    "sha256": "95c500aeab500159e6ab59e57be6f30c2048e5930ad94249b1d2e1b2df7cc036",
+    "sizeBytes": 130412
+  },
+  {
+    "assetId": "AST-70F1AEF7A9095827",
+    "repositoryPath": "assets/source/unified1e/condition-cards/fanaticaldevotion/front.png",
+    "sha256": "70f1aef7a909582772b8f24131d24ee990164f7fbef56d67248c5a496d152968",
+    "sizeBytes": 38108
+  },
+  {
+    "assetId": "AST-8C3C400B2411DDA6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/back.png",
+    "sha256": "8c3c400b2411dda6875a2db065774562539227e0bf63beee6936ec9ae8f860ad",
+    "sizeBytes": 117694
+  },
+  {
+    "assetId": "AST-135597276947DE1D",
+    "repositoryPath": "assets/source/unified1e/condition-cards/harpooned/front.png",
+    "sha256": "135597276947de1d0ed39defc3ec893f7317de65339b93b559a939610a9f469b",
+    "sizeBytes": 37980
+  },
+  {
+    "assetId": "AST-67160EB5843CEB91",
+    "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/back.png",
+    "sha256": "67160eb5843ceb91e416424023e92cce68551a0454afcaebc1685e14aed949de",
+    "sizeBytes": 116270
+  },
+  {
+    "assetId": "AST-C4407366D99BE3E4",
+    "repositoryPath": "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
+    "sha256": "c4407366d99be3e45a52a23c077d39d0f0a75fa19974d3f825cacec1514c961c",
+    "sizeBytes": 37497
+  },
+  {
+    "assetId": "AST-1257833CDF844DD6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/back.png",
+    "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+    "sizeBytes": 121668
+  },
+  {
+    "assetId": "AST-41606D58F2F3B0A0",
+    "repositoryPath": "assets/source/unified1e/condition-cards/mimicked/front.png",
+    "sha256": "41606d58f2f3b0a09a16308f6fc416cfde5a435875682f4a2399893011821bd9",
+    "sizeBytes": 36957
+  },
+  {
+    "assetId": "AST-ECD924EEAF57080D",
+    "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/back.png",
+    "sha256": "ecd924eeaf57080dfb8f0fd4288838cdcd258b20e6c5d39d2d54d9350810698c",
+    "sizeBytes": 118833
+  },
+  {
+    "assetId": "AST-5EA18AB1FA8530C7",
+    "repositoryPath": "assets/source/unified1e/condition-cards/optimizedprototype/front.png",
+    "sha256": "5ea18ab1fa8530c787372d8585d42a2be98d029dfb64cbbd0efb4ab93f5ae543",
+    "sizeBytes": 114877
+  },
+  {
+    "assetId": "AST-E84ACFDE1EE63040",
+    "repositoryPath": "assets/source/unified1e/condition-cards/rattled/back.png",
+    "sha256": "e84acfde1ee63040167acf01ae431f8185332a45826506c0b326787e0b5fd0a7",
+    "sizeBytes": 120385
+  },
+  {
+    "assetId": "AST-AC6861436B437810",
+    "repositoryPath": "assets/source/unified1e/condition-cards/rattled/front.png",
+    "sha256": "ac6861436b4378105abb6d02ccbf1c06446780939c5470f5e3cab678a7cd39ca",
+    "sizeBytes": 116917
+  },
+  {
+    "assetId": "AST-88E31819D05F3425",
+    "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/back.png",
+    "sha256": "88e31819d05f342557650512dec75e1b8b805a2b6c558320c10a2bfadce800b1",
+    "sizeBytes": 116625
+  },
+  {
+    "assetId": "AST-5DFDB664F8F01BC1",
+    "repositoryPath": "assets/source/unified1e/condition-cards/scrambled/front.png",
+    "sha256": "5dfdb664f8f01bc1c07851ad73d63cfa5ddcbf0b5b69de11adddd9ba093996e9",
+    "sizeBytes": 105821
+  },
+  {
+    "assetId": "AST-1257833CDF844DD6",
+    "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/back.png",
+    "sha256": "1257833cdf844dd68a971ca6a958c0c83f8f46e7d15ed53899d8425e0c8c686c",
+    "sizeBytes": 121668
+  },
+  {
+    "assetId": "AST-74A22A448ECA6DA2",
+    "repositoryPath": "assets/source/unified1e/condition-cards/shadowed/front.png",
+    "sha256": "74a22a448eca6da2caeef9a7082f2c5356e132cf0e6a06227d32209fb538eb32",
+    "sizeBytes": 36601
+  },
+  {
+    "assetId": "AST-BF21824B93FE97D9",
+    "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/back.png",
+    "sha256": "bf21824b93fe97d9c68e0210fc058b0250075a7eb1c72dd597f973e8429335f6",
+    "sizeBytes": 120869
+  },
+  {
+    "assetId": "AST-A27C3E346E426FFB",
+    "repositoryPath": "assets/source/unified1e/condition-cards/suppressivefire/front.png",
+    "sha256": "a27c3e346e426ffb32f6a21645b55d7e436662372423100748cc3d625bdb5db9",
+    "sizeBytes": 36209
+  },
+  {
+    "assetId": "AST-45A8FBF5AC1006AA",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/adebttopay.png",
+    "sha256": "45a8fbf5ac1006aa49e5c91a7ea988ac9b072575f592695c9f2db64c7e982f53",
+    "sizeBytes": 229303
+  },
+  {
+    "assetId": "AST-2166F3C913000C32",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/fanaticaldevotion.png",
+    "sha256": "2166f3c913000c3226478c7ba6080813121e2d061aebf35fee45f2dcffacb0f3",
+    "sizeBytes": 116417
+  },
+  {
+    "assetId": "AST-04FFCDFC8276A4BE",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/harpooned.png",
+    "sha256": "04ffcdfc8276a4bec4c08474e00c9d4e167b5466cf23154efd3233f6d4f118ac",
+    "sizeBytes": 170699
+  },
+  {
+    "assetId": "AST-A4F01DC8E009E1B4",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/illshowyouthedarkside.png",
+    "sha256": "a4f01dc8e009e1b45283e7f38030438a03879d720aa17e17753e2bb7347c83d0",
+    "sizeBytes": 160815
+  },
+  {
+    "assetId": "AST-F06156761D8F295E",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/mimicked-shadowed.png",
+    "sha256": "f06156761d8f295eae8bcd04a7b600c464a9ab926a44972f604a23ef76c5b373",
+    "sizeBytes": 218399
+  },
+  {
+    "assetId": "AST-FC696D49EBB264F1",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/optimizedprototype.png",
+    "sha256": "fc696d49ebb264f1aa0fb586543d848f85d2dcf02bdbb4013d0147cfc80a37cc",
+    "sizeBytes": 141823
+  },
+  {
+    "assetId": "AST-51ABB5D27A6FCFA7",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/rattled.png",
+    "sha256": "51abb5d27a6fcfa7810817884b9cba4198d59e266d7f2d43e125fd649f25e1dd",
+    "sizeBytes": 194724
+  },
+  {
+    "assetId": "AST-11764419708BEAA1",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/scrambled.png",
+    "sha256": "11764419708beaa12a9f73091d7cb7f5959c3f3e5c6d08eb7be209686d99ed27",
+    "sizeBytes": 158847
+  },
+  {
+    "assetId": "AST-62BDB44775B7044D",
+    "repositoryPath": "assets/source/unified1e/condition-tokens/suppressivefire.png",
+    "sha256": "62bdb44775b7044d66a2869281ef663a988d4ee0fddb25ffd2c998565f3cdf75",
+    "sizeBytes": 248153
+  },
+  {
     "assetId": "AST-03F286F537575D8E",
     "repositoryPath": "assets/source/unified1e/dial-textures/firstorder_texture.png",
     "sha256": "03f286f537575d8e04cce03d2633782a70562c5a7d63a434f0ea188a589863ec",
@@ -12550,6 +12724,18 @@
     "repositoryPath": "assets/source/unified1e/pilot-tokens/scumandvillainy/z95headhunter/ndrusuhlak__pilot-3cf4b6b87b64.png",
     "sha256": "e05fba4ae2552ae8eb9ebb3e0fc1c419db6ce0551de8b879beb21068d0061da2",
     "sizeBytes": 259735
+  },
+  {
+    "assetId": "AST-1BF09811A8FA9CFC",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-cards.json",
+    "sha256": "1bf09811a8fa9cfc1042b5cfeb6e10feaca6b13817729ed7188c413860eb547e",
+    "sizeBytes": 8299
+  },
+  {
+    "assetId": "AST-7A0E0B5206D5F71F",
+    "repositoryPath": "assets/source/unified1e/reference/cards/condition-tokens.json",
+    "sha256": "7a0e0b5206d5f71ffeb74385ca35faf79eb40c041f77a8a47ea025dca0d8497d",
+    "sizeBytes": 5533
   },
   {
     "assetId": "AST-45DD65D760FBC380",
