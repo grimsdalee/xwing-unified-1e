@@ -1,0 +1,792 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-08-13T12:24:31.3027597+00:00",
+  "sourceFolder": "assets/source/xwing-data/images/damage-decks",
+  "destinationFolder": "assets/source/unified1e/damage-decks",
+  "shipCount": 5,
+  "sectionDeckCount": 10,
+  "physicalCardCount": 100,
+  "uniqueFaceAssignmentCount": 65,
+  "sections": [
+    {
+      "shipId": "gr75mediumtransport",
+      "shipName": "GR-75 Medium Transport",
+      "section": "fore",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 5,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "9278B9F4132D565C17CDA7E55B81B3D104E7600684C0D36E336C25BCFEBBFBE2",
+      "cards": [
+        {
+          "name": "Secondary Drive Failure",
+          "xws": "secondarydrivefailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/secondary-drive-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/secondary-drive-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "5488B6F4B4E892A559B0F94422DB01EC7A8F499B92E9B00485B503C8379C0831"
+        },
+        {
+          "name": "Broadcast Malfunction",
+          "xws": "broadcastmalfunction",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/broadcast-malfunction.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/broadcast-malfunction.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "E870748F0C650D3788FE03A606A46EE0A4DAA2937D44166C73EB0962D20A95D7"
+        },
+        {
+          "name": "Direct Hit",
+          "xws": "directhit",
+          "quantity": 4,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/direct-hit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/direct-hit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C87D62392C0CF7B9F7E9CC5DCD5893D0039C5D62CEA62D8BA85E2AF08AB14199"
+        },
+        {
+          "name": "Hull Breach",
+          "xws": "hullbreach",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/hull-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/hull-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "E963FB15EB3A862773E802041554B829091B8700921300532C3694B13135E069"
+        },
+        {
+          "name": "Damaged Stabilizers",
+          "xws": "damagedstabilizers",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/damaged-stabilizers.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/fore/damaged-stabilizers.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "39BCD2E0044C0357E25ED606F71A98A10F66DA2C7B401F716798A105CCD5108E"
+        }
+      ]
+    },
+    {
+      "shipId": "gr75mediumtransport",
+      "shipName": "GR-75 Medium Transport",
+      "section": "aft",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 5,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "068423F21FEB3B23040111F97E00BF1EE8CB0DB4916598A54B348530373D323E",
+      "cards": [
+        {
+          "name": "Reactor Cowl Rupture",
+          "xws": "reactorcowlrupture",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/reactor-cowl-rupture.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/reactor-cowl-rupture.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "3936676F01DC01C65865E456FE3895F9E902FA0F04AD4E27D3B472F502BBD20A"
+        },
+        {
+          "name": "Projector Power Failure",
+          "xws": "projectorpowerfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/projector-power-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/projector-power-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "1500B074AF2D50C274A7438B3D14CB6BFA5BFCB655B29F2DCDC93B4F00B93357"
+        },
+        {
+          "name": "Command Pod Casualties",
+          "xws": "commandpodcasualties",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/command-pod-casualties.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/command-pod-casualties.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "7EE6E3B8AFEE4A4A4BA4EB7F83DA2FBE53EE7152BA58B06ABEFF93A94616FEEE"
+        },
+        {
+          "name": "Reactor Leak",
+          "xws": "reactorleak",
+          "quantity": 3,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/reactor-leak.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/reactor-leak.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "CC8DF9E57F6B7C0798F40E582E829D6C32F3DD637132E271ACAF74ABC0DD2F94"
+        },
+        {
+          "name": "Engine Damage",
+          "xws": "enginedamage",
+          "quantity": 3,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gr75mediumtransport/engine-damage.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gr75mediumtransport/aft/engine-damage.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "B7C87987D41936799933DEDF649E563C4DB64CA19123D29E6F349A60B2898B92"
+        }
+      ]
+    },
+    {
+      "shipId": "cr90corvette",
+      "shipName": "CR90 Corvette",
+      "section": "fore",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 8,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "863B433B5E5AF40D4B906B77A4E295D4CEBF672949CC167B64F20F7190CBA680",
+      "cards": [
+        {
+          "name": "Comms Failure",
+          "xws": "commsfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/comms-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/comms-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "CA80DE3EE2CCA04A3CD23D9821AF009FB062A5C212CDB3862A2EC02420E74C4E"
+        },
+        {
+          "name": "Deck Breach",
+          "xws": "deckbreach",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/deck-breach-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/deck-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D529B02775AB5890D4BE2C95B6B1EEC6065E8274C9730EB3458C6B1543B81B6A"
+        },
+        {
+          "name": "Direct Hit",
+          "xws": "directhit",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/direct-hit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/direct-hit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "604455E95A7693A68858AE3A23915CF9E8B03D0E623291C3ED63EB179948D7D8"
+        },
+        {
+          "name": "Life Support Failure",
+          "xws": "lifesupportfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/life-support-failure-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/life-support-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "6EC0917A34663DA6C13B619D2AE446381A56EEB8FA69EA6EB4365D5D2A889532"
+        },
+        {
+          "name": "Scrambled Scopes",
+          "xws": "scrambledscopes",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/scrambled-scopes.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/scrambled-scopes.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "9CA6A31225B0990BA8A79249CDB92F3D712DD84747EAEA86864540B7546CB1D2"
+        },
+        {
+          "name": "Secondary Drive Failure",
+          "xws": "secondarydrivefailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/secondary-drive-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/secondary-drive-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "7E464A36657199C0A8FE376914646D43943D9D9CFB208367DE500A356ADBBC74"
+        },
+        {
+          "name": "Tracking Misalignment",
+          "xws": "trackingmisalignment",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/tracking-misalignment.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/tracking-misalignment.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "61D2F7480E971F9569FED53A364AC03A10BC880B35375926CF8720DA63573698"
+        },
+        {
+          "name": "Weapon Damaged",
+          "xws": "weapondamaged",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/weapon-damaged.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/fore/weapon-damaged.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "12752B8341B1B7FDF919654F30F6971EFB7005D1E55E51FD6E26F4B35388CAA2"
+        }
+      ]
+    },
+    {
+      "shipId": "cr90corvette",
+      "shipName": "CR90 Corvette",
+      "section": "aft",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 7,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "CD205C0293CD3A6C27BD0AFD517A8ABB0604409B9E6C5C84257786C4ED2CD1AA",
+      "cards": [
+        {
+          "name": "Deck Breach",
+          "xws": "deckbreach",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/deck-breach-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/deck-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "EDF4B6B56C8E4AACB34DE39B21EE613D0FACA834D6FA177F6C6E0EFB5C08A3DC"
+        },
+        {
+          "name": "Grid Overload",
+          "xws": "gridoverload",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/grid-overload.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/grid-overload.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "BA89E820A4CD5838EADC2B2E15D0BAE03FCB9219D76666162C2F6F33E7BF9EEA"
+        },
+        {
+          "name": "Life Support Failure",
+          "xws": "lifesupportfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/life-support-failure-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/life-support-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "075E1D2A9609530D2C4260647DDEF0A8B2E9DF66E2CBF9D2A6746580C89ACC61"
+        },
+        {
+          "name": "Power Plant Failure",
+          "xws": "powerplantfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/power-plant-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/power-plant-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "A59C060AF99B95658EE02819D00C6FC0057F78D688449D69B56109F2E8CDD9F0"
+        },
+        {
+          "name": "Projector Power Failure",
+          "xws": "projectorpowerfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/projector-power-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/projector-power-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "6AE74FB1E7B0FC02CF37A0725699794B043E0B75391426E8BBDC53CC5E9DB709"
+        },
+        {
+          "name": "Reactor Leak",
+          "xws": "reactorleak",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/reactor-leak.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/reactor-leak.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "A250226AD1A0AF97752A86FDE3B826A260A2800ACD0A2410D0CAE8DBF2B9736B"
+        },
+        {
+          "name": "Structural Collapse",
+          "xws": "structuralcollapse",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/cr90corvette/structural-collapse.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/structural-collapse.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "038ACDD3567D22ADEA49A872259CDD73832AE47962DF7E03F2EA2EFC9CD73CA7"
+        }
+      ]
+    },
+    {
+      "shipId": "raiderclasscorvette",
+      "shipName": "Raider-class Corvette",
+      "section": "fore",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 8,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "BE8DD52DA8382DB67525B15AA3B2F4E0763967FB03456E818BE3BBBFA55A9E68",
+      "cards": [
+        {
+          "name": "Deck Breach",
+          "xws": "deckbreach",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/deck-breach-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/deck-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "8FC5EC5A6A684EC8AEF7ABA71F655608A3D2C25149B35D78E38FFABF2621320B"
+        },
+        {
+          "name": "Direct Hit",
+          "xws": "directhit",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/direct-hit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/direct-hit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "BC46D733403146B6DC33A4C57A028468B1E1708C98C48EEDEC6CB7C9A009374C"
+        },
+        {
+          "name": "Power Plant Failure",
+          "xws": "powerplantfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/power-plant-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/power-plant-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "E15CD2BDC73120B1100F6BD518EAACFE145387D9240FA60973CF608DCDFEAB71"
+        },
+        {
+          "name": "Projector Power Failure",
+          "xws": "projectorpowerfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/projector-power-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/projector-power-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "8502E5CDF234BB71613B2591787FF4F1DD5725CEA05654425B821DB35924F19B"
+        },
+        {
+          "name": "Reactor Leak",
+          "xws": "reactorleak",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/reactor-leak.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/reactor-leak.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "B319E596A4425729013A786AFA2B4D8BC74EE44AEBD0D8E192B433C7C2E3A773"
+        },
+        {
+          "name": "Secondary Drive Failure",
+          "xws": "secondarydrivefailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/secondary-drive-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/secondary-drive-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C6CBDD64CE880B6CCF466A7A79067CC2FC0EC3D13DD6D5FBABD75591F7027CD2"
+        },
+        {
+          "name": "Tracking Misalignment",
+          "xws": "trackingmisalignment",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/tracking-misalignment.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/tracking-misalignment.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "F887F7D0D6767B95D9A0DDCA362306F5926423897B6915A83B73E4B588EC6FBD"
+        },
+        {
+          "name": "Weapon Damaged",
+          "xws": "weapondamaged",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/weapon-damaged-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/fore/weapon-damaged.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "60688B5FF5BA3A151851A29FDCD736CEF66CFF5FE7DCE5BA0613C67A4A659B0E"
+        }
+      ]
+    },
+    {
+      "shipId": "raiderclasscorvette",
+      "shipName": "Raider-class Corvette",
+      "section": "aft",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 8,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "CF5344D86E771861424CE8698E4860674A0901EDAE007329BDF92437C3212C28",
+      "cards": [
+        {
+          "name": "Command Deck Breach",
+          "xws": "commanddeckbreach",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/command-deck-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/command-deck-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "16D2F3DE43A5B869FB6514539B213255FC233C67DAAD432D76A0A14E699FDCD8"
+        },
+        {
+          "name": "Comms Failure",
+          "xws": "commsfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/comms-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/comms-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "CE2124EAF001CA701C649469353AD9B9F705462289273149B68D4390F71DC96B"
+        },
+        {
+          "name": "Deck Breach",
+          "xws": "deckbreach",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/deck-breach-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/deck-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "B90EAF046E04F2D0909D5303925DACBEED9418420E5C4B2C242FA780338FB822"
+        },
+        {
+          "name": "Life Support Failure",
+          "xws": "lifesupportfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/life-support-failure-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/life-support-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "A690AD857BEC54017F200ECDD06A9C9E49BD7D0B12137D2879B4F94F33DEE622"
+        },
+        {
+          "name": "Misfiring Thrusters",
+          "xws": "misfiringthrusters",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/misfiring-thrusters.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/misfiring-thrusters.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "5FD5D9D958F7CB67EF3370AFB88BCDD743BDE82184EBA477DADB8ED8BF803C3A"
+        },
+        {
+          "name": "Scrambled Scopes",
+          "xws": "scrambledscopes",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/scrambled-scopes.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/scrambled-scopes.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "F4FE033EEBCB71EC08E9136ACD3B7BD5914329AFECE1DD832CFA36F52003377C"
+        },
+        {
+          "name": "Structural Collapse",
+          "xws": "structuralcollapse",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/structural-collapse.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/structural-collapse.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D9971E97452A7438612C543DF44AAFF1916188111B3B15CE820637C67F5D174E"
+        },
+        {
+          "name": "Weapon Damaged",
+          "xws": "weapondamaged",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/raiderclasscorvette/weapon-damaged-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/raiderclasscorvette/aft/weapon-damaged.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "0FA9F5F502DCCFEC6D9865F3DF89285F2D4656819B3DA33FCCAF17B533A54F7E"
+        }
+      ]
+    },
+    {
+      "shipId": "gozanticlasscruiser",
+      "shipName": "Gozanti-class Cruiser",
+      "section": "fore",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 6,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "D68BBE553D4074482788FA1587CE42D5E5B1A3E63A9DC02788C96F63A94866E7",
+      "cards": [
+        {
+          "name": "Damaged Docking Clamp",
+          "xws": "damageddockingclamp",
+          "quantity": 3,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/damaged-docking-clamp-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/damaged-docking-clamp.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "B664DC0070371FE41BF74F2864868072CE44C5F1DD3940866A95E9A8059ED09E"
+        },
+        {
+          "name": "Hull Breach",
+          "xws": "hullbreach",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/hull-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/hull-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "A7F8C3407FC5394D027908F459CE8F0C77EA7ABF710BAD6D8768AC66F249B88D"
+        },
+        {
+          "name": "Comms Failure",
+          "xws": "commsfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/comms-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/comms-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "93043D6CE835E163A719120F4908BCE8A840296C59263899BEBB8638E9BEA032"
+        },
+        {
+          "name": "Secondary Drive Failure",
+          "xws": "secondarydrivefailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/secondary-drive-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/secondary-drive-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "279C2273DE5EA872201E73F4B36BD315F210D978AA845B0AD93240E61D17FEA9"
+        },
+        {
+          "name": "Scrambled Scopes",
+          "xws": "scrambledscopes",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/scrambled-scopes.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/scrambled-scopes.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "412CB9E65982E0161EB529889EEDF8786AC2FEC3EF346F3DF910A3803A3541E9"
+        },
+        {
+          "name": "Viewport Rupture",
+          "xws": "viewportrupture",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/viewport-rupture.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/fore/viewport-rupture.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "85C110BCEB78CAAA0B57B75C0112EB927A85CD0A3D5C47018AF0D1C1A8992295"
+        }
+      ]
+    },
+    {
+      "shipId": "gozanticlasscruiser",
+      "shipName": "Gozanti-class Cruiser",
+      "section": "aft",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 6,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "6650D1E0B13E3BF727558A44E1E0D7E99BF84AF50212D64FC1D016073368F1DB",
+      "cards": [
+        {
+          "name": "Damaged Stabilizers",
+          "xws": "damagedstabilizers",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/damaged-stabilizers.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/damaged-stabilizers.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "75513A1223FCD77C16DEC60369819549AD67EBB68BE887213D334076062A6913"
+        },
+        {
+          "name": "Weapons Offline",
+          "xws": "weaponsoffline",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/weapons-offline.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/weapons-offline.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C5FD25BF90E52599EA72F29DA7C9BF7616333C3349E2EAF47DC4AD72DC5B873F"
+        },
+        {
+          "name": "Reactor Leak",
+          "xws": "reactorleak",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/reactor-leak.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/reactor-leak.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "25889DF97A113F6D9FD26B9989293CC6844A760034589529EA28DDDD0251F926"
+        },
+        {
+          "name": "Reactor Cowl Rupture",
+          "xws": "reactorcowlrupture",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/reactor-cowl-rupture.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/reactor-cowl-rupture.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "FB43F02BB091E09395B25EB0AC6B7D1FE861D03D3276E74532CCF9BE2CD38D2C"
+        },
+        {
+          "name": "Projector Power Failure",
+          "xws": "projectorpowerfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/projector-power-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/projector-power-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "E75E27CAD394D5132DDAF04CE5D877ABAFD61B3CCE0ED3DEBF535E4F4E405807"
+        },
+        {
+          "name": "Damaged Docking Clamp",
+          "xws": "damageddockingclamp",
+          "quantity": 3,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/gozanticlasscruiser/damaged-docking-clamp-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/gozanticlasscruiser/aft/damaged-docking-clamp.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C9D9E1AB6ABB6767DAAB56CD65D78025CCAFECF3DDBE078FD01F275A998478C5"
+        }
+      ]
+    },
+    {
+      "shipId": "croccruiser",
+      "shipName": "C-ROC Cruiser",
+      "section": "fore",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 5,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "2D6C2DB7A2BC7EA14B46DCAD00F2E421CBDA6C2425B0713F5F9303A6A96E56F4",
+      "cards": [
+        {
+          "name": "Hull Breach",
+          "xws": "hullbreach",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/hull-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/hull-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "B9B2C2591F6D02AECF0671BAB02D811867C92C91FEFCA88CA98463B6F1971973"
+        },
+        {
+          "name": "Secondary Drive Failure",
+          "xws": "secondarydrivefailure",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/secondary-drive-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/secondary-drive-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D3F296EDEA37607CC9B89D680E25804F56134F6E0011F292B3D40EAAD9C6F7F5"
+        },
+        {
+          "name": "Scrambled Scopes",
+          "xws": "scrambledscopes",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/scrambled-scopes.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/scrambled-scopes.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D6A527369C003B8A74D8F68A428CA91D7B5DDE36C4CC45954259C0AA4C56C312"
+        },
+        {
+          "name": "Viewport Rupture",
+          "xws": "viewportrupture",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/viewport-rupture.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/viewport-rupture.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C5BCFF0347ED6CB1F2E352F8AFF211E4DF08F310CA36CA5938DA43CD47E2718A"
+        },
+        {
+          "name": "Spilled Cargo",
+          "xws": "spilledcargo",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/spilled-cargo-fore.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/fore/spilled-cargo.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "18DAD7BBCCEDA90A32FFF520BE0D30ADC174D1B725B2C1D48DE659F91E879CDD"
+        }
+      ]
+    },
+    {
+      "shipId": "croccruiser",
+      "shipName": "C-ROC Cruiser",
+      "section": "aft",
+      "physicalCardCount": 10,
+      "uniqueFaceCount": 7,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "6A9A4B6208D036A0BA60C4663CF100FB3F5EBDF1A79F195E290069AC1E69E781",
+      "cards": [
+        {
+          "name": "Damaged Stabilizers",
+          "xws": "damagedstabilizers",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/damaged-stabilizers.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/damaged-stabilizers.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "DE56BBBA83D08845C18B00EBE80DC2C7A3CCD8F2A7C789647B6A00501D37CE2E"
+        },
+        {
+          "name": "Weapons Offline",
+          "xws": "weaponsoffline",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/weapons-offline.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/weapons-offline.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "3CA75C06EAB7B2A8F00B59D8DA064E61ADCAA8D22D0B2948F720DA3B1DFBEB1F"
+        },
+        {
+          "name": "Reactor Leak",
+          "xws": "reactorleak",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/reactor-leak.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/reactor-leak.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D007FCBF95DD7C249311C096ABABE7ACF7F72AE417D26CD87F8314C00165FEED"
+        },
+        {
+          "name": "Projector Power Failure",
+          "xws": "projectorpowerfailure",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/projector-power-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/projector-power-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C71376ED912E2D603A0D060C058F0C1F5D3F694A9C4AA8E4F383FB5DDB442842"
+        },
+        {
+          "name": "Reactor Cowl Rupture",
+          "xws": "reactorcowlrupture",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/reactor-cowl-rupture.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/reactor-cowl-rupture.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "897CDF692F896B3C665145062B770EA3CC032CD8AA52C0370DBFB41BBD3E8254"
+        },
+        {
+          "name": "Damaged Dish",
+          "xws": "damageddish",
+          "quantity": 1,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/damaged-dish.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/damaged-dish.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "1979A90FFA329C748008C5CDEDA275EABD52F2EDA68DB305B040CF2854B5B57E"
+        },
+        {
+          "name": "Spilled Cargo",
+          "xws": "spilledcargo",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/croccruiser/spilled-cargo-aft.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/croccruiser/aft/spilled-cargo.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "4E712061FAEDAAC42A743B77F615830FA7F4B04554B6C57643DD0F353D70DA8A"
+        }
+      ]
+    }
+  ]
+}
