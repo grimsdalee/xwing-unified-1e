@@ -101,6 +101,8 @@ return command switch
     "import-first-edition-condition-tokens" => ImportFirstEditionConditionTokensCommand.Run(commandArgs),
     "import-first-edition-condition-cards" => ImportFirstEditionConditionCardsCommand.Run(commandArgs),
     "build-first-edition-condition-sources" => BuildFirstEditionConditionSourcesCommand.Run(commandArgs),
+    "verify-first-edition-loadout-contract" => VerifyFirstEditionLoadoutContractCommand.Run(commandArgs),
+    "plan-first-edition-upgrade-loadout" => PlanFirstEditionUpgradeLoadoutCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -288,6 +290,8 @@ static void ShowHelp()
     Console.WriteLine("  import-first-edition-condition-tokens <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-condition-cards <first-edition-repo-folder> [--faces <folder>] [--backs <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  build-first-edition-condition-sources <first-edition-repo-folder> [--output <file>]");
+    Console.WriteLine("  verify-first-edition-loadout-contract <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  plan-first-edition-upgrade-loadout <first-edition-repo-folder> --pilot <id|name|import-id> [--ship <id>] [--faction <id>] [--upgrade <xws>]... [--upgrades <xws,xws>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)
