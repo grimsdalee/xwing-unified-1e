@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-13T12:31:01.6915689+00:00",
+  "generatedUtc": "2026-08-13T23:08:47.8738282+00:00",
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -27506,6 +27506,456 @@
       "referencedBy": []
     },
     {
+      "assetId": "AST-15F9A45BDC2626D1",
+      "sha256": "15f9a45bdc2626d13e849925add0c54e652dee15760b70965f9d2f69146bf0ae",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/back.png",
+      "fileName": "back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 964961,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-5B2AAE4E8E381AD0",
+      "sha256": "5b2aae4e8e381ad092e9282cfdb3f77da87c104def7a77682a667703d2824736",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/blinded-pilot.png",
+      "fileName": "blinded-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 777014,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-EFD7F2DD1B22CCF9",
+      "sha256": "efd7f2dd1b22ccf9c3029df6c9cca1ef964d61b57e27ab460a4125a2661b1ec2",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/console-fire.png",
+      "fileName": "console-fire.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 812857,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-64A044B342B87145",
+      "sha256": "64a044b342b87145d7b7df029938527329b6a518c5abc8665dad0cb4f4cf531f",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-cockpit.png",
+      "fileName": "damaged-cockpit.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 721983,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-30ADEF9F08F10D10",
+      "sha256": "30adef9f08f10d10ce6bcd712abd724f4a806be0c1e8250a81c6a2d7c85150f3",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-engine.png",
+      "fileName": "damaged-engine.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 714699,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-561A4CF6D6F7CE61",
+      "sha256": "561a4cf6d6f7ce616801ffd04e2fabec8f4d97e43096f8b739928e62704d4c30",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-sensor-array.png",
+      "fileName": "damaged-sensor-array.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 848971,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2DA8B98B5050D36B",
+      "sha256": "2da8b98b5050d36b07a7d37363b14a2d7ee93646f00813edddb85716f4105a55",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/direct-hit.png",
+      "fileName": "direct-hit.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 787168,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-D9637B53DA362AAC",
+      "sha256": "d9637b53da362aac24d67e80ba51b673b93719e4a521af428cde61b2a74e807a",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/loose-stabilizer.png",
+      "fileName": "loose-stabilizer.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 720808,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-53ECD652B6FFF2E6",
+      "sha256": "53ecd652b6fff2e6885e67e3390ddb7534cd46b31aacb37c29a95970d3353fdf",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-explosion.png",
+      "fileName": "major-explosion.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 777526,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2AD7671B6F49AE8B",
+      "sha256": "2ad7671b6f49ae8b25a7912b47f6d1d4099118f3ce99204a06cfaee4a6aabb8a",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-hull-breach.png",
+      "fileName": "major-hull-breach.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 762654,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-002DEACEC21593A6",
+      "sha256": "002deacec21593a63fc517105f69610e9a1d524112da68a03a28af77974dfcd9",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/shaken-pilot.png",
+      "fileName": "shaken-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 837448,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-8F41DD56F7DA3828",
+      "sha256": "8f41dd56f7da382813090819bf911bc43534dc916a6e629ac6b622675b3c7310",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/structural-damage.png",
+      "fileName": "structural-damage.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 754116,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-5F69F619AA7070ED",
+      "sha256": "5f69f619aa7070ed97b5f13c4c2ddba4bb7bffe701b775492a64c708f28fddb2",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/stunned-pilot.png",
+      "fileName": "stunned-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 753826,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-2C21D94FF38600E6",
+      "sha256": "2c21d94ff38600e6175ffc009e5a3ad1c457e9cceb7a8ccb563c360d3e2ad5ff",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/thrust-control-fire.png",
+      "fileName": "thrust-control-fire.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 810759,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-963E64002B7CEAF6",
+      "sha256": "963e64002b7ceaf60008f17b99b84c8e5d8b5fa964027f189985ae0a124166c4",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/weapons-failure.png",
+      "fileName": "weapons-failure.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 733443,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-8CC4A4588CCB49BE",
+      "sha256": "8cc4a4588ccb49be6c6d722ac109b258676ce225888d8ea8a58afff70d797438",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/back.png",
+      "fileName": "back.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 965006,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-35D8BF4D90DA1A52",
+      "sha256": "35d8bf4d90da1a52c2223974cbdbbea26878f04e6d5e6aa2634b7714acdeec20",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/blinded-pilot.png",
+      "fileName": "blinded-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 695188,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-BD11C767C7F2930B",
+      "sha256": "bd11c767c7f2930b4e1c4a22683b85deb3706e8705f97445400e38506cee4b72",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/console-fire.png",
+      "fileName": "console-fire.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 771084,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-33ABC5FEF6032F2E",
+      "sha256": "33abc5fef6032f2e77fa4530536b8825f5478e41aa6c74fe22bfa07113468326",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-cockpit.png",
+      "fileName": "damaged-cockpit.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 692798,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-5EA080279BFC9820",
+      "sha256": "5ea080279bfc9820eb0199c2048bb4a4a8c31c3e2450c7de4f9693ea8436c798",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-engine.png",
+      "fileName": "damaged-engine.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 715075,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-7D8D9A8F76B50D70",
+      "sha256": "7d8d9a8f76b50d704f38874fd608629166a93910bf9019801aedbf1ed6e0c94b",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-sensor-array.png",
+      "fileName": "damaged-sensor-array.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 707299,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-39A07AB1DFF43506",
+      "sha256": "39a07ab1dff43506a668b3cbb2ca539052576979a0e0e5137756b4a11f97d7e8",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/direct-hit.png",
+      "fileName": "direct-hit.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 756680,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-99D227874C7A2004",
+      "sha256": "99d227874c7a20041f8d953882b8cc1b1cfbd384344c62455a5e167f2d0b3388",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/injured-pilot.png",
+      "fileName": "injured-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 736312,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-E9A3622F24B35876",
+      "sha256": "e9a3622f24b35876926f1dabd96ab00acd534845ff2850634cd5cc1f80103c87",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/minor-explosion.png",
+      "fileName": "minor-explosion.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 811025,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-6B5F97E3C77583F0",
+      "sha256": "6b5f97e3c77583f02a12bffc690ae559825ffd1d519d29a7843a74567004aa30",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/minor-hull-breach.png",
+      "fileName": "minor-hull-breach.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 715258,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-F2EC7F249E2400A1",
+      "sha256": "f2ec7f249e2400a13f2f5284c4589ff152c3f0e8dc806469bfc3a85a36346909",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/munitions-failure.png",
+      "fileName": "munitions-failure.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 703251,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-7C80F90379A38215",
+      "sha256": "7c80f90379a38215839ba6c54452bfe4d480958c7d4d472ebe5c6182e6394017",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/structural-damage.png",
+      "fileName": "structural-damage.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 731652,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-C467C296E1F14CF5",
+      "sha256": "c467c296e1f14cf587bab5995fcc66f650d50bda9fbc2baf5239f90198c20cb3",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/stunned-pilot.png",
+      "fileName": "stunned-pilot.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 735313,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-20438C349883621C",
+      "sha256": "20438c349883621ce91d90cbf346372b0478ef0c495f20236774978ec46a4c06",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/thrust-control-fire.png",
+      "fileName": "thrust-control-fire.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 805001,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-C21CF5C8371CC70B",
+      "sha256": "c21cf5c8371cc70b4a934ddbc820868dba848b93da85c26e7dabe223671e48e4",
+      "repositoryPath": "assets/source/unified1e/damage-decks/core/weapon-malfunction.png",
+      "fileName": "weapon-malfunction.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 722292,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
       "assetId": "AST-CD205C0293CD3A6C",
       "sha256": "cd205c0293cd3a6c27bd0afd517a8abb0604409b9e6c5c84257786c4ed2cd1aa",
       "repositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/back.png",
@@ -37670,6 +38120,21 @@
       "warehouse": "unified1e",
       "isGenerated": false,
       "sizeBytes": 37536,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-386C6DAE1DBA317F",
+      "sha256": "386c6dae1dba317f0c5395debb1f38e9d163002780ccd5d98e3e1e0f70c82177",
+      "repositoryPath": "assets/source/unified1e/reference/cards/standard-damage-decks.json",
+      "fileName": "standard-damage-decks.json",
+      "extension": ".json",
+      "assetType": "json",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 15256,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -106286,450 +106751,450 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-7A5B345DAA468436",
-      "sha256": "7a5b345daa468436c70eaecdea7391f65bc285233c7d2d5b3990c6677f8b2eec",
+      "assetId": "AST-15F9A45BDC2626D1",
+      "sha256": "15f9a45bdc2626d13e849925add0c54e652dee15760b70965f9d2f69146bf0ae",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/back.png",
       "fileName": "back.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 130486,
+      "sizeBytes": 964961,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-5BB94C4D3F9379CA",
-      "sha256": "5bb94c4d3f9379ca3e6fe7deceec2cbefee6222e2a9e79411a6b8c5d7b2ea912",
+      "assetId": "AST-5B2AAE4E8E381AD0",
+      "sha256": "5b2aae4e8e381ad092e9282cfdb3f77da87c104def7a77682a667703d2824736",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/blinded-pilot.png",
       "fileName": "blinded-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39725,
+      "sizeBytes": 777014,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-958E7CA1AEEE95CF",
-      "sha256": "958e7ca1aeee95cf60bffbe1727373aa05dbc71b5330ee95bd315abed2485814",
+      "assetId": "AST-EFD7F2DD1B22CCF9",
+      "sha256": "efd7f2dd1b22ccf9c3029df6c9cca1ef964d61b57e27ab460a4125a2661b1ec2",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/console-fire.png",
       "fileName": "console-fire.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39751,
+      "sizeBytes": 812857,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-98160D3E4C2D45BE",
-      "sha256": "98160d3e4c2d45bee6da0b85e5e5663f0de3c37687f6e8646262778452a60789",
+      "assetId": "AST-64A044B342B87145",
+      "sha256": "64a044b342b87145d7b7df029938527329b6a518c5abc8665dad0cb4f4cf531f",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-cockpit.png",
       "fileName": "damaged-cockpit.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39727,
+      "sizeBytes": 721983,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-6BB77757AAEECD7F",
-      "sha256": "6bb77757aaeecd7f42775affb717a14d73566b9b98eac3aedf9d465507b5b980",
+      "assetId": "AST-30ADEF9F08F10D10",
+      "sha256": "30adef9f08f10d10ce6bcd712abd724f4a806be0c1e8250a81c6a2d7c85150f3",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-engine.png",
       "fileName": "damaged-engine.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 37926,
+      "sizeBytes": 714699,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-7FFBA7E858A46F4C",
-      "sha256": "7ffba7e858a46f4cb47d926ef98d47f072d9895dde40c16c71dfead70ffbfd51",
+      "assetId": "AST-561A4CF6D6F7CE61",
+      "sha256": "561a4cf6d6f7ce616801ffd04e2fabec8f4d97e43096f8b739928e62704d4c30",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-sensor-array.png",
       "fileName": "damaged-sensor-array.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 42019,
+      "sizeBytes": 848971,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-1DBDF1BD3586FA7B",
-      "sha256": "1dbdf1bd3586fa7b6f77ed9d2506e1fbae3b5bfb96478981484bdbffd29479d6",
+      "assetId": "AST-2DA8B98B5050D36B",
+      "sha256": "2da8b98b5050d36b07a7d37363b14a2d7ee93646f00813edddb85716f4105a55",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/direct-hit.png",
       "fileName": "direct-hit.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39425,
+      "sizeBytes": 787168,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-DDB91F67CF672D0E",
-      "sha256": "ddb91f67cf672d0edac4f8623a35e864f837bc5ee2a4a3cba80d3db7b873db7e",
+      "assetId": "AST-D9637B53DA362AAC",
+      "sha256": "d9637b53da362aac24d67e80ba51b673b93719e4a521af428cde61b2a74e807a",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/loose-stabilizer.png",
       "fileName": "loose-stabilizer.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 38708,
+      "sizeBytes": 720808,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-CB92DA368CAD8F23",
-      "sha256": "cb92da368cad8f231cf2cb531ffefcc7871dcafbd774b9e54b4bb477656b90ff",
+      "assetId": "AST-53ECD652B6FFF2E6",
+      "sha256": "53ecd652b6fff2e6885e67e3390ddb7534cd46b31aacb37c29a95970d3353fdf",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-explosion.png",
       "fileName": "major-explosion.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39333,
+      "sizeBytes": 777526,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-1FC4523D81212082",
-      "sha256": "1fc4523d812120824f8b133c3a125ce13baa1c429c32d6d04a52d36df9ee6c26",
+      "assetId": "AST-2AD7671B6F49AE8B",
+      "sha256": "2ad7671b6f49ae8b25a7912b47f6d1d4099118f3ce99204a06cfaee4a6aabb8a",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-hull-breach.png",
       "fileName": "major-hull-breach.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 40417,
+      "sizeBytes": 762654,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-9F4E1B93202D9A3B",
-      "sha256": "9f4e1b93202d9a3b9ad714ca9de1c530fad2b41b1264206e5b3a419331ffb030",
+      "assetId": "AST-002DEACEC21593A6",
+      "sha256": "002deacec21593a63fc517105f69610e9a1d524112da68a03a28af77974dfcd9",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/shaken-pilot.png",
       "fileName": "shaken-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 40508,
+      "sizeBytes": 837448,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-C583C55BA951E809",
-      "sha256": "c583c55ba951e8095abcf8cc79e8c94c885ce2dc254f028f822fa3ca62af721d",
+      "assetId": "AST-8F41DD56F7DA3828",
+      "sha256": "8f41dd56f7da382813090819bf911bc43534dc916a6e629ac6b622675b3c7310",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/structural-damage.png",
       "fileName": "structural-damage.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 40374,
+      "sizeBytes": 754116,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-D7D439C429C0396F",
-      "sha256": "d7d439c429c0396f928d80e539654bd78473f843537ab9ca6b67520da07bf9e1",
+      "assetId": "AST-5F69F619AA7070ED",
+      "sha256": "5f69f619aa7070ed97b5f13c4c2ddba4bb7bffe701b775492a64c708f28fddb2",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/stunned-pilot.png",
       "fileName": "stunned-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 39774,
+      "sizeBytes": 753826,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-B7CD79063E568A6B",
-      "sha256": "b7cd79063e568a6bc2296579d480c8bd9206335f8ff9f63e869cd10fa1ee1825",
+      "assetId": "AST-2C21D94FF38600E6",
+      "sha256": "2c21d94ff38600e6175ffc009e5a3ad1c457e9cceb7a8ccb563c360d3e2ad5ff",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/thrust-control-fire.png",
       "fileName": "thrust-control-fire.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 38956,
+      "sizeBytes": 810759,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-4D281B44ACEB8C1B",
-      "sha256": "4d281b44aceb8c1b8f7643a17b1a2b47312c8c408b600e367f7148091313f78c",
+      "assetId": "AST-963E64002B7CEAF6",
+      "sha256": "963e64002b7ceaf60008f17b99b84c8e5d8b5fa964027f189985ae0a124166c4",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/weapons-failure.png",
       "fileName": "weapons-failure.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 40192,
+      "sizeBytes": 733443,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-8654CF76248EFC8C",
-      "sha256": "8654cf76248efc8ce7a30af8dabcb26ca45a6d36d855c25812738707cf48107e",
+      "assetId": "AST-8CC4A4588CCB49BE",
+      "sha256": "8cc4a4588ccb49be6c6d722ac109b258676ce225888d8ea8a58afff70d797438",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/back.png",
       "fileName": "back.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 119160,
+      "sizeBytes": 965006,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-B868B577A841F871",
-      "sha256": "b868b577a841f871e116f23f9a071b65c228c1f5b1a1f223f088401744224184",
+      "assetId": "AST-35D8BF4D90DA1A52",
+      "sha256": "35d8bf4d90da1a52c2223974cbdbbea26878f04e6d5e6aa2634b7714acdeec20",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/blinded-pilot.png",
       "fileName": "blinded-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44158,
+      "sizeBytes": 695188,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-387E1AB2BE421600",
-      "sha256": "387e1ab2be4216000eff7a0d52aa183ade477458c76855dd195311cdc764f209",
+      "assetId": "AST-BD11C767C7F2930B",
+      "sha256": "bd11c767c7f2930b4e1c4a22683b85deb3706e8705f97445400e38506cee4b72",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/console-fire.png",
       "fileName": "console-fire.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44945,
+      "sizeBytes": 771084,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-33A98DB3B4F3B97A",
-      "sha256": "33a98db3b4f3b97a34421338fc82a4b3e626ecd945033e85ef9d40da4eb4db4e",
+      "assetId": "AST-33ABC5FEF6032F2E",
+      "sha256": "33abc5fef6032f2e77fa4530536b8825f5478e41aa6c74fe22bfa07113468326",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-cockpit.png",
       "fileName": "damaged-cockpit.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 43663,
+      "sizeBytes": 692798,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-6D26C78574C59C68",
-      "sha256": "6d26c78574c59c681c9c16dbecf4e9669df78fa4e1c113ea40c81da24c9b4cc8",
+      "assetId": "AST-5EA080279BFC9820",
+      "sha256": "5ea080279bfc9820eb0199c2048bb4a4a8c31c3e2450c7de4f9693ea8436c798",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-engine.png",
       "fileName": "damaged-engine.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 43789,
+      "sizeBytes": 715075,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-7C0E4AEF895993B6",
-      "sha256": "7c0e4aef895993b62a818532fa8898d103e61037b95e16bccdddaac18ed5698f",
+      "assetId": "AST-7D8D9A8F76B50D70",
+      "sha256": "7d8d9a8f76b50d704f38874fd608629166a93910bf9019801aedbf1ed6e0c94b",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-sensor-array.png",
       "fileName": "damaged-sensor-array.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44068,
+      "sizeBytes": 707299,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-715536A89E50D8DC",
-      "sha256": "715536a89e50d8dc12fd6ea93da0ecb7236a01a6afccb60642c9dfb18d73b430",
+      "assetId": "AST-39A07AB1DFF43506",
+      "sha256": "39a07ab1dff43506a668b3cbb2ca539052576979a0e0e5137756b4a11f97d7e8",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/direct-hit.png",
       "fileName": "direct-hit.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 42512,
+      "sizeBytes": 756680,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-B76C0E2D01D4C625",
-      "sha256": "b76c0e2d01d4c6250ef8d2ec786085ea9fc0b47d6d81244e7c5c1fbcf24605a2",
+      "assetId": "AST-99D227874C7A2004",
+      "sha256": "99d227874c7a20041f8d953882b8cc1b1cfbd384344c62455a5e167f2d0b3388",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/injured-pilot.png",
       "fileName": "injured-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 43017,
+      "sizeBytes": 736312,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-E4D5623D42D5B160",
-      "sha256": "e4d5623d42d5b160bae7ac9fd66339e8426513c0a15163dfc93564853051b52b",
+      "assetId": "AST-E9A3622F24B35876",
+      "sha256": "e9a3622f24b35876926f1dabd96ab00acd534845ff2850634cd5cc1f80103c87",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-explosion.png",
       "fileName": "minor-explosion.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 45233,
+      "sizeBytes": 811025,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-2D6E3DE7319227B2",
-      "sha256": "2d6e3de7319227b2c36dcf22ab5994b94ad6829e30afc5dcdea489da5cba3d9b",
+      "assetId": "AST-6B5F97E3C77583F0",
+      "sha256": "6b5f97e3c77583f02a12bffc690ae559825ffd1d519d29a7843a74567004aa30",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-hull-breach.png",
       "fileName": "minor-hull-breach.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44612,
+      "sizeBytes": 715258,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-472EC83A15D24335",
-      "sha256": "472ec83a15d2433535e2b7e023dc4c2d6f4ba19ce05855d327b858c65e3543c6",
+      "assetId": "AST-F2EC7F249E2400A1",
+      "sha256": "f2ec7f249e2400a13f2f5284c4589ff152c3f0e8dc806469bfc3a85a36346909",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/munitions-failure.png",
       "fileName": "munitions-failure.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 45036,
+      "sizeBytes": 703251,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-F874AEB3299FA43F",
-      "sha256": "f874aeb3299fa43f079de5cb3ce3a9adbfaec1001a48deb5e09a48a92915653b",
+      "assetId": "AST-7C80F90379A38215",
+      "sha256": "7c80f90379a38215839ba6c54452bfe4d480958c7d4d472ebe5c6182e6394017",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/structural-damage.png",
       "fileName": "structural-damage.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44780,
+      "sizeBytes": 731652,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-6BB00120E403C190",
-      "sha256": "6bb00120e403c19004f579234e27d63b60de9804e8d2881159f7d284bb6a6e9d",
+      "assetId": "AST-C467C296E1F14CF5",
+      "sha256": "c467c296e1f14cf587bab5995fcc66f650d50bda9fbc2baf5239f90198c20cb3",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/stunned-pilot.png",
       "fileName": "stunned-pilot.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 44366,
+      "sizeBytes": 735313,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-BABD5FC1C43EFB9A",
-      "sha256": "babd5fc1c43efb9ac75cd5a6dac4c3bbeb9d3c9a4dc77592dfdcfd03ad466b85",
+      "assetId": "AST-20438C349883621C",
+      "sha256": "20438c349883621ce91d90cbf346372b0478ef0c495f20236774978ec46a4c06",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/thrust-control-fire.png",
       "fileName": "thrust-control-fire.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 43097,
+      "sizeBytes": 805001,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-61FF1CF3B05638C3",
-      "sha256": "61ff1cf3b05638c3cc993e5d4adaa2bae62dd7eb393847bbe38f8cb5cf4a6ec8",
+      "assetId": "AST-C21CF5C8371CC70B",
+      "sha256": "c21cf5c8371cc70b4a934ddbc820868dba848b93da85c26e7dabe223671e48e4",
       "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/weapon-malfunction.png",
       "fileName": "weapon-malfunction.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "xwing-data",
       "isGenerated": false,
-      "sizeBytes": 45107,
+      "sizeBytes": 722292,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -130648,6 +131113,14 @@
       ]
     },
     {
+      "assetId": "AST-002DEACEC21593A6",
+      "sha256": "002deacec21593a63fc517105f69610e9a1d524112da68a03a28af77974dfcd9",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/shaken-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/shaken-pilot.png"
+      ]
+    },
+    {
       "assetId": "AST-004CE809A91B6529",
       "sha256": "004ce809a91b65290ce4dc54c0d9b75a3ad3d832a00e03c62013ed155e427295",
       "repositoryPaths": [
@@ -131256,6 +131729,14 @@
       ]
     },
     {
+      "assetId": "AST-15F9A45BDC2626D1",
+      "sha256": "15f9a45bdc2626d13e849925add0c54e652dee15760b70965f9d2f69146bf0ae",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/back.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/back.png"
+      ]
+    },
+    {
       "assetId": "AST-16AE8ADC91AAB711",
       "sha256": "16ae8adc91aab71121386d91b3c75e1e3306fe65cae81e71205b6281cc3ac445",
       "repositoryPaths": [
@@ -131520,6 +132001,14 @@
       ]
     },
     {
+      "assetId": "AST-20438C349883621C",
+      "sha256": "20438c349883621ce91d90cbf346372b0478ef0c495f20236774978ec46a4c06",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/thrust-control-fire.png",
+        "assets/source/xwing-data/images/damage-decks/core/thrust-control-fire.png"
+      ]
+    },
+    {
       "assetId": "AST-20A810912A9B45E7",
       "sha256": "20a810912a9b45e7f880af475c5869224fde199863f0fdc657527e758ab11015",
       "repositoryPaths": [
@@ -131776,6 +132265,14 @@
       ]
     },
     {
+      "assetId": "AST-2AD7671B6F49AE8B",
+      "sha256": "2ad7671b6f49ae8b25a7912b47f6d1d4099118f3ce99204a06cfaee4a6aabb8a",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/major-hull-breach.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/major-hull-breach.png"
+      ]
+    },
+    {
       "assetId": "AST-2B444454F8EFFFB5",
       "sha256": "2b444454f8efffb5a3658f1e1a8ea423838eb4793103fb3dd6219a362efd20fb",
       "repositoryPaths": [
@@ -131824,6 +132321,14 @@
       ]
     },
     {
+      "assetId": "AST-2C21D94FF38600E6",
+      "sha256": "2c21d94ff38600e6175ffc009e5a3ad1c457e9cceb7a8ccb563c360d3e2ad5ff",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/thrust-control-fire.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/thrust-control-fire.png"
+      ]
+    },
+    {
       "assetId": "AST-2C4761E89838CC54",
       "sha256": "2c4761e89838cc5489516d51b114bf4e353f84fefe79d35c86470c2e554ee9db",
       "repositoryPaths": [
@@ -131861,6 +132366,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png",
         "assets/source/unified1e/pilot-tokens/scumandvillainy/quadjumper/unkarplutt__pilot-92cc97d0c2a9.png"
+      ]
+    },
+    {
+      "assetId": "AST-2DA8B98B5050D36B",
+      "sha256": "2da8b98b5050d36b07a7d37363b14a2d7ee93646f00813edddb85716f4105a55",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/direct-hit.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/direct-hit.png"
       ]
     },
     {
@@ -131968,6 +132481,14 @@
       ]
     },
     {
+      "assetId": "AST-30ADEF9F08F10D10",
+      "sha256": "30adef9f08f10d10ce6bcd712abd724f4a806be0c1e8250a81c6a2d7c85150f3",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/damaged-engine.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-engine.png"
+      ]
+    },
+    {
       "assetId": "AST-30B7F62478D9FC5C",
       "sha256": "30b7f62478d9fc5cb61222b86f8f12210d88a2144baa265fd4e38b2a60bd74e6",
       "repositoryPaths": [
@@ -132056,6 +132577,14 @@
       ]
     },
     {
+      "assetId": "AST-33ABC5FEF6032F2E",
+      "sha256": "33abc5fef6032f2e77fa4530536b8825f5478e41aa6c74fe22bfa07113468326",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/damaged-cockpit.png",
+        "assets/source/xwing-data/images/damage-decks/core/damaged-cockpit.png"
+      ]
+    },
+    {
       "assetId": "AST-342C504EE4826922",
       "sha256": "342c504ee482692222f5e2550fd298484b8bbf6f47daa02b9856a8e635eca36b",
       "repositoryPaths": [
@@ -132120,6 +132649,14 @@
       ]
     },
     {
+      "assetId": "AST-35D8BF4D90DA1A52",
+      "sha256": "35d8bf4d90da1a52c2223974cbdbbea26878f04e6d5e6aa2634b7714acdeec20",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/blinded-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core/blinded-pilot.png"
+      ]
+    },
+    {
       "assetId": "AST-361C6984FDBC42E8",
       "sha256": "361c6984fdbc42e872cc1bf8b444683b482d9daa12eee35d9e5656e559d2abb4",
       "repositoryPaths": [
@@ -132157,6 +132694,14 @@
       "repositoryPaths": [
         "assets/source/unified1e/upgrade-cards/crew/deathtroopers.png",
         "assets/source/xwing-data/images/upgrades/Crew/death-troopers.png"
+      ]
+    },
+    {
+      "assetId": "AST-39A07AB1DFF43506",
+      "sha256": "39a07ab1dff43506a668b3cbb2ca539052576979a0e0e5137756b4a11f97d7e8",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/direct-hit.png",
+        "assets/source/xwing-data/images/damage-decks/core/direct-hit.png"
       ]
     },
     {
@@ -132976,6 +133521,14 @@
       ]
     },
     {
+      "assetId": "AST-53ECD652B6FFF2E6",
+      "sha256": "53ecd652b6fff2e6885e67e3390ddb7534cd46b31aacb37c29a95970d3353fdf",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/major-explosion.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/major-explosion.png"
+      ]
+    },
+    {
       "assetId": "AST-53FA2174731075A6",
       "sha256": "53fa2174731075a6286bee936b96562e87811352b07f1fb92f3d1acb5ab2f95f",
       "repositoryPaths": [
@@ -133053,6 +133606,14 @@
       "repositoryPaths": [
         "assets/source/unified1e/upgrade-cards/title/enforcer.png",
         "assets/source/xwing-data/images/upgrades/Title/enforcer.png"
+      ]
+    },
+    {
+      "assetId": "AST-561A4CF6D6F7CE61",
+      "sha256": "561a4cf6d6f7ce616801ffd04e2fabec8f4d97e43096f8b739928e62704d4c30",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/damaged-sensor-array.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-sensor-array.png"
       ]
     },
     {
@@ -133216,6 +133777,14 @@
       ]
     },
     {
+      "assetId": "AST-5B2AAE4E8E381AD0",
+      "sha256": "5b2aae4e8e381ad092e9282cfdb3f77da87c104def7a77682a667703d2824736",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/blinded-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/blinded-pilot.png"
+      ]
+    },
+    {
       "assetId": "AST-5B6D103EC21D4F5F",
       "sha256": "5b6d103ec21d4f5f9d46a973b910ae41708433469dd2c9933076b571f68217bd",
       "repositoryPaths": [
@@ -133272,6 +133841,14 @@
       ]
     },
     {
+      "assetId": "AST-5EA080279BFC9820",
+      "sha256": "5ea080279bfc9820eb0199c2048bb4a4a8c31c3e2450c7de4f9693ea8436c798",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/damaged-engine.png",
+        "assets/source/xwing-data/images/damage-decks/core/damaged-engine.png"
+      ]
+    },
+    {
       "assetId": "AST-5EA18AB1FA8530C7",
       "sha256": "5ea18ab1fa8530c787372d8585d42a2be98d029dfb64cbbd0efb4ab93f5ae543",
       "repositoryPaths": [
@@ -133301,6 +133878,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/rebelalliance/awing/gemmersojan__pilot-19d285178ac9.png",
         "assets/source/unified1e/pilot-tokens/rebelalliance/awing/gemmersojan__pilot-19d285178ac9.png"
+      ]
+    },
+    {
+      "assetId": "AST-5F69F619AA7070ED",
+      "sha256": "5f69f619aa7070ed97b5f13c4c2ddba4bb7bffe701b775492a64c708f28fddb2",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/stunned-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/stunned-pilot.png"
       ]
     },
     {
@@ -133421,6 +134006,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png",
         "assets/source/unified1e/pilot-tokens/galacticempire/firespray31/krassistrelix__pilot-75fab3afe0af.png"
+      ]
+    },
+    {
+      "assetId": "AST-64A044B342B87145",
+      "sha256": "64a044b342b87145d7b7df029938527329b6a518c5abc8665dad0cb4f4cf531f",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/damaged-cockpit.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-cockpit.png"
       ]
     },
     {
@@ -133677,6 +134270,14 @@
       "repositoryPaths": [
         "assets/source/unified1e/upgrade-cards/title/starvipermkii.png",
         "assets/source/xwing-data/images/upgrades/Title/starviper-mk-ii.png"
+      ]
+    },
+    {
+      "assetId": "AST-6B5F97E3C77583F0",
+      "sha256": "6b5f97e3c77583f02a12bffc690ae559825ffd1d519d29a7843a74567004aa30",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/minor-hull-breach.png",
+        "assets/source/xwing-data/images/damage-decks/core/minor-hull-breach.png"
       ]
     },
     {
@@ -134112,6 +134713,14 @@
       ]
     },
     {
+      "assetId": "AST-7C80F90379A38215",
+      "sha256": "7c80f90379a38215839ba6c54452bfe4d480958c7d4d472ebe5c6182e6394017",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/structural-damage.png",
+        "assets/source/xwing-data/images/damage-decks/core/structural-damage.png"
+      ]
+    },
+    {
       "assetId": "AST-7C9B2F2C9B93F90D",
       "sha256": "7c9b2f2c9b93f90d9803fe950b0e783cadfa8dc19f4569aa7a4886b5e78594c7",
       "repositoryPaths": [
@@ -134173,6 +134782,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/galacticempire/tieadvanced/darthvader__pilot-31738df69b79.png",
         "assets/source/unified1e/pilot-tokens/galacticempire/tieadvanced/darthvader__pilot-31738df69b79.png"
+      ]
+    },
+    {
+      "assetId": "AST-7D8D9A8F76B50D70",
+      "sha256": "7d8d9a8f76b50d704f38874fd608629166a93910bf9019801aedbf1ed6e0c94b",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/damaged-sensor-array.png",
+        "assets/source/xwing-data/images/damage-decks/core/damaged-sensor-array.png"
       ]
     },
     {
@@ -134560,6 +135177,14 @@
       ]
     },
     {
+      "assetId": "AST-8CC4A4588CCB49BE",
+      "sha256": "8cc4a4588ccb49be6c6d722ac109b258676ce225888d8ea8a58afff70d797438",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/back.png",
+        "assets/source/xwing-data/images/damage-decks/core/back.png"
+      ]
+    },
+    {
       "assetId": "AST-8D0D2B668979F912",
       "sha256": "8d0d2b668979f9120cd73b52a8810501db7a4a63ac8878ed5dfdc63337034575",
       "repositoryPaths": [
@@ -134629,6 +135254,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png",
         "assets/source/unified1e/pilot-tokens/galacticempire/tiefighter/academypilot__pilot-da5161ba5569.png"
+      ]
+    },
+    {
+      "assetId": "AST-8F41DD56F7DA3828",
+      "sha256": "8f41dd56f7da382813090819bf911bc43534dc916a6e629ac6b622675b3c7310",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/structural-damage.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/structural-damage.png"
       ]
     },
     {
@@ -134776,6 +135409,14 @@
       ]
     },
     {
+      "assetId": "AST-963E64002B7CEAF6",
+      "sha256": "963e64002b7ceaf60008f17b99b84c8e5d8b5fa964027f189985ae0a124166c4",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/weapons-failure.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/weapons-failure.png"
+      ]
+    },
+    {
       "assetId": "AST-9669858FC02A91E2",
       "sha256": "9669858fc02a91e28b7724435b56f9dc8b02a621237fa4594050356230448d88",
       "repositoryPaths": [
@@ -134901,6 +135542,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/rebelalliance/uwing/magvayarro__pilot-c1cd7d44a8ef.png",
         "assets/source/unified1e/pilot-tokens/rebelalliance/uwing/magvayarro__pilot-c1cd7d44a8ef.png"
+      ]
+    },
+    {
+      "assetId": "AST-99D227874C7A2004",
+      "sha256": "99d227874c7a20041f8d953882b8cc1b1cfbd384344c62455a5e167f2d0b3388",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/injured-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core/injured-pilot.png"
       ]
     },
     {
@@ -135864,6 +136513,14 @@
       ]
     },
     {
+      "assetId": "AST-BD11C767C7F2930B",
+      "sha256": "bd11c767c7f2930b4e1c4a22683b85deb3706e8705f97445400e38506cee4b72",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/console-fire.png",
+        "assets/source/xwing-data/images/damage-decks/core/console-fire.png"
+      ]
+    },
+    {
       "assetId": "AST-BD6AB90CCDF81045",
       "sha256": "bd6ab90ccdf810450cc4a1b3523a2a6df1ce3b2f2ac5f40581e431799919110a",
       "repositoryPaths": [
@@ -136000,6 +136657,14 @@
       ]
     },
     {
+      "assetId": "AST-C21CF5C8371CC70B",
+      "sha256": "c21cf5c8371cc70b4a934ddbc820868dba848b93da85c26e7dabe223671e48e4",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/weapon-malfunction.png",
+        "assets/source/xwing-data/images/damage-decks/core/weapon-malfunction.png"
+      ]
+    },
+    {
       "assetId": "AST-C25447E7C2CC1C92",
       "sha256": "c25447e7c2cc1c92f32139ac703d2c884f816ed773fc5dcdafaf23fac7110a50",
       "repositoryPaths": [
@@ -136061,6 +136726,14 @@
       "repositoryPaths": [
         "assets/source/unified1e/condition-cards/illshowyouthedarkside/front.png",
         "assets/source/xwing-data/images/conditions/ill-show-you-the-dark-side.png"
+      ]
+    },
+    {
+      "assetId": "AST-C467C296E1F14CF5",
+      "sha256": "c467c296e1f14cf587bab5995fcc66f650d50bda9fbc2baf5239f90198c20cb3",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/stunned-pilot.png",
+        "assets/source/xwing-data/images/damage-decks/core/stunned-pilot.png"
       ]
     },
     {
@@ -136568,6 +137241,14 @@
       ]
     },
     {
+      "assetId": "AST-D9637B53DA362AAC",
+      "sha256": "d9637b53da362aac24d67e80ba51b673b93719e4a521af428cde61b2a74e807a",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/loose-stabilizer.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/loose-stabilizer.png"
+      ]
+    },
+    {
       "assetId": "AST-D966139A27AB1E0E",
       "sha256": "d966139a27ab1e0e4c97b47d8a808fe3c2e6f6f784962b81d76bfab17c334129",
       "repositoryPaths": [
@@ -136960,6 +137641,14 @@
       ]
     },
     {
+      "assetId": "AST-E9A3622F24B35876",
+      "sha256": "e9a3622f24b35876926f1dabd96ab00acd534845ff2850634cd5cc1f80103c87",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/minor-explosion.png",
+        "assets/source/xwing-data/images/damage-decks/core/minor-explosion.png"
+      ]
+    },
+    {
       "assetId": "AST-E9B1E76CFD606C4C",
       "sha256": "e9b1e76cfd606c4c309c00184589e24606e3c490d4fc26fd52cf9f453e06b894",
       "repositoryPaths": [
@@ -137104,6 +137793,14 @@
       ]
     },
     {
+      "assetId": "AST-EFD7F2DD1B22CCF9",
+      "sha256": "efd7f2dd1b22ccf9c3029df6c9cca1ef964d61b57e27ab460a4125a2661b1ec2",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core-tfa/console-fire.png",
+        "assets/source/xwing-data/images/damage-decks/core-tfa/console-fire.png"
+      ]
+    },
+    {
       "assetId": "AST-EFFBE990493C0689",
       "sha256": "effbe990493c0689467993ed73134e7c5846b1fffb67a50804ce3c292f9721eb",
       "repositoryPaths": [
@@ -137197,6 +137894,14 @@
       "repositoryPaths": [
         "assets/source/first-edition-dials/scumandvillainy/quadjumper.jpg",
         "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/images/asset__43b7de6f89731e34.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-F2EC7F249E2400A1",
+      "sha256": "f2ec7f249e2400a13f2f5284c4589ff152c3f0e8dc806469bfc3a85a36346909",
+      "repositoryPaths": [
+        "assets/source/unified1e/damage-decks/core/munitions-failure.png",
+        "assets/source/xwing-data/images/damage-decks/core/munitions-failure.png"
       ]
     },
     {

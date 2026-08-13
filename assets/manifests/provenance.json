@@ -12176,6 +12176,246 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-15F9A45BDC2626D1",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5B2AAE4E8E381AD0",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/blinded-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EFD7F2DD1B22CCF9",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/console-fire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-64A044B342B87145",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-cockpit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-30ADEF9F08F10D10",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-engine.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-561A4CF6D6F7CE61",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-sensor-array.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2DA8B98B5050D36B",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/direct-hit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D9637B53DA362AAC",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/loose-stabilizer.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-53ECD652B6FFF2E6",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-explosion.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2AD7671B6F49AE8B",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-hull-breach.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-002DEACEC21593A6",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/shaken-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8F41DD56F7DA3828",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/structural-damage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5F69F619AA7070ED",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/stunned-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2C21D94FF38600E6",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/thrust-control-fire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-963E64002B7CEAF6",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core-tfa/weapons-failure.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8CC4A4588CCB49BE",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/back.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-35D8BF4D90DA1A52",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/blinded-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BD11C767C7F2930B",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/console-fire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-33ABC5FEF6032F2E",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-cockpit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5EA080279BFC9820",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-engine.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7D8D9A8F76B50D70",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/damaged-sensor-array.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-39A07AB1DFF43506",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/direct-hit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-99D227874C7A2004",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/injured-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E9A3622F24B35876",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/minor-explosion.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6B5F97E3C77583F0",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/minor-hull-breach.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F2EC7F249E2400A1",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/munitions-failure.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7C80F90379A38215",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/structural-damage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C467C296E1F14CF5",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/stunned-pilot.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-20438C349883621C",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/thrust-control-fire.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C21CF5C8371CC70B",
+    "repositoryPath": "assets/source/unified1e/damage-decks/core/weapon-malfunction.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-CD205C0293CD3A6C",
     "repositoryPath": "assets/source/unified1e/damage-decks/cr90corvette/aft/back.png",
     "origin": "unified1e",
@@ -17594,6 +17834,14 @@
   {
     "assetId": "AST-643B9680D9944448",
     "repositoryPath": "assets/source/unified1e/reference/cards/epic-damage-decks.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-386C6DAE1DBA317F",
+    "repositoryPath": "assets/source/unified1e/reference/cards/standard-damage-decks.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -44080,7 +44328,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7A5B345DAA468436",
+    "assetId": "AST-15F9A45BDC2626D1",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/back.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44088,7 +44336,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-5BB94C4D3F9379CA",
+    "assetId": "AST-5B2AAE4E8E381AD0",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/blinded-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44096,7 +44344,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-958E7CA1AEEE95CF",
+    "assetId": "AST-EFD7F2DD1B22CCF9",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/console-fire.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44104,7 +44352,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-98160D3E4C2D45BE",
+    "assetId": "AST-64A044B342B87145",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-cockpit.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44112,7 +44360,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6BB77757AAEECD7F",
+    "assetId": "AST-30ADEF9F08F10D10",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-engine.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44120,7 +44368,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7FFBA7E858A46F4C",
+    "assetId": "AST-561A4CF6D6F7CE61",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-sensor-array.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44128,7 +44376,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-1DBDF1BD3586FA7B",
+    "assetId": "AST-2DA8B98B5050D36B",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/direct-hit.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44136,7 +44384,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-DDB91F67CF672D0E",
+    "assetId": "AST-D9637B53DA362AAC",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/loose-stabilizer.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44144,7 +44392,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-CB92DA368CAD8F23",
+    "assetId": "AST-53ECD652B6FFF2E6",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-explosion.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44152,7 +44400,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-1FC4523D81212082",
+    "assetId": "AST-2AD7671B6F49AE8B",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-hull-breach.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44160,7 +44408,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-9F4E1B93202D9A3B",
+    "assetId": "AST-002DEACEC21593A6",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/shaken-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44168,7 +44416,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-C583C55BA951E809",
+    "assetId": "AST-8F41DD56F7DA3828",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/structural-damage.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44176,7 +44424,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-D7D439C429C0396F",
+    "assetId": "AST-5F69F619AA7070ED",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/stunned-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44184,7 +44432,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-B7CD79063E568A6B",
+    "assetId": "AST-2C21D94FF38600E6",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/thrust-control-fire.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44192,7 +44440,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-4D281B44ACEB8C1B",
+    "assetId": "AST-963E64002B7CEAF6",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/weapons-failure.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44200,7 +44448,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-8654CF76248EFC8C",
+    "assetId": "AST-8CC4A4588CCB49BE",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/back.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44208,7 +44456,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-B868B577A841F871",
+    "assetId": "AST-35D8BF4D90DA1A52",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/blinded-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44216,7 +44464,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-387E1AB2BE421600",
+    "assetId": "AST-BD11C767C7F2930B",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/console-fire.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44224,7 +44472,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-33A98DB3B4F3B97A",
+    "assetId": "AST-33ABC5FEF6032F2E",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-cockpit.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44232,7 +44480,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6D26C78574C59C68",
+    "assetId": "AST-5EA080279BFC9820",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-engine.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44240,7 +44488,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7C0E4AEF895993B6",
+    "assetId": "AST-7D8D9A8F76B50D70",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-sensor-array.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44248,7 +44496,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-715536A89E50D8DC",
+    "assetId": "AST-39A07AB1DFF43506",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/direct-hit.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44256,7 +44504,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-B76C0E2D01D4C625",
+    "assetId": "AST-99D227874C7A2004",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/injured-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44264,7 +44512,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-E4D5623D42D5B160",
+    "assetId": "AST-E9A3622F24B35876",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-explosion.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44272,7 +44520,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-2D6E3DE7319227B2",
+    "assetId": "AST-6B5F97E3C77583F0",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-hull-breach.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44280,7 +44528,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-472EC83A15D24335",
+    "assetId": "AST-F2EC7F249E2400A1",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/munitions-failure.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44288,7 +44536,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-F874AEB3299FA43F",
+    "assetId": "AST-7C80F90379A38215",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/structural-damage.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44296,7 +44544,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6BB00120E403C190",
+    "assetId": "AST-C467C296E1F14CF5",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/stunned-pilot.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44304,7 +44552,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-BABD5FC1C43EFB9A",
+    "assetId": "AST-20438C349883621C",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/thrust-control-fire.png",
     "origin": "xwing-data",
     "isGenerated": false,
@@ -44312,7 +44560,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-61FF1CF3B05638C3",
+    "assetId": "AST-C21CF5C8371CC70B",
     "repositoryPath": "assets/source/xwing-data/images/damage-decks/core/weapon-malfunction.png",
     "origin": "xwing-data",
     "isGenerated": false,

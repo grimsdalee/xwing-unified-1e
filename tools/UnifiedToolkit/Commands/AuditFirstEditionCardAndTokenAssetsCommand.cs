@@ -75,9 +75,9 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
 
             var decks = new[]
             {
-                Deck(dataRoot, artworkRoot, "core", "Core Set", "damage-deck-core.js"),
-                Deck(dataRoot, artworkRoot, "core-tfa", "The Force Awakens Core Set", "damage-deck-core-tfa.js"),
-                Deck(dataRoot, artworkRoot, "rebel-transport", "GR-75 Rebel Transport", "damage-deck-rebel-transport.js")
+                Deck(repository, dataRoot, artworkRoot, "core", "Core Set", "damage-deck-core.js"),
+                Deck(repository, dataRoot, artworkRoot, "core-tfa", "The Force Awakens Core Set", "damage-deck-core-tfa.js"),
+                Deck(repository, dataRoot, artworkRoot, "rebel-transport", "GR-75 Rebel Transport", "damage-deck-rebel-transport.js")
             };
 
             var epicDecks = ExpectedEpicDamageDecks(repository);
@@ -137,6 +137,9 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             Console.WriteLine($"Upgrade-card back types expected: {upgradeCardBacks.Count}");
             Console.WriteLine($"Upgrade-card backs available:     {upgradeCardBacks.Count(row => row.ArtworkAvailable)}");
             Console.WriteLine($"Damage-deck sets present:          {decks.Length}");
+            var standardDecks = decks.Where(deck => deck.CanonicalImportExpected).ToList();
+            Console.WriteLine($"Canonical standard decks complete: {standardDecks.Count(deck => deck.CanonicalArtworkComplete)}/{standardDecks.Count}");
+            Console.WriteLine($"Standard physical cards complete:  {standardDecks.Where(deck => deck.CanonicalArtworkComplete).Sum(deck => deck.PhysicalCardCount)}");
             Console.WriteLine($"Epic ship damage sets expected:   {epicDecks.Select(deck => deck.ShipId).Distinct().Count()}");
             Console.WriteLine($"Epic section decks expected:      {epicDecks.Count}");
             Console.WriteLine($"Epic physical cards expected:     {epicDecks.Sum(deck => deck.PhysicalCardCount)}");
@@ -188,17 +191,38 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
     }
 
     private static DamageDeckAuditRow Deck(
-        string dataRoot, string artworkRoot, string id, string name, string dataFile)
+        string repository, string dataRoot, string artworkRoot, string id, string name, string dataFile)
     {
         var cards = LoadCards(Path.Combine(dataRoot, "data", dataFile), artworkRoot, dataRoot);
         var folder = Path.Combine(artworkRoot, "damage-decks", id);
+        var canonicalFolder = Path.Combine(repository, "assets", "source", "unified1e", "damage-decks", id);
+        var canonicalFaces = cards.Select(card => Path.Combine(canonicalFolder,
+            Path.GetFileName(card.Image))).ToList();
         return new DamageDeckAuditRow
         {
             Id = id,
             Name = name,
             DataRecords = cards.Count,
-            ArtworkFiles = Directory.Exists(folder) ? Directory.EnumerateFiles(folder).Count() : 0
+            ArtworkFiles = Directory.Exists(folder) ? Directory.EnumerateFiles(folder).Count() : 0,
+            PhysicalCardCount = LoadDamageDeckPhysicalCardCount(Path.Combine(dataRoot, "data", dataFile)),
+            CanonicalImportExpected = id is "core" or "core-tfa",
+            CanonicalArtworkFiles = Directory.Exists(canonicalFolder)
+                ? Directory.EnumerateFiles(canonicalFolder, "*.png", SearchOption.TopDirectoryOnly).Count()
+                : 0,
+            CanonicalBackAvailable = File.Exists(Path.Combine(canonicalFolder, "back.png")),
+            CanonicalFacesAvailable = canonicalFaces.Count(File.Exists),
+            CanonicalArtworkComplete = File.Exists(Path.Combine(canonicalFolder, "back.png"))
+                && canonicalFaces.All(File.Exists)
         };
+    }
+
+    private static int LoadDamageDeckPhysicalCardCount(string path)
+    {
+        using var document = JsonDocument.Parse(File.ReadAllText(path));
+        return document.RootElement.EnumerateArray().Sum(item =>
+            item.TryGetProperty("amount", out var amount) && amount.TryGetInt32(out var quantity)
+                ? quantity
+                : 0);
     }
 
     private static List<UpgradeCardBackAuditRow> AuditUpgradeCardBacks(
@@ -430,7 +454,11 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
             $"- Legacy accessory candidates: **{audit.LegacyCandidates.Count}**", "",
             "## Damage decks present", ""
         };
-        lines.AddRange(audit.DamageDecks.Select(deck => $"- {deck.Name}: {deck.DataRecords} records, {deck.ArtworkFiles} artwork files"));
+        lines.AddRange(audit.DamageDecks.Select(deck => deck.CanonicalImportExpected
+            ? $"- {deck.Name}: {deck.DataRecords} unique faces, {deck.PhysicalCardCount} physical cards, " +
+              $"canonical={(deck.CanonicalArtworkComplete ? "complete" : "incomplete")} " +
+              $"({deck.CanonicalFacesAvailable}/{deck.DataRecords} faces, back={(deck.CanonicalBackAvailable ? "available" : "missing")})"
+            : $"- {deck.Name}: {deck.DataRecords} unique faces, {deck.PhysicalCardCount} physical cards; canonical artwork covered by the Epic import"));
         lines.AddRange(new[] { "", "## Upgrade-card backs", "" });
         lines.AddRange(audit.UpgradeCardBacks.Select(back =>
             $"- {back.UpgradeType}: {(back.ArtworkAvailable ? $"available (`{back.RepositoryPath}`)" : $"missing (`{back.ExpectedFileName}`)")}"));
@@ -582,6 +610,12 @@ public sealed class DamageDeckAuditRow
     public string Name { get; init; } = "";
     public int DataRecords { get; init; }
     public int ArtworkFiles { get; init; }
+    public int PhysicalCardCount { get; init; }
+    public bool CanonicalImportExpected { get; init; }
+    public int CanonicalArtworkFiles { get; init; }
+    public int CanonicalFacesAvailable { get; init; }
+    public bool CanonicalBackAvailable { get; init; }
+    public bool CanonicalArtworkComplete { get; init; }
 }
 
 public sealed class LegacyAccessoryCandidate

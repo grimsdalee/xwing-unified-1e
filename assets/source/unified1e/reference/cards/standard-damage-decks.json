@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-08-13T23:08:32.7588541+00:00",
+  "sourceFolder": "assets/source/xwing-data/images/damage-decks",
+  "dataFolder": "source/xwing-data/data",
+  "destinationFolder": "assets/source/unified1e/damage-decks",
+  "deckCount": 2,
+  "physicalCardCount": 66,
+  "uniqueFaceCount": 28,
+  "decks": [
+    {
+      "id": "core",
+      "name": "Core Set",
+      "dataRepositoryPath": "source/xwing-data/data/damage-deck-core.js",
+      "physicalCardCount": 33,
+      "uniqueFaceCount": 14,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/core/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "8CC4A4588CCB49BE6C6D722AC109B258676CE225888D8EA8A58AFFF70D797438",
+      "cards": [
+        {
+          "name": "Blinded Pilot",
+          "xws": "blindedpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/blinded-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/blinded-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "35D8BF4D90DA1A52C2223974CBDBBEA26878F04E6D5E6AA2634B7714ACDEEC20"
+        },
+        {
+          "name": "Console Fire",
+          "xws": "consolefire",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/console-fire.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/console-fire.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "BD11C767C7F2930B4E1C4A22683B85DEB3706E8705F97445400E38506CEE4B72"
+        },
+        {
+          "name": "Damaged Cockpit",
+          "xws": "damagedcockpit",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-cockpit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/damaged-cockpit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "33ABC5FEF6032F2E77FA4530536B8825F5478E41AA6C74FE22BFA07113468326"
+        },
+        {
+          "name": "Damaged Engine",
+          "xws": "damagedengine",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-engine.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/damaged-engine.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "5EA080279BFC9820EB0199C2048BB4A4A8C31C3E2450C7DE4F9693EA8436C798"
+        },
+        {
+          "name": "Damaged Sensor Array",
+          "xws": "damagedsensorarray",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/damaged-sensor-array.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/damaged-sensor-array.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "7D8D9A8F76B50D704F38874FD608629166A93910BF9019801AEDBF1ED6E0C94B"
+        },
+        {
+          "name": "Direct Hit!",
+          "xws": "directhit",
+          "type": "Ship",
+          "quantity": 7,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/direct-hit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/direct-hit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "39A07AB1DFF43506A668B3CBB2CA539052576979A0E0E5137756B4A11F97D7E8"
+        },
+        {
+          "name": "Injured Pilot",
+          "xws": "injuredpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/injured-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/injured-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "99D227874C7A20041F8D953882B8CC1B1CFBD384344C62455A5E167F2D0B3388"
+        },
+        {
+          "name": "Minor Explosion",
+          "xws": "minorexplosion",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-explosion.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/minor-explosion.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "E9A3622F24B35876926F1DABD96AB00ACD534845FF2850634CD5CC1F80103C87"
+        },
+        {
+          "name": "Minor Hull Breach",
+          "xws": "minorhullbreach",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/minor-hull-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/minor-hull-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "6B5F97E3C77583F02A12BFFC690AE559825FFD1D519D29A7843A74567004AA30"
+        },
+        {
+          "name": "Munitions Failure",
+          "xws": "munitionsfailure",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/munitions-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/munitions-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "F2EC7F249E2400A13F2F5284C4589FF152C3F0E8DC806469BFC3A85A36346909"
+        },
+        {
+          "name": "Structural Damage",
+          "xws": "structuraldamage",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/structural-damage.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/structural-damage.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "7C80F90379A38215839BA6C54452BFE4D480958C7D4D472EBE5C6182E6394017"
+        },
+        {
+          "name": "Stunned Pilot",
+          "xws": "stunnedpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/stunned-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/stunned-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C467C296E1F14CF587BAB5995FCC66F650D50BDA9FBC2BAF5239F90198C20CB3"
+        },
+        {
+          "name": "Thrust Control Fire",
+          "xws": "thrustcontrolfire",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/thrust-control-fire.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/thrust-control-fire.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "20438C349883621CE91D90CBF346372B0478EF0C495F20236774978EC46A4C06"
+        },
+        {
+          "name": "Weapon Malfunction",
+          "xws": "weaponmalfunction",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core/weapon-malfunction.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core/weapon-malfunction.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "C21CF5C8371CC70B4A934DDBC820868DBA848B93DA85C26E7DABE223671E48E4"
+        }
+      ]
+    },
+    {
+      "id": "core-tfa",
+      "name": "The Force Awakens Core Set",
+      "dataRepositoryPath": "source/xwing-data/data/damage-deck-core-tfa.js",
+      "physicalCardCount": 33,
+      "uniqueFaceCount": 14,
+      "backRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/back.png",
+      "backWidth": 484,
+      "backHeight": 744,
+      "backSha256": "15F9A45BDC2626D13E849925ADD0C54E652DEE15760B70965F9D2F69146BF0AE",
+      "cards": [
+        {
+          "name": "Shaken Pilot",
+          "xws": "shakenpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/shaken-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/shaken-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "002DEACEC21593A63FC517105F69610E9A1D524112DA68A03A28AF77974DFCD9"
+        },
+        {
+          "name": "Blinded Pilot",
+          "xws": "blindedpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/blinded-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/blinded-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "5B2AAE4E8E381AD092E9282CFDB3F77DA87C104DEF7A77682A667703D2824736"
+        },
+        {
+          "name": "Damaged Cockpit",
+          "xws": "damagedcockpit",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-cockpit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-cockpit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "64A044B342B87145D7B7DF029938527329B6A518C5ABC8665DAD0CB4F4CF531F"
+        },
+        {
+          "name": "Stunned Pilot",
+          "xws": "stunnedpilot",
+          "type": "Pilot",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/stunned-pilot.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/stunned-pilot.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "5F69F619AA7070ED97B5F13C4C2DDBA4BB7BFFE701B775492A64C708F28FDDB2"
+        },
+        {
+          "name": "Console Fire",
+          "xws": "consolefire",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/console-fire.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/console-fire.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "EFD7F2DD1B22CCF9C3029DF6C9CCA1EF964D61B57E27AB460A4125A2661B1EC2"
+        },
+        {
+          "name": "Damaged Engine",
+          "xws": "damagedengine",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-engine.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-engine.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "30ADEF9F08F10D10CE6BCD712ABD724F4A806BE0C1E8250A81C6A2D7C85150F3"
+        },
+        {
+          "name": "Major Explosion",
+          "xws": "majorexplosion",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-explosion.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-explosion.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "53ECD652B6FFF2E6885E67E3390DDB7534CD46B31AACB37C29A95970D3353FDF"
+        },
+        {
+          "name": "Weapons Failure",
+          "xws": "weaponsfailure",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/weapons-failure.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/weapons-failure.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "963E64002B7CEAF60008F17B99B84C8E5D8B5FA964027F189985AE0A124166C4"
+        },
+        {
+          "name": "Major Hull Breach",
+          "xws": "majorhullbreach",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/major-hull-breach.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/major-hull-breach.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "2AD7671B6F49AE8B25A7912B47F6D1D4099118F3CE99204A06CFAEE4A6AABB8A"
+        },
+        {
+          "name": "Structural Damage",
+          "xws": "structuraldamage",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/structural-damage.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/structural-damage.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "8F41DD56F7DA382813090819BF911BC43534DC916A6E629AC6B622675B3C7310"
+        },
+        {
+          "name": "Damaged Sensor Array",
+          "xws": "damagedsensorarray",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/damaged-sensor-array.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/damaged-sensor-array.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "561A4CF6D6F7CE616801FFD04E2FABEC8F4D97E43096F8B739928E62704D4C30"
+        },
+        {
+          "name": "Loose Stabilizer",
+          "xws": "loosestabilizer",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/loose-stabilizer.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/loose-stabilizer.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "D9637B53DA362AAC24D67E80BA51B673B93719E4A521AF428CDE61B2A74E807A"
+        },
+        {
+          "name": "Thrust Control Fire",
+          "xws": "thrustcontrolfire",
+          "type": "Ship",
+          "quantity": 2,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/thrust-control-fire.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/thrust-control-fire.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "2C21D94FF38600E6175FFC009E5A3AD1C457E9CCEB7A8CCB563C360D3E2AD5FF"
+        },
+        {
+          "name": "Direct Hit!",
+          "xws": "directhit",
+          "type": "Ship",
+          "quantity": 7,
+          "sourceRepositoryPath": "assets/source/xwing-data/images/damage-decks/core-tfa/direct-hit.png",
+          "faceRepositoryPath": "assets/source/unified1e/damage-decks/core-tfa/direct-hit.png",
+          "width": 484,
+          "height": 744,
+          "sha256": "2DA8B98B5050D36B07A7D37363B14A2D7EE93646F00813EDDDB85716F4105A55"
+        }
+      ]
+    }
+  ]
+}
