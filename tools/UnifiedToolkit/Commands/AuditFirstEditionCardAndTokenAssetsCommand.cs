@@ -227,6 +227,13 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
     {
         var sections = new[]
         {
+            EpicSection("gr75mediumtransport", "GR-75 Medium Transport", "fore",
+                Card("Secondary Drive Failure"), Card("Broadcast Malfunction"), Card("Direct Hit", 4),
+                Card("Hull Breach", 2), Card("Damaged Stabilizers", 2)),
+            EpicSection("gr75mediumtransport", "GR-75 Medium Transport", "aft",
+                Card("Reactor Cowl Rupture"), Card("Projector Power Failure"), Card("Command Pod Casualties", 2),
+                Card("Reactor Leak", 3), Card("Engine Damage", 3)),
+
             EpicSection("cr90corvette", "CR90 Corvette", "fore",
                 Card("Comms Failure"), Card("Deck Breach"), Card("Direct Hit", 2),
                 Card("Life Support Failure"), Card("Scrambled Scopes"),
@@ -250,7 +257,7 @@ public static class AuditFirstEditionCardAndTokenAssetsCommand
                 Card("Secondary Drive Failure"), Card("Scrambled Scopes", 2), Card("Viewport Rupture")),
             EpicSection("gozanticlasscruiser", "Gozanti-class Cruiser", "aft",
                 Card("Damaged Stabilizers", 2), Card("Weapons Offline"), Card("Reactor Leak", 2),
-                Card("Reactor Core Rupture"), Card("Projector Power Failure"), Card("Damaged Docking Clamp", 3)),
+                Card("Reactor Cowl Rupture"), Card("Projector Power Failure"), Card("Damaged Docking Clamp", 3)),
 
             EpicSection("croccruiser", "C-ROC Cruiser", "fore",
                 Card("Hull Breach", 2), Card("Secondary Drive Failure", 2),
