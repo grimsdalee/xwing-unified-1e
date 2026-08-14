@@ -197,7 +197,10 @@ public static class AuditUnified25GameplayObjectReferenceCommand
 
     private static (string Category, string Policy, string Recommendation)? Classify(string nickname, string type, string combined)
     {
-        if (ContainsAny(combined, "calculate", "force token", "charge token", "strain", "deplete", "fuse token", "gas cloud", "remote"))
+        if (ContainsAny(nickname, "version check", "dial set source", "movelut", "dicepreload") ||
+            (string.IsNullOrWhiteSpace(nickname) && combined.Contains("custom-dice-image.png", StringComparison.OrdinalIgnoreCase)))
+            return null;
+        if (ContainsAny(combined, "calculate", "force token", "charge token", "strain", "deplete", "fuse token", "gas cloud", "remote", "electro-proton bomb", "concussion bomb", "blaze bomb"))
             return ("second-edition-only", "excluded-second-edition", "Exclude from First Edition unless a later reviewed requirement explicitly adds it.");
         if (ContainsAny(combined, "target lock", "/tl.obj", "/tl.png"))
             return ("target-lock", "approved-compatibility", "Reuse the Unified 2.5 single owner-labelled token, mesh, texture and assignment integration while enforcing First Edition targeting rules.");
@@ -267,7 +270,7 @@ public static class AuditUnified25GameplayObjectReferenceCommand
         new() { Subject = "Target Lock", Status = "approved", Decision = "Reuse Unified 2.5's single token, owner/pilot label, image and assignment integration. First Edition range, acquisition and spending rules remain authoritative.", EvidenceFound = targetLockFound },
         new() { Subject = "Ordnance", Status = "separate-first-edition-source", Decision = "Unified 2.5 has no Ordnance token. Review the Vassal Token-ordnance.png candidate separately; do not synthesize or silently substitute artwork.", EvidenceFound = ordnanceFound },
         new() { Subject = "Physical construction", Status = "reference-only", Decision = "Treat mesh, collider, transform scale, state layout and texture dimensions as reusable engineering evidence, not automatic approval of Second Edition artwork or rules.", EvidenceFound = true },
-        new() { Subject = "Second Edition exclusions", Status = "excluded", Decision = "Calculate, Force, Charge, Strain, Deplete, Fuse, gas-cloud and remote objects are excluded unless a later reviewed First Edition requirement explicitly needs one.", EvidenceFound = true }
+        new() { Subject = "Second Edition exclusions", Status = "excluded", Decision = "Calculate, Force, Charge, Strain, Deplete, Fuse, gas-cloud, remote, Electro-Proton Bomb, Concussion Bomb and Blaze Bomb objects are excluded unless a later reviewed First Edition requirement explicitly needs one.", EvidenceFound = true }
     ];
 
     private static string BuildMarkdown(ReferenceReport report)
