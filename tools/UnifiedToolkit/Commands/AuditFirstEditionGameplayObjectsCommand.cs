@@ -155,7 +155,9 @@ public static class AuditFirstEditionGameplayObjectsCommand
             (Path.Combine(repository, "assets", "source", "unified25", "assets", "Items", "tokens"), "unified25"),
             (Path.Combine(repository, "assets", "source", "unified25", "assets", "textures", "bombs"), "unified25"),
             (Path.Combine(repository, "assets", "source", "unified25", "assets", "textures", "obstacles"), "unified25"),
-            (Path.Combine(repository, "assets", "source", "unified25", "assets", "models", "obstacles"), "unified25")
+            (Path.Combine(repository, "assets", "source", "unified25", "assets", "models", "obstacles"), "unified25"),
+            (Path.Combine(repository, "assets", "source", "legacy1e-non-pilot", "steamusercontent-a.akamaihd.net"), "legacy1e-sorted"),
+            (Path.Combine(repository, "assets", "source", "xwvassal", "images"), "xwvassal")
         };
         foreach (var (root, source) in roots.Where(item => Directory.Exists(item.Item1)))
         {
@@ -164,10 +166,12 @@ public static class AuditFirstEditionGameplayObjectsCommand
                 var extension = Path.GetExtension(path).ToLowerInvariant();
                 if (extension is not (".png" or ".jpg" or ".jpeg" or ".obj")) continue;
                 var relative = Relative(repository, path);
+                var category = source == "legacy1e-sorted" ? InferSortedLegacyCategory(relative) : InferCategory(relative);
+                if ((source == "xwvassal" || source == "legacy1e-sorted") && category == "other") continue;
                 results.Add(new GameplayObjectAssetCandidate
                 {
                     Source = source,
-                    Category = InferCategory(relative),
+                    Category = category,
                     NameEvidence = Path.GetFileNameWithoutExtension(path),
                     RepositoryPath = relative,
                     Extension = extension,
@@ -190,18 +194,30 @@ public static class AuditFirstEditionGameplayObjectsCommand
             Url = Url(Text(item, "sourceUrl")), Destination = Text(item, "destinationRepositoryPath"), Status = Text(item, "status")
         }).Where(item => (item.Status is "downloaded" or "unchanged") && !string.IsNullOrWhiteSpace(item.Destination))
           .GroupBy(item => item.Url, StringComparer.OrdinalIgnoreCase).ToDictionary(group => group.Key, group => group.First(), StringComparer.OrdinalIgnoreCase);
+        var relocatedRoot = Path.Combine(repository, "assets", "source", "legacy1e-non-pilot", "steamusercontent-a.akamaihd.net");
+        var relocatedFiles = Directory.Exists(relocatedRoot)
+            ? Directory.EnumerateFiles(relocatedRoot, "*", SearchOption.AllDirectories)
+                .GroupBy(path => Path.GetFileName(path) ?? string.Empty, StringComparer.OrdinalIgnoreCase)
+                .ToDictionary(group => group.Key, group => group.OrderBy(path => path, StringComparer.OrdinalIgnoreCase).ToList(), StringComparer.OrdinalIgnoreCase)
+            : new Dictionary<string, List<string>>(StringComparer.OrdinalIgnoreCase);
         var results = new List<GameplayObjectAssetCandidate>();
         foreach (var row in Csv.Read(contextsPath))
         {
             var url = Url(row.GetValueOrDefault("SourceUrl") ?? "");
             if (!imports.TryGetValue(url, out var import)) continue;
             var path = Path.Combine(repository, import.Destination.Replace('/', Path.DirectorySeparatorChar));
+            if (!File.Exists(path))
+            {
+                var fileName = Path.GetFileName(import.Destination);
+                if (!relocatedFiles.TryGetValue(fileName, out var relocated) || relocated.Count == 0) continue;
+                path = relocated[0];
+            }
             if (!File.Exists(path)) continue;
             var name = row.GetValueOrDefault("ObjectNickname") ?? "";
             if (string.IsNullOrWhiteSpace(name)) name = row.GetValueOrDefault("ObjectName") ?? "";
             var container = row.GetValueOrDefault("ContainerText") ?? "";
             var evidence = $"{name} {container}".Trim();
-            var category = InferCategory(evidence);
+            var category = InferCategory($"{Relative(repository, path)} {evidence}");
             if (category == "other") continue;
             results.Add(new GameplayObjectAssetCandidate
             {
@@ -218,6 +234,14 @@ public static class AuditFirstEditionGameplayObjectsCommand
     {
         var evidence = Normalise(candidate.NameEvidence);
         if (requirement.Id == "condition-tokens" && candidate.Source == "unified1e") return true;
+        if (candidate.Source == "legacy1e-sorted")
+        {
+            if (requirement.Category is "token" or "upgrade-token" or "marker") return candidate.Category == "token";
+            if (requirement.Category == "condition-token") return candidate.Category == "condition-token";
+            if (requirement.Category == "bomb") return candidate.Category == "bomb";
+            if (requirement.Category == "mine") return candidate.Category is "mine" or "bomb";
+            if (requirement.Category == "obstacle-set") return candidate.Category is "asteroid" or "debris";
+        }
         if (requirement.Category is "token" or "upgrade-token" or "marker" && candidate.Category != "token") return false;
         if (requirement.Category == "bomb" && candidate.Category != "bomb") return false;
         if (requirement.Category == "mine" && candidate.Category != "mine") return false;
@@ -264,6 +288,10 @@ public static class AuditFirstEditionGameplayObjectsCommand
     private static string InferCategory(string value)
     {
         var key = value.ToLowerInvariant();
+        if (key.Contains("general-tokens") || key.Contains("general_tokens")) return "token";
+        if (key.Contains("bomb-tokens") || key.Contains("bomb_tokens")) return "bomb";
+        if (key.Contains("asteroid-tokens") || key.Contains("asteroid_tokens")) return "asteroid";
+        if (key.Contains("condition-tokens") || key.Contains("condition_tokens")) return "condition-token";
         if (key.Contains("condition")) return "condition-token";
         if (key.Contains("asteroid") || key.Contains("astroid") || key.Contains("core1") || key.Contains("tfa1")) return "asteroid";
         if (key.Contains("debris") || key.Contains("riggedcargo") || key.Contains("loosecargo")) return "debris";
@@ -275,7 +303,17 @@ public static class AuditFirstEditionGameplayObjectsCommand
         return "other";
     }
 
-    private static int SourceRank(string source) => source switch { "unified1e" => 0, "legacy1e" => 1, "unified25" => 2, _ => 3 };
+    private static string InferSortedLegacyCategory(string value)
+    {
+        var key = value.Replace('\\', '/').ToLowerInvariant();
+        if (key.Contains("/general-tokens/")) return "token";
+        if (key.Contains("/condition-tokens/")) return "condition-token";
+        if (key.Contains("/bomb-tokens/")) return "bomb";
+        if (key.Contains("/asteroid-tokens/")) return "asteroid";
+        return "other";
+    }
+
+    private static int SourceRank(string source) => source switch { "unified1e" => 0, "xwvassal" => 1, "legacy1e-sorted" => 2, "legacy1e" => 3, "unified25" => 4, _ => 5 };
     private static void WriteRequirements(string path, IEnumerable<GameplayObjectRequirement> rows)
     {
         var lines = new List<string> { "Id,Category,Name,Policy,ExpectedDesignCount,Status,CandidateCount,Recommendation" };
