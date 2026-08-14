@@ -1,13 +1,13 @@
 # Unified Knowledge Base Report
 
-Generated: `2026-08-14T16:07:00.2078937+00:00`
+Generated: `2026-08-14T16:27:07.0361372+00:00`
 
 ## Assets domain
 
-- Files: **5945**
-- Unique content assets: **5023**
-- Total bytes: **2,295,372,860**
-- Duplicate files: **922**
+- Files: **8260**
+- Unique content assets: **7271**
+- Total bytes: **2,363,282,615**
+- Duplicate files: **989**
 - Unavailable source references: **566**
 
 ## By warehouse
@@ -22,14 +22,15 @@ Generated: `2026-08-14T16:07:00.2078937+00:00`
 - unified1e: 1716
 - unified25: 2381
 - xwing-data: 415
+- xwvassal: 2315
 
 ## By asset type
 
-- image: 4819
+- image: 6923
 - model: 713
+- other: 240
 - lua: 229
 - json: 132
-- other: 29
 - xml: 15
 - text: 5
 - pdf: 3

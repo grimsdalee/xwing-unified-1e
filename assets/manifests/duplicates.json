@@ -72,6 +72,16 @@
     ]
   },
   {
+    "sha256": "2d4be16c4f07a7fe26a320e2b903fb6d85222b37ca4230d77b5f39030a778e56",
+    "assetId": "AST-2D4BE16C4F07A7FE",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/HotAC/playmats/hotac-mat-texture.jpg",
+      "assets/source/unified25/assets/textures/Mats/standard-03-deep-space-starfield.jpg",
+      "assets/source/xwvassal/images/3\u0027x3\u0027 - Starfield - Light.jpg"
+    ]
+  },
+  {
     "sha256": "323c8115fe799e83f3511c80d964fec3ea4f8b154fbc36aaba9298161a0059b7",
     "assetId": "AST-323C8115FE799E83",
     "fileCount": 3,
@@ -122,6 +132,16 @@
     ]
   },
   {
+    "sha256": "79926e45e87c8c6bc86507895ba222189ffca1309db65a30a771ca44fd879649",
+    "assetId": "AST-79926E45E87C8C6B",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_modifiedyt1300lightfreighter.png",
+      "assets/source/xwvassal/images/S2e_scavengedyt1300.png",
+      "assets/source/xwvassal/images/Ship_yt1300.png"
+    ]
+  },
+  {
     "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
     "assetId": "AST-7FA890E84EEFECDC",
     "fileCount": 3,
@@ -139,6 +159,16 @@
       "assets/generated/FirstEditionDialTexture/firstorder/tiesffighter__dial-d0410f516d0f.png",
       "assets/source/first-edition-dials/firstorder/tiesffighter.png",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__a99b0665616ef602.png"
+    ]
+  },
+  {
+    "sha256": "d593f90649a238bf42e0cab2add79cb5a0d57455b24b24457421d2405bb9a073",
+    "assetId": "AST-D593F90649A238BF",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__5a85329e249b6ff3.png",
+      "assets/source/xwvassal/images/Token-Cargo.png",
+      "assets/source/xwvassal/images/Token-Debris_Cloud.png"
     ]
   },
   {
@@ -201,6 +231,15 @@
     ]
   },
   {
+    "sha256": "00d8e0ab16e09191a8bb0a5fb38b58ee9a21aaad3109792ab20779be7da43502",
+    "assetId": "AST-00D8E0AB16E09191",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/P2e_firstorder_upsilonclasscommandshuttle_majorstridan.jpg",
+      "assets/source/xwvassal/images/P2e_firstorder_upsilonclassshuttle_majorstridan.jpg"
+    ]
+  },
+  {
     "sha256": "012204538b6f15ea9e03b1243adbd25f9fdabe3e7b29940d8cf4f73b1cbeb452",
     "assetId": "AST-012204538B6F15EA",
     "fileCount": 2,
@@ -252,6 +291,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tiebomber/deathfire__pilot-1b8c5d844954.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tiebomber/deathfire__pilot-1b8c5d844954.png"
+    ]
+  },
+  {
+    "sha256": "02e9a7890f71964f2e0810e6842844f5d934b215ffa6fa9d83257c3ceb89655d",
+    "assetId": "AST-02E9A7890F71964F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_t65xwing_open.png",
+      "assets/source/xwvassal/images/Ship_xwing.png"
     ]
   },
   {
@@ -372,6 +420,15 @@
     ]
   },
   {
+    "sha256": "07da652889680ed1e8467aa0d19688f50741dc97e33a89d2bf7d807991458a00",
+    "assetId": "AST-07DA652889680ED1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_upsilonclasscommandshuttle.png",
+      "assets/source/xwvassal/images/Ship_upsilonclassshuttle.png"
+    ]
+  },
+  {
     "sha256": "07e9cd5c18ff403ee8933ceceb4a8e89f860983d4b605a4026b73bc6de875aac",
     "assetId": "AST-07E9CD5C18FF403E",
     "fileCount": 2,
@@ -468,6 +525,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/carnorjax__pilot-566a4beecb74.png"
+    ]
+  },
+  {
+    "sha256": "0a8440cb4d18670236239c7da5d8182fd593a97d92b3f33eb3a261ff778cee18",
+    "assetId": "AST-0A8440CB4D186702",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-ndru.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_ndru.png"
     ]
   },
   {
@@ -639,6 +705,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/tech/advancedoptics.png",
       "assets/source/xwing-data/images/upgrades/Tech/advanced-optics.png"
+    ]
+  },
+  {
+    "sha256": "1032559f9ee07664c9db5b92fac4db9b12ab776a3536012007bbcda54c098dea",
+    "assetId": "AST-1032559F9EE07664",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_yt2400lightfreighter.png",
+      "assets/source/xwvassal/images/Ship_yt2400.png"
     ]
   },
   {
@@ -912,6 +987,15 @@
     ]
   },
   {
+    "sha256": "1784ed3026f3fc126c8b63662620d3bc9069e2973ca64841759eae1d08fc8e12",
+    "assetId": "AST-1784ED3026F3FC12",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/CT2e_youdbettermeanbusiness.png",
+      "assets/source/xwvassal/images/CT2e_youshouldthankme.png"
+    ]
+  },
+  {
     "sha256": "17f2ae93e3b2d0f776bde178a5f5dc7cd520c669e00683d59588b9a905c70a2b",
     "assetId": "AST-17F2AE93E3B2D0F7",
     "fileCount": 2,
@@ -963,6 +1047,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__7705795107b261ed.png",
       "assets/source/unified25/assets/textures/Mats/standard-13-tatooine-crater-field.png"
+    ]
+  },
+  {
+    "sha256": "1948deb53a8d4f7e304783acb55768aaf4beb6f45a05ccaae91da759c2f93622",
+    "assetId": "AST-1948DEB53A8D4F7E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_auzituckgunship.png",
+      "assets/source/xwvassal/images/Ship_auzituckgunship.png"
     ]
   },
   {
@@ -1026,6 +1119,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/hwk290/rebeloperative__pilot-4eca0bad4998.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/hwk290/rebeloperative__pilot-4eca0bad4998.png"
+    ]
+  },
+  {
+    "sha256": "1d305b27391430baa92a855706cbd5d8317ec47dbd784a4d5fbce62197379094",
+    "assetId": "AST-1D305B27391430BA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tielnfighter-sabinestie.png",
+      "assets/source/xwvassal/images/Ship_tiefighter_sabinestie.png"
     ]
   },
   {
@@ -1134,6 +1236,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/torpedo/plasmatorpedoes.png",
       "assets/source/xwing-data/images/upgrades/Torpedo/plasma-torpedoes.png"
+    ]
+  },
+  {
+    "sha256": "1fb52ba864cfbacdc1c060ee3a14323d18ea73dfa42c740c0bec852e300e1cb0",
+    "assetId": "AST-1FB52BA864CFBACD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_lancerclasspursuitcraft.png",
+      "assets/source/xwvassal/images/Ship_lancerclasspursuitcraft.png"
     ]
   },
   {
@@ -1533,15 +1644,6 @@
     ]
   },
   {
-    "sha256": "2d4be16c4f07a7fe26a320e2b903fb6d85222b37ca4230d77b5f39030a778e56",
-    "assetId": "AST-2D4BE16C4F07A7FE",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/HotAC/playmats/hotac-mat-texture.jpg",
-      "assets/source/unified25/assets/textures/Mats/standard-03-deep-space-starfield.jpg"
-    ]
-  },
-  {
     "sha256": "2d7d1550dd9c921c218dab5b642a161fe2e29034fe4c65f16ce1cdc383e70402",
     "assetId": "AST-2D7D1550DD9C921C",
     "fileCount": 2,
@@ -1659,6 +1761,15 @@
     ]
   },
   {
+    "sha256": "3012a41e72c98700db35a7b969ee89fd7a4839f260e7e6786bf64a3d1d3ac473",
+    "assetId": "AST-3012A41E72C98700",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_delta7aethersprite.png",
+      "assets/source/xwvassal/images/S2e_delta7baethersprite.png"
+    ]
+  },
+  {
     "sha256": "3073d22ed811706597842c31d15521e0ce291c4f858c95914bca4e9dee945817",
     "assetId": "AST-3073D22ED8117065",
     "fileCount": 2,
@@ -1701,6 +1812,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/scurrgh6bomber/captainnym__pilot-40a82a73b01f.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/scurrgh6bomber/captainnym__pilot-40a82a73b01f.png"
+    ]
+  },
+  {
+    "sha256": "3144927bed9a743e9d58ecb5dc4bd945e235712d4aa00a9934b6cbc0edf7e2e7",
+    "assetId": "AST-3144927BED9A743E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-nashtah.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_nashtah.png"
     ]
   },
   {
@@ -1803,6 +1923,15 @@
     ]
   },
   {
+    "sha256": "34db70629cc16ef2550a411096e2981de6c16f97d3882aebf6e725641c25673f",
+    "assetId": "AST-34DB70629CC16EF2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-blount.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_blount.png"
+    ]
+  },
+  {
     "sha256": "3518f663c1a14419bf0f6e3d59d76c11e64ddfc5b1012de9cb82166d0957c8a4",
     "assetId": "AST-3518F663C1A14419",
     "fileCount": 2,
@@ -1866,12 +1995,30 @@
     ]
   },
   {
+    "sha256": "36fc923d7f2ba57e16943abdf12318d110e5d2341a6c418ae5e60bca4b0e28bb",
+    "assetId": "AST-36FC923D7F2BA57E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/P2e_separatistalliance_firesprayclasspatrolcraft_bobafett-separatist.jpg",
+      "assets/source/xwvassal/images/P2e_separatistalliance_firesprayclasspatrolcraft_bobafett-separatistalliance.jpg"
+    ]
+  },
+  {
     "sha256": "37de44820a09e1df84251b1a814ce28f6be96e6f4003c57ab6a00a63125cc4f7",
     "assetId": "AST-37DE44820A09E1DF",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__386df925f3c4a991.obj",
       "assets/source/unified25/assets/Items/asteroids/Core3.obj"
+    ]
+  },
+  {
+    "sha256": "37f9dacf7f43888fbe964ec13906cca08a73acba45f957e61f905e24ac571b6c",
+    "assetId": "AST-37F9DACF7F43888F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_alphaclassstarwing.png",
+      "assets/source/xwvassal/images/Ship_alphaclassstarwing.png"
     ]
   },
   {
@@ -2097,6 +2244,24 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/uwing/sawgerrera__pilot-41aaac334224.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/uwing/sawgerrera__pilot-41aaac334224.png"
+    ]
+  },
+  {
+    "sha256": "3fed2fcc28d16fa9c27c0074cb4b660ea8adbfe5156a8fc92f13088ff028c8ea",
+    "assetId": "AST-3FED2FCC28D16FA9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieskstriker.png",
+      "assets/source/xwvassal/images/Ship_tiestriker.png"
+    ]
+  },
+  {
+    "sha256": "403951d0bb991fe8de107d01764eaffcc4d8cadb4023e3b0c5f4772bf3c01a5b",
+    "assetId": "AST-403951D0BB991FE8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_jumpmaster5000.png",
+      "assets/source/xwvassal/images/Ship_jumpmaster5000.png"
     ]
   },
   {
@@ -2550,6 +2715,15 @@
     ]
   },
   {
+    "sha256": "4c53f32827ebebe3c8d13cb52986908ee5dc548a7805cc23ebe71bdb67ddcc1d",
+    "assetId": "AST-4C53F32827EBEBE3",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tievnsilencer.png",
+      "assets/source/xwvassal/images/Ship_tiesilencer.png"
+    ]
+  },
+  {
     "sha256": "4c6a946fd46a9a141ecb9b4efd0e65da1f4b7287fbceca89e34e7148aa37f808",
     "assetId": "AST-4C6A946FD46A9A14",
     "fileCount": 2,
@@ -2583,6 +2757,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__71a83ffc7ffc796b.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-01-death-star-over-endor.jpg"
+    ]
+  },
+  {
+    "sha256": "4cedf274dde1d74946f53f565e7c7fa8c7ca6d89798cf8615be3c347d34df2a1",
+    "assetId": "AST-4CEDF274DDE1D749",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_t65xwing_closed.png",
+      "assets/source/xwvassal/images/Ship_xwing-closed.png"
     ]
   },
   {
@@ -2658,6 +2841,15 @@
     ]
   },
   {
+    "sha256": "4edf2b8f1c5caef960586a8c1d160feffe19b07630acc3e94238c6bf779e1fc7",
+    "assetId": "AST-4EDF2B8F1C5CAEF9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-binayre.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_binayre.png"
+    ]
+  },
+  {
     "sha256": "4f3b07e0af15016f91bdc743ff19b41eded230405c7f685a16fe5156bfd03911",
     "assetId": "AST-4F3B07E0AF15016F",
     "fileCount": 2,
@@ -2673,6 +2865,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__f099979e4423a0a0.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-17-death-star-surface-blueprint.jpg"
+    ]
+  },
+  {
+    "sha256": "501772ec6a6e1f01083318a80ab61f0b1d1e0a8e2bfa850149e0a3c7a49b00e4",
+    "assetId": "AST-501772EC6A6E1F01",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified25/assets/textures/Mats/standard-02-dark-blue-nebula.jpg",
+      "assets/source/xwvassal/images/3\u0027x3\u0027 - Starfield - Deep Space.jpg"
     ]
   },
   {
@@ -2736,6 +2937,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/hwk290/palobgodalhi__pilot-39582d5dad5c.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/hwk290/palobgodalhi__pilot-39582d5dad5c.png"
+    ]
+  },
+  {
+    "sha256": "511283a21a1b22d8527f0c0bce0d09117fcd46ce0acb0e769566cad607ec4ca0",
+    "assetId": "AST-511283A21A1B22D8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_kihraxzfighter.png",
+      "assets/source/xwvassal/images/Ship_kihraxzfighter.png"
     ]
   },
   {
@@ -2901,6 +3111,15 @@
     ]
   },
   {
+    "sha256": "569ba8a2169d47dea2f31b69ec447406c76ca154a754ce68f9d316cad484a308",
+    "assetId": "AST-569BA8A2169D47DE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_sheathipedeclassshuttle.png",
+      "assets/source/xwvassal/images/Ship_sheathipedeclassshuttle.png"
+    ]
+  },
+  {
     "sha256": "56a4e816c45b358d97b0acf92829dad2b02bed2e1fe7dafa2761f518be5dfe49",
     "assetId": "AST-56A4E816C45B358D",
     "fileCount": 2,
@@ -2952,6 +3171,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png",
       "assets/source/unified1e/pilot-tokens/firstorder/tiesilencer/kyloren__pilot-9af4734ca538.png"
+    ]
+  },
+  {
+    "sha256": "58405db28165aac8336c11ed8da8a860ff6c48e3594fef962277f81b509b7d17",
+    "assetId": "AST-58405DB28165AAC8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_rz1awing.png",
+      "assets/source/xwvassal/images/Ship_awing_red.png"
     ]
   },
   {
@@ -3069,6 +3297,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/jumpmaster5000/manaroo__pilot-2ff8e40f2fb9.png"
+    ]
+  },
+  {
+    "sha256": "5aa10b1cb6ccfcce6863c5be9e8f954f33f7264349f034c601c190139a406d28",
+    "assetId": "AST-5AA10B1CB6CCFCCE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/P2e_galacticrepublic_eta2actis_aaylasecura-eta2actis.jpg",
+      "assets/source/xwvassal/images/P2e_galacticrepublic_eta2actis_aaylasecura.jpg"
     ]
   },
   {
@@ -3243,6 +3480,24 @@
     ]
   },
   {
+    "sha256": "6240cff3c42683ac2e740fc04ec82c9540a3d2dc38ec799e4d44a3134fc08695",
+    "assetId": "AST-6240CFF3C42683AC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_lambdaclasst4ashuttle.png",
+      "assets/source/xwvassal/images/Ship_lambdaclassshuttle.png"
+    ]
+  },
+  {
+    "sha256": "6243ca615bd8570607ccad1cb970e4b45f30cff40871a751db126e3677da9c15",
+    "assetId": "AST-6243CA615BD85706",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieininterceptor-181st.png",
+      "assets/source/xwvassal/images/Ship_tieinterceptor_181st.png"
+    ]
+  },
+  {
     "sha256": "62bdb44775b7044d66a2869281ef663a988d4ee0fddb25ffd2c998565f3cdf75",
     "assetId": "AST-62BDB44775B7044D",
     "fileCount": 2,
@@ -3414,6 +3669,15 @@
     ]
   },
   {
+    "sha256": "668fad457eee41113b153bab87b1115572e697e3bd4f73d36e626d7e7e5fabcd",
+    "assetId": "AST-668FAD457EEE4111",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_kihraxzfighter-blacksunace.png",
+      "assets/source/xwvassal/images/Ship_kihraxzfighter_blacksunace.png"
+    ]
+  },
+  {
     "sha256": "66b96c3f42625e61697ce8317493895b56f84286ef55317760257234337d382e",
     "assetId": "AST-66B96C3F42625E61",
     "fileCount": 2,
@@ -3555,6 +3819,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/salvaged_astromech/unhingedastromech.png",
       "assets/source/xwing-data/images/upgrades/Salvaged Astromech/unhinged-astromech.png"
+    ]
+  },
+  {
+    "sha256": "6a6101eb9d8b8100955d3f71fd8ad94f094214ae112792d35484b06688eaec0a",
+    "assetId": "AST-6A6101EB9D8B8100",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_starviperclassattackplatform.png",
+      "assets/source/xwvassal/images/Ship_starviper.png"
     ]
   },
   {
@@ -3837,6 +4110,15 @@
     ]
   },
   {
+    "sha256": "73821c4594496bef57fef7b77880d2b7a31520894baeb92defe2581974f6246f",
+    "assetId": "AST-73821C4594496BEF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tiefofighter.png",
+      "assets/source/xwvassal/images/Ship_tiefofighter.png"
+    ]
+  },
+  {
     "sha256": "7383f830b86180e06da5159f806bdee7a119fc3f2957dba2600d2ad8acf11503",
     "assetId": "AST-7383F830B86180E0",
     "fileCount": 2,
@@ -3954,6 +4236,15 @@
     ]
   },
   {
+    "sha256": "771e641a2abd87803d4d5246ba744dc5c1182dffac4fb08878544ef7ea054f04",
+    "assetId": "AST-771E641A2ABD8780",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tiephphantom.png",
+      "assets/source/xwvassal/images/Ship_tiephantom.png"
+    ]
+  },
+  {
     "sha256": "7748aab8819ad76ff6bbd72ae2969ea269f37df3a03219b2cc0fd2827c1ad7bf",
     "assetId": "AST-7748AAB8819AD76F",
     "fileCount": 2,
@@ -4014,6 +4305,15 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/rebelalliance/ywing.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__aed20866a44c3e18.jpg"
+    ]
+  },
+  {
+    "sha256": "79c7740dc36477ac291dacfc71d13e56fecb587126067ca4f0a8ce94501c443e",
+    "assetId": "AST-79C7740DC36477AC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieagaggressor.png",
+      "assets/source/xwvassal/images/Ship_tieaggressor.png"
     ]
   },
   {
@@ -4341,6 +4641,15 @@
     ]
   },
   {
+    "sha256": "82b5a4d2465acae6e3c3111d57de2b4e5a32944c7613cebb8bf43b0785daae16",
+    "assetId": "AST-82B5A4D2465ACAE6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieadvancedv1.png",
+      "assets/source/xwvassal/images/Ship_tieadvprototype.png"
+    ]
+  },
+  {
     "sha256": "82bf33838ecbaa3d636b0527e1ac87fb11ce1a4a2df776581690638082f515f9",
     "assetId": "AST-82BF33838ECBAA3D",
     "fileCount": 2,
@@ -4494,6 +4803,15 @@
     ]
   },
   {
+    "sha256": "88a7a67478666759a352e2a85ad23cce2cadd286363ab0645f17be766cf17126",
+    "assetId": "AST-88A7A67478666759",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-airen.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_airen.png"
+    ]
+  },
+  {
     "sha256": "893996346e366a4cb534ac10d4cf1df77ff56fc20a90938f78758b56c0d5745e",
     "assetId": "AST-893996346E366A4C",
     "fileCount": 2,
@@ -4509,6 +4827,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/bwing/keyanfarlander__pilot-ac94de716fe6.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/bwing/keyanfarlander__pilot-ac94de716fe6.png"
+    ]
+  },
+  {
+    "sha256": "8a2c1342b398de0cc42010a2c6e139f035da1056d9dc26bd7201d186e0e49bb3",
+    "assetId": "AST-8A2C1342B398DE0C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_btla4ywing-bomber.png",
+      "assets/source/xwvassal/images/Ship_ywing_gray.png"
     ]
   },
   {
@@ -4674,12 +5001,30 @@
     ]
   },
   {
+    "sha256": "8f48f8c1ea140ba1b1ba2eee4594f62fe16c5dbd03533b0bbd6121469d453cd5",
+    "assetId": "AST-8F48F8C1EA140BA1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-bandit.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_bandit.png"
+    ]
+  },
+  {
     "sha256": "8f8fe1a712cac486d8e24d213cc266d76541015828bcb4c8a4f02bf9305eed76",
     "assetId": "AST-8F8FE1A712CAC486",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/modification/capturedtie.png",
       "assets/source/xwing-data/images/upgrades/Modification/captured-tie.png"
+    ]
+  },
+  {
+    "sha256": "90b01e36efbd03dcf305e87e9423198d9f7d13878e25f347d163a72cfd866793",
+    "assetId": "AST-90B01E36EFBD03DC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-tala.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_tala.png"
     ]
   },
   {
@@ -4908,6 +5253,15 @@
     ]
   },
   {
+    "sha256": "98696ce5d75dda12a0eedca54b1b489ba779231d3c2338ffb31d8c8d9b5293d9",
+    "assetId": "AST-98696CE5D75DDA12",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_yv666lightfreighter.png",
+      "assets/source/xwvassal/images/Ship_yv666.png"
+    ]
+  },
+  {
     "sha256": "98c9e5e36e218d9073bd18227ade2a7799352f6e298508e6d65f0d14adf516d7",
     "assetId": "AST-98C9E5E36E218D90",
     "fileCount": 2,
@@ -4989,6 +5343,15 @@
     ]
   },
   {
+    "sha256": "9a31a4c14651bf7227f854098b701352dafb0f61f9a0f783c5d923dda9b0321c",
+    "assetId": "AST-9A31A4C14651BF72",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-kaato.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_kaato.png"
+    ]
+  },
+  {
     "sha256": "9a4640c9d230a0497e68fdbb5fad4b98ceab40e84f4711ac213336bf8f9173f2",
     "assetId": "AST-9A4640C9D230A049",
     "fileCount": 2,
@@ -5013,6 +5376,33 @@
     "repositoryPaths": [
       "assets/source/unified1e/ships/large/scavengedyt1300/Textures/blue.jpg",
       "assets/source/unified1e/ships/large/yt1300/Textures/blue.jpg"
+    ]
+  },
+  {
+    "sha256": "9b921d1ef08032660cfab698d3e67eabc3899d3e96c1a4519684525cc91158a2",
+    "assetId": "AST-9B921D1EF0803266",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_hwk290lightfreighter.png",
+      "assets/source/xwvassal/images/Ship_hwk290.png"
+    ]
+  },
+  {
+    "sha256": "9be0276ecc0ade515b0d15134be24886655f9d81cb6516da3b41405de8743acf",
+    "assetId": "AST-9BE0276ECC0ADE51",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieadvancedx1.png",
+      "assets/source/xwvassal/images/Ship_tieadvanced.png"
+    ]
+  },
+  {
+    "sha256": "9c1a3b2bc441efff68757bd83ebed0075482715691b1910e7fa112bf5f2680cd",
+    "assetId": "AST-9C1A3B2BC441EFFF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_vcx100lightfreighter.png",
+      "assets/source/xwvassal/images/Ship_vcx100.png"
     ]
   },
   {
@@ -5124,6 +5514,15 @@
     ]
   },
   {
+    "sha256": "a035564861af7eb8df1afc83d01bca03c294cf83f998ba5ac27db2a1240f93c5",
+    "assetId": "AST-A035564861AF7EB8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_yt2400lightfreighter-fringer.png",
+      "assets/source/xwvassal/images/Ship_yt2400_wildspacefringer.png"
+    ]
+  },
+  {
     "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
     "assetId": "AST-A15AA5C810C9A434",
     "fileCount": 2,
@@ -5169,12 +5568,30 @@
     ]
   },
   {
+    "sha256": "a2de6ad66c2f7a9bb94724b70fa964d64cd8c35de520216fca3319c55b7ae90c",
+    "assetId": "AST-A2DE6AD66C2F7A9B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_btla4ywing.png",
+      "assets/source/xwvassal/images/Ship_ywing_gold.png"
+    ]
+  },
+  {
     "sha256": "a2f924c51be10f67691ed2bb4faddbde1b4e99b4f5edbcae6f03cde03790cb66",
     "assetId": "AST-A2F924C51BE10F67",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tiebomber/scimitarsquadronpilot__pilot-6bca69aa2e6f.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tiebomber/scimitarsquadronpilot__pilot-6bca69aa2e6f.png"
+    ]
+  },
+  {
+    "sha256": "a375ea0c59fd0a3532acfb91f536dd9cb715b6f4a3d77b530d3f8008cd09bf7d",
+    "assetId": "AST-A375EA0C59FD0A35",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_mg100starfortress.png",
+      "assets/source/xwvassal/images/Ship_bsf17bomber.png"
     ]
   },
   {
@@ -5331,6 +5748,15 @@
     ]
   },
   {
+    "sha256": "a704ee3bf0283d2445c58dcaaf7523f858ad029f580cb25126d14e02f5f02d41",
+    "assetId": "AST-A704EE3BF0283D24",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_attackshuttle.png",
+      "assets/source/xwvassal/images/Ship_attackshuttle.png"
+    ]
+  },
+  {
     "sha256": "a75c10120fd758697bb809be730f62043f0eb7ef2ac32cab87a753273cb8dfe3",
     "assetId": "AST-A75C10120FD75869",
     "fileCount": 2,
@@ -5391,6 +5817,15 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/rebelalliance/yt2400.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__dafb7fba20cd505b.jpg"
+    ]
+  },
+  {
+    "sha256": "a8e5db9008dbe6bed6cbbcfee6354795a437b714047e0c467027f18682db674a",
+    "assetId": "AST-A8E5DB9008DBE6BE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_rebel.png"
     ]
   },
   {
@@ -5619,6 +6054,15 @@
     ]
   },
   {
+    "sha256": "ae11857717e6cc86273b6796d9252e5bd674ff434b81ebb8b380e944fc8f98e3",
+    "assetId": "AST-AE11857717E6CC86",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieddefender.png",
+      "assets/source/xwvassal/images/Ship_tiedefender.png"
+    ]
+  },
+  {
     "sha256": "aeb6ceb8eaf0095a08ebea0416e233b164e7da0d177a4851c26a822763cf6ec2",
     "assetId": "AST-AEB6CEB8EAF0095A",
     "fileCount": 2,
@@ -5790,6 +6234,24 @@
     ]
   },
   {
+    "sha256": "b37974fc031244274fd87d653a0b8fae439ee73309a6fabf792ce99200d7d220",
+    "assetId": "AST-B37974FC03124427",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tielnfighter.png",
+      "assets/source/xwvassal/images/Ship_tiefighter.png"
+    ]
+  },
+  {
+    "sha256": "b38e10add5f86da53b4536c74ed00321f59609450ceea2d637134734d52cec2f",
+    "assetId": "AST-B38E10ADD5F86DA5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_fangfighter.png",
+      "assets/source/xwvassal/images/Ship_protectoratestarfighter.png"
+    ]
+  },
+  {
     "sha256": "b3ee77d13dded88137dfda1e4f0460217e89b7c12c12f63cf2976c39ce412aa3",
     "assetId": "AST-B3EE77D13DDED881",
     "fileCount": 2,
@@ -5832,6 +6294,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/saboteur.png",
       "assets/source/xwing-data/images/upgrades/Crew/saboteur.png"
+    ]
+  },
+  {
+    "sha256": "b500b35803590f04bffefedd32994d9e00f217397e482b028e4818223238e38c",
+    "assetId": "AST-B500B35803590F04",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_m3ainterceptor.png",
+      "assets/source/xwvassal/images/Ship_m3ainterceptor.png"
     ]
   },
   {
@@ -5898,12 +6369,30 @@
     ]
   },
   {
+    "sha256": "b836a686a549b78c3e03df8faa28f6765097671a0f60d227ef6b2df975b77f4a",
+    "assetId": "AST-B836A686A549B78C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tiesabomber.png",
+      "assets/source/xwvassal/images/Ship_tiebomber.png"
+    ]
+  },
+  {
     "sha256": "b84e43fe0561d82169fad88a5c2bac6a115c81b182a73e3b692be50923073d7f",
     "assetId": "AST-B84E43FE0561D821",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/HotAC/objectives/shield-generator-image.jpg",
       "assets/source/unified25/assets/HotAC/Tokens/Shield Generator.jpg"
+    ]
+  },
+  {
+    "sha256": "b897c6c97d8a65dbe5a673286bf0ee4a5c1f638755e3be53e47d32640e051fe2",
+    "assetId": "AST-B897C6C97D8A65DB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tieininterceptor.png",
+      "assets/source/xwvassal/images/Ship_tieinterceptor.png"
     ]
   },
   {
@@ -6114,12 +6603,30 @@
     ]
   },
   {
+    "sha256": "bf2885c11ca8a7a55432ab25a39bfcf56249adf78fb50e11b3b32bc18e1567f1",
+    "assetId": "AST-BF2885C11CA8A7A5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/Arc_2e_CIS_Medium_FFA.svg",
+      "assets/source/xwvassal/images/Arc_2e_Scum_Medium_FFA.svg"
+    ]
+  },
+  {
     "sha256": "bf9abdaa4c4a610bef2ad8b77b01eacbd510d79a0ddc7f75087d5aed97c42cc1",
     "assetId": "AST-BF9ABDAA4C4A610B",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/team/engineeringteam.png",
       "assets/source/xwing-data/images/upgrades/Team/engineering-team.png"
+    ]
+  },
+  {
+    "sha256": "bfde6165481707d0e8fc2cd28c7816de49c22cbaf215c43007ef925b5c280ac9",
+    "assetId": "AST-BFDE6165481707D0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_t70xwing_open.png",
+      "assets/source/xwvassal/images/Ship_t70xwing.png"
     ]
   },
   {
@@ -6210,6 +6717,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/elite/trickshot.png",
       "assets/source/xwing-data/images/upgrades/Elite/trick-shot.png"
+    ]
+  },
+  {
+    "sha256": "c216bd5923687b93caddbc24321aa1d24043f96a729f4a145e437f99897f15e6",
+    "assetId": "AST-C216BD5923687B93",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_asf01bwing.png",
+      "assets/source/xwvassal/images/Ship_bwing.png"
     ]
   },
   {
@@ -6318,6 +6834,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/lattsrazzi.png",
       "assets/source/xwing-data/images/upgrades/Crew/latts-razzi.png"
+    ]
+  },
+  {
+    "sha256": "c6342f10ab7efbe8711cd53025a61bb7d17a865890199d9e3d2f6936f428f619",
+    "assetId": "AST-C6342F10AB7EFBE8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_z95af4headhunter-soldier.png",
+      "assets/source/xwvassal/images/Ship_z95headhunter_blacksun.png"
     ]
   },
   {
@@ -6969,6 +7494,15 @@
     ]
   },
   {
+    "sha256": "dda9a68aeecac7a95bbe314f8133ea41818604d01c4cbb5c6e468b0b5aff39e7",
+    "assetId": "AST-DDA9A68AEECAC7A9",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_quadrijettransferspacetug.png",
+      "assets/source/xwvassal/images/Ship_quadjumper.png"
+    ]
+  },
+  {
     "sha256": "ddc9dadbdd49dbe1434e69bcf0f90a3b3c42b195065230b5ddc506c22e92c338",
     "assetId": "AST-DDC9DADBDD49DBE1",
     "fileCount": 2,
@@ -7122,6 +7656,15 @@
     ]
   },
   {
+    "sha256": "e492e0180ddce9e61a68231dd2467e70d0474fad283d9df80e61774c10ec3b75",
+    "assetId": "AST-E492E0180DDCE9E6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_vt49decimator.png",
+      "assets/source/xwvassal/images/Ship_vt49decimator.png"
+    ]
+  },
+  {
     "sha256": "e4aacfb733902fa18f8676d41aa88c91b85aa924f2937d125fc9d9c03a8bb44a",
     "assetId": "AST-E4AACFB733902FA1",
     "fileCount": 2,
@@ -7254,6 +7797,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/astromech/r2d6.png",
       "assets/source/xwing-data/images/upgrades/Astromech/r2-d6.png"
+    ]
+  },
+  {
+    "sha256": "e89d07ca89142924b4a091a489caabac1d5e4ddd55a70cc4990055a9ed21f9e9",
+    "assetId": "AST-E89D07CA89142924",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_tiesffighter.png",
+      "assets/source/xwvassal/images/Ship_tiesffighter.png"
     ]
   },
   {
@@ -7401,6 +7953,15 @@
     ]
   },
   {
+    "sha256": "ecfbf05f650295c6d6deb9d2288fa46829618bad8b55cf5d7133d1952bf01a53",
+    "assetId": "AST-ECFBF05F650295C6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_ewing.png",
+      "assets/source/xwvassal/images/Ship_ewing.png"
+    ]
+  },
+  {
     "sha256": "ed077953fa5ea49007ada4713bb11741333057c02c790d3441f77be77295f630",
     "assetId": "AST-ED077953FA5EA490",
     "fileCount": 2,
@@ -7515,6 +8076,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/title/tiex7.png",
       "assets/source/xwing-data/images/upgrades/Title/tie-x7.png"
+    ]
+  },
+  {
+    "sha256": "f1aa72df2e2fe73b5b35666c9cc685b7ccb534476af004cf026523664a50e378",
+    "assetId": "AST-F1AA72DF2E2FE73B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/ConditionToken_mimicked.png",
+      "assets/source/xwvassal/images/ConditionToken_shadowed.png"
     ]
   },
   {
@@ -7785,6 +8355,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/dashrendar.png",
       "assets/source/xwing-data/images/upgrades/Crew/dash-rendar.png"
+    ]
+  },
+  {
+    "sha256": "f8456aee17a45c26d931c480aca2da45d4f24843ff339c41b7aa716f2f8cd548",
+    "assetId": "AST-F8456AEE17A45C26",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/xwvassal/images/S2e_ewing-knave.png",
+      "assets/source/xwvassal/images/Ship_ewing_knave.png"
     ]
   },
   {
