@@ -42,6 +42,8 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
             var inventoryPath = Path.GetFullPath(Option(args, "--inventory") ?? Path.Combine(
                 repository, "_unifiedtoolkit_reports", "phase16", "gameplay-object-inventory",
                 "first-edition-gameplay-objects.json"));
+            var referenceSavePath = Path.GetFullPath(Option(args, "--reference-save") ?? Path.Combine(
+                repository, "source", "unified-2.5", "Unified2.5_Reference.json"));
             var output = Path.GetFullPath(Option(args, "--output") ?? Path.Combine(
                 repository, "_unifiedtoolkit_reports", "phase16", "gameplay-object-review"));
             var assetBaseUrl = (Option(args, "--asset-base-url") ??
@@ -49,6 +51,7 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
             var maximumCandidates = IntegerOption(args, "--max-candidates", 8, 1, 20);
 
             RequireFile(inventoryPath, "Phase 16E gameplay-object inventory");
+            RequireFile(referenceSavePath, "TTS reference save");
             var inventory = JsonSerializer.Deserialize<FirstEditionGameplayObjectInventory>(
                 File.ReadAllText(inventoryPath), JsonOptions)
                 ?? throw new InvalidDataException($"Could not parse inventory: {inventoryPath}");
@@ -119,6 +122,7 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
                 Policy = "Review only. Blank decisions approve nothing and cause no asset or gameplay changes.",
                 RepositoryRoot = NormalisePath(repository),
                 InventoryPath = NormalisePath(inventoryPath),
+                ReferenceSavePath = NormalisePath(referenceSavePath),
                 AssetBaseUrl = assetBaseUrl,
                 MaximumCandidatesPerRequirement = maximumCandidates,
                 RequirementCount = rows.Count,
@@ -129,7 +133,7 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
             };
 
             File.WriteAllText(manifestPath, JsonSerializer.Serialize(manifest, JsonOptions), new UTF8Encoding(false));
-            File.WriteAllText(savePath, BuildSave(manifest).ToJsonString(JsonOptions), new UTF8Encoding(false));
+            File.WriteAllText(savePath, BuildSave(manifest, referenceSavePath).ToJsonString(JsonOptions), new UTF8Encoding(false));
             WriteSelections(selectionsPath, rows);
             WriteReport(reportPath, manifest, savePath, selectionsPath);
 
@@ -138,6 +142,7 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
             Console.WriteLine();
             Console.WriteLine($"Repository:                    {repository}");
             Console.WriteLine($"Inventory:                     {inventoryPath}");
+            Console.WriteLine($"Reference save:                {referenceSavePath}");
             Console.WriteLine($"Asset base URL:                {assetBaseUrl}");
             Console.WriteLine($"Requirements:                  {manifest.RequirementCount}");
             Console.WriteLine($"Review candidates:             {manifest.CandidateCount}");
@@ -159,7 +164,7 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
         }
     }
 
-    private static JsonObject BuildSave(CoreTokenReviewManifest manifest)
+    private static JsonObject BuildSave(CoreTokenReviewManifest manifest, string referenceSavePath)
     {
         const float columnSpacing = 3.4f;
         const float rowSpacing = 4.2f;
@@ -191,22 +196,18 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
             }
         }
 
-        return new JsonObject
-        {
-            ["SaveName"] = "X-Wing Unified 1E - Phase 16E-R3 Core Token Candidate Review",
-            ["GameMode"] = string.Empty,
-            ["Date"] = DateTime.Now.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture),
-            ["Gravity"] = 0.5,
-            ["PlayArea"] = 0.5,
-            ["Table"] = "Table_RPG",
-            ["Sky"] = "Sky_Black",
-            ["Note"] = "Review only. Hover over each candidate for its source and repository path. No candidate is approved by this save.",
-            ["Rules"] = string.Empty,
-            ["XmlUI"] = string.Empty,
-            ["LuaScript"] = string.Empty,
-            ["LuaScriptState"] = string.Empty,
-            ["ObjectStates"] = objects
-        };
+        var envelope = JsonNode.Parse(File.ReadAllText(referenceSavePath))?.AsObject()
+            ?? throw new InvalidDataException($"Could not parse TTS reference save: {referenceSavePath}");
+        envelope["SaveName"] = "X-Wing Unified 1E - Phase 16E-R3 Core Token Candidate Review";
+        envelope["GameMode"] = string.Empty;
+        envelope["Date"] = DateTime.Now.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+        envelope["Note"] = "Review only. Hover over each candidate for its source and repository path. No candidate is approved by this save.";
+        envelope["Rules"] = string.Empty;
+        envelope["XmlUI"] = string.Empty;
+        envelope["LuaScript"] = string.Empty;
+        envelope["LuaScriptState"] = string.Empty;
+        envelope["ObjectStates"] = objects;
+        return envelope;
     }
 
     private static JsonObject BuildCandidateTile(
@@ -439,7 +440,8 @@ public static class PrepareFirstEditionCoreTokenReviewCommand
 
     private static void ShowUsage() => Console.WriteLine(
         "Usage: UnifiedToolkit prepare-first-edition-core-token-review <repository> " +
-        "[--inventory <file>] [--asset-base-url <url>] [--max-candidates <1-20>] [--output <folder>]");
+        "[--inventory <file>] [--reference-save <file>] [--asset-base-url <url>] " +
+        "[--max-candidates <1-20>] [--output <folder>]");
 }
 
 public sealed class CoreTokenReviewManifest
@@ -449,6 +451,7 @@ public sealed class CoreTokenReviewManifest
     public string Policy { get; init; } = string.Empty;
     public string RepositoryRoot { get; init; } = string.Empty;
     public string InventoryPath { get; init; } = string.Empty;
+    public string ReferenceSavePath { get; init; } = string.Empty;
     public string AssetBaseUrl { get; init; } = string.Empty;
     public int MaximumCandidatesPerRequirement { get; init; }
     public int RequirementCount { get; init; }
