@@ -234,14 +234,6 @@ public static class AuditFirstEditionGameplayObjectsCommand
     {
         var evidence = Normalise(candidate.NameEvidence);
         if (requirement.Id == "condition-tokens" && candidate.Source == "unified1e") return true;
-        if (candidate.Source == "legacy1e-sorted")
-        {
-            if (requirement.Category is "token" or "upgrade-token" or "marker") return candidate.Category == "token";
-            if (requirement.Category == "condition-token") return candidate.Category == "condition-token";
-            if (requirement.Category == "bomb") return candidate.Category == "bomb";
-            if (requirement.Category == "mine") return candidate.Category is "mine" or "bomb";
-            if (requirement.Category == "obstacle-set") return candidate.Category is "asteroid" or "debris";
-        }
         if (requirement.Category is "token" or "upgrade-token" or "marker" && candidate.Category != "token") return false;
         if (requirement.Category == "bomb" && candidate.Category != "bomb") return false;
         if (requirement.Category == "mine" && candidate.Category != "mine") return false;
