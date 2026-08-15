@@ -1,7 +1,7 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-15T01:04:45.8838636+00:00",
-  "Policy": "Original First Edition assets promoted byte-for-byte. Runtime Lua and gameplay registries are unchanged.",
+  "GeneratedUtc": "2026-08-15T17:57:20.2454191\u002B00:00",
+  "Policy": "Original First Edition assets promoted byte-for-byte. Shield artwork uses the approved high-resolution physical scan and Blender-remapped UV mesh. Runtime Lua and gameplay registries are unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
   "AssetCount": 15,
@@ -14,11 +14,11 @@
       ],
       "Role": "mesh",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
-      "SizeBytes": 26737,
-      "Sha256": "6849ce9a527a1becbff4ad65274b394b275d40e2df70ffe8b8e93c0e395ac484",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915170502145/42D16D55AF7683BDAB0537F1E223D0F6C3491326/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__8444433b4d8321f1.obj",
+      "SizeBytes": 26516,
+      "Sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
       "Width": null,
       "Height": null,
       "HasAlpha": null,
@@ -27,7 +27,8 @@
         "Width": 2.1994,
         "Height": 0.2,
         "Depth": 2.1994
-      }
+      },
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "shield-face",
@@ -36,15 +37,16 @@
       ],
       "Role": "texture",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
-      "SizeBytes": 252204,
-      "Sha256": "8c8364f3d6c048a303b99aba2c4c2534550607bcc09bf93a8b35d7dae0718b2c",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915170504458/76C5CC7F64A5EFC23BA6F62433401590374F2356/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__3744543d9a02636d.png",
-      "Width": 500,
-      "Height": 250,
-      "HasAlpha": true,
-      "MeshBounds": null
+      "SizeBytes": 282385,
+      "Sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/shield_test.png",
+      "Width": 840,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "critical-hit-mesh",
@@ -380,5 +382,13 @@
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
     }
-  ]
+  ],
+  "ShieldPromotion": {
+    "Status": "approved-and-promoted",
+    "ReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
+    "ReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/shield_test.png",
+    "WorkingSourcePath": "assets/source/unified1e/gameplay-tokens/working/shield_test.blend",
+    "ArtworkProcessing": "none-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator"
+  }
 }

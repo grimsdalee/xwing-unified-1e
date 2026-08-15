@@ -52,16 +52,6 @@
     ]
   },
   {
-    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
-    "assetId": "AST-1DC72C16899532DD",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
-      "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png",
-      "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png"
-    ]
-  },
-  {
     "sha256": "2357c8d14199e8ccf76351b9b2436a71e2b21bbbaa268a506e04a57ff2688eca",
     "assetId": "AST-2357C8D14199E8CC",
     "fileCount": 3,
@@ -69,6 +59,16 @@
       "assets/source/unified25/assets/Items/arcranges/DRK1/probedroid.obj",
       "assets/source/unified25/assets/Items/tokens/devices/DRKProbe.obj",
       "assets/source/unified25/assets/Items/tools/remotes-model.obj"
+    ]
+  },
+  {
+    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
+    "assetId": "AST-2BD547B6DB7A1983",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+      "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
     ]
   },
   {
@@ -102,16 +102,6 @@
     ]
   },
   {
-    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
-    "assetId": "AST-41D5909C9DE84F3F",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
-      "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png",
-      "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png"
-    ]
-  },
-  {
     "sha256": "48bfa7dba3b20952bd006396d6453d4ca4c3b7cf9f50c28a7348c90ca14a50ae",
     "assetId": "AST-48BFA7DBA3B20952",
     "fileCount": 3,
@@ -142,16 +132,6 @@
     ]
   },
   {
-    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
-    "assetId": "AST-7FA890E84EEFECDC",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/resistance/yt1300/chewbacca__pilot-2fc18406059d.png",
-      "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png",
-      "assets/source/unified1e/pilot-tokens/resistance/yt1300/chewbacca__pilot-2fc18406059d.png"
-    ]
-  },
-  {
     "sha256": "d0410f516d0f1530fe5cdccc93c87a334c4d447eb8ae18be713632e0895e8772",
     "assetId": "AST-D0410F516D0F1530",
     "fileCount": 3,
@@ -166,59 +146,9 @@
     "assetId": "AST-D593F90649A238BF",
     "fileCount": 3,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__5a85329e249b6ff3.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__5a85329e249b6ff3.png",
       "assets/source/xwvassal/images/Token-Cargo.png",
       "assets/source/xwvassal/images/Token-Debris_Cloud.png"
-    ]
-  },
-  {
-    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
-    "assetId": "AST-DEAFA7A033B67991",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
-      "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png",
-      "assets/source/unified1e/pilot-tokens/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png"
-    ]
-  },
-  {
-    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
-    "assetId": "AST-E5D22375E828E057",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
-      "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png",
-      "assets/source/unified1e/pilot-tokens/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png"
-    ]
-  },
-  {
-    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
-    "assetId": "AST-EE45D8550A97160C",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
-      "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png",
-      "assets/source/unified1e/pilot-tokens/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png"
-    ]
-  },
-  {
-    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
-    "assetId": "AST-EF641B83A2863A62",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
-      "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png",
-      "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png"
-    ]
-  },
-  {
-    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
-    "assetId": "AST-F2B13532126B1B2E",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
-      "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png",
-      "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png"
     ]
   },
   {
@@ -541,7 +471,7 @@
     "assetId": "AST-0ABA8DB5184100C0",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__15bd7b2c535853ff.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__15bd7b2c535853ff.png",
       "assets/source/unified25/assets/Items/asteroids/Debris6.png"
     ]
   },
@@ -622,7 +552,7 @@
     "assetId": "AST-0D0E0A9B8DE1E59E",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__73729d7f24d3dd78.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__73729d7f24d3dd78.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core6.jpg"
     ]
   },
@@ -1185,6 +1115,15 @@
     ]
   },
   {
+    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
+    "assetId": "AST-1DC72C16899532DD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png",
+      "assets/source/unified1e/pilot-tokens/firstorder/upsilonclassshuttle/majorstridan__pilot-ad985a4e2ce1.png"
+    ]
+  },
+  {
     "sha256": "1e116ab0850a46c148d486496101a2ca8a3fcbbc7c37b7121ebe7b3c9c5e29f4",
     "assetId": "AST-1E116AB0850A46C1",
     "fileCount": 2,
@@ -1326,6 +1265,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/system/advtargetingcomputer.png",
       "assets/source/xwing-data/images/upgrades/System/advanced-targeting-computer.png"
+    ]
+  },
+  {
+    "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
+    "assetId": "AST-2247B1BE2FEA6841",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/ion.obj"
     ]
   },
   {
@@ -1549,7 +1497,7 @@
     "assetId": "AST-2A45E79B701A7985",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0b6b2e2e3add6b88.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0b6b2e2e3add6b88.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core3.jpg"
     ]
   },
@@ -1605,15 +1553,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/firstorder/tiefofighter/omegaace__pilot-6981ba3839af.png",
       "assets/source/unified1e/pilot-tokens/firstorder/tiefofighter/omegaace__pilot-6981ba3839af.png"
-    ]
-  },
-  {
-    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
-    "assetId": "AST-2BD547B6DB7A1983",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
-      "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
     ]
   },
   {
@@ -1896,6 +1835,15 @@
     ]
   },
   {
+    "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
+    "assetId": "AST-33A5EFC5F0DB73A8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
+      "assets/source/unified1e/gameplay-tokens/faces/reinforce.png"
+    ]
+  },
+  {
     "sha256": "342c504ee482692222f5e2550fd298484b8bbf6f47daa02b9856a8e635eca36b",
     "assetId": "AST-342C504EE4826922",
     "fileCount": 2,
@@ -1990,7 +1938,7 @@
     "assetId": "AST-36C2229858E72347",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c4456e050067348b.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c4456e050067348b.png",
       "assets/source/unified25/assets/Items/asteroids/Debris2.png"
     ]
   },
@@ -2071,7 +2019,7 @@
     "assetId": "AST-3ACBCC5C4A92A2CC",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0e48b58d18feefe6.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0e48b58d18feefe6.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core4.jpg"
     ]
   },
@@ -2170,7 +2118,7 @@
     "assetId": "AST-3D7FE41267C15ECA",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__57b9a4e04b1c898d.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__57b9a4e04b1c898d.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core5.jpg"
     ]
   },
@@ -2307,6 +2255,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/condition-cards/mimicked/front.png",
       "assets/source/xwing-data/images/conditions/mimicked.png"
+    ]
+  },
+  {
+    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
+    "assetId": "AST-41D5909C9DE84F3F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png",
+      "assets/source/unified1e/pilot-tokens/galacticempire/tiereaper/captainferoph__pilot-a3f7e72d9241.png"
     ]
   },
   {
@@ -3012,6 +2969,15 @@
     ]
   },
   {
+    "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
+    "assetId": "AST-53350015D65D829A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj"
+    ]
+  },
+  {
     "sha256": "53507654a9cd44a46bc105d37e261e0337a4b92035c03259df064bb4cccf7fb8",
     "assetId": "AST-53507654A9CD44A4",
     "fileCount": 2,
@@ -3027,6 +2993,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/blacksunsoldier__pilot-e244dba12dc6.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/z95headhunter/blacksunsoldier__pilot-e244dba12dc6.png"
+    ]
+  },
+  {
+    "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
+    "assetId": "AST-540987E0318D9C1C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/shield.png",
+      "assets/source/unified1e/gameplay-tokens/review/shield_test.png"
     ]
   },
   {
@@ -4317,6 +4292,15 @@
     ]
   },
   {
+    "sha256": "7a163a414bb7872bc0bfb5b1860623b3e147fc9b6418e18a3473925e998bbc18",
+    "assetId": "AST-7A163A414BB7872B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__31cad51e527b4b7b.png",
+      "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png"
+    ]
+  },
+  {
     "sha256": "7a8144f6660669477dc1f1d0a6483f58c6e19ff154c8a736d0ebe9cc814bec5a",
     "assetId": "AST-7A8144F666066947",
     "fileCount": 2,
@@ -4485,6 +4469,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tiefighter/youngster__pilot-03628fe3aeec.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tiefighter/youngster__pilot-03628fe3aeec.png"
+    ]
+  },
+  {
+    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
+    "assetId": "AST-7FA890E84EEFECDC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/resistance/yt1300/chewbacca__pilot-2fc18406059d.png",
+      "assets/source/unified1e/pilot-tokens/resistance/yt1300/chewbacca__pilot-2fc18406059d.png"
     ]
   },
   {
@@ -5293,7 +5286,7 @@
     "assetId": "AST-9955143E9EB7B4BC",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__3276a9741ef148b6.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__3276a9741ef148b6.png",
       "assets/source/unified25/assets/Items/asteroids/Debris5.png"
     ]
   },
@@ -5367,6 +5360,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/title/requiem.png",
       "assets/source/xwing-data/images/upgrades/Title/requiem.png"
+    ]
+  },
+  {
+    "sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
+    "assetId": "AST-9A901E3363B7519A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
+      "assets/source/unified1e/gameplay-tokens/review/shield_test.obj"
     ]
   },
   {
@@ -5523,6 +5525,15 @@
     ]
   },
   {
+    "sha256": "a11f7fcb192cab869fcf88431943337b395229eb86979e89b43feb217421549b",
+    "assetId": "AST-A11F7FCB192CAB86",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7f997ffbf00b08ec.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/stress.obj"
+    ]
+  },
+  {
     "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
     "assetId": "AST-A15AA5C810C9A434",
     "fileCount": 2,
@@ -5626,7 +5637,7 @@
     "assetId": "AST-A46B536C1FEF6036",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7ef5d24af5405a4d.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7ef5d24af5405a4d.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core1.jpg"
     ]
   },
@@ -6328,7 +6339,7 @@
     "assetId": "AST-B6912A2CEE9AB6E2",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__fe777b0b5b4a86a8.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__fe777b0b5b4a86a8.png",
       "assets/source/unified25/assets/Items/asteroids/Debris4.png"
     ]
   },
@@ -6783,6 +6794,15 @@
     ]
   },
   {
+    "sha256": "c3804e86de6188545fc30e1e988c9f0bb6ef7c38147e931d30c5d5f34e9269a3",
+    "assetId": "AST-C3804E86DE618854",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__c0369b29f1d67ad4.png",
+      "assets/source/unified1e/gameplay-tokens/faces/focus.png"
+    ]
+  },
+  {
     "sha256": "c43f2c889533e113ddebcb3fe61a0de3a765dc705a242056e3e4fe44d888db74",
     "assetId": "AST-C43F2C889533E113",
     "fileCount": 2,
@@ -6823,7 +6843,7 @@
     "assetId": "AST-C4F4141B67FA1F83",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__6a4cef9beaae4da6.jpg",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__6a4cef9beaae4da6.jpg",
       "assets/source/unified25/assets/Items/asteroids/Core2.jpg"
     ]
   },
@@ -7386,12 +7406,30 @@
     ]
   },
   {
+    "sha256": "d974a884a74daf11400b91ad10e98089d342b26212b82c774ff2d4ee94da0274",
+    "assetId": "AST-D974A884A74DAF11",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__52d1e774a84eb48e.png",
+      "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png"
+    ]
+  },
+  {
     "sha256": "d97976ee2bd6b5bd9124b10c840ebf6c4dd28911ac0d31b658b79c765dc2970d",
     "assetId": "AST-D97976EE2BD6B5BD",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/title/allianceoverhaul.png",
       "assets/source/xwing-data/images/upgrades/Title/alliance-overhaul.png"
+    ]
+  },
+  {
+    "sha256": "da45a907210e60e0af5e1729a89f405d7fefa3befe641625bbf257abaadbe06c",
+    "assetId": "AST-DA45A907210E60E0",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__fa8ed658e21b949d.png",
+      "assets/source/unified1e/gameplay-tokens/faces/stress.png"
     ]
   },
   {
@@ -7435,7 +7473,7 @@
     "assetId": "AST-DBA23E24BB0C43FF",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7b471cd50a44c67a.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7b471cd50a44c67a.png",
       "assets/source/unified25/assets/Items/asteroids/Debris1.png"
     ]
   },
@@ -7527,6 +7565,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/modification/antipursuitlasers.png",
       "assets/source/xwing-data/images/upgrades/Modification/anti-pursuit-lasers.png"
+    ]
+  },
+  {
+    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
+    "assetId": "AST-DEAFA7A033B67991",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png",
+      "assets/source/unified1e/pilot-tokens/scumandvillainy/m3ainterceptor/genesisred__pilot-8f220cd95a8f.png"
     ]
   },
   {
@@ -7710,6 +7757,24 @@
     ]
   },
   {
+    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
+    "assetId": "AST-E5D22375E828E057",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
+      "assets/source/unified1e/pilot-tokens/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png"
+    ]
+  },
+  {
+    "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
+    "assetId": "AST-E5F9594C6C4DB713",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj"
+    ]
+  },
+  {
     "sha256": "e5fd188e250cad36439a64be782c604c18dae857545a6f73da02136ff0cd4602",
     "assetId": "AST-E5FD188E250CAD36",
     "fileCount": 2,
@@ -7750,7 +7815,7 @@
     "assetId": "AST-E6D1C68425590CB4",
     "fileCount": 2,
     "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c7562b6c592803bc.png",
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c7562b6c592803bc.png",
       "assets/source/unified25/assets/Items/asteroids/Debris3.png"
     ]
   },
@@ -7761,6 +7826,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/tacticalofficer.png",
       "assets/source/xwing-data/images/upgrades/Crew/tactical-officer.png"
+    ]
+  },
+  {
+    "sha256": "e746cc3cbb92cf11b2a78024573f6e2a48293f50de27b16f706ccbd075d21b9e",
+    "assetId": "AST-E746CC3CBB92CF11",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__66a2c7806bf2d5ec.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/evade.obj"
     ]
   },
   {
@@ -7980,6 +8054,24 @@
     ]
   },
   {
+    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
+    "assetId": "AST-EE45D8550A97160C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
+      "assets/source/unified1e/pilot-tokens/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png"
+    ]
+  },
+  {
+    "sha256": "ee8270c1c5bd063c00dfdd19401db633f927d7c39001bdcf52fd0f7cce0447e8",
+    "assetId": "AST-EE8270C1C5BD063C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__4264989d2c8db9c5.png",
+      "assets/source/unified1e/gameplay-tokens/faces/evade.png"
+    ]
+  },
+  {
     "sha256": "ee877a782e774e24c6478cd3b658a9969c92307fc56e7682e0cd4ddc82880098",
     "assetId": "AST-EE877A782E774E24",
     "fileCount": 2,
@@ -8004,6 +8096,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/hardpoint/ioncannonbattery.png",
       "assets/source/xwing-data/images/upgrades/Hardpoint/ion-cannon-battery.png"
+    ]
+  },
+  {
+    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
+    "assetId": "AST-EF641B83A2863A62",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png",
+      "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/lowhhrick__pilot-d9a047e8159f.png"
     ]
   },
   {
@@ -8121,6 +8222,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/FO/TIEba/provocateur.png",
       "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/First Order Provocateur.png"
+    ]
+  },
+  {
+    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
+    "assetId": "AST-F2B13532126B1B2E",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/generated/PilotBaseToken/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png",
+      "assets/source/unified1e/pilot-tokens/rebelalliance/auzituckgunship/wullffwarro__pilot-a607ab86a279.png"
     ]
   },
   {
@@ -8283,6 +8393,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png"
+    ]
+  },
+  {
+    "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
+    "assetId": "AST-F6301996934292FB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__6b7be0188e4ba31f.png",
+      "assets/source/unified1e/gameplay-tokens/faces/ion.png"
     ]
   },
   {

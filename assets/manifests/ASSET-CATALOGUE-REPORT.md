@@ -1,33 +1,32 @@
 # Asset Catalogue Report
 
-Generated: 2026-08-14T16:27:06.5338993+00:00
+Generated: 2026-08-15T17:58:00.7916546+00:00
 
-- Total files: 8260
-- Unique assets: 7271
-- Duplicate files: 989
-- Duplicate hash groups: 956
+- Total files: 8279
+- Unique assets: 7283
+- Duplicate files: 996
+- Duplicate hash groups: 970
 
 ## By origin
 
 - first-edition-dial-textures: 5
 - first-edition-dials: 56
 - first-edition-maneuver-icons: 14
-- generated: 554
-- generated-pilot-tokens: 8
+- generated: 562
 - legacy1e: 379
 - legacy1e-non-pilot: 417
-- unified1e: 1716
+- unified1e: 1735
 - unified25: 2381
 - xwing-data: 415
 - xwvassal: 2315
 
 ## By file kind
 
-- image: 6923
-- model: 713
-- other: 240
+- image: 6924
+- model: 729
+- other: 241
 - lua: 229
-- json: 132
+- json: 133
 - xml: 15
 - text: 5
 - pdf: 3

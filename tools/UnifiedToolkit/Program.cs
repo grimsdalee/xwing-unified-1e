@@ -99,6 +99,7 @@ return command switch
     "build-first-edition-token-construction-blueprint" => BuildFirstEditionTokenConstructionBlueprintCommand.Run(commandArgs),
     "generate-first-edition-token-mesh-prototypes" => GenerateFirstEditionTokenMeshPrototypesCommand.Run(commandArgs),
     "import-first-edition-core-gameplay-tokens" => ImportFirstEditionCoreGameplayTokensCommand.Run(commandArgs),
+    "promote-first-edition-shield-token" => PromoteFirstEditionShieldTokenCommand.Run(commandArgs),
     "import-first-edition-standard-damage-decks" => ImportFirstEditionStandardDamageDecksCommand.Run(commandArgs),
     "import-first-edition-epic-damage-decks" => ImportFirstEditionEpicDamageDecksCommand.Run(commandArgs),
     "import-first-edition-upgrade-card-backs" => ImportFirstEditionUpgradeCardBacksCommand.Run(commandArgs),
@@ -295,6 +296,7 @@ static void ShowHelp()
     Console.WriteLine("  build-first-edition-token-construction-blueprint <first-edition-repo-folder> <unified25-gameplay-save.json> [--inventory <file>] [--output <folder>]");
     Console.WriteLine("  generate-first-edition-token-mesh-prototypes <first-edition-repo-folder> <tts-reference-save.json> [--blueprint <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  import-first-edition-core-gameplay-tokens <first-edition-repo-folder> <xwing10-save.json> [--asset-base-url <url>] [--output <folder>] [--no-download]");
+    Console.WriteLine("  promote-first-edition-shield-token <first-edition-repo-folder> [--mesh <file>] [--face <file>] [--working-source <file>] [--no-knowledge-base]");
     Console.WriteLine("  import-first-edition-standard-damage-decks <first-edition-repo-folder> [--source <folder>] [--data <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-epic-damage-decks <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-upgrade-card-backs <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");

@@ -1064,6 +1064,70 @@
     "notes": "Generated asset. Source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-7529D746F735BB03",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_round.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-93CF0F8242705173",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_rounded_square.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7836924AE8CBD5F4",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_rounded_square_collider.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0A797CC0E8D65630",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_round_collider.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F25140400B676F76",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_chamfered_square.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-24825FB122E301C5",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_chamfered_square_collider.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B628BE6320EC47B2",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_triangle.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9EFA9B789BF289F8",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_triangle_collider.obj",
+    "origin": "generated",
+    "isGenerated": true,
+    "originalSource": null,
+    "notes": "Generated asset. Source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-328D4B0ECF80F3AA",
     "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonace__pilot-fd288ae4c7d0.png",
     "origin": "generated",
@@ -5032,70 +5096,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-1DC72C16899532DD",
-    "repositoryPath": "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-41D5909C9DE84F3F",
-    "repositoryPath": "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-EF641B83A2863A62",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-F2B13532126B1B2E",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-EE45D8550A97160C",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7FA890E84EEFECDC",
-    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E5D22375E828E057",
-    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DEAFA7A033B67991",
-    "repositoryPath": "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png",
-    "origin": "generated-pilot-tokens",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-0D1A0E6FDAAFDAAC",
     "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__0ebaf131a2864530.png",
     "origin": "legacy1e-non-pilot",
@@ -5249,7 +5249,7 @@
   },
   {
     "assetId": "AST-2A45E79B701A7985",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0b6b2e2e3add6b88.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0b6b2e2e3add6b88.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5257,7 +5257,7 @@
   },
   {
     "assetId": "AST-3ACBCC5C4A92A2CC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0e48b58d18feefe6.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0e48b58d18feefe6.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5265,7 +5265,7 @@
   },
   {
     "assetId": "AST-0ABA8DB5184100C0",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__15bd7b2c535853ff.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__15bd7b2c535853ff.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5273,7 +5273,7 @@
   },
   {
     "assetId": "AST-9955143E9EB7B4BC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__3276a9741ef148b6.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__3276a9741ef148b6.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5281,7 +5281,7 @@
   },
   {
     "assetId": "AST-3D7FE41267C15ECA",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__57b9a4e04b1c898d.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__57b9a4e04b1c898d.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5289,7 +5289,7 @@
   },
   {
     "assetId": "AST-D593F90649A238BF",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__5a85329e249b6ff3.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__5a85329e249b6ff3.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5297,7 +5297,7 @@
   },
   {
     "assetId": "AST-C4F4141B67FA1F83",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__6a4cef9beaae4da6.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__6a4cef9beaae4da6.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5305,7 +5305,7 @@
   },
   {
     "assetId": "AST-0D0E0A9B8DE1E59E",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__73729d7f24d3dd78.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__73729d7f24d3dd78.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5313,7 +5313,7 @@
   },
   {
     "assetId": "AST-DBA23E24BB0C43FF",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7b471cd50a44c67a.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7b471cd50a44c67a.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5321,7 +5321,7 @@
   },
   {
     "assetId": "AST-A46B536C1FEF6036",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7ef5d24af5405a4d.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7ef5d24af5405a4d.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5329,7 +5329,7 @@
   },
   {
     "assetId": "AST-285A16C47976AFAC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__b1456737bb78f030.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__b1456737bb78f030.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5337,7 +5337,7 @@
   },
   {
     "assetId": "AST-F75C0D05E9E752EB",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__b3b1f3e5093dcc28.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__b3b1f3e5093dcc28.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5345,7 +5345,7 @@
   },
   {
     "assetId": "AST-36C2229858E72347",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c4456e050067348b.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c4456e050067348b.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5353,7 +5353,7 @@
   },
   {
     "assetId": "AST-E6D1C68425590CB4",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c7562b6c592803bc.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c7562b6c592803bc.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5361,7 +5361,7 @@
   },
   {
     "assetId": "AST-FFC8218866E75AEA",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__d908fc96f37661c1.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__d908fc96f37661c1.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5369,7 +5369,7 @@
   },
   {
     "assetId": "AST-DB5AEDAEC52579C6",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__e5ff3eacfc26a217.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__e5ff3eacfc26a217.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5377,7 +5377,7 @@
   },
   {
     "assetId": "AST-C56DB4C9B1A6BD9D",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__f7aec4a971ebf583.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__f7aec4a971ebf583.jpg",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -5385,7 +5385,7 @@
   },
   {
     "assetId": "AST-B6912A2CEE9AB6E2",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__fe777b0b5b4a86a8.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__fe777b0b5b4a86a8.png",
     "origin": "legacy1e-non-pilot",
     "isGenerated": false,
     "originalSource": null,
@@ -13064,6 +13064,150 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-D974A884A74DAF11",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EE8270C1C5BD063C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C3804E86DE618854",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/focus.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F6301996934292FB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-33A5EFC5F0DB73A8",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-540987E0318D9C1C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DA45A907210E60E0",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7A163A414BB7872B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2BD547B6DB7A1983",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E746CC3CBB92CF11",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2247B1BE2FEA6841",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-53350015D65D829A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5F9594C6C4DB713",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9A901E3363B7519A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A11F7FCB192CAB86",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9A901E3363B7519A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-540987E0318D9C1C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-ECE2648888369BEE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/working/shield_test.blend",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-C0A16D91D790799C",
     "repositoryPath": "assets/source/unified1e/pilot-cards/firstorder/tiefofighter/epsilon-ace.png",
     "origin": "unified1e",
@@ -18042,6 +18186,14 @@
   {
     "assetId": "AST-A820E361D5351C41",
     "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F0E52CE5A3EF69CC",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

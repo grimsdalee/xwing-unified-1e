@@ -798,6 +798,54 @@
     "sizeBytes": 14417
   },
   {
+    "assetId": "AST-7529D746F735BB03",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_round.obj",
+    "sha256": "7529d746f735bb03633207a9f38d7f0e2d6e7ecc4565e88106da73523ff1a57c",
+    "sizeBytes": 11513
+  },
+  {
+    "assetId": "AST-93CF0F8242705173",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_rounded_square.obj",
+    "sha256": "93cf0f824270517388ea6834f08be47895a02edc9043d0eae6aeb34ed4a30170",
+    "sizeBytes": 8246
+  },
+  {
+    "assetId": "AST-7836924AE8CBD5F4",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_rounded_square_collider.obj",
+    "sha256": "7836924ae8cbd5f4dd4fa2bc0344389f65cc9da5df8bb05e9c0955497787ab1b",
+    "sizeBytes": 935
+  },
+  {
+    "assetId": "AST-0A797CC0E8D65630",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/extruded_round_collider.obj",
+    "sha256": "0a797cc0e8d65630c12f6706957dba8bc10054961e9172e11906bf2f9ba72078",
+    "sizeBytes": 1358
+  },
+  {
+    "assetId": "AST-F25140400B676F76",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_chamfered_square.obj",
+    "sha256": "f25140400b676f76f2116fda923bd2d663a856fe4a6c92a06d3fac48a7d439ff",
+    "sizeBytes": 2192
+  },
+  {
+    "assetId": "AST-24825FB122E301C5",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_chamfered_square_collider.obj",
+    "sha256": "24825fb122e301c5ac7c9f00830a16c96bf7f7ec628258b94c6f5a6c6c985fed",
+    "sizeBytes": 578
+  },
+  {
+    "assetId": "AST-B628BE6320EC47B2",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_triangle.obj",
+    "sha256": "b628be6320ec47b2af193501d83a518ef9d14cb47e8bd85560c07e1d9b263e4b",
+    "sizeBytes": 1795
+  },
+  {
+    "assetId": "AST-9EFA9B789BF289F8",
+    "repositoryPath": "assets/generated/GameplayTokens/review-meshes/new_triangle_collider.obj",
+    "sha256": "9efa9b789bf289f8e250775732cd1f70fc84bcf4fcee8ee83e45b4f8c301cdb3",
+    "sizeBytes": 469
+  },
+  {
     "assetId": "AST-328D4B0ECF80F3AA",
     "repositoryPath": "assets/generated/PilotBaseToken/firstorder/tiefofighter/epsilonace__pilot-fd288ae4c7d0.png",
     "sha256": "328d4b0ecf80f3aadfb2366d465c0888c40df2de9011c9154515d9110a56fa56",
@@ -3774,54 +3822,6 @@
     "sizeBytes": 8098
   },
   {
-    "assetId": "AST-1DC72C16899532DD",
-    "repositoryPath": "assets/source/generated-pilot-tokens/firstorder/upsilonclassshuttle/majorstridan.png",
-    "sha256": "1dc72c16899532dd06bf5e9635c1bc43770db046a6c06388aa253624aeb6e441",
-    "sizeBytes": 1088141
-  },
-  {
-    "assetId": "AST-41D5909C9DE84F3F",
-    "repositoryPath": "assets/source/generated-pilot-tokens/galacticempire/tiereaper/captainferoph.png",
-    "sha256": "41d5909c9de84f3fb369e8c27b4b9ecc8de3508d74d75edba446853c6cc23fe7",
-    "sizeBytes": 319737
-  },
-  {
-    "assetId": "AST-EF641B83A2863A62",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/lowhhrick.png",
-    "sha256": "ef641b83a2863a62df988dbe77b1d1a2ab9c0895f4ab34217265bf1914e854fe",
-    "sizeBytes": 318999
-  },
-  {
-    "assetId": "AST-F2B13532126B1B2E",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/auzituckgunship/wullffwarro.png",
-    "sha256": "f2b13532126b1b2e65fa95b43411aa3626ddae284d473806398bf179f00bc213",
-    "sizeBytes": 305736
-  },
-  {
-    "assetId": "AST-EE45D8550A97160C",
-    "repositoryPath": "assets/source/generated-pilot-tokens/rebelalliance/awing/prototypepilot.png",
-    "sha256": "ee45d8550a97160c2b0b28f167ee0ec88bc90ca50fbe10659080b60eb5711366",
-    "sizeBytes": 303311
-  },
-  {
-    "assetId": "AST-7FA890E84EEFECDC",
-    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/chewbacca.png",
-    "sha256": "7fa890e84eefecdca46589d7affcdd6577d8ab209b0a190dfc175de8c5b9bbf0",
-    "sizeBytes": 884929
-  },
-  {
-    "assetId": "AST-E5D22375E828E057",
-    "repositoryPath": "assets/source/generated-pilot-tokens/resistance/yt1300/hansolo.png",
-    "sha256": "e5d22375e828e0570dd0f22b4ee1665799adc631ba3f1c6a343aabde57d914a2",
-    "sizeBytes": 885025
-  },
-  {
-    "assetId": "AST-DEAFA7A033B67991",
-    "repositoryPath": "assets/source/generated-pilot-tokens/scumandvillainy/m3ainterceptor/genesisred.png",
-    "sha256": "deafa7a033b679911710705d69c6f9a8fa4f5b68828e0497a5e470cfc24c4276",
-    "sizeBytes": 310094
-  },
-  {
     "assetId": "AST-0D1A0E6FDAAFDAAC",
     "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__0ebaf131a2864530.png",
     "sha256": "0d1a0e6fdaafdaacd563eb0f114dac860db9fcae97e0ada836ce1330df1ba69b",
@@ -3937,109 +3937,109 @@
   },
   {
     "assetId": "AST-2A45E79B701A7985",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0b6b2e2e3add6b88.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0b6b2e2e3add6b88.jpg",
     "sha256": "2a45e79b701a798542ea695fbc52e13d39f0667c34e4fb8258f723732c2cc11d",
     "sizeBytes": 158361
   },
   {
     "assetId": "AST-3ACBCC5C4A92A2CC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__0e48b58d18feefe6.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__0e48b58d18feefe6.jpg",
     "sha256": "3acbcc5c4a92a2cc7520ed6e25bcf77a1fa754a1e0ac931bd2bb7334d3ba59e8",
     "sizeBytes": 145837
   },
   {
     "assetId": "AST-0ABA8DB5184100C0",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__15bd7b2c535853ff.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__15bd7b2c535853ff.png",
     "sha256": "0aba8db5184100c0053afa735e68fa70b8a448a38443d0f3b08ff76ed6d9882f",
     "sizeBytes": 254800
   },
   {
     "assetId": "AST-9955143E9EB7B4BC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__3276a9741ef148b6.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__3276a9741ef148b6.png",
     "sha256": "9955143e9eb7b4bc25ed3b7579996d0508801fd14fc6f441cf4be923f4959435",
     "sizeBytes": 273247
   },
   {
     "assetId": "AST-3D7FE41267C15ECA",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__57b9a4e04b1c898d.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__57b9a4e04b1c898d.jpg",
     "sha256": "3d7fe41267c15eca24262b8da41cdf526b95173c170957ca3a10208692af68f5",
     "sizeBytes": 157664
   },
   {
     "assetId": "AST-D593F90649A238BF",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__5a85329e249b6ff3.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__5a85329e249b6ff3.png",
     "sha256": "d593f90649a238bf42e0cab2add79cb5a0d57455b24b24457421d2405bb9a073",
     "sizeBytes": 74981
   },
   {
     "assetId": "AST-C4F4141B67FA1F83",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__6a4cef9beaae4da6.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__6a4cef9beaae4da6.jpg",
     "sha256": "c4f4141b67fa1f8372e2fcc239184da2f14553ee4f7974f91a26c2654f730b04",
     "sizeBytes": 151687
   },
   {
     "assetId": "AST-0D0E0A9B8DE1E59E",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__73729d7f24d3dd78.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__73729d7f24d3dd78.jpg",
     "sha256": "0d0e0a9b8de1e59e5d8a5c971642b1f80a3f17c4c2489809cd8e84d647cebee0",
     "sizeBytes": 151959
   },
   {
     "assetId": "AST-DBA23E24BB0C43FF",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7b471cd50a44c67a.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7b471cd50a44c67a.png",
     "sha256": "dba23e24bb0c43ff71c649d18fa30c3c5d8e1ca29590e3f904dd00ffba6a5fcd",
     "sizeBytes": 239949
   },
   {
     "assetId": "AST-A46B536C1FEF6036",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__7ef5d24af5405a4d.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__7ef5d24af5405a4d.jpg",
     "sha256": "a46b536c1fef6036cb1732dd6a35e869a7f4c97447d1fba605af191f06221911",
     "sizeBytes": 196487
   },
   {
     "assetId": "AST-285A16C47976AFAC",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__b1456737bb78f030.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__b1456737bb78f030.png",
     "sha256": "285a16c47976afacd2adc590ff8fc6417576545fa59fe6854cf403f91602f497",
     "sizeBytes": 2248651
   },
   {
     "assetId": "AST-F75C0D05E9E752EB",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__b3b1f3e5093dcc28.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__b3b1f3e5093dcc28.jpg",
     "sha256": "f75c0d05e9e752eb8938ba752221f8f5532a253172e98ebf702a451cafe73036",
     "sizeBytes": 245288
   },
   {
     "assetId": "AST-36C2229858E72347",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c4456e050067348b.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c4456e050067348b.png",
     "sha256": "36c2229858e72347952612f398ca35c9b13f5211181e0e098b2b682b06837e13",
     "sizeBytes": 220464
   },
   {
     "assetId": "AST-E6D1C68425590CB4",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__c7562b6c592803bc.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__c7562b6c592803bc.png",
     "sha256": "e6d1c68425590cb4546f4f471c64d148d81365f1b52db509817eab3cf30c46a0",
     "sizeBytes": 173844
   },
   {
     "assetId": "AST-FFC8218866E75AEA",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__d908fc96f37661c1.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__d908fc96f37661c1.png",
     "sha256": "ffc8218866e75aeaa9eadc968b2529afba5405cefadf0dae6378da1a38ed70bd",
     "sizeBytes": 529666
   },
   {
     "assetId": "AST-DB5AEDAEC52579C6",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__e5ff3eacfc26a217.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__e5ff3eacfc26a217.jpg",
     "sha256": "db5aedaec52579c6fec3116a0dc235eba075fffd9eb0979b410d8f5819c29ba3",
     "sizeBytes": 290683
   },
   {
     "assetId": "AST-C56DB4C9B1A6BD9D",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__f7aec4a971ebf583.jpg",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__f7aec4a971ebf583.jpg",
     "sha256": "c56db4c9b1a6bd9d5104fa0e26880e11b8576688e91a32c7df94c03cb6e4b933",
     "sizeBytes": 209753
   },
   {
     "assetId": "AST-B6912A2CEE9AB6E2",
-    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteriod-tokens/asset__fe777b0b5b4a86a8.png",
+    "repositoryPath": "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__fe777b0b5b4a86a8.png",
     "sha256": "b6912a2cee9ab6e2545d77429099a13c9acd37a7f194c2c010c9986eae1a3e8c",
     "sizeBytes": 218627
   },
@@ -9798,6 +9798,114 @@
     "sizeBytes": 4686887
   },
   {
+    "assetId": "AST-D974A884A74DAF11",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
+    "sha256": "d974a884a74daf11400b91ad10e98089d342b26212b82c774ff2d4ee94da0274",
+    "sizeBytes": 118896
+  },
+  {
+    "assetId": "AST-EE8270C1C5BD063C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
+    "sha256": "ee8270c1c5bd063c00dfdd19401db633f927d7c39001bdcf52fd0f7cce0447e8",
+    "sizeBytes": 133832
+  },
+  {
+    "assetId": "AST-C3804E86DE618854",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/focus.png",
+    "sha256": "c3804e86de6188545fc30e1e988c9f0bb6ef7c38147e931d30c5d5f34e9269a3",
+    "sizeBytes": 149927
+  },
+  {
+    "assetId": "AST-F6301996934292FB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
+    "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
+    "sizeBytes": 1541760
+  },
+  {
+    "assetId": "AST-33A5EFC5F0DB73A8",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
+    "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
+    "sizeBytes": 456862
+  },
+  {
+    "assetId": "AST-540987E0318D9C1C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
+    "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
+    "sizeBytes": 282385
+  },
+  {
+    "assetId": "AST-DA45A907210E60E0",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
+    "sha256": "da45a907210e60e0af5e1729a89f405d7fefa3befe641625bbf257abaadbe06c",
+    "sizeBytes": 140111
+  },
+  {
+    "assetId": "AST-7A163A414BB7872B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
+    "sha256": "7a163a414bb7872bc0bfb5b1860623b3e147fc9b6418e18a3473925e998bbc18",
+    "sizeBytes": 112181
+  },
+  {
+    "assetId": "AST-2BD547B6DB7A1983",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
+    "sizeBytes": 14739
+  },
+  {
+    "assetId": "AST-E746CC3CBB92CF11",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
+    "sha256": "e746cc3cbb92cf11b2a78024573f6e2a48293f50de27b16f706ccbd075d21b9e",
+    "sizeBytes": 52070
+  },
+  {
+    "assetId": "AST-2247B1BE2FEA6841",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+    "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
+    "sizeBytes": 20255
+  },
+  {
+    "assetId": "AST-53350015D65D829A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
+    "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
+    "sizeBytes": 17640
+  },
+  {
+    "assetId": "AST-E5F9594C6C4DB713",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
+    "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
+    "sizeBytes": 52108
+  },
+  {
+    "assetId": "AST-9A901E3363B7519A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
+    "sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
+    "sizeBytes": 26516
+  },
+  {
+    "assetId": "AST-A11F7FCB192CAB86",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+    "sha256": "a11f7fcb192cab869fcf88431943337b395229eb86979e89b43feb217421549b",
+    "sizeBytes": 24016
+  },
+  {
+    "assetId": "AST-9A901E3363B7519A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
+    "sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
+    "sizeBytes": 26516
+  },
+  {
+    "assetId": "AST-540987E0318D9C1C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.png",
+    "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
+    "sizeBytes": 282385
+  },
+  {
+    "assetId": "AST-ECE2648888369BEE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/working/shield_test.blend",
+    "sha256": "ece2648888369beee89f2bc3ccacb4b740e8aa08bdace1ed3b3f09f82814b1e4",
+    "sizeBytes": 107880
+  },
+  {
     "assetId": "AST-C0A16D91D790799C",
     "repositoryPath": "assets/source/unified1e/pilot-cards/firstorder/tiefofighter/epsilon-ace.png",
     "sha256": "c0a16d91d790799cb51f552b68498b1e4393e137d4a3100f045e954ec5927c8e",
@@ -13534,6 +13642,12 @@
     "repositoryPath": "assets/source/unified1e/reference/fonts/xwing-miniatures.ttf",
     "sha256": "a820e361d5351c41f5b60ac8d2e7e6ac0e13a08c7dea31420fc7fc3c075d88b5",
     "sizeBytes": 69896
+  },
+  {
+    "assetId": "AST-F0E52CE5A3EF69CC",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
+    "sha256": "f0e52ce5a3ef69cc8e7d754d8a4d13027bd87ef53c9b326ceadc1220dfce0e3f",
+    "sizeBytes": 16254
   },
   {
     "assetId": "AST-68F3AFF5783BC9E1",
