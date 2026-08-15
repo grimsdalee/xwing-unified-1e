@@ -13072,7 +13072,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-EE8270C1C5BD063C",
+    "assetId": "AST-E4E0C5B28D996F95",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13080,7 +13080,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-C3804E86DE618854",
+    "assetId": "AST-8D2FF9117C2B90D2",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/focus.png",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13136,8 +13136,16 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-E746CC3CBB92CF11",
+    "assetId": "AST-6FAD4ED67A0CF8EB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DF4B10D9F3700B2F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/focus.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13184,6 +13192,54 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-46D911BD26D80BA0",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4E0C5B28D996F95",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6FAD4ED67A0CF8EB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test_v2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-150F6BEC8643A909",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8D2FF9117C2B90D2",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DF4B10D9F3700B2F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-9A901E3363B7519A",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
     "origin": "unified1e",
@@ -13194,6 +13250,14 @@
   {
     "assetId": "AST-540987E0318D9C1C",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-DA4B2BB630DD4B89",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18192,7 +18256,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-F0E52CE5A3EF69CC",
+    "assetId": "AST-2BB75C6D4405A16C",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

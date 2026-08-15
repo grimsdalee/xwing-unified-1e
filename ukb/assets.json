@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-15T17:58:01.3161278+00:00",
+  "generatedUtc": "2026-08-15T18:47:31.9969431+00:00",
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -29186,30 +29186,30 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-EE8270C1C5BD063C",
-      "sha256": "ee8270c1c5bd063c00dfdd19401db633f927d7c39001bdcf52fd0f7cce0447e8",
+      "assetId": "AST-E4E0C5B28D996F95",
+      "sha256": "e4e0c5b28d996f95516ec4e68bf94917078e22b2ebcca2c93b9404b8c7cab2c8",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
       "fileName": "evade.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 133832,
+      "sizeBytes": 185030,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
       "referencedBy": []
     },
     {
-      "assetId": "AST-C3804E86DE618854",
-      "sha256": "c3804e86de6188545fc30e1e988c9f0bb6ef7c38147e931d30c5d5f34e9269a3",
+      "assetId": "AST-8D2FF9117C2B90D2",
+      "sha256": "8d2ff9117c2b90d2dddb0795215f6c37c11ea4dfbd175be773aef9f0fa8ae268",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/focus.png",
       "fileName": "focus.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 149927,
+      "sizeBytes": 175482,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -29306,15 +29306,30 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-E746CC3CBB92CF11",
-      "sha256": "e746cc3cbb92cf11b2a78024573f6e2a48293f50de27b16f706ccbd075d21b9e",
+      "assetId": "AST-6FAD4ED67A0CF8EB",
+      "sha256": "6fad4ed67a0cf8eb9dae2669c652681f22278c15e94e95ca873698c4b9f3f3ce",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
       "fileName": "evade.obj",
       "extension": ".obj",
       "assetType": "model",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 52070,
+      "sizeBytes": 51107,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-DF4B10D9F3700B2F",
+      "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/focus.obj",
+      "fileName": "focus.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51101,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -29396,6 +29411,96 @@
       "referencedBy": []
     },
     {
+      "assetId": "AST-46D911BD26D80BA0",
+      "sha256": "46d911bd26d80ba0001f5a6515ac6ef3a93cc25046185b2cc6dbf80bb357cdab",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.obj",
+      "fileName": "evade_test.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51092,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-E4E0C5B28D996F95",
+      "sha256": "e4e0c5b28d996f95516ec4e68bf94917078e22b2ebcca2c93b9404b8c7cab2c8",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.png",
+      "fileName": "evade_test.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 185030,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-6FAD4ED67A0CF8EB",
+      "sha256": "6fad4ed67a0cf8eb9dae2669c652681f22278c15e94e95ca873698c4b9f3f3ce",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test_v2.obj",
+      "fileName": "evade_test_v2.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51107,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-150F6BEC8643A909",
+      "sha256": "150f6bec8643a9098cca5856d0c888016ad39de70b6057d19e17dd15fc721b20",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.obj",
+      "fileName": "focus_test.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51086,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-8D2FF9117C2B90D2",
+      "sha256": "8d2ff9117c2b90d2dddb0795215f6c37c11ea4dfbd175be773aef9f0fa8ae268",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.png",
+      "fileName": "focus_test.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 175482,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-DF4B10D9F3700B2F",
+      "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
+      "fileName": "focus_test_v2.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51101,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
       "assetId": "AST-9A901E3363B7519A",
       "sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
@@ -29420,6 +29525,21 @@
       "warehouse": "unified1e",
       "isGenerated": false,
       "sizeBytes": 282385,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-DA4B2BB630DD4B89",
+      "sha256": "da4b2bb630dd4b89223f95b073fb0da3c6cbb54e5203ea263f6c0da12835d793",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
+      "fileName": "stress_test.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 161220,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -38786,15 +38906,15 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-F0E52CE5A3EF69CC",
-      "sha256": "f0e52ce5a3ef69cc8e7d754d8a4d13027bd87ef53c9b326ceadc1220dfce0e3f",
+      "assetId": "AST-2BB75C6D4405A16C",
+      "sha256": "2bb75c6d4405a16ca7d90a3717cd10486b1d28c471cb40065cc8dfea6d06d161",
       "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
       "fileName": "core-gameplay-tokens.json",
       "extension": ".json",
       "assetType": "json",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 16254,
+      "sizeBytes": 17354,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -169038,6 +169158,14 @@
       ]
     },
     {
+      "assetId": "AST-6FAD4ED67A0CF8EB",
+      "sha256": "6fad4ed67a0cf8eb9dae2669c652681f22278c15e94e95ca873698c4b9f3f3ce",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
+        "assets/source/unified1e/gameplay-tokens/review/evade_test_v2.obj"
+      ]
+    },
+    {
       "assetId": "AST-70096EBB31F09020",
       "sha256": "70096ebb31f09020319a1d230c1d39aaa87790332bb8736b55a877b1fa095506",
       "repositoryPaths": [
@@ -169859,6 +169987,14 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png",
         "assets/source/unified1e/pilot-tokens/rebelalliance/sheathipedeclassshuttle/ap5__pilot-24eed7fb9599.png"
+      ]
+    },
+    {
+      "assetId": "AST-8D2FF9117C2B90D2",
+      "sha256": "8d2ff9117c2b90d2dddb0795215f6c37c11ea4dfbd175be773aef9f0fa8ae268",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/faces/focus.png",
+        "assets/source/unified1e/gameplay-tokens/review/focus_test.png"
       ]
     },
     {
@@ -171526,14 +171662,6 @@
       ]
     },
     {
-      "assetId": "AST-C3804E86DE618854",
-      "sha256": "c3804e86de6188545fc30e1e988c9f0bb6ef7c38147e931d30c5d5f34e9269a3",
-      "repositoryPaths": [
-        "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__c0369b29f1d67ad4.png",
-        "assets/source/unified1e/gameplay-tokens/faces/focus.png"
-      ]
-    },
-    {
       "assetId": "AST-C43F2C889533E113",
       "sha256": "c43f2c889533e113ddebcb3fe61a0de3a765dc705a242056e3e4fe44d888db74",
       "repositoryPaths": [
@@ -172230,6 +172358,14 @@
       ]
     },
     {
+      "assetId": "AST-DF4B10D9F3700B2F",
+      "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/meshes/focus.obj",
+        "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj"
+      ]
+    },
+    {
       "assetId": "AST-DFB22E30F77DE508",
       "sha256": "dfb22e30f77de5085af9077397bba78131f767709f1f3a43544de5378b8e7562",
       "repositoryPaths": [
@@ -172358,6 +172494,14 @@
       ]
     },
     {
+      "assetId": "AST-E4E0C5B28D996F95",
+      "sha256": "e4e0c5b28d996f95516ec4e68bf94917078e22b2ebcca2c93b9404b8c7cab2c8",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/faces/evade.png",
+        "assets/source/unified1e/gameplay-tokens/review/evade_test.png"
+      ]
+    },
+    {
       "assetId": "AST-E4F53353C15B36AB",
       "sha256": "e4f53353c15b36abdfa9ed5991aa4d24533e8ba70cde7c0b46894cf19c654493",
       "repositoryPaths": [
@@ -172443,14 +172587,6 @@
       "repositoryPaths": [
         "assets/source/unified1e/upgrade-cards/crew/tacticalofficer.png",
         "assets/source/xwing-data/images/upgrades/Crew/tactical-officer.png"
-      ]
-    },
-    {
-      "assetId": "AST-E746CC3CBB92CF11",
-      "sha256": "e746cc3cbb92cf11b2a78024573f6e2a48293f50de27b16f706ccbd075d21b9e",
-      "repositoryPaths": [
-        "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__66a2c7806bf2d5ec.obj",
-        "assets/source/unified1e/gameplay-tokens/meshes/evade.obj"
       ]
     },
     {
@@ -172651,14 +172787,6 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png",
         "assets/source/unified1e/pilot-tokens/rebelalliance/awing/prototypepilot__pilot-a371331d793e.png"
-      ]
-    },
-    {
-      "assetId": "AST-EE8270C1C5BD063C",
-      "sha256": "ee8270c1c5bd063c00dfdd19401db633f927d7c39001bdcf52fd0f7cce0447e8",
-      "repositoryPaths": [
-        "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__4264989d2c8db9c5.png",
-        "assets/source/unified1e/gameplay-tokens/faces/evade.png"
       ]
     },
     {
