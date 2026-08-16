@@ -13104,6 +13104,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-C65DBE7EA3CDAE96",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-BF69F5E5D321D825",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
     "origin": "unified1e",
@@ -13152,6 +13160,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-0E5A66D0D9C02629",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-72B6236EE54A6E10",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
     "origin": "unified1e",
@@ -13194,6 +13210,14 @@
   {
     "assetId": "AST-2247B1BE2FEA6841",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1B2742899D72C499",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13250,6 +13274,14 @@
   {
     "assetId": "AST-5BC601D474BCADEB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13150BAF72C5387F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13352,6 +13384,30 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-1FD4F301BE0C01D6",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1B2742899D72C499",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-C65DBE7EA3CDAE96",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-269D010FE9DE9845",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
     "origin": "unified1e",
@@ -13434,6 +13490,22 @@
   {
     "assetId": "AST-085A0AF045C19C27",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-13150BAF72C5387F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0E5A66D0D9C02629",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18440,7 +18512,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-BAE14B120C28F0B1",
+    "assetId": "AST-C1C2203721842A70",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

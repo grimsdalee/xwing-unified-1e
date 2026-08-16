@@ -1,11 +1,11 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-16T13:38:35.3055893\u002B00:00",
-  "Policy": "Original First Edition assets promoted byte-for-byte. Approved high-resolution physical scans use validated UV-remapped meshes. Runtime Lua is unchanged.",
+  "GeneratedUtc": "2026-08-16T14:33:01.0213590\u002B00:00",
+  "Policy": "Original First Edition assets promoted byte-for-byte. Approved high-resolution physical scans use validated custom token meshes. Runtime Lua is unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
-  "AssetCount": 20,
-  "TokenCount": 10,
+  "AssetCount": 24,
+  "TokenCount": 12,
   "Assets": [
     {
       "Id": "shield-mesh",
@@ -414,6 +414,88 @@
       "Height": 420,
       "HasAlpha": false,
       "MeshBounds": null
+    },
+    {
+      "Id": "jam-mesh",
+      "TokenIds": [
+        "jam"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
+      "SizeBytes": 2649,
+      "Sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/jam_test.obj",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 16,
+        "Width": 2,
+        "Height": 0.18,
+        "Depth": 2
+      }
+    },
+    {
+      "Id": "jam-face",
+      "TokenIds": [
+        "jam"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+      "SizeBytes": 148434,
+      "Sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/jam_test.png",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": 420,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null
+    },
+    {
+      "Id": "tractor-beam-mesh",
+      "TokenIds": [
+        "tractor-beam"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
+      "SizeBytes": 2658,
+      "Sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 16,
+        "Width": 2,
+        "Height": 0.18,
+        "Depth": 2.262068
+      }
+    },
+    {
+      "Id": "tractor-beam-face",
+      "TokenIds": [
+        "tractor-beam"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+      "SizeBytes": 122270,
+      "Sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": 420,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null
     }
   ],
   "Tokens": [
@@ -516,6 +598,26 @@
       "FacePath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
+    },
+    {
+      "Id": "jam",
+      "Name": "Jam",
+      "MeshAssetId": "jam-mesh",
+      "FaceAssetId": "jam-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false
+    },
+    {
+      "Id": "tractor-beam",
+      "Name": "Tractor Beam",
+      "MeshAssetId": "tractor-beam-mesh",
+      "FaceAssetId": "tractor-beam-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false
     }
   ],
   "ShieldPromotion": {
@@ -563,6 +665,17 @@
     "OrdnanceReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
     "OrdnanceReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.png",
     "OrdnanceGeometry": "approved-phase16e-r7-clipped-square",
+    "ArtworkProcessing": "none-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator"
+  },
+  "JamTractorPromotion": {
+    "Status": "approved-and-promoted",
+    "JamReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.obj",
+    "JamReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/jam_test.png",
+    "JamGeometry": "regular-octagon",
+    "TractorBeamReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
+    "TractorBeamReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
+    "TractorBeamGeometry": "vertically-proportioned-clipped-diamond",
     "ArtworkProcessing": "none-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator"
   }

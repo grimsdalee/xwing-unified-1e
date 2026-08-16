@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T13:39:05.2259315+00:00",
+  "generatedUtc": "2026-08-16T14:33:18.5929377+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -29248,6 +29248,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-C65DBE7EA3CDAE96",
+        "sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+        "fileName": "jam.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 148434,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-BF69F5E5D321D825",
         "sha256": "bf69f5e5d321d825887a80f78cf4970c05af3636c686af6878714a686c36b25b",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
@@ -29338,6 +29353,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-0E5A66D0D9C02629",
+        "sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+        "fileName": "tractor-beam.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 122270,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-72B6236EE54A6E10",
         "sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
@@ -29422,6 +29452,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 20255,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1B2742899D72C499",
+        "sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
+        "fileName": "jam.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 2649,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29527,6 +29572,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 23633,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-13150BAF72C5387F",
+        "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
+        "fileName": "tractor-beam.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 2658,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29713,6 +29773,51 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-1FD4F301BE0C01D6",
+        "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
+        "fileName": "ion_test.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 192753,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1B2742899D72C499",
+        "sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.obj",
+        "fileName": "jam_test.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 2649,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-C65DBE7EA3CDAE96",
+        "sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.png",
+        "fileName": "jam_test.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 148434,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-269D010FE9DE9845",
         "sha256": "269d010fe9de9845c9892d4b436d6693b9e18cd17134d60773079d97c928386a",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
@@ -29872,6 +29977,36 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 166041,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-13150BAF72C5387F",
+        "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
+        "fileName": "tractor-beam_test.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 2658,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-0E5A66D0D9C02629",
+        "sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
+        "fileName": "tractor-beam_test.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 122270,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -39253,15 +39388,15 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-BAE14B120C28F0B1",
-        "sha256": "bae14b120c28f0b195487af6cf16938d89401a42eccafdb7b431e938c1795199",
+        "assetId": "AST-C1C2203721842A70",
+        "sha256": "c1c2203721842a70ddf8c6bad4e76011b3297098c64dc7de4419ed90f99596fa",
         "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
         "fileName": "core-gameplay-tokens.json",
         "extension": ".json",
         "assetType": "json",
         "warehouse": "unified1e",
         "isGenerated": false,
-        "sizeBytes": 22171,
+        "sizeBytes": 26418,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -166511,6 +166646,14 @@
         ]
       },
       {
+        "assetId": "AST-0E5A66D0D9C02629",
+        "sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+          "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png"
+        ]
+      },
+      {
         "assetId": "AST-0E6E827F20A7006F",
         "sha256": "0e6e827f20a7006f88d01242c0bd91e42ded05bfcefcf8ef653bb98e76d94141",
         "repositoryPaths": [
@@ -166636,6 +166779,14 @@
         "repositoryPaths": [
           "assets/source/unified1e/upgrade-cards/elite/squadleader.png",
           "assets/source/xwing-data/images/upgrades/Elite/squad-leader.png"
+        ]
+      },
+      {
+        "assetId": "AST-13150BAF72C5387F",
+        "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
+          "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj"
         ]
       },
       {
@@ -166860,6 +167011,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png",
           "assets/source/unified1e/pilot-tokens/scumandvillainy/lancerclasspursuitcraft/ketsuonyo__pilot-9f00c0ddb4e8.png"
+        ]
+      },
+      {
+        "assetId": "AST-1B2742899D72C499",
+        "sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
+          "assets/source/unified1e/gameplay-tokens/review/jam_test.obj"
         ]
       },
       {
@@ -172159,6 +172318,14 @@
         ]
       },
       {
+        "assetId": "AST-C65DBE7EA3CDAE96",
+        "sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+          "assets/source/unified1e/gameplay-tokens/review/jam_test.png"
+        ]
+      },
+      {
         "assetId": "AST-C66DA497EE6C40DF",
         "sha256": "c66da497ee6c40df71d018f49defa5698305f0689869a08a869417e20369992c",
         "repositoryPaths": [
@@ -173842,10 +174009,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 8311,
-    "uniqueAssetCount": 7305,
-    "totalBytes": 2366360051,
-    "duplicateFileCount": 1006,
+    "fileCount": 8320,
+    "uniqueAssetCount": 7310,
+    "totalBytes": 2367109073,
+    "duplicateFileCount": 1010,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 562,
@@ -173854,14 +174021,14 @@
       "first-edition-maneuver-icons": 14,
       "legacy1e-non-pilot": 417,
       "legacy1e": 379,
-      "unified1e": 1767,
+      "unified1e": 1776,
       "unified25": 2381,
       "xwing-data": 415,
       "xwvassal": 2315
     },
     "byAssetType": {
-      "image": 6938,
-      "model": 747,
+      "image": 6943,
+      "model": 751,
       "lua": 229,
       "xml": 15,
       "json": 134,

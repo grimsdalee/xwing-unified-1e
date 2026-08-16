@@ -9828,6 +9828,12 @@
     "sizeBytes": 1541760
   },
   {
+    "assetId": "AST-C65DBE7EA3CDAE96",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/jam.png",
+    "sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+    "sizeBytes": 148434
+  },
+  {
     "assetId": "AST-BF69F5E5D321D825",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
     "sha256": "bf69f5e5d321d825887a80f78cf4970c05af3636c686af6878714a686c36b25b",
@@ -9864,6 +9870,12 @@
     "sizeBytes": 166041
   },
   {
+    "assetId": "AST-0E5A66D0D9C02629",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
+    "sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+    "sizeBytes": 122270
+  },
+  {
     "assetId": "AST-72B6236EE54A6E10",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
     "sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
@@ -9898,6 +9910,12 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
     "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
     "sizeBytes": 20255
+  },
+  {
+    "assetId": "AST-1B2742899D72C499",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/jam.obj",
+    "sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+    "sizeBytes": 2649
   },
   {
     "assetId": "AST-269D010FE9DE9845",
@@ -9940,6 +9958,12 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
     "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
     "sizeBytes": 23633
+  },
+  {
+    "assetId": "AST-13150BAF72C5387F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
+    "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+    "sizeBytes": 2658
   },
   {
     "assetId": "AST-D7D7BAC6DAA20BAF",
@@ -10014,6 +10038,24 @@
     "sizeBytes": 51101
   },
   {
+    "assetId": "AST-1FD4F301BE0C01D6",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
+    "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+    "sizeBytes": 192753
+  },
+  {
+    "assetId": "AST-1B2742899D72C499",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.obj",
+    "sha256": "1b2742899d72c499c1656dafad4bbdb7888ee15fd80df01f4265fff067ea35bd",
+    "sizeBytes": 2649
+  },
+  {
+    "assetId": "AST-C65DBE7EA3CDAE96",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/jam_test.png",
+    "sha256": "c65dbe7ea3cdae961af86c995886e16cd1f525475d9d87590aacceb552d910b0",
+    "sizeBytes": 148434
+  },
+  {
     "assetId": "AST-269D010FE9DE9845",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
     "sha256": "269d010fe9de9845c9892d4b436d6693b9e18cd17134d60773079d97c928386a",
@@ -10078,6 +10120,18 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
     "sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
     "sizeBytes": 166041
+  },
+  {
+    "assetId": "AST-13150BAF72C5387F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
+    "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
+    "sizeBytes": 2658
+  },
+  {
+    "assetId": "AST-0E5A66D0D9C02629",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
+    "sha256": "0e5a66d0d9c026293a83db84f11965c5b83e1e48939d0f57d92115e5ea589b24",
+    "sizeBytes": 122270
   },
   {
     "assetId": "AST-D7D7BAC6DAA20BAF",
@@ -13830,10 +13884,10 @@
     "sizeBytes": 69896
   },
   {
-    "assetId": "AST-BAE14B120C28F0B1",
+    "assetId": "AST-C1C2203721842A70",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
-    "sha256": "bae14b120c28f0b195487af6cf16938d89401a42eccafdb7b431e938c1795199",
-    "sizeBytes": 22171
+    "sha256": "c1c2203721842a70ddf8c6bad4e76011b3297098c64dc7de4419ed90f99596fa",
+    "sizeBytes": 26418
   },
   {
     "assetId": "AST-A585E69F15C7ED17",
