@@ -1097,6 +1097,15 @@
     ]
   },
   {
+    "sha256": "1d882faa662ac8caf8ce260e4414e758a21df5953c32c348a3ed32cfa09e53a8",
+    "assetId": "AST-1D882FAA662AC8CA",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/reinforce-epic.png",
+      "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.png"
+    ]
+  },
+  {
     "sha256": "1d906a0161ed134b0e6376953816cc53e0b9b68b90f049c2620b6d5060a99834",
     "assetId": "AST-1D906A0161ED134B",
     "fileCount": 2,
@@ -1661,6 +1670,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png"
+    ]
+  },
+  {
+    "sha256": "2f02d1942f06adde2a4921c238ad71e5609fd2f5c919cdcfc0e4e463152d317e",
+    "assetId": "AST-2F02D1942F06ADDE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/reinforce-epic.obj",
+      "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.obj"
     ]
   },
   {
@@ -4103,6 +4121,15 @@
     ]
   },
   {
+    "sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
+    "assetId": "AST-72B6236EE54A6E10",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
+      "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.png"
+    ]
+  },
+  {
     "sha256": "72c94c658c6f71a7aed905afed2b2a74897ed6269909f55f8c04849c498e5068",
     "assetId": "AST-72C94C658C6F71A7",
     "fileCount": 2,
@@ -4325,15 +4352,6 @@
     "repositoryPaths": [
       "assets/source/xwvassal/images/S2e_tieagaggressor.png",
       "assets/source/xwvassal/images/Ship_tieaggressor.png"
-    ]
-  },
-  {
-    "sha256": "7a163a414bb7872bc0bfb5b1860623b3e147fc9b6418e18a3473925e998bbc18",
-    "assetId": "AST-7A163A414BB7872B",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__31cad51e527b4b7b.png",
-      "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png"
     ]
   },
   {
@@ -6218,6 +6236,15 @@
     ]
   },
   {
+    "sha256": "b1f144d8134f0bff24ab1d7098511a4010f0b8bbf49a694721ae28c8ee7ecc8f",
+    "assetId": "AST-B1F144D8134F0BFF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
+      "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.obj"
+    ]
+  },
+  {
     "sha256": "b1fb419e2f4ed417863042332dd3ea6f4514646db17bccf8cc48cb51722bce87",
     "assetId": "AST-B1FB419E2F4ED417",
     "fileCount": 2,
@@ -7388,6 +7415,15 @@
     ]
   },
   {
+    "sha256": "d7d7bac6daa20baf7bd75243adff37f47829327692e34894be06614218a2a17c",
+    "assetId": "AST-D7D7BAC6DAA20BAF",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
+      "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.obj"
+    ]
+  },
+  {
     "sha256": "d7e7c5f0d9fa1004ade2f771f5e63d66f655f571d81c99762f331dace6348f07",
     "assetId": "AST-D7E7C5F0D9FA1004",
     "fileCount": 2,
@@ -7781,6 +7817,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/resistance/t70xwing/bluesquadronnovice__pilot-a00822d36976.png",
       "assets/source/unified1e/pilot-tokens/resistance/t70xwing/bluesquadronnovice__pilot-a00822d36976.png"
+    ]
+  },
+  {
+    "sha256": "e4feb5b06d41a24bf0b6d287ef5f5dbeeba762b0e69f055b250a61a7e5501c0c",
+    "assetId": "AST-E4FEB5B06D41A24B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/reinforce-small.png",
+      "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.png"
     ]
   },
   {

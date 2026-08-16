@@ -102,6 +102,7 @@ return command switch
     "promote-first-edition-shield-token" => PromoteFirstEditionShieldTokenCommand.Run(commandArgs),
     "promote-first-edition-focus-evade-tokens" => PromoteFirstEditionFocusEvadeTokensCommand.Run(commandArgs),
     "promote-first-edition-stress-damage-tokens" => PromoteFirstEditionStressDamageTokensCommand.Run(commandArgs),
+    "promote-first-edition-weapons-disabled-reinforce-tokens" => PromoteFirstEditionWeaponsDisabledReinforceTokensCommand.Run(commandArgs),
     "import-first-edition-standard-damage-decks" => ImportFirstEditionStandardDamageDecksCommand.Run(commandArgs),
     "import-first-edition-epic-damage-decks" => ImportFirstEditionEpicDamageDecksCommand.Run(commandArgs),
     "import-first-edition-upgrade-card-backs" => ImportFirstEditionUpgradeCardBacksCommand.Run(commandArgs),
@@ -301,6 +302,7 @@ static void ShowHelp()
     Console.WriteLine("  promote-first-edition-shield-token <first-edition-repo-folder> [--mesh <file>] [--face <file>] [--working-source <file>] [--no-knowledge-base]");
     Console.WriteLine("  promote-first-edition-focus-evade-tokens <first-edition-repo-folder> [--no-knowledge-base]");
     Console.WriteLine("  promote-first-edition-stress-damage-tokens <first-edition-repo-folder> [--no-knowledge-base]");
+    Console.WriteLine("  promote-first-edition-weapons-disabled-reinforce-tokens <first-edition-repo-folder> [--no-knowledge-base]");
     Console.WriteLine("  import-first-edition-standard-damage-decks <first-edition-repo-folder> [--source <folder>] [--data <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-epic-damage-decks <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");
     Console.WriteLine("  import-first-edition-upgrade-card-backs <first-edition-repo-folder> [--source <folder>] [--destination <folder>] [--manifest <file>]");

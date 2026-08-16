@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T01:00:12.4464932+00:00",
+  "generatedUtc": "2026-08-16T12:41:40.9547231+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 8293,
-  "uniqueAssets": 7294,
-  "duplicateFiles": 999,
+  "totalFiles": 8304,
+  "uniqueAssets": 7300,
+  "duplicateFiles": 1004,
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -19664,6 +19664,30 @@
       "lastWriteTimeUtc": "2026-07-17T23:43:07.9970313Z"
     },
     {
+      "assetId": "AST-1D882FAA662AC8CA",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-epic.png",
+      "fileName": "reinforce-epic.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 166625,
+      "sha256": "1d882faa662ac8caf8ce260e4414e758a21df5953c32c348a3ed32cfa09e53a8",
+      "lastWriteTimeUtc": "2026-08-16T12:11:45.3700962Z"
+    },
+    {
+      "assetId": "AST-E4FEB5B06D41A24B",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-small.png",
+      "fileName": "reinforce-small.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 332903,
+      "sha256": "e4feb5b06d41a24bf0b6d287ef5f5dbeeba762b0e69f055b250a61a7e5501c0c",
+      "lastWriteTimeUtc": "2026-08-16T12:19:02.382261Z"
+    },
+    {
       "assetId": "AST-33A5EFC5F0DB73A8",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
       "fileName": "reinforce.png",
@@ -19700,16 +19724,16 @@
       "lastWriteTimeUtc": "2026-08-16T00:22:12.7210556Z"
     },
     {
-      "assetId": "AST-7A163A414BB7872B",
+      "assetId": "AST-72B6236EE54A6E10",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
       "fileName": "weapons-disabled.png",
       "extension": ".png",
       "kind": "image",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 112181,
-      "sha256": "7a163a414bb7872bc0bfb5b1860623b3e147fc9b6418e18a3473925e998bbc18",
-      "lastWriteTimeUtc": "2026-07-17T23:43:06.0891286Z"
+      "sizeBytes": 176943,
+      "sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
+      "lastWriteTimeUtc": "2026-08-16T11:42:30.5710481Z"
     },
     {
       "assetId": "AST-2BD547B6DB7A1983",
@@ -19772,6 +19796,30 @@
       "lastWriteTimeUtc": "2026-07-17T23:43:07.6863369Z"
     },
     {
+      "assetId": "AST-2F02D1942F06ADDE",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-epic.obj",
+      "fileName": "reinforce-epic.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 20382,
+      "sha256": "2f02d1942f06adde2a4921c238ad71e5609fd2f5c919cdcfc0e4e463152d317e",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
+    },
+    {
+      "assetId": "AST-B1F144D8134F0BFF",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
+      "fileName": "reinforce-small.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 20382,
+      "sha256": "b1f144d8134f0bff24ab1d7098511a4010f0b8bbf49a694721ae28c8ee7ecc8f",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
+    },
+    {
       "assetId": "AST-53350015D65D829A",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
       "fileName": "reinforce.obj",
@@ -19818,6 +19866,18 @@
       "sizeBytes": 23633,
       "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
       "lastWriteTimeUtc": "2026-08-15T18:50:49Z"
+    },
+    {
+      "assetId": "AST-D7D7BAC6DAA20BAF",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
+      "fileName": "weapons-disabled.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51052,
+      "sha256": "d7d7bac6daa20baf7bd75243adff37f47829327692e34894be06614218a2a17c",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
     },
     {
       "assetId": "AST-2F2F3F5D3A3198BE",
@@ -19916,6 +19976,54 @@
       "lastWriteTimeUtc": "2026-08-15T18:20:13Z"
     },
     {
+      "assetId": "AST-2F02D1942F06ADDE",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.obj",
+      "fileName": "reinforce-epic_test.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 20382,
+      "sha256": "2f02d1942f06adde2a4921c238ad71e5609fd2f5c919cdcfc0e4e463152d317e",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
+    },
+    {
+      "assetId": "AST-1D882FAA662AC8CA",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.png",
+      "fileName": "reinforce-epic_test.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 166625,
+      "sha256": "1d882faa662ac8caf8ce260e4414e758a21df5953c32c348a3ed32cfa09e53a8",
+      "lastWriteTimeUtc": "2026-08-16T12:11:45.3700962Z"
+    },
+    {
+      "assetId": "AST-B1F144D8134F0BFF",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.obj",
+      "fileName": "reinforce-small_test.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 20382,
+      "sha256": "b1f144d8134f0bff24ab1d7098511a4010f0b8bbf49a694721ae28c8ee7ecc8f",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
+    },
+    {
+      "assetId": "AST-E4FEB5B06D41A24B",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.png",
+      "fileName": "reinforce-small_test.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 332903,
+      "sha256": "e4feb5b06d41a24bf0b6d287ef5f5dbeeba762b0e69f055b250a61a7e5501c0c",
+      "lastWriteTimeUtc": "2026-08-16T12:19:02.382261Z"
+    },
+    {
       "assetId": "AST-9A901E3363B7519A",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
       "fileName": "shield_test.obj",
@@ -19974,6 +20082,30 @@
       "sizeBytes": 166041,
       "sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
       "lastWriteTimeUtc": "2026-08-16T00:22:12.7210556Z"
+    },
+    {
+      "assetId": "AST-D7D7BAC6DAA20BAF",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.obj",
+      "fileName": "weapon-disabled_test.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 51052,
+      "sha256": "d7d7bac6daa20baf7bd75243adff37f47829327692e34894be06614218a2a17c",
+      "lastWriteTimeUtc": "2026-08-16T12:25:30Z"
+    },
+    {
+      "assetId": "AST-72B6236EE54A6E10",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.png",
+      "fileName": "weapon-disabled_test.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 176943,
+      "sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
+      "lastWriteTimeUtc": "2026-08-16T11:42:30.5710481Z"
     },
     {
       "assetId": "AST-C0A16D91D790799C",
@@ -27452,16 +27584,16 @@
       "lastWriteTimeUtc": "2026-08-03T14:15:53.4548453Z"
     },
     {
-      "assetId": "AST-E576151E8EF86134",
+      "assetId": "AST-7556BE0D734399A8",
       "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
       "fileName": "core-gameplay-tokens.json",
       "extension": ".json",
       "kind": "json",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 17504,
-      "sha256": "e576151e8ef86134fa7c42af6b669a6a950cdcdf96945844835165dede6face1",
-      "lastWriteTimeUtc": "2026-08-16T00:59:26.7197569Z"
+      "sizeBytes": 20024,
+      "sha256": "7556be0d734399a881ea6ca68dc769b266e6a89fc09a606b6509d8b597710f1f",
+      "lastWriteTimeUtc": "2026-08-16T12:41:00.2067015Z"
     },
     {
       "assetId": "AST-A585E69F15C7ED17",

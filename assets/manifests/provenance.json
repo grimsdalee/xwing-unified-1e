@@ -13104,6 +13104,22 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-1D882FAA662AC8CA",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-epic.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4FEB5B06D41A24B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-small.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-33A5EFC5F0DB73A8",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
     "origin": "unified1e",
@@ -13128,7 +13144,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7A163A414BB7872B",
+    "assetId": "AST-72B6236EE54A6E10",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13176,6 +13192,22 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-2F02D1942F06ADDE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-epic.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B1F144D8134F0BFF",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-53350015D65D829A",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
     "origin": "unified1e",
@@ -13202,6 +13234,14 @@
   {
     "assetId": "AST-5BC601D474BCADEB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D7D7BAC6DAA20BAF",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13272,6 +13312,38 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-2F02D1942F06ADDE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1D882FAA662AC8CA",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B1F144D8134F0BFF",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E4FEB5B06D41A24B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-9A901E3363B7519A",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/shield_test.obj",
     "origin": "unified1e",
@@ -13306,6 +13378,22 @@
   {
     "assetId": "AST-085A0AF045C19C27",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D7D7BAC6DAA20BAF",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-72B6236EE54A6E10",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18296,7 +18384,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-E576151E8EF86134",
+    "assetId": "AST-7556BE0D734399A8",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

@@ -1,11 +1,11 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-16T00:59:26.7128155\u002B00:00",
-  "Policy": "Original First Edition assets promoted byte-for-byte. Shield, Focus and Evade use approved high-resolution physical scans with validated UV-remapped meshes. Runtime Lua is unchanged.",
+  "GeneratedUtc": "2026-08-16T12:41:00.1869027\u002B00:00",
+  "Policy": "Original First Edition assets promoted byte-for-byte. Approved high-resolution physical scans use validated UV-remapped meshes. Small-ship and Epic Reinforce are distinct token definitions. Runtime Lua is unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
-  "AssetCount": 16,
-  "TokenCount": 8,
+  "AssetCount": 18,
+  "TokenCount": 9,
   "Assets": [
     {
       "Id": "shield-mesh",
@@ -93,12 +93,12 @@
         "weapons-disabled"
       ],
       "Role": "mesh",
-      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
-      "SizeBytes": 52108,
-      "Sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186015319/AD083B62803F2B490CF71229427AF96B396BBE56/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
+      "SizeBytes": 51052,
+      "Sha256": "d7d7bac6daa20baf7bd75243adff37f47829327692e34894be06614218a2a17c",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.obj",
       "Width": null,
       "Height": null,
       "HasAlpha": null,
@@ -107,7 +107,8 @@
         "Width": 1.9,
         "Height": 0.2,
         "Depth": 1.9
-      }
+      },
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "weapons-disabled-face",
@@ -116,15 +117,16 @@
       ],
       "Role": "texture",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
-      "SizeBytes": 112181,
-      "Sha256": "7a163a414bb7872bc0bfb5b1860623b3e147fc9b6418e18a3473925e998bbc18",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186015436/07006646E4EA210F01282FAEF0FC3E719CD3B570/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__31cad51e527b4b7b.png",
-      "Width": 250,
-      "Height": 250,
-      "HasAlpha": true,
-      "MeshBounds": null
+      "SizeBytes": 176943,
+      "Sha256": "72b6236ee54a6e10afc487fa28caea81c3e43c09548db3e39d8a4c0d4049a2ae",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.png",
+      "Width": 420,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "focus-face",
@@ -271,12 +273,12 @@
         "reinforce"
       ],
       "Role": "mesh",
-      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
-      "SizeBytes": 17640,
-      "Sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/830199836523210430/725644DA3EB593D6C7FF7AE77040CE8F07495C4D/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
+      "SizeBytes": 20382,
+      "Sha256": "b1f144d8134f0bff24ab1d7098511a4010f0b8bbf49a694721ae28c8ee7ecc8f",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.obj",
       "Width": null,
       "Height": null,
       "HasAlpha": null,
@@ -285,7 +287,8 @@
         "Width": 1.9,
         "Height": 0.2,
         "Depth": 1.9
-      }
+      },
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "reinforce-face",
@@ -293,16 +296,17 @@
         "reinforce"
       ],
       "Role": "texture",
-      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
-      "SizeBytes": 456862,
-      "Sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/830199836523210833/D6A115DE169F12E35F6ECBF222289819FC958B94/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
-      "Width": 1024,
-      "Height": 1024,
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-small.png",
+      "SizeBytes": 332903,
+      "Sha256": "e4feb5b06d41a24bf0b6d287ef5f5dbeeba762b0e69f055b250a61a7e5501c0c",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.png",
+      "Width": 840,
+      "Height": 420,
       "HasAlpha": false,
-      "MeshBounds": null
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "focus-mesh",
@@ -326,6 +330,47 @@
         "Height": 0.2,
         "Depth": 1.9
       }
+    },
+    {
+      "Id": "reinforce-epic-mesh",
+      "TokenIds": [
+        "reinforce-epic"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-epic.obj",
+      "SizeBytes": 20382,
+      "Sha256": "2f02d1942f06adde2a4921c238ad71e5609fd2f5c919cdcfc0e4e463152d317e",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.obj",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 128,
+        "Width": 1.9,
+        "Height": 0.2,
+        "Depth": 1.9
+      }
+    },
+    {
+      "Id": "reinforce-epic-face",
+      "TokenIds": [
+        "reinforce-epic"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-epic.png",
+      "SizeBytes": 166625,
+      "Sha256": "1d882faa662ac8caf8ce260e4414e758a21df5953c32c348a3ed32cfa09e53a8",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.png",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": 420,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null
     }
   ],
   "Tokens": [
@@ -354,7 +399,7 @@
       "Name": "Weapon Disabled",
       "MeshAssetId": "round-focus-weapons-disabled-mesh",
       "FaceAssetId": "weapons-disabled-face",
-      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
       "FacePath": "assets/source/unified1e/gameplay-tokens/faces/weapons-disabled.png",
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
@@ -401,11 +446,21 @@
     },
     {
       "Id": "reinforce",
-      "Name": "Reinforce (aft)",
+      "Name": "Reinforce (small ship; fore/aft)",
       "MeshAssetId": "reinforce-mesh",
       "FaceAssetId": "reinforce-face",
-      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
-      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-small.png",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false
+    },
+    {
+      "Id": "reinforce-epic",
+      "Name": "Reinforce (Epic; identical sides)",
+      "MeshAssetId": "reinforce-epic-mesh",
+      "FaceAssetId": "reinforce-epic-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-epic.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/reinforce-epic.png",
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
     }
@@ -434,6 +489,18 @@
     "ReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
     "ReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
     "ArtworkProcessing": "user-adjusted-red-colour; toolkit-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator"
+  },
+  "WeaponsDisabledReinforcePromotion": {
+    "Status": "approved-and-promoted",
+    "WeaponsDisabledReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.obj",
+    "WeaponsDisabledReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/weapon-disabled_test.png",
+    "EpicReinforceReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.obj",
+    "EpicReinforceReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/reinforce-epic_test.png",
+    "SmallReinforceReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.obj",
+    "SmallReinforceReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/reinforce-small_test.png",
+    "CompatibilityPolicy": "Existing reinforce token id now denotes the small-ship fore/aft token; reinforce-epic is a new same-face token id.",
+    "ArtworkProcessing": "none-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator"
   }
 }
