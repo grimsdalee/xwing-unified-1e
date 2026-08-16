@@ -9822,10 +9822,10 @@
     "sizeBytes": 175482
   },
   {
-    "assetId": "AST-F6301996934292FB",
+    "assetId": "AST-1FD4F301BE0C01D6",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
-    "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
-    "sizeBytes": 1541760
+    "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+    "sizeBytes": 192753
   },
   {
     "assetId": "AST-C65DBE7EA3CDAE96",
@@ -9906,10 +9906,10 @@
     "sizeBytes": 51101
   },
   {
-    "assetId": "AST-2247B1BE2FEA6841",
+    "assetId": "AST-79C44B59C6F35B08",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
-    "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
-    "sizeBytes": 20255
+    "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+    "sizeBytes": 19966
   },
   {
     "assetId": "AST-1B2742899D72C499",
@@ -9972,6 +9972,12 @@
     "sizeBytes": 51052
   },
   {
+    "assetId": "AST-DDD47201A1A51674",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
+    "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+    "sizeBytes": 284375
+  },
+  {
     "assetId": "AST-981D1269CA374043",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
     "sha256": "981d1269ca3740436f19fb6fc96c17438002653296e2544ad5749953cdad6079",
@@ -10000,6 +10006,12 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/damage_test.png",
     "sha256": "a8f3c3a72876d73fa6f8e2d71cd6d74cce76e154b6f2a8c799681e67c54080a7",
     "sizeBytes": 399553
+  },
+  {
+    "assetId": "AST-27CA912FB89D4D63",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
+    "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+    "sizeBytes": 279179
   },
   {
     "assetId": "AST-46D911BD26D80BA0",
@@ -10038,10 +10050,22 @@
     "sizeBytes": 51101
   },
   {
+    "assetId": "AST-8FC9BAECC18E42FE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.obj",
+    "sha256": "8fc9baecc18e42fe6ddb9ce393c344575bbf0b6081b9a578072fbe801375cb80",
+    "sizeBytes": 19891
+  },
+  {
     "assetId": "AST-1FD4F301BE0C01D6",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
     "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
     "sizeBytes": 192753
+  },
+  {
+    "assetId": "AST-79C44B59C6F35B08",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj",
+    "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+    "sizeBytes": 19966
   },
   {
     "assetId": "AST-1B2742899D72C499",
@@ -13884,10 +13908,10 @@
     "sizeBytes": 69896
   },
   {
-    "assetId": "AST-C1C2203721842A70",
+    "assetId": "AST-6B0850DFDDD51DB9",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
-    "sha256": "c1c2203721842a70ddf8c6bad4e76011b3297098c64dc7de4419ed90f99596fa",
-    "sizeBytes": 26418
+    "sha256": "6b0850dfddd51db963dcb16c63b5818804dbc9b1be41127fa4b49913b16e5941",
+    "sizeBytes": 26624
   },
   {
     "assetId": "AST-A585E69F15C7ED17",

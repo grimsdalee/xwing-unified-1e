@@ -1240,6 +1240,15 @@
     ]
   },
   {
+    "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+    "assetId": "AST-1FD4F301BE0C01D6",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/ion.png",
+      "assets/source/unified1e/gameplay-tokens/review/ion_test.png"
+    ]
+  },
+  {
     "sha256": "1ffad51c42f07e203435c3ce423681bed9498cb657cd9e616cd006074ce122ef",
     "assetId": "AST-1FFAD51C42F07E20",
     "fileCount": 2,
@@ -1300,15 +1309,6 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/system/advtargetingcomputer.png",
       "assets/source/xwing-data/images/upgrades/System/advanced-targeting-computer.png"
-    ]
-  },
-  {
-    "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
-    "assetId": "AST-2247B1BE2FEA6841",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.obj",
-      "assets/source/unified1e/gameplay-tokens/meshes/ion.obj"
     ]
   },
   {
@@ -4387,6 +4387,15 @@
     "repositoryPaths": [
       "assets/source/first-edition-dials/rebelalliance/ywing.jpg",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__aed20866a44c3e18.jpg"
+    ]
+  },
+  {
+    "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+    "assetId": "AST-79C44B59C6F35B08",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+      "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj"
     ]
   },
   {
@@ -8527,15 +8536,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png"
-    ]
-  },
-  {
-    "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
-    "assetId": "AST-F6301996934292FB",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__6b7be0188e4ba31f.png",
-      "assets/source/unified1e/gameplay-tokens/faces/ion.png"
     ]
   },
   {

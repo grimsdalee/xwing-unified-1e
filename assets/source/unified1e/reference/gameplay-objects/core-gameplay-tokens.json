@@ -1,7 +1,7 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-16T14:33:01.0213590\u002B00:00",
-  "Policy": "Original First Edition assets promoted byte-for-byte. Approved high-resolution physical scans use validated custom token meshes. Runtime Lua is unchanged.",
+  "GeneratedUtc": "2026-08-16T16:26:33.4316327\u002B00:00",
+  "Policy": "Original First Edition assets promoted byte-for-byte. Approved scans use validated UV-remapped meshes. Runtime Lua is unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
   "AssetCount": 24,
@@ -237,11 +237,11 @@
       ],
       "Role": "mesh",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
-      "SizeBytes": 20255,
-      "Sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186016043/C64727A9ACE867EFB8B5743BB8AFCDF82CFE0F23/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.obj",
+      "SizeBytes": 19966,
+      "Sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj",
       "Width": null,
       "Height": null,
       "HasAlpha": null,
@@ -250,7 +250,8 @@
         "Width": 1.9,
         "Height": 0.2,
         "Depth": 1.9
-      }
+      },
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "ion-face",
@@ -259,15 +260,16 @@
       ],
       "Role": "texture",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
-      "SizeBytes": 1541760,
-      "Sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186016181/0FC0888A3D6F570886AD43808F794F890EAFDAED/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__6b7be0188e4ba31f.png",
-      "Width": 958,
-      "Height": 958,
+      "SizeBytes": 192753,
+      "Sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
+      "Width": 420,
+      "Height": 420,
       "HasAlpha": false,
-      "MeshBounds": null
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "reinforce-mesh",
@@ -676,6 +678,15 @@
     "TractorBeamReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.obj",
     "TractorBeamReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/tractor-beam_test.png",
     "TractorBeamGeometry": "vertically-proportioned-clipped-diamond",
+    "ArtworkProcessing": "none-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator"
+  },
+  "IonPromotion": {
+    "Status": "approved-and-promoted",
+    "ReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj",
+    "ReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
+    "GeometryPolicy": "canonical-round-ion-geometry-retained",
+    "EdgeUvPolicy": "mapped-to-black-scan-background",
     "ArtworkProcessing": "none-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator"
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T14:33:18.5929377+00:00",
+  "generatedUtc": "2026-08-16T16:26:50.8074538+00:00",
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -29231,15 +29231,15 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-F6301996934292FB",
-      "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
+      "assetId": "AST-1FD4F301BE0C01D6",
+      "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
       "fileName": "ion.png",
       "extension": ".png",
       "assetType": "image",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 1541760,
+      "sizeBytes": 192753,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -29441,15 +29441,15 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-2247B1BE2FEA6841",
-      "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
+      "assetId": "AST-79C44B59C6F35B08",
+      "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
       "fileName": "ion.obj",
       "extension": ".obj",
       "assetType": "model",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 20255,
+      "sizeBytes": 19966,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -29606,6 +29606,21 @@
       "referencedBy": []
     },
     {
+      "assetId": "AST-DDD47201A1A51674",
+      "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
+      "fileName": "cloak_test.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 284375,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
       "assetId": "AST-981D1269CA374043",
       "sha256": "981d1269ca3740436f19fb6fc96c17438002653296e2544ad5749953cdad6079",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
@@ -29675,6 +29690,21 @@
       "warehouse": "unified1e",
       "isGenerated": false,
       "sizeBytes": 399553,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-27CA912FB89D4D63",
+      "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
+      "fileName": "energy_test.png",
+      "extension": ".png",
+      "assetType": "image",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 279179,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -29771,6 +29801,21 @@
       "referencedBy": []
     },
     {
+      "assetId": "AST-8FC9BAECC18E42FE",
+      "sha256": "8fc9baecc18e42fe6ddb9ce393c344575bbf0b6081b9a578072fbe801375cb80",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.obj",
+      "fileName": "ion_test.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 19891,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
       "assetId": "AST-1FD4F301BE0C01D6",
       "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.png",
@@ -29780,6 +29825,21 @@
       "warehouse": "unified1e",
       "isGenerated": false,
       "sizeBytes": 192753,
+      "availability": "available",
+      "releaseRequired": null,
+      "sourceReferences": [],
+      "referencedBy": []
+    },
+    {
+      "assetId": "AST-79C44B59C6F35B08",
+      "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj",
+      "fileName": "ion_test_v2.obj",
+      "extension": ".obj",
+      "assetType": "model",
+      "warehouse": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 19966,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -39386,15 +39446,15 @@
       "referencedBy": []
     },
     {
-      "assetId": "AST-C1C2203721842A70",
-      "sha256": "c1c2203721842a70ddf8c6bad4e76011b3297098c64dc7de4419ed90f99596fa",
+      "assetId": "AST-6B0850DFDDD51DB9",
+      "sha256": "6b0850dfddd51db963dcb16c63b5818804dbc9b1be41127fa4b49913b16e5941",
       "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
       "fileName": "core-gameplay-tokens.json",
       "extension": ".json",
       "assetType": "json",
       "warehouse": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 26418,
+      "sizeBytes": 26624,
       "availability": "available",
       "releaseRequired": null,
       "sourceReferences": [],
@@ -167204,6 +167264,14 @@
       ]
     },
     {
+      "assetId": "AST-1FD4F301BE0C01D6",
+      "sha256": "1fd4f301be0c01d64e3bb32e8f77af7107a967dac3d29f9a28252b7eeee1771b",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/faces/ion.png",
+        "assets/source/unified1e/gameplay-tokens/review/ion_test.png"
+      ]
+    },
+    {
       "assetId": "AST-1FFAD51C42F07E20",
       "sha256": "1ffad51c42f07e203435c3ce423681bed9498cb657cd9e616cd006074ce122ef",
       "repositoryPaths": [
@@ -167257,14 +167325,6 @@
       "repositoryPaths": [
         "assets/source/unified1e/upgrade-cards/system/advtargetingcomputer.png",
         "assets/source/xwing-data/images/upgrades/System/advanced-targeting-computer.png"
-      ]
-    },
-    {
-      "assetId": "AST-2247B1BE2FEA6841",
-      "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
-      "repositoryPaths": [
-        "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__fadcd0cb2e0c3756.obj",
-        "assets/source/unified1e/gameplay-tokens/meshes/ion.obj"
       ]
     },
     {
@@ -170001,6 +170061,14 @@
       "repositoryPaths": [
         "assets/source/first-edition-dials/rebelalliance/ywing.jpg",
         "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__aed20866a44c3e18.jpg"
+      ]
+    },
+    {
+      "assetId": "AST-79C44B59C6F35B08",
+      "sha256": "79c44b59c6f35b08990f3a321113937f240c74dd8865c9b6cf972e897cc294ea",
+      "repositoryPaths": [
+        "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+        "assets/source/unified1e/gameplay-tokens/review/ion_test_v2.obj"
       ]
     },
     {
@@ -173681,14 +173749,6 @@
       "repositoryPaths": [
         "assets/generated/PilotBaseToken/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png",
         "assets/source/unified1e/pilot-tokens/rebelalliance/z95headhunter/talasquadronpilot__pilot-2f800c27d775.png"
-      ]
-    },
-    {
-      "assetId": "AST-F6301996934292FB",
-      "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
-      "repositoryPaths": [
-        "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__6b7be0188e4ba31f.png",
-        "assets/source/unified1e/gameplay-tokens/faces/ion.png"
       ]
     },
     {
