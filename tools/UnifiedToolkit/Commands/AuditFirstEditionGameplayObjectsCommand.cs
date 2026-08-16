@@ -31,10 +31,14 @@ public static class AuditFirstEditionGameplayObjectsCommand
 
             var candidates = DiscoverCandidates(repository, contexts, imports);
             var requirements = Requirements();
+            var canonicalTokens = LoadCanonicalTokens(repository);
             foreach (var requirement in requirements)
             {
                 requirement.Candidates = candidates.Where(candidate => Matches(requirement, candidate)).
                     OrderBy(candidate => SourceRank(candidate.Source)).ThenBy(candidate => candidate.RepositoryPath).ToList();
+                var canonical = ResolveCanonical(requirement, canonicalTokens);
+                requirement.CanonicalTokenIds = canonical.TokenIds;
+                requirement.CanonicalDesignCount = canonical.DesignCount;
                 requirement.Status = ResolveStatus(requirement);
                 requirement.Recommendation = Recommendation(requirement);
             }
@@ -49,7 +53,8 @@ public static class AuditFirstEditionGameplayObjectsCommand
                 OptionalObjectCount = requirements.Count(requirement => requirement.Policy == "optional"),
                 ExcludedObjectCount = requirements.Count(requirement => requirement.Policy == "excluded-second-edition"),
                 CanonicalCount = requirements.Count(requirement => requirement.Status == "canonical"),
-                CandidateReviewCount = requirements.Count(requirement => requirement.Status == "candidate-review-required"),
+                PartialCanonicalCount = requirements.Count(requirement => requirement.Status == "partial-canonical"),
+                CandidateReviewCount = requirements.Count(requirement => requirement.Status is "candidate-review-required" or "partial-canonical"),
                 MissingCount = requirements.Count(requirement => requirement.Status == "missing"),
                 CandidateAssetCount = candidates.Count,
                 Requirements = requirements,
@@ -74,6 +79,7 @@ public static class AuditFirstEditionGameplayObjectsCommand
             Console.WriteLine($"Optional/review definitions:       {document.OptionalObjectCount}");
             Console.WriteLine($"Second Edition exclusions:         {document.ExcludedObjectCount}");
             Console.WriteLine($"Already canonical:                 {document.CanonicalCount}");
+            Console.WriteLine($"Partially canonical:               {document.PartialCanonicalCount}");
             Console.WriteLine($"Candidate review required:         {document.CandidateReviewCount}");
             Console.WriteLine($"Missing candidate evidence:        {document.MissingCount}");
             Console.WriteLine($"Discovered candidate asset files:  {document.CandidateAssetCount}");
@@ -104,12 +110,12 @@ public static class AuditFirstEditionGameplayObjectsCommand
         Required("shield", "token", "Shield token", "shield"),
         Required("cloak", "token", "Cloak token", "cloak"),
         Required("tractor", "token", "Tractor beam token", "tractor"),
-        Required("reinforce", "token", "Reinforce token", "reinforce"),
+        RequiredSet("reinforce", "token", "Reinforce tokens (Epic and small-ship)", 2, "reinforce"),
         Required("energy", "token", "Epic energy token", "energy"),
         Required("weapons-disabled", "token", "Weapons disabled token", "weapons disabled", "weaponsdisabled", "disarm"),
         Required("jam", "token", "Jam token", "jam"),
         Required("ordnance", "upgrade-token", "Ordnance token", "ordnance"),
-        Required("condition-tokens", "condition-token", "First Edition condition tokens", "condition token", "conditiontokens"),
+        RequiredSet("condition-tokens", "condition-token", "First Edition condition tokens", 9, "condition token", "conditiontokens"),
         Required("seismic-charge", "bomb", "Seismic Charge token", "seismic charge", "seismic"),
         Required("proton-bomb", "bomb", "Proton Bomb token", "proton bomb", "protonbomb"),
         Required("ion-bomb", "bomb", "Ion Bomb token", "ion bomb", "ionbomb"),
@@ -247,10 +253,29 @@ public static class AuditFirstEditionGameplayObjectsCommand
         });
     }
 
+    private static CanonicalResolution ResolveCanonical(GameplayObjectRequirement requirement,
+        IReadOnlyDictionary<string, CanonicalGameplayToken> tokens)
+    {
+        var acceptedIds = requirement.Id switch
+        {
+            "tractor" => new[] { "tractor-beam" },
+            "reinforce" => new[] { "reinforce", "reinforce-epic" },
+            "critical-hit-marker" => new[] { "critical-hit" },
+            _ => new[] { requirement.Id }
+        };
+        var matched = acceptedIds.Where(tokens.ContainsKey).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+        var canonicalCandidateCount = requirement.Candidates
+            .Where(candidate => candidate.Source == "unified1e")
+            .Select(candidate => candidate.RepositoryPath)
+            .Distinct(StringComparer.OrdinalIgnoreCase).Count();
+        return new CanonicalResolution(matched.Count + canonicalCandidateCount, matched);
+    }
+
     private static string ResolveStatus(GameplayObjectRequirement requirement)
     {
         if (requirement.Policy == "excluded-second-edition") return requirement.Candidates.Count > 0 ? "edition-incompatible-evidence" : "excluded-no-evidence";
-        if (requirement.Candidates.Any(candidate => candidate.Source == "unified1e")) return "canonical";
+        if (requirement.CanonicalDesignCount >= requirement.ExpectedDesignCount) return "canonical";
+        if (requirement.CanonicalDesignCount > 0) return "partial-canonical";
         if (requirement.Candidates.Count > 0) return "candidate-review-required";
         return "missing";
     }
@@ -258,11 +283,37 @@ public static class AuditFirstEditionGameplayObjectsCommand
     private static string Recommendation(GameplayObjectRequirement requirement) => requirement.Status switch
     {
         "canonical" => "Retain canonical First Edition asset; verify runtime object construction later.",
+        "partial-canonical" => $"Retain {requirement.CanonicalDesignCount} canonical design(s); locate or approve the remaining {requirement.ExpectedDesignCount - requirement.CanonicalDesignCount}.",
         "candidate-review-required" => "Visually compare candidates with original First Edition components before import or reuse.",
         "missing" => requirement.Policy == "optional" ? "Defer unless required by a selected mission." : "Locate an original First Edition source or scan the physical component.",
         "edition-incompatible-evidence" => "Exclude from First Edition runtime unless a separately approved First Edition equivalent is identified.",
         _ => "No action required."
     };
+
+    private static Dictionary<string, CanonicalGameplayToken> LoadCanonicalTokens(string repository)
+    {
+        var root = Path.Combine(repository, "assets", "source", "unified1e", "reference", "gameplay-objects");
+        var results = new Dictionary<string, CanonicalGameplayToken>(StringComparer.OrdinalIgnoreCase);
+        if (!Directory.Exists(root)) return results;
+        foreach (var manifest in Directory.EnumerateFiles(root, "*.json", SearchOption.AllDirectories)
+                     .OrderBy(path => path, StringComparer.OrdinalIgnoreCase))
+        {
+            using var document = JsonDocument.Parse(File.ReadAllText(manifest));
+            if (!document.RootElement.TryGetProperty("Tokens", out var tokens) || tokens.ValueKind != JsonValueKind.Array) continue;
+            foreach (var token in tokens.EnumerateArray())
+            {
+                var id = Text(token, "Id");
+                var meshPath = Text(token, "MeshPath");
+                var facePath = Text(token, "FacePath");
+                if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(meshPath) || string.IsNullOrWhiteSpace(facePath)) continue;
+                var mesh = Path.Combine(repository, meshPath.Replace('/', Path.DirectorySeparatorChar));
+                var face = Path.Combine(repository, facePath.Replace('/', Path.DirectorySeparatorChar));
+                if (!File.Exists(mesh) || !File.Exists(face)) continue;
+                results[id] = new CanonicalGameplayToken(id, Relative(repository, manifest), meshPath.Replace('\\', '/'), facePath.Replace('\\', '/'));
+            }
+        }
+        return results;
+    }
 
     private static List<GameplayMechanicsDemand> LoadMechanicDemand(string repository)
     {
@@ -308,11 +359,12 @@ public static class AuditFirstEditionGameplayObjectsCommand
     private static int SourceRank(string source) => source switch { "unified1e" => 0, "xwvassal" => 1, "legacy1e-sorted" => 2, "legacy1e" => 3, "unified25" => 4, _ => 5 };
     private static void WriteRequirements(string path, IEnumerable<GameplayObjectRequirement> rows)
     {
-        var lines = new List<string> { "Id,Category,Name,Policy,ExpectedDesignCount,Status,CandidateCount,Recommendation" };
+        var lines = new List<string> { "Id,Category,Name,Policy,ExpectedDesignCount,CanonicalDesignCount,CanonicalTokenIds,Status,CandidateCount,Recommendation" };
         lines.AddRange(rows.Select(row => string.Join(',', new[]
         {
             Quote(row.Id), Quote(row.Category), Quote(row.Name), Quote(row.Policy),
-            row.ExpectedDesignCount.ToString(), Quote(row.Status), row.Candidates.Count.ToString(), Quote(row.Recommendation)
+            row.ExpectedDesignCount.ToString(), row.CanonicalDesignCount.ToString(), Quote(string.Join(';', row.CanonicalTokenIds)),
+            Quote(row.Status), row.Candidates.Count.ToString(), Quote(row.Recommendation)
         })));
         File.WriteAllLines(path, lines, new UTF8Encoding(false));
     }
@@ -333,6 +385,7 @@ public static class AuditFirstEditionGameplayObjectsCommand
             "# Phase 16E First Edition Gameplay Object Inventory", "",
             $"- Required definitions: **{audit.RequiredObjectCount}**", $"- Optional/review definitions: **{audit.OptionalObjectCount}**",
             $"- Second Edition exclusions: **{audit.ExcludedObjectCount}**", $"- Already canonical: **{audit.CanonicalCount}**",
+            $"- Partially canonical: **{audit.PartialCanonicalCount}**",
             $"- Candidate review required: **{audit.CandidateReviewCount}**", $"- Missing evidence: **{audit.MissingCount}**",
             $"- Candidate asset files: **{audit.CandidateAssetCount}**", "",
             "Catalogue presence is evidence only. No Unified 2.5 or legacy asset is approved for First Edition reuse by this audit.", "",
@@ -341,7 +394,7 @@ public static class AuditFirstEditionGameplayObjectsCommand
         foreach (var group in audit.Requirements.GroupBy(row => row.Category).OrderBy(group => group.Key))
         {
             lines.Add($"### {group.Key}"); lines.Add("");
-            lines.AddRange(group.Select(row => $"- **{row.Name}** — `{row.Status}`; candidates={row.Candidates.Count}; {row.Recommendation}"));
+            lines.AddRange(group.Select(row => $"- **{row.Name}** — `{row.Status}`; canonical={row.CanonicalDesignCount}/{row.ExpectedDesignCount}; canonical IDs={FormatIds(row.CanonicalTokenIds)}; candidates={row.Candidates.Count}; {row.Recommendation}"));
             lines.Add("");
         }
         lines.Add("## Upgrade mechanics demand"); lines.Add("");
@@ -354,6 +407,7 @@ public static class AuditFirstEditionGameplayObjectsCommand
     private static string Url(string value) => value.Trim().Replace("http://", "https://", StringComparison.OrdinalIgnoreCase).TrimEnd('/');
     private static string Relative(string root, string path) => Path.GetRelativePath(root, path).Replace('\\', '/');
     private static string Quote(object? value) => $"\"{(value?.ToString() ?? "").Replace("\"", "\"\"")}\"";
+    private static string FormatIds(IReadOnlyCollection<string> ids) => ids.Count == 0 ? "none" : string.Join(", ", ids.Select(id => $"`{id}`"));
     private static string? Option(string[] args, string name) => Enumerable.Range(0, Math.Max(0, args.Length - 1)).Where(index => args[index].Equals(name, StringComparison.OrdinalIgnoreCase)).Select(index => args[index + 1]).FirstOrDefault();
     private static void RequireDirectory(string path, string label) { if (!Directory.Exists(path)) throw new DirectoryNotFoundException($"{label} not found: {path}"); }
     private static void RequireFile(string path, string label) { if (!File.Exists(path)) throw new FileNotFoundException($"{label} not found.", path); }
@@ -364,13 +418,13 @@ public sealed class FirstEditionGameplayObjectInventory
 {
     public int SchemaVersion { get; init; } public DateTimeOffset GeneratedUtc { get; init; } public string Policy { get; init; } = "";
     public int RequiredObjectCount { get; init; } public int OptionalObjectCount { get; init; } public int ExcludedObjectCount { get; init; }
-    public int CanonicalCount { get; init; } public int CandidateReviewCount { get; init; } public int MissingCount { get; init; } public int CandidateAssetCount { get; init; }
+    public int CanonicalCount { get; init; } public int PartialCanonicalCount { get; init; } public int CandidateReviewCount { get; init; } public int MissingCount { get; init; } public int CandidateAssetCount { get; init; }
     public List<GameplayObjectRequirement> Requirements { get; init; } = new(); public List<GameplayObjectAssetCandidate> Candidates { get; init; } = new(); public List<GameplayMechanicsDemand> MechanicsDemand { get; init; } = new();
 }
 public sealed class GameplayObjectRequirement
 {
     public string Id { get; init; } = ""; public string Category { get; init; } = ""; public string Name { get; init; } = ""; public string Policy { get; init; } = "";
-    public int ExpectedDesignCount { get; init; } public List<string> Aliases { get; init; } = new(); public string Status { get; set; } = ""; public string Recommendation { get; set; } = "";
+    public int ExpectedDesignCount { get; init; } public int CanonicalDesignCount { get; set; } public List<string> CanonicalTokenIds { get; set; } = new(); public List<string> Aliases { get; init; } = new(); public string Status { get; set; } = ""; public string Recommendation { get; set; } = "";
     public List<GameplayObjectAssetCandidate> Candidates { get; set; } = new();
 }
 public sealed class GameplayObjectAssetCandidate
@@ -379,3 +433,5 @@ public sealed class GameplayObjectAssetCandidate
     public string Extension { get; init; } = ""; public long SizeBytes { get; init; } public string Sha256 { get; init; } = ""; public string SourceUrl { get; init; } = "";
 }
 public sealed class GameplayMechanicsDemand { public string MechanicId { get; init; } = ""; public int UpgradeCount { get; init; } }
+public sealed record CanonicalGameplayToken(string Id, string ManifestPath, string MeshPath, string FacePath);
+public sealed record CanonicalResolution(int DesignCount, List<string> TokenIds);
