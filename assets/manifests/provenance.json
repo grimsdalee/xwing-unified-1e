@@ -13320,24 +13320,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-F34ECAF37D261A74",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v2.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-F9A8167A96A61086",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-981D1269CA374043",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13392,80 +13376,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-510D0D1534A09470",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5a.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-466BF6B714CD3284",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5b.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-F8D3F658E7EAB66E",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5c.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-7028D13553B42F58",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r6.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-2D1D216802AAC38C",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r7.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-7AE5CE581C13AB77",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-99ABEAA6B9C09858",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v2.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-A4F784CE21942F79",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v3.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-9332DDACF4402215",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v4.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-46D911BD26D80BA0",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13506,14 +13418,6 @@
   {
     "assetId": "AST-DF4B10D9F3700B2F",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-8FC9BAECC18E42FE",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13618,14 +13522,6 @@
   {
     "assetId": "AST-5BC601D474BCADEB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-DA4B2BB630DD4B89",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

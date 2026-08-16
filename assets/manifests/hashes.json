@@ -9990,22 +9990,10 @@
     "sizeBytes": 284375
   },
   {
-    "assetId": "AST-F34ECAF37D261A74",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v2.obj",
-    "sha256": "f34ecaf37d261a74fec2776b70ad53e59311a9465fd043144e3e0ce251826f2c",
-    "sizeBytes": 8690
-  },
-  {
     "assetId": "AST-F9A8167A96A61086",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
     "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
     "sizeBytes": 8769
-  },
-  {
-    "assetId": "AST-981D1269CA374043",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
-    "sha256": "981d1269ca3740436f19fb6fc96c17438002653296e2544ad5749953cdad6079",
-    "sizeBytes": 14531
   },
   {
     "assetId": "AST-9358092732DAC307",
@@ -10044,64 +10032,10 @@
     "sizeBytes": 279179
   },
   {
-    "assetId": "AST-510D0D1534A09470",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5a.obj",
-    "sha256": "510d0d1534a09470cf514ec77745bdeebc6c7f7d6a1245bcfe337fefe5d771be",
-    "sizeBytes": 15891
-  },
-  {
-    "assetId": "AST-466BF6B714CD3284",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5b.obj",
-    "sha256": "466bf6b714cd3284fa601bfd0a4aa8eb14f9dab1983f190558e0943daf42da50",
-    "sizeBytes": 15891
-  },
-  {
-    "assetId": "AST-F8D3F658E7EAB66E",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5c.obj",
-    "sha256": "f8d3f658e7eab66e1d7c405774c4f042834644adddd73ca15acf5d4d572cbed2",
-    "sizeBytes": 15891
-  },
-  {
-    "assetId": "AST-7028D13553B42F58",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r6.obj",
-    "sha256": "7028d13553b42f582d6828816299607083bf5a203550967db538307852fa530f",
-    "sizeBytes": 15872
-  },
-  {
-    "assetId": "AST-2D1D216802AAC38C",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r7.obj",
-    "sha256": "2d1d216802aac38c5fd31251d02710acbe30b653b260c7122d9639784c9818b7",
-    "sizeBytes": 15870
-  },
-  {
     "assetId": "AST-7AE5CE581C13AB77",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
     "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
     "sizeBytes": 15867
-  },
-  {
-    "assetId": "AST-99ABEAA6B9C09858",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v2.obj",
-    "sha256": "99abeaa6b9c098584f38244a3e1627fdc29a01be0bf6b0b8ca4bec6daa78a170",
-    "sizeBytes": 15636
-  },
-  {
-    "assetId": "AST-A4F784CE21942F79",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v3.obj",
-    "sha256": "a4f784ce21942f7923baf94570f7ad5ac21078b768168bddc24f1db1f44d846a",
-    "sizeBytes": 15715
-  },
-  {
-    "assetId": "AST-9332DDACF4402215",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v4.obj",
-    "sha256": "9332ddacf44022150df1fcaec2b5a30c1134568a66bc4168359071dcea45d563",
-    "sizeBytes": 15817
-  },
-  {
-    "assetId": "AST-46D911BD26D80BA0",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.obj",
-    "sha256": "46d911bd26d80ba0001f5a6515ac6ef3a93cc25046185b2cc6dbf80bb357cdab",
-    "sizeBytes": 51092
   },
   {
     "assetId": "AST-E4E0C5B28D996F95",
@@ -10132,12 +10066,6 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
     "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
     "sizeBytes": 51101
-  },
-  {
-    "assetId": "AST-8FC9BAECC18E42FE",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.obj",
-    "sha256": "8fc9baecc18e42fe6ddb9ce393c344575bbf0b6081b9a578072fbe801375cb80",
-    "sizeBytes": 19891
   },
   {
     "assetId": "AST-1FD4F301BE0C01D6",
@@ -10216,12 +10144,6 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
     "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
     "sizeBytes": 23633
-  },
-  {
-    "assetId": "AST-DA4B2BB630DD4B89",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
-    "sha256": "da4b2bb630dd4b89223f95b073fb0da3c6cbb54e5203ea263f6c0da12835d793",
-    "sizeBytes": 161220
   },
   {
     "assetId": "AST-085A0AF045C19C27",

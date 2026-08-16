@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T17:53:17.4016714+00:00",
+  "generatedUtc": "2026-08-16T18:08:43.8600928+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 8338,
-  "uniqueAssets": 7327,
+  "totalFiles": 8325,
+  "uniqueAssets": 7314,
   "duplicateFiles": 1011,
   "assets": [
     {
@@ -19988,18 +19988,6 @@
       "lastWriteTimeUtc": "2026-08-16T16:23:41.8500904Z"
     },
     {
-      "assetId": "AST-F34ECAF37D261A74",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v2.obj",
-      "fileName": "cloak_test_v2.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 8690,
-      "sha256": "f34ecaf37d261a74fec2776b70ad53e59311a9465fd043144e3e0ce251826f2c",
-      "lastWriteTimeUtc": "2026-08-16T16:44:10Z"
-    },
-    {
       "assetId": "AST-F9A8167A96A61086",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
       "fileName": "cloak_test_v3.obj",
@@ -20010,18 +19998,6 @@
       "sizeBytes": 8769,
       "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
       "lastWriteTimeUtc": "2026-08-16T16:54:28Z"
-    },
-    {
-      "assetId": "AST-981D1269CA374043",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
-      "fileName": "critical_test.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 14531,
-      "sha256": "981d1269ca3740436f19fb6fc96c17438002653296e2544ad5749953cdad6079",
-      "lastWriteTimeUtc": "2026-08-16T13:11:18Z"
     },
     {
       "assetId": "AST-9358092732DAC307",
@@ -20096,66 +20072,6 @@
       "lastWriteTimeUtc": "2026-08-16T15:21:16.3946204Z"
     },
     {
-      "assetId": "AST-510D0D1534A09470",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5a.obj",
-      "fileName": "energy_test_r5a.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15891,
-      "sha256": "510d0d1534a09470cf514ec77745bdeebc6c7f7d6a1245bcfe337fefe5d771be",
-      "lastWriteTimeUtc": "2026-08-16T17:09:31Z"
-    },
-    {
-      "assetId": "AST-466BF6B714CD3284",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5b.obj",
-      "fileName": "energy_test_r5b.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15891,
-      "sha256": "466bf6b714cd3284fa601bfd0a4aa8eb14f9dab1983f190558e0943daf42da50",
-      "lastWriteTimeUtc": "2026-08-16T17:09:31Z"
-    },
-    {
-      "assetId": "AST-F8D3F658E7EAB66E",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5c.obj",
-      "fileName": "energy_test_r5c.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15891,
-      "sha256": "f8d3f658e7eab66e1d7c405774c4f042834644adddd73ca15acf5d4d572cbed2",
-      "lastWriteTimeUtc": "2026-08-16T17:09:31Z"
-    },
-    {
-      "assetId": "AST-7028D13553B42F58",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r6.obj",
-      "fileName": "energy_test_r6.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15872,
-      "sha256": "7028d13553b42f582d6828816299607083bf5a203550967db538307852fa530f",
-      "lastWriteTimeUtc": "2026-08-16T17:19:22Z"
-    },
-    {
-      "assetId": "AST-2D1D216802AAC38C",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r7.obj",
-      "fileName": "energy_test_r7.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15870,
-      "sha256": "2d1d216802aac38c5fd31251d02710acbe30b653b260c7122d9639784c9818b7",
-      "lastWriteTimeUtc": "2026-08-16T17:30:37Z"
-    },
-    {
       "assetId": "AST-7AE5CE581C13AB77",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
       "fileName": "energy_test_r8.obj",
@@ -20166,54 +20082,6 @@
       "sizeBytes": 15867,
       "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
       "lastWriteTimeUtc": "2026-08-16T17:37:01Z"
-    },
-    {
-      "assetId": "AST-99ABEAA6B9C09858",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v2.obj",
-      "fileName": "energy_test_v2.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15636,
-      "sha256": "99abeaa6b9c098584f38244a3e1627fdc29a01be0bf6b0b8ca4bec6daa78a170",
-      "lastWriteTimeUtc": "2026-08-16T16:44:10Z"
-    },
-    {
-      "assetId": "AST-A4F784CE21942F79",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v3.obj",
-      "fileName": "energy_test_v3.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15715,
-      "sha256": "a4f784ce21942f7923baf94570f7ad5ac21078b768168bddc24f1db1f44d846a",
-      "lastWriteTimeUtc": "2026-08-16T16:54:28Z"
-    },
-    {
-      "assetId": "AST-9332DDACF4402215",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v4.obj",
-      "fileName": "energy_test_v4.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 15817,
-      "sha256": "9332ddacf44022150df1fcaec2b5a30c1134568a66bc4168359071dcea45d563",
-      "lastWriteTimeUtc": "2026-08-16T17:04:09Z"
-    },
-    {
-      "assetId": "AST-46D911BD26D80BA0",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test.obj",
-      "fileName": "evade_test.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 51092,
-      "sha256": "46d911bd26d80ba0001f5a6515ac6ef3a93cc25046185b2cc6dbf80bb357cdab",
-      "lastWriteTimeUtc": "2026-08-15T18:08:12Z"
     },
     {
       "assetId": "AST-E4E0C5B28D996F95",
@@ -20274,18 +20142,6 @@
       "sizeBytes": 51101,
       "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
       "lastWriteTimeUtc": "2026-08-15T18:20:13Z"
-    },
-    {
-      "assetId": "AST-8FC9BAECC18E42FE",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ion_test.obj",
-      "fileName": "ion_test.obj",
-      "extension": ".obj",
-      "kind": "model",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 19891,
-      "sha256": "8fc9baecc18e42fe6ddb9ce393c344575bbf0b6081b9a578072fbe801375cb80",
-      "lastWriteTimeUtc": "2026-08-16T14:38:09Z"
     },
     {
       "assetId": "AST-1FD4F301BE0C01D6",
@@ -20442,18 +20298,6 @@
       "sizeBytes": 23633,
       "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
       "lastWriteTimeUtc": "2026-08-15T18:50:49Z"
-    },
-    {
-      "assetId": "AST-DA4B2BB630DD4B89",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
-      "fileName": "stress_test.png",
-      "extension": ".png",
-      "kind": "image",
-      "origin": "unified1e",
-      "isGenerated": false,
-      "sizeBytes": 161220,
-      "sha256": "da4b2bb630dd4b89223f95b073fb0da3c6cbb54e5203ea263f6c0da12835d793",
-      "lastWriteTimeUtc": "2026-08-15T18:40:57.9050926Z"
     },
     {
       "assetId": "AST-085A0AF045C19C27",
