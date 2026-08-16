@@ -1,11 +1,11 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-16T16:26:33.4316327\u002B00:00",
+  "GeneratedUtc": "2026-08-16T17:50:00.0680408\u002B00:00",
   "Policy": "Original First Edition assets promoted byte-for-byte. Approved scans use validated UV-remapped meshes. Runtime Lua is unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
-  "AssetCount": 24,
-  "TokenCount": 12,
+  "AssetCount": 28,
+  "TokenCount": 14,
   "Assets": [
     {
       "Id": "shield-mesh",
@@ -498,6 +498,88 @@
       "Height": 420,
       "HasAlpha": false,
       "MeshBounds": null
+    },
+    {
+      "Id": "cloak-mesh",
+      "TokenIds": [
+        "cloak"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+      "SizeBytes": 8769,
+      "Sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 48,
+        "Width": 2.6,
+        "Height": 0.18,
+        "Depth": 2.79
+      },
+      "SourceKind": "uv-remapped-validated-mesh"
+    },
+    {
+      "Id": "cloak-face",
+      "TokenIds": [
+        "cloak"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+      "SizeBytes": 284375,
+      "Sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
+      "Width": 480,
+      "Height": 480,
+      "HasAlpha": false,
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
+    },
+    {
+      "Id": "energy-mesh",
+      "TokenIds": [
+        "energy"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
+      "SizeBytes": 15867,
+      "Sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 86,
+        "Width": 2.3565337140000002,
+        "Height": 0.18,
+        "Depth": 2.243502187
+      },
+      "SourceKind": "uv-remapped-validated-mesh"
+    },
+    {
+      "Id": "energy-face",
+      "TokenIds": [
+        "energy"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/energy.png",
+      "SizeBytes": 279179,
+      "Sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
+      "Width": 840,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     }
   ],
   "Tokens": [
@@ -620,6 +702,28 @@
       "FacePath": "assets/source/unified1e/gameplay-tokens/faces/tractor-beam.png",
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
+    },
+    {
+      "Id": "cloak",
+      "Name": "Cloak",
+      "MeshAssetId": "cloak-mesh",
+      "FaceAssetId": "cloak-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+      "SidePolicy": "same-artwork-both-sides",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false
+    },
+    {
+      "Id": "energy",
+      "Name": "Energy",
+      "MeshAssetId": "energy-mesh",
+      "FaceAssetId": "energy-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/energy.png",
+      "SidePolicy": "active-pink-front-spent-grey-reverse",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false
     }
   ],
   "ShieldPromotion": {
@@ -689,5 +793,18 @@
     "EdgeUvPolicy": "mapped-to-black-scan-background",
     "ArtworkProcessing": "none-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator"
+  },
+  "CloakEnergyPromotion": {
+    "Status": "approved-and-promoted",
+    "CloakReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
+    "CloakReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
+    "CloakGeometryPolicy": "approved-r3-custom-silhouette-black-edges",
+    "EnergyReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
+    "EnergyReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
+    "EnergyGeometryPolicy": "approved-r8-shared-conservative-silhouette-vertical-black-walls",
+    "EnergyFacePolicy": "active-pink-front-spent-grey-reverse",
+    "ArtworkProcessing": "none-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator",
+    "LuaPolicy": "unchanged-runtime-behaviour-deferred"
   }
 }

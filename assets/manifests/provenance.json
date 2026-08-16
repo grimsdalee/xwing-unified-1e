@@ -13064,6 +13064,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-DDD47201A1A51674",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-9358092732DAC307",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
     "origin": "unified1e",
@@ -13074,6 +13082,14 @@
   {
     "assetId": "AST-A8F3C3A72876D73F",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-27CA912FB89D4D63",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/energy.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13176,6 +13192,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-F9A8167A96A61086",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-5DAEBA6DD362EEDD",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
     "origin": "unified1e",
@@ -13186,6 +13210,14 @@
   {
     "assetId": "AST-2F2F3F5D3A3198BE",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7AE5CE581C13AB77",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13296,8 +13328,32 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-46F543E1E6213AC3",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-DDD47201A1A51674",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F34ECAF37D261A74",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F9A8167A96A61086",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13344,8 +13400,88 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-6B594475248D24CE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-27CA912FB89D4D63",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-510D0D1534A09470",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5a.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-466BF6B714CD3284",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5b.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F8D3F658E7EAB66E",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5c.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7028D13553B42F58",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2D1D216802AAC38C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r7.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7AE5CE581C13AB77",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-99ABEAA6B9C09858",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A4F784CE21942F79",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9332DDACF4402215",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v4.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18544,7 +18680,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6B0850DFDDD51DB9",
+    "assetId": "AST-3422F4478D659302",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

@@ -1447,6 +1447,15 @@
     ]
   },
   {
+    "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+    "assetId": "AST-27CA912FB89D4D63",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/energy.png",
+      "assets/source/unified1e/gameplay-tokens/review/energy_test.png"
+    ]
+  },
+  {
     "sha256": "27ffb7e1d59d1d075ac25e3fbf79a216b4b5c32d2084837a56d28efe38972a8e",
     "assetId": "AST-27FFB7E1D59D1D07",
     "fileCount": 2,
@@ -4414,6 +4423,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/title/brighthope.png",
       "assets/source/xwing-data/images/upgrades/Title/bright-hope.png"
+    ]
+  },
+  {
+    "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
+    "assetId": "AST-7AE5CE581C13AB77",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
+      "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj"
     ]
   },
   {
@@ -7684,6 +7702,15 @@
     ]
   },
   {
+    "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+    "assetId": "AST-DDD47201A1A51674",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+      "assets/source/unified1e/gameplay-tokens/review/cloak_test.png"
+    ]
+  },
+  {
     "sha256": "dde620ec1a79fcfededed89f743c7d69717da1ec2c3dcc364d360732628b732d",
     "assetId": "AST-DDE620EC1A79FCFE",
     "fileCount": 2,
@@ -8662,6 +8689,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/m3ainterceptor/cartelspacer__pilot-9ff20ae8c7ab.png"
+    ]
+  },
+  {
+    "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
+    "assetId": "AST-F9A8167A96A61086",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+      "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj"
     ]
   },
   {

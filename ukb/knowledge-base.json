@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T16:26:50.8074538+00:00",
+  "generatedUtc": "2026-08-16T17:50:15.4787374+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -29173,6 +29173,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-DDD47201A1A51674",
+        "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+        "fileName": "cloak.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 284375,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-9358092732DAC307",
         "sha256": "9358092732dac3074cb7471c1a4ab35465e1dd23b816a4273b110949e5ca08e5",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
@@ -29197,6 +29212,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 399553,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-27CA912FB89D4D63",
+        "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/energy.png",
+        "fileName": "energy.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 279179,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29383,6 +29413,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-F9A8167A96A61086",
+        "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+        "fileName": "cloak.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 8769,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-5DAEBA6DD362EEDD",
         "sha256": "5daeba6dd362eeddcec6975a30ba301de89d326436bcb4ecd114ed1ef8dc7ec2",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
@@ -29407,6 +29452,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 14627,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-7AE5CE581C13AB77",
+        "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
+        "fileName": "energy.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15867,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29608,6 +29668,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-46F543E1E6213AC3",
+        "sha256": "46f543e1e6213ac3fb22c907d32bc427c8dfd8f122d106fd6bfc186c7a20f0a0",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.obj",
+        "fileName": "cloak_test.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 8602,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-DDD47201A1A51674",
         "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
@@ -29617,6 +29692,36 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 284375,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-F34ECAF37D261A74",
+        "sha256": "f34ecaf37d261a74fec2776b70ad53e59311a9465fd043144e3e0ce251826f2c",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v2.obj",
+        "fileName": "cloak_test_v2.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 8690,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-F9A8167A96A61086",
+        "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj",
+        "fileName": "cloak_test_v3.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 8769,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29698,6 +29803,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-6B594475248D24CE",
+        "sha256": "6b594475248d24ce4a839c0f5420dc4c92aa3bcd8c3770e2892d02473bde35db",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.obj",
+        "fileName": "energy_test.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15548,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-27CA912FB89D4D63",
         "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
@@ -29707,6 +29827,141 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 279179,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-510D0D1534A09470",
+        "sha256": "510d0d1534a09470cf514ec77745bdeebc6c7f7d6a1245bcfe337fefe5d771be",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5a.obj",
+        "fileName": "energy_test_r5a.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15891,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-466BF6B714CD3284",
+        "sha256": "466bf6b714cd3284fa601bfd0a4aa8eb14f9dab1983f190558e0943daf42da50",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5b.obj",
+        "fileName": "energy_test_r5b.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15891,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-F8D3F658E7EAB66E",
+        "sha256": "f8d3f658e7eab66e1d7c405774c4f042834644adddd73ca15acf5d4d572cbed2",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r5c.obj",
+        "fileName": "energy_test_r5c.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15891,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-7028D13553B42F58",
+        "sha256": "7028d13553b42f582d6828816299607083bf5a203550967db538307852fa530f",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r6.obj",
+        "fileName": "energy_test_r6.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15872,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-2D1D216802AAC38C",
+        "sha256": "2d1d216802aac38c5fd31251d02710acbe30b653b260c7122d9639784c9818b7",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r7.obj",
+        "fileName": "energy_test_r7.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15870,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-7AE5CE581C13AB77",
+        "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj",
+        "fileName": "energy_test_r8.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15867,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-99ABEAA6B9C09858",
+        "sha256": "99abeaa6b9c098584f38244a3e1627fdc29a01be0bf6b0b8ca4bec6daa78a170",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v2.obj",
+        "fileName": "energy_test_v2.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15636,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-A4F784CE21942F79",
+        "sha256": "a4f784ce21942f7923baf94570f7ad5ac21078b768168bddc24f1db1f44d846a",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v3.obj",
+        "fileName": "energy_test_v3.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15715,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-9332DDACF4402215",
+        "sha256": "9332ddacf44022150df1fcaec2b5a30c1134568a66bc4168359071dcea45d563",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test_v4.obj",
+        "fileName": "energy_test_v4.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 15817,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -39448,15 +39703,15 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-6B0850DFDDD51DB9",
-        "sha256": "6b0850dfddd51db963dcb16c63b5818804dbc9b1be41127fa4b49913b16e5941",
+        "assetId": "AST-3422F4478D659302",
+        "sha256": "3422f4478d659302b1ef159524be64579f6a7f1f012074246fc151c95f78480a",
         "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
         "fileName": "core-gameplay-tokens.json",
         "extension": ".json",
         "assetType": "json",
         "warehouse": "unified1e",
         "isGenerated": false,
-        "sizeBytes": 26624,
+        "sizeBytes": 31114,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -167450,6 +167705,14 @@
         ]
       },
       {
+        "assetId": "AST-27CA912FB89D4D63",
+        "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/faces/energy.png",
+          "assets/source/unified1e/gameplay-tokens/review/energy_test.png"
+        ]
+      },
+      {
         "assetId": "AST-27FFB7E1D59D1D07",
         "sha256": "27ffb7e1d59d1d075ac25e3fbf79a216b4b5c32d2084837a56d28efe38972a8e",
         "repositoryPaths": [
@@ -170087,6 +170350,14 @@
         "repositoryPaths": [
           "assets/source/unified1e/upgrade-cards/title/brighthope.png",
           "assets/source/xwing-data/images/upgrades/Title/bright-hope.png"
+        ]
+      },
+      {
+        "assetId": "AST-7AE5CE581C13AB77",
+        "sha256": "7ae5ce581c13ab77fc0b2dc916646bbd45b8e950e0e0cd4c56f3128781c81d5b",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/meshes/energy.obj",
+          "assets/source/unified1e/gameplay-tokens/review/energy_test_r8.obj"
         ]
       },
       {
@@ -172994,6 +173265,14 @@
         ]
       },
       {
+        "assetId": "AST-DDD47201A1A51674",
+        "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
+          "assets/source/unified1e/gameplay-tokens/review/cloak_test.png"
+        ]
+      },
+      {
         "assetId": "AST-DDE620EC1A79FCFE",
         "sha256": "dde620ec1a79fcfededed89f743c7d69717da1ec2c3dcc364d360732628b732d",
         "repositoryPaths": [
@@ -173866,6 +174145,14 @@
         ]
       },
       {
+        "assetId": "AST-F9A8167A96A61086",
+        "sha256": "f9a8167a96a610866d33c55ffcedaf2f2fe5fc76c10a873fb4d5ed5e6b1cdbfb",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/meshes/cloak.obj",
+          "assets/source/unified1e/gameplay-tokens/review/cloak_test_v3.obj"
+        ]
+      },
+      {
         "assetId": "AST-F9CBEB9D3AA4C0C7",
         "sha256": "f9cbeb9d3aa4c0c75e1bfffe6ec1b09c2c81c1b48a99843cc90f46070d023b07",
         "repositoryPaths": [
@@ -174069,10 +174356,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 8324,
-    "uniqueAssetCount": 7314,
-    "totalBytes": 2366363394,
-    "duplicateFileCount": 1010,
+    "fileCount": 8341,
+    "uniqueAssetCount": 7327,
+    "totalBytes": 2367140133,
+    "duplicateFileCount": 1014,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 562,
@@ -174081,14 +174368,14 @@
       "first-edition-maneuver-icons": 14,
       "legacy1e-non-pilot": 417,
       "legacy1e": 379,
-      "unified1e": 1780,
+      "unified1e": 1797,
       "unified25": 2381,
       "xwing-data": 415,
       "xwvassal": 2315
     },
     "byAssetType": {
-      "image": 6945,
-      "model": 753,
+      "image": 6947,
+      "model": 768,
       "lua": 229,
       "xml": 15,
       "json": 134,
