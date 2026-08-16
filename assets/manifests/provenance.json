@@ -13072,6 +13072,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-A8F3C3A72876D73F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-E4E0C5B28D996F95",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
     "origin": "unified1e",
@@ -13112,7 +13120,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-DA45A907210E60E0",
+    "assetId": "AST-085A0AF045C19C27",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13130,6 +13138,14 @@
   {
     "assetId": "AST-2BD547B6DB7A1983",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2F2F3F5D3A3198BE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13184,8 +13200,24 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-A11F7FCB192CAB86",
+    "assetId": "AST-5BC601D474BCADEB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2F2F3F5D3A3198BE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/damage_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A8F3C3A72876D73F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/damage_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13256,6 +13288,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-5BC601D474BCADEB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-DA4B2BB630DD4B89",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
     "origin": "unified1e",
@@ -13264,8 +13304,8 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-ECE2648888369BEE",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/working/shield_test.blend",
+    "assetId": "AST-085A0AF045C19C27",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18256,8 +18296,16 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-2BB75C6D4405A16C",
+    "assetId": "AST-E576151E8EF86134",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A585E69F15C7ED17",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/mission-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

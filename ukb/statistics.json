@@ -1,8 +1,8 @@
 {
-  "fileCount": 8287,
-  "uniqueAssetCount": 7290,
-  "totalBytes": 2363324171,
-  "duplicateFileCount": 997,
+  "fileCount": 8293,
+  "uniqueAssetCount": 7294,
+  "totalBytes": 2364262343,
+  "duplicateFileCount": 999,
   "unavailableSourceCount": 566,
   "byWarehouse": {
     "generated": 562,
@@ -11,18 +11,18 @@
     "first-edition-maneuver-icons": 14,
     "legacy1e-non-pilot": 417,
     "legacy1e": 379,
-    "unified1e": 1743,
+    "unified1e": 1749,
     "unified25": 2381,
     "xwing-data": 415,
     "xwvassal": 2315
   },
   "byAssetType": {
-    "image": 6927,
-    "model": 734,
+    "image": 6930,
+    "model": 737,
     "lua": 229,
     "xml": 15,
-    "json": 133,
-    "other": 241,
+    "json": 134,
+    "other": 240,
     "pdf": 3,
     "text": 5
   }

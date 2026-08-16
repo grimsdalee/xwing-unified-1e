@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-15T18:47:31.4810141+00:00",
+  "generatedUtc": "2026-08-16T01:00:12.4464932+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "assetsRoot": "assets",
-  "totalFiles": 8287,
-  "uniqueAssets": 7290,
-  "duplicateFiles": 997,
+  "totalFiles": 8293,
+  "uniqueAssets": 7294,
+  "duplicateFiles": 999,
   "assets": [
     {
       "assetId": "AST-A4B26E1F77689976",
@@ -19616,6 +19616,18 @@
       "lastWriteTimeUtc": "2026-07-17T23:43:05.1519757Z"
     },
     {
+      "assetId": "AST-A8F3C3A72876D73F",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+      "fileName": "damage.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 399553,
+      "sha256": "a8f3c3a72876d73fa6f8e2d71cd6d74cce76e154b6f2a8c799681e67c54080a7",
+      "lastWriteTimeUtc": "2026-08-16T00:15:44.6487011Z"
+    },
+    {
       "assetId": "AST-E4E0C5B28D996F95",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/evade.png",
       "fileName": "evade.png",
@@ -19676,16 +19688,16 @@
       "lastWriteTimeUtc": "2026-08-15T13:18:22.6217994Z"
     },
     {
-      "assetId": "AST-DA45A907210E60E0",
+      "assetId": "AST-085A0AF045C19C27",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
       "fileName": "stress.png",
       "extension": ".png",
       "kind": "image",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 140111,
-      "sha256": "da45a907210e60e0af5e1729a89f405d7fefa3befe641625bbf257abaadbe06c",
-      "lastWriteTimeUtc": "2026-07-17T23:43:07.4273028Z"
+      "sizeBytes": 166041,
+      "sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
+      "lastWriteTimeUtc": "2026-08-16T00:22:12.7210556Z"
     },
     {
       "assetId": "AST-7A163A414BB7872B",
@@ -19710,6 +19722,18 @@
       "sizeBytes": 14739,
       "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
       "lastWriteTimeUtc": "2026-07-17T23:43:04.8821485Z"
+    },
+    {
+      "assetId": "AST-2F2F3F5D3A3198BE",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
+      "fileName": "damage.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 14627,
+      "sha256": "2f2f3f5d3a3198be9455e38a5637369d02b1e107817a2ad252d3dcd34a4cbe3c",
+      "lastWriteTimeUtc": "2026-08-16T00:31:28Z"
     },
     {
       "assetId": "AST-6FAD4ED67A0CF8EB",
@@ -19784,16 +19808,40 @@
       "lastWriteTimeUtc": "2026-08-15T17:38:08.5722044Z"
     },
     {
-      "assetId": "AST-A11F7FCB192CAB86",
+      "assetId": "AST-5BC601D474BCADEB",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
       "fileName": "stress.obj",
       "extension": ".obj",
       "kind": "model",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 24016,
-      "sha256": "a11f7fcb192cab869fcf88431943337b395229eb86979e89b43feb217421549b",
-      "lastWriteTimeUtc": "2026-07-17T23:43:07.1443472Z"
+      "sizeBytes": 23633,
+      "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
+      "lastWriteTimeUtc": "2026-08-15T18:50:49Z"
+    },
+    {
+      "assetId": "AST-2F2F3F5D3A3198BE",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/damage_test.obj",
+      "fileName": "damage_test.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 14627,
+      "sha256": "2f2f3f5d3a3198be9455e38a5637369d02b1e107817a2ad252d3dcd34a4cbe3c",
+      "lastWriteTimeUtc": "2026-08-16T00:31:28Z"
+    },
+    {
+      "assetId": "AST-A8F3C3A72876D73F",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/damage_test.png",
+      "fileName": "damage_test.png",
+      "extension": ".png",
+      "kind": "image",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 399553,
+      "sha256": "a8f3c3a72876d73fa6f8e2d71cd6d74cce76e154b6f2a8c799681e67c54080a7",
+      "lastWriteTimeUtc": "2026-08-16T00:15:44.6487011Z"
     },
     {
       "assetId": "AST-46D911BD26D80BA0",
@@ -19892,6 +19940,18 @@
       "lastWriteTimeUtc": "2026-08-15T13:18:22.6217994Z"
     },
     {
+      "assetId": "AST-5BC601D474BCADEB",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
+      "fileName": "stress_test.obj",
+      "extension": ".obj",
+      "kind": "model",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 23633,
+      "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
+      "lastWriteTimeUtc": "2026-08-15T18:50:49Z"
+    },
+    {
       "assetId": "AST-DA4B2BB630DD4B89",
       "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.png",
       "fileName": "stress_test.png",
@@ -19904,16 +19964,16 @@
       "lastWriteTimeUtc": "2026-08-15T18:40:57.9050926Z"
     },
     {
-      "assetId": "AST-ECE2648888369BEE",
-      "repositoryPath": "assets/source/unified1e/gameplay-tokens/working/shield_test.blend",
-      "fileName": "shield_test.blend",
-      "extension": ".blend",
-      "kind": "other",
+      "assetId": "AST-085A0AF045C19C27",
+      "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
+      "fileName": "stress_test_v2.png",
+      "extension": ".png",
+      "kind": "image",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 107880,
-      "sha256": "ece2648888369beee89f2bc3ccacb4b740e8aa08bdace1ed3b3f09f82814b1e4",
-      "lastWriteTimeUtc": "2026-08-15T17:28:43.0876777Z"
+      "sizeBytes": 166041,
+      "sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
+      "lastWriteTimeUtc": "2026-08-16T00:22:12.7210556Z"
     },
     {
       "assetId": "AST-C0A16D91D790799C",
@@ -27392,16 +27452,28 @@
       "lastWriteTimeUtc": "2026-08-03T14:15:53.4548453Z"
     },
     {
-      "assetId": "AST-2BB75C6D4405A16C",
+      "assetId": "AST-E576151E8EF86134",
       "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
       "fileName": "core-gameplay-tokens.json",
       "extension": ".json",
       "kind": "json",
       "origin": "unified1e",
       "isGenerated": false,
-      "sizeBytes": 17354,
-      "sha256": "2bb75c6d4405a16ca7d90a3717cd10486b1d28c471cb40065cc8dfea6d06d161",
-      "lastWriteTimeUtc": "2026-08-15T18:47:15.2946286Z"
+      "sizeBytes": 17504,
+      "sha256": "e576151e8ef86134fa7c42af6b669a6a950cdcdf96945844835165dede6face1",
+      "lastWriteTimeUtc": "2026-08-16T00:59:26.7197569Z"
+    },
+    {
+      "assetId": "AST-A585E69F15C7ED17",
+      "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/mission-gameplay-tokens.json",
+      "fileName": "mission-gameplay-tokens.json",
+      "extension": ".json",
+      "kind": "json",
+      "origin": "unified1e",
+      "isGenerated": false,
+      "sizeBytes": 2321,
+      "sha256": "a585e69f15c7ed177620b503751011a3428292de3a6af6a6e5b42dfbad98c7c2",
+      "lastWriteTimeUtc": "2026-08-16T00:59:26.7228255Z"
     },
     {
       "assetId": "AST-68F3AFF5783BC9E1",

@@ -413,6 +413,15 @@
     ]
   },
   {
+    "sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
+    "assetId": "AST-085A0AF045C19C27",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/stress.png",
+      "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png"
+    ]
+  },
+  {
     "sha256": "08bd44a295674c9269ad8e9eda173de27342b9ad040704f9efc79b69b9b87b65",
     "assetId": "AST-08BD44A295674C92",
     "fileCount": 2,
@@ -1652,6 +1661,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png"
+    ]
+  },
+  {
+    "sha256": "2f2f3f5d3a3198be9455e38a5637369d02b1e107817a2ad252d3dcd34a4cbe3c",
+    "assetId": "AST-2F2F3F5D3A3198BE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
+      "assets/source/unified1e/gameplay-tokens/review/damage_test.obj"
     ]
   },
   {
@@ -3299,6 +3317,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/z95headhunter/nashtahpuppilot__pilot-72f1ca9d274c.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/z95headhunter/nashtahpuppilot__pilot-72f1ca9d274c.png"
+    ]
+  },
+  {
+    "sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
+    "assetId": "AST-5BC601D474BCADEB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
+      "assets/source/unified1e/gameplay-tokens/review/stress_test.obj"
     ]
   },
   {
@@ -5543,15 +5570,6 @@
     ]
   },
   {
-    "sha256": "a11f7fcb192cab869fcf88431943337b395229eb86979e89b43feb217421549b",
-    "assetId": "AST-A11F7FCB192CAB86",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7f997ffbf00b08ec.obj",
-      "assets/source/unified1e/gameplay-tokens/meshes/stress.obj"
-    ]
-  },
-  {
     "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
     "assetId": "AST-A15AA5C810C9A434",
     "fileCount": 2,
@@ -5855,6 +5873,15 @@
     "repositoryPaths": [
       "assets/source/xwvassal/images/S2e_z95af4headhunter.png",
       "assets/source/xwvassal/images/Ship_z95headhunter_rebel.png"
+    ]
+  },
+  {
+    "sha256": "a8f3c3a72876d73fa6f8e2d71cd6d74cce76e154b6f2a8c799681e67c54080a7",
+    "assetId": "AST-A8F3C3A72876D73F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+      "assets/source/unified1e/gameplay-tokens/review/damage_test.png"
     ]
   },
   {
@@ -7430,15 +7457,6 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/title/allianceoverhaul.png",
       "assets/source/xwing-data/images/upgrades/Title/alliance-overhaul.png"
-    ]
-  },
-  {
-    "sha256": "da45a907210e60e0af5e1729a89f405d7fefa3befe641625bbf257abaadbe06c",
-    "assetId": "AST-DA45A907210E60E0",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__fa8ed658e21b949d.png",
-      "assets/source/unified1e/gameplay-tokens/faces/stress.png"
     ]
   },
   {

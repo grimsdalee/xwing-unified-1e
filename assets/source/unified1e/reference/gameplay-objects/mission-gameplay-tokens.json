@@ -1,0 +1,69 @@
+{
+  "SchemaVersion": "1.0.0",
+  "GeneratedUtc": "2026-08-16T00:59:26.7215914\u002B00:00",
+  "Policy": "First Edition mission tokens are catalogued separately from core gameplay tokens. Runtime Lua is unchanged.",
+  "AssetCount": 2,
+  "TokenCount": 1,
+  "Assets": [
+    {
+      "Id": "damage-mesh",
+      "TokenIds": [
+        "damage"
+      ],
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
+      "SizeBytes": 14627,
+      "Sha256": "2f2f3f5d3a3198be9455e38a5637369d02b1e107817a2ad252d3dcd34a4cbe3c",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/damage_test.obj",
+      "SourceKind": "uv-remapped-validated-mesh",
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 54,
+        "Width": 2.1,
+        "Height": 0.2,
+        "Depth": 1.81865334
+      }
+    },
+    {
+      "Id": "damage-face",
+      "TokenIds": [
+        "damage"
+      ],
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+      "SizeBytes": 399553,
+      "Sha256": "a8f3c3a72876d73fa6f8e2d71cd6d74cce76e154b6f2a8c799681e67c54080a7",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/damage_test.png",
+      "SourceKind": "user-supplied-high-resolution-scan",
+      "Width": 840,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null
+    }
+  ],
+  "Tokens": [
+    {
+      "Id": "damage",
+      "Name": "Damage Token",
+      "Category": "mission-token",
+      "FaceSemantics": [
+        "1",
+        "2"
+      ],
+      "MeshAssetId": "damage-mesh",
+      "FaceAssetId": "damage-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/damage.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/damage.png",
+      "GeometryReferencePath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+      "RuntimeStatus": "asset-validation-only",
+      "LuaIncluded": false,
+      "VisualValidation": "approved-in-tabletop-simulator"
+    }
+  ]
+}

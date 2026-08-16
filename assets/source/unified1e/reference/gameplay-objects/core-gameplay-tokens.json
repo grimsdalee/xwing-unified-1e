@@ -1,6 +1,6 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-15T18:47:15.2862280\u002B00:00",
+  "GeneratedUtc": "2026-08-16T00:59:26.7128155\u002B00:00",
   "Policy": "Original First Edition assets promoted byte-for-byte. Shield, Focus and Evade use approved high-resolution physical scans with validated UV-remapped meshes. Runtime Lua is unchanged.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
@@ -192,11 +192,11 @@
       ],
       "Role": "mesh",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/stress.obj",
-      "SizeBytes": 24016,
-      "Sha256": "a11f7fcb192cab869fcf88431943337b395229eb86979e89b43feb217421549b",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186015857/1C403FD63E98A5D96895CDBD0CDBC577C1091121/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__7f997ffbf00b08ec.obj",
+      "SizeBytes": 23633,
+      "Sha256": "5bc601d474bcadeba0a7594bc283e91b3b2c040c67b8a95d95fe419f9423619b",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
       "Width": null,
       "Height": null,
       "HasAlpha": null,
@@ -205,7 +205,8 @@
         "Width": 1.9,
         "Height": 0.19999999699999998,
         "Depth": 2.17846108
-      }
+      },
+      "SourceKind": "uv-remapped-validated-mesh"
     },
     {
       "Id": "stress-face",
@@ -214,15 +215,16 @@
       ],
       "Role": "texture",
       "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
-      "SizeBytes": 140111,
-      "Sha256": "da45a907210e60e0af5e1729a89f405d7fefa3befe641625bbf257abaadbe06c",
-      "OriginalSourceUrl": "https://steamusercontent-a.akamaihd.net/ugc/2496767915186015957/57E31A59B8A426555BB0703F6B402CA0B4234EC1/",
-      "Resolution": "repository-reuse",
-      "ResolvedFrom": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e/assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__fa8ed658e21b949d.png",
-      "Width": 292,
-      "Height": 292,
-      "HasAlpha": true,
-      "MeshBounds": null
+      "SizeBytes": 166041,
+      "Sha256": "085a0af045c19c27b15c4cb585e1171ede187181233591842e71857cd77fd5e9",
+      "OriginalSourceUrl": null,
+      "Resolution": "approved-review-promotion",
+      "ResolvedFrom": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
+      "Width": 420,
+      "Height": 420,
+      "HasAlpha": false,
+      "MeshBounds": null,
+      "SourceKind": "user-supplied-high-resolution-scan"
     },
     {
       "Id": "ion-mesh",
@@ -425,6 +427,13 @@
     "SharedWeaponsDisabledMeshPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
     "SharedMeshPolicy": "Focus split to a dedicated mesh; Weapons Disabled remains on the original shared mesh.",
     "ArtworkProcessing": "none-copy-byte-for-byte",
+    "VisualValidation": "approved-in-tabletop-simulator"
+  },
+  "StressPromotion": {
+    "Status": "approved-and-promoted",
+    "ReviewMeshPath": "assets/source/unified1e/gameplay-tokens/review/stress_test.obj",
+    "ReviewFacePath": "assets/source/unified1e/gameplay-tokens/review/stress_test_v2.png",
+    "ArtworkProcessing": "user-adjusted-red-colour; toolkit-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator"
   }
 }
