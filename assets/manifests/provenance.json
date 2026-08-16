@@ -13152,14 +13152,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-33A5EFC5F0DB73A8",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-540987E0318D9C1C",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
     "origin": "unified1e",
@@ -13274,22 +13266,6 @@
   {
     "assetId": "AST-B1F144D8134F0BFF",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-53350015D65D829A",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-E5F9594C6C4DB713",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

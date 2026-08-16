@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T17:50:15.4787374+00:00",
+  "generatedUtc": "2026-08-16T17:53:17.8445793+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -29338,21 +29338,6 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-33A5EFC5F0DB73A8",
-        "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
-        "fileName": "reinforce.png",
-        "extension": ".png",
-        "assetType": "image",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 456862,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-540987E0318D9C1C",
         "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
@@ -29572,36 +29557,6 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 20382,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-53350015D65D829A",
-        "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
-        "fileName": "reinforce.obj",
-        "extension": ".obj",
-        "assetType": "model",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 17640,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-E5F9594C6C4DB713",
-        "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
-        "fileName": "round-focus-weapons-disabled.obj",
-        "extension": ".obj",
-        "assetType": "model",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 52108,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -168121,14 +168076,6 @@
         ]
       },
       {
-        "assetId": "AST-33A5EFC5F0DB73A8",
-        "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
-        "repositoryPaths": [
-          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
-          "assets/source/unified1e/gameplay-tokens/faces/reinforce.png"
-        ]
-      },
-      {
         "assetId": "AST-342C504EE4826922",
         "sha256": "342c504ee482692222f5e2550fd298484b8bbf6f47daa02b9856a8e635eca36b",
         "repositoryPaths": [
@@ -169126,14 +169073,6 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
           "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png"
-        ]
-      },
-      {
-        "assetId": "AST-53350015D65D829A",
-        "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
-        "repositoryPaths": [
-          "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
-          "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj"
         ]
       },
       {
@@ -173489,14 +173428,6 @@
         ]
       },
       {
-        "assetId": "AST-E5F9594C6C4DB713",
-        "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
-        "repositoryPaths": [
-          "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
-          "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj"
-        ]
-      },
-      {
         "assetId": "AST-E5FD188E250CAD36",
         "sha256": "e5fd188e250cad36439a64be782c604c18dae857545a6f73da02136ff0cd4602",
         "repositoryPaths": [
@@ -174356,10 +174287,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 8341,
+    "fileCount": 8338,
     "uniqueAssetCount": 7327,
-    "totalBytes": 2367140133,
-    "duplicateFileCount": 1014,
+    "totalBytes": 2366613523,
+    "duplicateFileCount": 1011,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 562,
@@ -174368,14 +174299,14 @@
       "first-edition-maneuver-icons": 14,
       "legacy1e-non-pilot": 417,
       "legacy1e": 379,
-      "unified1e": 1797,
+      "unified1e": 1794,
       "unified25": 2381,
       "xwing-data": 415,
       "xwvassal": 2315
     },
     "byAssetType": {
-      "image": 6947,
-      "model": 768,
+      "image": 6946,
+      "model": 766,
       "lua": 229,
       "xml": 15,
       "json": 134,

@@ -9864,12 +9864,6 @@
     "sizeBytes": 332903
   },
   {
-    "assetId": "AST-33A5EFC5F0DB73A8",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
-    "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
-    "sizeBytes": 456862
-  },
-  {
     "assetId": "AST-540987E0318D9C1C",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
     "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
@@ -9958,18 +9952,6 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce-small.obj",
     "sha256": "b1f144d8134f0bff24ab1d7098511a4010f0b8bbf49a694721ae28c8ee7ecc8f",
     "sizeBytes": 20382
-  },
-  {
-    "assetId": "AST-53350015D65D829A",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
-    "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
-    "sizeBytes": 17640
-  },
-  {
-    "assetId": "AST-E5F9594C6C4DB713",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
-    "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
-    "sizeBytes": 52108
   },
   {
     "assetId": "AST-9A901E3363B7519A",

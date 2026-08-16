@@ -1915,15 +1915,6 @@
     ]
   },
   {
-    "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
-    "assetId": "AST-33A5EFC5F0DB73A8",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
-      "assets/source/unified1e/gameplay-tokens/faces/reinforce.png"
-    ]
-  },
-  {
     "sha256": "342c504ee482692222f5e2550fd298484b8bbf6f47daa02b9856a8e635eca36b",
     "assetId": "AST-342C504EE4826922",
     "fileCount": 2,
@@ -3046,15 +3037,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png"
-    ]
-  },
-  {
-    "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
-    "assetId": "AST-53350015D65D829A",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
-      "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj"
     ]
   },
   {
@@ -7951,15 +7933,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
       "assets/source/unified1e/pilot-tokens/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png"
-    ]
-  },
-  {
-    "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
-    "assetId": "AST-E5F9594C6C4DB713",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
-      "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj"
     ]
   },
   {
