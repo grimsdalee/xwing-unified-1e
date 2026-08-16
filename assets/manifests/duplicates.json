@@ -1042,6 +1042,15 @@
     ]
   },
   {
+    "sha256": "1b4b2474a5d3cbe20dc5c21c5ccaea5968af8664a3b7df6d837ce3018630d63b",
+    "assetId": "AST-1B4B2474A5D3CBE2",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
+      "assets/source/unified25/assets/Items/tokens/squared/TL.png"
+    ]
+  },
+  {
     "sha256": "1bc3202cbf22af105ec72803764212969efe3d40eb6d131a8c68d3d4b20a6c8f",
     "assetId": "AST-1BC3202CBF22AF10",
     "fileCount": 2,
@@ -1912,6 +1921,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/xwing/lukeskywalker__pilot-aa47833ee888.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/xwing/lukeskywalker__pilot-aa47833ee888.png"
+    ]
+  },
+  {
+    "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
+    "assetId": "AST-33A5EFC5F0DB73A8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
+      "assets/source/unified1e/gameplay-tokens/faces/reinforce.png"
     ]
   },
   {
@@ -3037,6 +3055,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png"
+    ]
+  },
+  {
+    "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
+    "assetId": "AST-53350015D65D829A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj"
     ]
   },
   {
@@ -6703,6 +6730,15 @@
     ]
   },
   {
+    "sha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+    "assetId": "AST-BDEAE47C82094231",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+      "assets/source/unified25/assets/Items/tokens/squared/TL.obj"
+    ]
+  },
+  {
     "sha256": "be20985d34beb46a163f9b2f34902e63bdedcff861ef6a94374acaa23e430c6a",
     "assetId": "AST-BE20985D34BEB46A",
     "fileCount": 2,
@@ -7933,6 +7969,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png",
       "assets/source/unified1e/pilot-tokens/resistance/yt1300/hansolo__pilot-48c5fbe53f48.png"
+    ]
+  },
+  {
+    "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
+    "assetId": "AST-E5F9594C6C4DB713",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
+      "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj"
     ]
   },
   {

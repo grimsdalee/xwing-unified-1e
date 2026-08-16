@@ -106,7 +106,7 @@ public static class AuditFirstEditionGameplayObjectsCommand
         Required("evade", "token", "Evade token", "evade"),
         Required("stress", "token", "Stress token", "stress"),
         Required("ion", "token", "Ion token", "ion"),
-        Required("target-lock", "token", "Target lock token pair", "target lock", "targetlock", "tlbag", "tl"),
+        Required("target-lock", "token", "Target Lock token (approved single owner-labelled compatibility model)", "target lock", "targetlock", "tlbag", "tl"),
         Required("shield", "token", "Shield token", "shield"),
         Required("cloak", "token", "Cloak token", "cloak"),
         Required("tractor", "token", "Tractor beam token", "tractor"),

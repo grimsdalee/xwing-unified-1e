@@ -1,11 +1,11 @@
 {
   "SchemaVersion": "1.0.0",
-  "GeneratedUtc": "2026-08-16T17:50:00.0680408\u002B00:00",
-  "Policy": "Original First Edition assets promoted byte-for-byte. Approved scans use validated UV-remapped meshes. Runtime Lua is unchanged.",
+  "GeneratedUtc": "2026-08-16T21:53:29.8747509\u002B00:00",
+  "Policy": "Original First Edition assets are canonical by default. Target Lock is an explicitly approved Unified 2.5 single-token compatibility reuse. Runtime Lua is referenced from the existing Unified 2.5 object template and is not copied or modified.",
   "SourceSavePath": "C:/Users/Evan/Documents/My Games/Tabletop Simulator/Saves/X-Wing_1e/TS_Save_42.json",
   "SourceSaveSha256": "2b78c1ce79985c3f0cde1034e033a7b34a76bdc9ababa210e35f0c83d4b7225a",
-  "AssetCount": 28,
-  "TokenCount": 14,
+  "AssetCount": 30,
+  "TokenCount": 15,
   "Assets": [
     {
       "Id": "shield-mesh",
@@ -580,6 +580,47 @@
       "HasAlpha": false,
       "MeshBounds": null,
       "SourceKind": "user-supplied-high-resolution-scan"
+    },
+    {
+      "Id": "target-lock-mesh",
+      "Role": "mesh",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+      "SizeBytes": 1799,
+      "Sha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+      "OriginalSourceUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/TL.obj",
+      "Resolution": "approved-unified25-compatibility-reuse",
+      "ResolvedFrom": "assets/source/unified25/assets/Items/tokens/squared/TL.obj",
+      "SourceKind": "unified25-approved-runtime-reuse",
+      "TokenIds": [
+        "target-lock"
+      ],
+      "Width": null,
+      "Height": null,
+      "HasAlpha": null,
+      "MeshBounds": {
+        "VertexCount": 18,
+        "Width": 2.081104,
+        "Height": 0.2,
+        "Depth": 2.081104
+      }
+    },
+    {
+      "Id": "target-lock-face",
+      "Role": "texture",
+      "RepositoryPath": "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
+      "SizeBytes": 147589,
+      "Sha256": "1b4b2474a5d3cbe20dc5c21c5ccaea5968af8664a3b7df6d837ce3018630d63b",
+      "OriginalSourceUrl": "https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/Items/tokens/squared/TL.png",
+      "Resolution": "approved-unified25-compatibility-reuse",
+      "ResolvedFrom": "assets/source/unified25/assets/Items/tokens/squared/TL.png",
+      "SourceKind": "unified25-approved-runtime-reuse",
+      "TokenIds": [
+        "target-lock"
+      ],
+      "Width": 1024,
+      "Height": 1024,
+      "HasAlpha": true,
+      "MeshBounds": null
     }
   ],
   "Tokens": [
@@ -724,6 +765,29 @@
       "SidePolicy": "active-pink-front-spent-grey-reverse",
       "RuntimeStatus": "asset-validation-only",
       "LuaIncluded": false
+    },
+    {
+      "Id": "target-lock",
+      "Name": "Target Lock",
+      "MeshAssetId": "target-lock-mesh",
+      "FaceAssetId": "target-lock-face",
+      "MeshPath": "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+      "FacePath": "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
+      "TokenModel": "single-owner-labelled-token",
+      "FirstEditionCompatibilityOverride": true,
+      "RuntimeStatus": "approved-unified25-runtime-reuse",
+      "LuaIncluded": false,
+      "RuntimeBinding": {
+        "Strategy": "reuse-existing-unified25-target-lock-object-template",
+        "SourceObjectGuid": "1670ba",
+        "SourceObjectPath": "ObjectStates[192]",
+        "LuaSha256": "90579c7bc2238865a3116ac9f01126d81f1f85c284783c5ea23a6394dc1c96fb",
+        "PreserveOwnerPilotName": true,
+        "PreserveOwnerColourTint": true,
+        "PreserveTargetAssignmentIntegration": true,
+        "PreserveFlipToSpendBehaviour": true,
+        "NewLuaRequired": false
+      }
     }
   ],
   "ShieldPromotion": {
@@ -806,5 +870,27 @@
     "ArtworkProcessing": "none-copy-byte-for-byte",
     "VisualValidation": "approved-in-tabletop-simulator",
     "LuaPolicy": "unchanged-runtime-behaviour-deferred"
+  },
+  "TargetLockRegistration": {
+    "Status": "approved-and-registered",
+    "ArchitectureDecision": "reuse-unified25-single-owner-labelled-target-lock",
+    "FirstEditionRulesPolicy": "First Edition acquisition, range and spending rules remain authoritative",
+    "AssetCopyPolicy": "copy-byte-for-byte-from-repository-unified25-source",
+    "SourceMeshSha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+    "EquivalentLfMeshSha256": "c96eedb62bbd66feddd840f58d7dd1dacb456170c1c6fa87890c960b3b0dabb0",
+    "EquivalentCrLfMeshSha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+    "SourceFaceSha256": "1b4b2474a5d3cbe20dc5c21c5ccaea5968af8664a3b7df6d837ce3018630d63b",
+    "RuntimeBinding": {
+      "Strategy": "reuse-existing-unified25-target-lock-object-template",
+      "SourceObjectGuid": "1670ba",
+      "SourceObjectPath": "ObjectStates[192]",
+      "LuaSha256": "90579c7bc2238865a3116ac9f01126d81f1f85c284783c5ea23a6394dc1c96fb",
+      "PreserveOwnerPilotName": true,
+      "PreserveOwnerColourTint": true,
+      "PreserveTargetAssignmentIntegration": true,
+      "PreserveFlipToSpendBehaviour": true,
+      "NewLuaRequired": false
+    },
+    "LuaCopyPolicy": "none-reuse-existing-runtime-template"
   }
 }

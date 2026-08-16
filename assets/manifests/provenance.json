@@ -13152,6 +13152,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-33A5EFC5F0DB73A8",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-540987E0318D9C1C",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
     "origin": "unified1e",
@@ -13162,6 +13170,14 @@
   {
     "assetId": "AST-085A0AF045C19C27",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/stress.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1B4B2474A5D3CBE2",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13272,6 +13288,22 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-53350015D65D829A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E5F9594C6C4DB713",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-9A901E3363B7519A",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
     "origin": "unified1e",
@@ -13288,6 +13320,14 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-BDEAE47C82094231",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-13150BAF72C5387F",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
     "origin": "unified1e",
@@ -13298,14 +13338,6 @@
   {
     "assetId": "AST-D7D7BAC6DAA20BAF",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-46F543E1E6213AC3",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13360,14 +13392,6 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-6B594475248D24CE",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
     "assetId": "AST-27CA912FB89D4D63",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
     "origin": "unified1e",
@@ -13394,14 +13418,6 @@
   {
     "assetId": "AST-6FAD4ED67A0CF8EB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/evade_test_v2.obj",
-    "origin": "unified1e",
-    "isGenerated": false,
-    "originalSource": null,
-    "notes": "Imported source asset. Original source linkage has not yet been recorded."
-  },
-  {
-    "assetId": "AST-150F6BEC8643A909",
-    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18552,7 +18568,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-3422F4478D659302",
+    "assetId": "AST-4D118930F6CA1BA7",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

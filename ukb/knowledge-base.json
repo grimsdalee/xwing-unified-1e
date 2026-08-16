@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedUtc": "2026-08-16T18:08:44.3312708+00:00",
+  "generatedUtc": "2026-08-16T21:53:45.6325174+00:00",
   "repositoryRoot": "C:/Users/Evan/Documents/GitHub/xwing-unified-1e",
   "domains": {
     "assets": [
@@ -29338,6 +29338,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-33A5EFC5F0DB73A8",
+        "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/reinforce.png",
+        "fileName": "reinforce.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 456862,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-540987E0318D9C1C",
         "sha256": "540987e0318d9c1c284d7ab705942f77551167ab33b66b973968cc34fb3e08b8",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/shield.png",
@@ -29362,6 +29377,21 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 166041,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-1B4B2474A5D3CBE2",
+        "sha256": "1b4b2474a5d3cbe20dc5c21c5ccaea5968af8664a3b7df6d837ce3018630d63b",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
+        "fileName": "target-lock.png",
+        "extension": ".png",
+        "assetType": "image",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 147589,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29563,6 +29593,36 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-53350015D65D829A",
+        "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj",
+        "fileName": "reinforce.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 17640,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
+        "assetId": "AST-E5F9594C6C4DB713",
+        "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj",
+        "fileName": "round-focus-weapons-disabled.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 52108,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-9A901E3363B7519A",
         "sha256": "9a901e3363b7519ae218f6ffe64799397eddc0caa255f8b180bf8584851a38e7",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/shield.obj",
@@ -29593,6 +29653,21 @@
         "referencedBy": []
       },
       {
+        "assetId": "AST-BDEAE47C82094231",
+        "sha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+        "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+        "fileName": "target-lock.obj",
+        "extension": ".obj",
+        "assetType": "model",
+        "warehouse": "unified1e",
+        "isGenerated": false,
+        "sizeBytes": 1799,
+        "availability": "available",
+        "releaseRequired": null,
+        "sourceReferences": [],
+        "referencedBy": []
+      },
+      {
         "assetId": "AST-13150BAF72C5387F",
         "sha256": "13150baf72c5387f3b793405b4ceea157db1791283ec4546a8dc06ede93d12c1",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/tractor-beam.obj",
@@ -29617,21 +29692,6 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 51052,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-46F543E1E6213AC3",
-        "sha256": "46f543e1e6213ac3fb22c907d32bc427c8dfd8f122d106fd6bfc186c7a20f0a0",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.obj",
-        "fileName": "cloak_test.obj",
-        "extension": ".obj",
-        "assetType": "model",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 8602,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -29728,21 +29788,6 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-6B594475248D24CE",
-        "sha256": "6b594475248d24ce4a839c0f5420dc4c92aa3bcd8c3770e2892d02473bde35db",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.obj",
-        "fileName": "energy_test.obj",
-        "extension": ".obj",
-        "assetType": "model",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 15548,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
         "assetId": "AST-27CA912FB89D4D63",
         "sha256": "27ca912fb89d4d634e6fac5499e2cc3aec396b0b47ba523b7ee21e9d767f2a61",
         "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/energy_test.png",
@@ -29797,21 +29842,6 @@
         "warehouse": "unified1e",
         "isGenerated": false,
         "sizeBytes": 51107,
-        "availability": "available",
-        "releaseRequired": null,
-        "sourceReferences": [],
-        "referencedBy": []
-      },
-      {
-        "assetId": "AST-150F6BEC8643A909",
-        "sha256": "150f6bec8643a9098cca5856d0c888016ad39de70b6057d19e17dd15fc721b20",
-        "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test.obj",
-        "fileName": "focus_test.obj",
-        "extension": ".obj",
-        "assetType": "model",
-        "warehouse": "unified1e",
-        "isGenerated": false,
-        "sizeBytes": 51086,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -39463,15 +39493,15 @@
         "referencedBy": []
       },
       {
-        "assetId": "AST-3422F4478D659302",
-        "sha256": "3422f4478d659302b1ef159524be64579f6a7f1f012074246fc151c95f78480a",
+        "assetId": "AST-4D118930F6CA1BA7",
+        "sha256": "4d118930f6ca1ba742cb9d8daa1a53a414896492b1625df2862b120e32131b64",
         "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
         "fileName": "core-gameplay-tokens.json",
         "extension": ".json",
         "assetType": "json",
         "warehouse": "unified1e",
         "isGenerated": false,
-        "sizeBytes": 31114,
+        "sizeBytes": 35178,
         "availability": "available",
         "releaseRequired": null,
         "sourceReferences": [],
@@ -167105,6 +167135,14 @@
         ]
       },
       {
+        "assetId": "AST-1B4B2474A5D3CBE2",
+        "sha256": "1b4b2474a5d3cbe20dc5c21c5ccaea5968af8664a3b7df6d837ce3018630d63b",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/faces/target-lock.png",
+          "assets/source/unified25/assets/Items/tokens/squared/TL.png"
+        ]
+      },
+      {
         "assetId": "AST-1BC3202CBF22AF10",
         "sha256": "1bc3202cbf22af105ec72803764212969efe3d40eb6d131a8c68d3d4b20a6c8f",
         "repositoryPaths": [
@@ -167878,6 +167916,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/rebelalliance/xwing/lukeskywalker__pilot-aa47833ee888.png",
           "assets/source/unified1e/pilot-tokens/rebelalliance/xwing/lukeskywalker__pilot-aa47833ee888.png"
+        ]
+      },
+      {
+        "assetId": "AST-33A5EFC5F0DB73A8",
+        "sha256": "33a5efc5f0db73a8cbd8df735a1151eb0149afd8730e649a18330b878eeca414",
+        "repositoryPaths": [
+          "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__cfe55b8b691cf228.png",
+          "assets/source/unified1e/gameplay-tokens/faces/reinforce.png"
         ]
       },
       {
@@ -168878,6 +168924,14 @@
         "repositoryPaths": [
           "assets/generated/PilotBaseToken/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png",
           "assets/source/unified1e/pilot-tokens/galacticempire/lambdaclassshuttle/captainkagi__pilot-80a485dc5242.png"
+        ]
+      },
+      {
+        "assetId": "AST-53350015D65D829A",
+        "sha256": "53350015d65d829a2bc49083a9f3f41b35e3927263854079dc264b3ff23d4ea0",
+        "repositoryPaths": [
+          "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__57c9e087a6f67b6e.obj",
+          "assets/source/unified1e/gameplay-tokens/meshes/reinforce.obj"
         ]
       },
       {
@@ -172137,6 +172191,14 @@
         ]
       },
       {
+        "assetId": "AST-BDEAE47C82094231",
+        "sha256": "bdeae47c820942318a6e5e2db1d37e80d682a60ebd8752619dc3580c4db2c340",
+        "repositoryPaths": [
+          "assets/source/unified1e/gameplay-tokens/meshes/target-lock.obj",
+          "assets/source/unified25/assets/Items/tokens/squared/TL.obj"
+        ]
+      },
+      {
         "assetId": "AST-BE20985D34BEB46A",
         "sha256": "be20985d34beb46a163f9b2f34902e63bdedcff861ef6a94374acaa23e430c6a",
         "repositoryPaths": [
@@ -173233,6 +173295,14 @@
         ]
       },
       {
+        "assetId": "AST-E5F9594C6C4DB713",
+        "sha256": "e5f9594c6c4db7134c8741c05fc71ef88a786c532392152753c4d193c1956565",
+        "repositoryPaths": [
+          "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__cc9e59fdab33492b.obj",
+          "assets/source/unified1e/gameplay-tokens/meshes/round-focus-weapons-disabled.obj"
+        ]
+      },
+      {
         "assetId": "AST-E5FD188E250CAD36",
         "sha256": "e5fd188e250cad36439a64be782c604c18dae857545a6f73da02136ff0cd4602",
         "repositoryPaths": [
@@ -174092,10 +174162,10 @@
     "ships": []
   },
   "statistics": {
-    "fileCount": 8325,
-    "uniqueAssetCount": 7314,
-    "totalBytes": 2366231516,
-    "duplicateFileCount": 1011,
+    "fileCount": 8327,
+    "uniqueAssetCount": 7311,
+    "totalBytes": 2366836342,
+    "duplicateFileCount": 1016,
     "unavailableSourceCount": 566,
     "byWarehouse": {
       "generated": 562,
@@ -174104,13 +174174,13 @@
       "first-edition-maneuver-icons": 14,
       "legacy1e-non-pilot": 417,
       "legacy1e": 379,
-      "unified1e": 1781,
+      "unified1e": 1783,
       "unified25": 2381,
       "xwing-data": 415,
       "xwvassal": 2315
     },
     "byAssetType": {
-      "image": 6945,
+      "image": 6947,
       "model": 754,
       "lua": 229,
       "xml": 15,
