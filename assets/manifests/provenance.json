@@ -13064,7 +13064,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-D974A884A74DAF11",
+    "assetId": "AST-9358092732DAC307",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13098,6 +13098,14 @@
   {
     "assetId": "AST-F6301996934292FB",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF69F5E5D321D825",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13152,7 +13160,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-2BD547B6DB7A1983",
+    "assetId": "AST-5DAEBA6DD362EEDD",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
     "origin": "unified1e",
     "isGenerated": false,
@@ -13186,6 +13194,14 @@
   {
     "assetId": "AST-2247B1BE2FEA6841",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-269D010FE9DE9845",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ordnance.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13242,6 +13258,30 @@
   {
     "assetId": "AST-D7D7BAC6DAA20BAF",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-981D1269CA374043",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9358092732DAC307",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5DAEBA6DD362EEDD",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test_v2.obj",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -13306,6 +13346,22 @@
   {
     "assetId": "AST-DF4B10D9F3700B2F",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-269D010FE9DE9845",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-BF69F5E5D321D825",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.png",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,
@@ -18384,7 +18440,7 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
-    "assetId": "AST-7556BE0D734399A8",
+    "assetId": "AST-BAE14B120C28F0B1",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,

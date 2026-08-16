@@ -62,16 +62,6 @@
     ]
   },
   {
-    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
-    "assetId": "AST-2BD547B6DB7A1983",
-    "fileCount": 3,
-    "repositoryPaths": [
-      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
-      "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
-      "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
-    ]
-  },
-  {
     "sha256": "2d4be16c4f07a7fe26a320e2b903fb6d85222b37ca4230d77b5f39030a778e56",
     "assetId": "AST-2D4BE16C4F07A7FE",
     "fileCount": 3,
@@ -1385,6 +1375,15 @@
     ]
   },
   {
+    "sha256": "269d010fe9de9845c9892d4b436d6693b9e18cd17134d60773079d97c928386a",
+    "assetId": "AST-269D010FE9DE9845",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/ordnance.obj",
+      "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj"
+    ]
+  },
+  {
     "sha256": "2707e44b6d6443130866908d196fe20f83e1ef977bd4b53b1bb94808916e3f7f",
     "assetId": "AST-2707E44B6D644313",
     "fileCount": 2,
@@ -1571,6 +1570,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/firstorder/tiefofighter/omegaace__pilot-6981ba3839af.png",
       "assets/source/unified1e/pilot-tokens/firstorder/tiefofighter/omegaace__pilot-6981ba3839af.png"
+    ]
+  },
+  {
+    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
+    "assetId": "AST-2BD547B6DB7A1983",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/legacy1e/steamusercontent-a.akamaihd.net/other/asset__064a6e7fa680546d.obj",
+      "assets/source/unified25/assets/Items/condition/tokens/condtoken.obj"
     ]
   },
   {
@@ -3374,6 +3382,15 @@
     ]
   },
   {
+    "sha256": "5daeba6dd362eeddcec6975a30ba301de89d326436bcb4ecd114ed1ef8dc7ec2",
+    "assetId": "AST-5DAEBA6DD362EEDD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
+      "assets/source/unified1e/gameplay-tokens/review/critical_test_v2.obj"
+    ]
+  },
+  {
     "sha256": "5dfdb664f8f01bc1c07851ad73d63cfa5ddcbf0b5b69de11adddd9ba093996e9",
     "assetId": "AST-5DFDB664F8F01BC1",
     "fileCount": 2,
@@ -5147,6 +5164,15 @@
     ]
   },
   {
+    "sha256": "9358092732dac3074cb7471c1a4ab35465e1dd23b816a4273b110949e5ca08e5",
+    "assetId": "AST-9358092732DAC307",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
+      "assets/source/unified1e/gameplay-tokens/review/critical_test.png"
+    ]
+  },
+  {
     "sha256": "9398058d4d7eaeada1cacad7c320d5112a410c0d3edd4071d69606ade3e90dcc",
     "assetId": "AST-9398058D4D7EAEAD",
     "fileCount": 2,
@@ -6695,6 +6721,15 @@
     ]
   },
   {
+    "sha256": "bf69f5e5d321d825887a80f78cf4970c05af3636c686af6878714a686c36b25b",
+    "assetId": "AST-BF69F5E5D321D825",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
+      "assets/source/unified1e/gameplay-tokens/review/ordnance_test.png"
+    ]
+  },
+  {
     "sha256": "bf9abdaa4c4a610bef2ad8b77b01eacbd510d79a0ddc7f75087d5aed97c42cc1",
     "assetId": "AST-BF9ABDAA4C4A610B",
     "fileCount": 2,
@@ -7475,15 +7510,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tieinterceptor/turrphennir__pilot-ab91776cbc66.png"
-    ]
-  },
-  {
-    "sha256": "d974a884a74daf11400b91ad10e98089d342b26212b82c774ff2d4ee94da0274",
-    "assetId": "AST-D974A884A74DAF11",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/general-tokens/asset__52d1e774a84eb48e.png",
-      "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png"
     ]
   },
   {

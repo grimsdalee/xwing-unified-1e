@@ -9798,10 +9798,10 @@
     "sizeBytes": 4686887
   },
   {
-    "assetId": "AST-D974A884A74DAF11",
+    "assetId": "AST-9358092732DAC307",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/critical-hit.png",
-    "sha256": "d974a884a74daf11400b91ad10e98089d342b26212b82c774ff2d4ee94da0274",
-    "sizeBytes": 118896
+    "sha256": "9358092732dac3074cb7471c1a4ab35465e1dd23b816a4273b110949e5ca08e5",
+    "sizeBytes": 171267
   },
   {
     "assetId": "AST-A8F3C3A72876D73F",
@@ -9826,6 +9826,12 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ion.png",
     "sha256": "f6301996934292fb4710589a902dca5c76f3de4ddb2cccc37e7f0cf61dc992e7",
     "sizeBytes": 1541760
+  },
+  {
+    "assetId": "AST-BF69F5E5D321D825",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/ordnance.png",
+    "sha256": "bf69f5e5d321d825887a80f78cf4970c05af3636c686af6878714a686c36b25b",
+    "sizeBytes": 205076
   },
   {
     "assetId": "AST-1D882FAA662AC8CA",
@@ -9864,10 +9870,10 @@
     "sizeBytes": 176943
   },
   {
-    "assetId": "AST-2BD547B6DB7A1983",
+    "assetId": "AST-5DAEBA6DD362EEDD",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/critical-hit.obj",
-    "sha256": "2bd547b6db7a19839ed9c114226a5d5e8c6c3388d9ec778f4e79f0c22ebd400e",
-    "sizeBytes": 14739
+    "sha256": "5daeba6dd362eeddcec6975a30ba301de89d326436bcb4ecd114ed1ef8dc7ec2",
+    "sizeBytes": 14617
   },
   {
     "assetId": "AST-2F2F3F5D3A3198BE",
@@ -9892,6 +9898,12 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ion.obj",
     "sha256": "2247b1be2fea68414d40b6268ba7faeb9476b2f71788e435954f8dfb527f68ab",
     "sizeBytes": 20255
+  },
+  {
+    "assetId": "AST-269D010FE9DE9845",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/ordnance.obj",
+    "sha256": "269d010fe9de9845c9892d4b436d6693b9e18cd17134d60773079d97c928386a",
+    "sizeBytes": 2916
   },
   {
     "assetId": "AST-2F02D1942F06ADDE",
@@ -9934,6 +9946,24 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/meshes/weapons-disabled.obj",
     "sha256": "d7d7bac6daa20baf7bd75243adff37f47829327692e34894be06614218a2a17c",
     "sizeBytes": 51052
+  },
+  {
+    "assetId": "AST-981D1269CA374043",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.obj",
+    "sha256": "981d1269ca3740436f19fb6fc96c17438002653296e2544ad5749953cdad6079",
+    "sizeBytes": 14531
+  },
+  {
+    "assetId": "AST-9358092732DAC307",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test.png",
+    "sha256": "9358092732dac3074cb7471c1a4ab35465e1dd23b816a4273b110949e5ca08e5",
+    "sizeBytes": 171267
+  },
+  {
+    "assetId": "AST-5DAEBA6DD362EEDD",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/critical_test_v2.obj",
+    "sha256": "5daeba6dd362eeddcec6975a30ba301de89d326436bcb4ecd114ed1ef8dc7ec2",
+    "sizeBytes": 14617
   },
   {
     "assetId": "AST-2F2F3F5D3A3198BE",
@@ -9982,6 +10012,18 @@
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/focus_test_v2.obj",
     "sha256": "df4b10d9f3700b2f01df59e0c885eff5e5feff52d794179312c6c9131e2b7ad0",
     "sizeBytes": 51101
+  },
+  {
+    "assetId": "AST-269D010FE9DE9845",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.obj",
+    "sha256": "269d010fe9de9845c9892d4b436d6693b9e18cd17134d60773079d97c928386a",
+    "sizeBytes": 2916
+  },
+  {
+    "assetId": "AST-BF69F5E5D321D825",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/ordnance_test.png",
+    "sha256": "bf69f5e5d321d825887a80f78cf4970c05af3636c686af6878714a686c36b25b",
+    "sizeBytes": 205076
   },
   {
     "assetId": "AST-2F02D1942F06ADDE",
@@ -13788,10 +13830,10 @@
     "sizeBytes": 69896
   },
   {
-    "assetId": "AST-7556BE0D734399A8",
+    "assetId": "AST-BAE14B120C28F0B1",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
-    "sha256": "7556be0d734399a881ea6ca68dc769b266e6a89fc09a606b6509d8b597710f1f",
-    "sizeBytes": 20024
+    "sha256": "bae14b120c28f0b195487af6cf16938d89401a42eccafdb7b431e938c1795199",
+    "sizeBytes": 22171
   },
   {
     "assetId": "AST-A585E69F15C7ED17",
