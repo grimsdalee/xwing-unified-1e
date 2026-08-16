@@ -96,6 +96,8 @@ return command switch
     "prepare-first-edition-core-token-review" => PrepareFirstEditionCoreTokenReviewCommand.Run(commandArgs),
     "audit-unified25-gameplay-object-reference" => AuditUnified25GameplayObjectReferenceCommand.Run(commandArgs),
     "prepare-first-edition-token-mesh-review" => PrepareFirstEditionTokenMeshReviewCommand.Run(commandArgs),
+    "prepare-first-edition-device-token-review" => PrepareFirstEditionDeviceTokenReviewCommand.Run(commandArgs),
+    "import-first-edition-device-tokens" => ImportFirstEditionDeviceTokensCommand.Run(commandArgs),
     "build-first-edition-token-construction-blueprint" => BuildFirstEditionTokenConstructionBlueprintCommand.Run(commandArgs),
     "generate-first-edition-token-mesh-prototypes" => GenerateFirstEditionTokenMeshPrototypesCommand.Run(commandArgs),
     "import-first-edition-core-gameplay-tokens" => ImportFirstEditionCoreGameplayTokensCommand.Run(commandArgs),
@@ -302,6 +304,8 @@ static void ShowHelp()
     Console.WriteLine("  prepare-first-edition-core-token-review <first-edition-repo-folder> [--inventory <file>] [--reference-save <file>] [--asset-base-url <url>] [--max-candidates <1-20>] [--output <folder>]");
     Console.WriteLine("  audit-unified25-gameplay-object-reference <first-edition-repo-folder> <tts-save.json> [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-token-mesh-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--asset-base-url <url>] [--output <folder>]");
+    Console.WriteLine("  prepare-first-edition-device-token-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--output <folder>]");
+    Console.WriteLine("  import-first-edition-device-tokens <first-edition-repo-folder> <tts-reference-save.json> [--no-knowledge-base]");
     Console.WriteLine("  build-first-edition-token-construction-blueprint <first-edition-repo-folder> <unified25-gameplay-save.json> [--inventory <file>] [--output <folder>]");
     Console.WriteLine("  generate-first-edition-token-mesh-prototypes <first-edition-repo-folder> <tts-reference-save.json> [--blueprint <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  import-first-edition-core-gameplay-tokens <first-edition-repo-folder> <xwing10-save.json> [--asset-base-url <url>] [--output <folder>] [--no-download]");

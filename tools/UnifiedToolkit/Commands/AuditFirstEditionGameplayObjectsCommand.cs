@@ -305,10 +305,17 @@ public static class AuditFirstEditionGameplayObjectsCommand
                 var id = Text(token, "Id");
                 var meshPath = Text(token, "MeshPath");
                 var facePath = Text(token, "FacePath");
-                if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(meshPath) || string.IsNullOrWhiteSpace(facePath)) continue;
-                var mesh = Path.Combine(repository, meshPath.Replace('/', Path.DirectorySeparatorChar));
+                var objectType = Text(token, "ObjectType");
+                var customToken = objectType.Equals("Custom_Token", StringComparison.OrdinalIgnoreCase);
+                if (string.IsNullOrWhiteSpace(id) || string.IsNullOrWhiteSpace(facePath) ||
+                    (!customToken && string.IsNullOrWhiteSpace(meshPath))) continue;
                 var face = Path.Combine(repository, facePath.Replace('/', Path.DirectorySeparatorChar));
-                if (!File.Exists(mesh) || !File.Exists(face)) continue;
+                if (!File.Exists(face)) continue;
+                if (!customToken)
+                {
+                    var mesh = Path.Combine(repository, meshPath.Replace('/', Path.DirectorySeparatorChar));
+                    if (!File.Exists(mesh)) continue;
+                }
                 results[id] = new CanonicalGameplayToken(id, Relative(repository, manifest), meshPath.Replace('\\', '/'), facePath.Replace('\\', '/'));
             }
         }

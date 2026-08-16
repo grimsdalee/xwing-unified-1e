@@ -52,6 +52,16 @@
     ]
   },
   {
+    "sha256": "1e81d9b850dd8a6994c63af5c8b38090b0a9f9ee482b864a3a1417451a0f8bdb",
+    "assetId": "AST-1E81D9B850DD8A69",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/bomb-tokens/asset__983c897eca79de3c.png",
+      "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-side.png",
+      "assets/source/unified25/assets/textures/bombs/clustermine-side.png"
+    ]
+  },
+  {
     "sha256": "2357c8d14199e8ccf76351b9b2436a71e2b21bbbaa268a506e04a57ff2688eca",
     "assetId": "AST-2357C8D14199E8CC",
     "fileCount": 3,
@@ -92,6 +102,16 @@
     ]
   },
   {
+    "sha256": "451ba8d48e6dea1b9b1c24304f43d4859cae6d802a7b8f27ac0f275799a330b0",
+    "assetId": "AST-451BA8D48E6DEA1B",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/conner-net.png",
+      "assets/source/unified25/assets/Items/tokens/devices/conner.png",
+      "assets/source/unified25/assets/textures/bombs/connor-net-image.png"
+    ]
+  },
+  {
     "sha256": "48bfa7dba3b20952bd006396d6453d4ca4c3b7cf9f50c28a7348c90ca14a50ae",
     "assetId": "AST-48BFA7DBA3B20952",
     "fileCount": 3,
@@ -99,6 +119,36 @@
       "assets/generated/FirstEditionDialTexture/firstorder/upsilonclassshuttle__dial-48bfa7dba3b2.png",
       "assets/source/first-edition-dials/firstorder/upsilonclassshuttle.png",
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/dials/asset__560c3d08c127f55e.png"
+    ]
+  },
+  {
+    "sha256": "48ed3506af6ea154b58dcb3ad195e0a35fe4f18571b71801239b08ae08c0295d",
+    "assetId": "AST-48ED3506AF6EA154",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/bomblet.png",
+      "assets/source/unified25/assets/Items/tokens/devices/bomblet.png",
+      "assets/source/unified25/assets/textures/bombs/bomblet-texture.png"
+    ]
+  },
+  {
+    "sha256": "50567c58652a9959e180ed57c77b86eb1865b8b2ed595125096bcde09a2b8206",
+    "assetId": "AST-50567C58652A9959",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/meshes/bomb.obj",
+      "assets/source/unified25/assets/colliders/bomb_collider.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/Bombinea2.obj"
+    ]
+  },
+  {
+    "sha256": "65a4f5db9939547a4d38b96c775b8dac34afee19ef96d910e0080922eb706276",
+    "assetId": "AST-65A4F5DB9939547A",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/rigged-cargo.png",
+      "assets/source/unified25/assets/HotAC/objectives/loose-cargo-image.png",
+      "assets/source/unified25/assets/Items/tokens/devices/cargo.png"
     ]
   },
   {
@@ -122,6 +172,16 @@
     ]
   },
   {
+    "sha256": "a44eff4ed45f2d266d5491fc340302e593321b686aeaf8326ac255d6e4c96f35",
+    "assetId": "AST-A44EFF4ED45F2D26",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/proton-bomb.png",
+      "assets/source/unified25/assets/Items/tokens/devices/proton.png",
+      "assets/source/unified25/assets/textures/bombs/proton-bomb-texture.png"
+    ]
+  },
+  {
     "sha256": "d0410f516d0f1530fe5cdccc93c87a334c4d447eb8ae18be713632e0895e8772",
     "assetId": "AST-D0410F516D0F1530",
     "fileCount": 3,
@@ -139,6 +199,26 @@
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/asteroid-tokens/asset__5a85329e249b6ff3.png",
       "assets/source/xwvassal/images/Token-Cargo.png",
       "assets/source/xwvassal/images/Token-Debris_Cloud.png"
+    ]
+  },
+  {
+    "sha256": "d8eb2cdf8ac5cdc97ba644b4b24575e30ca6492eccbf3e407f8e30dbb25f8d63",
+    "assetId": "AST-D8EB2CDF8AC5CDC9",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/seismic-charge.png",
+      "assets/source/unified25/assets/Items/tokens/devices/seismic.png",
+      "assets/source/unified25/assets/textures/bombs/seismic-charge-texture.png"
+    ]
+  },
+  {
+    "sha256": "fb7c970c95cf76f238bd91d384e4636b4021652ac31d4b87341a560c08d1ebbb",
+    "assetId": "AST-FB7C970C95CF76F2",
+    "fileCount": 3,
+    "repositoryPaths": [
+      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/bomb-tokens/asset__91bb4a860f46ccd5.png",
+      "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-centre.png",
+      "assets/source/unified25/assets/textures/bombs/clustermine.png"
     ]
   },
   {
@@ -1174,15 +1254,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/uwing/cassianandor__pilot-54c91594fe87.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/uwing/cassianandor__pilot-54c91594fe87.png"
-    ]
-  },
-  {
-    "sha256": "1e81d9b850dd8a6994c63af5c8b38090b0a9f9ee482b864a3a1417451a0f8bdb",
-    "assetId": "AST-1E81D9B850DD8A69",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/bomb-tokens/asset__983c897eca79de3c.png",
-      "assets/source/unified25/assets/textures/bombs/clustermine-side.png"
     ]
   },
   {
@@ -2491,15 +2562,6 @@
     ]
   },
   {
-    "sha256": "451ba8d48e6dea1b9b1c24304f43d4859cae6d802a7b8f27ac0f275799a330b0",
-    "assetId": "AST-451BA8D48E6DEA1B",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/Items/tokens/devices/conner.png",
-      "assets/source/unified25/assets/textures/bombs/connor-net-image.png"
-    ]
-  },
-  {
     "sha256": "457344b5dd62ac1f5f5630ed9dc41f373250a375e209f776b611f46b6cd124ef",
     "assetId": "AST-457344B5DD62AC1F",
     "fileCount": 2,
@@ -2605,15 +2667,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/awing/greensquadronpilot__pilot-82934a2fa2f1.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/awing/greensquadronpilot__pilot-82934a2fa2f1.png"
-    ]
-  },
-  {
-    "sha256": "48ed3506af6ea154b58dcb3ad195e0a35fe4f18571b71801239b08ae08c0295d",
-    "assetId": "AST-48ED3506AF6EA154",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/Items/tokens/devices/bomblet.png",
-      "assets/source/unified25/assets/textures/bombs/bomblet-texture.png"
     ]
   },
   {
@@ -2929,15 +2982,6 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png",
       "assets/source/unified1e/pilot-tokens/firstorder/tiesffighter/backdraft__pilot-f5731d9e2983.png"
-    ]
-  },
-  {
-    "sha256": "50567c58652a9959e180ed57c77b86eb1865b8b2ed595125096bcde09a2b8206",
-    "assetId": "AST-50567C58652A9959",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/colliders/bomb_collider.obj",
-      "assets/source/unified25/assets/Items/tokens/devices/Bombinea2.obj"
     ]
   },
   {
@@ -3703,15 +3747,6 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/lukeskywalker.png",
       "assets/source/xwing-data/images/upgrades/Crew/luke-skywalker.png"
-    ]
-  },
-  {
-    "sha256": "65a4f5db9939547a4d38b96c775b8dac34afee19ef96d910e0080922eb706276",
-    "assetId": "AST-65A4F5DB9939547A",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/HotAC/objectives/loose-cargo-image.png",
-      "assets/source/unified25/assets/Items/tokens/devices/cargo.png"
     ]
   },
   {
@@ -5677,6 +5712,15 @@
     ]
   },
   {
+    "sha256": "a061d2ebf3a5f4cd267021becc22115694e152931fc04e156cd5f4305427f982",
+    "assetId": "AST-A061D2EBF3A5F4CD",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/ion-bomb.png",
+      "assets/source/unified25/assets/textures/bombs/ionbomb.png"
+    ]
+  },
+  {
     "sha256": "a15aa5c810c9a434eefc284ee8c4b0464d6d36dc3f8b21f1662d09ab36005e37",
     "assetId": "AST-A15AA5C810C9A434",
     "fileCount": 2,
@@ -5764,15 +5808,6 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/hardpoint/heavylaserturret.png",
       "assets/source/xwing-data/images/upgrades/Hardpoint/heavy-laser-turret.png"
-    ]
-  },
-  {
-    "sha256": "a44eff4ed45f2d266d5491fc340302e593321b686aeaf8326ac255d6e4c96f35",
-    "assetId": "AST-A44EFF4ED45F2D26",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/Items/tokens/devices/proton.png",
-      "assets/source/unified25/assets/textures/bombs/proton-bomb-texture.png"
     ]
   },
   {
@@ -7297,12 +7332,30 @@
     ]
   },
   {
+    "sha256": "d1e461c6d9d24a1072da8d419e3cbf1ce280f54e6531043847d9a7dd08f2713e",
+    "assetId": "AST-D1E461C6D9D24A10",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/meshes/proximity-mine.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/proximity.obj"
+    ]
+  },
+  {
     "sha256": "d237eeb08da09fa2df4d4b8a6102c9b60d6a468fe8b04cf3e10f5e0d109736b1",
     "assetId": "AST-D237EEB08DA09FA2",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/FO/TIEba/vonreg.png",
       "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/Major Vonreg.png"
+    ]
+  },
+  {
+    "sha256": "d28a633e26d76bcb52a8dd6c59163bc0856baa733831c3bfc5ce9e624f37d386",
+    "assetId": "AST-D28A633E26D76BCB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/proximity-mine.png",
+      "assets/source/unified25/assets/Items/tokens/devices/proximity.png"
     ]
   },
   {
@@ -7576,15 +7629,6 @@
     ]
   },
   {
-    "sha256": "d8eb2cdf8ac5cdc97ba644b4b24575e30ca6492eccbf3e407f8e30dbb25f8d63",
-    "assetId": "AST-D8EB2CDF8AC5CDC9",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/unified25/assets/Items/tokens/devices/seismic.png",
-      "assets/source/unified25/assets/textures/bombs/seismic-charge-texture.png"
-    ]
-  },
-  {
     "sha256": "d966139a27ab1e0e4c97b47d8a808fe3c2e6f6f784962b81d76bfab17c334129",
     "assetId": "AST-D966139A27AB1E0E",
     "fileCount": 2,
@@ -7816,6 +7860,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/uwing/bodhirook__pilot-b1012d7a2dda.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/uwing/bodhirook__pilot-b1012d7a2dda.png"
+    ]
+  },
+  {
+    "sha256": "e0a73af494ef06abd12a72cd9d11f07b6f640e92bc4f2aafabeb74066547ff68",
+    "assetId": "AST-E0A73AF494EF06AB",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/faces/thermal-detonator.png",
+      "assets/source/unified25/assets/textures/bombs/thermalbomb.png"
     ]
   },
   {
@@ -8248,6 +8301,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/ysanneisard.png",
       "assets/source/xwing-data/images/upgrades/Crew/ysanne-isard.png"
+    ]
+  },
+  {
+    "sha256": "ee2be97a28c2645c3075e516bbbf2230e500278daa988111338545589d7ab3ae",
+    "assetId": "AST-EE2BE97A28C2645C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/colliders/proximity-mine.obj",
+      "assets/source/unified25/assets/Items/tokens/devices/proximity-col.obj"
     ]
   },
   {
@@ -8782,15 +8844,6 @@
     ]
   },
   {
-    "sha256": "fb7c970c95cf76f238bd91d384e4636b4021652ac31d4b87341a560c08d1ebbb",
-    "assetId": "AST-FB7C970C95CF76F2",
-    "fileCount": 2,
-    "repositoryPaths": [
-      "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/bomb-tokens/asset__91bb4a860f46ccd5.png",
-      "assets/source/unified25/assets/textures/bombs/clustermine.png"
-    ]
-  },
-  {
     "sha256": "fb816b4167536f8c4e7a2e3c105e2257e2ab14807720341dd0041415c432cd87",
     "assetId": "AST-FB816B4167536F8C",
     "fileCount": 2,
@@ -8914,6 +8967,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/scumandvillainy/hwk290/dacebonearm__pilot-5e5a8b3d8f0a.png",
       "assets/source/unified1e/pilot-tokens/scumandvillainy/hwk290/dacebonearm__pilot-5e5a8b3d8f0a.png"
+    ]
+  },
+  {
+    "sha256": "ff2b6fb3e8c80e64e842a5f894ee8ae46706be173e14294d13c1e1930152ff68",
+    "assetId": "AST-FF2B6FB3E8C80E64",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/devices/colliders/bomb.obj",
+      "assets/source/unified25/assets/Items/arcranges/new/bomb_collider.obj"
     ]
   },
   {

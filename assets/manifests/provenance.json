@@ -13064,6 +13064,118 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-FF2B6FB3E8C80E64",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/colliders/bomb.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-EE2BE97A28C2645C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/colliders/proximity-mine.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-48ED3506AF6EA154",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/bomblet.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-FB7C970C95CF76F2",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-centre.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1E81D9B850DD8A69",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-side.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-451BA8D48E6DEA1B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/conner-net.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A061D2EBF3A5F4CD",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/ion-bomb.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A44EFF4ED45F2D26",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/proton-bomb.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D28A633E26D76BCB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/proximity-mine.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-65A4F5DB9939547A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/rigged-cargo.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D8EB2CDF8AC5CDC9",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/seismic-charge.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-E0A73AF494EF06AB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/thermal-detonator.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-50567C58652A9959",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/meshes/bomb.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D1E461C6D9D24A10",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/meshes/proximity-mine.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-DDD47201A1A51674",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
     "origin": "unified1e",
@@ -18570,6 +18682,14 @@
   {
     "assetId": "AST-4D118930F6CA1BA7",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-9825E90EED71038C",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/device-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

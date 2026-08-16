@@ -9798,6 +9798,90 @@
     "sizeBytes": 4686887
   },
   {
+    "assetId": "AST-FF2B6FB3E8C80E64",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/colliders/bomb.obj",
+    "sha256": "ff2b6fb3e8c80e64e842a5f894ee8ae46706be173e14294d13c1e1930152ff68",
+    "sizeBytes": 5186
+  },
+  {
+    "assetId": "AST-EE2BE97A28C2645C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/colliders/proximity-mine.obj",
+    "sha256": "ee2be97a28c2645c3075e516bbbf2230e500278daa988111338545589d7ab3ae",
+    "sizeBytes": 7736
+  },
+  {
+    "assetId": "AST-48ED3506AF6EA154",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/bomblet.png",
+    "sha256": "48ed3506af6ea154b58dcb3ad195e0a35fe4f18571b71801239b08ae08c0295d",
+    "sizeBytes": 300204
+  },
+  {
+    "assetId": "AST-FB7C970C95CF76F2",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-centre.png",
+    "sha256": "fb7c970c95cf76f238bd91d384e4636b4021652ac31d4b87341a560c08d1ebbb",
+    "sizeBytes": 475213
+  },
+  {
+    "assetId": "AST-1E81D9B850DD8A69",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/cluster-mine-side.png",
+    "sha256": "1e81d9b850dd8a6994c63af5c8b38090b0a9f9ee482b864a3a1417451a0f8bdb",
+    "sizeBytes": 475971
+  },
+  {
+    "assetId": "AST-451BA8D48E6DEA1B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/conner-net.png",
+    "sha256": "451ba8d48e6dea1b9b1c24304f43d4859cae6d802a7b8f27ac0f275799a330b0",
+    "sizeBytes": 550187
+  },
+  {
+    "assetId": "AST-A061D2EBF3A5F4CD",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/ion-bomb.png",
+    "sha256": "a061d2ebf3a5f4cd267021becc22115694e152931fc04e156cd5f4305427f982",
+    "sizeBytes": 357310
+  },
+  {
+    "assetId": "AST-A44EFF4ED45F2D26",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/proton-bomb.png",
+    "sha256": "a44eff4ed45f2d266d5491fc340302e593321b686aeaf8326ac255d6e4c96f35",
+    "sizeBytes": 315910
+  },
+  {
+    "assetId": "AST-D28A633E26D76BCB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/proximity-mine.png",
+    "sha256": "d28a633e26d76bcb52a8dd6c59163bc0856baa733831c3bfc5ce9e624f37d386",
+    "sizeBytes": 456114
+  },
+  {
+    "assetId": "AST-65A4F5DB9939547A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/rigged-cargo.png",
+    "sha256": "65a4f5db9939547a4d38b96c775b8dac34afee19ef96d910e0080922eb706276",
+    "sizeBytes": 61304
+  },
+  {
+    "assetId": "AST-D8EB2CDF8AC5CDC9",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/seismic-charge.png",
+    "sha256": "d8eb2cdf8ac5cdc97ba644b4b24575e30ca6492eccbf3e407f8e30dbb25f8d63",
+    "sizeBytes": 257607
+  },
+  {
+    "assetId": "AST-E0A73AF494EF06AB",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/faces/thermal-detonator.png",
+    "sha256": "e0a73af494ef06abd12a72cd9d11f07b6f640e92bc4f2aafabeb74066547ff68",
+    "sizeBytes": 369081
+  },
+  {
+    "assetId": "AST-50567C58652A9959",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/meshes/bomb.obj",
+    "sha256": "50567c58652a9959e180ed57c77b86eb1865b8b2ed595125096bcde09a2b8206",
+    "sizeBytes": 25463
+  },
+  {
+    "assetId": "AST-D1E461C6D9D24A10",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/devices/meshes/proximity-mine.obj",
+    "sha256": "d1e461c6d9d24a1072da8d419e3cbf1ce280f54e6531043847d9a7dd08f2713e",
+    "sizeBytes": 40292
+  },
+  {
     "assetId": "AST-DDD47201A1A51674",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/faces/cloak.png",
     "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
@@ -13930,6 +14014,12 @@
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/core-gameplay-tokens.json",
     "sha256": "4d118930f6ca1ba742cb9d8daa1a53a414896492b1625df2862b120e32131b64",
     "sizeBytes": 35178
+  },
+  {
+    "assetId": "AST-9825E90EED71038C",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/device-gameplay-tokens.json",
+    "sha256": "9825e90eed71038c8f8dfe0bd3bc4cb830c03ff3032f8bfba4f2c7c021d12615",
+    "sizeBytes": 17965
   },
   {
     "assetId": "AST-A585E69F15C7ED17",
