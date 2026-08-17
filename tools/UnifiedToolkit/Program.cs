@@ -99,6 +99,7 @@ return command switch
     "prepare-first-edition-device-token-review" => PrepareFirstEditionDeviceTokenReviewCommand.Run(commandArgs),
     "import-first-edition-device-tokens" => ImportFirstEditionDeviceTokensCommand.Run(commandArgs),
     "prepare-first-edition-obstacle-set-review" => PrepareFirstEditionObstacleSetReviewCommand.Run(commandArgs),
+    "import-first-edition-obstacle-sets" => ImportFirstEditionObstacleSetsCommand.Run(commandArgs),
     "build-first-edition-token-construction-blueprint" => BuildFirstEditionTokenConstructionBlueprintCommand.Run(commandArgs),
     "generate-first-edition-token-mesh-prototypes" => GenerateFirstEditionTokenMeshPrototypesCommand.Run(commandArgs),
     "import-first-edition-core-gameplay-tokens" => ImportFirstEditionCoreGameplayTokensCommand.Run(commandArgs),
@@ -308,6 +309,7 @@ static void ShowHelp()
     Console.WriteLine("  prepare-first-edition-device-token-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--output <folder>]");
     Console.WriteLine("  import-first-edition-device-tokens <first-edition-repo-folder> <tts-reference-save.json> [--no-knowledge-base]");
     Console.WriteLine("  prepare-first-edition-obstacle-set-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--output <folder>]");
+    Console.WriteLine("  import-first-edition-obstacle-sets <first-edition-repo-folder> <tts-reference-save.json> [--no-knowledge-base]");
     Console.WriteLine("  build-first-edition-token-construction-blueprint <first-edition-repo-folder> <unified25-gameplay-save.json> [--inventory <file>] [--output <folder>]");
     Console.WriteLine("  generate-first-edition-token-mesh-prototypes <first-edition-repo-folder> <tts-reference-save.json> [--blueprint <file>] [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  import-first-edition-core-gameplay-tokens <first-edition-repo-folder> <xwing10-save.json> [--asset-base-url <url>] [--output <folder>] [--no-download]");

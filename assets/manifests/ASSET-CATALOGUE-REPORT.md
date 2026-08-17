@@ -1,11 +1,11 @@
 # Asset Catalogue Report
 
-Generated: 2026-08-16T22:39:24.4047994+00:00
+Generated: 2026-08-17T23:05:22.0077263+00:00
 
-- Total files: 8342
-- Unique assets: 7312
-- Duplicate files: 1030
-- Duplicate hash groups: 997
+- Total files: 8382
+- Unique assets: 7313
+- Duplicate files: 1069
+- Duplicate hash groups: 1036
 
 ## By origin
 
@@ -15,18 +15,18 @@ Generated: 2026-08-16T22:39:24.4047994+00:00
 - generated: 562
 - legacy1e: 379
 - legacy1e-non-pilot: 417
-- unified1e: 1798
+- unified1e: 1838
 - unified25: 2381
 - xwing-data: 415
 - xwvassal: 2315
 
 ## By file kind
 
-- image: 6957
-- model: 758
+- image: 6960
+- model: 794
 - other: 240
 - lua: 229
-- json: 135
+- json: 136
 - xml: 15
 - text: 5
 - pdf: 3

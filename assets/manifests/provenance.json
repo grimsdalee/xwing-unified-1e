@@ -13456,6 +13456,318 @@
     "notes": "Imported source asset. Original source linkage has not yet been recorded."
   },
   {
+    "assetId": "AST-73370C792015A30C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-82C1078B5CC70F34",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-253ECD40529C847A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3A0E9E7D41466AF1",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F02066A682549783",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D134D88046FB354F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2EF7F65CC77151F1",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CB6B8E34C3BD057A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4ABF038DC879E166",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AC8FC544E690844C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F064E0381423EEA4",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-570F50289B8B1018",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-AC878BC01035ACAC",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6FC4178771E08A06",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D01B71ED38D3AC7F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-4C16A0AA35B7150A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-81976F4586C4B24A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-7F6EFC523F47C49B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-46E4329E85ECD534",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/core-asteroids.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-51457BCEAE502844",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/debris-clouds.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A01CAE4FF4733541",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/tfa-asteroids.png",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-F26362A6514B75DE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D208DBBA1F28F391",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5296C85337689F6F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-91C4078025261F4F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-6DD38A69D05E31D3",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-B163892A1CC42B40",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-CE1BF31DA5CC2189",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-D10550342F56C7E5",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-2AB24328D7464437",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-1378E75C5EA7209F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3847B632123F0BE7",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-929A8DD7A9151D9D",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-0AFAB01BEBA18D31",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-1.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-504FCC646B8D8ED8",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-2.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-A5C5D2D17132414A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-3.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-806EA5B37D013A54",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-4.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-3C145D7BBB26516C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-5.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-8A331A2D0CE7BE85",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-6.obj",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
     "assetId": "AST-DDD47201A1A51674",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
     "origin": "unified1e",
@@ -18698,6 +19010,14 @@
   {
     "assetId": "AST-A585E69F15C7ED17",
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/mission-gameplay-tokens.json",
+    "origin": "unified1e",
+    "isGenerated": false,
+    "originalSource": null,
+    "notes": "Imported source asset. Original source linkage has not yet been recorded."
+  },
+  {
+    "assetId": "AST-5D39D50DD0D45B45",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/obstacle-gameplay-tokens.json",
     "origin": "unified1e",
     "isGenerated": false,
     "originalSource": null,

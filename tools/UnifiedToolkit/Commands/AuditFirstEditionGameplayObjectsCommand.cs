@@ -261,6 +261,9 @@ public static class AuditFirstEditionGameplayObjectsCommand
             "tractor" => new[] { "tractor-beam" },
             "reinforce" => new[] { "reinforce", "reinforce-epic" },
             "critical-hit-marker" => new[] { "critical-hit" },
+            "core-asteroids" => Enumerable.Range(1, 6).Select(index => $"core-asteroid-{index}").ToArray(),
+            "tfa-asteroids" => Enumerable.Range(1, 6).Select(index => $"tfa-asteroid-{index}").ToArray(),
+            "debris-clouds" => Enumerable.Range(1, 6).Select(index => $"debris-cloud-{index}").ToArray(),
             _ => new[] { requirement.Id }
         };
         var matched = acceptedIds.Where(tokens.ContainsKey).Distinct(StringComparer.OrdinalIgnoreCase).ToList();

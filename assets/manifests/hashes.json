@@ -10092,6 +10092,240 @@
     "sizeBytes": 51052
   },
   {
+    "assetId": "AST-73370C792015A30C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-1.obj",
+    "sha256": "73370c792015a30c9f4072fe624acc40d5d0d752061fcc591a5f746853b5491d",
+    "sizeBytes": 7608
+  },
+  {
+    "assetId": "AST-82C1078B5CC70F34",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-2.obj",
+    "sha256": "82c1078b5cc70f34276f0d09bce8c9304b0aee70daa18c3ad71aec1e8b76cdbe",
+    "sizeBytes": 17671
+  },
+  {
+    "assetId": "AST-253ECD40529C847A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-3.obj",
+    "sha256": "253ecd40529c847ac9a6fa99f0200b4249481598a31b8ffe0b17e00f027f7c7d",
+    "sizeBytes": 6963
+  },
+  {
+    "assetId": "AST-3A0E9E7D41466AF1",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-4.obj",
+    "sha256": "3a0e9e7d41466af1b89134815851d3e95e1e8b1c7c0d7c8204359d19fdb7f959",
+    "sizeBytes": 9526
+  },
+  {
+    "assetId": "AST-F02066A682549783",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-5.obj",
+    "sha256": "f02066a682549783244f3f405afb2d4ef358e9fbbe88e2a0a733ba682d64c52d",
+    "sizeBytes": 9149
+  },
+  {
+    "assetId": "AST-D134D88046FB354F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-6.obj",
+    "sha256": "d134d88046fb354fed129d1144b94384f2f4d0fff096664a6ba0892053c84f55",
+    "sizeBytes": 11190
+  },
+  {
+    "assetId": "AST-2EF7F65CC77151F1",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-1.obj",
+    "sha256": "2ef7f65cc77151f18eab98d09bd358dcaf7b7226b6632aadd21007006275329b",
+    "sizeBytes": 6024
+  },
+  {
+    "assetId": "AST-CB6B8E34C3BD057A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-2.obj",
+    "sha256": "cb6b8e34c3bd057a6e450b01d38ce939dac94571e5db4a3a9b2a33691e66a42f",
+    "sizeBytes": 2937
+  },
+  {
+    "assetId": "AST-4ABF038DC879E166",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-3.obj",
+    "sha256": "4abf038dc879e166831d14269e616d2d0fea3941ef03e7286eda12144b719c0d",
+    "sizeBytes": 4375
+  },
+  {
+    "assetId": "AST-AC8FC544E690844C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-4.obj",
+    "sha256": "ac8fc544e690844c387905a1a91c181daf625880e03993ee12b080a592ec31ad",
+    "sizeBytes": 5146
+  },
+  {
+    "assetId": "AST-F064E0381423EEA4",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-5.obj",
+    "sha256": "f064e0381423eea4ed35f820e2e27bed987ccdcd3569300b112399536c2e09fb",
+    "sizeBytes": 4993
+  },
+  {
+    "assetId": "AST-570F50289B8B1018",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-6.obj",
+    "sha256": "570f50289b8b1018a1d87285fc05f812bc5646ea4410f917bf0db94cb88cb013",
+    "sizeBytes": 7287
+  },
+  {
+    "assetId": "AST-AC878BC01035ACAC",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-1.obj",
+    "sha256": "ac878bc01035acac56067fbbdb6d5bf5f88a798d6fd3afc290787d92374fc487",
+    "sizeBytes": 5812
+  },
+  {
+    "assetId": "AST-6FC4178771E08A06",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-2.obj",
+    "sha256": "6fc4178771e08a0679aa128bc333e931ba36658c7c8af938afcade5c14fc9a34",
+    "sizeBytes": 6412
+  },
+  {
+    "assetId": "AST-D01B71ED38D3AC7F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-3.obj",
+    "sha256": "d01b71ed38d3ac7fda233e3bb7beabadb073235a5b5584ff11b1b935fb2eac53",
+    "sizeBytes": 9983
+  },
+  {
+    "assetId": "AST-4C16A0AA35B7150A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-4.obj",
+    "sha256": "4c16a0aa35b7150aac846c0875bf2bde9bdadc8b18fb7e73cc3d701c48dd5aa1",
+    "sizeBytes": 6474
+  },
+  {
+    "assetId": "AST-81976F4586C4B24A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-5.obj",
+    "sha256": "81976f4586c4b24ab7abca6b9619ad5493cfb4d69ee0985abffec904b48176f1",
+    "sizeBytes": 5004
+  },
+  {
+    "assetId": "AST-7F6EFC523F47C49B",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-6.obj",
+    "sha256": "7f6efc523f47c49b3886f1b7b8074b341730e87b2d0f224b8426cf3233208045",
+    "sizeBytes": 4446
+  },
+  {
+    "assetId": "AST-46E4329E85ECD534",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/core-asteroids.png",
+    "sha256": "46e4329e85ecd53418730f26184b550f727aea8ffbcda3fa893c206cb89633fe",
+    "sizeBytes": 96763
+  },
+  {
+    "assetId": "AST-51457BCEAE502844",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/debris-clouds.png",
+    "sha256": "51457bceae5028443c9b49ae2aaa3c7c51d9c69111df84b575504a6dd95651f4",
+    "sizeBytes": 222871
+  },
+  {
+    "assetId": "AST-A01CAE4FF4733541",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/faces/tfa-asteroids.png",
+    "sha256": "a01cae4ff4733541993ded4323f706114bc0dfdd8a6132bfbbc178629b128e16",
+    "sizeBytes": 496051
+  },
+  {
+    "assetId": "AST-F26362A6514B75DE",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-1.obj",
+    "sha256": "f26362a6514b75de272ecf5b5344debc5341170b3ab8e6b5b081aac35e80a5c3",
+    "sizeBytes": 31186
+  },
+  {
+    "assetId": "AST-D208DBBA1F28F391",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-2.obj",
+    "sha256": "d208dbba1f28f3917daea9854cab6c82841de1b1b1b146b3684a3b922f7d969a",
+    "sizeBytes": 45453
+  },
+  {
+    "assetId": "AST-5296C85337689F6F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-3.obj",
+    "sha256": "5296c85337689f6f5a3bf87c9a5df7b3eef00f5b6363a84dc15642aeae20a86c",
+    "sizeBytes": 29404
+  },
+  {
+    "assetId": "AST-91C4078025261F4F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-4.obj",
+    "sha256": "91c4078025261f4fce0ef14ff75c156974db5d9e44e56e3e44e8c068503f945d",
+    "sizeBytes": 33885
+  },
+  {
+    "assetId": "AST-6DD38A69D05E31D3",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-5.obj",
+    "sha256": "6dd38a69d05e31d3b4e3d8f7b8c1bb7c02b3fb1f9d435a90e9768ded577cea86",
+    "sizeBytes": 33150
+  },
+  {
+    "assetId": "AST-B163892A1CC42B40",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-6.obj",
+    "sha256": "b163892a1cc42b402e78a6dbb2329a8a2d326b3d09550acf691c621738b0c747",
+    "sizeBytes": 36577
+  },
+  {
+    "assetId": "AST-CE1BF31DA5CC2189",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-1.obj",
+    "sha256": "ce1bf31da5cc2189ad98e3792fc1f50b93e021a9e0ff7acedf2304100d8c0876",
+    "sizeBytes": 22184
+  },
+  {
+    "assetId": "AST-D10550342F56C7E5",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-2.obj",
+    "sha256": "d10550342f56c7e55cd530e531659aea973dffdb14ae79cb731d8d3667166a59",
+    "sizeBytes": 9420
+  },
+  {
+    "assetId": "AST-2AB24328D7464437",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-3.obj",
+    "sha256": "2ab24328d74644377fc3f87a416fe59133a89e6036d2403328af9b77387583e6",
+    "sizeBytes": 12568
+  },
+  {
+    "assetId": "AST-1378E75C5EA7209F",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-4.obj",
+    "sha256": "1378e75c5ea7209fa15283cabbd19c3254bb62874dca499e5e55d72ac0415077",
+    "sizeBytes": 15020
+  },
+  {
+    "assetId": "AST-3847B632123F0BE7",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-5.obj",
+    "sha256": "3847b632123f0be761d2e5f840f9858e90cdcdeeb2752652df800cd45eb36d47",
+    "sizeBytes": 16621
+  },
+  {
+    "assetId": "AST-929A8DD7A9151D9D",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-6.obj",
+    "sha256": "929a8dd7a9151d9d5542444f3fc41398fc80032e9e25346053ac3f81b75dc840",
+    "sizeBytes": 22450
+  },
+  {
+    "assetId": "AST-0AFAB01BEBA18D31",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-1.obj",
+    "sha256": "0afab01beba18d3188c4ab11e146c66177978df4dd8a4ecb8ca66e2bb5f33327",
+    "sizeBytes": 14735
+  },
+  {
+    "assetId": "AST-504FCC646B8D8ED8",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-2.obj",
+    "sha256": "504fcc646b8d8ed8ef82d664809b1709025716251f38422356e8e865a6e336a9",
+    "sizeBytes": 37442
+  },
+  {
+    "assetId": "AST-A5C5D2D17132414A",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-3.obj",
+    "sha256": "a5c5d2d17132414a82a98c96a033d8a9c6d57b8d3d284b0f941427aa8b22d987",
+    "sizeBytes": 53857
+  },
+  {
+    "assetId": "AST-806EA5B37D013A54",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-4.obj",
+    "sha256": "806ea5b37d013a54b5eb66bc2f5f1e92cb03826d7a5d5abd9a6b00339ca4a46c",
+    "sizeBytes": 44899
+  },
+  {
+    "assetId": "AST-3C145D7BBB26516C",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-5.obj",
+    "sha256": "3c145d7bbb26516c728c759dcfc0afdba62edb37775143d3f3f00473d8bfcdd0",
+    "sizeBytes": 21145
+  },
+  {
+    "assetId": "AST-8A331A2D0CE7BE85",
+    "repositoryPath": "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-6.obj",
+    "sha256": "8a331a2d0ce7be852eaf4035a1009f17ba02eaf47d61b6e1c844bd9683712488",
+    "sizeBytes": 22125
+  },
+  {
     "assetId": "AST-DDD47201A1A51674",
     "repositoryPath": "assets/source/unified1e/gameplay-tokens/review/cloak_test.png",
     "sha256": "ddd47201a1a516741b0c84724ae9a41188e49a32b644da48a96eec44377c00f5",
@@ -14026,6 +14260,12 @@
     "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/mission-gameplay-tokens.json",
     "sha256": "a585e69f15c7ed177620b503751011a3428292de3a6af6a6e5b42dfbad98c7c2",
     "sizeBytes": 2321
+  },
+  {
+    "assetId": "AST-5D39D50DD0D45B45",
+    "repositoryPath": "assets/source/unified1e/reference/gameplay-objects/obstacle-gameplay-tokens.json",
+    "sha256": "5d39d50dd0d45b4598fec302b7f9493fef3bf793b84bbd2159de8528cc4ffa61",
+    "sizeBytes": 50413
   },
   {
     "assetId": "AST-68F3AFF5783BC9E1",

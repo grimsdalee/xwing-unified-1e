@@ -555,6 +555,15 @@
     ]
   },
   {
+    "sha256": "0afab01beba18d3188c4ab11e146c66177978df4dd8a4ecb8ca66e2bb5f33327",
+    "assetId": "AST-0AFAB01BEBA18D31",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-1.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA1-model.obj"
+    ]
+  },
+  {
     "sha256": "0b06f1050df5e20a5408f0482d7058fbfef3d62b9851c61f0fa36d3f42a9a909",
     "assetId": "AST-0B06F1050DF5E20A",
     "fileCount": 2,
@@ -858,6 +867,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/condition-cards/harpooned/front.png",
       "assets/source/xwing-data/images/conditions/harpooned.png"
+    ]
+  },
+  {
+    "sha256": "1378e75c5ea7209fa15283cabbd19c3254bb62874dca499e5e55d72ac0415077",
+    "assetId": "AST-1378E75C5EA7209F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-4.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris4-model.obj"
     ]
   },
   {
@@ -1464,6 +1482,15 @@
     ]
   },
   {
+    "sha256": "253ecd40529c847ac9a6fa99f0200b4249481598a31b8ffe0b17e00f027f7c7d",
+    "assetId": "AST-253ECD40529C847A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-3.obj",
+      "assets/source/unified25/assets/models/obstacles/Core3-col.obj"
+    ]
+  },
+  {
     "sha256": "25ad73f5b8b622e213ec5fb348d4c2c0e18f7fb7b9cc307863601990afca3b9e",
     "assetId": "AST-25AD73F5B8B622E2",
     "fileCount": 2,
@@ -1653,6 +1680,15 @@
     ]
   },
   {
+    "sha256": "2ab24328d74644377fc3f87a416fe59133a89e6036d2403328af9b77387583e6",
+    "assetId": "AST-2AB24328D7464437",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-3.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris3-model.obj"
+    ]
+  },
+  {
     "sha256": "2b444454f8efffb5a3658f1e1a8ea423838eb4793103fb3dd6219a362efd20fb",
     "assetId": "AST-2B444454F8EFFFB5",
     "fileCount": 2,
@@ -1794,6 +1830,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/vcx100/chopper__pilot-371a0f61ccfe.png"
+    ]
+  },
+  {
+    "sha256": "2ef7f65cc77151f18eab98d09bd358dcaf7b7226b6632aadd21007006275329b",
+    "assetId": "AST-2EF7F65CC77151F1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-1.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris1-col.obj"
     ]
   },
   {
@@ -2130,6 +2175,15 @@
     ]
   },
   {
+    "sha256": "3847b632123f0be761d2e5f840f9858e90cdcdeeb2752652df800cd45eb36d47",
+    "assetId": "AST-3847B632123F0BE7",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-5.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris5-model.obj"
+    ]
+  },
+  {
     "sha256": "384851a506a86a6ed5e04ee78d2896a772699115085bcad1ddf2284d77bafa00",
     "assetId": "AST-384851A506A86A6E",
     "fileCount": 2,
@@ -2145,6 +2199,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/crew/deathtroopers.png",
       "assets/source/xwing-data/images/upgrades/Crew/death-troopers.png"
+    ]
+  },
+  {
+    "sha256": "3a0e9e7d41466af1b89134815851d3e95e1e8b1c7c0d7c8204359d19fdb7f959",
+    "assetId": "AST-3A0E9E7D41466AF1",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-4.obj",
+      "assets/source/unified25/assets/models/obstacles/Core4-col.obj"
     ]
   },
   {
@@ -2235,6 +2298,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/Items/tokens/devices/spare-parts-texture.png",
       "assets/source/unified25/assets/Items/tokens/devices/spare.png"
+    ]
+  },
+  {
+    "sha256": "3c145d7bbb26516c728c759dcfc0afdba62edb37775143d3f3f00473d8bfcdd0",
+    "assetId": "AST-3C145D7BBB26516C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-5.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA5-model.obj"
     ]
   },
   {
@@ -2598,6 +2670,15 @@
     ]
   },
   {
+    "sha256": "46e4329e85ecd53418730f26184b550f727aea8ffbcda3fa893c206cb89633fe",
+    "assetId": "AST-46E4329E85ECD534",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/faces/core-asteroids.png",
+      "assets/source/unified25/assets/textures/obstacles/Core Astroids All.png"
+    ]
+  },
+  {
     "sha256": "46fcc9d34245ae1a98cc4366a306379b6841c79be8871654d06db937f0191eee",
     "assetId": "AST-46FCC9D34245AE1A",
     "fileCount": 2,
@@ -2778,6 +2859,15 @@
     ]
   },
   {
+    "sha256": "4abf038dc879e166831d14269e616d2d0fea3941ef03e7286eda12144b719c0d",
+    "assetId": "AST-4ABF038DC879E166",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-3.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris3-col.obj"
+    ]
+  },
+  {
     "sha256": "4b37fdd608ba493cc036530c0a8d6a163884eafafb77e50c8f3126eff8aa7598",
     "assetId": "AST-4B37FDD608BA493C",
     "fileCount": 2,
@@ -2802,6 +2892,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/torpedo/advprotontorpedoes.png",
       "assets/source/xwing-data/images/upgrades/Torpedo/advanced-proton-torpedoes.png"
+    ]
+  },
+  {
+    "sha256": "4c16a0aa35b7150aac846c0875bf2bde9bdadc8b18fb7e73cc3d701c48dd5aa1",
+    "assetId": "AST-4C16A0AA35B7150A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-4.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA4-col.obj"
     ]
   },
   {
@@ -2985,6 +3084,15 @@
     ]
   },
   {
+    "sha256": "504fcc646b8d8ed8ef82d664809b1709025716251f38422356e8e865a6e336a9",
+    "assetId": "AST-504FCC646B8D8ED8",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-2.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA2-model.obj"
+    ]
+  },
+  {
     "sha256": "50bfbd724070d02ca6b06ec34536cea566656801cd7bf6de973cebbaea548e76",
     "assetId": "AST-50BFBD724070D02C",
     "fileCount": 2,
@@ -3048,6 +3156,15 @@
     ]
   },
   {
+    "sha256": "51457bceae5028443c9b49ae2aaa3c7c51d9c69111df84b575504a6dd95651f4",
+    "assetId": "AST-51457BCEAE502844",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/faces/debris-clouds.png",
+      "assets/source/unified25/assets/textures/obstacles/Debrisfield All.png"
+    ]
+  },
+  {
     "sha256": "518a5b5c6612f47287a7b2513f0a095d926eb67aedb36c2dfe56a931631b4185",
     "assetId": "AST-518A5B5C6612F472",
     "fileCount": 2,
@@ -3081,6 +3198,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/rebelalliance/xwing/cavernangelszealot__pilot-a15b41525ff5.png",
       "assets/source/unified1e/pilot-tokens/rebelalliance/xwing/cavernangelszealot__pilot-a15b41525ff5.png"
+    ]
+  },
+  {
+    "sha256": "5296c85337689f6f5a3bf87c9a5df7b3eef00f5b6363a84dc15642aeae20a86c",
+    "assetId": "AST-5296C85337689F6F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-3.obj",
+      "assets/source/unified25/assets/models/obstacles/Core3-model.obj"
     ]
   },
   {
@@ -3252,6 +3378,15 @@
     "repositoryPaths": [
       "assets/generated/FirstEditionManeuverIcon/green/turn-left.png",
       "assets/source/first-edition-maneuver-icons/teb.png"
+    ]
+  },
+  {
+    "sha256": "570f50289b8b1018a1d87285fc05f812bc5646ea4410f917bf0db94cb88cb013",
+    "assetId": "AST-570F50289B8B1018",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-6.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris6-col.obj"
     ]
   },
   {
@@ -4065,6 +4200,15 @@
     ]
   },
   {
+    "sha256": "6dd38a69d05e31d3b4e3d8f7b8c1bb7c02b3fb1f9d435a90e9768ded577cea86",
+    "assetId": "AST-6DD38A69D05E31D3",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-5.obj",
+      "assets/source/unified25/assets/models/obstacles/Core5-model.obj"
+    ]
+  },
+  {
     "sha256": "6de6f490ca7494494d181dbbf8e68c03d09a01f709cfa053a461d943bb4e639e",
     "assetId": "AST-6DE6F490CA749449",
     "fileCount": 2,
@@ -4143,6 +4287,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/gameplay-tokens/meshes/evade.obj",
       "assets/source/unified1e/gameplay-tokens/review/evade_test_v2.obj"
+    ]
+  },
+  {
+    "sha256": "6fc4178771e08a0679aa128bc333e931ba36658c7c8af938afcade5c14fc9a34",
+    "assetId": "AST-6FC4178771E08A06",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-2.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA2-col.obj"
     ]
   },
   {
@@ -4233,6 +4386,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/resistance/yt1300/resistancesympathizer__pilot-a5ca71e30c57.png",
       "assets/source/unified1e/pilot-tokens/resistance/yt1300/resistancesympathizer__pilot-a5ca71e30c57.png"
+    ]
+  },
+  {
+    "sha256": "73370c792015a30c9f4072fe624acc40d5d0d752061fcc591a5f746853b5491d",
+    "assetId": "AST-73370C792015A30C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-1.obj",
+      "assets/source/unified25/assets/models/obstacles/Core1-col.obj"
     ]
   },
   {
@@ -4632,6 +4794,15 @@
     ]
   },
   {
+    "sha256": "7f6efc523f47c49b3886f1b7b8074b341730e87b2d0f224b8426cf3233208045",
+    "assetId": "AST-7F6EFC523F47C49B",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-6.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA6-col.obj"
+    ]
+  },
+  {
     "sha256": "7f8fb067a587d2d8c763f708133a24ee60ce4e47706711e8cd41f75c7139e53a",
     "assetId": "AST-7F8FB067A587D2D8",
     "fileCount": 2,
@@ -4674,6 +4845,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tieadvanced/junoeclipse__pilot-3c24070f17df.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tieadvanced/junoeclipse__pilot-3c24070f17df.png"
+    ]
+  },
+  {
+    "sha256": "806ea5b37d013a54b5eb66bc2f5f1e92cb03826d7a5d5abd9a6b00339ca4a46c",
+    "assetId": "AST-806EA5B37D013A54",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-4.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA4-model.obj"
     ]
   },
   {
@@ -4749,6 +4929,15 @@
     ]
   },
   {
+    "sha256": "81976f4586c4b24ab7abca6b9619ad5493cfb4d69ee0985abffec904b48176f1",
+    "assetId": "AST-81976F4586C4B24A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-5.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA5-col.obj"
+    ]
+  },
+  {
     "sha256": "81c1159bdb01c72cc98b6934c27db0692097f853dd14981b36e141597eaff8a4",
     "assetId": "AST-81C1159BDB01C72C",
     "fileCount": 2,
@@ -4818,6 +5007,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/ships/large/scavengedyt1300/Textures/standard.jpg",
       "assets/source/unified1e/ships/large/yt1300/Textures/dirty.jpg"
+    ]
+  },
+  {
+    "sha256": "82c1078b5cc70f34276f0d09bce8c9304b0aee70daa18c3ad71aec1e8b76cdbe",
+    "assetId": "AST-82C1078B5CC70F34",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-2.obj",
+      "assets/source/unified25/assets/models/obstacles/Core2-col.obj"
     ]
   },
   {
@@ -4998,6 +5196,15 @@
     "repositoryPaths": [
       "assets/source/xwvassal/images/S2e_btla4ywing-bomber.png",
       "assets/source/xwvassal/images/Ship_ywing_gray.png"
+    ]
+  },
+  {
+    "sha256": "8a331a2d0ce7be852eaf4035a1009f17ba02eaf47d61b6e1c844bd9683712488",
+    "assetId": "AST-8A331A2D0CE7BE85",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-6.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA6-model.obj"
     ]
   },
   {
@@ -5226,6 +5433,15 @@
     ]
   },
   {
+    "sha256": "91c4078025261f4fce0ef14ff75c156974db5d9e44e56e3e44e8c068503f945d",
+    "assetId": "AST-91C4078025261F4F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-4.obj",
+      "assets/source/unified25/assets/models/obstacles/Core4-model.obj"
+    ]
+  },
+  {
     "sha256": "91da87add27e31e2c7da89eefdf6fe1829a027ce053a380b210d28dee2e209a3",
     "assetId": "AST-91DA87ADD27E31E2",
     "fileCount": 2,
@@ -5241,6 +5457,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/upgrade-cards/system/accuracycorrector.png",
       "assets/source/xwing-data/images/upgrades/System/accuracy-corrector.png"
+    ]
+  },
+  {
+    "sha256": "929a8dd7a9151d9d5542444f3fc41398fc80032e9e25346053ac3f81b75dc840",
+    "assetId": "AST-929A8DD7A9151D9D",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-6.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris6-model.obj"
     ]
   },
   {
@@ -5703,6 +5928,15 @@
     ]
   },
   {
+    "sha256": "a01cae4ff4733541993ded4323f706114bc0dfdd8a6132bfbbc178629b128e16",
+    "assetId": "AST-A01CAE4FF4733541",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/faces/tfa-asteroids.png",
+      "assets/source/unified25/assets/textures/obstacles/TFA Astroids All.png"
+    ]
+  },
+  {
     "sha256": "a035564861af7eb8df1afc83d01bca03c294cf83f998ba5ac27db2a1240f93c5",
     "assetId": "AST-A035564861AF7EB8",
     "fileCount": 2,
@@ -5862,6 +6096,15 @@
     "repositoryPaths": [
       "assets/source/legacy1e-non-pilot/steamusercontent-a.akamaihd.net/artwork/asset__0faaf3a5d678ed2c.jpg",
       "assets/source/unified25/assets/textures/Mats/standard-16-death-star-red-moon.jpg"
+    ]
+  },
+  {
+    "sha256": "a5c5d2d17132414a82a98c96a033d8a9c6d57b8d3d284b0f941427aa8b22d987",
+    "assetId": "AST-A5C5D2D17132414A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/tfa-asteroid-3.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA3-model.obj"
     ]
   },
   {
@@ -6189,6 +6432,24 @@
     ]
   },
   {
+    "sha256": "ac878bc01035acac56067fbbdb6d5bf5f88a798d6fd3afc290787d92374fc487",
+    "assetId": "AST-AC878BC01035ACAC",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-1.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA1-col.obj"
+    ]
+  },
+  {
+    "sha256": "ac8fc544e690844c387905a1a91c181daf625880e03993ee12b080a592ec31ad",
+    "assetId": "AST-AC8FC544E690844C",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-4.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris4-col.obj"
+    ]
+  },
+  {
     "sha256": "ac907cb3bb3f83eb53800699ddd9b2cc3dcff2db68fe31940299341dc9e19602",
     "assetId": "AST-AC907CB3BB3F83EB",
     "fileCount": 2,
@@ -6348,6 +6609,15 @@
     "repositoryPaths": [
       "assets/generated/PilotBaseToken/galacticempire/tiefighter/scourge__pilot-b786bc451943.png",
       "assets/source/unified1e/pilot-tokens/galacticempire/tiefighter/scourge__pilot-b786bc451943.png"
+    ]
+  },
+  {
+    "sha256": "b163892a1cc42b402e78a6dbb2329a8a2d326b3d09550acf691c621738b0c747",
+    "assetId": "AST-B163892A1CC42B40",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-6.obj",
+      "assets/source/unified25/assets/models/obstacles/Core6-model.obj"
     ]
   },
   {
@@ -7197,6 +7467,15 @@
     ]
   },
   {
+    "sha256": "cb6b8e34c3bd057a6e450b01d38ce939dac94571e5db4a3a9b2a33691e66a42f",
+    "assetId": "AST-CB6B8E34C3BD057A",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-2.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris2-col.obj"
+    ]
+  },
+  {
     "sha256": "cbf472f6874bea5ec1c401e8838a786dd86791d8aead5387769435f11ddee6f9",
     "assetId": "AST-CBF472F6874BEA5E",
     "fileCount": 2,
@@ -7269,6 +7548,15 @@
     ]
   },
   {
+    "sha256": "ce1bf31da5cc2189ad98e3792fc1f50b93e021a9e0ff7acedf2304100d8c0876",
+    "assetId": "AST-CE1BF31DA5CC2189",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-1.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris1-model.obj"
+    ]
+  },
+  {
     "sha256": "ceca185b24bd738633edfc584a8ce0598f4b8029a7d95b1a4702396e5d106bee",
     "assetId": "AST-CECA185B24BD7386",
     "fileCount": 2,
@@ -7305,12 +7593,39 @@
     ]
   },
   {
+    "sha256": "d01b71ed38d3ac7fda233e3bb7beabadb073235a5b5584ff11b1b935fb2eac53",
+    "assetId": "AST-D01B71ED38D3AC7F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/tfa-asteroid-3.obj",
+      "assets/source/unified25/assets/models/obstacles/TFA3-col.obj"
+    ]
+  },
+  {
     "sha256": "d09c0ddbf1d10b41bf05f22a1ece5721053cc5279114a9602c81ba2011e63ba3",
     "assetId": "AST-D09C0DDBF1D10B41",
     "fileCount": 2,
     "repositoryPaths": [
       "assets/generated/FirstEditionDialTexture/rebelalliance/sheathipedeclassshuttle__dial-f9d3cf0ce3a6.png",
       "assets/source/first-edition-dials/rebelalliance/sheathipedeclassshuttle.png"
+    ]
+  },
+  {
+    "sha256": "d10550342f56c7e55cd530e531659aea973dffdb14ae79cb731d8d3667166a59",
+    "assetId": "AST-D10550342F56C7E5",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/debris-cloud-2.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris2-model.obj"
+    ]
+  },
+  {
+    "sha256": "d134d88046fb354fed129d1144b94384f2f4d0fff096664a6ba0892053c84f55",
+    "assetId": "AST-D134D88046FB354F",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-6.obj",
+      "assets/source/unified25/assets/models/obstacles/Core6-col.obj"
     ]
   },
   {
@@ -7338,6 +7653,15 @@
     "repositoryPaths": [
       "assets/source/unified1e/gameplay-tokens/devices/meshes/proximity-mine.obj",
       "assets/source/unified25/assets/Items/tokens/devices/proximity.obj"
+    ]
+  },
+  {
+    "sha256": "d208dbba1f28f3917daea9854cab6c82841de1b1b1b146b3684a3b922f7d969a",
+    "assetId": "AST-D208DBBA1F28F391",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-2.obj",
+      "assets/source/unified25/assets/models/obstacles/Core2-model.obj"
     ]
   },
   {
@@ -8376,6 +8700,24 @@
     ]
   },
   {
+    "sha256": "f02066a682549783244f3f405afb2d4ef358e9fbbe88e2a0a733ba682d64c52d",
+    "assetId": "AST-F02066A682549783",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/core-asteroid-5.obj",
+      "assets/source/unified25/assets/models/obstacles/Core5-col.obj"
+    ]
+  },
+  {
+    "sha256": "f064e0381423eea4ed35f820e2e27bed987ccdcd3569300b112399536c2e09fb",
+    "assetId": "AST-F064E0381423EEA4",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/colliders/debris-cloud-5.obj",
+      "assets/source/unified25/assets/models/obstacles/Debris5-col.obj"
+    ]
+  },
+  {
     "sha256": "f08c2c3338cfb3367447db2fc81e9c2293a023f8279d8e0fcca89d33d74bf6b9",
     "assetId": "AST-F08C2C3338CFB336",
     "fileCount": 2,
@@ -8472,6 +8814,15 @@
     "repositoryPaths": [
       "assets/source/unified25/assets/ships/FO/TIEba/provocateur.png",
       "assets/source/unified25/assets/ships/Small/FO_Tie_Ba/First Order Provocateur.png"
+    ]
+  },
+  {
+    "sha256": "f26362a6514b75de272ecf5b5344debc5341170b3ab8e6b5b081aac35e80a5c3",
+    "assetId": "AST-F26362A6514B75DE",
+    "fileCount": 2,
+    "repositoryPaths": [
+      "assets/source/unified1e/gameplay-tokens/obstacles/meshes/core-asteroid-1.obj",
+      "assets/source/unified25/assets/models/obstacles/Core1-model.obj"
     ]
   },
   {
