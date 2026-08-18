@@ -129,6 +129,7 @@ return command switch
     "build-first-edition-runtime-binding-validation" => BuildFirstEditionRuntimeBindingValidationCommand.Run(commandArgs),
     "build-first-edition-spawned-loadout-binding" => BuildFirstEditionSpawnedLoadoutBindingCommand.Run(commandArgs),
     "register-first-edition-production-loadout" => RegisterFirstEditionProductionLoadoutCommand.Run(commandArgs),
+    "validate-first-edition-production-loadout-isolation" => ValidateFirstEditionProductionLoadoutIsolationCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -312,6 +313,7 @@ static void ShowHelp()
     Console.WriteLine("  build-first-edition-runtime-binding-validation <repository> --pilot <id|name|import-id> [--ship <id>] [--faction <id>] [--upgrade <xws>]... [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  build-first-edition-spawned-loadout-binding <repository> <single-ship-tts-save.json> --pilot <id|name|import-id> [--upgrade <xws>]...");
     Console.WriteLine("  register-first-edition-production-loadout <repository> <tts-save.json> --pilot <id|name|import-id> [--pilot-card-guid <guid>] [--upgrade <xws>]...");
+    Console.WriteLine("  validate-first-edition-production-loadout-isolation <repository> <tts-save.json> --pilot <id|name|import-id> --pilot-card-guid <guid> --pilot-card-guid <guid> [--upgrade <xws>]...");
     Console.WriteLine("  prepare-first-edition-core-token-review <first-edition-repo-folder> [--inventory <file>] [--reference-save <file>] [--asset-base-url <url>] [--max-candidates <1-20>] [--output <folder>]");
     Console.WriteLine("  audit-unified25-gameplay-object-reference <first-edition-repo-folder> <tts-save.json> [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-token-mesh-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--asset-base-url <url>] [--output <folder>]");
