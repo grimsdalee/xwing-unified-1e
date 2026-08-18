@@ -93,6 +93,7 @@ return command switch
     "audit-first-edition-pilot-completeness" => AuditFirstEditionPilotCompletenessCommand.Run(commandArgs),
     "audit-first-edition-card-token-assets" => AuditFirstEditionCardAndTokenAssetsCommand.Run(commandArgs),
     "audit-first-edition-gameplay-objects" => AuditFirstEditionGameplayObjectsCommand.Run(commandArgs),
+    "audit-first-edition-phase16-completeness" => AuditFirstEditionPhase16CompletenessCommand.Run(commandArgs),
     "prepare-first-edition-core-token-review" => PrepareFirstEditionCoreTokenReviewCommand.Run(commandArgs),
     "audit-unified25-gameplay-object-reference" => AuditUnified25GameplayObjectReferenceCommand.Run(commandArgs),
     "prepare-first-edition-token-mesh-review" => PrepareFirstEditionTokenMeshReviewCommand.Run(commandArgs),
@@ -303,6 +304,7 @@ static void ShowHelp()
     Console.WriteLine("  generate-first-edition-dial-backs <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-first-edition-card-token-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-first-edition-gameplay-objects <first-edition-repo-folder> [--output <folder>] [--legacy-contexts <file>] [--legacy-import <file>]");
+    Console.WriteLine("  audit-first-edition-phase16-completeness <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-core-token-review <first-edition-repo-folder> [--inventory <file>] [--reference-save <file>] [--asset-base-url <url>] [--max-candidates <1-20>] [--output <folder>]");
     Console.WriteLine("  audit-unified25-gameplay-object-reference <first-edition-repo-folder> <tts-save.json> [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-token-mesh-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--asset-base-url <url>] [--output <folder>]");
