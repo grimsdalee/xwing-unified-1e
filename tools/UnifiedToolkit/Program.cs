@@ -125,6 +125,8 @@ return command switch
     "build-first-edition-condition-sources" => BuildFirstEditionConditionSourcesCommand.Run(commandArgs),
     "verify-first-edition-loadout-contract" => VerifyFirstEditionLoadoutContractCommand.Run(commandArgs),
     "plan-first-edition-upgrade-loadout" => PlanFirstEditionUpgradeLoadoutCommand.Run(commandArgs),
+    "build-first-edition-runtime-assignment-blueprint" => BuildFirstEditionRuntimeAssignmentBlueprintCommand.Run(commandArgs),
+    "build-first-edition-runtime-binding-validation" => BuildFirstEditionRuntimeBindingValidationCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
@@ -305,6 +307,7 @@ static void ShowHelp()
     Console.WriteLine("  audit-first-edition-card-token-assets <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  audit-first-edition-gameplay-objects <first-edition-repo-folder> [--output <folder>] [--legacy-contexts <file>] [--legacy-import <file>]");
     Console.WriteLine("  audit-first-edition-phase16-completeness <first-edition-repo-folder> [--output <folder>]");
+    Console.WriteLine("  build-first-edition-runtime-binding-validation <repository> --pilot <id|name|import-id> [--ship <id>] [--faction <id>] [--upgrade <xws>]... [--asset-base-url <url>] [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-core-token-review <first-edition-repo-folder> [--inventory <file>] [--reference-save <file>] [--asset-base-url <url>] [--max-candidates <1-20>] [--output <folder>]");
     Console.WriteLine("  audit-unified25-gameplay-object-reference <first-edition-repo-folder> <tts-save.json> [--output <folder>]");
     Console.WriteLine("  prepare-first-edition-token-mesh-review <first-edition-repo-folder> <tts-reference-save.json> [--inventory <file>] [--asset-base-url <url>] [--output <folder>]");
@@ -336,6 +339,7 @@ static void ShowHelp()
     Console.WriteLine("  build-first-edition-condition-sources <first-edition-repo-folder> [--output <file>]");
     Console.WriteLine("  verify-first-edition-loadout-contract <first-edition-repo-folder> [--output <folder>]");
     Console.WriteLine("  plan-first-edition-upgrade-loadout <first-edition-repo-folder> --pilot <id|name|import-id> [--ship <id>] [--faction <id>] [--upgrade <xws>]... [--upgrades <xws,xws>] [--output <folder>]");
+    Console.WriteLine("  build-first-edition-runtime-assignment-blueprint <first-edition-repo-folder> --pilot <id|name|import-id> [--ship <id>] [--faction <id>] [--upgrade <xws>]... [--upgrades <xws,xws>] [--output <folder>]");
 }
 
 static int UnknownCommand(string command)
