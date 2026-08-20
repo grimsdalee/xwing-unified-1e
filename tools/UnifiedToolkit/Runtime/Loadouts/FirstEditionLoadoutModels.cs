@@ -98,6 +98,7 @@ public sealed class FirstEditionLoadoutRequest
     public string? Ship { get; init; }
     public string? Faction { get; init; }
     public List<string> Upgrades { get; init; } = new();
+    public bool EnableImplementedStructuralEffects { get; init; }
 }
 
 public sealed class FirstEditionLoadoutContractVerification

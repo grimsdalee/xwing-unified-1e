@@ -32,6 +32,27 @@ public sealed class FirstEditionLoadoutPlanner
         var slots = BuildSlots(pilot, issues);
         var assignments = new List<FirstEditionUpgradeAssignment>();
         var requestedUpgrades = request.Upgrades.SelectMany(SplitUpgradeArgument).ToList();
+        var appliedStructuralUpgrades = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+        if (request.EnableImplementedStructuralEffects)
+        {
+            foreach (var requested in requestedUpgrades)
+            {
+                var cardMatches = data.UpgradeCards.Where(card =>
+                    Key(card.Xws) == Key(requested) || Key(card.CanonicalId) == Key(requested) || Key(card.Name) == Key(requested)).ToList();
+                if (cardMatches.Count != 1) continue;
+                var card = cardMatches[0];
+                var mechanics = data.Mechanics.SingleOrDefault(candidate => Key(candidate.Xws) == Key(card.Xws));
+                if (mechanics?.Mechanics.Any(item => item.Id == "upgrade-slot-change") != true
+                    || !FirstEditionUpgradeSlotChangeHandler.Supports(card.Xws)) continue;
+
+                var result = FirstEditionUpgradeSlotChangeHandler.Apply(card.Xws, ToPilot(pilot), slots);
+                if (!result.Applied)
+                    Error(issues, result.ErrorCode, card.Xws, result.Message);
+                else
+                    appliedStructuralUpgrades.Add(card.Xws);
+            }
+        }
 
         for (var index = 0; index < requestedUpgrades.Count; index++)
         {
@@ -93,8 +114,14 @@ public sealed class FirstEditionLoadoutPlanner
             }
 
             if (assignment.RequiresStructuralReview)
-                Warning(issues, "structural-effect-pending", card.Xws,
-                    $"{card.Name} changes upgrade slots. Its structural effect is recorded but is not applied in Phase 16D.");
+            {
+                if (appliedStructuralUpgrades.Contains(card.Xws))
+                    Info(issues, "structural-effect-applied", card.Xws,
+                        $"{card.Name}'s reviewed upgrade-slot change was applied to this loadout plan.");
+                else
+                    Warning(issues, "structural-effect-pending", card.Xws,
+                        $"{card.Name} changes upgrade slots. Its structural effect is recorded but is not applied by this request.");
+            }
             foreach (var capability in assignment.RuntimeCapabilities.Where(item => item.RuntimeStatus != "implemented"))
                 Info(issues, "runtime-mechanic-not-implemented", card.Xws,
                     $"{capability.MechanicId}: {capability.RuntimeStatus}; review={capability.ReviewStatus}.");
