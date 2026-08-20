@@ -144,7 +144,11 @@ public sealed class FirstEditionRuntimeBindingValidationBuilder
         """;
         return new JsonObject
         {
-            ["GUID"] = binding.UpgradeCardGuid, ["Name"] = "CardCustom", ["Transform"] = Transform(x, 1.2, z, 0, 180, 0, 1, 1, 1),
+            ["GUID"] = binding.UpgradeCardGuid, ["Name"] = "CardCustom",
+            ["Transform"] = Transform(x, 1.2, z, 0, 180, 0,
+                FirstEditionPhysicalCardScale.MiniCardScaleX,
+                FirstEditionPhysicalCardScale.MiniCardScaleY,
+                FirstEditionPhysicalCardScale.MiniCardScaleZ),
             ["Nickname"] = source.Name, ["Description"] = $"{source.SlotType} — {source.Points} points\nBound slot: {source.SlotId}\nRuntime: inactive",
             ["GMNotes"] = state, ["AltLookAngle"] = Vector(0, 0, 0), ["ColorDiffuse"] = Color(1, 1, 1), ["LayoutGroupSortIndex"] = 0,
             ["Value"] = source.Points, ["Locked"] = false, ["Grid"] = true, ["Snap"] = true, ["IgnoreFoW"] = false,

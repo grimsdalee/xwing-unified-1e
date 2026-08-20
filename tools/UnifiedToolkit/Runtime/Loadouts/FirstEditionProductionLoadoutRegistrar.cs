@@ -44,11 +44,13 @@ public sealed class FirstEditionProductionLoadoutRegistrar
 
         var baseUrl = (assetBaseUrl ?? DefaultAssetBaseUrl).TrimEnd('/') + "/";
         var (x, z) = Position(bundle.PilotCard);
+        var pilotRotationY = RotationY(bundle.PilotCard);
         outputObjects.Add(HiddenController(owner, bindings, x, z));
         for (var index = 0; index < bindings.Count; index++)
         {
             var upgrade = blueprint.Upgrades.Single(item => item.UpgradeId == bindings[index].UpgradeId);
-            outputObjects.Add(UpgradeCard(bindings[index], upgrade, baseUrl, x + 4 + index * 3, z));
+            var placement = FirstEditionUpgradeCardLayout.Place(x, z, pilotRotationY, index);
+            outputObjects.Add(UpgradeCard(bindings[index], upgrade, baseUrl, placement));
         }
         output["SaveName"] = $"Phase 16F-R4 — {blueprint.Owner.PilotName} production loadout registration";
         output["Note"] = Append(Text(output, "Note"), "Phase 16F-R4 registers inactive First Edition upgrade ownership using a hidden per-ship controller.");
@@ -137,7 +139,7 @@ public sealed class FirstEditionProductionLoadoutRegistrar
     }
 
     private static JsonObject UpgradeCard(FirstEditionRuntimeUpgradeBinding binding,
-        FirstEditionRuntimeUpgradeContract source, string baseUrl, double x, double z)
+        FirstEditionRuntimeUpgradeContract source, string baseUrl, FirstEditionUpgradeCardPlacement placement)
     {
         var state = JsonSerializer.Serialize(binding, ContractJson);
         var lua = $$"""
@@ -152,7 +154,10 @@ public sealed class FirstEditionProductionLoadoutRegistrar
         return new JsonObject
         {
             ["GUID"] = binding.UpgradeCardGuid, ["Name"] = "CardCustom",
-            ["Transform"] = Transform(x, 1.2, z, 0, 180, 0, 1, 1, 1),
+            ["Transform"] = Transform(placement.X, placement.Y, placement.Z, 0, placement.RotationY, 0,
+                FirstEditionPhysicalCardScale.MiniCardScaleX,
+                FirstEditionPhysicalCardScale.MiniCardScaleY,
+                FirstEditionPhysicalCardScale.MiniCardScaleZ),
             ["Nickname"] = source.Name,
             ["Description"] = $"{source.SlotType} — {source.Points} points\nBound slot: {source.SlotId}\nRuntime: inactive",
             ["GMNotes"] = state, ["AltLookAngle"] = Vector(0, 0, 0), ["ColorDiffuse"] = Color(1, 1, 1, 1),
@@ -233,6 +238,7 @@ public sealed class FirstEditionProductionLoadoutRegistrar
     }
     private static (double X, double Z) Position(JsonObject obj) =>
         (obj["Transform"]?["posX"]?.GetValue<double>() ?? 0, obj["Transform"]?["posZ"]?.GetValue<double>() ?? 0);
+    private static double RotationY(JsonObject obj) => obj["Transform"]?["rotY"]?.GetValue<double>() ?? 0;
     private static string Text(JsonObject obj, string key) => obj[key]?.GetValue<string>() ?? "";
     private static string Append(string existing, string addition) => existing.Length == 0 ? addition : existing.TrimEnd() + "\n\n" + addition;
     private static FirstEditionRuntimeAcceptanceCheck Check(string id, bool passed, string message) => new() { Id = id, Passed = passed, Message = message };

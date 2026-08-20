@@ -94,11 +94,13 @@ public static class BuildFirstEditionSpawnedLoadoutBindingCommand
         }).ToList();
         assetBaseUrl = (assetBaseUrl ?? DefaultAssetBaseUrl).TrimEnd('/') + "/";
         var (x, z) = Position(link.PilotCard);
+        var pilotRotationY = RotationY(link.PilotCard);
         outputObjects.Add(Controller(owner, bindings, blueprint, x, z + 4));
         for (var index = 0; index < bindings.Count; index++)
         {
             var upgrade = blueprint.Upgrades.Single(item => item.UpgradeId == bindings[index].UpgradeId);
-            outputObjects.Add(UpgradeCard(bindings[index], upgrade, assetBaseUrl, x + 4 + index * 3, z));
+            var placement = FirstEditionUpgradeCardLayout.Place(x, z, pilotRotationY, index);
+            outputObjects.Add(UpgradeCard(bindings[index], upgrade, assetBaseUrl, placement));
         }
         save["SaveName"] = $"Phase 16F-R3 — {blueprint.Owner.PilotName} spawned hierarchy binding";
         save["Note"] = Append(Text(save, "Note"), "Phase 16F-R3 adds inactive First Edition upgrade ownership metadata only.");
@@ -194,7 +196,7 @@ public static class BuildFirstEditionSpawnedLoadoutBindingCommand
     }
 
     private static JsonObject UpgradeCard(FirstEditionRuntimeUpgradeBinding binding, FirstEditionRuntimeUpgradeContract source,
-        string assetBaseUrl, double x, double z)
+        string assetBaseUrl, FirstEditionUpgradeCardPlacement placement)
     {
         var state = JsonSerializer.Serialize(binding, ContractJson);
         var lua = $$"""
@@ -208,7 +210,11 @@ public static class BuildFirstEditionSpawnedLoadoutBindingCommand
         """;
         return new JsonObject
         {
-            ["GUID"] = binding.UpgradeCardGuid, ["Name"] = "CardCustom", ["Transform"] = Transform(x, 1.2, z, 0, 180, 0, 1, 1, 1),
+            ["GUID"] = binding.UpgradeCardGuid, ["Name"] = "CardCustom",
+            ["Transform"] = Transform(placement.X, placement.Y, placement.Z, 0, placement.RotationY, 0,
+                FirstEditionPhysicalCardScale.MiniCardScaleX,
+                FirstEditionPhysicalCardScale.MiniCardScaleY,
+                FirstEditionPhysicalCardScale.MiniCardScaleZ),
             ["Nickname"] = source.Name, ["Description"] = $"{source.SlotType} — {source.Points} points\nBound slot: {source.SlotId}\nShip GUID: {binding.ShipGuid}\nRuntime: inactive",
             ["GMNotes"] = state, ["AltLookAngle"] = Vector(0, 0, 0), ["ColorDiffuse"] = Color(1, 1, 1), ["LayoutGroupSortIndex"] = 0,
             ["Value"] = source.Points, ["Locked"] = false, ["Grid"] = true, ["Snap"] = true, ["IgnoreFoW"] = false,
@@ -267,6 +273,7 @@ public static class BuildFirstEditionSpawnedLoadoutBindingCommand
     }
     private static (double X, double Z) Position(JsonObject obj) =>
         (obj["Transform"]?["posX"]?.GetValue<double>() ?? 0, obj["Transform"]?["posZ"]?.GetValue<double>() ?? 0);
+    private static double RotationY(JsonObject obj) => obj["Transform"]?["rotY"]?.GetValue<double>() ?? 0;
     private static string Text(JsonObject obj, string key) => obj[key]?.GetValue<string>() ?? "";
     private static string Append(string existing, string addition) => existing.Length == 0 ? addition : existing.TrimEnd() + "\n\n" + addition;
     private static FirstEditionRuntimeAcceptanceCheck Check(string id, bool passed, string message) => new() { Id = id, Passed = passed, Message = message };
