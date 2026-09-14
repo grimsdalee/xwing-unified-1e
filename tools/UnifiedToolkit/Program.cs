@@ -134,6 +134,7 @@ return command switch
     "build-first-edition-added-action-validation" => BuildFirstEditionAddedActionValidationCommand.Run(commandArgs),
     "build-first-edition-maneuver-colour-validation" => BuildFirstEditionManeuverColourValidationCommand.Run(commandArgs),
     "build-first-edition-upgrade-slot-validation" => BuildFirstEditionUpgradeSlotValidationCommand.Run(commandArgs),
+    "build-first-edition-shield-upgrade-validation" => BuildFirstEditionShieldUpgradeValidationCommand.Run(commandArgs),
     "prepare-missing-first-edition-pilots" => PrepareMissingFirstEditionPilotsCommand.Run(commandArgs),
     "import-missing-first-edition-pilots" => ImportMissingFirstEditionPilotsCommand.Run(commandArgs),
     "prepare-missing-pilot-package-assets" => PrepareMissingPilotPackageAssetsCommand.Run(commandArgs),
