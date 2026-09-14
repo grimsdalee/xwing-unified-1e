@@ -11,7 +11,8 @@ public sealed class FirstEditionProductionLoadoutRegistrar
     private static readonly JsonSerializerOptions ContractJson = new() { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
 
     public FirstEditionProductionRegistrationResult Register(string repository, JsonObject sourceSave,
-        FirstEditionLoadoutRequest request, string? pilotCardGuid = null, string? assetBaseUrl = null)
+        FirstEditionLoadoutRequest request, string? pilotCardGuid = null, string? assetBaseUrl = null,
+        bool activateValidatedHandlers = false)
     {
         var blueprint = new FirstEditionRuntimeAssignmentBlueprintBuilder().Build(repository, request);
         if (!blueprint.IsValid) throw new InvalidDataException("The First Edition assignment blueprint is not valid.");
@@ -56,7 +57,7 @@ public sealed class FirstEditionProductionLoadoutRegistrar
         output["Note"] = Append(Text(output, "Note"), "Phase 16F-R4 registers inactive First Edition upgrade ownership using a hidden per-ship controller.");
 
         var checks = Checks(sourceSave, output, sourceObjects.Count, sourceIndex.Keys, owner, bindings);
-        return new FirstEditionProductionRegistrationResult
+        var result = new FirstEditionProductionRegistrationResult
         {
             Blueprint = blueprint, Save = output,
             Manifest = new FirstEditionProductionRegistrationManifest
@@ -68,6 +69,9 @@ public sealed class FirstEditionProductionLoadoutRegistrar
                 Owner = owner, Upgrades = bindings, AcceptanceChecks = checks
             }
         };
+        return activateValidatedHandlers
+            ? new FirstEditionValidatedProductionHandlerIntegrator().Apply(repository, request, result, assetBaseUrl)
+            : result;
     }
 
     private static SpawnedBundle SelectBundle(Dictionary<string, JsonObject> objects, string? pilotCardGuid)
@@ -280,6 +284,9 @@ public sealed class FirstEditionProductionRegistrationManifest
     public int AddedRuntimeObjects { get; init; }
     public FirstEditionRuntimeOwnerBinding Owner { get; init; } = new();
     public List<FirstEditionRuntimeUpgradeBinding> Upgrades { get; init; } = new();
+    public bool ValidatedHandlersEnabled { get; init; }
+    public List<FirstEditionProductionHandlerActivation> HandlerActivations { get; init; } = new();
+    public List<string> SpawnedResourceTokenGuids { get; init; } = new();
     public List<FirstEditionRuntimeAcceptanceCheck> AcceptanceChecks { get; init; } = new();
     public bool IsValid => AcceptanceChecks.Count > 0 && AcceptanceChecks.All(check => check.Passed);
 }

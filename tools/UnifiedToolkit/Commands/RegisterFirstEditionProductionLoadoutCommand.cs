@@ -23,12 +23,14 @@ public static class RegisterFirstEditionProductionLoadoutCommand
             var request = new FirstEditionLoadoutRequest
             {
                 Pilot = Option(args, "--pilot")!, Ship = Option(args, "--ship"), Faction = Option(args, "--faction"),
-                Upgrades = Options(args, "--upgrade").Concat(Options(args, "--upgrades")).ToList()
+                Upgrades = Options(args, "--upgrade").Concat(Options(args, "--upgrades")).ToList(),
+                EnableImplementedStructuralEffects = Flag(args, "--activate-validated-handlers")
             };
             var source = System.Text.Json.Nodes.JsonNode.Parse(File.ReadAllText(sourceSave))?.AsObject()
                 ?? throw new InvalidDataException("The TTS source save is not a JSON object.");
             var result = new FirstEditionProductionLoadoutRegistrar().Register(repository, source, request,
-                Option(args, "--pilot-card-guid"), Option(args, "--asset-base-url"));
+                Option(args, "--pilot-card-guid"), Option(args, "--asset-base-url"),
+                Flag(args, "--activate-validated-handlers"));
             var output = Path.GetFullPath(Option(args, "--output") ?? Path.Combine(repository,
                 "_unifiedtoolkit_reports", "phase16", "production-loadout-registration"));
             Directory.CreateDirectory(output);
@@ -41,7 +43,9 @@ public static class RegisterFirstEditionProductionLoadoutCommand
             File.WriteAllText(manifestPath, JsonSerializer.Serialize(result.Manifest, JsonOptions), new UTF8Encoding(false));
             File.WriteAllLines(reportPath, Report(result), new UTF8Encoding(false));
 
-            Console.WriteLine("UnifiedToolkit Phase 16F-R4 Production Loadout Registration");
+            Console.WriteLine(result.Manifest.ValidatedHandlersEnabled
+                ? "UnifiedToolkit Phase 16F-R11 Validated Production Loadout Registration"
+                : "UnifiedToolkit Phase 16F-R4 Production Loadout Registration");
             Console.WriteLine("============================================================"); Console.WriteLine();
             Console.WriteLine($"First Edition pilot:       {result.Manifest.RequestedFirstEditionPilot}");
             Console.WriteLine($"Unified runtime pilot:     {result.Manifest.SourceRuntimePilot}");
@@ -56,7 +60,9 @@ public static class RegisterFirstEditionProductionLoadoutCommand
             Console.WriteLine($"Valid:                     {result.Manifest.IsValid}"); Console.WriteLine();
             Console.WriteLine($"TTS validation save: {savePath}"); Console.WriteLine($"Manifest:            {manifestPath}");
             Console.WriteLine($"Report:              {reportPath}"); Console.WriteLine();
-            Console.WriteLine("Production registration completed. The controller is hidden and every gameplay handler remains inactive.");
+            Console.WriteLine(result.Manifest.ValidatedHandlersEnabled
+                ? "Production registration completed. Only reviewed card-specific handlers are active."
+                : "Production registration completed. The controller is hidden and every gameplay handler remains inactive.");
             return result.Manifest.IsValid ? 0 : 2;
         }
         catch (Exception exception)
@@ -71,11 +77,13 @@ public static class RegisterFirstEditionProductionLoadoutCommand
         yield return $"- Unified donor: **{result.Manifest.SourceRuntimePilot}**";
         yield return $"- Ship GUID: `{result.Manifest.Owner.ShipGuid}`";
         yield return $"- Hidden controller GUID: `{result.Manifest.Owner.ControllerGuid}`";
-        yield return "- Gameplay handlers: **inactive**"; yield return "";
+        yield return $"- Validated handlers enabled: **{result.Manifest.ValidatedHandlersEnabled}**";
+        yield return $"- Active handlers: **{result.Manifest.HandlerActivations.Count}**"; yield return "";
         foreach (var check in result.Manifest.AcceptanceChecks) yield return $"- {(check.Passed ? "PASS" : "FAIL")} `{check.Id}`: {check.Message}";
     }
     private static string? Option(string[] args, string name) => Enumerable.Range(0, Math.Max(0, args.Length - 1)).Where(index => args[index].Equals(name, StringComparison.OrdinalIgnoreCase)).Select(index => args[index + 1]).FirstOrDefault();
     private static IEnumerable<string> Options(string[] args, string name) => Enumerable.Range(0, Math.Max(0, args.Length - 1)).Where(index => args[index].Equals(name, StringComparison.OrdinalIgnoreCase)).Select(index => args[index + 1]);
+    private static bool Flag(string[] args, string name) => args.Any(arg => arg.Equals(name, StringComparison.OrdinalIgnoreCase));
     private static string Slug(string value) => string.Join('-', value.ToLowerInvariant().Split(new[] { ' ', ':', '/', '\\', '"', '\'', '(', ')', '[', ']' }, StringSplitOptions.RemoveEmptyEntries));
-    private static void Usage() => Console.WriteLine("Usage: UnifiedToolkit register-first-edition-production-loadout <repository> <tts-save.json> --pilot <id|name|import-id> [--pilot-card-guid <guid>] [--upgrade <xws>]...");
+    private static void Usage() => Console.WriteLine("Usage: UnifiedToolkit register-first-edition-production-loadout <repository> <tts-save.json> --pilot <id|name|import-id> [--pilot-card-guid <guid>] [--upgrade <xws>]... [--activate-validated-handlers]");
 }

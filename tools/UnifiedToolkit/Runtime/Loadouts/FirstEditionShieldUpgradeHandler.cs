@@ -29,20 +29,38 @@ public sealed class FirstEditionShieldUpgradeHandler
         var rowX = Math.Cos(radians);
         var rowZ = Math.Sin(radians);
 
-        var nearby = objects.OfType<JsonObject>()
+        var topLevelShields = objects.OfType<JsonObject>()
             .Where(item => Text(item, "Nickname").Equals("Shield", StringComparison.OrdinalIgnoreCase))
             .Select(item => new ShieldCandidate(item,
                 Number(item, "Transform", "posX"), Number(item, "Transform", "posZ")))
+            .Where(item => Text(item.Object, "LuaScript").Contains("__XW_TokenType = 'Shield'", StringComparison.Ordinal))
+            .ToList();
+        var nearby = topLevelShields
             .Where(item => Distance(item.X, item.Z, pilotX, pilotZ) <= OwnerSearchRadius)
             .OrderBy(item => Distance(item.X, item.Z, pilotX, pilotZ))
             .ToList();
-        if (nearby.Count == 0)
-            throw new InvalidDataException("No existing shield token was found beside the selected pilot card.");
+        var template = nearby.Select(item => item.Object).FirstOrDefault()
+            ?? Descendants(save).FirstOrDefault(item =>
+                Text(item, "Nickname").Equals("Shield", StringComparison.OrdinalIgnoreCase)
+                && Text(item, "LuaScript").Contains("__XW_TokenType = 'Shield'", StringComparison.Ordinal));
+        if (template is null)
+            throw new InvalidDataException("No scripted Unified Shield object was found in the supplied save.");
 
-        var template = nearby[0].Object;
-        var end = nearby.MaxBy(item => (item.X - pilotX) * rowX + (item.Z - pilotZ) * rowZ)!;
-        var tokenX = end.X + rowX * TokenSpacing;
-        var tokenZ = end.Z + rowZ * TokenSpacing;
+        double tokenX;
+        double tokenZ;
+        if (nearby.Count > 0)
+        {
+            var end = nearby.MaxBy(item => (item.X - pilotX) * rowX + (item.Z - pilotZ) * rowZ)!;
+            tokenX = end.X + rowX * TokenSpacing;
+            tokenZ = end.Z + rowZ * TokenSpacing;
+        }
+        else
+        {
+            const double shieldRowSideOffset = 2.1;
+            const double firstTokenRowOffset = 0.1;
+            tokenX = pilotX - Math.Sin(radians) * shieldRowSideOffset + rowX * firstTokenRowOffset;
+            tokenZ = pilotZ + Math.Cos(radians) * shieldRowSideOffset + rowZ * firstTokenRowOffset;
+        }
         var used = index.Keys.ToHashSet(StringComparer.OrdinalIgnoreCase);
         var tokenGuid = GuidFor($"{owner.ShipGuid}:{UpgradeXws}:additional-shield-token", used);
         var baseUrl = (assetBaseUrl ?? "https://raw.githubusercontent.com/grimsdalee/xwing-unified-1e/main/").TrimEnd('/') + "/";
