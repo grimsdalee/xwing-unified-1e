@@ -676,6 +676,8 @@ public sealed class FiveShipPrototypeAssembly
     public string ShipName { get; init; } = string.Empty;
     public string PilotId { get; init; } = string.Empty;
     public string PilotName { get; init; } = string.Empty;
+    public int PilotSkill { get; init; }
+    public int SquadPointCost { get; init; }
     public string Faction { get; init; } = string.Empty;
     public string BaseSize { get; init; } = string.Empty;
     public string BaseTemplateKey { get; init; } = string.Empty;

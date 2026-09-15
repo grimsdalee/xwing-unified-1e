@@ -215,7 +215,7 @@ public static class GenerateShipValidationSavesCommand
         }
     }
 
-    private static List<FiveShipPrototypeAssembly> BuildAssemblies(
+    internal static List<FiveShipPrototypeAssembly> BuildAssemblies(
         string repositoryRoot,
         IReadOnlyList<ValidationPackage> packages,
         PrototypeRuntimeShipInput? runtime)
@@ -290,6 +290,8 @@ public static class GenerateShipValidationSavesCommand
                 ShipName = package.ShipName,
                 PilotId = package.PilotId,
                 PilotName = package.PilotName,
+                PilotSkill = package.PilotSkill,
+                SquadPointCost = package.SquadPointCost,
                 Faction = package.Faction,
                 BaseSize = baseSize,
                 BaseTemplateKey = baseKey,
@@ -344,10 +346,45 @@ public static class GenerateShipValidationSavesCommand
                 .FirstOrDefault();
         }
 
-        return candidates.FirstOrDefault(asset => File.Exists(Path.Combine(
+        var existing = candidates.FirstOrDefault(asset => File.Exists(Path.Combine(
             repositoryRoot,
-            asset.RepositoryPath.Replace('/', Path.DirectorySeparatorChar))))
-            ?? candidates.FirstOrDefault();
+            asset.RepositoryPath.Replace('/', Path.DirectorySeparatorChar))));
+        if (existing is not null)
+            return existing;
+
+        if (role.Equals("PilotCard", StringComparison.OrdinalIgnoreCase))
+        {
+            var pilotCardRoot = Path.Combine(
+                repositoryRoot, "assets", "source", "unified1e", "pilot-cards");
+            if (Directory.Exists(pilotCardRoot))
+            {
+                var desiredPaths = candidates
+                    .Select(asset => Normalise(asset.RepositoryPath))
+                    .ToHashSet(StringComparer.OrdinalIgnoreCase);
+                var resolvedPath = Directory.EnumerateFiles(
+                        pilotCardRoot, "*.*", SearchOption.AllDirectories)
+                    .Where(path => path.EndsWith(".png", StringComparison.OrdinalIgnoreCase)
+                        || path.EndsWith(".jpg", StringComparison.OrdinalIgnoreCase)
+                        || path.EndsWith(".jpeg", StringComparison.OrdinalIgnoreCase))
+                    .FirstOrDefault(path => desiredPaths.Contains(Normalise(
+                        Path.GetRelativePath(repositoryRoot, path))));
+
+                if (resolvedPath is not null)
+                {
+                    var source = candidates.FirstOrDefault() ?? new ValidationAsset();
+                    return new ValidationAsset
+                    {
+                        AssetId = source.AssetId,
+                        RepositoryPath = NormalisePath(
+                            Path.GetRelativePath(repositoryRoot, resolvedPath)),
+                        Score = source.Score,
+                        ResolverScore = source.ResolverScore
+                    };
+                }
+            }
+        }
+
+        return candidates.FirstOrDefault();
     }
 
     private static void WriteCsv(string path, IEnumerable<ShipValidationSaveResult> results)
@@ -477,6 +514,7 @@ public sealed class ValidationPackage
     public string Faction { get; init; } = string.Empty;
     public string BaseSize { get; init; } = string.Empty;
     public int PilotSkill { get; init; }
+    public int SquadPointCost { get; init; }
     public string PackageStatus { get; init; } = string.Empty;
     public List<ValidationRequirement> Requirements { get; init; } = new();
 }

@@ -60,6 +60,8 @@ public static class GeneratePrototypeSaveCommand
 
             var assetBaseUrl = ResolveAssetBaseUrl(args);
             var outputPath = ResolveOutputPath(repositoryRoot, args);
+            var productionBundle = args.Any(argument => argument.Equals(
+                "--production-bundle", StringComparison.OrdinalIgnoreCase));
 
             var referenceSave = JsonNode.Parse(
                     File.ReadAllText(referenceSavePath))?.AsObject()
@@ -119,7 +121,8 @@ public static class GeneratePrototypeSaveCommand
                     assemblyIndex,
                     usedGuids,
                     diagnostics,
-                    assemblyDiagnostics);
+                    assemblyDiagnostics,
+                    productionBundle);
 
                 foreach (var item in shipObjects)
                 {
@@ -129,18 +132,53 @@ public static class GeneratePrototypeSaveCommand
                 }
             }
 
+            if (productionBundle)
+            {
+                var referenceObjects = referenceSave["ObjectStates"]?.AsArray()
+                    ?? throw new InvalidDataException(
+                        "The reference TTS save has no ObjectStates array.");
+                var moveLookup = referenceObjects.OfType<JsonObject>()
+                    .SingleOrDefault(item =>
+                        string.Equals(
+                            item["Nickname"]?.GetValue<string>(),
+                            "MoveLUT",
+                            StringComparison.OrdinalIgnoreCase));
+                if (moveLookup is null)
+                {
+                    throw new InvalidDataException(
+                        "The reference TTS save has no MoveLUT runtime object.");
+                }
+
+                var moveLookupGuid = moveLookup["GUID"]?.GetValue<string>()
+                    ?? string.Empty;
+                if (moveLookupGuid.Length == 0 || usedGuids.Contains(moveLookupGuid))
+                {
+                    throw new InvalidDataException(
+                        "The reference MoveLUT has no usable collision-free GUID.");
+                }
+
+                generatedObjects.Add(moveLookup.DeepClone());
+                diagnostics.Add(
+                    "Production runtime includes the hidden reference MoveLUT " +
+                    $"trajectory provider ({moveLookupGuid}).");
+            }
+
             var outputSave = referenceSave.DeepClone().AsObject();
-            outputSave["SaveName"] =
-                "X-Wing Unified 1E - Phase 12E R1 Runtime Faction Dial Prototype";
+            outputSave["SaveName"] = productionBundle
+                ? "X-Wing Unified 1E - Production Spawn Bundle"
+                : "X-Wing Unified 1E - Phase 12E R1 Runtime Faction Dial Prototype";
             outputSave["Date"] = DateTime.UtcNow.ToString("yyyy-MM-dd");
 
             // The full Unified Global runtime expects the complete original
             // table and command infrastructure. This isolated visual prototype
             // intentionally disables it, preventing the repeating
             // "pattern too complex" command-parser error.
-            outputSave["LuaScript"] = string.Empty;
-            outputSave["LuaScriptState"] = string.Empty;
-            outputSave["XmlUI"] = string.Empty;
+            if (!productionBundle)
+            {
+                outputSave["LuaScript"] = string.Empty;
+                outputSave["LuaScriptState"] = string.Empty;
+                outputSave["XmlUI"] = string.Empty;
+            }
             outputSave["ObjectStates"] = generatedObjects;
 
             var outputDirectory = Path.GetDirectoryName(outputPath);
@@ -246,7 +284,8 @@ public static class GeneratePrototypeSaveCommand
         int assemblyIndex,
         ISet<string> usedGuids,
         ICollection<string> diagnostics,
-        ICollection<PrototypeAssemblyAssetDiagnostic> assemblyDiagnostics)
+        ICollection<PrototypeAssemblyAssetDiagnostic> assemblyDiagnostics,
+        bool productionBundle)
     {
         var baseTemplate = snapshots[assembly.BaseTemplateKey]
             .DeepClone()
@@ -365,7 +404,8 @@ public static class GeneratePrototypeSaveCommand
             closedConfigGuid,
             assetBaseUrl,
             repositoryRoot,
-            diagnostics);
+            diagnostics,
+            productionBundle);
 
         ConfigureDial(
             dialTemplate,
@@ -383,7 +423,10 @@ public static class GeneratePrototypeSaveCommand
             assetBaseUrl,
             cardGuid,
             assembly,
-            cardUrl);
+            cardUrl,
+            baseGuid,
+            dialGuid,
+            productionBundle);
 
         assemblyDiagnostics.Add(new PrototypeAssemblyAssetDiagnostic
         {
@@ -485,16 +528,18 @@ public static class GeneratePrototypeSaveCommand
         string closedConfigGuid,
         string assetBaseUrl,
         string repositoryRoot,
-        ICollection<string> diagnostics)
+        ICollection<string> diagnostics,
+        bool productionBundle)
     {
         baseObject["GUID"] = baseGuid;
         baseObject["Nickname"] = $"{assembly.PilotName} — {assembly.ShipName}";
-        baseObject["Description"] =
-            $"Phase 12B structural prototype\n" +
-            $"Ship: {assembly.ShipName}\n" +
-            $"Pilot: {assembly.PilotName}\n" +
-            $"Base: {assembly.BaseTemplateKey}\n" +
-            $"Peg: {assembly.PegTemplateKey}";
+        baseObject["Description"] = productionBundle
+            ? string.Empty
+            : $"Phase 12B structural prototype\n" +
+              $"Ship: {assembly.ShipName}\n" +
+              $"Pilot: {assembly.PilotName}\n" +
+              $"Base: {assembly.BaseTemplateKey}\n" +
+              $"Peg: {assembly.PegTemplateKey}";
 
         baseObject["Tooltip"] = true;
         baseObject["Locked"] = false;
@@ -556,12 +601,16 @@ public static class GeneratePrototypeSaveCommand
             ["arcIndicators"] = new JsonArray(),
             ["finishedSetup"] = true,
             ["interactable"] = true,
+            ["isAi"] = false,
             ["owningPlayer"] = "Black",
+            ["strikeTargets"] = new JsonArray(),
             ["shipData"] = new JsonObject
             {
                 ["actSet"] = ToJsonArray(assembly.ActSet),
+                ["arcs"] = new JsonObject(),
                 ["executeOptions"] = new JsonArray(),
-                ["initiative"] = 0,
+                ["Faction"] = RuntimeFaction(assembly.Faction),
+                ["initiative"] = assembly.PilotSkill,
                 ["mesh"] = modelUrl,
                 ["mountingPoints"] = new JsonObject
                 {
@@ -598,9 +647,24 @@ public static class GeneratePrototypeSaveCommand
         // for inspection and will be re-bundled with the First Edition runtime
         // in a later revision.
         baseObject["GMNotes"] = state.ToJsonString();
+        if (productionBundle)
+        {
+            var tags = baseObject["Tags"] as JsonArray ?? new JsonArray();
+            if (!tags.Any(item => string.Equals(item?.GetValue<string>(), "Ship", StringComparison.OrdinalIgnoreCase)))
+                tags.Add("Ship");
+            baseObject["Tags"] = tags;
+            if (baseObject["CustomMesh"] is JsonObject baseMesh)
+            {
+                baseMesh["ColliderURL"] = ProductionBaseColliderUrl(
+                    assembly.BaseSize);
+            }
+            baseObject["LuaScriptState"] = state.ToJsonString();
+            baseObject["LuaScript"] = InsertProductionShipLoadBridge(
+                baseObject["LuaScript"]?.GetValue<string>() ?? string.Empty);
+        }
 
-        if (textureReviewUrls.Count > 1
-            || IsConfigurableShip(assembly))
+        if (!productionBundle && (textureReviewUrls.Count > 1
+            || IsConfigurableShip(assembly)))
         {
             baseObject["LuaScript"] = BuildTextureReviewLua();
 
@@ -640,7 +704,7 @@ public static class GeneratePrototypeSaveCommand
             baseObject["LuaScriptState"] =
                 reviewState.ToJsonString();
         }
-        else
+        else if (!productionBundle)
         {
             baseObject["LuaScript"] = string.Empty;
             baseObject["LuaScriptState"] = string.Empty;
@@ -648,6 +712,84 @@ public static class GeneratePrototypeSaveCommand
 
         baseObject["XmlUI"] = string.Empty;
         baseObject["CustomUIAssets"] = new JsonArray();
+    }
+
+    private static string RuntimeFaction(string faction) =>
+        faction.ToLowerInvariant() switch
+        {
+            "galacticempire" => "Empire",
+            "firstorder" => "FirstOrder",
+            "resistance" => "Resistance",
+            "scumandvillainy" => "Scum",
+            _ => "Rebel"
+        };
+
+    private static string ProductionBaseColliderUrl(string baseSize) =>
+        baseSize.ToLowerInvariant() switch
+        {
+            "small" =>
+                "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Small_base_Collider.obj",
+            "large" =>
+                "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Large_base_Collider.obj",
+            "epic" or "huge" =>
+                "{verifycache}https://raw.githubusercontent.com/JohnnyCheese/TTS_X-Wing2.0/master/assets/colliders/Huge_base_Collider.obj",
+            _ => throw new InvalidDataException(
+                $"Unsupported First Edition base size '{baseSize}'.")
+        };
+
+    private static string BuildProductionShipLoadBridge() =>
+        """
+
+        -- Phase 16F-R12 production spawn bridge. The complete Unified base
+        -- runtime remains available, but its table/UI-specific onLoad routine
+        -- is replaced for the isolated generated bundle.
+        function onLoad(savedData)
+            local state = {}
+            if savedData ~= nil and savedData ~= '' then
+                local decoded, value = pcall(JSON.decode, savedData)
+                if decoded and value ~= nil then state = value end
+            end
+
+            Data = state.shipData or {}
+            arc_indicators = state.arcIndicators or {}
+            UiData = state.uiData or {}
+            finished_setup = state.finishedSetup ~= false
+            owningPlayer = state.owningPlayer or 'Black'
+            isAi = state.isAi or false
+            StrikeTargets = state.strikeTargets or {}
+            assigned_tokens = assigned_tokens or {}
+            self.interactable = state.interactable ~= false
+
+            Wait.frames(function()
+                if DisableAttachedColliders ~= nil then
+                    pcall(DisableAttachedColliders)
+                end
+            end, 1)
+        end
+        """;
+
+    private static string InsertProductionShipLoadBridge(string bundledLua)
+    {
+        const string finalReturn = "return __bundle_require(";
+        var returnIndex = bundledLua.LastIndexOf(
+            finalReturn,
+            StringComparison.Ordinal);
+        if (returnIndex < 0)
+        {
+            throw new InvalidDataException(
+                "The ship runtime bundle has no final module return statement.");
+        }
+
+        var returnExpression = bundledLua[
+            (returnIndex + "return ".Length)..].Trim();
+        return bundledLua[..returnIndex]
+            + "local __production_bundle_result = "
+            + returnExpression
+            + Environment.NewLine
+            + BuildProductionShipLoadBridge()
+            + Environment.NewLine
+            + "return __production_bundle_result"
+            + Environment.NewLine;
     }
 
     private const double SmallPilotTokenScale = 1.10;
@@ -1065,7 +1207,8 @@ public static class GeneratePrototypeSaveCommand
     private static string ResolvePilotCardBackUrl(
         string repositoryRoot,
         string assetBaseUrl,
-        string faction)
+        string faction,
+        string? productionFallbackUrl = null)
     {
         var relativePath = faction.ToLowerInvariant() switch
         {
@@ -1102,9 +1245,15 @@ public static class GeneratePrototypeSaveCommand
             repositoryRoot,
             relativePath.Replace('/', Path.DirectorySeparatorChar));
 
-        ValidateFile(
-            fullPath,
-            $"{faction} First Edition pilot-card back");
+        if (!File.Exists(fullPath))
+        {
+            if (!string.IsNullOrWhiteSpace(productionFallbackUrl))
+                return productionFallbackUrl;
+
+            ValidateFile(
+                fullPath,
+                $"{faction} First Edition pilot-card back");
+        }
 
         return AssetUrl(assetBaseUrl, relativePath);
     }
@@ -1985,9 +2134,12 @@ public static class GeneratePrototypeSaveCommand
         string assetBaseUrl,
         string guid,
         PrototypeAssemblyInput assembly,
-        string cardUrl)
+        string cardUrl,
+        string shipGuid,
+        string dialGuid,
+        bool productionBundle)
     {
-        return new JsonObject
+        var result = new JsonObject
         {
             ["GUID"] = guid,
             ["Name"] = "Custom_Tile",
@@ -2024,7 +2176,8 @@ public static class GeneratePrototypeSaveCommand
                 ["ImageSecondaryURL"] = ResolvePilotCardBackUrl(
                     repositoryRoot,
                     assetBaseUrl,
-                    assembly.Faction),
+                    assembly.Faction,
+                    productionBundle ? cardUrl : null),
                 ["ImageScalar"] = 1.0,
                 ["WidthScale"] = 0.0,
                 ["CustomTile"] = new JsonObject
@@ -2039,6 +2192,22 @@ public static class GeneratePrototypeSaveCommand
             ["LuaScriptState"] = string.Empty,
             ["XmlUI"] = string.Empty
         };
+        if (productionBundle)
+        {
+            var binding = new JsonObject
+            {
+                ["kind"] = "first-edition-pilot-card-binding",
+                ["ship_guid"] = shipGuid,
+                ["dial_guid"] = dialGuid,
+                ["pilot_id"] = assembly.PilotId,
+                ["pilot_skill"] = assembly.PilotSkill,
+                ["squad_point_cost"] = assembly.SquadPointCost
+            }.ToJsonString();
+            result["LuaScriptState"] = binding;
+            result["GMNotes"] = binding;
+            result["Tags"] = new JsonArray("PilotCard", "FirstEdition");
+        }
+        return result;
     }
 
     private static PrototypeAssetInput UseKnownTexture(
@@ -4156,6 +4325,8 @@ public sealed class PrototypeAssemblyInput
     public string ShipName { get; init; } = string.Empty;
     public string PilotId { get; init; } = string.Empty;
     public string PilotName { get; init; } = string.Empty;
+    public int PilotSkill { get; init; }
+    public int SquadPointCost { get; init; }
     public string Faction { get; init; } = string.Empty;
     public string BaseSize { get; init; } = string.Empty;
     public string BaseTemplateKey { get; init; } = string.Empty;

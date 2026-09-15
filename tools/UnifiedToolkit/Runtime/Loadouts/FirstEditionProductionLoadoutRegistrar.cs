@@ -79,7 +79,10 @@ public sealed class FirstEditionProductionLoadoutRegistrar
         var bundles = new List<SpawnedBundle>();
         foreach (var card in objects.Values)
         {
-            if (!Text(card, "Name").Contains("Card", StringComparison.OrdinalIgnoreCase) || !TryState(card, out var state)) continue;
+            if (!TryState(card, out var state)) continue;
+            var isPilotCard = Text(card, "Name").Contains("Card", StringComparison.OrdinalIgnoreCase)
+                || Text(state, "kind").Equals("first-edition-pilot-card-binding", StringComparison.OrdinalIgnoreCase);
+            if (!isPilotCard) continue;
             var shipGuid = Text(state, "ship_guid"); var dialGuid = Text(state, "dial_guid");
             if (!objects.TryGetValue(shipGuid, out var ship) || !objects.TryGetValue(dialGuid, out var dial)) continue;
             var tags = ship["Tags"]?.AsArray().Select(item => item?.GetValue<string>() ?? "") ?? Array.Empty<string>();
